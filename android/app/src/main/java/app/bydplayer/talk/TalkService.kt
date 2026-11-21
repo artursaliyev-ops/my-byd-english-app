@@ -257,8 +257,11 @@ class TalkService : Service() {
     }
 
     private fun pauseLessonThen(next: () -> Unit) {
-        val token = SessionToken(this, ComponentName(this, PlaybackService::class.java))
-        val future = MediaController.Builder(this, token)
+        // Bound from the app context: the controller is released ~1 s after the Talk ends,
+        // when this service may already be gone (unbinding from a dead service crashes).
+        val app = applicationContext
+        val token = SessionToken(app, ComponentName(app, PlaybackService::class.java))
+        val future = MediaController.Builder(app, token)
             .setConnectionHints(Bundle().apply { putBoolean(PlaybackService.HINT_APP_UI, true) })
             .buildAsync()
         lessonFuture = future
