@@ -4,10 +4,10 @@
 
 **Blocked by:** 15 (A learner Turn)
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] With the app on Home or the map, Turns keep working on the one recording started from the visible screen (no new recording is started from the background).
-- [ ] With the screen off, Turns keep working the same way.
-- [ ] Opening the app while a Talk is active shows the Talk screen, not the player or the lesson list.
-- [ ] After the process dies mid-Talk, the next launch opens on the player with no Talk state left behind.
-- [ ] Barge-in stays off: the mic is closed while Anna speaks, and only End Talk interrupts her.
+- [x] With the app on Home or the map, Turns keep working on the one recording started from the visible screen (no new recording is started from the background).
+- [x] With the screen off, Turns keep working the same way.
+- [x] Opening the app while a Talk is active shows the Talk screen, not the player or the lesson list.
+- [x] After the process dies mid-Talk, the next launch opens on the player with no Talk state left behind.
+- [x] Barge-in stays off: the mic is closed while Anna speaks, and only End Talk interrupts her.
