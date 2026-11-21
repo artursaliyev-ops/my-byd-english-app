@@ -6,15 +6,15 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -37,16 +37,15 @@ fun SettingsScreen(onBack: () -> Unit) {
     val context = LocalContext.current
     val store = remember { SettingsStore(context) }
     var mode by remember { mutableStateOf(store.buttonMode()) }
-    val dim = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.65f)
+    val t = Ui6.colors
+    val dim = t.textSecondary
 
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 40.dp, vertical = 24.dp),
         verticalArrangement = Arrangement.spacedBy(20.dp),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(24.dp)) {
-            OutlinedButton(onClick = onBack, modifier = Modifier.heightIn(min = 72.dp)) {
-                Text("‹ Lessons", style = MaterialTheme.typography.labelLarge)
-            }
+            GlassButton(onClick = onBack, modifier = Modifier.heightIn(min = 72.dp)) { GlassLabel("‹ Lessons") }
             Text("Settings", style = MaterialTheme.typography.headlineMedium)
         }
 
@@ -58,19 +57,17 @@ fun SettingsScreen(onBack: () -> Unit) {
             style = MaterialTheme.typography.bodyLarge,
             color = dim,
         )
-        Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-            ButtonMode.entries.forEach { m ->
-                val mod = Modifier.widthIn(min = 360.dp).heightIn(min = 80.dp)
-                val pick = {
-                    store.setButtonMode(m)
-                    mode = m
-                }
-                if (m == mode) {
-                    Button(onClick = pick, modifier = mod) { Text("✓  ${m.label}", style = MaterialTheme.typography.labelLarge) }
-                } else {
-                    OutlinedButton(onClick = pick, modifier = mod) { Text(m.label, style = MaterialTheme.typography.labelLarge) }
-                }
-            }
+        Segmented(
+            count = ButtonMode.entries.size,
+            selected = ButtonMode.entries.indexOf(mode),
+            onSelect = { i ->
+                val m = ButtonMode.entries[i]
+                store.setButtonMode(m)
+                mode = m
+            },
+            modifier = Modifier.widthIn(min = 760.dp).height(80.dp),
+        ) { i ->
+            Text(ButtonMode.entries[i].label, style = MaterialTheme.typography.labelLarge, color = LocalContentColor.current)
         }
 
         Text("Last button", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(top = 16.dp))
@@ -81,7 +78,8 @@ fun SettingsScreen(onBack: () -> Unit) {
         )
         Column(
             Modifier.fillMaxWidth()
-                .background(MaterialTheme.colorScheme.surface, RoundedCornerShape(16.dp))
+                // A darker inset, so the dense monospace log reads on any wallpaper (spec §5).
+                .background(t.inset, RoundedCornerShape(Ui6.Radius))
                 .padding(20.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp),
         ) {
@@ -94,7 +92,7 @@ fun SettingsScreen(onBack: () -> Unit) {
                     line,
                     fontFamily = FontFamily.Monospace,
                     fontSize = 20.sp,
-                    color = if (i == 0) MaterialTheme.colorScheme.onSurface else dim,
+                    color = if (i == 0) t.text else t.text.copy(alpha = 0.65f),
                 )
             }
         }

@@ -6,8 +6,8 @@ import android.view.KeyEvent
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
+import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
@@ -19,6 +19,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
@@ -27,15 +28,23 @@ import androidx.media3.session.MediaController
 import androidx.media3.session.SessionToken
 
 class MainActivity : ComponentActivity() {
+    private var disableBlur: () -> Unit = {}
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        disableBlur = enableWallpaperBlur()
         setContent {
             BydTheme {
-                Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    App()
+                Surface(Modifier.fillMaxSize(), color = Color.Transparent, contentColor = Ui6.colors.text) {
+                    Ui6Backdrop { App() }
                 }
             }
         }
+    }
+
+    override fun onDestroy() {
+        disableBlur()
+        super.onDestroy()
     }
 
     /**
@@ -106,25 +115,34 @@ private fun App() {
     val c = controller
     BackHandler(enabled = showSettings) { showSettings = false }
     BackHandler(enabled = showPlayer && !showSettings) { showPlayer = false }
-    if (showSettings) {
-        SettingsScreen(onBack = { showSettings = false })
-    } else if (showPlayer && c != null && current != null) {
-        PlayerScreen(c, onShowLessons = { showPlayer = false })
-    } else {
-        LibraryScreen(
-            model = library,
-            nowPlaying = current,
-            onOpenPlayer = { showPlayer = true },
-            onOpenSettings = { showSettings = true },
-        ) { lesson, all ->
-            val player = controller ?: return@LibraryScreen
-            player.load(all, lesson, 0L)
-            player.play()
-            current = lesson.number
-            showPlayer = true
+    val screen = when {
+        showSettings -> Screen.Settings
+        showPlayer && c != null && current != null -> Screen.Player
+        else -> Screen.Lessons
+    }
+    // Screens crossfade, as UI6 pages do (spec §7).
+    Crossfade(targetState = screen, animationSpec = Ui6.tween(Ui6.SCREEN_MS), label = "screen") { shown ->
+        when (shown) {
+            Screen.Settings -> SettingsScreen(onBack = { showSettings = false })
+            // The outgoing player can outlive the controller during the fade; draw nothing then.
+            Screen.Player -> controller?.let { PlayerScreen(it, onShowLessons = { showPlayer = false }) }
+            Screen.Lessons -> LibraryScreen(
+                model = library,
+                nowPlaying = current,
+                onOpenPlayer = { showPlayer = true },
+                onOpenSettings = { showSettings = true },
+            ) { lesson, all ->
+                val player = controller ?: return@LibraryScreen
+                player.load(all, lesson, 0L)
+                player.play()
+                current = lesson.number
+                showPlayer = true
+            }
         }
     }
 }
+
+private enum class Screen { Lessons, Player, Settings }
 
 /** Queues every found lesson, so prev/next and auto-advance move through the course. */
 private fun Player.load(all: List<Lesson>, start: Lesson, positionMs: Long) {

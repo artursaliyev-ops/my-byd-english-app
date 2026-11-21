@@ -1,7 +1,10 @@
 <resources>
+    <!-- The window shows the system wallpaper (docs/adr/0001-window-shows-system-wallpaper.md). -->
     <style name="Theme.BydPlayer" parent="android:Theme.Material.NoActionBar">
-        <item name="android:windowBackground">#FF101214</item>
-        <item name="android:statusBarColor">#FF101214</item>
-        <item name="android:navigationBarColor">#FF101214</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#FF20232A</item>
     </style>
 </resources>

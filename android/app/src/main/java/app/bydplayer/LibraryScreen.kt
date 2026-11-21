@@ -6,7 +6,13 @@ import android.util.Log
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsPressedAsState
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.layout.height
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.foundation.border
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Arrangement
@@ -26,14 +32,9 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
-import androidx.compose.material3.FilledTonalIconButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.Tab
-import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -54,7 +55,6 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
 private const val TAG = "BydLibrary"
-private val DoneGreen = Color(0xFF6FD08C)
 
 sealed interface LibraryUi {
     data object NoFolder : LibraryUi
@@ -242,47 +242,39 @@ private fun LessonList(
                     "${scan.lessons.size} of 90 lessons in $folderLabel · ${completed.size} completed" +
                         " · Long-press a lesson to mark it done",
                     style = MaterialTheme.typography.bodyLarge,
-                    color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f),
+                    color = Ui6.colors.textSecondary,
                 )
             }
             if (nowPlaying != null) {
-                Button(onClick = onOpenPlayer, modifier = Modifier.heightIn(min = 72.dp)) {
-                    Text("▶  Lesson $nowPlaying", style = MaterialTheme.typography.labelLarge)
+                GlassButton(onClick = onOpenPlayer, modifier = Modifier.heightIn(min = 72.dp), blue = true) {
+                    GlassLabel("▶  Lesson $nowPlaying")
                 }
                 Spacer(Modifier.widthIn(min = 16.dp))
             }
-            OutlinedButton(onClick = onChangeFolder, modifier = Modifier.heightIn(min = 72.dp)) {
-                Text("Change folder", style = MaterialTheme.typography.labelLarge)
-            }
+            GlassButton(onClick = onChangeFolder, modifier = Modifier.heightIn(min = 72.dp)) { GlassLabel("Change folder") }
             Spacer(Modifier.widthIn(min = 16.dp))
-            FilledTonalIconButton(onClick = onOpenSettings, modifier = Modifier.size(72.dp)) {
+            GlassButton(onClick = onOpenSettings, modifier = Modifier.size(72.dp), shape = CircleShape, contentPadding = 0.dp) {
                 Icon(PlayerIcons.Settings, contentDescription = "Settings", modifier = Modifier.size(40.dp))
             }
         }
         Spacer(Modifier.heightIn(min = 16.dp))
-        TabRow(selectedTabIndex = levelIndex, containerColor = MaterialTheme.colorScheme.background) {
-            Level.entries.forEach { l ->
-                val inLevel = scan.byLevel(l)
-                val done = inLevel.count { it.number in completed }
-                Tab(
-                    selected = l == level,
-                    onClick = { levelIndex = l.ordinal },
-                    modifier = Modifier.heightIn(min = 80.dp),
-                    text = {
-                        Text(
-                            "${l.label}   $done/${inLevel.size}",
-                            style = MaterialTheme.typography.titleLarge,
-                        )
-                    },
-                )
-            }
+        Segmented(
+            count = Level.entries.size,
+            selected = levelIndex,
+            onSelect = { levelIndex = it },
+            modifier = Modifier.fillMaxWidth().height(80.dp),
+        ) { i ->
+            val l = Level.entries[i]
+            val inLevel = scan.byLevel(l)
+            val done = inLevel.count { it.number in completed }
+            Text("${l.label}   $done/${inLevel.size}", style = MaterialTheme.typography.titleLarge, color = LocalContentColor.current)
         }
         val byNumber = scan.byLevel(level).associateBy { it.number }
         LazyVerticalGrid(
             columns = GridCells.Adaptive(minSize = 150.dp),
             contentPadding = PaddingValues(vertical = 24.dp),
-            horizontalArrangement = Arrangement.spacedBy(16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp),
+            horizontalArrangement = Arrangement.spacedBy(Ui6.Gap),
+            verticalArrangement = Arrangement.spacedBy(Ui6.Gap),
             modifier = Modifier.fillMaxSize(),
         ) {
             items((level.first..level.last).toList(), key = { it }) { number ->
@@ -309,15 +301,28 @@ private fun LessonTile(
     onPlay: (Lesson) -> Unit,
     onToggleDone: (Lesson) -> Unit,
 ) {
-    val colors = MaterialTheme.colorScheme
-    val shape = RoundedCornerShape(16.dp)
+    val t = Ui6.colors
+    val shape = RoundedCornerShape(Ui6.Radius)
     val base = Modifier.aspectRatio(1.25f).fillMaxWidth()
+    val source = remember { MutableInteractionSource() }
+    val pressed by source.collectIsPressedAsState()
+    val fill by animateColorAsState(
+        if (pressed) t.glassPressed else t.glass,
+        Ui6.tween(if (pressed) Ui6.PRESS_IN_MS else Ui6.PRESS_OUT_MS),
+        label = "tile fill",
+    )
     val tile = when {
-        lesson == null -> base.border(2.dp, colors.onBackground.copy(alpha = 0.12f), shape)
+        // Missing: no fill, a faint outline (spec §4).
+        lesson == null -> base.border(2.dp, t.missingOutline, shape)
         else -> base
-            .background(if (playing) colors.primary.copy(alpha = 0.25f) else colors.surface, shape)
-            .border(if (playing) 3.dp else 0.dp, if (playing) colors.primary else Color.Transparent, shape)
-            .combinedClickable(onClick = { onPlay(lesson) }, onLongClick = { onToggleDone(lesson) })
+            .background(fill, shape)
+            .border(if (playing) 3.dp else 0.dp, if (playing) t.blue else Color.Transparent, shape)
+            .combinedClickable(
+                interactionSource = source,
+                indication = null,
+                onClick = { onPlay(lesson) },
+                onLongClick = { onToggleDone(lesson) },
+            )
     }
     Box(tile.padding(12.dp)) {
         Text(
@@ -325,14 +330,15 @@ private fun LessonTile(
             modifier = Modifier.align(Alignment.Center),
             fontSize = 44.sp,
             fontWeight = FontWeight.SemiBold,
-            color = if (lesson == null) colors.onBackground.copy(alpha = 0.25f) else colors.onSurface,
+            color = if (lesson == null) t.textDisabled else t.text,
         )
         when {
-            lesson == null -> Caption("missing", Modifier.align(Alignment.BottomCenter), colors.onBackground.copy(alpha = 0.35f))
-            playing -> Caption("▶ playing", Modifier.align(Alignment.BottomCenter), colors.primary)
+            lesson == null -> Caption("missing", Modifier.align(Alignment.BottomCenter), t.textDisabled)
+            playing -> Caption("▶ playing", Modifier.align(Alignment.BottomCenter), t.text)
+            done -> Caption("done", Modifier.align(Alignment.BottomCenter), t.textSecondary)
         }
         if (done) {
-            Text("✓", Modifier.align(Alignment.TopEnd), fontSize = 32.sp, fontWeight = FontWeight.Bold, color = DoneGreen)
+            Text("✓", Modifier.align(Alignment.TopEnd), fontSize = 32.sp, fontWeight = FontWeight.Bold, color = t.done)
         }
     }
 }
@@ -359,15 +365,16 @@ private fun Message(
             verticalArrangement = Arrangement.spacedBy(24.dp),
         ) {
             Text(title, style = MaterialTheme.typography.headlineMedium, textAlign = TextAlign.Center)
-            Text(body, style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
-            error?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = colorError(), textAlign = TextAlign.Center) }
+            Text(body, style = MaterialTheme.typography.bodyLarge, color = Ui6.colors.textSecondary, textAlign = TextAlign.Center)
+            // Errors read white with a warning sign: red is hard to read on glass (spec §4).
+            error?.let { Text("⚠  $it", style = MaterialTheme.typography.bodyLarge, color = Ui6.colors.text, textAlign = TextAlign.Center) }
             Row(horizontalArrangement = Arrangement.spacedBy(24.dp)) {
-                Button(onClick = onAction, modifier = Modifier.heightIn(min = 80.dp).widthIn(min = 280.dp)) {
-                    Text(action, style = MaterialTheme.typography.labelLarge)
+                GlassButton(onClick = onAction, modifier = Modifier.heightIn(min = 80.dp).widthIn(min = 280.dp), blue = true) {
+                    GlassLabel(action)
                 }
                 if (secondary != null) {
-                    OutlinedButton(onClick = onSecondary, modifier = Modifier.heightIn(min = 80.dp).widthIn(min = 280.dp)) {
-                        Text(secondary, style = MaterialTheme.typography.labelLarge)
+                    GlassButton(onClick = onSecondary, modifier = Modifier.heightIn(min = 80.dp).widthIn(min = 280.dp)) {
+                        GlassLabel(secondary)
                     }
                 }
             }
@@ -375,5 +382,3 @@ private fun Message(
     }
 }
 
-@Composable
-private fun colorError() = MaterialTheme.colorScheme.error

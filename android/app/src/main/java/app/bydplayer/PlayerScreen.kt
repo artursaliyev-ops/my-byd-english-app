@@ -2,7 +2,10 @@ package app.bydplayer
 
 import android.os.Bundle
 import android.os.SystemClock
+import androidx.compose.animation.Crossfade
+import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.DragInteraction
 import androidx.compose.foundation.layout.PaddingValues
@@ -24,15 +27,9 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.FilledIconButton
-import androidx.compose.material3.FilledTonalButton
-import androidx.compose.material3.FilledTonalIconButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SliderDefaults
 import androidx.compose.material3.Text
@@ -167,9 +164,7 @@ fun PlayerScreen(controller: MediaController, onShowLessons: () -> Unit) {
 @Composable
 private fun Header(ui: PlayerUi, onShowLessons: () -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically) {
-        OutlinedButton(onClick = onShowLessons, modifier = Modifier.heightIn(min = 72.dp)) {
-            Text("‹  Lessons", style = MaterialTheme.typography.labelLarge)
-        }
+        GlassButton(onClick = onShowLessons, modifier = Modifier.heightIn(min = 72.dp)) { GlassLabel("‹  Lessons") }
         Spacer(Modifier.width(28.dp))
         Column {
             Text(ui.title, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.SemiBold)
@@ -193,7 +188,11 @@ private fun Progress(ui: PlayerUi, onSeek: (Long) -> Unit) {
                 dragging = null
             },
             enabled = ui.durationMs > 0,
-            colors = SliderDefaults.colors(inactiveTrackColor = MaterialTheme.colorScheme.surface),
+            colors = SliderDefaults.colors(
+                thumbColor = Ui6.colors.blue,
+                activeTrackColor = Ui6.colors.blue,
+                inactiveTrackColor = Ui6.colors.glass,
+            ),
             modifier = Modifier.fillMaxWidth().height(64.dp),
         )
         Row {
@@ -217,15 +216,17 @@ private fun Transport(ui: PlayerUi, controller: MediaController) {
     ) {
         RoundIcon(PlayerIcons.Previous, "Previous lesson", enabled = ui.hasPrevious) { controller.seekToPreviousMediaItem() }
         RoundText("−5 s") { controller.seekBack() }
-        Box(contentAlignment = Alignment.Center) {
-            FilledIconButton(
-                onClick = { if (ui.playing) controller.pause() else controller.play() },
-                modifier = Modifier.size(140.dp),
-                shape = CircleShape,
-            ) {
+        GlassButton(
+            onClick = { if (ui.playing) controller.pause() else controller.play() },
+            modifier = Modifier.size(140.dp),
+            blue = true,
+            shape = CircleShape,
+            contentPadding = 0.dp,
+        ) {
+            Crossfade(ui.playing, animationSpec = Ui6.tween(Ui6.PLAY_PAUSE_MS), label = "play/pause") { playing ->
                 Icon(
-                    if (ui.playing) PlayerIcons.Pause else PlayerIcons.Play,
-                    contentDescription = if (ui.playing) "Pause" else "Play",
+                    if (playing) PlayerIcons.Pause else PlayerIcons.Play,
+                    contentDescription = if (playing) "Pause" else "Play",
                     modifier = Modifier.size(80.dp),
                 )
             }
@@ -237,14 +238,14 @@ private fun Transport(ui: PlayerUi, controller: MediaController) {
 
 @Composable
 private fun RoundIcon(icon: ImageVector, label: String, enabled: Boolean, onClick: () -> Unit) {
-    FilledTonalIconButton(onClick = onClick, enabled = enabled, modifier = Modifier.size(104.dp), shape = CircleShape) {
+    GlassButton(onClick = onClick, enabled = enabled, modifier = Modifier.size(104.dp), shape = CircleShape, contentPadding = 0.dp) {
         Icon(icon, contentDescription = label, modifier = Modifier.size(56.dp))
     }
 }
 
 @Composable
 private fun RoundText(text: String, onClick: () -> Unit) {
-    FilledTonalButton(onClick = onClick, modifier = Modifier.size(104.dp), shape = CircleShape) {
+    GlassButton(onClick = onClick, modifier = Modifier.size(104.dp), shape = CircleShape, contentPadding = 0.dp) {
         Text(text, fontSize = 24.sp, fontWeight = FontWeight.SemiBold, maxLines = 1, softWrap = false)
     }
 }
@@ -253,20 +254,16 @@ private fun RoundText(text: String, onClick: () -> Unit) {
 private fun SpeedRow(speed: Float, onSpeed: (Float) -> Unit) {
     Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
         Text("Speed", style = MaterialTheme.typography.bodyLarge, color = dim())
-        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+        Row(horizontalArrangement = Arrangement.spacedBy(Ui6.Gap)) {
             SPEEDS.forEach { s ->
                 val selected = kotlin.math.abs(s - speed) < 0.01f
                 val label = formatSpeed(s)
-                val mod = Modifier.weight(1f).heightIn(min = 72.dp)
-                if (selected) {
-                    Button(onClick = { onSpeed(s) }, modifier = mod, contentPadding = ButtonDefaults.TextButtonContentPadding) {
-                        Text(label, style = MaterialTheme.typography.labelLarge, maxLines = 1)
-                    }
-                } else {
-                    OutlinedButton(onClick = { onSpeed(s) }, modifier = mod, contentPadding = ButtonDefaults.TextButtonContentPadding) {
-                        Text(label, style = MaterialTheme.typography.labelLarge, maxLines = 1)
-                    }
-                }
+                GlassButton(
+                    onClick = { onSpeed(s) },
+                    modifier = Modifier.weight(1f).heightIn(min = 72.dp),
+                    blue = selected,
+                    contentPadding = 0.dp,
+                ) { GlassLabel(label) }
             }
         }
     }
@@ -277,16 +274,17 @@ private fun VolumeControl(ui: PlayerUi, onChange: (up: Boolean) -> Unit, modifie
     Column(modifier, verticalArrangement = Arrangement.spacedBy(10.dp)) {
         Text("Volume  ${ui.volume}/${ui.maxVolume}", style = MaterialTheme.typography.bodyLarge, color = dim())
         Row(verticalAlignment = Alignment.CenterVertically) {
-            FilledTonalButton(onClick = { onChange(false) }, modifier = Modifier.size(width = 96.dp, height = 72.dp)) {
+            GlassButton(onClick = { onChange(false) }, modifier = Modifier.size(width = 96.dp, height = 72.dp), contentPadding = 0.dp) {
                 Text("−", fontSize = 34.sp)
             }
             LinearProgressIndicator(
                 progress = { ui.volume.toFloat() / ui.maxVolume },
                 modifier = Modifier.weight(1f).padding(horizontal = 16.dp).height(12.dp),
-                trackColor = MaterialTheme.colorScheme.surface,
+                color = Ui6.colors.blue,
+                trackColor = Ui6.colors.glass,
                 drawStopIndicator = {},
             )
-            FilledTonalButton(onClick = { onChange(true) }, modifier = Modifier.size(width = 96.dp, height = 72.dp)) {
+            GlassButton(onClick = { onChange(true) }, modifier = Modifier.size(width = 96.dp, height = 72.dp), contentPadding = 0.dp) {
                 Text("+", fontSize = 34.sp)
             }
         }
@@ -302,12 +300,7 @@ private fun AbButton(ui: PlayerUi, onMark: () -> Unit) {
     }
     Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp)) {
         Text(hint, style = MaterialTheme.typography.bodyLarge, color = dim(), maxLines = 1)
-        val mod = Modifier.width(220.dp).heightIn(min = 72.dp)
-        if (ui.abA != null) {
-            Button(onClick = onMark, modifier = mod) { Text(label, style = MaterialTheme.typography.labelLarge) }
-        } else {
-            OutlinedButton(onClick = onMark, modifier = mod) { Text(label, style = MaterialTheme.typography.labelLarge) }
-        }
+        GlassButton(onClick = onMark, modifier = Modifier.width(220.dp).heightIn(min = 72.dp), blue = ui.abA != null) { GlassLabel(label) }
     }
 }
 
@@ -322,7 +315,7 @@ private fun TranscriptArea(lessonNumber: Int?, positionMs: Long, onSeek: (Long) 
     val segments by produceState<List<Segment>?>(null, lessonNumber) {
         value = lessonNumber?.let { n -> withContext(Dispatchers.IO) { loadTranscript(context, n) } }
     }
-    val box = modifier.background(MaterialTheme.colorScheme.surface, RoundedCornerShape(20.dp))
+    val box = modifier.background(Ui6.colors.glass, RoundedCornerShape(Ui6.Radius))
     val segs = segments
     if (segs.isNullOrEmpty()) {
         Box(box.padding(32.dp), contentAlignment = Alignment.Center) {
@@ -375,20 +368,23 @@ private const val FOLLOW_PAUSE_MS = 6_000L
 @Composable
 private fun SegmentLine(seg: Segment, isActive: Boolean, onClick: () -> Unit) {
     // English lines are what the listener repeats, so they read brighter than the Russian narration.
-    val color = when {
-        isActive -> MaterialTheme.colorScheme.onPrimary
-        seg.english -> MaterialTheme.colorScheme.onSurface
-        else -> dim()
-    }
+    val t = Ui6.colors
+    val color by animateColorAsState(
+        when {
+            isActive -> t.blueOn
+            seg.english -> t.text
+            else -> t.textSecondary
+        },
+        Ui6.tween(Ui6.ACTIVE_LINE_MS),
+        label = "line text",
+    )
+    val fill by animateColorAsState(if (isActive) t.blue else Color.Transparent, Ui6.tween(Ui6.ACTIVE_LINE_MS), label = "line fill")
     Row(
         Modifier
             .fillMaxWidth()
             .heightIn(min = 64.dp)
-            .background(
-                if (isActive) MaterialTheme.colorScheme.primary else Color.Transparent,
-                RoundedCornerShape(14.dp),
-            )
-            .clickable(onClick = onClick)
+            .background(fill, RoundedCornerShape(Ui6.Radius))
+            .clickable(interactionSource = remember { MutableInteractionSource() }, indication = null, onClick = onClick)
             .padding(horizontal = 20.dp, vertical = 12.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
@@ -402,14 +398,18 @@ private fun SegmentLine(seg: Segment, isActive: Boolean, onClick: () -> Unit) {
             seg.text,
             fontSize = 26.sp,
             lineHeight = 34.sp,
-            fontWeight = if (seg.english || isActive) FontWeight.Medium else FontWeight.Normal,
+            fontWeight = when {
+                isActive -> FontWeight.SemiBold
+                seg.english -> FontWeight.Medium
+                else -> FontWeight.Normal
+            },
             color = color,
         )
     }
 }
 
 @Composable
-private fun dim() = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.65f)
+private fun dim() = Ui6.colors.textSecondary
 
 /** 754_000 → "12:34"; an hour or more → "1:02:03". */
 fun formatTime(ms: Long): String {
