@@ -1,6 +1,6 @@
 # Decide what a lesson pass means when the learner jumps around
 Type: grilling
-Status: open
+Status: claimed
 Blocked by: 02
 
 ## Question
