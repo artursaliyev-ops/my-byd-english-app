@@ -2,6 +2,7 @@ package app.bydplayer
 
 import android.content.ComponentName
 import android.os.Bundle
+import android.view.KeyEvent
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
@@ -36,6 +37,16 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    /**
+     * Records every key the screen sees for Settings → Last button, including keys that
+     * aren't media keys (the car may send its own codes). The key then goes on as usual,
+     * and media keys reach the playback session from there.
+     */
+    override fun dispatchKeyEvent(event: KeyEvent): Boolean {
+        ButtonLog.key(event, via = "screen")
+        return super.dispatchKeyEvent(event)
+    }
 }
 
 /**
@@ -51,11 +62,14 @@ private fun App() {
     var controller by remember { mutableStateOf<MediaController?>(null) }
     var current by remember { mutableStateOf<Int?>(null) }
     var showPlayer by rememberSaveable { mutableStateOf(false) }
+    var showSettings by rememberSaveable { mutableStateOf(false) }
     var resumeHandled by rememberSaveable { mutableStateOf(false) }
 
     DisposableEffect(Unit) {
         val token = SessionToken(context, ComponentName(context, PlaybackService::class.java))
-        val future = MediaController.Builder(context, token).buildAsync()
+        val future = MediaController.Builder(context, token)
+            .setConnectionHints(Bundle().apply { putBoolean(PlaybackService.HINT_APP_UI, true) })
+            .buildAsync()
         future.addListener({ controller = future.get() }, context.mainExecutor)
         onDispose { MediaController.releaseFuture(future) }
     }
@@ -90,14 +104,18 @@ private fun App() {
     }
 
     val c = controller
-    BackHandler(enabled = showPlayer) { showPlayer = false }
-    if (showPlayer && c != null && current != null) {
+    BackHandler(enabled = showSettings) { showSettings = false }
+    BackHandler(enabled = showPlayer && !showSettings) { showPlayer = false }
+    if (showSettings) {
+        SettingsScreen(onBack = { showSettings = false })
+    } else if (showPlayer && c != null && current != null) {
         PlayerScreen(c, onShowLessons = { showPlayer = false })
     } else {
         LibraryScreen(
             model = library,
             nowPlaying = current,
             onOpenPlayer = { showPlayer = true },
+            onOpenSettings = { showSettings = true },
         ) { lesson, all ->
             val player = controller ?: return@LibraryScreen
             player.load(all, lesson, 0L)

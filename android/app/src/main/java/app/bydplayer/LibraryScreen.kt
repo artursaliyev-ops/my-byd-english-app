@@ -20,6 +20,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
@@ -27,6 +28,8 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FilledTonalIconButton
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Tab
@@ -128,6 +131,7 @@ fun LibraryScreen(
     model: LibraryModel,
     nowPlaying: Int?,
     onOpenPlayer: () -> Unit,
+    onOpenSettings: () -> Unit,
     onPlay: (lesson: Lesson, all: List<Lesson>) -> Unit,
 ) {
     val folder = model.folder
@@ -204,6 +208,7 @@ fun LibraryScreen(
                 onChangeFolder = pickFolder,
                 onPlay = { onPlay(it, state.scan.lessons) },
                 onOpenPlayer = onOpenPlayer,
+                onOpenSettings = onOpenSettings,
                 onToggleDone = model::toggleDone,
             )
         }
@@ -218,6 +223,7 @@ private fun LessonList(
     nowPlaying: Int?,
     onChangeFolder: () -> Unit,
     onOpenPlayer: () -> Unit,
+    onOpenSettings: () -> Unit,
     onPlay: (Lesson) -> Unit,
     onToggleDone: (Lesson) -> Unit,
 ) {
@@ -247,6 +253,10 @@ private fun LessonList(
             }
             OutlinedButton(onClick = onChangeFolder, modifier = Modifier.heightIn(min = 72.dp)) {
                 Text("Change folder", style = MaterialTheme.typography.labelLarge)
+            }
+            Spacer(Modifier.widthIn(min = 16.dp))
+            FilledTonalIconButton(onClick = onOpenSettings, modifier = Modifier.size(72.dp)) {
+                Icon(PlayerIcons.Settings, contentDescription = "Settings", modifier = Modifier.size(40.dp))
             }
         }
         Spacer(Modifier.heightIn(min = 16.dp))

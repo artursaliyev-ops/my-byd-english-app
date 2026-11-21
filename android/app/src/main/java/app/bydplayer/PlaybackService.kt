@@ -1,5 +1,7 @@
 package app.bydplayer
 
+import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -7,10 +9,12 @@ import android.os.SystemClock
 import androidx.annotation.OptIn
 import androidx.media3.common.AudioAttributes
 import androidx.media3.common.C
+import androidx.media3.common.ForwardingPlayer
 import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackParameters
 import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
+import android.view.KeyEvent
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.session.MediaSession
 import androidx.media3.session.MediaSessionService
@@ -22,13 +26,15 @@ import com.google.common.util.concurrent.ListenableFuture
 /**
  * Owns the player so audio keeps going when the app leaves the screen. Everything that
  * must keep working in the background lives here, not in the UI: saving the resume
- * point, the A-B loop, and marking a lesson completed when it plays to the end.
+ * point, the A-B loop, marking a lesson completed when it plays to the end, and
+ * applying the Button mode to the media buttons.
  */
 class PlaybackService : MediaSessionService() {
 
     private var session: MediaSession? = null
     private lateinit var playback: PlaybackStore
     private lateinit var library: LibraryStore
+    private lateinit var settings: SettingsStore
     private val handler = Handler(Looper.getMainLooper())
     private val ab = AbLoop()
     private var currentLesson: Int? = null
@@ -49,6 +55,7 @@ class PlaybackService : MediaSessionService() {
         super.onCreate()
         playback = PlaybackStore(this)
         library = LibraryStore(this)
+        settings = SettingsStore(this)
         val player = ExoPlayer.Builder(this)
             .setAudioAttributes(
                 AudioAttributes.Builder()
@@ -65,7 +72,7 @@ class PlaybackService : MediaSessionService() {
             .build()
         player.setPlaybackSpeed(playback.speed())
         player.addListener(PlayerEvents(player))
-        session = MediaSession.Builder(this, player)
+        session = MediaSession.Builder(this, MediaButtonPlayer(player))
             .setCallback(SessionCallback())
             .build()
         publishAb()
@@ -99,6 +106,39 @@ class PlaybackService : MediaSessionService() {
                 putLong(EXTRA_AB_B, ab.b ?: -1L)
             },
         )
+    }
+
+    /**
+     * Applies the Button mode to ⏮ ⏭ coming from outside the app's screen: steering wheel
+     * keys, the DiLink now-playing widget, Bluetooth keys. Calls from the app's own UI
+     * controller (marked with [HINT_APP_UI]) and from the service itself pass through.
+     */
+    @OptIn(UnstableApi::class)
+    private inner class MediaButtonPlayer(player: Player) : ForwardingPlayer(player) {
+        override fun seekToPrevious() = route("previous", forward = false) { super.seekToPrevious() }
+        override fun seekToPreviousMediaItem() = route("previous item", forward = false) { super.seekToPreviousMediaItem() }
+        override fun seekToNext() = route("next", forward = true) { super.seekToNext() }
+        override fun seekToNextMediaItem() = route("next item", forward = true) { super.seekToNextMediaItem() }
+
+        private inline fun route(name: String, forward: Boolean, passThrough: () -> Unit) {
+            val caller = session?.controllerForCurrentRequest
+            if (caller == null || caller.isAppUi()) return passThrough()
+            val effect = settings.buttonMode().effectOf(forward)
+            ButtonLog.command(name, effect, caller.describe())
+            when (effect) {
+                ButtonEffect.PreviousLesson -> super.seekToPreviousMediaItem()
+                ButtonEffect.NextLesson -> super.seekToNextMediaItem()
+                ButtonEffect.Back5 -> super.seekBack()
+                ButtonEffect.Forward5 -> super.seekForward()
+            }
+        }
+    }
+
+    private fun MediaSession.ControllerInfo.isAppUi() = connectionHints.getBoolean(HINT_APP_UI)
+
+    private fun MediaSession.ControllerInfo.describe(): String {
+        val notification = session?.isMediaNotificationController(this) == true
+        return if (notification) "$packageName (media keys)" else packageName
     }
 
     private inner class PlayerEvents(private val player: Player) : Player.Listener {
@@ -138,6 +178,18 @@ class PlaybackService : MediaSessionService() {
     }
 
     private inner class SessionCallback : MediaSession.Callback {
+        /** Only records the key for Settings → Last button; Media3 then handles it as usual. */
+        override fun onMediaButtonEvent(session: MediaSession, controllerInfo: MediaSession.ControllerInfo, intent: Intent): Boolean {
+            val key = if (Build.VERSION.SDK_INT >= 33) {
+                intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT, KeyEvent::class.java)
+            } else {
+                @Suppress("DEPRECATION")
+                intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT)
+            }
+            key?.let { ButtonLog.key(it, via = "session, ${controllerInfo.describe()}") }
+            return false
+        }
+
         @OptIn(UnstableApi::class)
         override fun onConnect(session: MediaSession, controller: MediaSession.ControllerInfo): MediaSession.ConnectionResult =
             MediaSession.ConnectionResult.AcceptedResultBuilder(session)
@@ -169,6 +221,9 @@ class PlaybackService : MediaSessionService() {
         const val SKIP_MS = 5_000L
         private const val TICK_MS = 100L
         private const val SAVE_EVERY_MS = 5_000L
+
+        /** Connection hint the app's own screen sets, so its ⏮ ⏭ skip the Button mode. */
+        const val HINT_APP_UI = "app.bydplayer.APP_UI"
 
         const val EXTRA_AB_A = "ab_a"
         const val EXTRA_AB_B = "ab_b"
