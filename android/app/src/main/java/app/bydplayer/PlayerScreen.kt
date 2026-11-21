@@ -207,6 +207,16 @@ private fun Header(ui: PlayerUi, onShowLessons: () -> Unit, dot: @Composable () 
                 blue = true,
                 modifier = Modifier.heightIn(min = 72.dp),
             ) { GlassLabel("Talk") }
+            // Talk couldn't connect (Talk spec §8): a short note, then it goes.
+            val note = Talk.note
+            if (note != null) {
+                LaunchedEffect(note) {
+                    delay(5_000)
+                    Talk.clearNote()
+                }
+                Spacer(Modifier.width(12.dp))
+                Text(note, style = MaterialTheme.typography.bodyLarge, color = dim())
+            }
             if (micDenied) {
                 Spacer(Modifier.width(12.dp))
                 Text("Microphone permission not granted", style = MaterialTheme.typography.bodyLarge, color = dim())

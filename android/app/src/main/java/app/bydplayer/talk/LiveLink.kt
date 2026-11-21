@@ -20,10 +20,10 @@ interface LiveConnection {
  * thread every other call here is made on (the main thread in [TalkService]).
  */
 class LiveLink(
-    private val connect: (handle: String?, onEvent: (LiveEvent) -> Unit, onLost: () -> Unit) -> LiveConnection,
+    private val connect: (handle: String?, onEvent: (LiveEvent) -> Unit, onLost: (LiveLoss) -> Unit) -> LiveConnection,
     private val post: (() -> Unit) -> Unit,
     private val onEvent: (LiveEvent) -> Unit,
-    private val onLost: () -> Unit,
+    private val onLost: (LiveLoss) -> Unit,
 ) {
     private var current: LiveConnection? = null
     private var generation = 0
@@ -37,7 +37,7 @@ class LiveLink(
         current = connect(
             handle,
             { e -> post { if (generation == mine) deliver(e) } },
-            { post { if (generation == mine) lose() } },
+            { loss -> post { if (generation == mine) lose(loss) } },
         ).also { it.open() }
     }
 
@@ -64,11 +64,11 @@ class LiveLink(
         onEvent(event)
     }
 
-    private fun lose() {
+    private fun lose(loss: LiveLoss) {
         generation++
         ready = false
         waiting.clear()
         current = null
-        onLost()
+        onLost(loss)
     }
 }

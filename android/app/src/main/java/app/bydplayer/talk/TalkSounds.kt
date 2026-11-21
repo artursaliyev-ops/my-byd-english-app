@@ -9,20 +9,33 @@ import kotlin.math.sin
 
 /**
  * The Talk's own sounds (spec §7), made on the head unit, no recorded clips: the **turn beep**
- * (the learner's turn starts) and the soft **tick** (the end of speech is taken). Each is a
+ * (the learner's turn starts), the soft **tick** (the end of speech is taken) and the low
+ * two-note **"no connection"** tone (spec §8). Each is a
  * short static track played through the same attributes as Anna.
  */
 class TalkSounds(attributes: AudioAttributes) {
     private val beep = track(attributes, tone(TalkConfig.BEEP_HZ, TalkConfig.BEEP_MS, 0.35f))
     private val tick = track(attributes, tone(TalkConfig.TICK_HZ, TalkConfig.TICK_MS, 0.18f))
+    private val noConnection = track(
+        attributes,
+        tone(TalkConfig.NO_CONNECTION_HZ_1, TalkConfig.NO_CONNECTION_NOTE_MS, 0.35f) +
+            ShortArray(RATE * 60 / 1000) +
+            tone(TalkConfig.NO_CONNECTION_HZ_2, TalkConfig.NO_CONNECTION_NOTE_MS * 3 / 2, 0.35f),
+    )
 
     fun beep() = replay(beep)
 
     fun tick() = replay(tick)
 
+    fun noConnection() = replay(noConnection)
+
+    /** How long the "no connection" tone plays, so a Talk that ends on it lets it finish. */
+    val noConnectionMs: Long get() = TalkConfig.NO_CONNECTION_NOTE_MS * 5L / 2 + 60
+
     fun release() {
         beep.release()
         tick.release()
+        noConnection.release()
     }
 
     private fun replay(t: AudioTrack) {

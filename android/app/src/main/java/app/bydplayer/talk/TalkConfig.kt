@@ -23,6 +23,24 @@ object TalkConfig {
     const val QUIET = "(The learner is quiet.)"
     const val TIME_UP = "(Time is up.)"
 
+    /** Sent in a new session after the handle was refused (spec §8). */
+    const val CAME_BACK = "(The connection came back.)"
+
+    /** No first audio this long after the tick: the Turn has failed (spec §8). */
+    const val TURN_TIMEOUT_MS = 8_000L
+
+    /** No signal this long: the Talk ends (spec §8). */
+    const val NO_SIGNAL_MS = 60_000L
+
+    /** Connecting this long on Talk with no session: "No internet" (spec §8). */
+    const val CONNECT_TIMEOUT_MS = 5_000L
+
+    /** The gap between connection attempts while Connecting or in No signal. */
+    const val RECONNECT_GAP_MS = 2_000L
+
+    /** The note on the player when Talk can't connect (spec §8). */
+    const val NO_INTERNET = "No internet"
+
     /** A Talk's wall-clock cap from its start, No signal and Paused included (spec §6 step 9). */
     const val TALK_CAP_MS = 30 * 60 * 1000L
 
@@ -72,6 +90,11 @@ object TalkConfig {
     /** The soft tick: higher, very short and quiet. */
     const val TICK_HZ = 1_600
     const val TICK_MS = 35
+
+    /** The "no connection" tone: low, two notes going down, unlike the beep and tick (spec §7). */
+    const val NO_CONNECTION_HZ_1 = 440
+    const val NO_CONNECTION_HZ_2 = 330
+    const val NO_CONNECTION_NOTE_MS = 180
 
     /** After a Talk, a lesson that was playing resumes this far back (spec §9). */
     const val RESUME_BACK_MS = 5_000L

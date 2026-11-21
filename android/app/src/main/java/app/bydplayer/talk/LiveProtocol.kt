@@ -83,8 +83,30 @@ object LiveProtocol {
         return events
     }
 
+    /**
+     * Why a session was lost (spec §8): the one place a loss is classified. [closeCode] and
+     * [reason] come from the server's close frame, both null for a socket failure; [resuming]
+     * says the session was opened with a handle, [setUp] that its `setupComplete` came.
+     *
+     * A server that closes a resumed session before setting it up has refused the handle; any
+     * other loss is the network.
+     */
+    fun classifyLoss(closeCode: Int?, reason: String?, resuming: Boolean, setUp: Boolean): LiveLoss = when {
+        closeCode != null && resuming && !setUp -> LiveLoss.HandleRefused
+        else -> LiveLoss.Network
+    }
+
     private fun JSONObject.transcript(key: String): String? =
         optJSONObject(key)?.optString("text")?.takeIf { it.isNotEmpty() }
+}
+
+/** Why a Live session was lost, as [LiveProtocol.classifyLoss] tells it. */
+enum class LiveLoss {
+    /** A weak or lost connection: retry, No signal (spec §8). */
+    Network,
+
+    /** The server wouldn't resume with the handle: a new session (spec §8). */
+    HandleRefused,
 }
 
 /** What the Live server tells the Talk (spec §3). */

@@ -52,6 +52,9 @@ class TalkService : Service() {
     private var lessonWasPlaying = false
     private var startedAt = 0L
 
+    /** When the last "no connection" tone finishes, so a Talk that ends on it lets it play out. */
+    private var toneUntil = 0L
+
     override fun onBind(intent: Intent?): IBinder? = null
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -106,8 +109,16 @@ class TalkService : Service() {
             },
             post = { block -> main.post(block) },
             onEvent = { e -> handle(TalkEvent.Server(e)) },
-            onLost = { handle(TalkEvent.SessionLost) },
+            onLost = { loss -> handle(lostEvent(loss)) },
         ).also { it.open() }
+        // Connecting for up to 5 s (spec §8).
+        handle(TalkEvent.Start)
+    }
+
+    /** What a lost session means to the state machine; the loss is classified in [LiveProtocol.classifyLoss]. */
+    private fun lostEvent(loss: LiveLoss): TalkEvent = when (loss) {
+        LiveLoss.Network -> TalkEvent.SessionLost
+        LiveLoss.HandleRefused -> TalkEvent.ResumeRefused
     }
 
     private fun handle(event: TalkEvent) {
@@ -131,6 +142,15 @@ class TalkService : Service() {
                 TalkEffect.PlayTick -> sounds?.tick()
                 TalkEffect.End -> finishTalk()
                 is TalkEffect.Reconnect -> reconnect(effect.handle)
+                TalkEffect.PlayNoConnection -> sounds?.let {
+                    it.noConnection()
+                    toneUntil = SystemClock.elapsedRealtime() + it.noConnectionMs
+                }
+                TalkEffect.NewSession -> {
+                    Log.i(TAG, "new session at ${SystemClock.elapsedRealtime() - startedAt} ms")
+                    session?.open()
+                }
+                is TalkEffect.GiveUp -> finishTalk(note = effect.note, lessonAsBefore = true)
             }
         }
     }
@@ -149,18 +169,29 @@ class TalkService : Service() {
         Talk.screen = if (t.state == TurnState.Ended) null else TalkScreenState(t.state, t.annaLine, t.silence)
     }
 
-    /** Ends at once (spec §9): socket, Anna, focus, screen, then the lesson by the resume rule. */
-    private fun finishTalk() {
+    /**
+     * Ends at once (spec §9): socket, Anna, focus, screen, then the lesson by the resume rule, or
+     * as it was before the tap when [lessonAsBefore] (spec §8). A "no connection" tone still
+     * playing finishes before the lesson comes back. [note] shows on the player.
+     */
+    private fun finishTalk(note: String? = null, lessonAsBefore: Boolean = false) {
         turns = null
         timers.removeCallbacksAndMessages(null)
         mic?.stop(); mic = null
         session?.close(); session = null
         voice?.release(); voice = null
-        sounds?.release(); sounds = null
         focus?.let { getSystemService(AudioManager::class.java).abandonAudioFocusRequest(it) }
         focus = null
         Talk.screen = null
-        resumeLesson()
+        Talk.note = note
+        val s = sounds; sounds = null
+        val future = lessonFuture; lessonFuture = null
+        val c = lesson; lesson = null
+        val wasPlaying = lessonWasPlaying
+        main.postDelayed({
+            s?.release()
+            resumeLesson(future, c, wasPlaying, lessonAsBefore)
+        }, (toneUntil - SystemClock.elapsedRealtime()).coerceAtLeast(0L))
         Log.i(TAG, "Talk ended after ${SystemClock.elapsedRealtime() - startedAt} ms")
         stopForeground(STOP_FOREGROUND_REMOVE)
         stopSelf()
@@ -187,14 +218,16 @@ class TalkService : Service() {
         }, mainExecutor)
     }
 
-    private fun resumeLesson() {
-        val future = lessonFuture ?: return
-        lessonFuture = null
-        val c = lesson ?: run { MediaController.releaseFuture(future); return }
-        lesson = null
-        resumeAfterTalk(lessonWasPlaying, c.currentPosition)?.let { at ->
-            c.seekTo(at)
-            c.play()
+    private fun resumeLesson(future: ListenableFuture<MediaController>?, c: MediaController?, wasPlaying: Boolean, asBefore: Boolean) {
+        future ?: return
+        c ?: run { MediaController.releaseFuture(future); return }
+        if (asBefore) {
+            if (wasPlaying) c.play()
+        } else {
+            resumeAfterTalk(wasPlaying, c.currentPosition)?.let { at ->
+                c.seekTo(at)
+                c.play()
+            }
         }
         // Let the commands reach the session before letting go of the controller.
         main.postDelayed({ c.release() }, 1_000)

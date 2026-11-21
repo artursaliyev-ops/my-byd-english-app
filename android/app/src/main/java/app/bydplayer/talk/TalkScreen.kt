@@ -80,6 +80,7 @@ private fun word(state: TurnState) = when (state) {
     TurnState.Thinking -> "Thinking"
     TurnState.Anna -> "Anna"
     TurnState.You -> "Your turn"
+    TurnState.NoSignal -> "No signal"
     TurnState.Ended -> ""
 }
 
@@ -98,6 +99,7 @@ private fun TalkShape(state: TurnState, silence: Float, size: Dp) {
             TurnState.Anna -> annaRings(r, pulse)
             TurnState.Thinking -> thinkingDots(r, pulse)
             TurnState.You -> yourTurn(r, silence, blue)
+            TurnState.NoSignal -> brokenRing(r)
             TurnState.Connecting, TurnState.Ended -> drawCircle(Grey, radius = r * 0.6f, style = Stroke(10.dp.toPx()))
         }
     }
@@ -123,6 +125,19 @@ private fun DrawScope.yourTurn(r: Float, silence: Float, blue: Color) {
             Color.White, startAngle = -90f, sweepAngle = 360f * silence, useCenter = false,
             topLeft = Offset(center.x - r + inset, center.y - r + inset),
             size = Size((r - inset) * 2, (r - inset) * 2),
+            style = Stroke(stroke, cap = StrokeCap.Round),
+        )
+    }
+}
+
+/** A grey ring broken into pieces: No signal (spec §7). */
+private fun DrawScope.brokenRing(r: Float) {
+    val stroke = 10.dp.toPx()
+    for (k in 0 until 5) {
+        drawArc(
+            Grey, startAngle = -90f + k * 72f + 10f, sweepAngle = 52f, useCenter = false,
+            topLeft = Offset(center.x - r * 0.6f, center.y - r * 0.6f),
+            size = Size(r * 1.2f, r * 1.2f),
             style = Stroke(stroke, cap = StrokeCap.Round),
         )
     }

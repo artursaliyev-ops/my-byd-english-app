@@ -68,10 +68,14 @@ class TalkTurnsTest {
     }
 
     @Test
-    fun `a lost session ends the Talk until reconnecting exists`() {
+    fun `a lost opening with no handle yet retries in a new session and resends the opening`() {
         talk.on(TalkEvent.Server(LiveEvent.SetupComplete))
-        assertEquals(listOf(TalkEffect.End), talk.on(TalkEvent.SessionLost))
-        assertEquals(TurnState.Ended, talk.state)
+        assertEquals(listOf(TalkEffect.NewSession), talk.on(TalkEvent.SessionLost))
+        assertEquals(
+            listOf(TalkEffect.SendText("(The learner pressed Talk. Start the Talk.)")),
+            talk.on(TalkEvent.Server(LiveEvent.SetupComplete)),
+        )
+        assertEquals(TurnState.Thinking, talk.state)
     }
 
     private fun server(e: LiveEvent) = talk.on(TalkEvent.Server(e))
@@ -133,7 +137,10 @@ class TalkTurnsTest {
         toYou()
         mic(MicEvent.SpeechStarted(byteArrayOf()))
         assertEquals(
-            listOf(TalkEffect.EndActivity, TalkEffect.PlayTick, TalkEffect.CloseMic),
+            listOf(
+                TalkEffect.EndActivity, TalkEffect.PlayTick, TalkEffect.CloseMic,
+                TalkEffect.After(8_000, TalkEvent.TurnTimeout(1)),
+            ),
             mic(MicEvent.SpeechEnded),
         )
         assertEquals(TurnState.Thinking, talk.state)

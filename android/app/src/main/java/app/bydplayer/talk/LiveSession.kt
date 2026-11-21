@@ -21,13 +21,14 @@ class LiveSession(
     private val apiKey: String,
     private val prompt: String,
     private val onEvent: (LiveEvent) -> Unit,
-    private val onLost: () -> Unit,
+    private val onLost: (LiveLoss) -> Unit,
     /** Resumes an earlier session (spec §3); null for a new Talk. Never logged. */
     private val handle: String? = null,
 ) : LiveConnection {
     private var socket: WebSocket? = null
     @Volatile private var closed = false
     private var openedAt = 0L
+    @Volatile private var setUp = false
 
     override fun open() {
         openedAt = System.nanoTime()
@@ -46,14 +47,14 @@ class LiveSession(
             override fun onClosing(webSocket: WebSocket, code: Int, reason: String) {
                 Log.i(TAG, "server closing: $code after ${ms()} ms")
                 webSocket.close(1000, null)
-                lost()
+                lost(code, reason)
             }
 
-            override fun onClosed(webSocket: WebSocket, code: Int, reason: String) = lost()
+            override fun onClosed(webSocket: WebSocket, code: Int, reason: String) = lost(code, reason)
 
             override fun onFailure(webSocket: WebSocket, t: Throwable, response: Response?) {
                 Log.w(TAG, "socket failed: ${t.javaClass.simpleName}, HTTP ${response?.code} after ${ms()} ms")
-                lost()
+                lost(null, null)
             }
         })
     }
@@ -78,14 +79,18 @@ class LiveSession(
             Log.w(TAG, "unreadable server message: ${e.javaClass.simpleName}")
             return
         }
-        if (LiveEvent.SetupComplete in events) Log.i(TAG, "setupComplete after ${ms()} ms")
+        if (LiveEvent.SetupComplete in events) {
+            setUp = true
+            Log.i(TAG, "setupComplete after ${ms()} ms")
+        }
         events.forEach(onEvent)
     }
 
-    private fun lost() {
+    /** [code] and [reason] from the server's close frame, null for a failure. The reason is never logged. */
+    private fun lost(code: Int?, reason: String?) {
         if (closed) return
         closed = true
-        onLost()
+        onLost(LiveProtocol.classifyLoss(code, reason, resuming = handle != null, setUp = setUp))
     }
 
     private fun ms() = (System.nanoTime() - openedAt) / 1_000_000

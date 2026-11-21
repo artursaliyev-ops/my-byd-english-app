@@ -10,7 +10,7 @@ class LiveLinkTest {
     private val events = mutableListOf<LiveEvent>()
     private var lost = 0
 
-    inner class FakeSession(val handle: String?, val onEvent: (LiveEvent) -> Unit, val onLost: () -> Unit) : LiveConnection {
+    inner class FakeSession(val handle: String?, val onEvent: (LiveEvent) -> Unit, val onLost: (LiveLoss) -> Unit) : LiveConnection {
         val sent = mutableListOf<String>()
         val name = "s${sessions.size + 1}"
         override fun open() { log += "open $name ${handle ?: "-"}" }
@@ -38,11 +38,11 @@ class LiveLinkTest {
         val old = sessions[0]
         link.open(handle = "h1")
         old.onEvent(LiveEvent.TurnComplete)
-        old.onLost()
+        old.onLost(LiveLoss.Network)
         sessions[1].onEvent(LiveEvent.SetupComplete)
         assertEquals(listOf<LiveEvent>(LiveEvent.SetupComplete), events)
         assertEquals(0, lost)
-        sessions[1].onLost()
+        sessions[1].onLost(LiveLoss.Network)
         assertEquals(1, lost)
     }
 
@@ -62,7 +62,7 @@ class LiveLinkTest {
         link.open()
         link.close()
         sessions[0].onEvent(LiveEvent.SetupComplete)
-        sessions[0].onLost()
+        sessions[0].onLost(LiveLoss.Network)
         assertEquals(listOf("open s1 -", "close s1"), log)
         assertEquals(emptyList<LiveEvent>(), events)
         assertEquals(0, lost)

@@ -114,4 +114,16 @@ class LiveProtocolTest {
         assertEquals("audio/pcm;rate=16000", audio.getString("mimeType"))
         assertEquals("AQID", audio.getString("data"))
     }
+
+    @Test
+    fun `a server close of a resumed session before setupComplete is a refused handle`() {
+        assertEquals(LiveLoss.HandleRefused, LiveProtocol.classifyLoss(closeCode = 1008, reason = "", resuming = true, setUp = false))
+    }
+
+    @Test
+    fun `a socket failure, a close after setup, or a close of a new session is the network`() {
+        assertEquals(LiveLoss.Network, LiveProtocol.classifyLoss(closeCode = null, reason = null, resuming = true, setUp = false))
+        assertEquals(LiveLoss.Network, LiveProtocol.classifyLoss(closeCode = 1011, reason = "", resuming = true, setUp = true))
+        assertEquals(LiveLoss.Network, LiveProtocol.classifyLoss(closeCode = 1008, reason = "", resuming = false, setUp = false))
+    }
 }

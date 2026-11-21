@@ -68,17 +68,18 @@ class SilentReconnectTest {
     }
 
     @Test
-    fun `a socket close mid-Turn still ends the Talk until ticket 18`() {
+    fun `a socket close mid-Turn is a failed Turn and retries with the handle`() {
         toYou(handle = "h1")
         talk.on(TalkEvent.Mic(MicEvent.SpeechStarted(byteArrayOf(1))))
-        assertEquals(listOf(TalkEffect.End), talk.on(TalkEvent.SessionLost))
+        assertEquals(listOf(TalkEffect.Reconnect("h1")), talk.on(TalkEvent.SessionLost))
     }
 
     @Test
     fun `a close before the resumed session is set up doesn't loop reconnecting`() {
         toYou(handle = "h1")
         talk.on(TalkEvent.SessionLost)
-        assertEquals(listOf(TalkEffect.End), talk.on(TalkEvent.SessionLost))
+        assertEquals(TalkEffect.PlayNoConnection, talk.on(TalkEvent.SessionLost).first())
+        assertEquals(TurnState.NoSignal, talk.state)
     }
 
     @Test

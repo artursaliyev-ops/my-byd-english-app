@@ -18,9 +18,19 @@ object Talk {
     var screen by mutableStateOf<TalkScreenState?>(null)
         internal set
 
+    /** A short note on the player after a Talk that couldn't connect (spec §8), null otherwise. */
+    var note by mutableStateOf<String?>(null)
+        internal set
+
+    /** The player has shown [note] long enough. */
+    fun clearNote() {
+        note = null
+    }
+
     /** The Talk button on the player. */
     fun start(context: Context) {
         if (!available || screen != null) return
+        note = null
         screen = TalkScreenState(TurnState.Connecting, annaLine = "")
         TalkService.start(context)
     }
