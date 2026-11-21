@@ -73,6 +73,7 @@ class TalkService : Service() {
 
     override fun onDestroy() {
         if (turns != null) finishTalk()
+        if (waitingForFocus) giveLessonBack(resume = true)
         super.onDestroy()
     }
 
@@ -141,6 +142,10 @@ class TalkService : Service() {
                 TalkEffect.PlayBeep -> sounds?.beep()
                 TalkEffect.PlayTick -> sounds?.tick()
                 TalkEffect.End -> finishTalk()
+                TalkEffect.StopAnna -> voice?.stop()
+                is TalkEffect.Volume -> voice?.volume(effect.level)
+                TalkEffect.EndWhenFocusBack -> finishTalk(LessonBack.WhenFocusBack)
+                TalkEffect.EndLessonPaused -> finishTalk(LessonBack.Never)
                 is TalkEffect.Reconnect -> reconnect(effect.handle)
                 TalkEffect.PlayNoConnection -> sounds?.let {
                     it.noConnection()
@@ -150,7 +155,7 @@ class TalkService : Service() {
                     Log.i(TAG, "new session at ${SystemClock.elapsedRealtime() - startedAt} ms")
                     session?.open()
                 }
-                is TalkEffect.GiveUp -> finishTalk(note = effect.note, lessonAsBefore = true)
+                is TalkEffect.GiveUp -> finishTalk(LessonBack.AsBefore, effect.note)
             }
         }
     }
@@ -170,31 +175,74 @@ class TalkService : Service() {
     }
 
     /**
-     * Ends at once (spec §9): socket, Anna, focus, screen, then the lesson by the resume rule, or
-     * as it was before the tap when [lessonAsBefore] (spec §8). A "no connection" tone still
-     * playing finishes before the lesson comes back. [note] shows on the player.
+     * When the lesson gets its turn back after a Talk (spec §9, §10). [AsBefore]: now, but as it
+     * was before the tap, not by the resume rule (spec §8, a Talk that never connected).
      */
-    private fun finishTalk(note: String? = null, lessonAsBefore: Boolean = false) {
+    private enum class LessonBack { Now, WhenFocusBack, Never, AsBefore }
+
+    /** The Talk is over but holds focus until it returns, then resumes the lesson (spec §10). */
+    private var waitingForFocus = false
+
+    /**
+     * Ends at once (spec §9): socket, Anna, focus, screen, then the lesson by the resume rule.
+     * A "no connection" tone still playing finishes before the lesson comes back. [note] shows
+     * on the player.
+     */
+    private fun finishTalk(lessonBack: LessonBack = LessonBack.Now, note: String? = null) {
         turns = null
         timers.removeCallbacksAndMessages(null)
         mic?.stop(); mic = null
         session?.close(); session = null
         voice?.release(); voice = null
-        focus?.let { getSystemService(AudioManager::class.java).abandonAudioFocusRequest(it) }
-        focus = null
+        val toneLeft = (toneUntil - SystemClock.elapsedRealtime()).coerceAtLeast(0L)
+        val s = sounds; sounds = null
+        main.postDelayed({ s?.release() }, toneLeft)
         Talk.screen = null
         Talk.note = note
-        val s = sounds; sounds = null
-        val future = lessonFuture; lessonFuture = null
-        val c = lesson; lesson = null
-        val wasPlaying = lessonWasPlaying
-        main.postDelayed({
-            s?.release()
-            resumeLesson(future, c, wasPlaying, lessonAsBefore)
-        }, (toneUntil - SystemClock.elapsedRealtime()).coerceAtLeast(0L))
         Log.i(TAG, "Talk ended after ${SystemClock.elapsedRealtime() - startedAt} ms")
         stopForeground(STOP_FOREGROUND_REMOVE)
+        if (lessonBack == LessonBack.WhenFocusBack && focus != null) {
+            // Played now, the lesson would only be held back by the call: keep the focus
+            // request so its return is heard, and resume then.
+            waitingForFocus = true
+            return
+        }
+        val back = { giveLessonBack(resume = lessonBack != LessonBack.Never, asBefore = lessonBack == LessonBack.AsBefore) }
+        // Let the tone play out first; a new Talk started meanwhile has the lesson now.
+        if (toneLeft > 0) main.postDelayed({ if (turns == null) back() }, toneLeft) else back()
+    }
+
+    private fun giveLessonBack(resume: Boolean, asBefore: Boolean = false) {
+        waitingForFocus = false
+        focus?.let { getSystemService(AudioManager::class.java).abandonAudioFocusRequest(it) }
+        focus = null
+        if (resume) resumeLesson(asBefore) else releaseLesson()
         stopSelf()
+    }
+
+    private fun releaseLesson() {
+        val future = lessonFuture ?: return
+        lessonFuture = null
+        lesson = null
+        MediaController.releaseFuture(future)
+    }
+
+    /** Audio focus changes become Talk events (spec §10). */
+    private fun onFocusChange(change: Int) {
+        Log.i(TAG, "focus change $change")
+        if (waitingForFocus) {
+            when (change) {
+                AudioManager.AUDIOFOCUS_GAIN -> giveLessonBack(resume = true)
+                AudioManager.AUDIOFOCUS_LOSS -> giveLessonBack(resume = false)
+            }
+            return
+        }
+        when (change) {
+            AudioManager.AUDIOFOCUS_GAIN -> handle(TalkEvent.FocusBack)
+            AudioManager.AUDIOFOCUS_LOSS_TRANSIENT -> handle(TalkEvent.FocusPaused)
+            AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK -> handle(TalkEvent.FocusDucked)
+            AudioManager.AUDIOFOCUS_LOSS -> handle(TalkEvent.FocusGone)
+        }
     }
 
     private fun pauseLessonThen(next: () -> Unit) {
@@ -218,9 +266,12 @@ class TalkService : Service() {
         }, mainExecutor)
     }
 
-    private fun resumeLesson(future: ListenableFuture<MediaController>?, c: MediaController?, wasPlaying: Boolean, asBefore: Boolean) {
-        future ?: return
-        c ?: run { MediaController.releaseFuture(future); return }
+    private fun resumeLesson(asBefore: Boolean) {
+        val future = lessonFuture ?: return
+        lessonFuture = null
+        val c = lesson ?: run { MediaController.releaseFuture(future); return }
+        lesson = null
+        val wasPlaying = lessonWasPlaying
         if (asBefore) {
             if (wasPlaying) c.play()
         } else {
@@ -237,8 +288,9 @@ class TalkService : Service() {
         val v = voice ?: return
         val request = AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN)
             .setAudioAttributes(v.attributes)
-            // Ticket 20 turns focus changes into Paused, ducking and ending.
-            .setOnAudioFocusChangeListener({ change -> Log.i(TAG, "focus change $change") }, main)
+            // Duck Anna ourselves, so a navigation prompt reaches us as an event (spec §10).
+            .setWillPauseWhenDucked(true)
+            .setOnAudioFocusChangeListener({ change -> onFocusChange(change) }, main)
             .build()
         val granted = getSystemService(AudioManager::class.java).requestAudioFocus(request)
         if (granted != AudioManager.AUDIOFOCUS_REQUEST_GRANTED) Log.w(TAG, "focus not granted: $granted")

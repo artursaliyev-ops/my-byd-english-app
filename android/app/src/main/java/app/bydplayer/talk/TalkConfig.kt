@@ -91,6 +91,12 @@ object TalkConfig {
     const val TICK_HZ = 1_600
     const val TICK_MS = 35
 
+    /** A pause (call, "Hi BYD") this long ends the Talk (spec §10). */
+    const val PAUSE_MAX_MS = 60_000L
+
+    /** Anna's volume under a navigation prompt (spec §10). */
+    const val DUCK_VOLUME = 0.3f
+
     /** The "no connection" tone: low, two notes going down, unlike the beep and tick (spec §7). */
     const val NO_CONNECTION_HZ_1 = 440
     const val NO_CONNECTION_HZ_2 = 330

@@ -108,17 +108,7 @@ class TalkTurns {
                 sendTimeUp()
             } else if (drained) {
                 drained = false
-                state = TurnState.You
-                silence = 0f
-                spoke = false
-                yourTurn++
-                // She answered "wait": the learner asked for time, so no nudge (spec §6 step 6).
-                if (annaLine.trim() == TalkConfig.WAIT_REPLY) nudgeSpent = true
-                listOfNotNull(
-                    TalkEffect.PlayBeep,
-                    TalkEffect.OpenMic,
-                    if (nudgeSpent) null else TalkEffect.After(TalkConfig.QUIET_MS, TalkEvent.Quiet(yourTurn)),
-                )
+                startYourTurn()
             } else {
                 emptyList()
             }
@@ -144,7 +134,107 @@ class TalkTurns {
                 emptyList()
             }
             TalkEvent.ResumeRefused -> onResumeRefused()
+            TalkEvent.FocusPaused -> pause()
+            TalkEvent.FocusDucked -> if (ducked) emptyList() else {
+                ducked = true
+                listOf(TalkEffect.Volume(TalkConfig.DUCK_VOLUME))
+            }
+            TalkEvent.FocusBack -> focusBack()
+            is TalkEvent.PauseOver -> if (state == TurnState.Paused && event.pause == pauses) {
+                state = TurnState.Ended
+                listOf(TalkEffect.EndWhenFocusBack)
+            } else {
+                emptyList()
+            }
+            TalkEvent.FocusGone -> {
+                state = TurnState.Ended
+                listOf(TalkEffect.EndLessonPaused)
+            }
         }
+    }
+
+    /** Anna plays at [TalkConfig.DUCK_VOLUME] under a navigation prompt. */
+    private var ducked = false
+
+    /** Counts pauses, so an earlier pause's timer can't end a later one. */
+    private var pauses = 0
+
+    /** The opening has gone out; before that a pause goes back to it (spec §10). */
+    private var opened = false
+
+    /** The session is ready, though the opening may still wait for focus. */
+    private var setUp = false
+
+    /** The learner's activity has started and not ended. */
+    private var speaking = false
+
+    /** An answer cut off by a pause: the rest of it is dropped until its turn completes. */
+    private var dropping = false
+
+    /**
+     * Transient focus loss (a call, "Hi BYD"): Anna stops mid-line, the mic closes, an
+     * utterance in progress or an answer still arriving is dropped. Anna's latest line stays.
+     */
+    private fun pause(): List<TalkEffect> {
+        if (state == TurnState.Paused) return emptyList()
+        val effects = mutableListOf<TalkEffect>(TalkEffect.StopAnna, TalkEffect.CloseMic)
+        if (speaking) {
+            // Close the activity; the answer to the cut-off words is dropped.
+            effects += TalkEffect.EndActivity
+            speaking = false
+            dropping = true
+        }
+        if (state == TurnState.Thinking || state == TurnState.Anna) dropping = !awaitingDrain && !drained
+        awaitingDrain = false
+        drained = false
+        silence = 0f
+        state = TurnState.Paused
+        // A quiet timer from before the pause must not fire after it.
+        yourTurn++
+        pauses++
+        effects += TalkEffect.After(TalkConfig.PAUSE_MAX_MS, TalkEvent.PauseOver(pauses))
+        return effects
+    }
+
+    /** The turn beep and **You**, with the quiet timer for this one of Your turns (spec §6 step 6). */
+    private fun startYourTurn(): List<TalkEffect> {
+        state = TurnState.You
+        silence = 0f
+        spoke = false
+        yourTurn++
+        // She answered "wait": the learner asked for time, so no nudge (spec §6 step 6).
+        if (annaLine.trim() == TalkConfig.WAIT_REPLY) nudgeSpent = true
+        return listOfNotNull(
+            TalkEffect.PlayBeep,
+            TalkEffect.OpenMic,
+            if (nudgeSpent) null else TalkEffect.After(TalkConfig.QUIET_MS, TalkEvent.Quiet(yourTurn)),
+        )
+    }
+
+    private fun focusBack(): List<TalkEffect> {
+        val effects = mutableListOf<TalkEffect>()
+        if (ducked) {
+            ducked = false
+            effects += TalkEffect.Volume(1f)
+        }
+        if (state != TurnState.Paused) return effects
+        when {
+            // The cap came while paused, or her goodbye was cut off: say goodbye now (spec §6 step 9).
+            opened && timeUp -> effects += sendTimeUp()
+            opened -> effects += startYourTurn()
+            setUp -> effects += sendOpening()
+            else -> state = TurnState.Connecting
+        }
+        return effects
+    }
+
+    private fun sendOpening(): List<TalkEffect> {
+        opened = true
+        state = TurnState.Thinking
+        inTurn = true
+        retried = false
+        lastText = TalkConfig.OPENING
+        return listOf(TalkEffect.SendText(TalkConfig.OPENING))
     }
 
     /** No first audio [TalkConfig.TURN_TIMEOUT_MS] after the tick: the Turn has failed (spec §8). */
@@ -235,18 +325,7 @@ class TalkTurns {
     }
 
     /** Back from No signal: the turn beep and Your turn; Anna doesn't repeat her question. */
-    private fun comeBack(): List<TalkEffect> {
-        if (timeUp) return sendTimeUp()
-        state = TurnState.You
-        silence = 0f
-        spoke = false
-        yourTurn++
-        return listOfNotNull(
-            TalkEffect.PlayBeep,
-            TalkEffect.OpenMic,
-            if (nudgeSpent) null else TalkEffect.After(TalkConfig.QUIET_MS, TalkEvent.Quiet(yourTurn)),
-        )
-    }
+    private fun comeBack(): List<TalkEffect> = if (timeUp) sendTimeUp() else startYourTurn()
 
     private fun armTurnTimeout(): TalkEffect {
         answered = false
@@ -319,28 +398,29 @@ class TalkTurns {
         // Resumed: the server keeps the conversation, so nothing to send unless a Turn failed (spec §3, §8).
         LiveEvent.SetupComplete -> if (reconnecting) {
             onReconnected()
-        } else if (state == TurnState.Connecting) {
-            state = TurnState.Thinking
-            inTurn = true
-            lastText = TalkConfig.OPENING
-            listOf(TalkEffect.SendText(TalkConfig.OPENING))
         } else {
-            emptyList()
+            setUp = true
+            if (state == TurnState.Connecting) sendOpening() else emptyList()
         }
         // An answer that arrives after its Turn failed is dropped, never played (spec §8).
-        is LiveEvent.Audio -> if ((state == TurnState.Thinking || state == TurnState.Anna) && !reconnecting) {
+        is LiveEvent.Audio -> if (!dropping && !reconnecting && (state == TurnState.Thinking || state == TurnState.Anna)) {
             answered = true
             state = TurnState.Anna
             listOf(TalkEffect.Play(event.pcm))
         } else {
             emptyList()
         }
-        is LiveEvent.AnnaSaid -> {
+        is LiveEvent.AnnaSaid -> if (dropping) emptyList() else {
             annaLine = if (lineDone) event.text.trim() else (annaLine + event.text).trimStart()
             lineDone = false
             emptyList()
         }
-        LiveEvent.TurnComplete -> {
+        LiveEvent.TurnComplete -> if (dropping) {
+            dropping = false
+            lineDone = true
+            inTurn = false
+            if (goAwayPending) reconnectBetweenTurns() else emptyList()
+        } else {
             lineDone = true
             inTurn = false
             retried = false
@@ -376,11 +456,14 @@ class TalkTurns {
         if (state != TurnState.You) return emptyList()
         return when (event) {
             is MicEvent.SpeechStarted -> {
+                speaking = true
                 inTurn = true
                 spoke = true
                 nudgeSpent = false
                 retried = false
                 lastText = null
+                // The new activity takes over from an answer still being dropped.
+                dropping = false
                 heard.reset()
                 heard.write(event.preRoll)
                 listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(event.preRoll))
@@ -396,6 +479,7 @@ class TalkTurns {
             }
             MicEvent.SpeechEnded -> {
                 state = TurnState.Thinking
+                speaking = false
                 silence = 0f
                 if (resendOnSetup) {
                     listOf(TalkEffect.PlayTick, TalkEffect.CloseMic)
@@ -407,8 +491,8 @@ class TalkTurns {
     }
 }
 
-/** What the Talk screen shows (spec §7). Paused comes with ticket 20. */
-enum class TurnState { Connecting, Thinking, Anna, You, NoSignal, Ended }
+/** What the Talk screen shows (spec §7). */
+enum class TurnState { Connecting, Thinking, Anna, You, NoSignal, Paused, Ended }
 
 sealed interface TalkEvent {
     /** A message from the Live session. */
@@ -452,6 +536,20 @@ sealed interface TalkEvent {
 
     /** The server refused the resumption handle (see [LiveProtocol.classifyLoss]). */
     data object ResumeRefused : TalkEvent
+    /** Transient focus loss without ducking: a call, "Hi BYD" (spec §10). */
+    data object FocusPaused : TalkEvent
+
+    /** Transient focus loss that allows ducking: a navigation prompt. */
+    data object FocusDucked : TalkEvent
+
+    /** Focus is back after a transient loss. */
+    data object FocusBack : TalkEvent
+
+    /** Permanent focus loss: another media app plays. */
+    data object FocusGone : TalkEvent
+
+    /** The 60 s limit of pause number [pause] is up (asked for with [TalkEffect.After]). */
+    data class PauseOver(val pause: Int) : TalkEvent
 }
 
 /** What [TalkTurns] asks the service to do. */
@@ -515,4 +613,15 @@ sealed interface TalkEffect {
      * was before the tap (spec §8), not by the resume rule.
      */
     data class GiveUp(val note: String) : TalkEffect
+    /** Stop Anna mid-line and drop what is queued of her audio; the Talk goes on. */
+    data object StopAnna : TalkEffect
+
+    /** Play Anna at this fraction of full volume. */
+    data class Volume(val level: Float) : TalkEffect
+
+    /** End the Talk like [End], but give the lesson back only once audio focus returns. */
+    data object EndWhenFocusBack : TalkEffect
+
+    /** End the Talk like [End], but leave the lesson paused: another media app has taken over. */
+    data object EndLessonPaused : TalkEffect
 }

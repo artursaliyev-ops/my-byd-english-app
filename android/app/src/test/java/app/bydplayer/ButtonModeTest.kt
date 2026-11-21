@@ -48,4 +48,23 @@ class ButtonModeTest {
     @Test fun describesCommands() {
         assertEquals("cmd next → +5 s · from com.byd.launcher", describeCommand("next", ButtonEffect.Forward5, "com.byd.launcher"))
     }
+
+    @Test fun withNoTalkTheMediaButtonsBehaveAsBefore() {
+        for (mode in ButtonMode.entries) {
+            assertEquals(ButtonAction.Do(mode.effectOf(false)), mode.actionOf(MediaPress.Previous, talking = false))
+            assertEquals(ButtonAction.Do(mode.effectOf(true)), mode.actionOf(MediaPress.Next, talking = false))
+            assertEquals(ButtonAction.Do(mode.holdEffectOf(false)), mode.actionOf(MediaPress.HoldPrevious, talking = false))
+            assertEquals(ButtonAction.Do(mode.holdEffectOf(true)), mode.actionOf(MediaPress.HoldNext, talking = false))
+            assertEquals(ButtonAction.AsUsual, mode.actionOf(MediaPress.PlayPause, talking = false))
+        }
+    }
+
+    @Test fun duringATalkPlayPauseEndsItAndTheRestDoNothing() {
+        for (mode in ButtonMode.entries) {
+            assertEquals(ButtonAction.EndTalk, mode.actionOf(MediaPress.PlayPause, talking = true))
+            for (press in listOf(MediaPress.Previous, MediaPress.Next, MediaPress.HoldPrevious, MediaPress.HoldNext)) {
+                assertEquals(ButtonAction.Ignore, mode.actionOf(press, talking = true))
+            }
+        }
+    }
 }

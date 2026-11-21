@@ -25,9 +25,42 @@ enum class ButtonMode(val label: String) {
         Skip -> Lessons
     }.effectOf(forward)
 
+    /**
+     * What a media button does, given whether a Talk is active. During a Talk play/pause ends it
+     * and ⏮ ⏭ and Wheel hold do nothing, so the lesson never moves behind the learner (spec §10).
+     */
+    fun actionOf(press: MediaPress, talking: Boolean): ButtonAction = when {
+        talking -> if (press == MediaPress.PlayPause) ButtonAction.EndTalk else ButtonAction.Ignore
+        else -> when (press) {
+            MediaPress.PlayPause -> ButtonAction.AsUsual
+            MediaPress.Previous -> ButtonAction.Do(effectOf(forward = false))
+            MediaPress.Next -> ButtonAction.Do(effectOf(forward = true))
+            MediaPress.HoldPrevious -> ButtonAction.Do(holdEffectOf(forward = false))
+            MediaPress.HoldNext -> ButtonAction.Do(holdEffectOf(forward = true))
+        }
+    }
+
     companion object {
         val DEFAULT = Skip
     }
+}
+
+/** A media button press as [PlaybackService] sees it. */
+enum class MediaPress { PlayPause, Previous, Next, HoldPrevious, HoldNext }
+
+/** What [ButtonMode.actionOf] decides a media button press does. */
+sealed interface ButtonAction {
+    /** Do this effect on the lesson. */
+    data class Do(val effect: ButtonEffect) : ButtonAction
+
+    /** Play or pause the lesson as Media3 would. */
+    data object AsUsual : ButtonAction
+
+    /** End the Talk; the lesson resumes by the usual rule. */
+    data object EndTalk : ButtonAction
+
+    /** Do nothing. */
+    data object Ignore : ButtonAction
 }
 
 /**
