@@ -35,11 +35,11 @@ A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: 
 - [Pick the cloud provider, model and key](issues/09-pick-cloud-provider.md): Gemini Live **free tier** (owner accepts training/human review), speech-to-speech, mic + Silero VAD on the head unit; best of two free Live models by the test set; key built in from `local.properties`, no card; compression + resumption, 30-min Talk cap; no paid tier: fallback is a free Groq → Groq → Google TTS/Deepgram pipeline. Free-tier check in `research/free-tiers.md`.
 - [Decide what Talk does when the network drops](issues/11-network-drop.md): 8 s per Turn, then one silent retry (resume + resend the saved utterance); a head-unit "no connection" tone and a grey "No signal" state with the mic closed; 60 s offline ends the Talk and resumes the lesson; no network on "Talk" → 5 s "Connecting…" then back to the player; free-tier limits get their own "Talk limit reached" note; failed resumption → a silent new session with no fresh hello; 30-min cap is wall-clock.
 - [Measure a cloud Turn on the car over the hotspot](issues/10-measure-cloud-turn.md): Mac only, machine voices (user's choice): `gemini-3.1-flash-live-preview` wins, ~0.7 s to first audio and ~9/11 on the test set (2.5 native audio: ~2.6 s, ~4/11); use API `v1beta`, the opening as bare text; ~40–50 MB per 20-min Talk; owner's voice, hotspot, driving, 15-min resumption and weak signal are unmeasured and become first-car-build checks. Probe on local branch `probe/cloud-turn`.
+- [Decide what Talk remembers and keeps](issues/12-memory-and-retention.md): nothing: no memory between Talks, and no Talk audio or text is written on the head unit (logs carry timings and errors only), so no retention rule or delete control is needed.
 
 ## Not yet specified
 
-- **Memory between Talks**: whether the talk partner remembers earlier Talks, and whether Talk text or audio is kept at all (privacy, retention like voice practice's 5-lesson rule).
-- **Real driving conditions**: road noise vs speech recognition, screen off, a phone call arriving mid-Talk (its audio and audio focus; its network side is settled), what the media buttons do during a Talk; whether barge-in can be turned on once echo from Anna's voice into the mic is measured on the car.
+<!-- nothing left: memory/retention and driving interruptions graduated into tickets; road noise, hotspot latency and Anna's echo into the mic are first-car-build checks (see the cloud Turn measurement) -->
 
 ## Out of scope
 
