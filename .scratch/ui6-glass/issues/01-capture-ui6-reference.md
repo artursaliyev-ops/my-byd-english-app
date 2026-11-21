@@ -1,6 +1,6 @@
 # Capture UI6 reference screenshots and the car's Android version
 Type: task
-Status: open
+Status: claimed
 Blocked by:
 
 ## Question
@@ -25,3 +25,5 @@ HITL checklist (car parked, developer mode/ADB on, laptop connected):
 The answer records the SDK level, the blur property, the wallpaper component, the file names, and the sampled hex/alpha values: BYD blue, card fill, dialog fill, divider, text.
 
 ## Comments
+
+- 2026-11-21: Claimed. The car is not connected (adb sees only `emulator-5554`), so this waits for a session in the car. Steps 1–4 are scripted in `.scratch/ui6-glass/capture-ui6.sh`: it writes `reference/facts.txt` and `reference/ui6-*.png`. `reference/` is gitignored. After the run, a session samples the hex/alpha values from the PNGs and writes the Answer.
