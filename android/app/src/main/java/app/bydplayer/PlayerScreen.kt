@@ -1,7 +1,14 @@
 package app.bydplayer
 
 import android.os.Bundle
+import android.os.SystemClock
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.DragInteraction
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -33,12 +40,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -46,7 +57,9 @@ import androidx.compose.ui.unit.sp
 import androidx.media3.common.C
 import androidx.media3.common.Player
 import androidx.media3.session.MediaController
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.withContext
 
 val SPEEDS = listOf(0.75f, 0.9f, 1f, 1.1f, 1.25f, 1.5f)
 
@@ -65,6 +78,8 @@ private data class PlayerUi(
     val maxVolume: Int,
     val abA: Long?,
     val abB: Long?,
+    /** 1-90 course number of the current lesson, from the media item id. */
+    val lessonNumber: Int?,
 )
 
 private fun MediaController.readUi(): PlayerUi {
@@ -86,6 +101,7 @@ private fun MediaController.readUi(): PlayerUi {
         maxVolume = if (deviceVolume) deviceInfo.maxVolume.coerceAtLeast(1) else 10,
         abA = extras.getLong(PlaybackService.EXTRA_AB_A, -1L).takeIf { it >= 0 },
         abB = extras.getLong(PlaybackService.EXTRA_AB_B, -1L).takeIf { it >= 0 },
+        lessonNumber = currentMediaItem?.mediaId?.toIntOrNull(),
     )
 }
 
@@ -139,7 +155,12 @@ fun PlayerScreen(controller: MediaController, onShowLessons: () -> Unit) {
             }
         }
         Spacer(Modifier.width(40.dp))
-        TranscriptArea(Modifier.weight(0.54f).fillMaxHeight())
+        TranscriptArea(
+            lessonNumber = ui.lessonNumber,
+            positionMs = ui.positionMs,
+            onSeek = { controller.seekTo(it); if (!ui.playing) controller.play() },
+            modifier = Modifier.weight(0.54f).fillMaxHeight(),
+        )
     }
 }
 
@@ -290,17 +311,99 @@ private fun AbButton(ui: PlayerUi, onMark: () -> Unit) {
     }
 }
 
+/**
+ * The synced transcript: Whisper's own segments for the current lesson. The segment being
+ * spoken is highlighted and kept in view; tapping a segment seeks there and plays.
+ * If the user scrolls the list by hand, following pauses for [FOLLOW_PAUSE_MS].
+ */
 @Composable
-private fun TranscriptArea(modifier: Modifier) {
-    Box(
-        modifier.background(MaterialTheme.colorScheme.surface, RoundedCornerShape(20.dp)).padding(32.dp),
-        contentAlignment = Alignment.Center,
+private fun TranscriptArea(lessonNumber: Int?, positionMs: Long, onSeek: (Long) -> Unit, modifier: Modifier) {
+    val context = LocalContext.current
+    val segments by produceState<List<Segment>?>(null, lessonNumber) {
+        value = lessonNumber?.let { n -> withContext(Dispatchers.IO) { loadTranscript(context, n) } }
+    }
+    val box = modifier.background(MaterialTheme.colorScheme.surface, RoundedCornerShape(20.dp))
+    val segs = segments
+    if (segs.isNullOrEmpty()) {
+        Box(box.padding(32.dp), contentAlignment = Alignment.Center) {
+            Text(
+                "Transcript isn't available for this lesson yet.",
+                style = MaterialTheme.typography.bodyLarge,
+                color = dim(),
+                textAlign = TextAlign.Center,
+            )
+        }
+        return
+    }
+
+    val active = activeSegmentIndex(segs, positionMs)
+    val listState = rememberLazyListState()
+    var lastTouchMs by remember { mutableLongStateOf(0L) }
+    LaunchedEffect(listState) {
+        listState.interactionSource.interactions.collect {
+            if (it is DragInteraction.Start || it is DragInteraction.Stop) lastTouchMs = SystemClock.uptimeMillis()
+        }
+    }
+    // A new lesson starts at the top (or wherever resume put it) without animation.
+    LaunchedEffect(segs) { listState.scrollToItem((active - 1).coerceAtLeast(0)) }
+    LaunchedEffect(active) {
+        if (active < 0 || listState.isScrollInProgress) return@LaunchedEffect
+        if (SystemClock.uptimeMillis() - lastTouchMs < FOLLOW_PAUSE_MS) return@LaunchedEffect
+        // Keep one earlier line above the active one, so the reader sees what came before.
+        listState.animateScrollToItem((active - 1).coerceAtLeast(0))
+    }
+
+    LazyColumn(
+        box,
+        state = listState,
+        contentPadding = PaddingValues(horizontal = 20.dp, vertical = 24.dp),
+        verticalArrangement = Arrangement.spacedBy(6.dp),
+    ) {
+        itemsIndexed(segs) { i, seg ->
+            SegmentLine(seg, isActive = i == active, onClick = {
+                lastTouchMs = 0L
+                onSeek(seg.startMs)
+            })
+        }
+        // Room for the last lines to scroll up to the top.
+        item { Spacer(Modifier.height(320.dp)) }
+    }
+}
+
+private const val FOLLOW_PAUSE_MS = 6_000L
+
+@Composable
+private fun SegmentLine(seg: Segment, isActive: Boolean, onClick: () -> Unit) {
+    // English lines are what the listener repeats, so they read brighter than the Russian narration.
+    val color = when {
+        isActive -> MaterialTheme.colorScheme.onPrimary
+        seg.english -> MaterialTheme.colorScheme.onSurface
+        else -> dim()
+    }
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .heightIn(min = 64.dp)
+            .background(
+                if (isActive) MaterialTheme.colorScheme.primary else Color.Transparent,
+                RoundedCornerShape(14.dp),
+            )
+            .clickable(onClick = onClick)
+            .padding(horizontal = 20.dp, vertical = 12.dp),
+        verticalAlignment = Alignment.CenterVertically,
     ) {
         Text(
-            "Transcript isn't available for this lesson yet.",
+            formatTime(seg.startMs),
             style = MaterialTheme.typography.bodyLarge,
-            color = dim(),
-            textAlign = TextAlign.Center,
+            color = color.copy(alpha = color.alpha * 0.7f),
+            modifier = Modifier.width(88.dp),
+        )
+        Text(
+            seg.text,
+            fontSize = 26.sp,
+            lineHeight = 34.sp,
+            fontWeight = if (seg.english || isActive) FontWeight.Medium else FontWeight.Normal,
+            color = color,
         )
     }
 }

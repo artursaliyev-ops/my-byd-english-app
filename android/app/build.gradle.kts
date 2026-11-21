@@ -4,6 +4,8 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
+val transcriptAssets = layout.buildDirectory.dir("generated/transcriptAssets")
+
 android {
     namespace = "app.bydplayer"
     compileSdk = 35
@@ -33,7 +35,15 @@ android {
     buildFeatures {
         compose = true
     }
+    // Whisper transcripts from the repo's transcripts/ go into the APK as assets/transcripts/<id>.json.
+    sourceSets["main"].assets.srcDir(transcriptAssets)
 }
+
+val copyTranscripts by tasks.registering(Sync::class) {
+    from(rootProject.file("../transcripts")) { include("*.json") }
+    into(transcriptAssets.map { it.dir("transcripts") })
+}
+tasks.named("preBuild") { dependsOn(copyTranscripts) }
 
 dependencies {
     implementation(libs.androidx.core.ktx)
