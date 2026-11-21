@@ -1,6 +1,6 @@
 # Shape the "▶ Me" control and the recording dot
 Type: prototype
-Status: open
+Status: claimed
 Blocked by:
 
 ## Question
