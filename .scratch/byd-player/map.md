@@ -38,7 +38,7 @@ Goal: a native Android app on the BYD Song Plus head unit (DiLink) for listening
 
 ## Fog
 
-- (nothing right now)
+- **Hold on media buttons**: if Check steering-wheel button signals on the car shows a distinct hold signal, map hold to the other action from Button mode. How depends on what the car sends: a long-press flag, FAST_FORWARD/REWIND, or key repeats. If there is none, drop it.
 
 ## Out of scope
 
