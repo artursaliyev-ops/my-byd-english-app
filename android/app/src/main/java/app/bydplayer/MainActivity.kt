@@ -26,6 +26,8 @@ import androidx.media3.common.MediaMetadata
 import androidx.media3.common.Player
 import androidx.media3.session.MediaController
 import androidx.media3.session.SessionToken
+import app.bydplayer.talk.Talk
+import app.bydplayer.talk.TalkScreen
 
 class MainActivity : ComponentActivity() {
     private var disableBlur: () -> Unit = {}
@@ -135,6 +137,13 @@ private fun App() {
         showSettings -> Screen.Settings
         showPlayer && c != null && current != null -> Screen.Player
         else -> Screen.Lessons
+    }
+    // A running Talk covers everything, also when the app comes back on screen (Talk spec §7).
+    val talk = Talk.screen
+    BackHandler(enabled = talk != null) {}
+    if (talk != null) {
+        TalkScreen(talk)
+        return
     }
     // Screens crossfade, as UI6 pages do (spec §7).
     Crossfade(targetState = screen, animationSpec = Ui6.tween(Ui6.SCREEN_MS), label = "screen") { shown ->

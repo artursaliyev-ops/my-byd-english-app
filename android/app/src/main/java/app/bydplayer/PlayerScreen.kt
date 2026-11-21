@@ -56,6 +56,7 @@ import androidx.compose.ui.unit.sp
 import androidx.media3.common.C
 import androidx.media3.common.Player
 import androidx.media3.session.MediaController
+import app.bydplayer.talk.Talk
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
@@ -181,6 +182,12 @@ fun PlayerScreen(controller: MediaController, onShowLessons: () -> Unit) {
 private fun Header(ui: PlayerUi, onShowLessons: () -> Unit, dot: @Composable () -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically) {
         GlassButton(onClick = onShowLessons, modifier = Modifier.heightIn(min = 72.dp)) { GlassLabel("‹  Lessons") }
+        // Talk lives only here, not on the lesson list, and only with a key built in (Talk spec §2, §7).
+        if (Talk.available) {
+            val context = LocalContext.current
+            Spacer(Modifier.width(12.dp))
+            GlassButton(onClick = { Talk.start(context) }, blue = true, modifier = Modifier.heightIn(min = 72.dp)) { GlassLabel("Talk") }
+        }
         Spacer(Modifier.width(28.dp))
         Column {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {

@@ -7,6 +7,9 @@
     <!-- Voice practice: the learner's answers in the speaking pauses. -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <!-- Talk: one Gemini Live WebSocket over the phone's hotspot. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <!-- Without this, resolveActivity() hides the system picker on Android 11+ (package visibility). -->
     <queries>
@@ -44,6 +47,11 @@
 
         <service
             android:name=".RecorderService"
+            android:exported="false"
+            android:foregroundServiceType="microphone" />
+
+        <service
+            android:name=".talk.TalkService"
             android:exported="false"
             android:foregroundServiceType="microphone" />
     </application>

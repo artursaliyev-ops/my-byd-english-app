@@ -1,7 +1,15 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+}
+
+// Talk (spec §2): the Gemini key comes from the uncommitted local.properties. Empty = no Talk button.
+val geminiApiKey: String = Properties().run {
+    rootProject.file("local.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
+    getProperty("GEMINI_API_KEY", "").trim()
 }
 
 val transcriptAssets = layout.buildDirectory.dir("generated/transcriptAssets")
@@ -18,6 +26,7 @@ android {
         versionCode = 1
         versionName = "0.1.0"
         ndk { abiFilters += "arm64-v8a" }
+        buildConfigField("String", "GEMINI_API_KEY", "\"$geminiApiKey\"")
     }
 
     buildTypes {
@@ -34,6 +43,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     // Whisper transcripts from the repo's transcripts/ go into the APK as assets/transcripts/<id>.json.
     sourceSets["main"].assets.srcDir(transcriptAssets)
@@ -54,5 +64,7 @@ dependencies {
     debugImplementation(libs.compose.ui.tooling)
     implementation(libs.media3.exoplayer)
     implementation(libs.media3.session)
+    implementation(libs.okhttp)
     testImplementation(libs.junit)
+    testImplementation(libs.org.json)
 }
