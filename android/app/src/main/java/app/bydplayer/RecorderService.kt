@@ -132,7 +132,11 @@ class RecorderService : Service() {
                     playing = after.playing && !LessonClock.reviewing,
                     pcm = audio,
                 )
-                cut.cutter.feed(chunk)?.let { done -> if (isVoiced(done.pcm)) save(store, cut, done) }
+                cut.cutter.feed(chunk)?.let { done ->
+                    val voiced = isVoiced(done.pcm)
+                    Log.i(TAG, "Cut ${done.pause.kind} at ${done.pause.startMs} ms, ${done.pcm.size * 1000L / AttemptCutter.SAMPLE_RATE} ms of audio, voiced=$voiced")
+                    if (voiced) save(store, cut, done)
+                }
                 if (cut.cutter.capturing != wasCapturing) {
                     wasCapturing = cut.cutter.capturing
                     val c = wasCapturing
