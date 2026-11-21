@@ -31,6 +31,7 @@ A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: 
 - [Shape the Talk screen and the feel of a Turn](issues/06-talk-screen.md): full-screen big state shape (green Anna / blue you / dots thinking) + Anna's latest line, learner's words never shown; Talk button on the player only; no barge-in yet; beep + tick; lesson resumes 5 s back only if it was playing. Prototype on local branch `prototype/talk-screen`.
 - [Measure a Turn on the car with the offline stack](issues/03-measure-a-turn.md): BYD's dashcam/cameras keep ~3 cores busy; Qwen3.5-2B gets ~4.5 tok/s (est. ~5 s to first audio) and passes ~2/10 of the partner test set; 0.8B gets ~9 tok/s (~3–4.5 s) but ~3/10. No offline model tried is both fast and good enough. Probe on local branch `probe/talk-turn`.
 - [Decide whether Talk runs offline or in the cloud](issues/04-offline-or-cloud.md): offline fails the bar, so Talk runs on a cloud model over the phone's hotspot, with no offline fallback; the 3–5 s bar and the partner and screen decisions still hold.
+- [Compare cloud options for a Talk Turn](issues/08-cloud-options.md): recommend OpenAI Realtime `gpt-realtime-2.1` (mini as cheaper fallback) with on-device Silero VAD, est. ~2.7–3.5 s and ~$1–2 per 20-min Talk; runner-up Deepgram Flux → Claude Haiku 5.5 → Cartesia Sonic 3.6, ~$0.25–0.45; key built in from `local.properties` with a budget cap. Estimates only; research on branch `research/cloud-talk-options`.
 
 ## Not yet specified
 
