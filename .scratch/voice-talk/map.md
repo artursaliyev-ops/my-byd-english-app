@@ -36,10 +36,11 @@ A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: 
 - [Decide what Talk does when the network drops](issues/11-network-drop.md): 8 s per Turn, then one silent retry (resume + resend the saved utterance); a head-unit "no connection" tone and a grey "No signal" state with the mic closed; 60 s offline ends the Talk and resumes the lesson; no network on "Talk" → 5 s "Connecting…" then back to the player; free-tier limits get their own "Talk limit reached" note; failed resumption → a silent new session with no fresh hello; 30-min cap is wall-clock.
 - [Measure a cloud Turn on the car over the hotspot](issues/10-measure-cloud-turn.md): Mac only, machine voices (user's choice): `gemini-3.1-flash-live-preview` wins, ~0.7 s to first audio and ~9/11 on the test set (2.5 native audio: ~2.6 s, ~4/11); use API `v1beta`, the opening as bare text; ~40–50 MB per 20-min Talk; owner's voice, hotspot, driving, 15-min resumption and weak signal are unmeasured and become first-car-build checks. Probe on local branch `probe/cloud-turn`.
 - [Decide what Talk remembers and keeps](issues/12-memory-and-retention.md): nothing: no memory between Talks, and no Talk audio or text is written on the head unit (logs carry timings and errors only), so no retention rule or delete control is needed.
+- [Decide how Talk behaves around calls, buttons and the screen](issues/13-driving-interruptions.md): rules follow the focus loss kind: transient (calls, "Hi BYD") pauses the Talk in a grey "Paused" state, 60 s ends it; ducking only lowers Anna; another media app ends it; play/pause = End Talk, ⏮ ⏭ and Wheel hold ignored; Talk carries on off-screen and with the screen off on one mic recording held open; barge-in stays off; background/screen-off mic and real call focus become first-car-build checks.
 
 ## Not yet specified
 
-<!-- nothing left: memory/retention and driving interruptions graduated into tickets; road noise, hotspot latency and Anna's echo into the mic are first-car-build checks (see the cloud Turn measurement) -->
+<!-- nothing left: every patch has graduated; road noise, hotspot latency, Anna's echo into the mic, the background/screen-off mic and real call focus are first-car-build checks (see the cloud Turn measurement and the calls/buttons ticket) -->
 
 ## Out of scope
 
