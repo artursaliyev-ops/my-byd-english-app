@@ -14,7 +14,7 @@ A hand-off-ready **spec** at `.scratch/voice-practice/spec.md` for recording the
   - Hands-free while driving: the mic records in the background while a lesson plays; only the parts inside speaking pauses are kept, found from transcript timings. The lesson never pauses for you.
   - Listening back happens when parked: transcript lines that have an Attempt get a "▶ Me" control that plays your Attempt, then the speaker's line. No automatic playback during the lesson.
   - Settings toggle "Record my answers", **off** by default; a red dot on the player screen while the mic is on.
-  - Retention: per lesson only the latest pass; at most the last 5 lessons; older ones deleted automatically; stored in app-internal storage, never on the SD card.
+  - Retention: at most the last 5 lessons; older ones deleted automatically; stored in app-internal storage, never on the SD card. ("Only the latest pass" became "newest Attempt per speaking pause", see the edge-cases decision.)
 - Consult `domain-modeling` for any new term. UI follows the UI6 glass style already in `Glass.kt`.
 
 ## Decisions so far
@@ -25,10 +25,11 @@ A hand-off-ready **spec** at `.scratch/voice-practice/spec.md` for recording the
 - [Find the speaking pauses in a lesson](issues/02-speaking-pause-detection.md): every silence ≥ 1.0 s except Russian → Russian; Russian vs English by alphabet; keep +0.2 s to −0.1 s; compare with the line after, except an echo after the answer is compared with the line before. About 277 pauses and 13 min of voice per lesson. Prototype on branch `prototype/speaking-pause-detection`.
 - [Check the microphone on the car](issues/03-car-mic-check.md): record with `VOICE_COMMUNICATION`; the car's AEC + NS cut the lesson by about 20–25 dB and the voice is clear; runs alongside the BYD voice app, no focus change; a recording started from the screen keeps going in the background, one started from the background is muted. Probe on branch `task/car-mic-probe`.
 - [Shape the "▶ Me" control and the recording dot](issues/04-attempt-playback-ui.md): chips at the end of the compared line, "▶ Me" and "▶ Echo" when there are two; plays Attempt, 0.4 s, speaker's line with the lesson paused, then back to its place, still paused; red dot by the title, pulsing inside speaking pauses. Prototype on branch `prototype/attempt-playback-ui`.
+- [Decide what a lesson pass means when the learner jumps around](issues/05-edge-cases.md): no pass; each speaking pause keeps its newest voiced Attempt, kept only if the whole pause played without a seek; pausing inside a pause listens up to 10 s more; any speed; the 5 kept lessons are the most recently recorded; Settings gets "Delete my answers".
 
 ## Not yet specified
 
-- **Recording format and size**: codec, bitrate, one file per Attempt vs one file per lesson with offsets; budget for 5 lessons × ~280 Attempts ≈ 65 min of kept voice (from the speaking-pause rule). The car records 16 kHz mono PCM from `VOICE_COMMUNICATION`.
+- **Recording format and size**: codec, bitrate, one file per Attempt vs one file per lesson with offsets (Attempts are replaced one pause at a time); budget for 5 lessons × ~280 Attempts ≈ 65 min of kept voice (from the speaking-pause rule). The car records 16 kHz mono PCM from `VOICE_COMMUNICATION`.
 - **Writing the spec**: once the tickets above are resolved, assemble `spec.md`.
 
 ## Out of scope

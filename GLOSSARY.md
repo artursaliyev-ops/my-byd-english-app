@@ -21,5 +21,5 @@ A silence in a lesson where the learner speaks out loud: answering a Russian pro
 _Avoid_: Gap, silence
 
 **Attempt**:
-The learner's own voice recorded during one speaking pause. It is played back next to the speaker's line it is compared with: usually the line after the pause, but the line before it when the Attempt echoes the answer just heard.
-_Avoid_: Recording, take
+The learner's own voice recorded during one speaking pause. It is played back next to the speaker's line it is compared with: usually the line after the pause, but the line before it when the Attempt echoes the answer just heard. A speaking pause has at most one Attempt: a newer one replaces it.
+_Avoid_: Recording, take, pass (there is no lesson-wide pass)
