@@ -9,3 +9,4 @@ android/app/build/
 android/local.properties
 byd-player-debug.apk
 .scratch/ui6-glass/reference/
+__pycache__/
