@@ -1,6 +1,6 @@
 # Decide when the mic starts and what a lesson resumed from the wheel does
 Type: grilling
-Status: open
+Status: claimed
 Blocked by: 03
 
 ## Question
