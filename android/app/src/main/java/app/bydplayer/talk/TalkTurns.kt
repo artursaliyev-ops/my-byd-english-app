@@ -58,7 +58,88 @@ class TalkTurns {
             // End Talk ends at once, mid-word, no goodbye (spec §6 step 8). Until ticket 18 adds
             // reconnecting and No signal, a lost session ends the Talk the same way.
             TalkEvent.EndPressed, TalkEvent.SessionLost -> end()
+            TalkEvent.FocusPaused -> pause()
+            TalkEvent.FocusDucked -> if (ducked) emptyList() else {
+                ducked = true
+                listOf(TalkEffect.Volume(TalkConfig.DUCK_VOLUME))
+            }
+            TalkEvent.FocusBack -> focusBack()
+            is TalkEvent.PauseOver -> if (state == TurnState.Paused && event.pause == pauses) {
+                state = TurnState.Ended
+                listOf(TalkEffect.EndWhenFocusBack)
+            } else {
+                emptyList()
+            }
+            TalkEvent.FocusGone -> {
+                state = TurnState.Ended
+                listOf(TalkEffect.EndLessonPaused)
+            }
         }
+    }
+
+    /** Anna plays at [TalkConfig.DUCK_VOLUME] under a navigation prompt. */
+    private var ducked = false
+
+    /** Counts pauses, so an earlier pause's timer can't end a later one. */
+    private var pauses = 0
+
+    /** The opening has gone out; before that a pause goes back to it (spec §10). */
+    private var opened = false
+
+    /** The session is ready, though the opening may still wait for focus. */
+    private var setUp = false
+
+    /** The learner's activity has started and not ended. */
+    private var speaking = false
+
+    /** An answer cut off by a pause: the rest of it is dropped until its turn completes. */
+    private var dropping = false
+
+    /**
+     * Transient focus loss (a call, "Hi BYD"): Anna stops mid-line, the mic closes, an
+     * utterance in progress or an answer still arriving is dropped. Anna's latest line stays.
+     */
+    private fun pause(): List<TalkEffect> {
+        if (state == TurnState.Paused) return emptyList()
+        val effects = mutableListOf<TalkEffect>(TalkEffect.StopAnna, TalkEffect.CloseMic)
+        if (speaking) {
+            // Close the activity; the answer to the cut-off words is dropped.
+            effects += TalkEffect.EndActivity
+            speaking = false
+            dropping = true
+        }
+        if (state == TurnState.Thinking || state == TurnState.Anna) dropping = !awaitingDrain && !drained
+        awaitingDrain = false
+        drained = false
+        silence = 0f
+        state = TurnState.Paused
+        pauses++
+        effects += TalkEffect.After(TalkConfig.PAUSE_MAX_MS, TalkEvent.PauseOver(pauses))
+        return effects
+    }
+
+    private fun focusBack(): List<TalkEffect> {
+        val effects = mutableListOf<TalkEffect>()
+        if (ducked) {
+            ducked = false
+            effects += TalkEffect.Volume(1f)
+        }
+        if (state != TurnState.Paused) return effects
+        when {
+            opened -> {
+                state = TurnState.You
+                effects += listOf(TalkEffect.PlayBeep, TalkEffect.OpenMic)
+            }
+            setUp -> effects += sendOpening()
+            else -> state = TurnState.Connecting
+        }
+        return effects
+    }
+
+    private fun sendOpening(): List<TalkEffect> {
+        opened = true
+        state = TurnState.Thinking
+        return listOf(TalkEffect.SendText(TalkConfig.OPENING))
     }
 
     private fun end(): List<TalkEffect> {
@@ -67,24 +148,26 @@ class TalkTurns {
     }
 
     private fun onServer(event: LiveEvent): List<TalkEffect> = when (event) {
-        LiveEvent.SetupComplete -> if (state == TurnState.Connecting) {
-            state = TurnState.Thinking
-            listOf(TalkEffect.SendText(TalkConfig.OPENING))
-        } else {
-            emptyList()
+        LiveEvent.SetupComplete -> {
+            setUp = true
+            if (state == TurnState.Connecting) sendOpening() else emptyList()
         }
-        is LiveEvent.Audio -> if (state == TurnState.Thinking || state == TurnState.Anna) {
+        is LiveEvent.Audio -> if (!dropping && (state == TurnState.Thinking || state == TurnState.Anna)) {
             state = TurnState.Anna
             listOf(TalkEffect.Play(event.pcm))
         } else {
             emptyList()
         }
-        is LiveEvent.AnnaSaid -> {
+        is LiveEvent.AnnaSaid -> if (dropping) emptyList() else {
             annaLine = if (lineDone) event.text.trim() else (annaLine + event.text).trimStart()
             lineDone = false
             emptyList()
         }
-        LiveEvent.TurnComplete -> {
+        LiveEvent.TurnComplete -> if (dropping) {
+            dropping = false
+            lineDone = true
+            emptyList()
+        } else {
             lineDone = true
             // Anna is done talking once her audio has played out (spec §6 step 2).
             if (state == TurnState.Anna || state == TurnState.Thinking) {
@@ -101,6 +184,9 @@ class TalkTurns {
         if (state != TurnState.You) return emptyList()
         return when (event) {
             is MicEvent.SpeechStarted -> {
+                speaking = true
+                // The new activity takes over from an answer still being dropped.
+                dropping = false
                 heard.reset()
                 heard.write(event.preRoll)
                 listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(event.preRoll))
@@ -115,6 +201,7 @@ class TalkTurns {
             }
             MicEvent.SpeechEnded -> {
                 state = TurnState.Thinking
+                speaking = false
                 silence = 0f
                 listOf(TalkEffect.EndActivity, TalkEffect.PlayTick, TalkEffect.CloseMic)
             }
@@ -122,8 +209,8 @@ class TalkTurns {
     }
 }
 
-/** What the Talk screen shows (spec §7). No signal and Paused come with later tickets. */
-enum class TurnState { Connecting, Thinking, Anna, You, Ended }
+/** What the Talk screen shows (spec §7). No signal comes with a later ticket. */
+enum class TurnState { Connecting, Thinking, Anna, You, Paused, Ended }
 
 sealed interface TalkEvent {
     /** A message from the Live session. */
@@ -143,6 +230,21 @@ sealed interface TalkEvent {
 
     /** The echo guard after Anna's audio is over. */
     data object EchoGuardOver : TalkEvent
+
+    /** Transient focus loss without ducking: a call, "Hi BYD" (spec §10). */
+    data object FocusPaused : TalkEvent
+
+    /** Transient focus loss that allows ducking: a navigation prompt. */
+    data object FocusDucked : TalkEvent
+
+    /** Focus is back after a transient loss. */
+    data object FocusBack : TalkEvent
+
+    /** Permanent focus loss: another media app plays. */
+    data object FocusGone : TalkEvent
+
+    /** The 60 s limit of pause number [pause] is up (asked for with [TalkEffect.After]). */
+    data class PauseOver(val pause: Int) : TalkEvent
 }
 
 /** What [TalkTurns] asks the service to do. */
@@ -188,4 +290,16 @@ sealed interface TalkEffect {
 
     /** End the Talk: close the session, stop Anna, give the lesson back (spec §9). */
     data object End : TalkEffect
+
+    /** Stop Anna mid-line and drop what is queued of her audio; the Talk goes on. */
+    data object StopAnna : TalkEffect
+
+    /** Play Anna at this fraction of full volume. */
+    data class Volume(val level: Float) : TalkEffect
+
+    /** End the Talk like [End], but give the lesson back only once audio focus returns. */
+    data object EndWhenFocusBack : TalkEffect
+
+    /** End the Talk like [End], but leave the lesson paused: another media app has taken over. */
+    data object EndLessonPaused : TalkEffect
 }

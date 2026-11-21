@@ -62,6 +62,12 @@ object TalkConfig {
     const val TICK_HZ = 1_600
     const val TICK_MS = 35
 
+    /** A pause (call, "Hi BYD") this long ends the Talk (spec §10). */
+    const val PAUSE_MAX_MS = 60_000L
+
+    /** Anna's volume under a navigation prompt (spec §10). */
+    const val DUCK_VOLUME = 0.3f
+
     /** After a Talk, a lesson that was playing resumes this far back (spec §9). */
     const val RESUME_BACK_MS = 5_000L
 }

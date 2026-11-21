@@ -18,6 +18,9 @@ object Talk {
     var screen by mutableStateOf<TalkScreenState?>(null)
         internal set
 
+    /** A Talk is running, so the media buttons follow the Talk rule (spec §10). Main thread. */
+    val active: Boolean get() = screen != null
+
     /** The Talk button on the player. */
     fun start(context: Context) {
         if (!available || screen != null) return

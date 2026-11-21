@@ -80,6 +80,7 @@ private fun word(state: TurnState) = when (state) {
     TurnState.Thinking -> "Thinking"
     TurnState.Anna -> "Anna"
     TurnState.You -> "Your turn"
+    TurnState.Paused -> "Paused"
     TurnState.Ended -> ""
 }
 
@@ -98,7 +99,7 @@ private fun TalkShape(state: TurnState, silence: Float, size: Dp) {
             TurnState.Anna -> annaRings(r, pulse)
             TurnState.Thinking -> thinkingDots(r, pulse)
             TurnState.You -> yourTurn(r, silence, blue)
-            TurnState.Connecting, TurnState.Ended -> drawCircle(Grey, radius = r * 0.6f, style = Stroke(10.dp.toPx()))
+            TurnState.Connecting, TurnState.Paused, TurnState.Ended -> drawCircle(Grey, radius = r * 0.6f, style = Stroke(10.dp.toPx()))
         }
     }
 }
