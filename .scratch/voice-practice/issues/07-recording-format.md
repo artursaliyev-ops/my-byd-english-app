@@ -1,6 +1,6 @@
 # Choose how Attempts are stored
 Type: grilling
-Status: open
+Status: claimed
 Blocked by: 05, 06
 
 ## Question
