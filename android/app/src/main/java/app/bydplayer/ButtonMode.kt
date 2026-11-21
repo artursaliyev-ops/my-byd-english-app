@@ -19,9 +19,27 @@ enum class ButtonMode(val label: String) {
         Skip -> if (forward) ButtonEffect.Forward5 else ButtonEffect.Back5
     }
 
+    /** What holding ⏮ / ⏭ on the wheel does: the press action of the other mode. */
+    fun holdEffectOf(forward: Boolean): ButtonEffect = when (this) {
+        Lessons -> Skip
+        Skip -> Lessons
+    }.effectOf(forward)
+
     companion object {
         val DEFAULT = Skip
     }
+}
+
+/**
+ * The BYD steering wheel sends a hold of ◀ / ▶ as its own key (one down, no repeats, to the
+ * media session only), not as a long-press of MEDIA_PREVIOUS / MEDIA_NEXT. The keycodes are
+ * BYD additions with no stock Android constant, so they are matched by name.
+ * Returns false for ◀, true for ▶, null for any other key.
+ */
+fun wheelHoldDirection(keyName: String): Boolean? = when (keyName) {
+    "KEYCODE_AUTO_MEDIA_PREVIOUS_LP" -> false
+    "KEYCODE_AUTO_MEDIA_NEXT_LP" -> true
+    else -> null
 }
 
 enum class ButtonEffect(val label: String) {

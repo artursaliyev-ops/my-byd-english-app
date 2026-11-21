@@ -53,6 +53,7 @@ fun SettingsScreen(onBack: () -> Unit) {
         Text("Button mode", style = MaterialTheme.typography.titleLarge)
         Text(
             "What ⏮ ⏭ do on the steering wheel, the car's now-playing widget and Bluetooth keys. " +
+                "Holding ◀ ▶ on the wheel does the other choice. " +
                 "The buttons on the player screen always stay the same.",
             style = MaterialTheme.typography.bodyLarge,
             color = dim,

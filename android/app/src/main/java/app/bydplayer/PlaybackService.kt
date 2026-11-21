@@ -35,6 +35,7 @@ class PlaybackService : MediaSessionService() {
     private lateinit var playback: PlaybackStore
     private lateinit var library: LibraryStore
     private lateinit var settings: SettingsStore
+    private lateinit var mediaButtons: MediaButtonPlayer
     private val handler = Handler(Looper.getMainLooper())
     private val ab = AbLoop()
     private var currentLesson: Int? = null
@@ -72,7 +73,8 @@ class PlaybackService : MediaSessionService() {
             .build()
         player.setPlaybackSpeed(playback.speed())
         player.addListener(PlayerEvents(player))
-        session = MediaSession.Builder(this, MediaButtonPlayer(player))
+        mediaButtons = MediaButtonPlayer(player)
+        session = MediaSession.Builder(this, mediaButtons)
             .setCallback(SessionCallback())
             .build()
         publishAb()
@@ -125,6 +127,17 @@ class PlaybackService : MediaSessionService() {
             if (caller == null || caller.isAppUi()) return passThrough()
             val effect = settings.buttonMode().effectOf(forward)
             ButtonLog.command(name, effect, caller.describe())
+            apply(effect)
+        }
+
+        /** A steering-wheel hold: the other mode's action, whoever sent it. */
+        fun hold(forward: Boolean, from: String) {
+            val effect = settings.buttonMode().holdEffectOf(forward)
+            ButtonLog.command(if (forward) "hold next" else "hold previous", effect, from)
+            apply(effect)
+        }
+
+        private fun apply(effect: ButtonEffect) {
             when (effect) {
                 ButtonEffect.PreviousLesson -> super.seekToPreviousMediaItem()
                 ButtonEffect.NextLesson -> super.seekToNextMediaItem()
@@ -178,16 +191,22 @@ class PlaybackService : MediaSessionService() {
     }
 
     private inner class SessionCallback : MediaSession.Callback {
-        /** Only records the key for Settings → Last button; Media3 then handles it as usual. */
+        /**
+         * Records the key for Settings → Last button. A steering-wheel hold is handled here, since
+         * Media3 doesn't know BYD's hold keys; everything else Media3 then handles as usual.
+         */
         override fun onMediaButtonEvent(session: MediaSession, controllerInfo: MediaSession.ControllerInfo, intent: Intent): Boolean {
             val key = if (Build.VERSION.SDK_INT >= 33) {
                 intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT, KeyEvent::class.java)
             } else {
                 @Suppress("DEPRECATION")
                 intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT)
-            }
-            key?.let { ButtonLog.key(it, via = "session, ${controllerInfo.describe()}") }
-            return false
+            } ?: return false
+            val from = controllerInfo.describe()
+            ButtonLog.key(key, via = "session, $from")
+            val forward = wheelHoldDirection(KeyEvent.keyCodeToString(key.keyCode)) ?: return false
+            if (key.action == KeyEvent.ACTION_DOWN && key.repeatCount == 0) mediaButtons.hold(forward, from)
+            return true
         }
 
         @OptIn(UnstableApi::class)

@@ -37,12 +37,12 @@ Goal: a native Android app on the BYD Song Plus head unit (DiLink) for listening
 - **Transcripts** (ticket 02): `tools/transcribe.py` writes `transcripts/<id>.json` (`{start,end,text,lang}` segments). I_01–I_10 done; the other 80 run later (~4 h). `transcripts/` is committed to git. See [02](issues/02-transcription-pipeline.md).
 - **[Synced transcript panel](issues/07-synced-transcript.md)**: `transcripts/*.json` is copied into the APK at build time, so new transcripts ship on the next build. The right panel lists Whisper segments with times, lights the last one started, and keeps it in view (following pauses 6 s after a manual scroll). Tapping a line seeks there and plays. English lines are bright, Russian dimmed. Lessons without a file show a message.
 - **[Button mode setting for the steering-wheel buttons](issues/08-media-button-mode.md)**: Settings (gear in the lesson list header) switches the media buttons between −5/+5 s (default) and prev/next lesson. A `ForwardingPlayer` remaps ⏮ ⏭ from any controller except the app's own screen, which is marked by a connection hint. It works in the background. **Last button** lists the last 24 key and command signals (keycode, down/up, repeat, long-press, sender) so the car check can be read on screen. Checked on the emulator only.
+- **[Check steering-wheel button signals on the car](issues/09-car-button-check.md)**: the wheel sends standard `MEDIA_PREVIOUS`/`MEDIA_NEXT` on a short press. Button mode −5/+5 s works on the car, in the foreground and in the background. A hold sends a separate BYD key, `AUTO_MEDIA_PREVIOUS_LP`/`AUTO_MEDIA_NEXT_LP`: one `down`, to the session only, today ignored. 301/302 are not wheel keys. ADB works over Wi‑Fi through the phone hotspot.
+- **[Wheel hold does the other Button-mode action](issues/10-wheel-hold-action.md)**: holding ◀/▶ on the wheel does the other mode's action (with −5/+5 s: previous/next lesson). It is matched by the BYD key name and works in the foreground and the background on the car.
 
 ## Fog
 
-- **Hold on media buttons**: if Check steering-wheel button signals on the car shows a distinct hold signal, map hold to the other action from Button mode. How depends on what the car sends: a long-press flag, FAST_FORWARD/REWIND, or key repeats. If there is none, drop it.
-
-- **Car-specific wheel keycodes**: the user remembers wheel presses showing code 301/302 (`DEMO_APP_1/2`) in other apps. If Check steering-wheel button signals on the car confirms the wheel sends only these, Button mode needs a way to catch them. Today the screen sees them only in the foreground and the session never does. Candidates: handle them in the Activity (foreground only) or an AccessibilityService key filter (background, needs a user grant). Decide once the car shows what reaches the app in the background.
+- **Signing key across computers**: every machine builds with its own debug key, so the car refuses an update from another computer. Uninstalling wipes the folder grant and the completed marks. A shared keystore kept out of git, or a release key, would fix it. Decide once installs move off a single machine.
 
 ## Out of scope
 

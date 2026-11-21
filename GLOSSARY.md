@@ -11,3 +11,7 @@ _Avoid_: Wheel buttons (too narrow), hardware keys
 **Button mode**:
 The setting that decides what the media buttons do: switch lesson, or skip 5 s back/forward. The on-screen controls never follow it.
 _Avoid_: Skip mode, wheel mode
+
+**Wheel hold**:
+Holding the steering-wheel ◀ or ▶. The car sends it as its own BYD key, not as a repeated media button, and it does the action of the other Button mode.
+_Avoid_: Long-press (Android's long-press flag never arrives)

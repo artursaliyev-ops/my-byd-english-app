@@ -19,6 +19,21 @@ class ButtonModeTest {
         assertEquals(ButtonEffect.NextLesson, ButtonMode.Lessons.effectOf(forward = true))
     }
 
+    @Test fun holdDoesTheOtherMode() {
+        assertEquals(ButtonEffect.PreviousLesson, ButtonMode.Skip.holdEffectOf(forward = false))
+        assertEquals(ButtonEffect.NextLesson, ButtonMode.Skip.holdEffectOf(forward = true))
+        assertEquals(ButtonEffect.Back5, ButtonMode.Lessons.holdEffectOf(forward = false))
+        assertEquals(ButtonEffect.Forward5, ButtonMode.Lessons.holdEffectOf(forward = true))
+    }
+
+    @Test fun recognisesWheelHoldKeys() {
+        assertEquals(false, wheelHoldDirection("KEYCODE_AUTO_MEDIA_PREVIOUS_LP"))
+        assertEquals(true, wheelHoldDirection("KEYCODE_AUTO_MEDIA_NEXT_LP"))
+        assertEquals(null, wheelHoldDirection("KEYCODE_MEDIA_NEXT"))
+        assertEquals(null, wheelHoldDirection("KEYCODE_AUTO_VOLUME_UP_LP"))
+        assertEquals(null, wheelHoldDirection("1234"))
+    }
+
     @Test fun describesKeys() {
         assertEquals(
             "key MEDIA_NEXT down · repeat 3 · long-press · via screen",
