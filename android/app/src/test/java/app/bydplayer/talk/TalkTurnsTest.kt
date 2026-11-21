@@ -17,7 +17,7 @@ class TalkTurnsTest {
     @Test
     fun `when the session is ready the opening goes out and Anna is thinking`() {
         val effects = talk.on(TalkEvent.Server(LiveEvent.SetupComplete))
-        assertEquals(listOf(TalkEffect.SendText("(The learner pressed Talk. Start the Talk.)")), effects)
+        assertEquals(listOf(TalkEffect.SendText("(The learner pressed Talk. Start the Talk.)"), TalkEffect.After(8_000, TalkEvent.TurnTimeout(1))), effects)
         assertEquals(TurnState.Thinking, talk.state)
     }
 
@@ -72,7 +72,7 @@ class TalkTurnsTest {
         talk.on(TalkEvent.Server(LiveEvent.SetupComplete))
         assertEquals(listOf(TalkEffect.NewSession), talk.on(TalkEvent.SessionLost))
         assertEquals(
-            listOf(TalkEffect.SendText("(The learner pressed Talk. Start the Talk.)")),
+            listOf(TalkEffect.SendText("(The learner pressed Talk. Start the Talk.)"), TalkEffect.After(8_000, TalkEvent.TurnTimeout(2))),
             talk.on(TalkEvent.Server(LiveEvent.SetupComplete)),
         )
         assertEquals(TurnState.Thinking, talk.state)
@@ -139,7 +139,7 @@ class TalkTurnsTest {
         assertEquals(
             listOf(
                 TalkEffect.EndActivity, TalkEffect.PlayTick, TalkEffect.CloseMic,
-                TalkEffect.After(8_000, TalkEvent.TurnTimeout(1)),
+                TalkEffect.After(8_000, TalkEvent.TurnTimeout(2)),
             ),
             mic(MicEvent.SpeechEnded),
         )

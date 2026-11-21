@@ -183,7 +183,7 @@ class NetworkDropTest {
         talk.on(TalkEvent.SessionLost)
         assertEquals(listOf(TalkEffect.NewSession), talk.on(TalkEvent.ResumeRefused))
         assertEquals(TurnState.You, talk.state)
-        assertEquals(listOf(TalkEffect.CloseMic, TalkEffect.SendText("(The connection came back.)")), server(LiveEvent.SetupComplete))
+        assertEquals(listOf(TalkEffect.CloseMic, TalkEffect.SendText("(The connection came back.)"), TalkEffect.After(8_000, TalkEvent.TurnTimeout(2))), server(LiveEvent.SetupComplete))
         assertEquals(TurnState.Thinking, talk.state)
         assertEquals(TalkEffect.Play(byteArrayOf(5)), server(LiveEvent.Audio(byteArrayOf(5))).single())
     }
@@ -212,7 +212,7 @@ class NetworkDropTest {
         val again = timer<TalkEvent.TryAgain>(talk.on(TalkEvent.SessionLost))!!
         assertEquals(TurnState.Connecting, talk.state)
         assertEquals(listOf(TalkEffect.NewSession), talk.on(again.event))
-        assertEquals(listOf(TalkEffect.SendText("(The learner pressed Talk. Start the Talk.)")), server(LiveEvent.SetupComplete))
+        assertEquals(listOf(TalkEffect.SendText("(The learner pressed Talk. Start the Talk.)"), TalkEffect.After(8_000, TalkEvent.TurnTimeout(1))), server(LiveEvent.SetupComplete))
     }
 
     @Test
@@ -220,5 +220,50 @@ class NetworkDropTest {
         val t = timer<TalkEvent.ConnectTimeout>(talk.on(TalkEvent.Start))!!
         server(LiveEvent.SetupComplete)
         assertEquals(emptyList<TalkEffect>(), talk.on(t.event))
+    }
+
+    @Test
+    fun `an opening with no first audio in 8 s is retried, then No signal, never stuck in Thinking`() {
+        val first = timer<TalkEvent.TurnTimeout>(server(LiveEvent.SetupComplete))!!
+        assertEquals(8_000L, first.ms)
+        assertEquals(listOf(TalkEffect.NewSession), talk.on(first.event))
+        val resent = server(LiveEvent.SetupComplete)
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.OPENING)), resent.filterIsInstance<TalkEffect.SendText>())
+        talk.on(timer<TalkEvent.TurnTimeout>(resent)!!.event)
+        assertEquals(TurnState.NoSignal, talk.state)
+    }
+
+    @Test
+    fun `a lost time-up is retried, then No signal ends the Talk`() {
+        toYou()
+        val sent = talk.on(TalkEvent.TimeUp)
+        assertEquals(listOf(TalkEffect.Reconnect("h1")), talk.on(timer<TalkEvent.TurnTimeout>(sent)!!.event))
+        val resent = server(LiveEvent.SetupComplete)
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.TIME_UP)), resent.filterIsInstance<TalkEffect.SendText>())
+        val noSignal = talk.on(timer<TalkEvent.TurnTimeout>(resent)!!.event)
+        assertEquals(TurnState.NoSignal, talk.state)
+        assertEquals(listOf(TalkEffect.PlayNoConnection, TalkEffect.End), talk.on(timer<TalkEvent.NoSignalOver>(noSignal)!!.event))
+    }
+
+    @Test
+    fun `came-back gets the 8 s Turn timeout`() {
+        toYou()
+        talk.on(TalkEvent.SessionLost)
+        talk.on(TalkEvent.ResumeRefused)
+        assertEquals(8_000L, timer<TalkEvent.TurnTimeout>(server(LiveEvent.SetupComplete))!!.ms)
+    }
+
+    @Test
+    fun `a failed Turn with no handle opens a new session and says the connection came back`() {
+        server(LiveEvent.SetupComplete)
+        server(LiveEvent.Audio(byteArrayOf(1)))
+        server(LiveEvent.TurnComplete)
+        talk.on(TalkEvent.PlaybackDrained)
+        talk.on(TalkEvent.EchoGuardOver)
+        val t = timer<TalkEvent.TurnTimeout>(learnerSays())!!
+        assertEquals(listOf(TalkEffect.NewSession), talk.on(t.event))
+        val resent = server(LiveEvent.SetupComplete)
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.CAME_BACK)), resent.filterIsInstance<TalkEffect.SendText>())
+        assertTrue(resent.none { it is TalkEffect.SendAudio || it == TalkEffect.StartActivity })
     }
 }

@@ -73,7 +73,7 @@ class TalkService : Service() {
 
     override fun onDestroy() {
         if (turns != null) finishTalk()
-        if (waitingForFocus) giveLessonBack(resume = true)
+        if (waitingForFocus) giveLessonBack(resume = true, asBefore = waitingAsBefore)
         super.onDestroy()
     }
 
@@ -145,7 +145,7 @@ class TalkService : Service() {
                 TalkEffect.End -> finishTalk()
                 TalkEffect.StopAnna -> voice?.stop()
                 is TalkEffect.Volume -> voice?.volume(effect.level)
-                TalkEffect.EndWhenFocusBack -> finishTalk(LessonBack.WhenFocusBack)
+                is TalkEffect.EndWhenFocusBack -> finishTalk(LessonBack.WhenFocusBack, effect.note, effect.asBefore)
                 TalkEffect.EndLessonPaused -> finishTalk(LessonBack.Never)
                 is TalkEffect.Reconnect -> reconnect(effect.handle)
                 TalkEffect.PlayNoConnection -> sounds?.let {
@@ -171,9 +171,13 @@ class TalkService : Service() {
         session?.open(handle)
     }
 
+    /** When the current quiet ring started filling, on the [SystemClock.uptimeMillis] clock. */
+    private var quietSince: Long? = null
+
     private fun publish() {
         val t = turns ?: return
-        Talk.screen = if (t.state == TurnState.Ended) null else TalkScreenState(t.state, t.annaLine, t.silence)
+        quietSince = if (t.quietRing) quietSince ?: SystemClock.uptimeMillis() else null
+        Talk.screen = if (t.state == TurnState.Ended) null else TalkScreenState(t.state, t.annaLine, t.silence, quietSince)
     }
 
     /**
@@ -185,13 +189,17 @@ class TalkService : Service() {
     /** The Talk is over but holds focus until it returns, then resumes the lesson (spec §10). */
     private var waitingForFocus = false
 
+    /** Once focus returns, the lesson comes back as it was before the tap, not by the resume rule. */
+    private var waitingAsBefore = false
+
     /**
      * Ends at once (spec §9): socket, Anna, focus, screen, then the lesson by the resume rule.
      * A "no connection" tone still playing finishes before the lesson comes back. [note] shows
      * on the player.
      */
-    private fun finishTalk(lessonBack: LessonBack = LessonBack.Now, note: String? = null) {
+    private fun finishTalk(lessonBack: LessonBack = LessonBack.Now, note: String? = null, asBefore: Boolean = false) {
         turns = null
+        quietSince = null
         timers.removeCallbacksAndMessages(null)
         mic?.stop(); mic = null
         session?.close(); session = null
@@ -207,9 +215,10 @@ class TalkService : Service() {
             // Played now, the lesson would only be held back by the call: keep the focus
             // request so its return is heard, and resume then.
             waitingForFocus = true
+            waitingAsBefore = asBefore
             return
         }
-        val back = { giveLessonBack(resume = lessonBack != LessonBack.Never, asBefore = lessonBack == LessonBack.AsBefore) }
+        val back = { giveLessonBack(resume = lessonBack != LessonBack.Never, asBefore = asBefore || lessonBack == LessonBack.AsBefore) }
         // Let the tone play out first; a new Talk started meanwhile has the lesson now.
         if (toneLeft > 0) main.postDelayed({ if (turns == null) back() }, toneLeft) else back()
     }
@@ -234,7 +243,7 @@ class TalkService : Service() {
         Log.i(TAG, "focus change $change")
         if (waitingForFocus) {
             when (change) {
-                AudioManager.AUDIOFOCUS_GAIN -> giveLessonBack(resume = true)
+                AudioManager.AUDIOFOCUS_GAIN -> giveLessonBack(resume = true, asBefore = waitingAsBefore)
                 AudioManager.AUDIOFOCUS_LOSS -> giveLessonBack(resume = false)
             }
             return

@@ -47,6 +47,13 @@ object Talk {
 
 /**
  * What the Talk screen draws (spec §7): the state, Anna's latest line, and in Your turn how full
- * the white silence ring is. Never the learner's words.
+ * the white silence ring is and, before the learner speaks, since when the slow quiet ring has
+ * been filling toward the nudge ([android.os.SystemClock.uptimeMillis], null when it isn't
+ * running; spec §6 step 6). Never the learner's words.
  */
-data class TalkScreenState(val state: TurnState, val annaLine: String, val silence: Float = 0f)
+data class TalkScreenState(
+    val state: TurnState,
+    val annaLine: String,
+    val silence: Float = 0f,
+    val quietSince: Long? = null,
+)

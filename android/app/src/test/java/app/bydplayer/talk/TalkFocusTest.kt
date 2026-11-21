@@ -75,7 +75,7 @@ class TalkFocusTest {
         assertTrue(talk.on(quiet).isEmpty())
         talk.on(TalkEvent.FocusPaused)
         assertTrue(talk.on(TalkEvent.TimeUp).isEmpty())
-        assertEquals(listOf(TalkEffect.SendText(TalkConfig.TIME_UP)), talk.on(TalkEvent.FocusBack))
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.TIME_UP), TalkEffect.After(8_000, TalkEvent.TurnTimeout(4))), talk.on(TalkEvent.FocusBack))
     }
 
     @Test
@@ -123,7 +123,7 @@ class TalkFocusTest {
     fun `a pause while connecting goes back to the opening once focus returns`() {
         talk.on(TalkEvent.FocusPaused)
         assertTrue(server(LiveEvent.SetupComplete).isEmpty())
-        assertEquals(listOf(TalkEffect.SendText(TalkConfig.OPENING)), talk.on(TalkEvent.FocusBack))
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.OPENING), TalkEffect.After(8_000, TalkEvent.TurnTimeout(2))), talk.on(TalkEvent.FocusBack))
         assertEquals(TurnState.Thinking, talk.state)
     }
 
@@ -131,7 +131,7 @@ class TalkFocusTest {
     fun `60 s paused ends the Talk, and the lesson waits for focus to come back`() {
         toYou()
         val timer = pauseTimer(talk.on(TalkEvent.FocusPaused))
-        assertEquals(listOf(TalkEffect.EndWhenFocusBack), talk.on(timer.event))
+        assertEquals(listOf(TalkEffect.EndWhenFocusBack()), talk.on(timer.event))
         assertEquals(TurnState.Ended, talk.state)
     }
 
@@ -146,10 +146,10 @@ class TalkFocusTest {
     }
 
     @Test
-    fun `End Talk works while paused`() {
+    fun `End Talk works while paused, and the lesson waits for focus to come back`() {
         toYou()
         talk.on(TalkEvent.FocusPaused)
-        assertEquals(listOf(TalkEffect.End), talk.on(TalkEvent.EndPressed))
+        assertEquals(listOf(TalkEffect.EndWhenFocusBack()), talk.on(TalkEvent.EndPressed))
     }
 
     @Test

@@ -39,7 +39,7 @@ class TalkRulesTest {
         val timer = quietTimer(opened())!!
         assertEquals(9_000L, timer.ms)
         assertEquals(
-            listOf(TalkEffect.CloseMic, TalkEffect.SendText("(The learner is quiet.)")),
+            listOf(TalkEffect.CloseMic, TalkEffect.SendText("(The learner is quiet.)"), TalkEffect.After(8_000, TalkEvent.TurnTimeout(2))),
             talk.on(timer.event),
         )
         assertEquals(TurnState.Thinking, talk.state)
@@ -121,7 +121,7 @@ class TalkRulesTest {
         assertTrue(talk.on(TalkEvent.TimeUp).isEmpty())
         mic(MicEvent.SpeechEnded)
         assertEquals(TurnState.Thinking, talk.state)
-        assertEquals(listOf(TalkEffect.SendText("(Time is up.)")), annaSays("Nice. Is the road busy?"))
+        assertEquals(listOf(TalkEffect.SendText("(Time is up.)"), TalkEffect.After(8_000, TalkEvent.TurnTimeout(3))), annaSays("Nice. Is the road busy?"))
         assertEquals(TurnState.Thinking, talk.state)
         server(LiveEvent.Audio(byteArrayOf(1)))
         server(LiveEvent.AnnaSaid("We talked a lot today! Bye! Drive safe."))
@@ -133,8 +133,38 @@ class TalkRulesTest {
     @Test
     fun `time up in Your turn before the learner speaks goes out at once`() {
         opened()
-        assertEquals(listOf(TalkEffect.CloseMic, TalkEffect.SendText("(Time is up.)")), talk.on(TalkEvent.TimeUp))
+        assertEquals(listOf(TalkEffect.CloseMic, TalkEffect.SendText("(Time is up.)"), TalkEffect.After(8_000, TalkEvent.TurnTimeout(2))), talk.on(TalkEvent.TimeUp))
         assertEquals(TurnState.Thinking, talk.state)
         assertTrue(talk.on(TalkEvent.Quiet(1)).isEmpty())
+    }
+
+    @Test
+    fun `the slow quiet ring runs in Your turn until the learner speaks`() {
+        opened()
+        assertTrue(talk.quietRing)
+        mic(MicEvent.SpeechStarted(byteArrayOf(1)))
+        assertTrue(!talk.quietRing)
+    }
+
+    @Test
+    fun `no quiet ring outside Your turn, nor once the nudge is spent`() {
+        server(LiveEvent.SetupComplete)
+        assertTrue(!talk.quietRing)
+        talk.on(quietTimer(annaSays("Hi! How is your day?"))!!.event)
+        assertTrue(!talk.quietRing)
+        annaSays("Take your time.")
+        assertEquals(TurnState.You, talk.state)
+        assertTrue(!talk.quietRing)
+    }
+
+    /** The Turn timeout among [effects]. */
+    private fun turnTimeout(effects: List<TalkEffect>) =
+        effects.filterIsInstance<TalkEffect.After>().single { it.event is TalkEvent.TurnTimeout }
+
+    @Test
+    fun `the nudge and time-up get the 8 s Turn timeout too`() {
+        assertEquals(8_000L, turnTimeout(talk.on(quietTimer(opened())!!.event)).ms)
+        annaSays("Take your time.")
+        assertEquals(8_000L, turnTimeout(talk.on(TalkEvent.TimeUp)).ms)
     }
 }

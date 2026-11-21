@@ -3,50 +3,45 @@ package app.bydplayer.talk
 /**
  * The Turn state machine of one Talk (spec §6). Pure Kotlin, no Android types: [TalkService]
  * feeds it events (server messages, the [SpeechGate]'s mic events, playback draining, timers it
- * asked for, button presses, and later focus) and carries out the effects it returns. Not
+ * asked for, button presses and focus changes) and carries out the effects it returns. Not
  * thread-safe: call it from one thread.
+ *
+ * Two conditions interrupt the Turns, separately or both at once: focus lost (Paused, spec §10)
+ * and the connection lost (No signal, spec §8). Each has its own 60 s timer, and neither clears
+ * the other: reconnecting goes on while paused, the "no connection" tone waits for focus, and the
+ * Turns go on (the turn beep and Your turn) only once focus is back and the session is up. Any
+ * end while focus is lost gives the lesson back only once focus returns. While both hold, the
+ * screen shows Paused.
+ *
+ * Besides the learner's Turns, the app's control text (spec §4: the opening, the nudge,
+ * came-back, time-up) also gets an answer from Anna; this machine runs each such exchange like
+ * a Turn, with the same timeout and retry, though the glossary's Turn is the learner's.
  */
 class TalkTurns {
-    var state: TurnState = TurnState.Connecting
-        private set
+    // ---- What the screen shows ----
+
+    val state: TurnState
+        get() = when {
+            ended -> TurnState.Ended
+            focusLost -> TurnState.Paused
+            noSignal -> TurnState.NoSignal
+            else -> phase
+        }
 
     /** Anna's latest line, from her output transcript (spec §7). Kept in memory only. */
     var annaLine: String = ""
         private set
 
-    /** Her turn is complete, so the next transcript fragment starts a new line. */
-    private var lineDone = false
-
-    /** Her turn is complete and the service is waiting for her audio to drain. */
-    private var awaitingDrain = false
-
-    /** Her audio has drained after her complete turn: the echo guard is running. */
-    private var drained = false
-
     /** How full the white silence ring is in Your turn, 0 to 1 (spec §6 step 4). */
     var silence: Float = 0f
         private set
 
-    private val heard = java.io.ByteArrayOutputStream()
-
-    /** Which of Your turns this is, so a quiet timer from an earlier one is ignored. */
-    private var yourTurn = 0
-
-    /** The learner has begun to speak in this one of Your turns. */
-    private var spoke = false
-
-    /** The 30-min cap is reached (spec §6 step 9): no more of Your turns. */
-    private var timeUp = false
-
-    /** `(Time is up.)` has gone out: the Talk ends after her goodbye plays. */
-    private var timeUpSent = false
-
-    /** No nudge until the learner next speaks: one was sent, or Anna answered "wait" (spec §6 step 6). */
-    private var nudgeSpent = false
+    /** The slow quiet ring runs: Your turn, nothing said yet, and the nudge still to come (spec §6 step 6). */
+    val quietRing: Boolean get() = listening && !learnerSpoke && !nudgeSpent
 
     /**
      * The learner's current utterance, pre-roll included: 16 kHz PCM, in memory only (spec §5),
-     * kept until the next one starts so a failed Turn can be resent (ticket 18).
+     * kept until the next one starts so a failed Turn can be resent (spec §8).
      */
     val utterance: ByteArray get() = heard.toByteArray()
 
@@ -54,166 +49,303 @@ class TalkTurns {
     var handle: String? = null
         private set
 
-    /** A Turn is under way: from the opening or the learner's speech start to Anna's turnComplete. */
+    // ---- Turn flow ----
+
+    /** Where the Turns are: Connecting, Thinking, Anna or You. Paused and No signal lie over it. */
+    private var phase = TurnState.Connecting
+    private var ended = false
+
+    /** The opening has gone out. */
+    private var opened = false
+
+    /** A Turn is under way: from its control text or the learner's speech start to Anna's turnComplete. */
     private var inTurn = false
+
+    /** Control text that began the current Turn, resent on a retry; null for a learner's Turn. */
+    private var controlText: String? = null
+
+    /** The current Turn's answer has begun: its timeout is spent. */
+    private var firstAudioCame = false
+
+    /** After Anna's complete turn: her audio draining, then the echo guard. */
+    private var tail = AnnaTail.None
+
+    /** Her turn is complete, so the next transcript fragment starts a new line. */
+    private var lineDone = false
+
+    /** An answer cut off by a pause: the rest of it is dropped until its turn completes. */
+    private var droppingAnswer = false
+
+    private val heard = java.io.ByteArrayOutputStream()
+
+    /** The learner's activity has started and not ended. */
+    private var learnerSpeaking = false
+
+    /** The learner has begun to speak in this one of Your turns. */
+    private var learnerSpoke = false
+
+    /** No nudge until the learner next speaks: one was sent, or Anna answered "wait" (spec §6 step 6). */
+    private var nudgeSpent = false
+
+    /** The 30-min cap is reached (spec §6 step 9): no more of Your turns. */
+    private var capReached = false
+
+    /** `(Time is up.)` has gone out: the Talk ends after her goodbye plays. */
+    private var timeUpSent = false
+
+    // ---- Reconnect ----
+
+    /** A first session has been set up: Connecting can no longer end in "No internet". */
+    private var everSetUp = false
+
+    /** The current session is set up. */
+    private var sessionUp = false
+
+    /** A [TalkEffect.Reconnect] or [TalkEffect.NewSession] went out (or a limit retry waits) and the next session isn't set up yet. */
+    private var reopening = false
 
     /** A `goAway` came mid-Turn: reconnect once that Turn completes. */
     private var goAwayPending = false
 
-    /** A [TalkEffect.Reconnect] went out and the new session isn't set up yet. */
-    private var reconnecting = false
-
-    /** Which Turn timeout is current (spec §8), so a timer from an earlier Turn is ignored. */
-    private var turnNo = 0
-
-    /** The current Turn's answer has begun: its timeout is spent. */
-    private var answered = false
-
     /** The current Turn has had its one silent retry (spec §8). */
     private var retried = false
 
-    /** Once the next session is set up, resend the Turn: the utterance, or [lastText]. */
+    /** Once the next session is set up, resend the Turn: the utterance, or [controlText]. */
     private var resendOnSetup = false
 
-    /** Control text that began the current Turn, resent on a retry; null for a learner's Turn. */
-    private var lastText: String? = null
-
-    /** Which No signal spell this is, so a 60 s timer from an earlier one is ignored. */
-    private var outage = 0
-
-    /** A new session without the old conversation: once it is set up, say the connection came back. */
-    private var cameBack = false
+    /** The session is new, without the Talk so far: say the connection came back (spec §8). */
+    private var contextLost = false
 
     /** A limit refusal mid-Talk has had its one retry; cleared once a session is set up again. */
     private var limitRetried = false
 
-    fun on(event: TalkEvent): List<TalkEffect> {
-        if (state == TurnState.Ended) return emptyList()
-        return when (event) {
-            is TalkEvent.Server -> onServer(event.event)
-            is TalkEvent.Mic -> onMic(event.event)
-            TalkEvent.PlaybackDrained -> if (state == TurnState.NoSignal) {
-                emptyList()
-            } else if (awaitingDrain && (timeUpSent || isGoodbye(annaLine))) {
-                // Her goodbye has played: the Talk is over (spec §6 step 7).
-                end()
-            } else if (awaitingDrain) {
-                awaitingDrain = false
-                drained = true
-                listOf(TalkEffect.After(TalkConfig.ECHO_GUARD_MS, TalkEvent.EchoGuardOver))
-            } else {
-                emptyList()
-            }
-            TalkEvent.EchoGuardOver -> if (state == TurnState.NoSignal) {
-                emptyList()
-            } else if (drained && timeUp) {
-                drained = false
-                sendTimeUp()
-            } else if (drained) {
-                drained = false
-                startYourTurn()
-            } else {
-                emptyList()
-            }
-            // End Talk ends at once, mid-word, no goodbye (spec §6 step 8).
-            TalkEvent.EndPressed -> end()
-            TalkEvent.SessionLost -> onSessionLost()
-            is TalkEvent.Quiet -> onQuiet(event)
-            TalkEvent.TimeUp -> onTimeUp()
-            TalkEvent.Start -> listOf(TalkEffect.After(TalkConfig.CONNECT_TIMEOUT_MS, TalkEvent.ConnectTimeout))
-            TalkEvent.ConnectTimeout -> if (state == TurnState.Connecting) {
-                // No network on Talk (spec §8): back to the player, the lesson as it was.
-                state = TurnState.Ended
-                listOf(TalkEffect.PlayNoConnection, TalkEffect.GiveUp(TalkConfig.NO_INTERNET))
-            } else {
-                emptyList()
-            }
-            is TalkEvent.TurnTimeout -> onTurnTimeout(event)
-            TalkEvent.TryAgain -> onTryAgain()
-            is TalkEvent.NoSignalOver -> if (state == TurnState.NoSignal && event.outage == outage) {
-                state = TurnState.Ended
-                listOf(TalkEffect.PlayNoConnection, TalkEffect.End)
-            } else {
-                emptyList()
-            }
-            TalkEvent.ResumeRefused -> onResumeRefused()
-            TalkEvent.LimitReached -> onLimit()
-            TalkEvent.LimitRetry -> onLimitRetry()
-            TalkEvent.FocusPaused -> pause()
-            TalkEvent.FocusDucked -> if (ducked) emptyList() else {
-                ducked = true
-                listOf(TalkEffect.Volume(TalkConfig.DUCK_VOLUME))
-            }
-            TalkEvent.FocusBack -> focusBack()
-            is TalkEvent.PauseOver -> if (state == TurnState.Paused && event.pause == pauses) {
-                state = TurnState.Ended
-                listOf(TalkEffect.EndWhenFocusBack)
-            } else {
-                emptyList()
-            }
-            TalkEvent.FocusGone -> {
-                state = TurnState.Ended
-                listOf(TalkEffect.EndLessonPaused)
-            }
-        }
-    }
+    /** No signal: the connection is lost and reconnecting goes on in the background (spec §8). */
+    private var noSignal = false
+
+    // ---- Focus ----
+
+    /** Paused: transient focus loss (spec §10). */
+    private var focusLost = false
 
     /** Anna plays at [TalkConfig.DUCK_VOLUME] under a navigation prompt. */
     private var ducked = false
 
-    /** Counts pauses, so an earlier pause's timer can't end a later one. */
-    private var pauses = 0
+    /** No signal began while focus was lost, so its tone plays once focus is back. */
+    private var toneOwed = false
 
-    /** The opening has gone out; before that a pause goes back to it (spec §10). */
-    private var opened = false
+    /**
+     * Paused or No signal cut the Turns off (or the opening hasn't gone out): they go on with
+     * [resumeTurns] once neither holds and the session is up.
+     */
+    private var awaitingResume = true
 
-    /** The session is ready, though the opening may still wait for focus. */
-    private var setUp = false
+    // ---- Timer generations: each bump makes the earlier timers of its kind stale ----
 
-    /** The learner's activity has started and not ended. */
-    private var speaking = false
+    private var quietGeneration = 0
+    private var turnTimeoutGeneration = 0
+    private var outageGeneration = 0
+    private var pauseGeneration = 0
 
-    /** An answer cut off by a pause: the rest of it is dropped until its turn completes. */
-    private var dropping = false
+    // ---- Named conditions ----
+
+    private val interrupted get() = focusLost || noSignal
+
+    /** Your turn, with the mic open. */
+    private val listening get() = phase == TurnState.You && !interrupted
+
+    /** Anna is being asked or is answering, and her audio may play. */
+    private val answerExpected get() = (phase == TurnState.Thinking || phase == TurnState.Anna) && !interrupted
+
+    fun on(event: TalkEvent): List<TalkEffect> {
+        if (ended) return emptyList()
+        return when (event) {
+            is TalkEvent.Server -> onServer(event.event)
+            is TalkEvent.Mic -> onMic(event.event)
+            TalkEvent.PlaybackDrained -> onDrained()
+            TalkEvent.EchoGuardOver -> onEchoGuardOver()
+            // End Talk ends at once, mid-word, no goodbye (spec §6 step 8).
+            TalkEvent.EndPressed -> end(TalkEffect.End)
+            TalkEvent.SessionLost -> onSessionLost()
+            is TalkEvent.Quiet -> onQuiet(event)
+            TalkEvent.TimeUp -> onTimeUp()
+            TalkEvent.Start -> listOf(TalkEffect.After(TalkConfig.CONNECT_TIMEOUT_MS, TalkEvent.ConnectTimeout))
+            // No network on Talk (spec §8), counted from the tap, paused or not: back to the player, the lesson as it was.
+            TalkEvent.ConnectTimeout ->
+                if (everSetUp) emptyList() else end(TalkEffect.GiveUp(TalkConfig.NO_INTERNET), tone = true)
+            is TalkEvent.TurnTimeout -> onTurnTimeout(event)
+            TalkEvent.TryAgain -> onTryAgain()
+            is TalkEvent.NoSignalOver ->
+                if (noSignal && event.outage == outageGeneration) end(TalkEffect.End, tone = true) else emptyList()
+            TalkEvent.ResumeRefused -> onResumeRefused()
+            TalkEvent.LimitReached -> onLimit()
+            TalkEvent.LimitRetry -> onLimitRetry()
+            TalkEvent.FocusPaused -> pause()
+            TalkEvent.FocusDucked -> duck()
+            TalkEvent.FocusBack -> focusBack()
+            is TalkEvent.PauseOver ->
+                if (focusLost && event.pause == pauseGeneration) end(TalkEffect.End) else emptyList()
+            TalkEvent.FocusGone -> end(TalkEffect.EndLessonPaused)
+        }
+    }
+
+    /**
+     * Ends the Talk with [how], after the "no connection" tone when [tone]. While focus is lost
+     * there is no tone, and the lesson comes back only with focus (spec §10), except when
+     * another media app took over.
+     */
+    private fun end(how: TalkEffect, tone: Boolean = false): List<TalkEffect> {
+        ended = true
+        if (!focusLost || how == TalkEffect.EndLessonPaused) {
+            return listOfNotNull(if (tone) TalkEffect.PlayNoConnection else null, how)
+        }
+        return listOf(
+            when (how) {
+                is TalkEffect.GiveUp -> TalkEffect.EndWhenFocusBack(how.note, asBefore = true)
+                is TalkEffect.EndWithNote -> TalkEffect.EndWhenFocusBack(how.note)
+                else -> TalkEffect.EndWhenFocusBack()
+            },
+        )
+    }
+
+    // ---- Anna's turn and Your turn ----
+
+    private fun onDrained(): List<TalkEffect> {
+        if (tail != AnnaTail.Draining) return emptyList()
+        // Her goodbye has played: the Talk is over (spec §6 step 7).
+        if (timeUpSent || isGoodbye(annaLine)) return end(TalkEffect.End)
+        tail = AnnaTail.EchoGuard
+        return listOf(TalkEffect.After(TalkConfig.ECHO_GUARD_MS, TalkEvent.EchoGuardOver))
+    }
+
+    private fun onEchoGuardOver(): List<TalkEffect> {
+        if (tail != AnnaTail.EchoGuard) return emptyList()
+        tail = AnnaTail.None
+        return if (capReached) sendTimeUp() else startYourTurn()
+    }
+
+    /** The turn beep and **You**, with the quiet timer for this one of Your turns (spec §6 step 6). */
+    private fun startYourTurn(): List<TalkEffect> {
+        phase = TurnState.You
+        silence = 0f
+        learnerSpoke = false
+        quietGeneration++
+        // She answered "wait": the learner asked for time, so no nudge (spec §6 step 6).
+        if (annaLine.trim() == TalkConfig.WAIT_REPLY) nudgeSpent = true
+        return listOfNotNull(
+            TalkEffect.PlayBeep,
+            TalkEffect.OpenMic,
+            if (nudgeSpent) null else TalkEffect.After(TalkConfig.QUIET_MS, TalkEvent.Quiet(quietGeneration)),
+        )
+    }
+
+    /**
+     * Begins a Turn with control text (spec §4): Thinking until her first audio, with the same
+     * 8 s timeout and retry as a learner's Turn (spec §8), so none can sit in Thinking for ever.
+     */
+    private fun beginControlTurn(text: String): List<TalkEffect> {
+        phase = TurnState.Thinking
+        inTurn = true
+        retried = false
+        learnerSpeaking = false
+        controlText = text
+        return sendControl(text)
+    }
+
+    /** Sends [text] with its Turn timeout. Every text but the nudge starts a new session's context afresh. */
+    private fun sendControl(text: String): List<TalkEffect> {
+        if (text != TalkConfig.QUIET) contextLost = false
+        return listOf(TalkEffect.SendText(text), armTurnTimeout())
+    }
+
+    private fun sendOpening(): List<TalkEffect> {
+        opened = true
+        return beginControlTurn(TalkConfig.OPENING)
+    }
+
+    private fun sendTimeUp(): List<TalkEffect> {
+        timeUpSent = true
+        return beginControlTurn(TalkConfig.TIME_UP)
+    }
+
+    /** A new session without the Talk so far: Anna says sorry and asks a new question (spec §8). */
+    private fun cameBack(): List<TalkEffect> = listOf(TalkEffect.CloseMic) + beginControlTurn(TalkConfig.CAME_BACK)
+
+    /** ~9 s of silence in Your turn: one nudge, then she waits silently (spec §6 step 6). */
+    private fun onQuiet(event: TalkEvent.Quiet): List<TalkEffect> {
+        if (!listening || event.turn != quietGeneration || learnerSpoke || nudgeSpent) return emptyList()
+        nudgeSpent = true
+        return listOf(TalkEffect.CloseMic) + beginControlTurn(TalkConfig.QUIET)
+    }
+
+    /** The current Turn finishes first; a turn of Yours with no speech yet isn't one (spec §6 step 9). */
+    private fun onTimeUp(): List<TalkEffect> {
+        capReached = true
+        return if (listening && !learnerSpoke) listOf(TalkEffect.CloseMic) + sendTimeUp() else emptyList()
+    }
+
+    /** Her answer to "bye" (spec §4); "By the way" is left to the model. */
+    private fun isGoodbye(line: String) = line.trim().startsWith("Bye!") && line.contains("Drive safe")
+
+    // ---- Paused and No signal ----
+
+    /**
+     * What Paused and No signal share: the mic closes, the Turn under way is given up (nothing of
+     * it is resent), and no quiet or Turn timer from before fires after.
+     */
+    private fun interrupt(): List<TalkEffect> {
+        awaitingResume = true
+        inTurn = false
+        learnerSpeaking = false
+        resendOnSetup = false
+        retried = false
+        tail = AnnaTail.None
+        silence = 0f
+        quietGeneration++
+        turnTimeoutGeneration++
+        return listOf(TalkEffect.CloseMic)
+    }
+
+    /**
+     * The Turns go on once focus is back, No signal is over and the session is up: the opening
+     * if it hasn't gone out, time-up after the cap, came-back in a new session, else the turn
+     * beep and Your turn; Anna doesn't repeat herself (spec §8, §10).
+     */
+    private fun resumeTurns(): List<TalkEffect> {
+        if (!awaitingResume || interrupted || !sessionUp) return emptyList()
+        awaitingResume = false
+        return when {
+            !opened -> sendOpening()
+            capReached -> sendTimeUp()
+            contextLost -> cameBack()
+            else -> startYourTurn()
+        }
+    }
 
     /**
      * Transient focus loss (a call, "Hi BYD"): Anna stops mid-line, the mic closes, an
      * utterance in progress or an answer still arriving is dropped. Anna's latest line stays.
      */
     private fun pause(): List<TalkEffect> {
-        if (state == TurnState.Paused) return emptyList()
-        val effects = mutableListOf<TalkEffect>(TalkEffect.StopAnna, TalkEffect.CloseMic)
-        if (speaking) {
+        if (focusLost) return emptyList()
+        val effects = mutableListOf<TalkEffect>(TalkEffect.StopAnna)
+        if (learnerSpeaking) {
             // Close the activity; the answer to the cut-off words is dropped.
             effects += TalkEffect.EndActivity
-            speaking = false
-            dropping = true
+            droppingAnswer = true
+        } else if (answerExpected) {
+            droppingAnswer = tail == AnnaTail.None
         }
-        if (state == TurnState.Thinking || state == TurnState.Anna) dropping = !awaitingDrain && !drained
-        awaitingDrain = false
-        drained = false
-        silence = 0f
-        state = TurnState.Paused
-        // A quiet timer from before the pause must not fire after it.
-        yourTurn++
-        pauses++
-        effects += TalkEffect.After(TalkConfig.PAUSE_MAX_MS, TalkEvent.PauseOver(pauses))
+        focusLost = true
+        effects += interrupt()
+        pauseGeneration++
+        effects += TalkEffect.After(TalkConfig.PAUSE_MAX_MS, TalkEvent.PauseOver(pauseGeneration))
         return effects
     }
 
-    /** The turn beep and **You**, with the quiet timer for this one of Your turns (spec §6 step 6). */
-    private fun startYourTurn(): List<TalkEffect> {
-        state = TurnState.You
-        silence = 0f
-        spoke = false
-        yourTurn++
-        // She answered "wait": the learner asked for time, so no nudge (spec §6 step 6).
-        if (annaLine.trim() == TalkConfig.WAIT_REPLY) nudgeSpent = true
-        return listOfNotNull(
-            TalkEffect.PlayBeep,
-            TalkEffect.OpenMic,
-            if (nudgeSpent) null else TalkEffect.After(TalkConfig.QUIET_MS, TalkEvent.Quiet(yourTurn)),
-        )
+    private fun duck(): List<TalkEffect> {
+        if (ducked) return emptyList()
+        ducked = true
+        return listOf(TalkEffect.Volume(TalkConfig.DUCK_VOLUME))
     }
 
     private fun focusBack(): List<TalkEffect> {
@@ -222,36 +354,46 @@ class TalkTurns {
             ducked = false
             effects += TalkEffect.Volume(1f)
         }
-        if (state != TurnState.Paused) return effects
-        when {
-            // The cap came while paused, or her goodbye was cut off: say goodbye now (spec §6 step 9).
-            opened && timeUp -> effects += sendTimeUp()
-            opened -> effects += startYourTurn()
-            setUp -> effects += sendOpening()
-            else -> state = TurnState.Connecting
-        }
-        return effects
+        if (!focusLost) return effects
+        focusLost = false
+        // No signal began during the pause: its tone now, as focus is back.
+        if (noSignal && toneOwed) effects += TalkEffect.PlayNoConnection
+        toneOwed = false
+        return effects + resumeTurns()
     }
 
-    private fun sendOpening(): List<TalkEffect> {
-        opened = true
-        state = TurnState.Thinking
-        inTurn = true
-        retried = false
-        lastText = TalkConfig.OPENING
-        return listOf(TalkEffect.SendText(TalkConfig.OPENING))
+    /** The tone, the mic closed, Anna's line kept; reconnecting in the background (spec §8). */
+    private fun noSignal(): List<TalkEffect> {
+        noSignal = true
+        reopening = false
+        outageGeneration++
+        val tone = if (focusLost) emptyList() else listOf(TalkEffect.PlayNoConnection)
+        toneOwed = focusLost
+        return tone + interrupt() + listOf(
+            TalkEffect.After(TalkConfig.NO_SIGNAL_MS, TalkEvent.NoSignalOver(outageGeneration)),
+            TalkEffect.After(TalkConfig.RECONNECT_GAP_MS, TalkEvent.TryAgain),
+        )
     }
 
-    /** No first audio [TalkConfig.TURN_TIMEOUT_MS] after the tick: the Turn has failed (spec §8). */
+    // ---- Failed Turns and reconnecting ----
+
+    private fun armTurnTimeout(): TalkEffect {
+        firstAudioCame = false
+        turnTimeoutGeneration++
+        return TalkEffect.After(TalkConfig.TURN_TIMEOUT_MS, TalkEvent.TurnTimeout(turnTimeoutGeneration))
+    }
+
+    /** No first audio [TalkConfig.TURN_TIMEOUT_MS] after the Turn went out: it has failed (spec §8). */
     private fun onTurnTimeout(event: TalkEvent.TurnTimeout): List<TalkEffect> {
-        if (event.turn != turnNo || answered || state != TurnState.Thinking || reconnecting) return emptyList()
+        if (event.turn != turnTimeoutGeneration || firstAudioCame || phase != TurnState.Thinking) return emptyList()
+        if (reopening || interrupted) return emptyList()
         return failTurn()
     }
 
     /** A failed Turn gets one silent retry; a second failure is No signal. */
     private fun failTurn(): List<TalkEffect> = if (retried) noSignal() else retry()
 
-    /** Reconnect with the handle (or a new session) and resend the Turn once it is set up. */
+    /** Reopen and resend the Turn once the next session is set up. */
     private fun retry(): List<TalkEffect> {
         retried = true
         resendOnSetup = true
@@ -259,51 +401,50 @@ class TalkTurns {
     }
 
     /**
-     * Opens the next session: resuming with the handle, or else a new one. A new one that isn't
-     * resending a Turn then says the connection came back.
+     * Opens the next session, the old one closed first: resuming with the handle (spec §3), or
+     * else a new session without the Talk so far.
      */
     private fun reopen(): List<TalkEffect> {
         goAwayPending = false
-        reconnecting = true
-        val h = handle ?: run {
-            cameBack = !resendOnSetup
+        reopening = true
+        sessionUp = false
+        val resume = handle ?: run {
+            contextLost = true
             return listOf(TalkEffect.NewSession)
         }
-        return listOf(TalkEffect.Reconnect(h))
+        return listOf(TalkEffect.Reconnect(resume))
     }
 
-    /** The tone, the mic closed, Anna's line kept; reconnecting in the background (spec §8). */
-    private fun noSignal(): List<TalkEffect> {
-        state = TurnState.NoSignal
-        inTurn = false
-        reconnecting = false
-        resendOnSetup = false
-        cameBack = false
-        retried = false
-        awaitingDrain = false
-        drained = false
-        silence = 0f
-        outage++
-        return listOf(
-            TalkEffect.PlayNoConnection,
-            TalkEffect.CloseMic,
-            TalkEffect.After(TalkConfig.NO_SIGNAL_MS, TalkEvent.NoSignalOver(outage)),
-            TalkEffect.After(TalkConfig.RECONNECT_GAP_MS, TalkEvent.TryAgain),
-        )
+    /**
+     * Before any session was set up, or in No signal, the app tries again after a short gap. A
+     * close mid-Turn is a failed Turn. A close between Turns resumes silently with the handle
+     * (spec §3); with no handle, or before the resumed session is set up, it is No signal.
+     */
+    private fun onSessionLost(): List<TalkEffect> {
+        sessionUp = false
+        if (!everSetUp || noSignal) {
+            reopening = false
+            return listOf(TalkEffect.After(TalkConfig.RECONNECT_GAP_MS, TalkEvent.TryAgain))
+        }
+        if (inTurn) {
+            reopening = false
+            return failTurn()
+        }
+        if (handle == null || reopening) return noSignal()
+        return reopen()
     }
 
     private fun onTryAgain(): List<TalkEffect> = when {
-        state == TurnState.Connecting -> listOf(TalkEffect.NewSession)
-        state == TurnState.NoSignal && !reconnecting -> reopen()
+        !everSetUp -> listOf(TalkEffect.NewSession)
+        noSignal && !reopening -> reopen()
         else -> emptyList()
     }
 
     /** The server refused the handle (spec §8): a new session, silently, with the same setup. */
     private fun onResumeRefused(): List<TalkEffect> {
-        if (!reconnecting) return onSessionLost()
+        if (!reopening) return onSessionLost()
         handle = null
-        resendOnSetup = false
-        cameBack = true
+        contextLost = true
         return listOf(TalkEffect.NewSession)
     }
 
@@ -314,160 +455,93 @@ class TalkTurns {
      * again, the Talk ends with the note and the lesson resumes by the usual rule.
      */
     private fun onLimit(): List<TalkEffect> {
-        if (!setUp) {
-            state = TurnState.Ended
-            return listOf(TalkEffect.PlayNoConnection, TalkEffect.GiveUp(TalkConfig.TALK_LIMIT))
-        }
-        if (limitRetried) {
-            state = TurnState.Ended
-            return listOf(TalkEffect.EndWithNote(TalkConfig.TALK_LIMIT))
-        }
+        if (!everSetUp) return end(TalkEffect.GiveUp(TalkConfig.TALK_LIMIT), tone = true)
+        if (limitRetried) return end(TalkEffect.EndWithNote(TalkConfig.TALK_LIMIT))
         limitRetried = true
-        // Held as a reconnect: a late answer is dropped and timers wait for the retry.
-        reconnecting = true
+        // Held as a reopen: a late answer is dropped and timers wait for the retry.
+        reopening = true
+        sessionUp = false
         return listOf(TalkEffect.After(TalkConfig.LIMIT_RETRY_MS, TalkEvent.LimitRetry))
     }
 
     /** The wait after a limit refusal is over: reopen, resending a Turn under way. */
     private fun onLimitRetry(): List<TalkEffect> {
-        if (!limitRetried || !reconnecting) return emptyList()
+        if (!limitRetried || !reopening) return emptyList()
         resendOnSetup = inTurn
         return reopen()
     }
 
-    /** The next session is set up: say it came back, come back from No signal, resend a failed Turn, or nothing. */
-    private fun onReconnected(): List<TalkEffect> {
-        reconnecting = false
-        limitRetried = false
-        if (cameBack) {
-            cameBack = false
-            resendOnSetup = false
-            retried = false
-            state = TurnState.Thinking
-            inTurn = true
-            lastText = TalkConfig.CAME_BACK
-            return listOf(TalkEffect.CloseMic, TalkEffect.SendText(TalkConfig.CAME_BACK))
+    private fun onSetUp(): List<TalkEffect> {
+        sessionUp = true
+        if (!everSetUp) {
+            everSetUp = true
+            return resumeTurns()
         }
-        if (state == TurnState.NoSignal) return comeBack()
-        if (!resendOnSetup) return emptyList()
-        resendOnSetup = false
-        lastText?.let { return listOf(TalkEffect.SendText(it)) }
-        val resend = listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(utterance))
-        // Still speaking: the rest goes out live from here.
-        if (state == TurnState.You) return resend
-        return resend + TalkEffect.EndActivity + armTurnTimeout()
-    }
-
-    /** Back from No signal: the turn beep and Your turn; Anna doesn't repeat her question. */
-    private fun comeBack(): List<TalkEffect> = if (timeUp) sendTimeUp() else startYourTurn()
-
-    private fun armTurnTimeout(): TalkEffect {
-        answered = false
-        turnNo++
-        return TalkEffect.After(TalkConfig.TURN_TIMEOUT_MS, TalkEvent.TurnTimeout(turnNo))
+        if (!reopening) return resumeTurns()
+        return onReopened()
     }
 
     /**
-     * A close between Turns resumes silently with the handle (spec §3). A close mid-Turn is a
-     * failed Turn; one before the resumed session is set up, or with no handle, is No signal; while
-     * Connecting or in No signal, the app tries again after a short gap (spec §8).
+     * The next session is set up. A resumed one keeps the Talk, so nothing is sent unless a Turn
+     * failed (spec §3, §8); a new one hears that the connection came back. Back from No signal
+     * (or a pause), the Turns go on.
      */
-    private fun onSessionLost(): List<TalkEffect> {
-        if (state == TurnState.Connecting || state == TurnState.NoSignal) {
-            reconnecting = false
-            return listOf(TalkEffect.After(TalkConfig.RECONNECT_GAP_MS, TalkEvent.TryAgain))
+    private fun onReopened(): List<TalkEffect> {
+        reopening = false
+        limitRetried = false
+        noSignal = false
+        droppingAnswer = false
+        if (resendOnSetup) {
+            resendOnSetup = false
+            return resendTurn()
         }
-        if (inTurn) {
-            // The retry's own session was lost before it was set up: the retry has failed.
-            if (reconnecting && retried) return noSignal()
-            reconnecting = false
-            return failTurn()
+        if (awaitingResume) return resumeTurns()
+        if (contextLost && opened) return cameBack()
+        return emptyList()
+    }
+
+    /**
+     * The failed Turn once more: its control text, or the utterance as one activity. In a new
+     * session the utterance (or a nudge) would land in an empty Talk, so Anna hears that the
+     * connection came back instead (spec §8).
+     */
+    private fun resendTurn(): List<TalkEffect> {
+        val text = controlText
+        if (contextLost && (text == null || text == TalkConfig.QUIET)) return cameBack()
+        if (text != null) return sendControl(text)
+        val resend = listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(utterance))
+        // Still speaking: the rest goes out live from here.
+        if (phase == TurnState.You) return resend
+        return resend + TalkEffect.EndActivity + armTurnTimeout()
+    }
+
+    /** Reconnect silently with the newest handle now, or once the current Turn completes. */
+    private fun reconnectBetweenTurns(): List<TalkEffect> {
+        if (inTurn || handle == null) {
+            goAwayPending = true
+            return emptyList()
         }
-        val h = handle
-        if (h == null || reconnecting) return noSignal()
-        return reconnect(h)
+        return reopen()
     }
 
-    private fun reconnect(h: String): List<TalkEffect> {
-        goAwayPending = false
-        reconnecting = true
-        return listOf(TalkEffect.Reconnect(h))
-    }
-
-    /** The current Turn finishes first; a turn of Yours with no speech yet isn't one (spec §6 step 9). */
-    private fun onTimeUp(): List<TalkEffect> {
-        timeUp = true
-        return if (state == TurnState.You && !spoke) listOf(TalkEffect.CloseMic) + sendTimeUp() else emptyList()
-    }
-
-    private fun sendTimeUp(): List<TalkEffect> {
-        timeUpSent = true
-        state = TurnState.Thinking
-        inTurn = true
-        retried = false
-        lastText = TalkConfig.TIME_UP
-        return listOf(TalkEffect.SendText(TalkConfig.TIME_UP))
-    }
-
-    /** ~9 s of silence in Your turn: one nudge, then she waits silently (spec §6 step 6). */
-    private fun onQuiet(event: TalkEvent.Quiet): List<TalkEffect> {
-        if (state != TurnState.You || event.turn != yourTurn || spoke || nudgeSpent) return emptyList()
-        nudgeSpent = true
-        state = TurnState.Thinking
-        inTurn = true
-        retried = false
-        lastText = TalkConfig.QUIET
-        return listOf(TalkEffect.CloseMic, TalkEffect.SendText(TalkConfig.QUIET))
-    }
-
-    /** Her answer to "bye" (spec §4); "By the way" is left to the model. */
-    private fun isGoodbye(line: String) = line.trim().startsWith("Bye!") && line.contains("Drive safe")
-
-    private fun end(): List<TalkEffect> {
-        state = TurnState.Ended
-        return listOf(TalkEffect.End)
-    }
+    // ---- Server and mic ----
 
     private fun onServer(event: LiveEvent): List<TalkEffect> = when (event) {
-        // Resumed: the server keeps the conversation, so nothing to send unless a Turn failed (spec §3, §8).
-        LiveEvent.SetupComplete -> if (reconnecting) {
-            onReconnected()
-        } else {
-            setUp = true
-            if (state == TurnState.Connecting) sendOpening() else emptyList()
-        }
+        LiveEvent.SetupComplete -> onSetUp()
         // An answer that arrives after its Turn failed is dropped, never played (spec §8).
-        is LiveEvent.Audio -> if (!dropping && !reconnecting && (state == TurnState.Thinking || state == TurnState.Anna)) {
-            answered = true
-            state = TurnState.Anna
+        is LiveEvent.Audio -> if (!droppingAnswer && !reopening && answerExpected) {
+            firstAudioCame = true
+            phase = TurnState.Anna
             listOf(TalkEffect.Play(event.pcm))
         } else {
             emptyList()
         }
-        is LiveEvent.AnnaSaid -> if (dropping) emptyList() else {
+        is LiveEvent.AnnaSaid -> if (droppingAnswer) emptyList() else {
             annaLine = if (lineDone) event.text.trim() else (annaLine + event.text).trimStart()
             lineDone = false
             emptyList()
         }
-        LiveEvent.TurnComplete -> if (dropping) {
-            dropping = false
-            lineDone = true
-            inTurn = false
-            if (goAwayPending) reconnectBetweenTurns() else emptyList()
-        } else {
-            lineDone = true
-            inTurn = false
-            retried = false
-            // Anna is done talking once her audio has played out (spec §6 step 2).
-            val drain = if (state == TurnState.Anna || state == TurnState.Thinking) {
-                awaitingDrain = true
-                listOf(TalkEffect.AwaitDrain)
-            } else {
-                emptyList()
-            }
-            // A goAway that came mid-Turn is handled now the Turn is complete (spec §3).
-            drain + if (goAwayPending) reconnectBetweenTurns() else emptyList()
-        }
+        LiveEvent.TurnComplete -> onTurnComplete()
         is LiveEvent.ResumptionHandle -> {
             handle = event.handle
             emptyList()
@@ -476,35 +550,45 @@ class TalkTurns {
         else -> emptyList()
     }
 
-    /** Reconnect silently with the newest handle now, or once the current Turn completes. */
-    private fun reconnectBetweenTurns(): List<TalkEffect> {
-        val h = handle
-        if (inTurn || h == null) {
-            goAwayPending = true
-            return emptyList()
+    private fun onTurnComplete(): List<TalkEffect> {
+        lineDone = true
+        inTurn = false
+        val drain = if (droppingAnswer) {
+            droppingAnswer = false
+            emptyList()
+        } else {
+            retried = false
+            // Anna is done talking once her audio has played out (spec §6 step 2).
+            if (answerExpected) {
+                tail = AnnaTail.Draining
+                listOf(TalkEffect.AwaitDrain)
+            } else {
+                emptyList()
+            }
         }
-        return reconnect(h)
+        // A goAway that came mid-Turn is handled now the Turn is complete (spec §3).
+        return drain + if (goAwayPending) reconnectBetweenTurns() else emptyList()
     }
 
     private fun onMic(event: MicEvent): List<TalkEffect> {
-        if (state != TurnState.You) return emptyList()
+        if (!listening) return emptyList()
         return when (event) {
             is MicEvent.SpeechStarted -> {
-                speaking = true
+                learnerSpeaking = true
                 inTurn = true
-                spoke = true
+                learnerSpoke = true
                 nudgeSpent = false
                 retried = false
-                lastText = null
+                controlText = null
                 // The new activity takes over from an answer still being dropped.
-                dropping = false
+                droppingAnswer = false
                 heard.reset()
                 heard.write(event.preRoll)
                 listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(event.preRoll))
             }
             is MicEvent.Audio -> {
                 heard.write(event.pcm)
-                // Reconnecting mid-speech: all of it goes out once the new session is up.
+                // Reopening mid-speech: all of it goes out once the new session is up.
                 if (resendOnSetup) emptyList() else listOf(TalkEffect.SendAudio(event.pcm))
             }
             is MicEvent.Silence -> {
@@ -512,8 +596,8 @@ class TalkTurns {
                 emptyList()
             }
             MicEvent.SpeechEnded -> {
-                state = TurnState.Thinking
-                speaking = false
+                phase = TurnState.Thinking
+                learnerSpeaking = false
                 silence = 0f
                 if (resendOnSetup) {
                     listOf(TalkEffect.PlayTick, TalkEffect.CloseMic)
@@ -525,7 +609,10 @@ class TalkTurns {
     }
 }
 
-/** What the Talk screen shows (spec §7). */
+/** After Anna's complete turn: [Draining] waits for her audio to play out, then [EchoGuard] for its echo to die. */
+private enum class AnnaTail { None, Draining, EchoGuard }
+
+/** What the Talk screen shows (spec §7). Paused shows over No signal while both hold. */
 enum class TurnState { Connecting, Thinking, Anna, You, NoSignal, Paused, Ended }
 
 sealed interface TalkEvent {
@@ -547,7 +634,7 @@ sealed interface TalkEvent {
     /** The echo guard after Anna's audio is over. */
     data object EchoGuardOver : TalkEvent
 
-    /** [TalkConfig.QUIET_MS] have passed since Your [turn] began (asked for with [TalkEffect.After]). */
+    /** [TalkConfig.QUIET_MS] have passed since Your turn number [turn] began (asked for with [TalkEffect.After]). */
     data class Quiet(val turn: Int) : TalkEvent
 
     /** [TalkConfig.TALK_CAP_MS] of wall-clock time since the Talk started. */
@@ -559,7 +646,7 @@ sealed interface TalkEvent {
     /** [TalkConfig.CONNECT_TIMEOUT_MS] since [Start]. */
     data object ConnectTimeout : TalkEvent
 
-    /** [TalkConfig.TURN_TIMEOUT_MS] since the tick of Turn [turn] (or its resend). */
+    /** [TalkConfig.TURN_TIMEOUT_MS] since Turn number [turn] went out: the tick, its control text, or its resend. */
     data class TurnTimeout(val turn: Int) : TalkEvent
 
     /** Try connecting again, [TalkConfig.RECONNECT_GAP_MS] after a failed attempt. */
@@ -654,14 +741,18 @@ sealed interface TalkEffect {
      * was before the tap (spec §8), not by the resume rule.
      */
     data class GiveUp(val note: String) : TalkEffect
+
     /** Stop Anna mid-line and drop what is queued of her audio; the Talk goes on. */
     data object StopAnna : TalkEffect
 
     /** Play Anna at this fraction of full volume. */
     data class Volume(val level: Float) : TalkEffect
 
-    /** End the Talk like [End], but give the lesson back only once audio focus returns. */
-    data object EndWhenFocusBack : TalkEffect
+    /**
+     * End the Talk like [End], but give the lesson back only once audio focus returns: by the
+     * usual rule, or as it was before the tap when [asBefore]. [note] shows on the player.
+     */
+    data class EndWhenFocusBack(val note: String? = null, val asBefore: Boolean = false) : TalkEffect
 
     /** End the Talk like [End] and show [note] on the player; the lesson resumes by the usual rule. */
     data class EndWithNote(val note: String) : TalkEffect
