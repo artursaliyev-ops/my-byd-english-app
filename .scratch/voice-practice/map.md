@@ -28,6 +28,7 @@ A hand-off-ready **spec** at `.scratch/voice-practice/spec.md` for recording the
 - [Decide what a lesson pass means when the learner jumps around](issues/05-edge-cases.md): no pass; each speaking pause keeps its newest voiced Attempt, kept only if the whole pause played without a seek; pausing inside a pause listens up to 10 s more; any speed; the 5 kept lessons are the most recently recorded; Settings gets "Delete my answers".
 - [Decide when the mic starts and what a lesson resumed from the wheel does](issues/06-when-recording-starts.md): starts when a lesson plays with the app on screen, stays open through pauses (closes after 30 min paused or when the app closes); resumed without it records nothing silently and the mic starts when the screen opens; permission asked when the setting is first turned on.
 - [Choose how Attempts are stored](issues/07-recording-format.md): AAC 32 kbit/s `.m4a`, one file per Attempt (~15 MB for 5 lessons), a folder per lesson with files named by kind and pause start, no database; a lesson's Attempts are deleted if its transcript changes.
+- [Write the voice practice spec](issues/08-write-the-spec.md): written to `spec.md`; the user read it with no open questions. **Destination reached.**
 
 ## Not yet specified
 
