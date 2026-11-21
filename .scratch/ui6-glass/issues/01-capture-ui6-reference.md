@@ -27,3 +27,9 @@ The answer records the SDK level, the blur property, the wallpaper component, th
 ## Comments
 
 - 2026-11-21: Claimed. The car is not connected (adb sees only `emulator-5554`), so this waits for a session in the car. Steps 1–4 are scripted in `.scratch/ui6-glass/capture-ui6.sh`: it writes `reference/facts.txt` and `reference/ui6-*.png`. `reference/` is gitignored. After the run, a session samples the hex/alpha values from the PNGs and writes the Answer.
+- 2026-11-21: Car connected over ADB on Wi‑Fi (phone hotspot, no internet needed on the car; `adb connect <car-ip>:5555`). Facts read:
+  - DiLink 5.0 (`DiLink5_0_For_BYD_AUTO`), Android 12, **SDK 32**, build `SKQ1.230128.001`.
+  - `ro.surface_flinger.supports_background_blur=1`; `wm disable-blur`: blur supported **true**, enabled **true**.
+  - Wallpaper: `com.byd.wallpaperhome/com.byd.wallpaper.service.BydWallpaperService` (BYD **live** wallpaper service, not static ImageWallpaper), 1920×1920.
+  - Screen 1920×1080, density 240. `com.android.documentsui` is present (SAF picker exists).
+  - Still to do: the screenshots (step 4) and the colour sampling.
