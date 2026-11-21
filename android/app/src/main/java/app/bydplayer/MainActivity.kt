@@ -3,15 +3,19 @@ package app.bydplayer
 import android.content.ComponentName
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -35,16 +39,19 @@ class MainActivity : ComponentActivity() {
 }
 
 /**
- * The lesson list, wired to the playback service. Tapping a lesson queues it and the
- * lessons after it. The full player screen (controls, resume) comes with the
- * "Main player screen and resume" ticket.
+ * Two screens over one playback service: the lesson list and the player. On launch it
+ * resumes the last lesson at the saved position (paused, one tap to play) once the
+ * library scan has found that lesson. If the service is still playing, it just shows it.
  */
 @Composable
 private fun App() {
     val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+    val library = remember { LibraryModel(context, scope) }
     var controller by remember { mutableStateOf<MediaController?>(null) }
-    var queue by remember { mutableStateOf<List<Lesson>>(emptyList()) }
-    var nowPlaying by remember { mutableStateOf<Lesson?>(null) }
+    var current by remember { mutableStateOf<Int?>(null) }
+    var showPlayer by rememberSaveable { mutableStateOf(false) }
+    var resumeHandled by rememberSaveable { mutableStateOf(false) }
 
     DisposableEffect(Unit) {
         val token = SessionToken(context, ComponentName(context, PlaybackService::class.java))
@@ -52,25 +59,59 @@ private fun App() {
         future.addListener({ controller = future.get() }, context.mainExecutor)
         onDispose { MediaController.releaseFuture(future) }
     }
-    DisposableEffect(controller, queue) {
+    DisposableEffect(controller) {
         val c = controller
+        current = c?.currentMediaItem?.mediaId?.toIntOrNull()
         val listener = object : Player.Listener {
             override fun onMediaItemTransition(item: MediaItem?, reason: Int) {
-                nowPlaying = queue.firstOrNull { it.number.toString() == item?.mediaId }
+                current = item?.mediaId?.toIntOrNull()
             }
         }
         c?.addListener(listener)
         onDispose { c?.removeListener(listener) }
     }
 
-    LibraryScreen(nowPlaying = nowPlaying) { lesson, all ->
-        val c = controller ?: return@LibraryScreen
-        queue = all
-        c.setMediaItems(all.map(::mediaItem), all.indexOf(lesson), 0L)
-        c.prepare()
-        c.play()
-        nowPlaying = lesson
+    val ui = library.ui
+    LaunchedEffect(controller, ui) {
+        val c = controller ?: return@LaunchedEffect
+        if (resumeHandled) return@LaunchedEffect
+        if (c.mediaItemCount > 0) {
+            resumeHandled = true
+            showPlayer = true
+            return@LaunchedEffect
+        }
+        // Wait for the scan: the saved lesson needs its file URI from the current folder.
+        val scan = (ui as? LibraryUi.Ready)?.scan ?: return@LaunchedEffect
+        resumeHandled = true
+        val saved = PlaybackStore(context).resume() ?: return@LaunchedEffect
+        val lesson = scan.lessons.firstOrNull { it.number == saved.lesson } ?: return@LaunchedEffect
+        c.load(scan.lessons, lesson, saved.positionMs)
+        showPlayer = true
     }
+
+    val c = controller
+    BackHandler(enabled = showPlayer) { showPlayer = false }
+    if (showPlayer && c != null && current != null) {
+        PlayerScreen(c, onShowLessons = { showPlayer = false })
+    } else {
+        LibraryScreen(
+            model = library,
+            nowPlaying = current,
+            onOpenPlayer = { showPlayer = true },
+        ) { lesson, all ->
+            val player = controller ?: return@LibraryScreen
+            player.load(all, lesson, 0L)
+            player.play()
+            current = lesson.number
+            showPlayer = true
+        }
+    }
+}
+
+/** Queues every found lesson, so prev/next and auto-advance move through the course. */
+private fun Player.load(all: List<Lesson>, start: Lesson, positionMs: Long) {
+    setMediaItems(all.map(::mediaItem), all.indexOf(start), positionMs)
+    prepare()
 }
 
 private fun mediaItem(lesson: Lesson) = MediaItem.Builder()

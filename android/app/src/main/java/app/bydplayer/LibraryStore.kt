@@ -2,6 +2,7 @@ package app.bydplayer
 
 import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.net.Uri
 import androidx.core.content.edit
 
@@ -40,6 +41,11 @@ class LibraryStore(context: Context) {
         val next = completed().let { if (done) it + lesson else it - lesson }
         prefs.edit { putStringSet(KEY_COMPLETED, next.map(Int::toString).toSet()) }
     }
+
+    /** Calls [onChange] whenever the completed set changes. Keep the returned listener referenced. */
+    fun onCompletedChanged(onChange: () -> Unit): SharedPreferences.OnSharedPreferenceChangeListener =
+        SharedPreferences.OnSharedPreferenceChangeListener { _, key -> if (key == KEY_COMPLETED) onChange() }
+            .also(prefs::registerOnSharedPreferenceChangeListener)
 
     private companion object {
         const val KEY_TREE = "tree_uri"

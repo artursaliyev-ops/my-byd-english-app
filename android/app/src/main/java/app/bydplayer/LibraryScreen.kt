@@ -1,5 +1,6 @@
 package app.bydplayer
 
+import android.content.Context
 import android.net.Uri
 import android.util.Log
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -32,21 +33,19 @@ import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -54,7 +53,7 @@ import kotlinx.coroutines.withContext
 private const val TAG = "BydLibrary"
 private val DoneGreen = Color(0xFF6FD08C)
 
-private sealed interface LibraryUi {
+sealed interface LibraryUi {
     data object NoFolder : LibraryUi
     data object AccessLost : LibraryUi
     data object Scanning : LibraryUi
@@ -63,36 +62,43 @@ private sealed interface LibraryUi {
 }
 
 /**
- * First screen: asks for the lesson folder once (SAF tree picker, permission persisted),
- * then lists the I/II/III lessons found there with completed marks.
- * Tap a lesson to play it; long-press to toggle its completed mark.
+ * The picked folder, its scan and the completed marks. Held by the app (not the library
+ * screen) so the scan survives a trip to the player and resume can look lessons up in it.
+ * Completed marks follow [LibraryStore], which the playback service also writes.
  */
-@Composable
-fun LibraryScreen(
-    nowPlaying: Lesson?,
-    onPlay: (lesson: Lesson, all: List<Lesson>) -> Unit,
-) {
-    val context = LocalContext.current
-    val store = remember { LibraryStore(context) }
-    val scope = rememberCoroutineScope()
-    var folder by remember { mutableStateOf(store.folder()) }
-    var ui by remember {
-        mutableStateOf(
-            when {
-                folder != null -> LibraryUi.Scanning
-                store.folderAccessLost() -> LibraryUi.AccessLost
-                else -> LibraryUi.NoFolder
-            },
-        )
-    }
-    var completed by remember { mutableStateOf(store.completed()) }
-    var pickerError by remember { mutableStateOf<String?>(null) }
+class LibraryModel(context: Context, private val scope: CoroutineScope) {
+    private val app = context.applicationContext
+    val store = LibraryStore(app)
 
-    fun rescan(tree: Uri) {
+    var folder by mutableStateOf(store.folder())
+        private set
+    var ui by mutableStateOf(
+        when {
+            folder != null -> LibraryUi.Scanning
+            store.folderAccessLost() -> LibraryUi.AccessLost
+            else -> LibraryUi.NoFolder
+        },
+    )
+        private set
+    var completed by mutableStateOf(store.completed())
+        private set
+
+    // Kept in a field: SharedPreferences holds change listeners weakly.
+    private val completedListener = store.onCompletedChanged { completed = store.completed() }
+
+    init {
+        folder?.let(::rescan)
+    }
+
+    fun rescan() {
+        folder?.let(::rescan)
+    }
+
+    private fun rescan(tree: Uri) {
         ui = LibraryUi.Scanning
         scope.launch {
             ui = withContext(Dispatchers.IO) {
-                runCatching { scanLibrary(context, tree) }.fold(
+                runCatching { scanLibrary(app, tree) }.fold(
                     { LibraryUi.Ready(it) },
                     {
                         Log.w(TAG, "Scan failed", it)
@@ -103,16 +109,36 @@ fun LibraryScreen(
         }
     }
 
-    LaunchedEffect(Unit) { folder?.let(::rescan) }
+    /** Keeps access to a newly picked folder and scans it. Fails if the grant can't be kept. */
+    fun pick(uri: Uri): Result<Unit> = runCatching { store.setFolder(uri) }.onSuccess {
+        folder = uri
+        rescan(uri)
+    }
+
+    fun toggleDone(lesson: Lesson) = store.setCompleted(lesson.number, lesson.number !in completed)
+}
+
+/**
+ * First screen: asks for the lesson folder once (SAF tree picker, permission persisted),
+ * then lists the I/II/III lessons found there with completed marks.
+ * Tap a lesson to play it; long-press to toggle its completed mark.
+ */
+@Composable
+fun LibraryScreen(
+    model: LibraryModel,
+    nowPlaying: Int?,
+    onOpenPlayer: () -> Unit,
+    onPlay: (lesson: Lesson, all: List<Lesson>) -> Unit,
+) {
+    val folder = model.folder
+    val completed = model.completed
+    var pickerError by remember { mutableStateOf<String?>(null) }
+    val rescan = { model.rescan() }
 
     val picker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocumentTree()) { uri ->
         if (uri == null) return@rememberLauncherForActivityResult
-        runCatching { store.setFolder(uri) }
-            .onSuccess {
-                pickerError = null
-                folder = uri
-                rescan(uri)
-            }
+        model.pick(uri)
+            .onSuccess { pickerError = null }
             .onFailure {
                 Log.w(TAG, "Can't keep access to $uri", it)
                 pickerError = "This folder can't be used. Pick a folder inside the drive, not the drive itself."
@@ -128,7 +154,7 @@ fun LibraryScreen(
         Unit
     }
 
-    when (val state = ui) {
+    when (val state = model.ui) {
         LibraryUi.NoFolder -> Message(
             title = "Choose your lesson folder",
             body = "Copy the Pimsleur I, II and III mp3 files into a folder on the USB stick or this device, " +
@@ -154,7 +180,7 @@ fun LibraryScreen(
             title = "Lessons unavailable",
             body = state.message,
             action = "Try again",
-            onAction = { folder?.let(::rescan) },
+            onAction = rescan,
             secondary = "Choose another folder",
             onSecondary = pickFolder,
             error = pickerError,
@@ -166,7 +192,7 @@ fun LibraryScreen(
                 action = "Choose another folder",
                 onAction = pickFolder,
                 secondary = "Scan again",
-                onSecondary = { folder?.let(::rescan) },
+                onSecondary = rescan,
                 error = pickerError,
             )
         } else {
@@ -177,11 +203,8 @@ fun LibraryScreen(
                 nowPlaying = nowPlaying,
                 onChangeFolder = pickFolder,
                 onPlay = { onPlay(it, state.scan.lessons) },
-                onToggleDone = { lesson ->
-                    val done = lesson.number !in completed
-                    store.setCompleted(lesson.number, done)
-                    completed = store.completed()
-                },
+                onOpenPlayer = onOpenPlayer,
+                onToggleDone = model::toggleDone,
             )
         }
     }
@@ -192,8 +215,9 @@ private fun LessonList(
     scan: LibraryScan,
     folderLabel: String,
     completed: Set<Int>,
-    nowPlaying: Lesson?,
+    nowPlaying: Int?,
     onChangeFolder: () -> Unit,
+    onOpenPlayer: () -> Unit,
     onPlay: (Lesson) -> Unit,
     onToggleDone: (Lesson) -> Unit,
 ) {
@@ -214,6 +238,12 @@ private fun LessonList(
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.7f),
                 )
+            }
+            if (nowPlaying != null) {
+                Button(onClick = onOpenPlayer, modifier = Modifier.heightIn(min = 72.dp)) {
+                    Text("▶  Lesson $nowPlaying", style = MaterialTheme.typography.labelLarge)
+                }
+                Spacer(Modifier.widthIn(min = 16.dp))
             }
             OutlinedButton(onClick = onChangeFolder, modifier = Modifier.heightIn(min = 72.dp)) {
                 Text("Change folder", style = MaterialTheme.typography.labelLarge)
@@ -250,7 +280,7 @@ private fun LessonList(
                     number = number,
                     lesson = byNumber[number],
                     done = number in completed,
-                    playing = nowPlaying?.number == number,
+                    playing = nowPlaying == number,
                     onPlay = onPlay,
                     onToggleDone = onToggleDone,
                 )
