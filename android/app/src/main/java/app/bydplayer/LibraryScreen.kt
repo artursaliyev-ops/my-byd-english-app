@@ -150,8 +150,8 @@ fun LibraryScreen(
     }
     val pickFolder = {
         runCatching { picker.launch(null) }.onFailure {
-            // TODO(fallback): no system picker on this head unit. Next options from the
-            // DiLink ticket: MediaStore audio, then raw /storage paths, then import.
+            // The car's picker reaches its SD card (ticket "Check that the folder picker reaches a
+            // USB stick on the car"); no fallback is planned if a head unit has none.
             Log.w(TAG, "Picker failed to open", it)
             pickerError = "The folder picker isn't available on this device."
         }

@@ -39,6 +39,7 @@ Goal: a native Android app on the BYD Song Plus head unit (DiLink) for listening
 - **[Button mode setting for the steering-wheel buttons](issues/08-media-button-mode.md)**: Settings (gear in the lesson list header) switches the media buttons between −5/+5 s (default) and prev/next lesson. A `ForwardingPlayer` remaps ⏮ ⏭ from any controller except the app's own screen, which is marked by a connection hint. It works in the background. **Last button** lists the last 24 key and command signals (keycode, down/up, repeat, long-press, sender) so the car check can be read on screen. Checked on the emulator only.
 - **[Check steering-wheel button signals on the car](issues/09-car-button-check.md)**: the wheel sends standard `MEDIA_PREVIOUS`/`MEDIA_NEXT` on a short press. Button mode −5/+5 s works on the car, in the foreground and in the background. A hold sends a separate BYD key, `AUTO_MEDIA_PREVIOUS_LP`/`AUTO_MEDIA_NEXT_LP`: one `down`, to the session only, today ignored. 301/302 are not wheel keys. ADB works over Wi‑Fi through the phone hotspot.
 - **[Wheel hold does the other Button-mode action](issues/10-wheel-hold-action.md)**: holding ◀/▶ on the wheel does the other mode's action (with −5/+5 s: previous/next lesson). It is matched by the BYD key name and works in the foreground and the background on the car.
+- **[Check that the folder picker reaches a USB stick on the car](issues/11-usb-folder-check.md)**: the SAF picker reaches the car's removable SD card. The app keeps the grant, lists all 90 lessons and resumes after a restart. All 90 lessons now sit in `Pimsleur/` on that card. A USB stick was not tried.
 
 ## Fog
 
@@ -47,3 +48,4 @@ Goal: a native Android app on the BYD Song Plus head unit (DiLink) for listening
 ## Out of scope
 
 - **Reading Lessons** (21 mp3 files plus `Pimsleur_Reading_Lesson_Book.pdf`): ruled out by the user on 2026-11-21. The app covers only the 90 audio lessons in I/II/III. No transcripts, no Reading group in the lesson list, no PDF viewer.
+- **USB fallback** (MediaStore audio, raw `/storage` paths, import into app storage): ruled out by the user on 2026-11-21. The SAF picker reaches the car's removable storage, as shown in [Check that the folder picker reaches a USB stick on the car](issues/11-usb-folder-check.md).
