@@ -8,6 +8,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.DragInteraction
+import androidx.compose.foundation.interaction.collectIsPressedAsState
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -28,12 +29,13 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Icon
-import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SliderDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -59,6 +61,13 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 
 val SPEEDS = listOf(0.75f, 0.9f, 1f, 1.1f, 1.25f, 1.5f)
+
+/** The step in [SPEEDS] nearest to [speed]. */
+fun speedIndex(speed: Float): Int = SPEEDS.indices.minBy { kotlin.math.abs(SPEEDS[it] - speed) }
+
+/** The next speed up or down from [speed], held at the ends of [SPEEDS]. */
+fun stepSpeed(speed: Float, up: Boolean): Float =
+    SPEEDS[(speedIndex(speed) + if (up) 1 else -1).coerceIn(0, SPEEDS.lastIndex)]
 
 /** What the player screen shows, read from the controller a few times a second. */
 private data class PlayerUi(
@@ -144,11 +153,10 @@ fun PlayerScreen(controller: MediaController, onShowLessons: () -> Unit) {
             Header(ui, onShowLessons)
             Progress(ui, onSeek = controller::seekTo)
             Transport(ui, controller)
-            SpeedRow(ui.speed, onSpeed = controller::setPlaybackSpeed)
-            Row(verticalAlignment = Alignment.CenterVertically) {
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Bottom) {
+                SpeedControl(ui.speed, onSpeed = controller::setPlaybackSpeed, Modifier.weight(1f))
                 VolumeControl(ui, onChange = controller::changeVolume, Modifier.weight(1f))
-                Spacer(Modifier.width(24.dp))
-                AbButton(ui, onMark = { controller.sendCustomCommand(PlaybackService.CMD_AB_MARK, Bundle.EMPTY) })
+                AbButton(ui, onMark = { controller.sendCustomCommand(PlaybackService.CMD_AB_MARK, Bundle.EMPTY) }, Modifier.weight(1f))
             }
         }
         Spacer(Modifier.width(40.dp))
@@ -218,7 +226,7 @@ private fun Transport(ui: PlayerUi, controller: MediaController) {
         RoundText("−5 s") { controller.seekBack() }
         GlassButton(
             onClick = { if (ui.playing) controller.pause() else controller.play() },
-            modifier = Modifier.size(140.dp),
+            modifier = Modifier.size(104.dp),
             blue = true,
             shape = CircleShape,
             contentPadding = 0.dp,
@@ -227,7 +235,7 @@ private fun Transport(ui: PlayerUi, controller: MediaController) {
                 Icon(
                     if (playing) PlayerIcons.Pause else PlayerIcons.Play,
                     contentDescription = if (playing) "Pause" else "Play",
-                    modifier = Modifier.size(80.dp),
+                    modifier = Modifier.size(52.dp),
                 )
             }
         }
@@ -238,69 +246,121 @@ private fun Transport(ui: PlayerUi, controller: MediaController) {
 
 @Composable
 private fun RoundIcon(icon: ImageVector, label: String, enabled: Boolean, onClick: () -> Unit) {
-    GlassButton(onClick = onClick, enabled = enabled, modifier = Modifier.size(104.dp), shape = CircleShape, contentPadding = 0.dp) {
-        Icon(icon, contentDescription = label, modifier = Modifier.size(56.dp))
-    }
+    BareControl(onClick, enabled) { Icon(icon, contentDescription = label, modifier = Modifier.size(44.dp)) }
 }
 
 @Composable
 private fun RoundText(text: String, onClick: () -> Unit) {
-    GlassButton(onClick = onClick, modifier = Modifier.size(104.dp), shape = CircleShape, contentPadding = 0.dp) {
-        Text(text, fontSize = 24.sp, fontWeight = FontWeight.SemiBold, maxLines = 1, softWrap = false)
+    BareControl(onClick) { Text(text, fontSize = 22.sp, fontWeight = FontWeight.SemiBold, maxLines = 1, softWrap = false) }
+}
+
+/**
+ * A control with no glass behind it, like a music player's: just the glyph, which dims while
+ * pressed and turns BYD blue while [active]. The touch area stays large for use while driving.
+ */
+@Composable
+private fun BareControl(
+    onClick: () -> Unit,
+    enabled: Boolean = true,
+    modifier: Modifier = Modifier.size(TRANSPORT_TOUCH),
+    active: Boolean = false,
+    content: @Composable () -> Unit,
+) {
+    val source = remember { MutableInteractionSource() }
+    val pressed by source.collectIsPressedAsState()
+    val color by animateColorAsState(
+        targetValue = when {
+            !enabled -> Ui6.colors.textDisabled
+            pressed -> Ui6.colors.text.copy(alpha = 0.5f)
+            active -> Ui6.colors.blue
+            else -> Ui6.colors.text
+        },
+        animationSpec = Ui6.tween(if (pressed) Ui6.PRESS_IN_MS else Ui6.PRESS_OUT_MS),
+        label = "bare control",
+    )
+    Box(
+        modifier
+            .clickable(interactionSource = source, indication = null, enabled = enabled, onClick = onClick),
+        contentAlignment = Alignment.Center,
+    ) {
+        CompositionLocalProvider(LocalContentColor provides color) { content() }
     }
 }
 
+private val TRANSPORT_TOUCH = 88.dp
+private val STEPPER_TOUCH = Modifier.size(width = 64.dp, height = 64.dp)
+
+/** A small dim caption over a compact control in the bottom row. */
 @Composable
-private fun SpeedRow(speed: Float, onSpeed: (Float) -> Unit) {
-    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Text("Speed", style = MaterialTheme.typography.bodyLarge, color = dim())
-        Row(horizontalArrangement = Arrangement.spacedBy(Ui6.Gap)) {
-            SPEEDS.forEach { s ->
-                val selected = kotlin.math.abs(s - speed) < 0.01f
-                val label = formatSpeed(s)
-                GlassButton(
-                    onClick = { onSpeed(s) },
-                    modifier = Modifier.weight(1f).heightIn(min = 72.dp),
-                    blue = selected,
-                    contentPadding = 0.dp,
-                ) { GlassLabel(label) }
-            }
-        }
+private fun Captioned(caption: String, modifier: Modifier, content: @Composable () -> Unit) {
+    Column(modifier, horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(caption, style = MaterialTheme.typography.bodyLarge, color = dim(), maxLines = 1)
+        content()
+    }
+}
+
+/** A compact "−  value  +" stepper. */
+@Composable
+private fun Stepper(
+    value: String,
+    onDown: () -> Unit,
+    onUp: () -> Unit,
+    canDown: Boolean = true,
+    canUp: Boolean = true,
+) {
+    Row(verticalAlignment = Alignment.CenterVertically) {
+        BareControl(onClick = onDown, enabled = canDown, modifier = STEPPER_TOUCH) { Text("−", fontSize = 30.sp) }
+        Text(
+            value,
+            style = MaterialTheme.typography.titleLarge,
+            fontWeight = FontWeight.SemiBold,
+            textAlign = TextAlign.Center,
+            maxLines = 1,
+            modifier = Modifier.width(76.dp),
+        )
+        BareControl(onClick = onUp, enabled = canUp, modifier = STEPPER_TOUCH) { Text("+", fontSize = 30.sp) }
+    }
+}
+
+/** Speed as a −/+ stepper through [SPEEDS]. */
+@Composable
+private fun SpeedControl(speed: Float, onSpeed: (Float) -> Unit, modifier: Modifier) {
+    val index = speedIndex(speed)
+    Captioned("Speed", modifier) {
+        Stepper(
+            value = formatSpeed(SPEEDS[index]),
+            onDown = { onSpeed(stepSpeed(speed, up = false)) },
+            onUp = { onSpeed(stepSpeed(speed, up = true)) },
+            canDown = index > 0,
+            canUp = index < SPEEDS.lastIndex,
+        )
     }
 }
 
 @Composable
 private fun VolumeControl(ui: PlayerUi, onChange: (up: Boolean) -> Unit, modifier: Modifier) {
-    Column(modifier, verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Text("Volume  ${ui.volume}/${ui.maxVolume}", style = MaterialTheme.typography.bodyLarge, color = dim())
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            GlassButton(onClick = { onChange(false) }, modifier = Modifier.size(width = 96.dp, height = 72.dp), contentPadding = 0.dp) {
-                Text("−", fontSize = 34.sp)
-            }
-            LinearProgressIndicator(
-                progress = { ui.volume.toFloat() / ui.maxVolume },
-                modifier = Modifier.weight(1f).padding(horizontal = 16.dp).height(12.dp),
-                color = Ui6.colors.blue,
-                trackColor = Ui6.colors.glass,
-                drawStopIndicator = {},
-            )
-            GlassButton(onClick = { onChange(true) }, modifier = Modifier.size(width = 96.dp, height = 72.dp), contentPadding = 0.dp) {
-                Text("+", fontSize = 34.sp)
-            }
-        }
+    Captioned("Volume", modifier) {
+        Stepper(
+            value = "${ui.volume}/${ui.maxVolume}",
+            onDown = { onChange(false) },
+            onUp = { onChange(true) },
+            canDown = ui.volume > 0,
+            canUp = ui.volume < ui.maxVolume,
+        )
     }
 }
 
 @Composable
-private fun AbButton(ui: PlayerUi, onMark: () -> Unit) {
+private fun AbButton(ui: PlayerUi, onMark: () -> Unit, modifier: Modifier) {
     val (label, hint) = when {
         ui.abA == null -> "A-B" to "Repeat a part"
         ui.abB == null -> "Set B" to "A at ${formatTime(ui.abA)}"
         else -> "Stop A-B" to "${formatTime(ui.abA)}–${formatTime(ui.abB)}"
     }
-    Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp)) {
-        Text(hint, style = MaterialTheme.typography.bodyLarge, color = dim(), maxLines = 1)
-        GlassButton(onClick = onMark, modifier = Modifier.width(220.dp).heightIn(min = 72.dp), blue = ui.abA != null) { GlassLabel(label) }
+    Captioned(hint, modifier) {
+        BareControl(onClick = onMark, modifier = Modifier.width(160.dp).height(64.dp), active = ui.abA != null) {
+            Text(label, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.SemiBold, maxLines = 1)
+        }
     }
 }
 

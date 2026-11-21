@@ -15,4 +15,12 @@ class FormatTest {
     @Test fun speed() {
         assertEquals(listOf("0.75x", "0.9x", "1x", "1.1x", "1.25x", "1.5x"), SPEEDS.map(::formatSpeed))
     }
+
+    @Test fun speedSteps() {
+        assertEquals(1.1f, stepSpeed(1f, up = true))
+        assertEquals(0.9f, stepSpeed(1f, up = false))
+        assertEquals(1.5f, stepSpeed(1.5f, up = true))
+        assertEquals(0.75f, stepSpeed(0.75f, up = false))
+        assertEquals(1.25f, stepSpeed(1.12f, up = true))
+    }
 }
