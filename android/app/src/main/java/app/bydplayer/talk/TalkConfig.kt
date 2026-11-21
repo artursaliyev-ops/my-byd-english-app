@@ -24,6 +24,44 @@ object TalkConfig {
     /** Anna's audio: 24 kHz mono 16-bit PCM. */
     const val OUTPUT_RATE = 24_000
 
+    /** The learner's mic: 16 kHz mono 16-bit PCM (spec §5). */
+    const val INPUT_RATE = 16_000
+
+    /** One VAD frame: Silero v4 at 16 kHz takes 512 samples (32 ms). */
+    const val VAD_FRAME = 512
+
+    /** The bundled Silero VAD model (v4, 16 kHz branch, MIT). */
+    const val VAD_ASSET = "talk/silero_vad.onnx"
+
+    /** A frame at or above this speech probability starts the learner's speech (spec §12: road noise). */
+    const val SPEECH_START = 0.5f
+
+    /** Once speaking, a frame below this counts toward the silence window. */
+    const val SPEECH_END = 0.35f
+
+    /** Audio kept from just before speech start and sent first (spec §6 step 3). */
+    const val PRE_ROLL_MS = 300
+
+    /** Live learner audio goes out in pieces of about this length. */
+    const val CHUNK_MS = 100L
+
+    /** Silence that ends the learner's speech (spec §6 step 4; 1.0 s to be tried, §12). */
+    const val SILENCE_MS = 1_500L
+
+    /** An utterance this long ends as if the learner had gone quiet. */
+    const val MAX_UTTERANCE_MS = 30_000L
+
+    /** After Anna's audio has drained, the mic waits this long for her echo to die (spec §6 step 2). */
+    const val ECHO_GUARD_MS = 300L
+
+    /** The turn beep: a clear short tone (spec §7). */
+    const val BEEP_HZ = 880
+    const val BEEP_MS = 140
+
+    /** The soft tick: higher, very short and quiet. */
+    const val TICK_HZ = 1_600
+    const val TICK_MS = 35
+
     /** After a Talk, a lesson that was playing resumes this far back (spec §9). */
     const val RESUME_BACK_MS = 5_000L
 }

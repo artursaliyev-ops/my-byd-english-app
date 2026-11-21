@@ -32,5 +32,8 @@ object Talk {
     }
 }
 
-/** What the Talk screen draws (spec §7): the state, and Anna's latest line. */
-data class TalkScreenState(val state: TurnState, val annaLine: String)
+/**
+ * What the Talk screen draws (spec §7): the state, Anna's latest line, and in Your turn how full
+ * the white silence ring is. Never the learner's words.
+ */
+data class TalkScreenState(val state: TurnState, val annaLine: String, val silence: Float = 0f)

@@ -1,5 +1,6 @@
 package app.bydplayer.talk
 
+import android.Manifest
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -8,8 +9,11 @@ import android.app.Service
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.content.pm.ServiceInfo
 import android.media.AudioFocusRequest
 import android.media.AudioManager
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.IBinder
@@ -22,19 +26,23 @@ import androidx.media3.session.SessionToken
 import app.bydplayer.BuildConfig
 import app.bydplayer.MainActivity
 import app.bydplayer.PlaybackService
+import app.bydplayer.RecorderService
 import com.google.common.util.concurrent.ListenableFuture
 
 /**
- * The Talk foreground service (spec §5): owns the Live session, Anna's playback, audio focus and
- * the [TalkTurns] state machine for one Talk. Every event is handled on the main thread: socket
- * callbacks are posted here, fed to [TalkTurns], and its effects carried out. Started only from
- * the visible Talk button. Nothing from a Talk is written to disk.
+ * The Talk foreground service (spec §5): owns the mic, the Live session, Anna's playback, audio
+ * focus and the [TalkTurns] state machine for one Talk. Every event is handled on the main
+ * thread: socket, mic and playback callbacks are posted here, fed to [TalkTurns], and its effects
+ * carried out. Started only from the visible Talk button, so the one recording of the Talk starts
+ * while the app is on screen. Nothing from a Talk is written to disk.
  */
 class TalkService : Service() {
     private val main = Handler(Looper.getMainLooper())
     private var turns: TalkTurns? = null
     private var session: LiveSession? = null
     private var voice: AnnaVoice? = null
+    private var mic: TalkMic? = null
+    private var sounds: TalkSounds? = null
     private var focus: AudioFocusRequest? = null
     private var lessonFuture: ListenableFuture<MediaController>? = null
     private var lesson: MediaController? = null
@@ -64,13 +72,28 @@ class TalkService : Service() {
 
     private fun begin() {
         startedAt = SystemClock.elapsedRealtime()
+        if (checkSelfPermission(Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+            Log.w(TAG, "No microphone permission: no Talk")
+            Talk.screen = null
+            stopSelf()
+            return
+        }
+        // Voice practice gives the mic up; it comes back by its own rule after the Talk (spec §5).
+        RecorderService.stop(this)
         goForeground()
         turns = TalkTurns()
         publish()
         // Pause the lesson first, then take focus: taking it first would pause the lesson by
         // focus loss and hide whether it was playing (spec §9).
         pauseLessonThen { requestFocus() }
-        voice = AnnaVoice()
+        voice = AnnaVoice().also { sounds = TalkSounds(it.attributes) }
+        mic = TalkMic(
+            context = this,
+            detector = { SileroVad(this) },
+            main = main,
+            onEvent = { e -> main.post { handle(TalkEvent.Mic(e)) } },
+            onFailed = { main.post { Log.w(TAG, "mic failed: ending the Talk"); handle(TalkEvent.EndPressed) } },
+        ).also { it.start() }
         val prompt = assets.open(TalkConfig.PROMPT_ASSET).bufferedReader().use { it.readText() }.trim()
         session = LiveSession(
             apiKey = BuildConfig.GEMINI_API_KEY,
@@ -90,6 +113,15 @@ class TalkService : Service() {
             when (effect) {
                 is TalkEffect.SendText -> session?.send(LiveProtocol.text(effect.text))
                 is TalkEffect.Play -> voice?.play(effect.pcm)
+                TalkEffect.StartActivity -> session?.send(LiveProtocol.activityStart())
+                is TalkEffect.SendAudio -> if (effect.pcm.isNotEmpty()) session?.send(LiveProtocol.audio(effect.pcm))
+                TalkEffect.EndActivity -> session?.send(LiveProtocol.activityEnd())
+                TalkEffect.AwaitDrain -> voice?.whenDrained { main.post { handle(TalkEvent.PlaybackDrained) } }
+                is TalkEffect.After -> main.postDelayed({ handle(effect.event) }, effect.ms)
+                TalkEffect.OpenMic -> mic?.open()
+                TalkEffect.CloseMic -> mic?.close()
+                TalkEffect.PlayBeep -> sounds?.beep()
+                TalkEffect.PlayTick -> sounds?.tick()
                 TalkEffect.End -> finishTalk()
             }
         }
@@ -97,14 +129,16 @@ class TalkService : Service() {
 
     private fun publish() {
         val t = turns ?: return
-        Talk.screen = if (t.state == TurnState.Ended) null else TalkScreenState(t.state, t.annaLine)
+        Talk.screen = if (t.state == TurnState.Ended) null else TalkScreenState(t.state, t.annaLine, t.silence)
     }
 
     /** Ends at once (spec §9): socket, Anna, focus, screen, then the lesson by the resume rule. */
     private fun finishTalk() {
         turns = null
+        mic?.stop(); mic = null
         session?.close(); session = null
         voice?.release(); voice = null
+        sounds?.release(); sounds = null
         focus?.let { getSystemService(AudioManager::class.java).abandonAudioFocusRequest(it) }
         focus = null
         Talk.screen = null
@@ -171,8 +205,8 @@ class TalkService : Service() {
             .setContentIntent(open)
             .setOngoing(true)
             .build()
-        // Type from the manifest (microphone); the mic itself comes with ticket 15.
-        startForeground(NOTIFICATION_ID, n)
+        if (Build.VERSION.SDK_INT >= 29) startForeground(NOTIFICATION_ID, n, ServiceInfo.FOREGROUND_SERVICE_TYPE_MICROPHONE)
+        else startForeground(NOTIFICATION_ID, n)
     }
 
     companion object {

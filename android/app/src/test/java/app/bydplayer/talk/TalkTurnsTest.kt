@@ -1,9 +1,11 @@
 package app.bydplayer.talk
 
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertArrayEquals
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
-/** Spec §6 step 1 and §7: the opening of a Talk up to Anna's hello, and End Talk. */
+/** Spec §6 steps 1-5 and §7: the opening, Turn after Turn, and End Talk. */
 class TalkTurnsTest {
     private val talk = TalkTurns()
 
@@ -70,5 +72,128 @@ class TalkTurnsTest {
         talk.on(TalkEvent.Server(LiveEvent.SetupComplete))
         assertEquals(listOf(TalkEffect.End), talk.on(TalkEvent.SessionLost))
         assertEquals(TurnState.Ended, talk.state)
+    }
+
+    private fun server(e: LiveEvent) = talk.on(TalkEvent.Server(e))
+    private fun mic(e: MicEvent) = talk.on(TalkEvent.Mic(e))
+
+    /** Opening, Anna's hello played to the end: the learner's turn begins. */
+    private fun toYou() {
+        server(LiveEvent.SetupComplete)
+        server(LiveEvent.Audio(byteArrayOf(1)))
+        server(LiveEvent.TurnComplete)
+        talk.on(TalkEvent.PlaybackDrained)
+        talk.on(TalkEvent.EchoGuardOver)
+    }
+
+    @Test
+    fun `when Anna's turn is complete the service waits for her audio to drain, then 300 ms more`() {
+        server(LiveEvent.SetupComplete)
+        server(LiveEvent.Audio(byteArrayOf(1)))
+        assertEquals(listOf(TalkEffect.AwaitDrain), server(LiveEvent.TurnComplete))
+        assertEquals(TurnState.Anna, talk.state)
+        assertEquals(listOf(TalkEffect.After(300, TalkEvent.EchoGuardOver)), talk.on(TalkEvent.PlaybackDrained))
+        assertEquals(TurnState.Anna, talk.state)
+    }
+
+    @Test
+    fun `after the echo guard the turn beep plays and the mic opens for Your turn`() {
+        server(LiveEvent.SetupComplete)
+        server(LiveEvent.Audio(byteArrayOf(1)))
+        server(LiveEvent.TurnComplete)
+        talk.on(TalkEvent.PlaybackDrained)
+        assertEquals(listOf(TalkEffect.PlayBeep, TalkEffect.OpenMic), talk.on(TalkEvent.EchoGuardOver))
+        assertEquals(TurnState.You, talk.state)
+    }
+
+    @Test
+    fun `playback draining before Anna's turn is complete doesn't open the mic`() {
+        server(LiveEvent.SetupComplete)
+        server(LiveEvent.Audio(byteArrayOf(1)))
+        assertEquals(emptyList<TalkEffect>(), talk.on(TalkEvent.PlaybackDrained))
+        assertEquals(emptyList<TalkEffect>(), talk.on(TalkEvent.EchoGuardOver))
+        assertEquals(TurnState.Anna, talk.state)
+    }
+
+    @Test
+    fun `the learner's speech goes out as activityStart, the pre-roll, then live audio`() {
+        toYou()
+        val pre = byteArrayOf(9, 9)
+        val chunk = byteArrayOf(5, 5)
+        assertEquals(listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(pre)), mic(MicEvent.SpeechStarted(pre)))
+        assertEquals(listOf(TalkEffect.SendAudio(chunk)), mic(MicEvent.Audio(chunk)))
+        assertEquals(TurnState.You, talk.state)
+    }
+
+    @Test
+    fun `the end of speech sends activityEnd, ticks, closes the mic, and Anna is thinking`() {
+        toYou()
+        mic(MicEvent.SpeechStarted(byteArrayOf()))
+        assertEquals(
+            listOf(TalkEffect.EndActivity, TalkEffect.PlayTick, TalkEffect.CloseMic),
+            mic(MicEvent.SpeechEnded),
+        )
+        assertEquals(TurnState.Thinking, talk.state)
+    }
+
+    @Test
+    fun `Anna answers and the next Turn begins, Turn after Turn`() {
+        toYou()
+        repeat(3) {
+            mic(MicEvent.SpeechStarted(byteArrayOf(1)))
+            mic(MicEvent.SpeechEnded)
+            assertEquals(TurnState.Thinking, talk.state)
+            server(LiveEvent.Audio(byteArrayOf(2)))
+            assertEquals(TurnState.Anna, talk.state)
+            server(LiveEvent.TurnComplete)
+            talk.on(TalkEvent.PlaybackDrained)
+            talk.on(TalkEvent.EchoGuardOver)
+            assertEquals(TurnState.You, talk.state)
+        }
+    }
+
+    @Test
+    fun `the current utterance is kept whole in memory until the next one starts`() {
+        toYou()
+        mic(MicEvent.SpeechStarted(byteArrayOf(1, 2)))
+        mic(MicEvent.Audio(byteArrayOf(3, 4)))
+        mic(MicEvent.Audio(byteArrayOf(5)))
+        mic(MicEvent.SpeechEnded)
+        assertArrayEquals(byteArrayOf(1, 2, 3, 4, 5), talk.utterance)
+        server(LiveEvent.Audio(byteArrayOf(0)))
+        server(LiveEvent.TurnComplete)
+        talk.on(TalkEvent.PlaybackDrained)
+        talk.on(TalkEvent.EchoGuardOver)
+        mic(MicEvent.SpeechStarted(byteArrayOf(7)))
+        assertArrayEquals(byteArrayOf(7), talk.utterance)
+    }
+
+    @Test
+    fun `the silence ring shows only in Your turn and starts empty each Turn`() {
+        toYou()
+        mic(MicEvent.SpeechStarted(byteArrayOf()))
+        mic(MicEvent.Silence(0.4f))
+        assertEquals(0.4f, talk.silence, 0f)
+        mic(MicEvent.SpeechEnded)
+        assertEquals(0f, talk.silence, 0f)
+    }
+
+    @Test
+    fun `mic events outside Your turn are ignored`() {
+        server(LiveEvent.SetupComplete)
+        server(LiveEvent.Audio(byteArrayOf(1)))
+        assertTrue(mic(MicEvent.SpeechStarted(byteArrayOf(1))).isEmpty())
+        assertTrue(mic(MicEvent.Audio(byteArrayOf(1))).isEmpty())
+        assertTrue(mic(MicEvent.SpeechEnded).isEmpty())
+        assertEquals(TurnState.Anna, talk.state)
+    }
+
+    @Test
+    fun `End Talk ends at once in Your turn too`() {
+        toYou()
+        mic(MicEvent.SpeechStarted(byteArrayOf()))
+        assertEquals(listOf(TalkEffect.End), talk.on(TalkEvent.EndPressed))
+        assertEquals(TurnState.Ended, talk.state)
+        assertTrue(talk.on(TalkEvent.EchoGuardOver).isEmpty())
     }
 }

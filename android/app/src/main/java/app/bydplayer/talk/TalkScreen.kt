@@ -24,6 +24,8 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
@@ -54,7 +56,7 @@ fun TalkScreen(screen: TalkScreenState) {
             .padding(horizontal = 40.dp, vertical = 28.dp),
     ) {
         Column(Modifier.align(Alignment.Center).padding(bottom = 60.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-            TalkShape(screen.state, 320.dp)
+            TalkShape(screen.state, screen.silence, 320.dp)
             Spacer(Modifier.height(24.dp))
             Text(word(screen.state), fontSize = 44.sp, fontWeight = FontWeight.SemiBold, color = Ui6.colors.text)
         }
@@ -77,6 +79,7 @@ private fun word(state: TurnState) = when (state) {
     TurnState.Connecting -> "Connecting…"
     TurnState.Thinking -> "Thinking"
     TurnState.Anna -> "Anna"
+    TurnState.You -> "Your turn"
     TurnState.Ended -> ""
 }
 
@@ -84,15 +87,17 @@ private val AnnaGreen = Color(0xFF6FD08C)
 private val Grey = Color.White.copy(alpha = 0.35f)
 
 @Composable
-private fun TalkShape(state: TurnState, size: Dp) {
+private fun TalkShape(state: TurnState, silence: Float, size: Dp) {
     val pulse by rememberInfiniteTransition(label = "talk shape").animateFloat(
         0f, 1f, infiniteRepeatable(tween(1200), RepeatMode.Restart), label = "pulse",
     )
+    val blue = Ui6.colors.blue
     Canvas(Modifier.size(size)) {
         val r = this.size.minDimension / 2f
         when (state) {
             TurnState.Anna -> annaRings(r, pulse)
             TurnState.Thinking -> thinkingDots(r, pulse)
+            TurnState.You -> yourTurn(r, silence, blue)
             TurnState.Connecting, TurnState.Ended -> drawCircle(Grey, radius = r * 0.6f, style = Stroke(10.dp.toPx()))
         }
     }
@@ -105,6 +110,22 @@ private fun DrawScope.annaRings(r: Float, pulse: Float) {
         drawCircle(AnnaGreen.copy(alpha = 0.5f * (1 - f)), radius = r * (0.55f + 0.45f * f), style = Stroke(6.dp.toPx()))
     }
     drawCircle(AnnaGreen, radius = r * 0.5f)
+}
+
+/** A blue disc; the white silence ring fills clockwise over the silence window (spec §6 step 4). */
+private fun DrawScope.yourTurn(r: Float, silence: Float, blue: Color) {
+    drawCircle(blue, radius = r * 0.55f)
+    val stroke = 10.dp.toPx()
+    val inset = r * 0.25f
+    drawCircle(Color.White.copy(alpha = 0.15f), radius = r * 0.75f, style = Stroke(stroke))
+    if (silence > 0f) {
+        drawArc(
+            Color.White, startAngle = -90f, sweepAngle = 360f * silence, useCenter = false,
+            topLeft = Offset(center.x - r + inset, center.y - r + inset),
+            size = Size((r - inset) * 2, (r - inset) * 2),
+            style = Stroke(stroke, cap = StrokeCap.Round),
+        )
+    }
 }
 
 /** Three white dots, lit in turn. */

@@ -100,4 +100,18 @@ class LiveProtocolTest {
     fun `usage metadata alone carries no event`() {
         assertEquals(emptyList<LiveEvent>(), LiveProtocol.parse("""{"usageMetadata":{"totalTokenCount":12}}"""))
     }
+
+    @Test
+    fun `a learner utterance is wrapped in activityStart and activityEnd`() {
+        assertTrue(JSONObject(LiveProtocol.activityStart()).getJSONObject("realtimeInput").has("activityStart"))
+        assertTrue(JSONObject(LiveProtocol.activityEnd()).getJSONObject("realtimeInput").has("activityEnd"))
+    }
+
+    @Test
+    fun `the learner's audio goes as base64 16 kHz PCM`() {
+        val audio = JSONObject(LiveProtocol.audio(byteArrayOf(1, 2, 3)))
+            .getJSONObject("realtimeInput").getJSONObject("audio")
+        assertEquals("audio/pcm;rate=16000", audio.getString("mimeType"))
+        assertEquals("AQID", audio.getString("data"))
+    }
 }

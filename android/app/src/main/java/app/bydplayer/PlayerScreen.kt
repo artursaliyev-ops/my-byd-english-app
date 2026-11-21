@@ -1,7 +1,10 @@
 package app.bydplayer
 
+import android.Manifest
 import android.os.Bundle
 import android.os.SystemClock
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.Crossfade
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
@@ -185,8 +188,29 @@ private fun Header(ui: PlayerUi, onShowLessons: () -> Unit, dot: @Composable () 
         // Talk lives only here, not on the lesson list, and only with a key built in (Talk spec §2, §7).
         if (Talk.available) {
             val context = LocalContext.current
+            var micDenied by remember { mutableStateOf(false) }
+            // No mic permission: the normal prompt; denied, no Talk (Talk spec §5).
+            val askMic = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+                micDenied = !granted
+                if (granted) Talk.start(context)
+            }
             Spacer(Modifier.width(12.dp))
-            GlassButton(onClick = { Talk.start(context) }, blue = true, modifier = Modifier.heightIn(min = 72.dp)) { GlassLabel("Talk") }
+            GlassButton(
+                onClick = {
+                    if (VoicePractice.hasMicPermission(context)) {
+                        micDenied = false
+                        Talk.start(context)
+                    } else {
+                        askMic.launch(Manifest.permission.RECORD_AUDIO)
+                    }
+                },
+                blue = true,
+                modifier = Modifier.heightIn(min = 72.dp),
+            ) { GlassLabel("Talk") }
+            if (micDenied) {
+                Spacer(Modifier.width(12.dp))
+                Text("Microphone permission not granted", style = MaterialTheme.typography.bodyLarge, color = dim())
+            }
         }
         Spacer(Modifier.width(28.dp))
         Column {

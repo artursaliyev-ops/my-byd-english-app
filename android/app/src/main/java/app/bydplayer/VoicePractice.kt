@@ -35,6 +35,8 @@ object VoicePractice {
      */
     fun startIfNeeded(context: Context, lessonPlaying: Boolean) {
         if (micRunning || !lessonPlaying) return
+        // A Talk holds the mic; voice practice comes back after it (Talk spec §5).
+        if (app.bydplayer.talk.Talk.screen != null) return
         if (!SettingsStore(context).recordAnswers() || !hasMicPermission(context)) return
         RecorderService.start(context)
     }

@@ -45,6 +45,23 @@ object LiveProtocol {
     fun text(text: String): String =
         JSONObject().put("realtimeInput", JSONObject().put("text", text)).toString()
 
+    /** The learner starts speaking (spec §6 step 3): the server's own VAD is off. */
+    fun activityStart(): String = realtime("activityStart", JSONObject())
+
+    /** The learner's speech has ended (spec §6 step 4). */
+    fun activityEnd(): String = realtime("activityEnd", JSONObject())
+
+    /** A piece of the learner's speech: 16 kHz mono 16-bit PCM. */
+    fun audio(pcm: ByteArray): String = realtime(
+        "audio",
+        JSONObject()
+            .put("data", Base64.getEncoder().encodeToString(pcm))
+            .put("mimeType", "audio/pcm;rate=${TalkConfig.INPUT_RATE}"),
+    )
+
+    private fun realtime(key: String, value: JSONObject): String =
+        JSONObject().put("realtimeInput", JSONObject().put(key, value)).toString()
+
     /** One server message as the events it carries, in order. Unknown parts are skipped. */
     fun parse(message: String): List<LiveEvent> {
         val msg = JSONObject(message)
