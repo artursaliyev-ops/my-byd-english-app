@@ -3,7 +3,7 @@ Label: wayfinder:map
 
 ## Destination
 
-A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: simple spoken English small talk with a model while driving, so a session can build it without new decisions. Offline (on the head unit) was tried first and failed the bar, so the spec is written for a cloud model over the phone's hotspot.
+A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: simple spoken English small talk with a model while driving, so a session can build it without new decisions. Offline (on the head unit) was tried first and failed the bar, so the spec is written for a cloud model (Gemini Live, free tier) over the phone's hotspot.
 
 ## Notes
 
@@ -32,6 +32,7 @@ A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: 
 - [Measure a Turn on the car with the offline stack](issues/03-measure-a-turn.md): BYD's dashcam/cameras keep ~3 cores busy; Qwen3.5-2B gets ~4.5 tok/s (est. ~5 s to first audio) and passes ~2/10 of the partner test set; 0.8B gets ~9 tok/s (~3–4.5 s) but ~3/10. No offline model tried is both fast and good enough. Probe on local branch `probe/talk-turn`.
 - [Decide whether Talk runs offline or in the cloud](issues/04-offline-or-cloud.md): offline fails the bar, so Talk runs on a cloud model over the phone's hotspot, with no offline fallback; the 3–5 s bar and the partner and screen decisions still hold.
 - [Compare cloud options for a Talk Turn](issues/08-cloud-options.md): recommend OpenAI Realtime `gpt-realtime-2.1` (mini as cheaper fallback) with on-device Silero VAD, est. ~2.7–3.5 s and ~$1–2 per 20-min Talk; runner-up Deepgram Flux → Claude Haiku 5.5 → Cartesia Sonic 3.6, ~$0.25–0.45; key built in from `local.properties` with a budget cap. Estimates only; research on branch `research/cloud-talk-options`.
+- [Pick the cloud provider, model and key](issues/09-pick-cloud-provider.md): Gemini Live **free tier** (owner accepts training/human review), speech-to-speech, mic + Silero VAD on the head unit; best of two free Live models by the test set; key built in from `local.properties`, no card; compression + resumption, 30-min Talk cap; no paid tier: fallback is a free Groq → Groq → Google TTS/Deepgram pipeline. Free-tier check in `research/free-tiers.md`.
 
 ## Not yet specified
 
