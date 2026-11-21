@@ -26,11 +26,11 @@ A hand-off-ready **spec** at `.scratch/voice-practice/spec.md` for recording the
 - [Check the microphone on the car](issues/03-car-mic-check.md): record with `VOICE_COMMUNICATION`; the car's AEC + NS cut the lesson by about 20–25 dB and the voice is clear; runs alongside the BYD voice app, no focus change; a recording started from the screen keeps going in the background, one started from the background is muted. Probe on branch `task/car-mic-probe`.
 - [Shape the "▶ Me" control and the recording dot](issues/04-attempt-playback-ui.md): chips at the end of the compared line, "▶ Me" and "▶ Echo" when there are two; plays Attempt, 0.4 s, speaker's line with the lesson paused, then back to its place, still paused; red dot by the title, pulsing inside speaking pauses. Prototype on branch `prototype/attempt-playback-ui`.
 - [Decide what a lesson pass means when the learner jumps around](issues/05-edge-cases.md): no pass; each speaking pause keeps its newest voiced Attempt, kept only if the whole pause played without a seek; pausing inside a pause listens up to 10 s more; any speed; the 5 kept lessons are the most recently recorded; Settings gets "Delete my answers".
+- [Decide when the mic starts and what a lesson resumed from the wheel does](issues/06-when-recording-starts.md): starts when a lesson plays with the app on screen, stays open through pauses (closes after 30 min paused or when the app closes); resumed without it records nothing silently and the mic starts when the screen opens; permission asked when the setting is first turned on.
 
 ## Not yet specified
 
-- **Recording format and size**: codec, bitrate, one file per Attempt vs one file per lesson with offsets (Attempts are replaced one pause at a time); budget for 5 lessons × ~280 Attempts ≈ 65 min of kept voice (from the speaking-pause rule). The car records 16 kHz mono PCM from `VOICE_COMMUNICATION`.
-- **Writing the spec**: once the tickets above are resolved, assemble `spec.md`.
+<!-- nothing left: storage and the spec are now tickets -->
 
 ## Out of scope
 
