@@ -66,7 +66,15 @@ class SettingsStore(context: Context) {
         SharedPreferences.OnSharedPreferenceChangeListener { _, key -> if (key == KEY_BUTTON_MODE) onChange() }
             .also(prefs::registerOnSharedPreferenceChangeListener)
 
+    /** "Record my answers" (voice practice). Off by default. */
+    fun recordAnswers(): Boolean = prefs.getBoolean(KEY_RECORD_ANSWERS, false)
+
+    fun setRecordAnswers(on: Boolean) {
+        prefs.edit { putBoolean(KEY_RECORD_ANSWERS, on) }
+    }
+
     private companion object {
         const val KEY_BUTTON_MODE = "button_mode"
+        const val KEY_RECORD_ANSWERS = "record_answers"
     }
 }

@@ -140,6 +140,7 @@ fun PlayerScreen(controller: MediaController, onShowLessons: () -> Unit) {
         controller.addListener(listener)
         onDispose { controller.removeListener(listener) }
     }
+    DisposableEffect(Unit) { onDispose { AttemptPlayer.stop() } }
     // Position and session extras (A-B points) don't fire events; poll them.
     LaunchedEffect(controller) {
         while (true) {
@@ -150,32 +151,42 @@ fun PlayerScreen(controller: MediaController, onShowLessons: () -> Unit) {
 
     Row(Modifier.fillMaxSize().padding(horizontal = 40.dp, vertical = 28.dp)) {
         Column(Modifier.weight(0.46f).fillMaxHeight(), verticalArrangement = Arrangement.SpaceBetween) {
-            Header(ui, onShowLessons)
-            Progress(ui, onSeek = controller::seekTo)
+            val context = LocalContext.current
+            Header(ui, onShowLessons) {
+                // Read each recomposition (every 250 ms): Settings may have changed it.
+                if (SettingsStore(context).recordAnswers()) {
+                    RecordingDot(recording = ui.playing && AttemptPlayer.now == null, capturing = VoicePractice.capturing)
+                }
+            }
+            Progress(ui, onSeek = { AttemptPlayer.stop(); controller.seekTo(it) })
             Transport(ui, controller)
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Bottom) {
-                SpeedControl(ui.speed, onSpeed = controller::setPlaybackSpeed, Modifier.weight(1f))
+                SpeedControl(ui.speed, onSpeed = { AttemptPlayer.stop(); controller.setPlaybackSpeed(it) }, Modifier.weight(1f))
                 VolumeControl(ui, onChange = controller::changeVolume, Modifier.weight(1f))
-                AbButton(ui, onMark = { controller.sendCustomCommand(PlaybackService.CMD_AB_MARK, Bundle.EMPTY) }, Modifier.weight(1f))
+                AbButton(ui, onMark = { AttemptPlayer.stop(); controller.sendCustomCommand(PlaybackService.CMD_AB_MARK, Bundle.EMPTY) }, Modifier.weight(1f))
             }
         }
         Spacer(Modifier.width(40.dp))
         TranscriptArea(
             lessonNumber = ui.lessonNumber,
             positionMs = ui.positionMs,
-            onSeek = { controller.seekTo(it); if (!ui.playing) controller.play() },
+            controller = controller,
+            onSeek = { AttemptPlayer.stop(); controller.seekTo(it); if (!ui.playing) controller.play() },
             modifier = Modifier.weight(0.54f).fillMaxHeight(),
         )
     }
 }
 
 @Composable
-private fun Header(ui: PlayerUi, onShowLessons: () -> Unit) {
+private fun Header(ui: PlayerUi, onShowLessons: () -> Unit, dot: @Composable () -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically) {
         GlassButton(onClick = onShowLessons, modifier = Modifier.heightIn(min = 72.dp)) { GlassLabel("‹  Lessons") }
         Spacer(Modifier.width(28.dp))
         Column {
-            Text(ui.title, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.SemiBold)
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+                Text(ui.title, style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.SemiBold)
+                dot()
+            }
             Text(ui.subtitle, style = MaterialTheme.typography.bodyLarge, color = dim())
         }
     }
@@ -222,10 +233,13 @@ private fun Transport(ui: PlayerUi, controller: MediaController) {
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        RoundIcon(PlayerIcons.Previous, "Previous lesson", enabled = ui.hasPrevious) { controller.seekToPreviousMediaItem() }
-        RoundText("−5 s") { controller.seekBack() }
+        RoundIcon(PlayerIcons.Previous, "Previous lesson", enabled = ui.hasPrevious) { AttemptPlayer.stop(); controller.seekToPreviousMediaItem() }
+        RoundText("−5 s") { AttemptPlayer.stop(); controller.seekBack() }
         GlassButton(
-            onClick = { if (ui.playing) controller.pause() else controller.play() },
+            onClick = {
+                // During "▶ Me" this only stops it; the lesson stays paused where it was.
+                if (AttemptPlayer.now != null) AttemptPlayer.stop() else if (ui.playing) controller.pause() else controller.play()
+            },
             modifier = Modifier.size(104.dp),
             blue = true,
             shape = CircleShape,
@@ -239,8 +253,8 @@ private fun Transport(ui: PlayerUi, controller: MediaController) {
                 )
             }
         }
-        RoundText("+5 s") { controller.seekForward() }
-        RoundIcon(PlayerIcons.Next, "Next lesson", enabled = ui.hasNext) { controller.seekToNextMediaItem() }
+        RoundText("+5 s") { AttemptPlayer.stop(); controller.seekForward() }
+        RoundIcon(PlayerIcons.Next, "Next lesson", enabled = ui.hasNext) { AttemptPlayer.stop(); controller.seekToNextMediaItem() }
     }
 }
 
@@ -370,10 +384,16 @@ private fun AbButton(ui: PlayerUi, onMark: () -> Unit, modifier: Modifier) {
  * If the user scrolls the list by hand, following pauses for [FOLLOW_PAUSE_MS].
  */
 @Composable
-private fun TranscriptArea(lessonNumber: Int?, positionMs: Long, onSeek: (Long) -> Unit, modifier: Modifier) {
+private fun TranscriptArea(lessonNumber: Int?, positionMs: Long, controller: MediaController, onSeek: (Long) -> Unit, modifier: Modifier) {
     val context = LocalContext.current
     val segments by produceState<List<Segment>?>(null, lessonNumber) {
         value = lessonNumber?.let { n -> withContext(Dispatchers.IO) { loadTranscript(context, n) } }
+    }
+    // Voice practice: this lesson's Attempts, by the transcript line each is compared with.
+    val attempts by produceState(emptyMap<Int, List<Pair<AttemptKind, java.io.File>>>(), segments, VoicePractice.storeVersion) {
+        val segs = segments
+        val id = lessonNumber?.let(::transcriptId)
+        value = if (segs == null || id == null) emptyMap() else withContext(Dispatchers.IO) { attemptsByLine(context, id, segs) }
     }
     val box = modifier.background(Ui6.colors.glass, RoundedCornerShape(Ui6.Radius))
     val segs = segments
@@ -416,7 +436,13 @@ private fun TranscriptArea(lessonNumber: Int?, positionMs: Long, onSeek: (Long) 
             SegmentLine(seg, isActive = i == active, onClick = {
                 lastTouchMs = 0L
                 onSeek(seg.startMs)
-            })
+            }) {
+                attempts[i]?.let { mine ->
+                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        mine.forEach { (kind, file) -> AttemptChip(kind, seg) { AttemptPlayer.play(controller, file, kind, seg) } }
+                    }
+                }
+            }
         }
         // Room for the last lines to scroll up to the top.
         item { Spacer(Modifier.height(320.dp)) }
@@ -426,7 +452,7 @@ private fun TranscriptArea(lessonNumber: Int?, positionMs: Long, onSeek: (Long) 
 private const val FOLLOW_PAUSE_MS = 6_000L
 
 @Composable
-private fun SegmentLine(seg: Segment, isActive: Boolean, onClick: () -> Unit) {
+private fun SegmentLine(seg: Segment, isActive: Boolean, onClick: () -> Unit, trailing: @Composable () -> Unit = {}) {
     // English lines are what the listener repeats, so they read brighter than the Russian narration.
     val t = Ui6.colors
     val color by animateColorAsState(
@@ -464,8 +490,21 @@ private fun SegmentLine(seg: Segment, isActive: Boolean, onClick: () -> Unit) {
                 else -> FontWeight.Normal
             },
             color = color,
+            modifier = Modifier.weight(1f),
         )
+        trailing()
     }
+}
+
+/** Saved Attempts of a lesson, keyed by the transcript line they are compared with; Me before Echo. */
+private fun attemptsByLine(context: android.content.Context, lessonId: String, segs: List<Segment>): Map<Int, List<Pair<AttemptKind, java.io.File>>> {
+    val store = VoicePractice.store(context)
+    val saved = store.list(lessonId, transcriptFingerprint(segs))
+    if (saved.isEmpty()) return emptyMap()
+    return speakingPauses(segs)
+        .mapNotNull { p -> AttemptKey(p.kind, p.startMs).takeIf { it in saved }?.let { p.compareIndex to (p.kind to store.file(lessonId, it)) } }
+        .groupBy({ it.first }, { it.second })
+        .mapValues { (_, list) -> list.sortedBy { it.first.ordinal } }
 }
 
 @Composable

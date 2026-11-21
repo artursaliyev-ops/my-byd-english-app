@@ -1,6 +1,11 @@
 package app.bydplayer
 
+import android.Manifest
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.background
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.TextButton
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -29,14 +34,32 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 /**
- * Settings: the Button mode for the media buttons, and a **Last button** readout of the
- * signals the app received, so the user can see in the car what the steering wheel sends.
+ * Settings: the Button mode for the media buttons, "Record my answers" for voice practice,
+ * and a **Last button** readout of the signals the app received, so the user can see in
+ * the car what the steering wheel sends.
  */
 @Composable
 fun SettingsScreen(onBack: () -> Unit) {
     val context = LocalContext.current
     val store = remember { SettingsStore(context) }
     var mode by remember { mutableStateOf(store.buttonMode()) }
+    var recordAnswers by remember { mutableStateOf(store.recordAnswers() && VoicePractice.hasMicPermission(context)) }
+    var permissionDenied by remember { mutableStateOf(false) }
+    var confirmDelete by remember { mutableStateOf(false) }
+    fun turnOn() {
+        store.setRecordAnswers(true)
+        recordAnswers = true
+        permissionDenied = false
+        // Settings is on screen, so the microphone may start now if a lesson is playing.
+        VoicePractice.startIfNeeded(context, LessonClock.snapshot.playing)
+    }
+    val askMic = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+        if (granted) turnOn() else {
+            store.setRecordAnswers(false)
+            recordAnswers = false
+            permissionDenied = true
+        }
+    }
     val t = Ui6.colors
     val dim = t.textSecondary
 
@@ -68,6 +91,52 @@ fun SettingsScreen(onBack: () -> Unit) {
             modifier = Modifier.widthIn(min = 760.dp).height(80.dp),
         ) { i ->
             Text(ButtonMode.entries[i].label, style = MaterialTheme.typography.labelLarge, color = LocalContentColor.current)
+        }
+
+        Text("Record my answers", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(top = 16.dp))
+        Text(
+            "While a lesson plays, the car's microphone keeps only what you say in the pauses where you answer. " +
+                "Play it back next to the speaker with ▶ Me in the transcript. Kept for your last 5 lessons, on this car only.",
+            style = MaterialTheme.typography.bodyLarge,
+            color = dim,
+        )
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(24.dp)) {
+            Segmented(
+                count = 2,
+                selected = if (recordAnswers) 1 else 0,
+                onSelect = { i ->
+                    when {
+                        i == 0 -> {
+                            store.setRecordAnswers(false)
+                            recordAnswers = false
+                        }
+                        VoicePractice.hasMicPermission(context) -> turnOn()
+                        else -> askMic.launch(Manifest.permission.RECORD_AUDIO)
+                    }
+                },
+                modifier = Modifier.widthIn(min = 360.dp).height(80.dp),
+            ) { i ->
+                Text(if (i == 0) "Off" else "On", style = MaterialTheme.typography.labelLarge, color = LocalContentColor.current)
+            }
+            GlassButton(onClick = { confirmDelete = true }, modifier = Modifier.height(80.dp)) { GlassLabel("Delete my answers") }
+        }
+        if (permissionDenied) {
+            Text("Microphone permission not granted.", style = MaterialTheme.typography.bodyLarge, color = dim)
+        }
+        if (confirmDelete) {
+            AlertDialog(
+                onDismissRequest = { confirmDelete = false },
+                title = { Text("Delete my answers?") },
+                text = { Text("All your recorded answers will be deleted. This can't be undone.") },
+                confirmButton = {
+                    TextButton(onClick = {
+                        VoicePractice.store(context).deleteAll()
+                        VoicePractice.storeVersion++
+                        confirmDelete = false
+                    }) { Text("Delete") }
+                },
+                dismissButton = { TextButton(onClick = { confirmDelete = false }) { Text("Cancel") } },
+            )
         }
 
         Text("Last button", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(top = 16.dp))

@@ -42,6 +42,18 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+        onScreen = true
+        // Voice practice: the microphone can only start while the app is on screen.
+        VoicePractice.startIfNeeded(this, LessonClock.snapshot.playing)
+    }
+
+    override fun onPause() {
+        onScreen = false
+        super.onPause()
+    }
+
     override fun onDestroy() {
         disableBlur()
         super.onDestroy()
@@ -88,6 +100,10 @@ private fun App() {
         val listener = object : Player.Listener {
             override fun onMediaItemTransition(item: MediaItem?, reason: Int) {
                 current = item?.mediaId?.toIntOrNull()
+            }
+
+            override fun onIsPlayingChanged(isPlaying: Boolean) {
+                if (onScreen) VoicePractice.startIfNeeded(context, isPlaying)
             }
         }
         c?.addListener(listener)
@@ -141,6 +157,9 @@ private fun App() {
         }
     }
 }
+
+/** The activity is resumed (on screen); the voice-practice microphone may only start then. */
+private var onScreen = false
 
 private enum class Screen { Lessons, Player, Settings }
 

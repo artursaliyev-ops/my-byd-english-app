@@ -46,6 +46,7 @@ class PlaybackService : MediaSessionService() {
         override fun run() {
             val player = session?.player ?: return
             ab.jumpFor(player.currentPosition)?.let(player::seekTo)
+            publishClock()
             if (SystemClock.elapsedRealtime() - lastSaveAt >= SAVE_EVERY_MS) saveResume()
             if (player.isPlaying) handler.postDelayed(this, TICK_MS)
         }
@@ -91,6 +92,18 @@ class PlaybackService : MediaSessionService() {
         }
         session = null
         super.onDestroy()
+    }
+
+    /** Lets the voice-practice recorder know where the lesson is (see [LessonClock]). */
+    private fun publishClock(jumped: Boolean = false) {
+        val player = session?.player ?: return
+        LessonClock.publish(
+            lesson = player.currentMediaItem?.mediaId?.toIntOrNull(),
+            positionMs = player.currentPosition,
+            playing = player.isPlaying,
+            speed = player.playbackParameters.speed,
+            jumped = jumped,
+        )
     }
 
     private fun saveResume() {
@@ -158,6 +171,7 @@ class PlaybackService : MediaSessionService() {
         override fun onIsPlayingChanged(isPlaying: Boolean) {
             handler.removeCallbacks(tick)
             if (isPlaying) handler.post(tick) else saveResume()
+            publishClock()
         }
 
         override fun onMediaItemTransition(mediaItem: MediaItem?, reason: Int) {
@@ -166,6 +180,7 @@ class PlaybackService : MediaSessionService() {
                 currentLesson?.let { library.setCompleted(it, true) }
             }
             currentLesson = mediaItem?.mediaId?.toIntOrNull()
+            publishClock(jumped = true)
             ab.clear()
             publishAb()
             saveResume()
@@ -183,9 +198,12 @@ class PlaybackService : MediaSessionService() {
 
         override fun onPlaybackParametersChanged(params: PlaybackParameters) {
             playback.saveSpeed(params.speed)
+            publishClock()
         }
 
         override fun onPositionDiscontinuity(old: Player.PositionInfo, new: Player.PositionInfo, reason: Int) {
+            // Any jump (seek, ±5 s, A-B loop, auto-advance) ends the Attempt being cut.
+            publishClock(jumped = true)
             if (reason == Player.DISCONTINUITY_REASON_SEEK && !player.isPlaying) saveResume()
         }
     }
