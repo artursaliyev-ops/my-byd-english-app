@@ -8,7 +8,7 @@ A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: 
 ## Notes
 
 - Domain: the Android app in `android/` (Kotlin + Compose + Media3; `PlaybackService.kt` owns playback). Terms **Talk** and **Turn** are in `GLOSSARY.md`.
-- Car: 2025+ Song Plus EV, DiLink 5.0, Android 12 (SDK 32), not AAOS. Read on the car: Qualcomm QCM6490 (782G-class CPU), 11 GiB RAM with ~4.4 GiB free, no English TTS voice (see the car hardware ticket). The car joins the phone's hotspot; ADB at `192.168.215.182:5555` (was `172.20.10.2`; scan port 5555 if it moves).
+- Car: 2025+ Song Plus EV, DiLink 5.0, Android 12 (SDK 32), not AAOS. Read on the car: Qualcomm QCM6490 (782G-class CPU), 11 GiB RAM with ~4.4 GiB free, no English TTS voice (see the car hardware ticket). The car joins the phone's hotspot; ADB at `172.20.10.2:5555` on the iPhone hotspot (was `192.168.215.182` once; scan port 5555 if it moves). The Mac must be on the same hotspot.
 - Mic facts carried over from voice practice ([car mic check](../voice-practice/issues/03-car-mic-check.md)): record `VOICE_COMMUNICATION` (car AEC + NS cut the speakers by ~20–25 dB); 16 kHz mono works; the mic must start from the visible screen (a background start is muted); no audio-focus change from recording.
 - Settled in charting (2026-11-21, user):
   - Offline first. If it doesn't pass, fall back to a cloud model over the hotspot.
@@ -29,6 +29,7 @@ A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: 
 - [Read the car's hardware for an on-device model](issues/02-car-hardware.md): QCM6490 (1×2.71 + 3×2.40 GHz A78), 11 GiB RAM / ~4.4 GiB free with BYD apps up, 173 GB internal + 15 GB SD free, OpenCL public but no QNN (NPU unusable for now), only a Chinese iFlytek TTS, so Talk bundles its own English voice.
 - [Decide how the talk partner behaves](issues/05-talk-partner.md): "Anna", a friendly acquaintance; speaks first; 1–2 short A1–A2 sentences plus a question; one recast per Turn; Russian only on "in Russian?"; never ends a Talk itself; a ~10-case test set for every model.
 - [Shape the Talk screen and the feel of a Turn](issues/06-talk-screen.md): full-screen big state shape (green Anna / blue you / dots thinking) + Anna's latest line, learner's words never shown; Talk button on the player only; no barge-in yet; beep + tick; lesson resumes 5 s back only if it was playing. Prototype on local branch `prototype/talk-screen`.
+- [Measure a Turn on the car with the offline stack](issues/03-measure-a-turn.md): BYD's dashcam/cameras keep ~3 cores busy; Qwen3.5-2B gets ~4.5 tok/s (est. ~5 s to first audio) and passes ~2/10 of the partner test set; 0.8B gets ~9 tok/s (~3–4.5 s) but ~3/10. No offline model tried is both fast and good enough. Probe on local branch `probe/talk-turn`.
 
 ## Not yet specified
 
