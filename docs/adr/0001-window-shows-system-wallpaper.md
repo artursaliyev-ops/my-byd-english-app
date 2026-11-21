@@ -1,0 +1,3 @@
+# The app window shows the system wallpaper
+
+The app draws no background of its own. Its window is translucent with `windowShowWallpaper`, plus system window blur on API 31+, so the car's BYD wallpaper shows behind every screen and the app follows wallpaper changes the way DiLink UI6's own screens do. We chose this on the car over a bundled warm or grey gradient. A full-window black scrim (30 %, or 55 % on a light wallpaper) keeps text readable whatever wallpaper the driver picks. Reading the wallpaper bitmap ourselves was rejected: it needs storage permission and goes stale with BYD's live wallpaper.
