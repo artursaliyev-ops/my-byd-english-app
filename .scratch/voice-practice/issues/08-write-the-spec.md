@@ -1,6 +1,6 @@
 # Write the voice practice spec
 Type: task
-Status: open
+Status: claimed
 Blocked by: 07
 
 ## Question
