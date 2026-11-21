@@ -1,7 +1,7 @@
 package app.bydplayer.talk
 
 /**
- * How likely one mic frame ([TalkConfig.VAD_FRAME] samples of 16 kHz PCM) is speech, 0 to 1.
+ * How likely one mic frame ([TalkConfig.Audio.VAD_FRAME] samples of 16 kHz PCM) is speech, 0 to 1.
  * The real one is Silero ([SileroVad]); tests use fakes.
  */
 interface SpeechDetector {
@@ -15,9 +15,9 @@ interface SpeechDetector {
  * The learner's side of a Turn as the head unit hears it (spec §6 steps 3-4). Pure Kotlin: fed
  * one mic frame at a time on the mic thread, it turns them into [MicEvent]s. While closed it
  * drops every frame (the recording itself never stops, spec §5). While open it keeps the last
- * [TalkConfig.PRE_ROLL_MS] in a ring; on speech it hands that over, then streams the speech in
- * ~[TalkConfig.CHUNK_MS] pieces until [TalkConfig.SILENCE_MS] of silence or
- * [TalkConfig.MAX_UTTERANCE_MS] of utterance, and then closes itself. Not thread-safe.
+ * [TalkConfig.Audio.PRE_ROLL_MS] in a ring; on speech it hands that over, then streams the speech in
+ * ~[TalkConfig.Audio.CHUNK_MS] pieces until [TalkConfig.Timing.SILENCE_MS] of silence or
+ * [TalkConfig.Timing.MAX_UTTERANCE_MS] of utterance, and then closes itself. Not thread-safe.
  */
 class SpeechGate(private val detector: SpeechDetector) {
     private var open = false
@@ -46,10 +46,10 @@ class SpeechGate(private val detector: SpeechDetector) {
 
     fun feed(frame: ShortArray): List<MicEvent> {
         if (!open) return emptyList()
-        val frameMs = frame.size * 1000L / TalkConfig.INPUT_RATE
+        val frameMs = frame.size * 1000L / TalkConfig.Audio.INPUT_RATE
         val p = detector.speechProbability(frame)
         if (!speaking) {
-            if (p < TalkConfig.SPEECH_START) {
+            if (p < TalkConfig.Audio.SPEECH_START) {
                 remember(frame)
                 return emptyList()
             }
@@ -66,14 +66,14 @@ class SpeechGate(private val detector: SpeechDetector) {
         pending += frame; pendingSamples += frame.size
         utteranceMs += frameMs
         val wasSilent = silenceMs
-        silenceMs = if (p < TalkConfig.SPEECH_END) silenceMs + frameMs else 0L
-        val ended = silenceMs >= TalkConfig.SILENCE_MS || utteranceMs >= TalkConfig.MAX_UTTERANCE_MS
-        if (ended || pendingSamples * 1000L / TalkConfig.INPUT_RATE >= TalkConfig.CHUNK_MS) {
+        silenceMs = if (p < TalkConfig.Audio.SPEECH_END) silenceMs + frameMs else 0L
+        val ended = silenceMs >= TalkConfig.Timing.SILENCE_MS || utteranceMs >= TalkConfig.Timing.MAX_UTTERANCE_MS
+        if (ended || pendingSamples * 1000L / TalkConfig.Audio.INPUT_RATE >= TalkConfig.Audio.CHUNK_MS) {
             events += MicEvent.Audio(toBytes(pending, pendingSamples))
             pending.clear(); pendingSamples = 0
         }
         if (silenceMs != wasSilent) {
-            events += MicEvent.Silence((silenceMs.toFloat() / TalkConfig.SILENCE_MS).coerceAtMost(1f))
+            events += MicEvent.Silence((silenceMs.toFloat() / TalkConfig.Timing.SILENCE_MS).coerceAtMost(1f))
         }
         if (ended) {
             events += MicEvent.SpeechEnded
@@ -84,7 +84,7 @@ class SpeechGate(private val detector: SpeechDetector) {
 
     private fun remember(frame: ShortArray) {
         ring.addLast(frame); ringSamples += frame.size
-        val keep = TalkConfig.PRE_ROLL_MS * TalkConfig.INPUT_RATE / 1000
+        val keep = TalkConfig.Audio.PRE_ROLL_MS * TalkConfig.Audio.INPUT_RATE / 1000
         while (ringSamples - ring.first().size >= keep) ringSamples -= ring.removeFirst().size
         // Trim the oldest frame so the pre-roll is exactly PRE_ROLL_MS.
         if (ringSamples > keep) {
@@ -115,7 +115,7 @@ class SpeechGate(private val detector: SpeechDetector) {
 
 /** What [SpeechGate] hears. */
 sealed interface MicEvent {
-    /** The learner began to speak; [preRoll] is the [TalkConfig.PRE_ROLL_MS] just before. */
+    /** The learner began to speak; [preRoll] is the [TalkConfig.Audio.PRE_ROLL_MS] just before. */
     class SpeechStarted(val preRoll: ByteArray) : MicEvent
 
     /** A live piece of the learner's speech, 16 kHz mono 16-bit PCM. */

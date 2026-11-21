@@ -51,7 +51,7 @@ class PausedAndNoSignalTest {
         talk.on(TalkEvent.FocusPaused)
         assertEquals(TurnState.Paused, talk.state)
         // No tone while focus is lost; the note shows and the lesson comes back as it was once focus is back.
-        assertEquals(listOf(TalkEffect.EndWhenFocusBack(TalkConfig.NO_INTERNET, asBefore = true)), talk.on(connect.event))
+        assertEquals(listOf(TalkEffect.EndWhenFocusBack(TalkConfig.Text.NO_INTERNET, asBefore = true)), talk.on(connect.event))
         assertEquals(TurnState.Ended, talk.state)
     }
 
@@ -123,6 +123,6 @@ class PausedAndNoSignalTest {
         toYou()
         talk.on(TalkEvent.FocusPaused)
         talk.on((talk.on(TalkEvent.LimitReached).single() as TalkEffect.After).event)
-        assertEquals(listOf(TalkEffect.EndWhenFocusBack(TalkConfig.TALK_LIMIT)), talk.on(TalkEvent.LimitReached))
+        assertEquals(listOf(TalkEffect.EndWhenFocusBack(TalkConfig.Text.TALK_LIMIT)), talk.on(TalkEvent.LimitReached))
     }
 }

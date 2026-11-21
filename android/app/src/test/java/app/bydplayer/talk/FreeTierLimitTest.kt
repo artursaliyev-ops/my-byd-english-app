@@ -81,7 +81,7 @@ class FreeTierLimitTest {
     @Test
     fun `a limit refusal never shows No signal or the No internet note`() {
         talk.on(TalkEvent.Start)
-        assertTrue(TalkEffect.GiveUp(TalkConfig.NO_INTERNET) !in talk.on(TalkEvent.LimitReached))
+        assertTrue(TalkEffect.GiveUp(TalkConfig.Text.NO_INTERNET) !in talk.on(TalkEvent.LimitReached))
 
         val mid = TalkTurns()
         mid.on(TalkEvent.Start)

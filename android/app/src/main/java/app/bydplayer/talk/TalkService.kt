@@ -91,7 +91,7 @@ class TalkService : Service() {
         turns = TalkTurns()
         publish()
         // The 30-min cap counts from here, wall-clock (spec §6 step 9).
-        timers.postDelayed({ handle(TalkEvent.TimeUp) }, TalkConfig.TALK_CAP_MS)
+        timers.postDelayed({ handle(TalkEvent.TimeUp) }, TalkConfig.Timing.TALK_CAP_MS)
         // Pause the lesson first, then take focus: taking it first would pause the lesson by
         // focus loss and hide whether it was playing (spec §9).
         pauseLessonThen { requestFocus() }
@@ -103,7 +103,7 @@ class TalkService : Service() {
             onEvent = { e -> main.post { handle(TalkEvent.Mic(e)) } },
             onFailed = { main.post { Log.w(TAG, "mic failed: ending the Talk"); handle(TalkEvent.EndPressed) } },
         ).also { it.start() }
-        val prompt = assets.open(TalkConfig.PROMPT_ASSET).bufferedReader().use { it.readText() }.trim()
+        val prompt = assets.open(TalkConfig.Protocol.PROMPT_ASSET).bufferedReader().use { it.readText() }.trim()
         session = LiveLink(
             connect = { resume, onEvent, onLost ->
                 LiveSession(BuildConfig.GEMINI_API_KEY, prompt, onEvent, onLost, resume)

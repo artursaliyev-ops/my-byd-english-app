@@ -127,7 +127,7 @@ class TalkTurns {
     /** Paused: transient focus loss (spec §10). */
     private var focusLost = false
 
-    /** Anna plays at [TalkConfig.DUCK_VOLUME] under a navigation prompt. */
+    /** Anna plays at [TalkConfig.Audio.DUCK_VOLUME] under a navigation prompt. */
     private var ducked = false
 
     /** No signal began while focus was lost, so its tone plays once focus is back. */
@@ -168,10 +168,10 @@ class TalkTurns {
             TalkEvent.SessionLost -> onSessionLost()
             is TalkEvent.Quiet -> onQuiet(event)
             TalkEvent.TimeUp -> onTimeUp()
-            TalkEvent.Start -> listOf(TalkEffect.After(TalkConfig.CONNECT_TIMEOUT_MS, TalkEvent.ConnectTimeout))
+            TalkEvent.Start -> listOf(TalkEffect.After(TalkConfig.Timing.CONNECT_TIMEOUT_MS, TalkEvent.ConnectTimeout))
             // No network on Talk (spec §8), counted from the tap, paused or not: back to the player, the lesson as it was.
             TalkEvent.ConnectTimeout ->
-                if (everSetUp) emptyList() else end(TalkEffect.GiveUp(TalkConfig.NO_INTERNET), tone = true)
+                if (everSetUp) emptyList() else end(TalkEffect.GiveUp(TalkConfig.Text.NO_INTERNET), tone = true)
             is TalkEvent.TurnTimeout -> onTurnTimeout(event)
             TalkEvent.TryAgain -> onTryAgain()
             is TalkEvent.NoSignalOver ->
@@ -214,7 +214,7 @@ class TalkTurns {
         // Her goodbye has played: the Talk is over (spec §6 step 7).
         if (timeUpSent || isGoodbye(annaLine)) return end(TalkEffect.End)
         tail = AnnaTail.EchoGuard
-        return listOf(TalkEffect.After(TalkConfig.ECHO_GUARD_MS, TalkEvent.EchoGuardOver))
+        return listOf(TalkEffect.After(TalkConfig.Timing.ECHO_GUARD_MS, TalkEvent.EchoGuardOver))
     }
 
     private fun onEchoGuardOver(): List<TalkEffect> {
@@ -230,11 +230,11 @@ class TalkTurns {
         learnerSpoke = false
         quietGeneration++
         // She answered "wait": the learner asked for time, so no nudge (spec §6 step 6).
-        if (annaLine.trim() == TalkConfig.WAIT_REPLY) nudgeSpent = true
+        if (annaLine.trim() == TalkConfig.Text.WAIT_REPLY) nudgeSpent = true
         return listOfNotNull(
             TalkEffect.PlayBeep,
             TalkEffect.OpenMic,
-            if (nudgeSpent) null else TalkEffect.After(TalkConfig.QUIET_MS, TalkEvent.Quiet(quietGeneration)),
+            if (nudgeSpent) null else TalkEffect.After(TalkConfig.Timing.QUIET_MS, TalkEvent.Quiet(quietGeneration)),
         )
     }
 
@@ -253,28 +253,28 @@ class TalkTurns {
 
     /** Sends [text] with its Turn timeout. Every text but the nudge starts a new session's context afresh. */
     private fun sendControl(text: String): List<TalkEffect> {
-        if (text != TalkConfig.QUIET) contextLost = false
+        if (text != TalkConfig.Text.QUIET) contextLost = false
         return listOf(TalkEffect.SendText(text), armTurnTimeout())
     }
 
     private fun sendOpening(): List<TalkEffect> {
         opened = true
-        return beginControlTurn(TalkConfig.OPENING)
+        return beginControlTurn(TalkConfig.Text.OPENING)
     }
 
     private fun sendTimeUp(): List<TalkEffect> {
         timeUpSent = true
-        return beginControlTurn(TalkConfig.TIME_UP)
+        return beginControlTurn(TalkConfig.Text.TIME_UP)
     }
 
     /** A new session without the Talk so far: Anna says sorry and asks a new question (spec §8). */
-    private fun cameBack(): List<TalkEffect> = listOf(TalkEffect.CloseMic) + beginControlTurn(TalkConfig.CAME_BACK)
+    private fun cameBack(): List<TalkEffect> = listOf(TalkEffect.CloseMic) + beginControlTurn(TalkConfig.Text.CAME_BACK)
 
     /** ~9 s of silence in Your turn: one nudge, then she waits silently (spec §6 step 6). */
     private fun onQuiet(event: TalkEvent.Quiet): List<TalkEffect> {
         if (!listening || event.turn != quietGeneration || learnerSpoke || nudgeSpent) return emptyList()
         nudgeSpent = true
-        return listOf(TalkEffect.CloseMic) + beginControlTurn(TalkConfig.QUIET)
+        return listOf(TalkEffect.CloseMic) + beginControlTurn(TalkConfig.Text.QUIET)
     }
 
     /** The current Turn finishes first; a turn of Yours with no speech yet isn't one (spec §6 step 9). */
@@ -338,14 +338,14 @@ class TalkTurns {
         focusLost = true
         effects += interrupt()
         pauseGeneration++
-        effects += TalkEffect.After(TalkConfig.PAUSE_MAX_MS, TalkEvent.PauseOver(pauseGeneration))
+        effects += TalkEffect.After(TalkConfig.Timing.PAUSE_MAX_MS, TalkEvent.PauseOver(pauseGeneration))
         return effects
     }
 
     private fun duck(): List<TalkEffect> {
         if (ducked) return emptyList()
         ducked = true
-        return listOf(TalkEffect.Volume(TalkConfig.DUCK_VOLUME))
+        return listOf(TalkEffect.Volume(TalkConfig.Audio.DUCK_VOLUME))
     }
 
     private fun focusBack(): List<TalkEffect> {
@@ -370,8 +370,8 @@ class TalkTurns {
         val tone = if (focusLost) emptyList() else listOf(TalkEffect.PlayNoConnection)
         toneOwed = focusLost
         return tone + interrupt() + listOf(
-            TalkEffect.After(TalkConfig.NO_SIGNAL_MS, TalkEvent.NoSignalOver(outageGeneration)),
-            TalkEffect.After(TalkConfig.RECONNECT_GAP_MS, TalkEvent.TryAgain),
+            TalkEffect.After(TalkConfig.Timing.NO_SIGNAL_MS, TalkEvent.NoSignalOver(outageGeneration)),
+            TalkEffect.After(TalkConfig.Timing.RECONNECT_GAP_MS, TalkEvent.TryAgain),
         )
     }
 
@@ -380,10 +380,10 @@ class TalkTurns {
     private fun armTurnTimeout(): TalkEffect {
         firstAudioCame = false
         turnTimeoutGeneration++
-        return TalkEffect.After(TalkConfig.TURN_TIMEOUT_MS, TalkEvent.TurnTimeout(turnTimeoutGeneration))
+        return TalkEffect.After(TalkConfig.Timing.TURN_TIMEOUT_MS, TalkEvent.TurnTimeout(turnTimeoutGeneration))
     }
 
-    /** No first audio [TalkConfig.TURN_TIMEOUT_MS] after the Turn went out: it has failed (spec §8). */
+    /** No first audio [TalkConfig.Timing.TURN_TIMEOUT_MS] after the Turn went out: it has failed (spec §8). */
     private fun onTurnTimeout(event: TalkEvent.TurnTimeout): List<TalkEffect> {
         if (event.turn != turnTimeoutGeneration || firstAudioCame || phase != TurnState.Thinking) return emptyList()
         if (reopening || interrupted) return emptyList()
@@ -424,7 +424,7 @@ class TalkTurns {
         sessionUp = false
         if (!everSetUp || noSignal) {
             reopening = false
-            return listOf(TalkEffect.After(TalkConfig.RECONNECT_GAP_MS, TalkEvent.TryAgain))
+            return listOf(TalkEffect.After(TalkConfig.Timing.RECONNECT_GAP_MS, TalkEvent.TryAgain))
         }
         if (inTurn) {
             reopening = false
@@ -451,17 +451,17 @@ class TalkTurns {
     /**
      * Gemini's free tier refused (spec §8), never told as the network. Before any session was set
      * up: the tone and back to the player with the note, the lesson as it was. Mid-Talk: the
-     * screen stays as it is and one retry goes out after [TalkConfig.LIMIT_RETRY_MS]; refused
+     * screen stays as it is and one retry goes out after [TalkConfig.Timing.LIMIT_RETRY_MS]; refused
      * again, the Talk ends with the note and the lesson resumes by the usual rule.
      */
     private fun onLimit(): List<TalkEffect> {
-        if (!everSetUp) return end(TalkEffect.GiveUp(TalkConfig.TALK_LIMIT), tone = true)
-        if (limitRetried) return end(TalkEffect.EndWithNote(TalkConfig.TALK_LIMIT))
+        if (!everSetUp) return end(TalkEffect.GiveUp(TalkConfig.Text.TALK_LIMIT), tone = true)
+        if (limitRetried) return end(TalkEffect.EndWithNote(TalkConfig.Text.TALK_LIMIT))
         limitRetried = true
         // Held as a reopen: a late answer is dropped and timers wait for the retry.
         reopening = true
         sessionUp = false
-        return listOf(TalkEffect.After(TalkConfig.LIMIT_RETRY_MS, TalkEvent.LimitRetry))
+        return listOf(TalkEffect.After(TalkConfig.Timing.LIMIT_RETRY_MS, TalkEvent.LimitRetry))
     }
 
     /** The wait after a limit refusal is over: reopen, resending a Turn under way. */
@@ -507,7 +507,7 @@ class TalkTurns {
      */
     private fun resendTurn(): List<TalkEffect> {
         val text = controlText
-        if (contextLost && (text == null || text == TalkConfig.QUIET)) return cameBack()
+        if (contextLost && (text == null || text == TalkConfig.Text.QUIET)) return cameBack()
         if (text != null) return sendControl(text)
         val resend = listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(utterance))
         // Still speaking: the rest goes out live from here.
@@ -634,25 +634,25 @@ sealed interface TalkEvent {
     /** The echo guard after Anna's audio is over. */
     data object EchoGuardOver : TalkEvent
 
-    /** [TalkConfig.QUIET_MS] have passed since Your turn number [turn] began (asked for with [TalkEffect.After]). */
+    /** [TalkConfig.Timing.QUIET_MS] have passed since Your turn number [turn] began (asked for with [TalkEffect.After]). */
     data class Quiet(val turn: Int) : TalkEvent
 
-    /** [TalkConfig.TALK_CAP_MS] of wall-clock time since the Talk started. */
+    /** [TalkConfig.Timing.TALK_CAP_MS] of wall-clock time since the Talk started. */
     data object TimeUp : TalkEvent
 
     /** The Talk button was pressed and the first session is opening. */
     data object Start : TalkEvent
 
-    /** [TalkConfig.CONNECT_TIMEOUT_MS] since [Start]. */
+    /** [TalkConfig.Timing.CONNECT_TIMEOUT_MS] since [Start]. */
     data object ConnectTimeout : TalkEvent
 
-    /** [TalkConfig.TURN_TIMEOUT_MS] since Turn number [turn] went out: the tick, its control text, or its resend. */
+    /** [TalkConfig.Timing.TURN_TIMEOUT_MS] since Turn number [turn] went out: the tick, its control text, or its resend. */
     data class TurnTimeout(val turn: Int) : TalkEvent
 
-    /** Try connecting again, [TalkConfig.RECONNECT_GAP_MS] after a failed attempt. */
+    /** Try connecting again, [TalkConfig.Timing.RECONNECT_GAP_MS] after a failed attempt. */
     data object TryAgain : TalkEvent
 
-    /** [TalkConfig.NO_SIGNAL_MS] since No signal [outage] began. */
+    /** [TalkConfig.Timing.NO_SIGNAL_MS] since No signal [outage] began. */
     data class NoSignalOver(val outage: Int) : TalkEvent
 
     /** The server refused the resumption handle (see [LiveProtocol.classifyLoss]). */
@@ -661,7 +661,7 @@ sealed interface TalkEvent {
     /** Gemini's free tier refused: a quota or rate limit (see [LiveProtocol.classifyLoss]). */
     data object LimitReached : TalkEvent
 
-    /** [TalkConfig.LIMIT_RETRY_MS] since a limit refusal mid-Talk: try once more. */
+    /** [TalkConfig.Timing.LIMIT_RETRY_MS] since a limit refusal mid-Talk: try once more. */
     data object LimitRetry : TalkEvent
 
     /** Transient focus loss without ducking: a call, "Hi BYD" (spec §10). */

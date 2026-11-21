@@ -32,7 +32,7 @@ class LiveSession(
 
     override fun open() {
         openedAt = System.nanoTime()
-        val request = Request.Builder().url("${TalkConfig.LIVE_ENDPOINT}?key=$apiKey").build()
+        val request = Request.Builder().url("${TalkConfig.Protocol.LIVE_ENDPOINT}?key=$apiKey").build()
         socket = client.newWebSocket(request, object : WebSocketListener() {
             override fun onOpen(webSocket: WebSocket, response: Response) {
                 Log.i(TAG, "socket open in ${ms()} ms")

@@ -26,13 +26,13 @@ class AnnaVoice {
 
     // A quarter second of headroom against network jitter.
     private val bufferBytes = maxOf(
-        AudioTrack.getMinBufferSize(TalkConfig.OUTPUT_RATE, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT),
-        TalkConfig.OUTPUT_RATE / 2,
+        AudioTrack.getMinBufferSize(TalkConfig.Audio.OUTPUT_RATE, AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT),
+        TalkConfig.Audio.OUTPUT_RATE / 2,
     )
 
     private val track: AudioTrack = run {
         val format = AudioFormat.Builder()
-            .setSampleRate(TalkConfig.OUTPUT_RATE)
+            .setSampleRate(TalkConfig.Audio.OUTPUT_RATE)
             .setChannelMask(AudioFormat.CHANNEL_OUT_MONO)
             .setEncoding(AudioFormat.ENCODING_PCM_16BIT)
             .build()

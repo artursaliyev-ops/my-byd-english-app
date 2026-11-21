@@ -57,7 +57,7 @@ class TalkMic(
     }
 
     private fun record() {
-        val rate = TalkConfig.INPUT_RATE
+        val rate = TalkConfig.Audio.INPUT_RATE
         val minBuf = AudioRecord.getMinBufferSize(rate, AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT)
         val rec = try {
             AudioRecord(
@@ -85,7 +85,7 @@ class TalkMic(
 
         var vad: SpeechDetector? = null
         var applied = 0
-        val frame = ShortArray(TalkConfig.VAD_FRAME)
+        val frame = ShortArray(TalkConfig.Audio.VAD_FRAME)
         var failed = false
         try {
             rec.startRecording()

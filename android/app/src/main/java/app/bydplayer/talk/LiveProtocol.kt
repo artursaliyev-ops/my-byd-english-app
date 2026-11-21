@@ -13,7 +13,7 @@ object LiveProtocol {
     fun setup(prompt: String, handle: String? = null): String = JSONObject().put(
         "setup",
         JSONObject()
-            .put("model", "models/${TalkConfig.MODEL}")
+            .put("model", "models/${TalkConfig.Protocol.MODEL}")
             .put(
                 "generationConfig",
                 JSONObject()
@@ -22,7 +22,7 @@ object LiveProtocol {
                         "speechConfig",
                         JSONObject().put(
                             "voiceConfig",
-                            JSONObject().put("prebuiltVoiceConfig", JSONObject().put("voiceName", TalkConfig.VOICE)),
+                            JSONObject().put("prebuiltVoiceConfig", JSONObject().put("voiceName", TalkConfig.Protocol.VOICE)),
                         ),
                     ),
             )
@@ -56,7 +56,7 @@ object LiveProtocol {
         "audio",
         JSONObject()
             .put("data", Base64.getEncoder().encodeToString(pcm))
-            .put("mimeType", "audio/pcm;rate=${TalkConfig.INPUT_RATE}"),
+            .put("mimeType", "audio/pcm;rate=${TalkConfig.Audio.INPUT_RATE}"),
     )
 
     private fun realtime(key: String, value: JSONObject): String =

@@ -75,7 +75,7 @@ class TalkFocusTest {
         assertTrue(talk.on(quiet).isEmpty())
         talk.on(TalkEvent.FocusPaused)
         assertTrue(talk.on(TalkEvent.TimeUp).isEmpty())
-        assertEquals(listOf(TalkEffect.SendText(TalkConfig.TIME_UP), TalkEffect.After(8_000, TalkEvent.TurnTimeout(4))), talk.on(TalkEvent.FocusBack))
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.Text.TIME_UP), TalkEffect.After(8_000, TalkEvent.TurnTimeout(4))), talk.on(TalkEvent.FocusBack))
     }
 
     @Test
@@ -123,7 +123,7 @@ class TalkFocusTest {
     fun `a pause while connecting goes back to the opening once focus returns`() {
         talk.on(TalkEvent.FocusPaused)
         assertTrue(server(LiveEvent.SetupComplete).isEmpty())
-        assertEquals(listOf(TalkEffect.SendText(TalkConfig.OPENING), TalkEffect.After(8_000, TalkEvent.TurnTimeout(2))), talk.on(TalkEvent.FocusBack))
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.Text.OPENING), TalkEffect.After(8_000, TalkEvent.TurnTimeout(2))), talk.on(TalkEvent.FocusBack))
         assertEquals(TurnState.Thinking, talk.state)
     }
 

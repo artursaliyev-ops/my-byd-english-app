@@ -14,13 +14,13 @@ import kotlin.math.sin
  * short static track played through the same attributes as Anna.
  */
 class TalkSounds(attributes: AudioAttributes) {
-    private val beep = track(attributes, tone(TalkConfig.BEEP_HZ, TalkConfig.BEEP_MS, 0.35f))
-    private val tick = track(attributes, tone(TalkConfig.TICK_HZ, TalkConfig.TICK_MS, 0.18f))
+    private val beep = track(attributes, tone(TalkConfig.Audio.BEEP_HZ, TalkConfig.Audio.BEEP_MS, 0.35f))
+    private val tick = track(attributes, tone(TalkConfig.Audio.TICK_HZ, TalkConfig.Audio.TICK_MS, 0.18f))
     private val noConnection = track(
         attributes,
-        tone(TalkConfig.NO_CONNECTION_HZ_1, TalkConfig.NO_CONNECTION_NOTE_MS, 0.35f) +
+        tone(TalkConfig.Audio.NO_CONNECTION_HZ_1, TalkConfig.Audio.NO_CONNECTION_NOTE_MS, 0.35f) +
             ShortArray(RATE * 60 / 1000) +
-            tone(TalkConfig.NO_CONNECTION_HZ_2, TalkConfig.NO_CONNECTION_NOTE_MS * 3 / 2, 0.35f),
+            tone(TalkConfig.Audio.NO_CONNECTION_HZ_2, TalkConfig.Audio.NO_CONNECTION_NOTE_MS * 3 / 2, 0.35f),
     )
 
     fun beep() = replay(beep)
@@ -30,7 +30,7 @@ class TalkSounds(attributes: AudioAttributes) {
     fun noConnection() = replay(noConnection)
 
     /** How long the "no connection" tone plays, so a Talk that ends on it lets it finish. */
-    val noConnectionMs: Long get() = TalkConfig.NO_CONNECTION_NOTE_MS * 5L / 2 + 60
+    val noConnectionMs: Long get() = TalkConfig.Audio.NO_CONNECTION_NOTE_MS * 5L / 2 + 60
 
     fun release() {
         beep.release()
@@ -64,7 +64,7 @@ class TalkSounds(attributes: AudioAttributes) {
     }
 
     private companion object {
-        const val RATE = TalkConfig.OUTPUT_RATE
+        const val RATE = TalkConfig.Audio.OUTPUT_RATE
 
         /** A sine at [hz] for [ms], with 8 ms fades so it doesn't click. */
         fun tone(hz: Int, ms: Int, volume: Float): ShortArray {

@@ -15,12 +15,12 @@ import java.nio.FloatBuffer
 class SileroVad(context: Context) : SpeechDetector, AutoCloseable {
     private val env = OrtEnvironment.getEnvironment()
     private val session: OrtSession = env.createSession(
-        context.assets.open(TalkConfig.VAD_ASSET).use { it.readBytes() },
+        context.assets.open(TalkConfig.Audio.VAD_ASSET).use { it.readBytes() },
         OrtSession.SessionOptions().apply { setIntraOpNumThreads(1) },
     )
     private var h = FloatArray(STATE)
     private var c = FloatArray(STATE)
-    private val x = FloatArray(TalkConfig.VAD_FRAME)
+    private val x = FloatArray(TalkConfig.Audio.VAD_FRAME)
 
     override fun reset() {
         h = FloatArray(STATE)
@@ -30,7 +30,7 @@ class SileroVad(context: Context) : SpeechDetector, AutoCloseable {
     override fun speechProbability(frame: ShortArray): Float {
         for (i in x.indices) x[i] = if (i < frame.size) frame[i] / 32768f else 0f
         val shape = longArrayOf(2, 1, 64)
-        OnnxTensor.createTensor(env, FloatBuffer.wrap(x), longArrayOf(1, TalkConfig.VAD_FRAME.toLong())).use { xt ->
+        OnnxTensor.createTensor(env, FloatBuffer.wrap(x), longArrayOf(1, TalkConfig.Audio.VAD_FRAME.toLong())).use { xt ->
             OnnxTensor.createTensor(env, FloatBuffer.wrap(h), shape).use { ht ->
                 OnnxTensor.createTensor(env, FloatBuffer.wrap(c), shape).use { ct ->
                     session.run(mapOf("x" to xt, "h" to ht, "c" to ct)).use { out ->

@@ -109,13 +109,13 @@ private fun TalkShape(state: TurnState, silence: Float, quietSince: Long?, size:
     }
 }
 
-/** How full the slow quiet ring is, 0 to 1 over [TalkConfig.QUIET_MS] from [since], redrawn every frame while it runs. */
+/** How full the slow quiet ring is, 0 to 1 over [TalkConfig.Timing.QUIET_MS] from [since], redrawn every frame while it runs. */
 @Composable
 private fun quietProgress(since: Long?): Float {
     val progress by produceState(0f, since) {
         if (since == null) return@produceState
         while (true) {
-            value = ((SystemClock.uptimeMillis() - since).toFloat() / TalkConfig.QUIET_MS).coerceIn(0f, 1f)
+            value = ((SystemClock.uptimeMillis() - since).toFloat() / TalkConfig.Timing.QUIET_MS).coerceIn(0f, 1f)
             if (value >= 1f) break
             withFrameMillis { }
         }

@@ -228,7 +228,7 @@ class NetworkDropTest {
         assertEquals(8_000L, first.ms)
         assertEquals(listOf(TalkEffect.NewSession), talk.on(first.event))
         val resent = server(LiveEvent.SetupComplete)
-        assertEquals(listOf(TalkEffect.SendText(TalkConfig.OPENING)), resent.filterIsInstance<TalkEffect.SendText>())
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.Text.OPENING)), resent.filterIsInstance<TalkEffect.SendText>())
         talk.on(timer<TalkEvent.TurnTimeout>(resent)!!.event)
         assertEquals(TurnState.NoSignal, talk.state)
     }
@@ -239,7 +239,7 @@ class NetworkDropTest {
         val sent = talk.on(TalkEvent.TimeUp)
         assertEquals(listOf(TalkEffect.Reconnect("h1")), talk.on(timer<TalkEvent.TurnTimeout>(sent)!!.event))
         val resent = server(LiveEvent.SetupComplete)
-        assertEquals(listOf(TalkEffect.SendText(TalkConfig.TIME_UP)), resent.filterIsInstance<TalkEffect.SendText>())
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.Text.TIME_UP)), resent.filterIsInstance<TalkEffect.SendText>())
         val noSignal = talk.on(timer<TalkEvent.TurnTimeout>(resent)!!.event)
         assertEquals(TurnState.NoSignal, talk.state)
         assertEquals(listOf(TalkEffect.PlayNoConnection, TalkEffect.End), talk.on(timer<TalkEvent.NoSignalOver>(noSignal)!!.event))
@@ -263,7 +263,7 @@ class NetworkDropTest {
         val t = timer<TalkEvent.TurnTimeout>(learnerSays())!!
         assertEquals(listOf(TalkEffect.NewSession), talk.on(t.event))
         val resent = server(LiveEvent.SetupComplete)
-        assertEquals(listOf(TalkEffect.SendText(TalkConfig.CAME_BACK)), resent.filterIsInstance<TalkEffect.SendText>())
+        assertEquals(listOf(TalkEffect.SendText(TalkConfig.Text.CAME_BACK)), resent.filterIsInstance<TalkEffect.SendText>())
         assertTrue(resent.none { it is TalkEffect.SendAudio || it == TalkEffect.StartActivity })
     }
 }
