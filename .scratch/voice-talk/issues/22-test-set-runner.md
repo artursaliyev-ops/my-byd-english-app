@@ -4,10 +4,10 @@
 
 **Blocked by:** 14 (Anna says hello)
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] The app's prompt comes from a single text file that the APK bundles and the script reads; there's no second copy.
-- [ ] The script uses the same setup as the app (v1beta, model, voice, activity detection off, the bare-text opening) and reads the key from `local.properties` without printing it.
-- [ ] It runs the opening plus the 10 learner lines in order as one Talk, from a chosen folder of 16 kHz WAV clips (machine voice or the owner's).
-- [ ] The output lists each case's heard text, Anna's reply and first-audio time, and a short README says how to judge the pass bar: ≥ 9/11, with cases 7, 10 and 11 required.
-- [ ] No recordings or results are committed unless the owner chooses to.
+- [x] The app's prompt comes from a single text file that the APK bundles and the script reads; there's no second copy.
+- [x] The script uses the same setup as the app (v1beta, model, voice, activity detection off, the bare-text opening) and reads the key from `local.properties` without printing it.
+- [x] It runs the opening plus the 10 learner lines in order as one Talk, from a chosen folder of 16 kHz WAV clips (machine voice or the owner's).
+- [x] The output lists each case's heard text, Anna's reply and first-audio time, and a short README says how to judge the pass bar: ≥ 9/11, with cases 7, 10 and 11 required.
+- [x] No recordings or results are committed unless the owner chooses to.
