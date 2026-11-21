@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE · Speaking pauses in I_05</title>
+<style>
+  :root { --ink:#1d2330; --muted:#6b7385; --line:#e4e7ee; --bg:#f7f8fb; --card:#fff; --accent:#d23a3a; --ok:#1f8a4c; --no:#9aa1af; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.5 -apple-system, system-ui, "Segoe UI", sans-serif; }
+  main { max-width:1100px; margin:0 auto; padding:28px 20px 80px; }
+  h1 { font-size:24px; margin:0 0 6px; }
+  h2 { font-size:17px; margin:0 0 12px; }
+  .banner { background:#fff4d6; border:1px solid #f0d78a; padding:8px 12px; border-radius:8px; font-size:13px; margin-bottom:16px; }
+  .intro { color:var(--muted); max-width:820px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px; margin-top:18px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap:14px 24px; }
+  label { display:block; font-size:13px; color:var(--muted); }
+  label b { color:var(--ink); font-weight:600; }
+  input[type=range] { width:100%; accent-color:var(--accent); }
+  .kinds label { display:flex; gap:8px; align-items:flex-start; color:var(--ink); font-size:14px; margin:6px 0; }
+  .kinds small { color:var(--muted); display:block; }
+  .stats { display:flex; flex-wrap:wrap; gap:10px; }
+  .stat { border:1px solid var(--line); border-radius:10px; padding:8px 12px; min-width:120px; }
+  .stat .n { font-size:22px; font-weight:700; }
+  .stat .l { font-size:12px; color:var(--muted); }
+  .stat.total { border-color:var(--accent); }
+  .changed { background:#fff0f0; }
+  button { font:inherit; font-size:13px; border:1px solid var(--line); background:#fff; border-radius:7px; padding:4px 10px; cursor:pointer; }
+  button:hover { border-color:var(--accent); }
+  button.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+  button.on { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .tabs { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+  .steps { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+  .steps button.done { opacity:.5; }
+  table { width:100%; border-collapse:collapse; font-size:13.5px; }
+  th { text-align:left; font-size:12px; color:var(--muted); font-weight:600; border-bottom:1px solid var(--line); padding:6px; position:sticky; top:0; background:#fff; }
+  td { border-bottom:1px solid var(--line); padding:7px 6px; vertical-align:top; }
+  tr.out td { color:var(--no); }
+  tr.playing td { background:#fff0f0; }
+  .pill { display:inline-block; font-size:11.5px; border-radius:999px; padding:1px 8px; border:1px solid currentColor; white-space:nowrap; }
+  .pill.in { color:var(--ok); } .pill.out { color:var(--no); }
+  .ru { color:#5a4a8a; } .en { color:#1d4f7a; font-weight:500; }
+  .cmp { outline:2px solid var(--accent); outline-offset:1px; border-radius:3px; }
+  .t { font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .bar { position:relative; height:8px; background:#eef0f5; border-radius:4px; margin-top:4px; min-width:90px; }
+  .bar i { position:absolute; top:0; bottom:0; background:var(--accent); border-radius:4px; opacity:.75; }
+  .verdict button { padding:2px 7px; }
+  .player { position:sticky; top:0; z-index:5; background:var(--bg); padding:10px 0; display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+  .now { font-size:13px; color:var(--muted); }
+  textarea { width:100%; height:110px; font:12px/1.4 ui-monospace, monospace; }
+  .filter { display:flex; gap:6px; align-items:center; flex-wrap:wrap; margin-bottom:10px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="banner">PROTOTYPE, throw it away. It is for the wayfinder ticket “Find the speaking pauses in a lesson” and does not ship in the app.</div>
+  <h1>Which silences in lesson I_05 are speaking pauses?</h1>
+  <p class="intro">
+    The app will keep the learner's voice only during <b>speaking pauses</b>, the silences where you answer out loud.
+    The only thing it has to go on is the transcript timings. This page applies one rule to every silence in I_05 and lets you
+    <b>listen to each one</b> so you can say where it is wrong. Change the rule at the top, and the list and counts update.
+    Each silence is sorted by what comes before and after it (Russian or English, told apart by the alphabet, because Whisper's
+    own language tags are often wrong). The <span class="cmp">outlined</span> line is the speaker's line your Attempt would be compared with.
+  </p>
+
+  <div class="player">
+    <audio id="audio" controls preload="auto" src="../sources/Pimsleur%20English%20for%20Russian%20Speakers%20I%20%281-30%29/Pimsleur_I_05.mp3"></audio>
+    <button id="stop">Stop</button>
+    <span class="now" id="now">If the player stays blank, open this file from the repo's <code>tools/</code> folder so it can find the MP3 in <code>sources/</code>.</span>
+  </div>
+
+  <section class="card">
+    <h2>The rule</h2>
+    <div class="grid">
+      <div>
+        <label>Shortest silence that counts: <b id="minV"></b></label>
+        <input id="min" type="range" min="0.5" max="5" step="0.1">
+        <label>Start keeping your voice this long after the silence begins: <b id="leadV"></b></label>
+        <input id="lead" type="range" min="0" max="1.5" step="0.05">
+        <label>Keep your voice until this long before the speaker starts again: <b id="tailV"></b></label>
+        <input id="tail" type="range" min="-1" max="1" step="0.05">
+        <label style="margin-top:6px">A negative value keeps a little of the speaker's line too, which helps if you are still talking when the speaker starts.</label>
+      </div>
+      <div class="kinds" id="kinds"></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>What the rule finds</h2>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section class="card">
+    <h2>Walk through the awkward cases</h2>
+    <div class="tabs" id="tabs"></div>
+    <div id="tabBody"></div>
+  </section>
+
+  <section class="card">
+    <h2>Every silence in I_05</h2>
+    <div class="filter" id="filter"></div>
+    <table>
+      <thead><tr><th>#</th><th>When</th><th>Silence</th><th>Kind</th><th>Before</th><th>After</th><th>Listen</th><th>Your call</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </section>
+
+  <section class="card">
+    <h2>Your calls</h2>
+    <p class="intro">Wherever you disagree with the rule, mark “Speak here” or “Not here” in the list. Your calls are kept only while this page is open. Copy them into the chat before you close it.</p>
+    <textarea id="calls" readonly></textarea>
+    <button id="copy">Copy my calls</button>
+  </section>
+</main>
+
+<script>
+/* ===== Portable logic: no DOM below this line until the PAGE marker ===== */
+const KINDS = {
+  answer:        { label: 'Russian prompt → English answer', hint: 'You answer the prompt, then the speaker answers.', compare: 'after' },
+  repeat:        { label: 'English line → same line again', hint: 'The speaker says it twice with a gap: you repeat in between.', compare: 'after' },
+  afterSpeaker:  { label: 'English line → next Russian prompt', hint: 'After the speaker answers. You might echo the speaker, or it may just be a breath.', compare: 'before' },
+  englishChain:  { label: 'English → different English', hint: 'Dialogue lines, build-ups ("And" → "And you?"), or a Whisper split.', compare: 'after' },
+  russianOnly:   { label: 'Russian → Russian', hint: 'Between instructions. Usually not for speaking.', compare: 'after' },
+};
+
+const DEFAULT_RULE = {
+  minSeconds: 1.0,
+  keepFromSeconds: 0.2,
+  keepUntilSeconds: 0.1,
+  kinds: { answer: true, repeat: true, afterSpeaker: true, englishChain: true, russianOnly: false },
+};
+
+const isRussian = text => /[А-Яа-яЁё]/.test(text);
+const normalise = text => text.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+function classify(before, after) {
+  const b = isRussian(before.text), a = isRussian(after.text);
+  if (b && !a) return 'answer';
+  if (!b && a) return 'afterSpeaker';
+  if (b && a) return 'russianOnly';
+  return normalise(before.text) === normalise(after.text) ? 'repeat' : 'englishChain';
+}
+
+/** Every silence between two transcript lines, at least `floor` seconds long, judged against `rule`. */
+function findSilences(segments, rule, floor = 0.8) {
+  const out = [];
+  for (let i = 0; i + 1 < segments.length; i++) {
+    const before = segments[i], after = segments[i + 1];
+    const length = after.start - before.end;
+    if (length < floor) continue;
+    const kind = classify(before, after);
+    const keepStart = before.end + rule.keepFromSeconds;
+    const keepEnd = after.start - rule.keepUntilSeconds;
+    let speaking = true, reason = 'counts';
+    if (length < rule.minSeconds) { speaking = false; reason = 'too short'; }
+    else if (!rule.kinds[kind]) { speaking = false; reason = 'kind switched off'; }
+    else if (keepEnd - keepStart < 0.5) { speaking = false; reason = 'nothing left after trimming'; }
+    out.push({
+      index: i, start: before.end, end: after.start, length, kind,
+      before, after, compareWith: KINDS[kind].compare === 'after' ? after : before,
+      keepStart, keepEnd, speaking, reason,
+    });
+  }
+  return out;
+}
+
+const findSpeakingPauses = (segments, rule) => findSilences(segments, rule).filter(s => s.speaking);
+
+/* ===== PAGE: thin shell over the logic above ===== */
+const LESSON = {"id": "I_05", "duration": 1767.16, "segments": [{"start": 2.82, "end": 7.1, "text": "Американский английский язык по методу доктора Пимслера."}, {"start": 7.18, "end": 10.98, "text": "Урок номер пять. Слушайте этот разговор."}, {"start": 11.58, "end": 12.78, "text": "Miss, Miss."}, {"start": 13.12, "end": 13.8, "text": "Yes, sir?"}, {"start": 14.0, "end": 16.2, "text": "Where is East 52nd Street, please?"}, {"start": 16.46, "end": 17.44, "text": "It's over there."}, {"start": 18.26, "end": 25.76, "text": "В конце разговора вы слышали"}, {"start": 25.76, "end": 29.62, "text": "что означает «на здоровье»."}, {"start": 30.0, "end": 31.48, "text": "Слушайте еще раз."}, {"start": 31.48, "end": 33.14, "text": "Miss, Miss"}, {"start": 33.14, "end": 34.16, "text": "Yes, sir"}, {"start": 34.16, "end": 36.78, "text": "Where is East 52nd Street, please?"}, {"start": 36.98, "end": 37.94, "text": "It's over there"}, {"start": 37.94, "end": 39.26, "text": "And Park Avenue?"}, {"start": 39.52, "end": 40.58, "text": "It's here, sir"}, {"start": 40.58, "end": 41.64, "text": "Thank you, Miss"}, {"start": 41.64, "end": 42.54, "text": "You're welcome"}, {"start": 42.54, "end": 43.52, "text": "Goodbye, sir"}, {"start": 44.04, "end": 47.54, "text": "Помните, как поздороваться с кем-нибудь по-английски?"}, {"start": 51.98, "end": 52.82, "text": "Hello?"}, {"start": 55.3, "end": 57.9, "text": "Спросите, вы понимаете по-русски?"}, {"start": 61.28, "end": 62.92, "text": "Do you understand Russian?"}, {"start": 66.76, "end": 67.62, "text": "Отвечайте."}, {"start": 67.8, "end": 69.8, "text": "Я немного говорю по-русски."}, {"start": 73.52, "end": 75.4, "text": "I speak Russian a little."}, {"start": 78.36, "end": 80.42, "text": "Не очень хорошо."}, {"start": 83.36, "end": 84.68, "text": "Not very well."}, {"start": 86.84, "end": 89.02, "text": "Я немного понимаю."}, {"start": 92.2, "end": 93.94, "text": "I understand a little."}, {"start": 94.98, "end": 98.46, "text": "И я немного говорю."}, {"start": 101.44, "end": 104.24, "text": "А вы?"}, {"start": 104.24, "end": 106.5, "text": "And you?"}, {"start": 110.34, "end": 111.94, "text": "And you?"}, {"start": 112.32, "end": 115.94, "text": "Вы понимаете по-английски?"}, {"start": 119.1, "end": 121.04, "text": "Do you understand English?"}, {"start": 121.04, "end": 121.3, "text": "English."}, {"start": 125.16, "end": 127.92, "text": "Скажите, простите, я не понимаю."}, {"start": 132.8, "end": 135.08, "text": "I'm sorry, I don't understand."}, {"start": 139.98, "end": 141.94, "text": "Я не американец."}, {"start": 144.76, "end": 145.76, "text": "I'm not American."}, {"start": 147.38, "end": 151.06, "text": "И я не понимаю по-английски."}, {"start": 154.96, "end": 157.16, "text": "And I don't understand English."}, {"start": 161.42, "end": 162.24, "text": "And"}, {"start": 166.46, "end": 167.58, "text": "Простите."}, {"start": 169.6, "end": 176.84, "text": "Как сказать, но вы очень хорошо говорите?"}, {"start": 180.58, "end": 182.36, "text": "But you speak very well."}, {"start": 185.9, "end": 188.98, "text": "Как спросить, как вы поживаете?"}, {"start": 191.0, "end": 192.02, "text": "How are you?"}, {"start": 194.14, "end": 194.96, "text": "How are you?"}, {"start": 197.04, "end": 199.46, "text": "Прекрасно, спасибо. А вы?"}, {"start": 203.36, "end": 205.54, "text": "fine thanks and you"}, {"start": 209.92, "end": 211.84, "text": "Скажите, извините."}, {"start": 214.62, "end": 215.46, "text": "Excuse me."}, {"start": 217.6, "end": 223.12, "text": "Помните, как сказать Восточная 52-я улица?"}, {"start": 225.82, "end": 228.36, "text": "East 52nd Street"}, {"start": 228.36, "end": 233.72, "text": "East 52nd Street"}, {"start": 235.68, "end": 240.94, "text": "А сейчас скажите Парковый проспект."}, {"start": 242.44, "end": 244.2, "text": "Park Avenue"}, {"start": 246.36, "end": 250.02, "text": "Спросите меня, где Парковый проспект?"}, {"start": 253.44, "end": 255.14, "text": "Where is Park Avenue?"}, {"start": 258.78, "end": 260.42, "text": "Where is Park Avenue?"}, {"start": 263.88, "end": 265.7, "text": "Скажите, пожалуйста."}, {"start": 267.88, "end": 268.68, "text": "Please."}, {"start": 270.52, "end": 271.32, "text": "Please."}, {"start": 273.36, "end": 278.68, "text": "Вежливо спросите меня, где восточная 52-я улица?"}, {"start": 283.52, "end": 286.08, "text": "where is east 52nd street please"}, {"start": 291.2, "end": 293.32, "text": "Скажите, это здесь?"}, {"start": 293.32, "end": 296.22, "text": "It's here."}, {"start": 297.46, "end": 298.86, "text": "It's here."}, {"start": 298.88, "end": 305.8, "text": "А сейчас скажите, восточная 52-я улица здесь."}, {"start": 311.18, "end": 313.14, "text": "East 52nd Street is here."}, {"start": 318.46, "end": 320.38, "text": "East 52nd Street is here."}, {"start": 325.88, "end": 328.0, "text": "Спросите меня, здесь ли это?"}, {"start": 330.36, "end": 331.36, "text": "Is it here?"}, {"start": 333.82, "end": 334.64, "text": "Is it here?"}, {"start": 337.6, "end": 339.78, "text": "Отвечайте. Нет, это там."}, {"start": 343.82, "end": 345.42, "text": "No, it's over there."}, {"start": 349.24, "end": 350.94, "text": "No, it's over there."}, {"start": 355.36, "end": 357.02, "text": "Скажите, это не там."}, {"start": 360.06, "end": 361.42, "text": "It's not over there"}, {"start": 364.52, "end": 365.88, "text": "It's not over there"}, {"start": 369.42, "end": 370.78, "text": "Скажите, и не здесь."}, {"start": 373.24, "end": 374.68, "text": "And not here."}, {"start": 377.74, "end": 378.62, "text": "And it's not here."}, {"start": 382.58, "end": 386.24, "text": "Скажите, восточная 52-я улица не здесь?"}, {"start": 386.24, "end": 386.44, "text": "Peace."}, {"start": 391.12, "end": 393.68, "text": "East 52-nd Street is not here."}, {"start": 398.46, "end": 400.58, "text": "Парковый проспект здесь."}, {"start": 400.58, "end": 401.1, "text": "not here."}, {"start": 406.06, "end": 409.16, "text": "Скажите, но парковый проспект здесь."}, {"start": 412.18, "end": 414.42, "text": "But Park Avenue is here."}, {"start": 417.74, "end": 420.02, "text": "Скажите, спасибо, мисс."}, {"start": 422.68, "end": 423.62, "text": "Thank you, Miss."}, {"start": 426.44, "end": 427.14, "text": "Thanks, Miss."}, {"start": 429.16, "end": 433.16, "text": "Помните, как сказать по-английски «пожалуйста»?"}, {"start": 433.16, "end": 435.92, "text": "Please"}, {"start": 437.68, "end": 443.66, "text": "Это слово следует использовать только спрашивая или прося о чем-то."}, {"start": 443.74, "end": 452.86, "text": "А в качестве общепринятого ответа на «спасибо» в английском языке служит выражение «на здоровье»."}, {"start": 453.68, "end": 455.2, "text": "Слушайте и повторяйте."}, {"start": 455.2, "end": 480.5, "text": "You're welcome. Welcome. Come. Come. Well. Well. Welcome. You're. You're welcome. You're welcome."}, {"start": 482.06, "end": 485.94, "text": "Как сказать по-английски «на здоровье»?"}, {"start": 487.86, "end": 488.84, "text": "You're welcome."}, {"start": 490.94, "end": 491.88, "text": "You're welcome."}, {"start": 493.88, "end": 497.86, "text": "Спросите, где восточная 52-я улица?"}, {"start": 501.74, "end": 503.82, "text": "Where is East 52nd Street?"}, {"start": 503.82, "end": 504.0, "text": "Street."}, {"start": 508.36, "end": 511.68, "text": "Слушайте, как ответить «Я не знаю»?"}, {"start": 511.94, "end": 512.76, "text": "I don't know."}, {"start": 513.56, "end": 515.3, "text": "Повторяйте вслед за диктором."}, {"start": 515.6, "end": 516.8, "text": "I don't know."}, {"start": 519.46, "end": 520.08, "text": "No."}, {"start": 522.1, "end": 522.72, "text": "No."}, {"start": 524.84, "end": 525.62, "text": "Don't know."}, {"start": 527.86, "end": 529.14, "text": "I don't know."}, {"start": 532.28, "end": 539.34, "text": "Заключительный звук в слове don't почти исчезает, и слова практически сливаются в одно."}, {"start": 539.94, "end": 544.78, "text": "Повторяйте вслед за диктором, стараясь точно копировать его произношение."}, {"start": 545.18, "end": 546.18, "text": "I don't know."}, {"start": 548.46, "end": 549.86, "text": "I don't know."}, {"start": 552.16, "end": 554.92, "text": "А как сказать я знаю?"}, {"start": 557.86, "end": 558.24, "text": "I know."}, {"start": 561.24, "end": 561.48, "text": "I know."}, {"start": 564.34, "end": 568.14, "text": "Попробуйте вежливо спросить, где Парковая улица."}, {"start": 572.04, "end": 573.98, "text": "Where is Park Street, please?"}, {"start": 573.98, "end": 574.24, "text": "Please?"}, {"start": 578.52, "end": 580.48, "text": "Отвечайте. Я не знаю."}, {"start": 582.9, "end": 584.04, "text": "I don't know."}, {"start": 586.36, "end": 587.46, "text": "I don't know."}, {"start": 590.32, "end": 592.9, "text": "Скажите, а, я знаю."}, {"start": 596.08, "end": 596.7, "text": "I know."}, {"start": 596.7, "end": 597.44, "text": "Ah, I know."}, {"start": 600.54, "end": 601.9, "text": "Ah, I know."}, {"start": 605.16, "end": 607.02, "text": "Скажите, это там?"}, {"start": 609.78, "end": 610.86, "text": "It's over there."}, {"start": 614.04, "end": 615.24, "text": "Скажите спасибо."}, {"start": 617.88, "end": 618.34, "text": "Thank you."}, {"start": 620.72, "end": 623.1, "text": "Что она скажет в ответ на ваше спасибо?"}, {"start": 625.4, "end": 626.66, "text": "You're welcome."}, {"start": 629.14, "end": 630.04, "text": "You're welcome."}, {"start": 632.74, "end": 634.74, "text": "Скажите, я знаю."}, {"start": 637.24, "end": 637.62, "text": "I know."}, {"start": 640.28, "end": 642.84, "text": "Сейчас попробуйте сказать, вы знаете."}, {"start": 644.68, "end": 646.02, "text": "You know."}, {"start": 647.9, "end": 648.98, "text": "You know."}, {"start": 651.12, "end": 653.44, "text": "Спросите, вы понимаете?"}, {"start": 656.3, "end": 658.0, "text": "Do you understand?"}, {"start": 660.96, "end": 664.82, "text": "А сейчас попробуйте спросить, вы знаете?"}, {"start": 666.7, "end": 668.22, "text": "Do you know?"}, {"start": 669.96, "end": 671.44, "text": "Do you know?"}, {"start": 674.12, "end": 677.06, "text": "Сейчас скажите. Нет, я не знаю."}, {"start": 680.7, "end": 682.18, "text": "No, I don't know."}, {"start": 685.82, "end": 687.38, "text": "No, I don't know."}, {"start": 691.4, "end": 692.98, "text": "Скажите. Это не там."}, {"start": 696.56, "end": 697.94, "text": "It's not over there."}, {"start": 702.0, "end": 702.9, "text": "Скажите. Спасибо."}, {"start": 705.32, "end": 706.04, "text": "Thank you."}, {"start": 708.08, "end": 708.64, "text": "Thanks."}, {"start": 709.94, "end": 712.02, "text": "На здоровье."}, {"start": 714.52, "end": 715.42, "text": "You're welcome."}, {"start": 718.04, "end": 718.94, "text": "You're welcome."}, {"start": 721.08, "end": 726.18, "text": "А сейчас мы поучимся, как по-английски попросить что-нибудь."}, {"start": 726.86, "end": 729.98, "text": "Вначале нам нужно выучить выражение «я хочу»."}, {"start": 729.98, "end": 732.14, "text": "Слушайте и повторяйте."}, {"start": 734.04, "end": 735.96, "text": "Слушайте и повторяйте."}, {"start": 736.52, "end": 737.18, "text": "I want."}, {"start": 738.84, "end": 746.46, "text": "want want want I want"}, {"start": 748.5, "end": 751.46, "text": "Скажите «Я хочу»."}, {"start": 753.72, "end": 754.44, "text": "I want."}, {"start": 755.12, "end": 759.54, "text": "Как сказать «Вы хотите»?"}, {"start": 761.52, "end": 762.66, "text": "You want."}, {"start": 764.86, "end": 765.96, "text": "You want."}, {"start": 768.56, "end": 770.42, "text": "Скажите, я хочу."}, {"start": 772.88, "end": 773.9, "text": "I want."}, {"start": 776.82, "end": 778.62, "text": "Скажите, я знаю."}, {"start": 780.74, "end": 781.66, "text": "I know."}, {"start": 784.06, "end": 786.0, "text": "Скажите, я не знаю."}, {"start": 789.02, "end": 790.3, "text": "I don't know."}, {"start": 792.68, "end": 797.08, "text": "Сейчас попробуйте сказать «Я не хочу»."}, {"start": 798.96, "end": 805.18, "text": "I don't want I don't want"}, {"start": 806.3, "end": 810.7, "text": "Как сказать «Вы хотите»?"}, {"start": 812.54, "end": 814.26, "text": "you want"}, {"start": 816.3, "end": 819.62, "text": "Как спросить «Вы хотите»?"}, {"start": 821.92, "end": 823.12, "text": "Do you want?"}, {"start": 825.62, "end": 826.7, "text": "Do you want?"}, {"start": 829.92, "end": 834.52, "text": "Вообще, спрашивая о чем-то, принято делать это более вежливо,"}, {"start": 834.62, "end": 843.18, "text": "поэтому вам в подобных случаях гораздо чаще придется говорить, что вы хотели бы, чем вы хотите."}, {"start": 843.98, "end": 846.04, "text": "Слушайте и повторяйте."}, {"start": 846.72, "end": 847.32, "text": "You would like."}, {"start": 847.32, "end": 847.52, "text": "Like."}, {"start": 849.82, "end": 850.3, "text": "Like."}, {"start": 851.02, "end": 861.18, "text": "Like. Would. Would like. You would like."}, {"start": 864.3, "end": 866.5, "text": "Скажите, вы хотели бы..."}, {"start": 868.1, "end": 870.24, "text": "You would like..."}, {"start": 871.68, "end": 873.74, "text": "You would like..."}, {"start": 875.2, "end": 880.08, "text": "Вы хотели бы поесть. Слушайте и повторяйте."}, {"start": 880.12, "end": 881.1, "text": "Поесть"}, {"start": 881.1, "end": 882.14, "text": "To eat."}, {"start": 884.18, "end": 884.78, "text": "Eat."}, {"start": 886.54, "end": 887.14, "text": "Eat."}, {"start": 888.74, "end": 889.34, "text": "To."}, {"start": 891.04, "end": 891.96, "text": "To eat."}, {"start": 893.76, "end": 896.18, "text": "Скажите «поесть»."}, {"start": 897.62, "end": 899.02, "text": "Поесть"}, {"start": 900.88, "end": 904.88, "text": "Попробуйте сказать «Вы хотели бы поесть»."}, {"start": 907.78, "end": 908.9, "text": "You would like to eat."}, {"start": 910.3, "end": 916.34, "text": "Вот как сказать «Вы хотели бы что-нибудь поесть»."}, {"start": 916.34, "end": 917.64, "text": "Только слушайте."}, {"start": 920.5, "end": 923.02, "text": "Слушайте и повторяйте."}, {"start": 923.04, "end": 924.06, "text": "Что-нибудь."}, {"start": 924.06, "end": 925.14, "text": "Something."}, {"start": 927.06, "end": 928.46, "text": "Thing."}, {"start": 929.74, "end": 942.24, "text": "Thing. Some. Some. Something. Something."}, {"start": 945.34, "end": 947.78, "text": "Скажите еще раз «что-нибудь»."}, {"start": 949.28, "end": 950.68, "text": "Something."}, {"start": 953.58, "end": 955.96, "text": "Скажите «что-нибудь поесть»."}, {"start": 959.2, "end": 960.38, "text": "Something to eat."}, {"start": 964.0, "end": 965.68, "text": "Слушайте и повторяйте."}, {"start": 965.9, "end": 968.26, "text": "Вы хотели бы что-нибудь поесть."}, {"start": 968.7, "end": 970.7, "text": "You would like to have something to eat."}, {"start": 975.14, "end": 975.72, "text": "Have."}, {"start": 977.64, "end": 978.58, "text": "To have."}, {"start": 980.88, "end": 981.7, "text": "To have."}, {"start": 984.04, "end": 985.64, "text": "To have something to eat."}, {"start": 988.98, "end": 990.94, "text": "You would like to have something to eat."}, {"start": 996.82, "end": 999.64, "text": "Вы бы хотели что-нибудь поесть?"}, {"start": 1000.24, "end": 1006.32, "text": "Вы бы хотели что-нибудь поесть?"}, {"start": 1007.38, "end": 1013.7, "text": "Сейчас слушайте и повторяйте."}, {"start": 1014.32, "end": 1015.42, "text": "Вы хотели бы..."}, {"start": 1015.42, "end": 1016.62, "text": "Would you like?"}, {"start": 1019.22, "end": 1020.14, "text": "Would you like?"}, {"start": 1022.84, "end": 1026.22, "text": "Обратите внимание на вопросительный порядок слов."}, {"start": 1027.24, "end": 1028.36, "text": "Попробуйте спросить."}, {"start": 1028.54, "end": 1030.8, "text": "Вы хотели бы что-нибудь поесть?"}, {"start": 1035.84, "end": 1037.74, "text": "Would you like to have something to eat?"}, {"start": 1042.74, "end": 1044.68, "text": "Would you like to have something to eat?"}, {"start": 1049.3, "end": 1056.66, "text": "В быстрой речи звуки в соседних словах часто сливаются, образуя новые сочетания."}, {"start": 1057.3, "end": 1065.68, "text": "Так, в сочетании «would you» звук «я» в начале второго слова произносится как «ja»."}, {"start": 1066.26, "end": 1071.04, "text": "Повторяйте вслед за диктором, стараясь точно копировать его произношение."}, {"start": 1071.58, "end": 1073.3, "text": "Would you like to have something to eat?"}, {"start": 1077.34, "end": 1077.88, "text": "Would you?"}, {"start": 1080.1, "end": 1081.78, "text": "Would you like to have something to eat?"}, {"start": 1084.9, "end": 1090.14, "text": "Вы хотите сказать ему, что вы хотели бы что-нибудь поесть?"}, {"start": 1090.9, "end": 1093.9, "text": "Попробуйте сказать «Я хотела бы»."}, {"start": 1095.62, "end": 1097.12, "text": "I would like."}, {"start": 1099.92, "end": 1100.48, "text": "Would like."}, {"start": 1102.54, "end": 1112.96, "text": "Обратите внимание на разницу между «я хочу» прямым требованием и «я хотела бы» более вежливым способом попросить о чем-то."}, {"start": 1113.24, "end": 1115.34, "text": "Слушайте и повторяйте."}, {"start": 1115.66, "end": 1117.58, "text": "I want. I would like."}, {"start": 1122.36, "end": 1123.92, "text": "Скажите еще раз."}, {"start": 1124.66, "end": 1125.46, "text": "Я хотела бы."}, {"start": 1128.12, "end": 1129.16, "text": "I would like."}, {"start": 1132.04, "end": 1133.86, "text": "Скажите, я хочу."}, {"start": 1133.86, "end": 1137.56, "text": "you I want"}, {"start": 1140.44, "end": 1142.28, "text": "Скажите, вы хотите."}, {"start": 1144.56, "end": 1145.88, "text": "You want."}, {"start": 1148.42, "end": 1151.54, "text": "Скажите, я хотела бы поесть."}, {"start": 1154.5, "end": 1155.66, "text": "I would like to eat."}, {"start": 1158.6, "end": 1159.84, "text": "I would like to eat."}, {"start": 1162.46, "end": 1166.84, "text": "Сейчас скажите, я хотела бы что-нибудь поесть."}, {"start": 1171.76, "end": 1173.9, "text": "I would like to have something to eat."}, {"start": 1178.76, "end": 1181.06, "text": "I would like to have something to eat."}, {"start": 1186.42, "end": 1189.76, "text": "Спросите меня, хотел ли бы я что-нибудь поесть?"}, {"start": 1193.96, "end": 1195.7, "text": "Would you like to have something to eat?"}, {"start": 1199.9, "end": 1201.8, "text": "Would you like to have something to eat?"}, {"start": 1205.56, "end": 1209.04, "text": "Да, я хотела бы что-нибудь поесть."}, {"start": 1214.68, "end": 1217.04, "text": "Yes, I would like to have something to eat."}, {"start": 1221.28, "end": 1228.12, "text": "А вот как сказать «Я хотела бы что-нибудь выпить». Только слушайте."}, {"start": 1228.88, "end": 1230.66, "text": "I would like to have something to drink."}, {"start": 1231.8, "end": 1234.34, "text": "Слушайте и повторяйте «выпить»."}, {"start": 1234.34, "end": 1235.18, "text": "To drink."}, {"start": 1236.9, "end": 1237.78, "text": "Drink."}, {"start": 1239.34, "end": 1240.22, "text": "Drink."}, {"start": 1241.72, "end": 1242.94, "text": "To drink."}, {"start": 1245.4, "end": 1248.1, "text": "Скажите, я хотела бы выпить."}, {"start": 1250.86, "end": 1252.54, "text": "I would like to drink."}, {"start": 1255.5, "end": 1258.12, "text": "Я хотела бы что-нибудь выпить."}, {"start": 1262.86, "end": 1265.04, "text": "I would like to have something to drink."}, {"start": 1269.94, "end": 1271.88, "text": "I would like to have something to drink."}, {"start": 1277.12, "end": 1278.8, "text": "Сейчас попробуйте спросить."}, {"start": 1278.84, "end": 1280.94, "text": "Вы хотели бы что-нибудь выпить?"}, {"start": 1285.36, "end": 1287.32, "text": "Would you like to have something to drink?"}, {"start": 1291.8, "end": 1294.66, "text": "Как ей сказать «я не знаю»?"}, {"start": 1297.24, "end": 1298.28, "text": "I don't know."}, {"start": 1301.62, "end": 1304.8, "text": "Скажите, я хотела бы что-нибудь поесть."}, {"start": 1309.62, "end": 1311.64, "text": "I would like to have something to eat."}, {"start": 1316.82, "end": 1320.46, "text": "Спросите ее, хотела ли бы она что-нибудь выпить."}, {"start": 1325.36, "end": 1327.06, "text": "Would you like to have something to drink?"}, {"start": 1332.0, "end": 1333.86, "text": "Would you like to have something to drink?"}, {"start": 1339.14, "end": 1340.72, "text": "Скажите, нет, спасибо."}, {"start": 1343.58, "end": 1344.64, "text": "No, thank you."}, {"start": 1347.26, "end": 1348.12, "text": "No, thanks."}, {"start": 1349.98, "end": 1355.18, "text": "Как ей сказать «Но я хотела бы что-нибудь поесть»?"}, {"start": 1360.0, "end": 1362.1, "text": "but I would like to have something to eat."}, {"start": 1367.32, "end": 1370.28, "text": "Спросите, вы хотели бы что-нибудь выпить?"}, {"start": 1374.22, "end": 1375.88, "text": "Would you like to have something to drink?"}, {"start": 1380.2, "end": 1384.66, "text": "Скажите, нет, спасибо, но я хотела бы что-нибудь поесть."}, {"start": 1390.84, "end": 1393.54, "text": "No, thank you, but I would like to have something to eat."}, {"start": 1399.68, "end": 1402.66, "text": "No, thanks, but I would like to have something to eat."}, {"start": 1406.86, "end": 1411.2, "text": "Как сказать «я хочу»?"}, {"start": 1413.36, "end": 1418.46, "text": "Я не хочу поесть."}, {"start": 1421.82, "end": 1423.38, "text": "I don't want to eat."}, {"start": 1427.04, "end": 1430.12, "text": "Скажите, я хотел бы что-нибудь выпить."}, {"start": 1434.66, "end": 1436.66, "text": "I would like to have something to drink."}, {"start": 1441.3, "end": 1443.38, "text": "I would like to have something to drink."}, {"start": 1446.36, "end": 1451.52, "text": "Вы помните, как поздороваться с женщиной по-английски?"}, {"start": 1453.8, "end": 1454.96, "text": "hello ma'am"}, {"start": 1457.16, "end": 1458.44, "text": "hello ma'am"}, {"start": 1460.56, "end": 1463.32, "text": "Спросите, как вы поживаете?"}, {"start": 1465.56, "end": 1466.54, "text": "How are you?"}, {"start": 1468.76, "end": 1469.64, "text": "How are you?"}, {"start": 1471.74, "end": 1474.86, "text": "Отвечайте. Прекрасно, спасибо."}, {"start": 1478.32, "end": 1479.44, "text": "Fine, thanks."}, {"start": 1482.86, "end": 1484.24, "text": "I'm fine, thanks."}, {"start": 1487.26, "end": 1491.8, "text": "Скажите. Восточная 52-я улица."}, {"start": 1495.48, "end": 1496.86, "text": "East 52nd Street"}, {"start": 1500.78, "end": 1503.32, "text": "Спросите вежливо, где эта улица?"}, {"start": 1507.88, "end": 1510.26, "text": "Where is East 52nd Street, please?"}, {"start": 1514.94, "end": 1517.5, "text": "Where is East 52nd Street, please?"}, {"start": 1517.5, "end": 1517.7, "text": "Please."}, {"start": 1522.58, "end": 1524.5, "text": "Спросите, вы знаете?"}, {"start": 1526.66, "end": 1527.88, "text": "Do you know?"}, {"start": 1530.52, "end": 1532.2, "text": "Спросите, это здесь?"}, {"start": 1534.38, "end": 1535.58, "text": "Is it here?"}, {"start": 1538.36, "end": 1538.86, "text": "Is it here?"}, {"start": 1541.12, "end": 1544.88, "text": "Она отвечает, это не здесь, это там."}, {"start": 1549.88, "end": 1552.08, "text": "It's not here, it's over there."}, {"start": 1557.2, "end": 1559.42, "text": "It's not here, it's over there."}, {"start": 1564.84, "end": 1567.66, "text": "Спросите ее, где парковый проспект?"}, {"start": 1570.74, "end": 1572.2, "text": "Where is Park Avenue?"}, {"start": 1572.2, "end": 1572.36, "text": "you."}, {"start": 1575.24, "end": 1579.12, "text": "Как ей ответить? Простите, я не знаю."}, {"start": 1583.2, "end": 1584.94, "text": "I'm sorry I don't know"}, {"start": 1588.6, "end": 1596.8, "text": "А, да, я знаю."}, {"start": 1600.54, "end": 1602.18, "text": "Ah, yes, I know."}, {"start": 1605.42, "end": 1607.48, "text": "А, да, я знаю."}, {"start": 1611.18, "end": 1612.6, "text": "Скажите спасибо."}, {"start": 1614.74, "end": 1615.7, "text": "Спасибо."}, {"start": 1618.0, "end": 1618.38, "text": "Спасибо."}, {"start": 1620.18, "end": 1623.14, "text": "Она отвечает. На здоровье."}, {"start": 1625.74, "end": 1626.2, "text": "Вы добры."}, {"start": 1627.94, "end": 1629.4, "text": "Вы добры."}, {"start": 1631.3, "end": 1635.78, "text": "Как ей сказать вам, что она хотела бы что-нибудь поесть?"}, {"start": 1640.26, "end": 1642.32, "text": "I would like to have something to eat."}, {"start": 1646.74, "end": 1648.76, "text": "I would like to have something to eat."}, {"start": 1653.44, "end": 1655.28, "text": "Спросите ее, где?"}, {"start": 1655.28, "end": 1660.78, "text": "Where? Where?"}, {"start": 1662.88, "end": 1665.46, "text": "Она отвечает, я не знаю."}, {"start": 1667.82, "end": 1668.7, "text": "I don't know."}, {"start": 1671.24, "end": 1674.72, "text": "Спросите ее, хотела ли бы она что-нибудь выпить?"}, {"start": 1679.0, "end": 1680.64, "text": "Would you like to have something to drink?"}, {"start": 1684.86, "end": 1687.68, "text": "Как ей сказать, нет, спасибо?"}, {"start": 1690.72, "end": 1691.86, "text": "No, thank you."}, {"start": 1694.48, "end": 1700.54, "text": "Но я хотела бы что-нибудь поесть."}, {"start": 1705.12, "end": 1707.28, "text": "but I would like to have something to eat."}, {"start": 1712.24, "end": 1714.54, "text": "Слушайте и повторяйте его ответ."}, {"start": 1714.54, "end": 1717.0, "text": "Okay."}, {"start": 1718.74, "end": 1720.14, "text": "Okay."}, {"start": 1722.48, "end": 1722.96, "text": "Okay."}, {"start": 1724.9, "end": 1729.98, "text": "Сейчас он говорит ей, хорошо, но я не хочу есть."}, {"start": 1734.76, "end": 1736.68, "text": "Okay, but I don't want to eat."}, {"start": 1741.58, "end": 1743.34, "text": "Okay, but I don't want to eat."}, {"start": 1746.58, "end": 1750.74, "text": "Как ей сказать «До свидания, сэр»?"}, {"start": 1753.26, "end": 1754.0, "text": "Goodbye, sir."}, {"start": 1756.56, "end": 1757.4, "text": "Goodbye, sir."}, {"start": 1760.02, "end": 1760.46, "text": "Goodbye."}, {"start": 1760.9, "end": 1763.5, "text": "Урок номер пять окончен."}]};
+const segs = LESSON.segments;
+let rule = JSON.parse(JSON.stringify(DEFAULT_RULE));
+let lastCounts = null, showFilter = 'all', calls = {}, stopAt = null, playingId = null;
+const $ = id => document.getElementById(id);
+const audio = $('audio');
+const fmt = t => { const m = Math.floor(t / 60), s = (t % 60).toFixed(1).padStart(4, '0'); return `${m}:${s}`; };
+const esc = s => s.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+const line = (seg, cmp) => `<span class="${isRussian(seg.text) ? 'ru' : 'en'} ${cmp ? 'cmp' : ''}">${esc(seg.text)}</span>`;
+
+function play(from, to, label, id) {
+  stopAt = to; playingId = id ?? null;
+  audio.currentTime = Math.max(0, from);
+  audio.play();
+  $('now').textContent = `Playing ${label} (${fmt(from)} to ${fmt(to)})`;
+  renderRows();
+}
+audio.addEventListener('timeupdate', () => { if (stopAt != null && audio.currentTime >= stopAt) { audio.pause(); stopAt = null; playingId = null; renderRows(); } });
+$('stop').onclick = () => { audio.pause(); stopAt = null; playingId = null; renderRows(); };
+
+const players = {
+  context: s => play(s.before.start, s.after.end, 'the line before, the silence and the line after', s.index),
+  kept:    s => play(s.keepStart, s.keepEnd, 'only the part that would be kept', s.index),
+  before:  s => play(s.before.start, s.before.end + 0.1, 'the line before', s.index),
+  silence: s => play(s.start, s.end, 'the whole silence', s.index),
+  after:   s => play(s.after.start - 0.05, s.after.end + 0.1, "the speaker's line after", s.index),
+};
+
+function renderRule() {
+  for (const [k, id] of [['minSeconds', 'min'], ['keepFromSeconds', 'lead'], ['keepUntilSeconds', 'tail']]) {
+    $(id).value = rule[k]; $(id + 'V').textContent = rule[k].toFixed(2) + ' s';
+  }
+  $('kinds').innerHTML = '<label style="color:var(--muted);font-size:13px">Kinds of silence that count as speaking pauses:</label>' +
+    Object.entries(KINDS).map(([k, v]) => `<label><input type="checkbox" data-kind="${k}" ${rule.kinds[k] ? 'checked' : ''}><span>${v.label}<small>${v.hint} Compared with the line ${v.compare === 'after' ? 'after' : 'before'} the silence.</small></span></label>`).join('');
+  document.querySelectorAll('[data-kind]').forEach(cb => cb.onchange = () => { rule.kinds[cb.dataset.kind] = cb.checked; render(); });
+}
+for (const [k, id] of [['minSeconds', 'min'], ['keepFromSeconds', 'lead'], ['keepUntilSeconds', 'tail']]) {
+  $(id).oninput = () => { rule[k] = parseFloat($(id).value); $(id + 'V').textContent = rule[k].toFixed(2) + ' s'; render(false); };
+}
+
+function renderStats(all) {
+  const counts = { total: 0 };
+  for (const k of Object.keys(KINDS)) counts[k] = 0;
+  let kept = 0;
+  for (const s of all) if (s.speaking) { counts.total++; counts[s.kind]++; kept += s.keepEnd - s.keepStart; }
+  const tile = (key, n, l, cls = '') => `<div class="stat ${cls} ${lastCounts && lastCounts[key] !== n ? 'changed' : ''}"><div class="n">${n}</div><div class="l">${l}</div></div>`;
+  $('stats').innerHTML = tile('total', counts.total, 'speaking pauses in I_05', 'total') +
+    Object.entries(KINDS).map(([k, v]) => tile(k, counts[k], v.label)).join('') +
+    `<div class="stat"><div class="n">${(kept / 60).toFixed(1)} min</div><div class="l">of your voice kept per pass (lesson is ${(LESSON.duration / 60).toFixed(0)} min)</div></div>`;
+  lastCounts = counts;
+}
+
+function renderFilter() {
+  const opts = [['all', 'All silences'], ['in', 'Only speaking pauses'], ['out', 'Only left out'], ['called', 'Only ones you marked'], ...Object.entries(KINDS).map(([k, v]) => [k, v.label])];
+  $('filter').innerHTML = opts.map(([k, l]) => `<button data-f="${k}" class="${showFilter === k ? 'on' : ''}">${l}</button>`).join('');
+  document.querySelectorAll('[data-f]').forEach(b => b.onclick = () => { showFilter = b.dataset.f; renderFilter(); renderRows(); });
+}
+
+let current = [];
+function renderRows() {
+  const rows = current.filter(s => showFilter === 'all' || (showFilter === 'in' && s.speaking) || (showFilter === 'out' && !s.speaking) || (showFilter === 'called' && calls[s.index]) || showFilter === s.kind);
+  $('rows').innerHTML = rows.map(s => {
+    const total = s.length, l = Math.max(0, (s.keepStart - s.start) / total * 100), w = Math.max(0, (s.keepEnd - s.keepStart) / total * 100);
+    const c = calls[s.index];
+    return `<tr class="${s.speaking ? '' : 'out'} ${playingId === s.index ? 'playing' : ''}">
+      <td>${s.index}</td><td class="t">${fmt(s.start)}</td>
+      <td class="t">${s.length.toFixed(2)} s<div class="bar">${s.speaking ? `<i style="left:${l}%;width:${w}%"></i>` : ''}</div></td>
+      <td><span class="pill ${s.speaking ? 'in' : 'out'}">${s.speaking ? 'speaking pause' : s.reason}</span><br><small>${KINDS[s.kind].label}</small></td>
+      <td>${line(s.before, s.compareWith === s.before)}</td><td>${line(s.after, s.compareWith === s.after)}</td>
+      <td><button data-p="context" data-i="${s.index}">▶ Around it</button> ${s.speaking ? `<button data-p="kept" data-i="${s.index}">▶ Kept part</button>` : ''}</td>
+      <td class="verdict"><button data-c="speak" data-i="${s.index}" class="${c === 'speak' ? 'on' : ''}">Speak here</button> <button data-c="not" data-i="${s.index}" class="${c === 'not' ? 'on' : ''}">Not here</button></td>
+    </tr>`;
+  }).join('');
+  const byIndex = Object.fromEntries(current.map(s => [s.index, s]));
+  document.querySelectorAll('[data-p]').forEach(b => b.onclick = () => players[b.dataset.p](byIndex[b.dataset.i]));
+  document.querySelectorAll('[data-c]').forEach(b => b.onclick = () => { const i = b.dataset.i; calls[i] = calls[i] === b.dataset.c ? undefined : b.dataset.c; if (!calls[i]) delete calls[i]; renderRows(); renderCalls(); });
+}
+
+function renderCalls() {
+  const byIndex = Object.fromEntries(current.map(s => [s.index, s]));
+  const lines = [`Rule: min ${rule.minSeconds}s, keep from +${rule.keepFromSeconds}s, until -${rule.keepUntilSeconds}s, kinds: ${Object.keys(rule.kinds).filter(k => rule.kinds[k]).join(', ')}`];
+  for (const [i, c] of Object.entries(calls)) {
+    const s = byIndex[i]; if (!s) continue;
+    const agrees = (c === 'speak') === s.speaking;
+    lines.push(`#${i} ${fmt(s.start)} ${s.length.toFixed(2)}s ${s.kind}: you said ${c === 'speak' ? 'SPEAK' : 'NOT'}, rule says ${s.speaking ? 'speak' : 'not (' + s.reason + ')'}${agrees ? '' : '  <-- disagree'} | "${s.before.text}" -> "${s.after.text}"`);
+  }
+  $('calls').value = lines.join('\n');
+}
+$('copy').onclick = () => { $('calls').select(); navigator.clipboard?.writeText($('calls').value); };
+
+/* Walkthroughs: each picks a real example from I_05 and steps through it */
+function pick(pred) { return findSilences(segs, DEFAULT_RULE).find(pred); }
+const SCENARIOS = [
+  { name: 'Answer a prompt', find: () => pick(s => s.kind === 'answer' && s.length > 3),
+    text: 'The usual case: a Russian prompt, a silence, then the speaker says the English. You answer during the silence. Check that the kept part starts after the prompt really ends and stops before the speaker starts.' },
+  { name: 'Repeat after the speaker', find: () => pick(s => s.kind === 'repeat'),
+    text: 'The speaker says an English line, pauses, and says it again. Do you repeat in that gap? If so this is a speaking pause, compared with the second time the speaker says it.' },
+  { name: 'After the speaker answers', find: () => pick(s => s.kind === 'afterSpeaker' && s.length > 3),
+    text: 'The biggest group in I_05, switched ON after the user said they echo the answer here: the speaker has just given the answer, then a silence before the next Russian prompt. Is this a second chance to repeat the answer, or only a breath? If you speak here, your voice is compared with the line before.' },
+  { name: 'A short Whisper gap', find: () => findSilences(segs, DEFAULT_RULE).find(s => s.kind === 'answer' && s.length < 2 && s.length > 1.2),
+    text: 'A Russian prompt and an English answer with only a short gap. Is it a real but short speaking pause, or are Whisper\'s timings off? Lower the "shortest silence" slider and see how many more pauses it lets in.' },
+  { name: 'Between instructions', find: () => pick(s => s.kind === 'russianOnly' && s.length > 2.5),
+    text: 'Russian followed by Russian: normally the narrator moving on. But Whisper sometimes hears English as Russian, so listen for an English answer hiding here.' },
+  { name: 'English to different English', find: () => pick(s => s.kind === 'englishChain' && s.length > 2.5),
+    text: 'Two different English lines with a silence between: a dialogue, a build-up ("And" → "And you?"), or the speaker\'s answer split in two. Is the second line what you are meant to say?' },
+];
+let tab = 0;
+function renderTabs() {
+  $('tabs').innerHTML = SCENARIOS.map((s, i) => `<button data-t="${i}" class="${i === tab ? 'on' : ''}">${s.name}</button>`).join('');
+  document.querySelectorAll('[data-t]').forEach(b => b.onclick = () => { tab = +b.dataset.t; startScenario(); });
+  const sc = SCENARIOS[tab], s = sc.find();
+  if (!s) { $('tabBody').innerHTML = `<p>${sc.text}</p><p><i>No example of this in I_05.</i></p>`; return; }
+  const steps = [['before', 'Play the line before'], ['silence', 'Play the silence'], ['after', "Play the speaker's line after"], ['kept', 'Play only the part that would be kept']];
+  $('tabBody').innerHTML = `<p>${sc.text}</p>
+    <p><b>Example #${s.index} at ${fmt(s.start)}</b>, ${s.length.toFixed(2)} s: ${line(s.before, s.compareWith === s.before)} → <i>silence</i> → ${line(s.after, s.compareWith === s.after)}<br>
+    With the default rule: <span class="pill ${s.speaking ? 'in' : 'out'}">${s.speaking ? 'speaking pause' : s.reason}</span></p>
+    <div class="steps">${steps.map(([k, l], n) => `<button data-step="${k}" data-n="${n}" class="${n === 0 ? 'primary' : ''}">${n + 1}. ${l}</button>`).join('')}
+    <button data-call="speak">I would speak here</button><button data-call="not">I would not</button></div>`;
+  document.querySelectorAll('[data-step]').forEach(b => b.onclick = () => {
+    players[b.dataset.step](s);
+    document.querySelectorAll('[data-step]').forEach(x => { x.classList.remove('primary'); if (+x.dataset.n <= +b.dataset.n) x.classList.add('done'); });
+    const next = document.querySelector(`[data-step][data-n="${+b.dataset.n + 1}"]`); if (next) next.classList.add('primary');
+  });
+  document.querySelectorAll('[data-call]').forEach(b => b.onclick = () => { calls[s.index] = b.dataset.call; renderRows(); renderCalls(); });
+}
+function startScenario() { rule = JSON.parse(JSON.stringify(DEFAULT_RULE)); lastCounts = null; renderRule(); render(); renderTabs(); }
+
+function render(full = true) {
+  current = findSilences(segs, rule);
+  renderStats(current); renderRows(); renderCalls();
+}
+renderRule(); renderFilter(); render(); renderTabs();
+</script>
+</body>
+</html>
