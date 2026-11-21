@@ -20,6 +20,17 @@ object TalkConfig {
 
     /** App control text (spec §4), sent as bare realtime text. */
     const val OPENING = "(The learner pressed Talk. Start the Talk.)"
+    const val QUIET = "(The learner is quiet.)"
+    const val TIME_UP = "(Time is up.)"
+
+    /** A Talk's wall-clock cap from its start, No signal and Paused included (spec §6 step 9). */
+    const val TALK_CAP_MS = 30 * 60 * 1000L
+
+    /** Silence in Your turn before the one nudge (spec §6 step 6). */
+    const val QUIET_MS = 9_000L
+
+    /** Anna's whole answer to "wait" (spec §4): after it, no nudge until the learner speaks. */
+    const val WAIT_REPLY = "OK."
 
     /** Anna's audio: 24 kHz mono 16-bit PCM. */
     const val OUTPUT_RATE = 24_000

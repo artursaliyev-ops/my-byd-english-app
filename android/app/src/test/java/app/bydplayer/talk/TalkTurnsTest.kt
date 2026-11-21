@@ -102,7 +102,10 @@ class TalkTurnsTest {
         server(LiveEvent.Audio(byteArrayOf(1)))
         server(LiveEvent.TurnComplete)
         talk.on(TalkEvent.PlaybackDrained)
-        assertEquals(listOf(TalkEffect.PlayBeep, TalkEffect.OpenMic), talk.on(TalkEvent.EchoGuardOver))
+        assertEquals(
+            listOf(TalkEffect.PlayBeep, TalkEffect.OpenMic, TalkEffect.After(9_000, TalkEvent.Quiet(1))),
+            talk.on(TalkEvent.EchoGuardOver),
+        )
         assertEquals(TurnState.You, talk.state)
     }
 

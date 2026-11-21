@@ -38,7 +38,10 @@ class SilentReconnectTest {
         assertEquals(listOf(TalkEffect.AwaitDrain, TalkEffect.Reconnect("h2")), server(LiveEvent.TurnComplete))
         assertEquals(TurnState.Anna, talk.state)
         talk.on(TalkEvent.PlaybackDrained)
-        assertEquals(listOf(TalkEffect.PlayBeep, TalkEffect.OpenMic), talk.on(TalkEvent.EchoGuardOver))
+        assertEquals(
+            listOf(TalkEffect.PlayBeep, TalkEffect.OpenMic, TalkEffect.After(9_000, TalkEvent.Quiet(2))),
+            talk.on(TalkEvent.EchoGuardOver),
+        )
         server(LiveEvent.ResumptionHandle("h3"))
         talk.on(TalkEvent.Mic(MicEvent.SpeechStarted(byteArrayOf(1))))
         talk.on(TalkEvent.Mic(MicEvent.SpeechEnded))

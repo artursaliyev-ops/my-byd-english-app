@@ -4,10 +4,10 @@
 
 **Blocked by:** 15 (A learner Turn)
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] At ~9 s of silence in **You**, the app sends `(The learner is quiet.)` once; there's no second nudge until the learner has spoken. Silence never ends a Talk.
-- [ ] When Anna's output transcript for a Turn is exactly "OK.", the nudge is skipped until the learner next speaks.
-- [ ] When Anna's output transcript starts with "Bye!" and contains "Drive safe", the Talk ends after that audio finishes; "By the way" doesn't end it (left to the model).
-- [ ] The 30-min cap is wall-clock from the Talk's start. When it's reached, the current Turn finishes, then `(Time is up.)` is sent instead of opening the learner's turn, and the Talk ends after her goodbye.
-- [ ] Each rule is covered in the state machine's unit tests.
+- [x] At ~9 s of silence in **You**, the app sends `(The learner is quiet.)` once; there's no second nudge until the learner has spoken. Silence never ends a Talk.
+- [x] When Anna's output transcript for a Turn is exactly "OK.", the nudge is skipped until the learner next speaks.
+- [x] When Anna's output transcript starts with "Bye!" and contains "Drive safe", the Talk ends after that audio finishes; "By the way" doesn't end it (left to the model).
+- [x] The 30-min cap is wall-clock from the Talk's start. When it's reached, the current Turn finishes, then `(Time is up.)` is sent instead of opening the learner's turn, and the Talk ends after her goodbye.
+- [x] Each rule is covered in the state machine's unit tests.
