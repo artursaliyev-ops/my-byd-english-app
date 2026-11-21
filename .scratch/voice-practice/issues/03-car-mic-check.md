@@ -1,6 +1,6 @@
 # Check the microphone on the car
 Type: task
-Status: open
+Status: claimed
 Blocked by: 01
 
 ## Question
