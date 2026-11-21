@@ -133,13 +133,9 @@ private fun App() {
     val c = controller
     BackHandler(enabled = showSettings) { showSettings = false }
     BackHandler(enabled = showPlayer && !showSettings) { showPlayer = false }
-    val screen = when {
-        showSettings -> Screen.Settings
-        showPlayer && c != null && current != null -> Screen.Player
-        else -> Screen.Lessons
-    }
     // A running Talk covers everything, also when the app comes back on screen (Talk spec §7).
     val talk = Talk.screen
+    val screen = appScreen(talk != null, showSettings, showPlayer, hasLesson = c != null && current != null)
     BackHandler(enabled = talk != null) {}
     if (talk != null) {
         TalkScreen(talk)
@@ -151,6 +147,8 @@ private fun App() {
             Screen.Settings -> SettingsScreen(onBack = { showSettings = false })
             // The outgoing player can outlive the controller during the fade; draw nothing then.
             Screen.Player -> controller?.let { PlayerScreen(it, onShowLessons = { showPlayer = false }) }
+            // Drawn above, before the crossfade.
+            Screen.Talk -> Unit
             Screen.Lessons -> LibraryScreen(
                 model = library,
                 nowPlaying = current,
@@ -170,7 +168,19 @@ private fun App() {
 /** The activity is resumed (on screen); the voice-practice microphone may only start then. */
 private var onScreen = false
 
-private enum class Screen { Lessons, Player, Settings }
+internal enum class Screen { Lessons, Player, Settings, Talk }
+
+/**
+ * Which screen the app shows. A running Talk wins over everything (Talk spec §7). Talk state
+ * lives only in memory, so after the process dies (the car switched off mid-Talk) there is none,
+ * and a launch that resumed the last lesson opens on the player (Talk spec §9).
+ */
+internal fun appScreen(talkActive: Boolean, showSettings: Boolean, showPlayer: Boolean, hasLesson: Boolean) = when {
+    talkActive -> Screen.Talk
+    showSettings -> Screen.Settings
+    showPlayer && hasLesson -> Screen.Player
+    else -> Screen.Lessons
+}
 
 /** Queues every found lesson, so prev/next and auto-advance move through the course. */
 private fun Player.load(all: List<Lesson>, start: Lesson, positionMs: Long) {

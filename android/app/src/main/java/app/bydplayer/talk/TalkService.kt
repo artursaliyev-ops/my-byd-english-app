@@ -39,7 +39,7 @@ import com.google.common.util.concurrent.ListenableFuture
 class TalkService : Service() {
     private val main = Handler(Looper.getMainLooper())
     private var turns: TalkTurns? = null
-    private var session: LiveSession? = null
+    private var session: LiveLink? = null
     private var voice: AnnaVoice? = null
     private var mic: TalkMic? = null
     private var sounds: TalkSounds? = null
@@ -96,11 +96,13 @@ class TalkService : Service() {
             onFailed = { main.post { Log.w(TAG, "mic failed: ending the Talk"); handle(TalkEvent.EndPressed) } },
         ).also { it.start() }
         val prompt = assets.open(TalkConfig.PROMPT_ASSET).bufferedReader().use { it.readText() }.trim()
-        session = LiveSession(
-            apiKey = BuildConfig.GEMINI_API_KEY,
-            prompt = prompt,
-            onEvent = { e -> main.post { handle(TalkEvent.Server(e)) } },
-            onLost = { main.post { handle(TalkEvent.SessionLost) } },
+        session = LiveLink(
+            connect = { resume, onEvent, onLost ->
+                LiveSession(BuildConfig.GEMINI_API_KEY, prompt, onEvent, onLost, resume)
+            },
+            post = { block -> main.post(block) },
+            onEvent = { e -> handle(TalkEvent.Server(e)) },
+            onLost = { handle(TalkEvent.SessionLost) },
         ).also { it.open() }
     }
 
@@ -128,8 +130,18 @@ class TalkService : Service() {
                 is TalkEffect.Volume -> voice?.volume(effect.level)
                 TalkEffect.EndWhenFocusBack -> finishTalk(LessonBack.WhenFocusBack)
                 TalkEffect.EndLessonPaused -> finishTalk(LessonBack.Never)
+                is TalkEffect.Reconnect -> reconnect(effect.handle)
             }
         }
+    }
+
+    /**
+     * Swaps the Live session for one resuming with [handle] (spec §3): the old socket is closed
+     * before the new one opens. Silent: no state change, no sound. Ticket 18 builds on this.
+     */
+    private fun reconnect(handle: String) {
+        Log.i(TAG, "reconnecting at ${SystemClock.elapsedRealtime() - startedAt} ms")
+        session?.open(handle)
     }
 
     private fun publish() {

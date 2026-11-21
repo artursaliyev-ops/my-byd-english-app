@@ -4,10 +4,10 @@
 
 **Blocked by:** 15 (A learner Turn)
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] The newest `sessionResumptionUpdate.newHandle` is kept in memory.
-- [ ] On `goAway`, or a socket close between Turns, the app reconnects with the handle without changing the screen state or playing a sound.
-- [ ] A `goAway` that arrives mid-Turn is handled once that Turn completes.
-- [ ] Two sessions are never open at once: the old socket is closed before the new one opens.
-- [ ] Reconnect logic is covered by unit tests against a fake session.
+- [x] The newest `sessionResumptionUpdate.newHandle` is kept in memory.
+- [x] On `goAway`, or a socket close between Turns, the app reconnects with the handle without changing the screen state or playing a sound.
+- [x] A `goAway` that arrives mid-Turn is handled once that Turn completes.
+- [x] Two sessions are never open at once: the old socket is closed before the new one opens.
+- [x] Reconnect logic is covered by unit tests against a fake session.
