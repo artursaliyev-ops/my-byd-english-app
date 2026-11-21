@@ -44,7 +44,7 @@ Out (ruled out by the user on 2026-11-21):
 
 *From "Find the speaking pauses in a lesson".*
 
-Computed from the bundled transcript (`assets/transcripts/<id>.json`) of the current lesson. The pure functions `classify` / `findSilences` in `tools/prototype-speaking-pauses.html` (branch `prototype/speaking-pause-detection`) are the reference.
+Computed from the bundled transcript (`assets/transcripts/<id>.json`) of the current lesson. The pure functions `classify` / `findSilences` in `tools/prototype-speaking-pauses.html` are the reference.
 
 **Language:** a line is **Russian** if it contains any Cyrillic letter, otherwise **English**. Never use Whisper's `lang` tag.
 

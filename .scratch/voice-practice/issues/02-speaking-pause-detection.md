@@ -32,4 +32,4 @@ Resolved 2026-11-21 with the user (HITL), from the prototype and three questions
 
 **Consequence for other tickets.** One English line can now have **two Attempts**: the answer in the pause before it, and the echo in the pause after it. "Shape the ▶ Me control and the recording dot" and "Decide what a lesson pass means when the learner jumps around" need to account for this.
 
-**Prototype:** `tools/prototype-speaking-pauses.html` on the throwaway branch `prototype/speaking-pause-detection` (local, not merged). The pure functions `classify` / `findSilences` in its first `<script>` block are the part worth lifting into the app; open the file from `tools/` so it finds the MP3 in `sources/`.
+**Prototype:** `tools/prototype-speaking-pauses.html`. The pure functions `classify` / `findSilences` in its first `<script>` block are the part worth lifting into the app; open the file from `tools/` so it finds the MP3 in `sources/`.

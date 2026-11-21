@@ -13,7 +13,7 @@ Can a sideloaded app on the BYD DiLink head unit (Android 12 per the car check, 
 
 ## Comments
 
-**Research pass (2026-11-21).** Findings are in `.scratch/voice-practice/research/dilink-mic-access.md` on branch `research/dilink-mic-access` (not merged). Summary:
+**Research pass (2026-11-21).** Findings are in `.scratch/voice-practice/research/dilink-mic-access.md`. Summary:
 - The car reported Android 12 (SDK 32) in byd-player ticket 09, not 13. `RECORD_AUDIO` with the normal runtime prompt should be enough: BYD says a sideloaded app asking for the mic gets a standard on-screen prompt, and partner karaoke apps already use the roof mic. A system mic toggle (Android 12, plus possibly a BYD one) can make a granted app record silence.
 - Source: start with `VOICE_RECOGNITION` (effects off, flat response) or `MIC`. `VOICE_COMMUNICATION` is the only source likely to get echo cancellation, but it is privacy-sensitive and may take the mic from "Hi BYD". Whether BYD's HAL has AEC at all, with the cabin speakers as reference, is unknown.
 - Recording does not touch audio focus, so the lesson should keep playing. Do not request focus (as the Android for Cars guide does) and do not switch to `MODE_IN_COMMUNICATION`.
