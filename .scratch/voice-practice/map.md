@@ -8,7 +8,7 @@ A hand-off-ready **spec** at `.scratch/voice-practice/spec.md` for recording the
 ## Notes
 
 - Domain: the Android app in `android/` (Kotlin + Compose + Media3, `PlaybackService.kt` owns playback; transcript panel in `PlayerScreen.kt` / `Transcript.kt`). Today the manifest has no `RECORD_AUDIO`.
-- Terms: **Speaking pause** and **Attempt** are in `GLOSSARY.md`. Lesson pattern (I_05): Russian prompt → 2–5 s silence → speaker's English answer; about 240 silences ≥ 2 s per lesson in `transcripts/*.json`.
+- Terms: **Speaking pause** and **Attempt** are in `GLOSSARY.md`. Lesson pattern (I_05): Russian prompt → 2–5 s silence → speaker's English answer; about 280 speaking pauses per lesson by the settled rule in `transcripts/*.json`.
 - Settled in charting (2026-11-21, user):
   - Purpose: compare your pronunciation with the speaker's, tied to the lesson moment. Not a free voice memo.
   - Hands-free while driving: the mic records in the background while a lesson plays; only the parts inside speaking pauses are kept, found from transcript timings. The lesson never pauses for you.
@@ -22,12 +22,13 @@ A hand-off-ready **spec** at `.scratch/voice-practice/spec.md` for recording the
 <!-- one line per closed ticket -->
 
 - [Find out whether the app can use the DiLink microphone](issues/01-dilink-mic-access.md): likely yes with a normal mic prompt and no focus change; separate microphone foreground service started from the visible screen; echo cancellation and bleed unknown until the car check. Research on branch `research/dilink-mic-access`.
+- [Find the speaking pauses in a lesson](issues/02-speaking-pause-detection.md): every silence ≥ 1.0 s except Russian → Russian; Russian vs English by alphabet; keep +0.2 s to −0.1 s; compare with the line after, except an echo after the answer is compared with the line before. About 277 pauses and 13 min of voice per lesson. Prototype on branch `prototype/speaking-pause-detection`.
 
 ## Not yet specified
 
 - **Speaker bleed**: the car speakers play the lesson while the mic is open, so the speaker's voice may leak into Attempts at pause edges. What to do about it (echo cancellation, trimming edges, ducking) waits on the mic research and the car mic check.
 - **When the mic may start**: per the mic research, Android only lets the recorder start while the player screen is visible; a lesson resumed from the wheel in the background would record nothing. Whether that's acceptable, or recording must be armed from the screen, waits on the car mic check.
-- **Recording format and size**: codec, bitrate, one file per Attempt vs one file per lesson with offsets; budget for 5 lessons × ~240 Attempts.
+- **Recording format and size**: codec, bitrate, one file per Attempt vs one file per lesson with offsets; budget for 5 lessons × ~280 Attempts ≈ 65 min of kept voice (from the speaking-pause rule).
 - **Writing the spec**: once the tickets above are resolved, assemble `spec.md`.
 
 ## Out of scope

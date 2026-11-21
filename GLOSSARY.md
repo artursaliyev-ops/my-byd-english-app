@@ -17,9 +17,9 @@ Holding the steering-wheel ◀ or ▶. The car sends it as its own BYD key, not 
 _Avoid_: Long-press (Android's long-press flag never arrives)
 
 **Speaking pause**:
-A silence in a lesson where the learner answers out loud, usually between a Russian prompt and the speaker's English answer.
+A silence in a lesson where the learner speaks out loud: answering a Russian prompt before the speaker's English answer, repeating a line the speaker says twice, or echoing the answer just heard.
 _Avoid_: Gap, silence
 
 **Attempt**:
-The learner's own voice recorded during one speaking pause. It is played back next to the speaker's line that follows that pause.
+The learner's own voice recorded during one speaking pause. It is played back next to the speaker's line it is compared with: usually the line after the pause, but the line before it when the Attempt echoes the answer just heard.
 _Avoid_: Recording, take
