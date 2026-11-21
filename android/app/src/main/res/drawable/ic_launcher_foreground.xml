@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- White headphones with the app's blue sound bars, scaled into the 66 dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateY="-3.2">
+        <path
+            android:pathData="M33,64 V55 A21,21 0 0 1 75,55 V64"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeWidth="7"
+            android:strokeLineCap="round" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M33,58 h1 a7,7 0 0 1 7,7 v10 a7,7 0 0 1 -7,7 h-1 a7,7 0 0 1 -7,-7 v-10 a7,7 0 0 1 7,-7 z" />
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M74,58 h1 a7,7 0 0 1 7,7 v10 a7,7 0 0 1 -7,7 h-1 a7,7 0 0 1 -7,-7 v-10 a7,7 0 0 1 7,-7 z" />
+        <path
+            android:pathData="M47,66 V74 M54,61 V79 M61,66 V74"
+            android:strokeColor="#FF3388FF"
+            android:strokeWidth="4.5"
+            android:strokeLineCap="round" />
+    </group>
+</vector>

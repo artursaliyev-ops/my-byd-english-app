@@ -1,0 +1,4 @@
+<resources>
+    <!-- Launcher icon background: the navigation bar's dark gray. -->
+    <color name="ic_launcher_background">#FF20232A</color>
+</resources>
