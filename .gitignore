@@ -2,3 +2,9 @@
 sources/
 tools/.venv/
 tools/out/
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+byd-player-debug.apk
