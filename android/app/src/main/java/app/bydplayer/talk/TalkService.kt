@@ -70,6 +70,7 @@ class TalkService : Service() {
 
     override fun onDestroy() {
         if (turns != null) finishTalk()
+        if (waitingForFocus) giveLessonBack(resume = true)
         super.onDestroy()
     }
 
@@ -130,6 +131,10 @@ class TalkService : Service() {
                 TalkEffect.PlayBeep -> sounds?.beep()
                 TalkEffect.PlayTick -> sounds?.tick()
                 TalkEffect.End -> finishTalk()
+                TalkEffect.StopAnna -> voice?.stop()
+                is TalkEffect.Volume -> voice?.volume(effect.level)
+                TalkEffect.EndWhenFocusBack -> finishTalk(LessonBack.WhenFocusBack)
+                TalkEffect.EndLessonPaused -> finishTalk(LessonBack.Never)
                 is TalkEffect.Reconnect -> reconnect(effect.handle)
             }
         }
@@ -149,21 +154,63 @@ class TalkService : Service() {
         Talk.screen = if (t.state == TurnState.Ended) null else TalkScreenState(t.state, t.annaLine, t.silence)
     }
 
+    /** When the lesson gets its turn back after a Talk (spec §9, §10). */
+    private enum class LessonBack { Now, WhenFocusBack, Never }
+
+    /** The Talk is over but holds focus until it returns, then resumes the lesson (spec §10). */
+    private var waitingForFocus = false
+
     /** Ends at once (spec §9): socket, Anna, focus, screen, then the lesson by the resume rule. */
-    private fun finishTalk() {
+    private fun finishTalk(lessonBack: LessonBack = LessonBack.Now) {
         turns = null
         timers.removeCallbacksAndMessages(null)
         mic?.stop(); mic = null
         session?.close(); session = null
         voice?.release(); voice = null
         sounds?.release(); sounds = null
-        focus?.let { getSystemService(AudioManager::class.java).abandonAudioFocusRequest(it) }
-        focus = null
         Talk.screen = null
-        resumeLesson()
         Log.i(TAG, "Talk ended after ${SystemClock.elapsedRealtime() - startedAt} ms")
         stopForeground(STOP_FOREGROUND_REMOVE)
+        if (lessonBack == LessonBack.WhenFocusBack && focus != null) {
+            // Played now, the lesson would only be held back by the call: keep the focus
+            // request so its return is heard, and resume then.
+            waitingForFocus = true
+            return
+        }
+        giveLessonBack(resume = lessonBack != LessonBack.Never)
+    }
+
+    private fun giveLessonBack(resume: Boolean) {
+        waitingForFocus = false
+        focus?.let { getSystemService(AudioManager::class.java).abandonAudioFocusRequest(it) }
+        focus = null
+        if (resume) resumeLesson() else releaseLesson()
         stopSelf()
+    }
+
+    private fun releaseLesson() {
+        val future = lessonFuture ?: return
+        lessonFuture = null
+        lesson = null
+        MediaController.releaseFuture(future)
+    }
+
+    /** Audio focus changes become Talk events (spec §10). */
+    private fun onFocusChange(change: Int) {
+        Log.i(TAG, "focus change $change")
+        if (waitingForFocus) {
+            when (change) {
+                AudioManager.AUDIOFOCUS_GAIN -> giveLessonBack(resume = true)
+                AudioManager.AUDIOFOCUS_LOSS -> giveLessonBack(resume = false)
+            }
+            return
+        }
+        when (change) {
+            AudioManager.AUDIOFOCUS_GAIN -> handle(TalkEvent.FocusBack)
+            AudioManager.AUDIOFOCUS_LOSS_TRANSIENT -> handle(TalkEvent.FocusPaused)
+            AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK -> handle(TalkEvent.FocusDucked)
+            AudioManager.AUDIOFOCUS_LOSS -> handle(TalkEvent.FocusGone)
+        }
     }
 
     private fun pauseLessonThen(next: () -> Unit) {
@@ -204,8 +251,9 @@ class TalkService : Service() {
         val v = voice ?: return
         val request = AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN)
             .setAudioAttributes(v.attributes)
-            // Ticket 20 turns focus changes into Paused, ducking and ending.
-            .setOnAudioFocusChangeListener({ change -> Log.i(TAG, "focus change $change") }, main)
+            // Duck Anna ourselves, so a navigation prompt reaches us as an event (spec §10).
+            .setWillPauseWhenDucked(true)
+            .setOnAudioFocusChangeListener({ change -> onFocusChange(change) }, main)
             .build()
         val granted = getSystemService(AudioManager::class.java).requestAudioFocus(request)
         if (granted != AudioManager.AUDIOFOCUS_REQUEST_GRANTED) Log.w(TAG, "focus not granted: $granted")

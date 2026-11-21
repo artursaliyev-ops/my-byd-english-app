@@ -20,6 +20,7 @@ import androidx.media3.session.MediaSession
 import androidx.media3.session.MediaSessionService
 import androidx.media3.session.SessionCommand
 import androidx.media3.session.SessionResult
+import app.bydplayer.talk.Talk
 import com.google.common.util.concurrent.Futures
 import com.google.common.util.concurrent.ListenableFuture
 
@@ -125,29 +126,41 @@ class PlaybackService : MediaSessionService() {
 
     /**
      * Applies the Button mode to ⏮ ⏭ coming from outside the app's screen: steering wheel
-     * keys, the DiLink now-playing widget, Bluetooth keys. Calls from the app's own UI
+     * keys, the DiLink now-playing widget, Bluetooth keys. While a Talk is active, play/pause
+     * from outside ends it and ⏮ ⏭ do nothing (spec §10). Calls from the app's own UI
      * controller (marked with [HINT_APP_UI]) and from the service itself pass through.
      */
     @OptIn(UnstableApi::class)
     private inner class MediaButtonPlayer(player: Player) : ForwardingPlayer(player) {
-        override fun seekToPrevious() = route("previous", forward = false) { super.seekToPrevious() }
-        override fun seekToPreviousMediaItem() = route("previous item", forward = false) { super.seekToPreviousMediaItem() }
-        override fun seekToNext() = route("next", forward = true) { super.seekToNext() }
-        override fun seekToNextMediaItem() = route("next item", forward = true) { super.seekToNextMediaItem() }
+        override fun seekToPrevious() = route("previous", MediaPress.Previous) { super.seekToPrevious() }
+        override fun seekToPreviousMediaItem() = route("previous item", MediaPress.Previous) { super.seekToPreviousMediaItem() }
+        override fun seekToNext() = route("next", MediaPress.Next) { super.seekToNext() }
+        override fun seekToNextMediaItem() = route("next item", MediaPress.Next) { super.seekToNextMediaItem() }
+        override fun play() = route("play", MediaPress.PlayPause) { super.play() }
+        override fun pause() = route("pause", MediaPress.PlayPause) { super.pause() }
 
-        private inline fun route(name: String, forward: Boolean, passThrough: () -> Unit) {
+        private inline fun route(name: String, press: MediaPress, passThrough: () -> Unit) {
             val caller = session?.controllerForCurrentRequest
             if (caller == null || caller.isAppUi()) return passThrough()
-            val effect = settings.buttonMode().effectOf(forward)
-            ButtonLog.command(name, effect, caller.describe())
-            apply(effect)
+            act(name, settings.buttonMode().actionOf(press, Talk.active), caller.describe(), passThrough)
         }
 
         /** A steering-wheel hold: the other mode's action, whoever sent it. */
         fun hold(forward: Boolean, from: String) {
-            val effect = settings.buttonMode().holdEffectOf(forward)
-            ButtonLog.command(if (forward) "hold next" else "hold previous", effect, from)
-            apply(effect)
+            val press = if (forward) MediaPress.HoldNext else MediaPress.HoldPrevious
+            act(if (forward) "hold next" else "hold previous", settings.buttonMode().actionOf(press, Talk.active), from) {}
+        }
+
+        private inline fun act(name: String, action: ButtonAction, from: String, asUsual: () -> Unit) {
+            when (action) {
+                is ButtonAction.Do -> {
+                    ButtonLog.command(name, action.effect, from)
+                    apply(action.effect)
+                }
+                ButtonAction.AsUsual -> asUsual()
+                ButtonAction.EndTalk -> Talk.end(this@PlaybackService)
+                ButtonAction.Ignore -> Unit
+            }
         }
 
         private fun apply(effect: ButtonEffect) {

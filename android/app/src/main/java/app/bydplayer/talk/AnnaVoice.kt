@@ -17,6 +17,7 @@ class AnnaVoice {
     private val queue = LinkedBlockingQueue<ByteArray>()
     @Volatile private var running = true
     @Volatile private var onDrained: (() -> Unit)? = null
+    @Volatile private var stopAsked = false
 
     val attributes: AudioAttributes = AudioAttributes.Builder()
         .setUsage(AudioAttributes.USAGE_MEDIA)
@@ -53,6 +54,14 @@ class AnnaVoice {
             while (running) {
                 val pcm = queue.poll(POLL_MS, TimeUnit.MILLISECONDS)
                 if (!running) break
+                if (stopAsked) {
+                    // Drop what is buffered and start again from an empty track.
+                    stopAsked = false
+                    queue.clear()
+                    track.pause(); track.flush(); track.play()
+                    written = 0L; target = -1L; lastHead = -1L
+                    continue
+                }
                 if (pcm != null) {
                     track.write(pcm, 0, pcm.size)
                     written += pcm.size / 2
@@ -93,6 +102,21 @@ class AnnaVoice {
      */
     fun whenDrained(done: () -> Unit) {
         if (running) onDrained = done
+    }
+
+    /** Stops her at once, mid-word, and drops what is queued; she can play again after (spec §10). */
+    fun stop() {
+        if (!running) return
+        onDrained = null
+        queue.clear()
+        stopAsked = true
+        // Pausing silences her now and unblocks a write in progress; the writer flushes.
+        runCatching { track.pause() }
+    }
+
+    /** Her volume, 0 to 1: lower under a navigation prompt. */
+    fun volume(level: Float) {
+        if (running) runCatching { track.setVolume(level) }
     }
 
     /** Stops at once, mid-word, and frees the track. */
