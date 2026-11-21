@@ -3,7 +3,7 @@ Label: wayfinder:map
 
 ## Destination
 
-A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: simple spoken English small talk with a model while driving, so a session can build it without new decisions. Offline (on the head unit) is tried first; if it fails the bar, the spec is written for a cloud model over the phone's hotspot.
+A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: simple spoken English small talk with a model while driving, so a session can build it without new decisions. Offline (on the head unit) was tried first and failed the bar, so the spec is written for a cloud model over the phone's hotspot.
 
 ## Notes
 
@@ -18,7 +18,7 @@ A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: 
   - When stuck: simpler English; one short Russian hint only if the learner asks ("in Russian?").
   - A separate mode: the lesson is paused for the whole Talk.
   - Turn-taking: start with an on-screen "Talk" button, then hands-free; ~1.5 s of silence ends the learner's part of a Turn; end by saying "bye" or tapping the button again.
-  - Model install: a file up to ~3 GB copied once via SD card or ADB; no in-app download.
+  - Model install (offline only, moot since Talk went cloud): a file up to ~3 GB copied once via SD card or ADB; no in-app download.
 - Consult `domain-modeling` for new terms. UI follows the UI6 glass style in `Glass.kt`.
 
 ## Decisions so far
@@ -30,10 +30,10 @@ A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: 
 - [Decide how the talk partner behaves](issues/05-talk-partner.md): "Anna", a friendly acquaintance; speaks first; 1–2 short A1–A2 sentences plus a question; one recast per Turn; Russian only on "in Russian?"; never ends a Talk itself; a ~10-case test set for every model.
 - [Shape the Talk screen and the feel of a Turn](issues/06-talk-screen.md): full-screen big state shape (green Anna / blue you / dots thinking) + Anna's latest line, learner's words never shown; Talk button on the player only; no barge-in yet; beep + tick; lesson resumes 5 s back only if it was playing. Prototype on local branch `prototype/talk-screen`.
 - [Measure a Turn on the car with the offline stack](issues/03-measure-a-turn.md): BYD's dashcam/cameras keep ~3 cores busy; Qwen3.5-2B gets ~4.5 tok/s (est. ~5 s to first audio) and passes ~2/10 of the partner test set; 0.8B gets ~9 tok/s (~3–4.5 s) but ~3/10. No offline model tried is both fast and good enough. Probe on local branch `probe/talk-turn`.
+- [Decide whether Talk runs offline or in the cloud](issues/04-offline-or-cloud.md): offline fails the bar, so Talk runs on a cloud model over the phone's hotspot, with no offline fallback; the 3–5 s bar and the partner and screen decisions still hold.
 
 ## Not yet specified
 
-- **Cloud fallback details**: which provider and model, cost, whose key, what happens when the hotspot drops mid-Talk. Only needed if the offline-or-cloud decision picks cloud.
 - **Memory between Talks**: whether the talk partner remembers earlier Talks, and whether Talk text or audio is kept at all (privacy, retention like voice practice's 5-lesson rule).
 - **Real driving conditions**: road noise vs speech recognition, screen off, a phone call arriving mid-Talk, what the media buttons do during a Talk; whether barge-in can be turned on once echo from Anna's voice into the mic is measured on the car.
 
