@@ -24,6 +24,7 @@ A hand-off-ready **spec** at `.scratch/voice-practice/spec.md` for recording the
 - [Find out whether the app can use the DiLink microphone](issues/01-dilink-mic-access.md): likely yes with a normal mic prompt and no focus change; separate microphone foreground service started from the visible screen; echo cancellation and bleed unknown until the car check. Research on branch `research/dilink-mic-access`.
 - [Find the speaking pauses in a lesson](issues/02-speaking-pause-detection.md): every silence ≥ 1.0 s except Russian → Russian; Russian vs English by alphabet; keep +0.2 s to −0.1 s; compare with the line after, except an echo after the answer is compared with the line before. About 277 pauses and 13 min of voice per lesson. Prototype on branch `prototype/speaking-pause-detection`.
 - [Check the microphone on the car](issues/03-car-mic-check.md): record with `VOICE_COMMUNICATION`; the car's AEC + NS cut the lesson by about 20–25 dB and the voice is clear; runs alongside the BYD voice app, no focus change; a recording started from the screen keeps going in the background, one started from the background is muted. Probe on branch `task/car-mic-probe`.
+- [Shape the "▶ Me" control and the recording dot](issues/04-attempt-playback-ui.md): chips at the end of the compared line, "▶ Me" and "▶ Echo" when there are two; plays Attempt, 0.4 s, speaker's line with the lesson paused, then back to its place, still paused; red dot by the title, pulsing inside speaking pauses. Prototype on branch `prototype/attempt-playback-ui`.
 
 ## Not yet specified
 
