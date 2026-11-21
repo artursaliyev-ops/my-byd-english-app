@@ -1,2 +1,4 @@
 .DS_Store
 sources/
+tools/.venv/
+tools/out/
