@@ -33,11 +33,12 @@ A hand-off-ready **spec** at `.scratch/voice-talk/spec.md` for a **Talk** mode: 
 - [Decide whether Talk runs offline or in the cloud](issues/04-offline-or-cloud.md): offline fails the bar, so Talk runs on a cloud model over the phone's hotspot, with no offline fallback; the 3–5 s bar and the partner and screen decisions still hold.
 - [Compare cloud options for a Talk Turn](issues/08-cloud-options.md): recommend OpenAI Realtime `gpt-realtime-2.1` (mini as cheaper fallback) with on-device Silero VAD, est. ~2.7–3.5 s and ~$1–2 per 20-min Talk; runner-up Deepgram Flux → Claude Haiku 5.5 → Cartesia Sonic 3.6, ~$0.25–0.45; key built in from `local.properties` with a budget cap. Estimates only; research on branch `research/cloud-talk-options`.
 - [Pick the cloud provider, model and key](issues/09-pick-cloud-provider.md): Gemini Live **free tier** (owner accepts training/human review), speech-to-speech, mic + Silero VAD on the head unit; best of two free Live models by the test set; key built in from `local.properties`, no card; compression + resumption, 30-min Talk cap; no paid tier: fallback is a free Groq → Groq → Google TTS/Deepgram pipeline. Free-tier check in `research/free-tiers.md`.
+- [Decide what Talk does when the network drops](issues/11-network-drop.md): 8 s per Turn, then one silent retry (resume + resend the saved utterance); a head-unit "no connection" tone and a grey "No signal" state with the mic closed; 60 s offline ends the Talk and resumes the lesson; no network on "Talk" → 5 s "Connecting…" then back to the player; free-tier limits get their own "Talk limit reached" note; failed resumption → a silent new session with no fresh hello; 30-min cap is wall-clock.
 
 ## Not yet specified
 
 - **Memory between Talks**: whether the talk partner remembers earlier Talks, and whether Talk text or audio is kept at all (privacy, retention like voice practice's 5-lesson rule).
-- **Real driving conditions**: road noise vs speech recognition, screen off, a phone call arriving mid-Talk, what the media buttons do during a Talk; whether barge-in can be turned on once echo from Anna's voice into the mic is measured on the car.
+- **Real driving conditions**: road noise vs speech recognition, screen off, a phone call arriving mid-Talk (its audio and audio focus; its network side is settled), what the media buttons do during a Talk; whether barge-in can be turned on once echo from Anna's voice into the mic is measured on the car.
 
 ## Out of scope
 
