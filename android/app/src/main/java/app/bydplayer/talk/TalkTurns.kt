@@ -29,6 +29,21 @@ class TalkTurns {
 
     private val heard = java.io.ByteArrayOutputStream()
 
+    /** Which of Your turns this is, so a quiet timer from an earlier one is ignored. */
+    private var yourTurn = 0
+
+    /** The learner has begun to speak in this one of Your turns. */
+    private var spoke = false
+
+    /** The 30-min cap is reached (spec §6 step 9): no more of Your turns. */
+    private var timeUp = false
+
+    /** `(Time is up.)` has gone out: the Talk ends after her goodbye plays. */
+    private var timeUpSent = false
+
+    /** No nudge until the learner next speaks: one was sent, or Anna answered "wait" (spec §6 step 6). */
+    private var nudgeSpent = false
+
     /**
      * The learner's current utterance, pre-roll included: 16 kHz PCM, in memory only (spec §5),
      * kept until the next one starts so a failed Turn can be resent (ticket 18).
@@ -40,26 +55,65 @@ class TalkTurns {
         return when (event) {
             is TalkEvent.Server -> onServer(event.event)
             is TalkEvent.Mic -> onMic(event.event)
-            TalkEvent.PlaybackDrained -> if (awaitingDrain) {
+            TalkEvent.PlaybackDrained -> if (awaitingDrain && (timeUpSent || isGoodbye(annaLine))) {
+                // Her goodbye has played: the Talk is over (spec §6 step 7).
+                end()
+            } else if (awaitingDrain) {
                 awaitingDrain = false
                 drained = true
                 listOf(TalkEffect.After(TalkConfig.ECHO_GUARD_MS, TalkEvent.EchoGuardOver))
             } else {
                 emptyList()
             }
-            TalkEvent.EchoGuardOver -> if (drained) {
+            TalkEvent.EchoGuardOver -> if (drained && timeUp) {
+                drained = false
+                sendTimeUp()
+            } else if (drained) {
                 drained = false
                 state = TurnState.You
                 silence = 0f
-                listOf(TalkEffect.PlayBeep, TalkEffect.OpenMic)
+                spoke = false
+                yourTurn++
+                // She answered "wait": the learner asked for time, so no nudge (spec §6 step 6).
+                if (annaLine.trim() == TalkConfig.WAIT_REPLY) nudgeSpent = true
+                listOfNotNull(
+                    TalkEffect.PlayBeep,
+                    TalkEffect.OpenMic,
+                    if (nudgeSpent) null else TalkEffect.After(TalkConfig.QUIET_MS, TalkEvent.Quiet(yourTurn)),
+                )
             } else {
                 emptyList()
             }
             // End Talk ends at once, mid-word, no goodbye (spec §6 step 8). Until ticket 18 adds
             // reconnecting and No signal, a lost session ends the Talk the same way.
             TalkEvent.EndPressed, TalkEvent.SessionLost -> end()
+            is TalkEvent.Quiet -> onQuiet(event)
+            TalkEvent.TimeUp -> onTimeUp()
         }
     }
+
+    /** The current Turn finishes first; a turn of Yours with no speech yet isn't one (spec §6 step 9). */
+    private fun onTimeUp(): List<TalkEffect> {
+        timeUp = true
+        return if (state == TurnState.You && !spoke) listOf(TalkEffect.CloseMic) + sendTimeUp() else emptyList()
+    }
+
+    private fun sendTimeUp(): List<TalkEffect> {
+        timeUpSent = true
+        state = TurnState.Thinking
+        return listOf(TalkEffect.SendText(TalkConfig.TIME_UP))
+    }
+
+    /** ~9 s of silence in Your turn: one nudge, then she waits silently (spec §6 step 6). */
+    private fun onQuiet(event: TalkEvent.Quiet): List<TalkEffect> {
+        if (state != TurnState.You || event.turn != yourTurn || spoke || nudgeSpent) return emptyList()
+        nudgeSpent = true
+        state = TurnState.Thinking
+        return listOf(TalkEffect.CloseMic, TalkEffect.SendText(TalkConfig.QUIET))
+    }
+
+    /** Her answer to "bye" (spec §4); "By the way" is left to the model. */
+    private fun isGoodbye(line: String) = line.trim().startsWith("Bye!") && line.contains("Drive safe")
 
     private fun end(): List<TalkEffect> {
         state = TurnState.Ended
@@ -101,6 +155,8 @@ class TalkTurns {
         if (state != TurnState.You) return emptyList()
         return when (event) {
             is MicEvent.SpeechStarted -> {
+                spoke = true
+                nudgeSpent = false
                 heard.reset()
                 heard.write(event.preRoll)
                 listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(event.preRoll))
@@ -143,6 +199,12 @@ sealed interface TalkEvent {
 
     /** The echo guard after Anna's audio is over. */
     data object EchoGuardOver : TalkEvent
+
+    /** [TalkConfig.QUIET_MS] have passed since Your [turn] began (asked for with [TalkEffect.After]). */
+    data class Quiet(val turn: Int) : TalkEvent
+
+    /** [TalkConfig.TALK_CAP_MS] of wall-clock time since the Talk started. */
+    data object TimeUp : TalkEvent
 }
 
 /** What [TalkTurns] asks the service to do. */

@@ -38,6 +38,9 @@ import com.google.common.util.concurrent.ListenableFuture
  */
 class TalkService : Service() {
     private val main = Handler(Looper.getMainLooper())
+
+    /** The state machine's timers, on the main thread; cleared when a Talk ends so none reach the next. */
+    private val timers = Handler(Looper.getMainLooper())
     private var turns: TalkTurns? = null
     private var session: LiveSession? = null
     private var voice: AnnaVoice? = null
@@ -83,6 +86,8 @@ class TalkService : Service() {
         goForeground()
         turns = TalkTurns()
         publish()
+        // The 30-min cap counts from here, wall-clock (spec §6 step 9).
+        timers.postDelayed({ handle(TalkEvent.TimeUp) }, TalkConfig.TALK_CAP_MS)
         // Pause the lesson first, then take focus: taking it first would pause the lesson by
         // focus loss and hide whether it was playing (spec §9).
         pauseLessonThen { requestFocus() }
@@ -117,7 +122,7 @@ class TalkService : Service() {
                 is TalkEffect.SendAudio -> if (effect.pcm.isNotEmpty()) session?.send(LiveProtocol.audio(effect.pcm))
                 TalkEffect.EndActivity -> session?.send(LiveProtocol.activityEnd())
                 TalkEffect.AwaitDrain -> voice?.whenDrained { main.post { handle(TalkEvent.PlaybackDrained) } }
-                is TalkEffect.After -> main.postDelayed({ handle(effect.event) }, effect.ms)
+                is TalkEffect.After -> timers.postDelayed({ handle(effect.event) }, effect.ms)
                 TalkEffect.OpenMic -> mic?.open()
                 TalkEffect.CloseMic -> mic?.close()
                 TalkEffect.PlayBeep -> sounds?.beep()
@@ -135,6 +140,7 @@ class TalkService : Service() {
     /** Ends at once (spec §9): socket, Anna, focus, screen, then the lesson by the resume rule. */
     private fun finishTalk() {
         turns = null
+        timers.removeCallbacksAndMessages(null)
         mic?.stop(); mic = null
         session?.close(); session = null
         voice?.release(); voice = null
