@@ -22,18 +22,20 @@ class LiveSession(
     private val prompt: String,
     private val onEvent: (LiveEvent) -> Unit,
     private val onLost: () -> Unit,
-) {
+    /** Resumes an earlier session (spec §3); null for a new Talk. Never logged. */
+    private val handle: String? = null,
+) : LiveConnection {
     private var socket: WebSocket? = null
     @Volatile private var closed = false
     private var openedAt = 0L
 
-    fun open() {
+    override fun open() {
         openedAt = System.nanoTime()
         val request = Request.Builder().url("${TalkConfig.LIVE_ENDPOINT}?key=$apiKey").build()
         socket = client.newWebSocket(request, object : WebSocketListener() {
             override fun onOpen(webSocket: WebSocket, response: Response) {
                 Log.i(TAG, "socket open in ${ms()} ms")
-                webSocket.send(LiveProtocol.setup(prompt))
+                webSocket.send(LiveProtocol.setup(prompt, handle))
             }
 
             override fun onMessage(webSocket: WebSocket, text: String) = deliver(text)
@@ -57,12 +59,12 @@ class LiveSession(
     }
 
     /** Sends one client message built by [LiveProtocol]. */
-    fun send(message: String) {
+    override fun send(message: String) {
         socket?.send(message)
     }
 
     /** Closes the socket. [onLost] is not called for a close the app asked for. */
-    fun close() {
+    override fun close() {
         closed = true
         socket?.close(1000, null)
         socket = null

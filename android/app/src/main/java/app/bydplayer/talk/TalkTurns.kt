@@ -35,6 +35,19 @@ class TalkTurns {
      */
     val utterance: ByteArray get() = heard.toByteArray()
 
+    /** The newest `sessionResumptionUpdate.newHandle` (spec §3). In memory only. */
+    var handle: String? = null
+        private set
+
+    /** A Turn is under way: from the opening or the learner's speech start to Anna's turnComplete. */
+    private var inTurn = false
+
+    /** A `goAway` came mid-Turn: reconnect once that Turn completes. */
+    private var goAwayPending = false
+
+    /** A [TalkEffect.Reconnect] went out and the new session isn't set up yet. */
+    private var reconnecting = false
+
     fun on(event: TalkEvent): List<TalkEffect> {
         if (state == TurnState.Ended) return emptyList()
         return when (event) {
@@ -55,10 +68,27 @@ class TalkTurns {
             } else {
                 emptyList()
             }
-            // End Talk ends at once, mid-word, no goodbye (spec §6 step 8). Until ticket 18 adds
-            // reconnecting and No signal, a lost session ends the Talk the same way.
-            TalkEvent.EndPressed, TalkEvent.SessionLost -> end()
+            // End Talk ends at once, mid-word, no goodbye (spec §6 step 8).
+            TalkEvent.EndPressed -> end()
+            TalkEvent.SessionLost -> onSessionLost()
         }
+    }
+
+    /**
+     * A close between Turns resumes silently with the handle (spec §3). Until ticket 18 adds
+     * retrying and No signal, a close mid-Turn, with no handle yet, or before the resumed session
+     * is set up ends the Talk.
+     */
+    private fun onSessionLost(): List<TalkEffect> {
+        val h = handle
+        if (inTurn || h == null || reconnecting) return end()
+        return reconnect(h)
+    }
+
+    private fun reconnect(h: String): List<TalkEffect> {
+        goAwayPending = false
+        reconnecting = true
+        return listOf(TalkEffect.Reconnect(h))
     }
 
     private fun end(): List<TalkEffect> {
@@ -67,8 +97,13 @@ class TalkTurns {
     }
 
     private fun onServer(event: LiveEvent): List<TalkEffect> = when (event) {
-        LiveEvent.SetupComplete -> if (state == TurnState.Connecting) {
+        LiveEvent.SetupComplete -> if (reconnecting) {
+            // Resumed: the server keeps the conversation, so nothing to send (spec §3).
+            reconnecting = false
+            emptyList()
+        } else if (state == TurnState.Connecting) {
             state = TurnState.Thinking
+            inTurn = true
             listOf(TalkEffect.SendText(TalkConfig.OPENING))
         } else {
             emptyList()
@@ -86,21 +121,40 @@ class TalkTurns {
         }
         LiveEvent.TurnComplete -> {
             lineDone = true
+            inTurn = false
             // Anna is done talking once her audio has played out (spec §6 step 2).
-            if (state == TurnState.Anna || state == TurnState.Thinking) {
+            val drain = if (state == TurnState.Anna || state == TurnState.Thinking) {
                 awaitingDrain = true
                 listOf(TalkEffect.AwaitDrain)
             } else {
                 emptyList()
             }
+            // A goAway that came mid-Turn is handled now the Turn is complete (spec §3).
+            drain + if (goAwayPending) reconnectBetweenTurns() else emptyList()
         }
+        is LiveEvent.ResumptionHandle -> {
+            handle = event.handle
+            emptyList()
+        }
+        LiveEvent.GoAway -> reconnectBetweenTurns()
         else -> emptyList()
+    }
+
+    /** Reconnect silently with the newest handle now, or once the current Turn completes. */
+    private fun reconnectBetweenTurns(): List<TalkEffect> {
+        val h = handle
+        if (inTurn || h == null) {
+            goAwayPending = true
+            return emptyList()
+        }
+        return reconnect(h)
     }
 
     private fun onMic(event: MicEvent): List<TalkEffect> {
         if (state != TurnState.You) return emptyList()
         return when (event) {
             is MicEvent.SpeechStarted -> {
+                inTurn = true
                 heard.reset()
                 heard.write(event.preRoll)
                 listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(event.preRoll))
@@ -185,6 +239,12 @@ sealed interface TalkEffect {
 
     /** The soft tick: the end of the learner's speech is taken. */
     data object PlayTick : TalkEffect
+
+    /**
+     * Close the current session, then open a new one resuming with [handle] (spec §3). Silent:
+     * the screen state stays and no sound plays.
+     */
+    data class Reconnect(val handle: String) : TalkEffect
 
     /** End the Talk: close the session, stop Anna, give the lesson back (spec §9). */
     data object End : TalkEffect
