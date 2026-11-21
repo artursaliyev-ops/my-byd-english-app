@@ -23,12 +23,11 @@ A hand-off-ready **spec** at `.scratch/voice-practice/spec.md` for recording the
 
 - [Find out whether the app can use the DiLink microphone](issues/01-dilink-mic-access.md): likely yes with a normal mic prompt and no focus change; separate microphone foreground service started from the visible screen; echo cancellation and bleed unknown until the car check. Research on branch `research/dilink-mic-access`.
 - [Find the speaking pauses in a lesson](issues/02-speaking-pause-detection.md): every silence ≥ 1.0 s except Russian → Russian; Russian vs English by alphabet; keep +0.2 s to −0.1 s; compare with the line after, except an echo after the answer is compared with the line before. About 277 pauses and 13 min of voice per lesson. Prototype on branch `prototype/speaking-pause-detection`.
+- [Check the microphone on the car](issues/03-car-mic-check.md): record with `VOICE_COMMUNICATION`; the car's AEC + NS cut the lesson by about 20–25 dB and the voice is clear; runs alongside the BYD voice app, no focus change; a recording started from the screen keeps going in the background, one started from the background is muted. Probe on branch `task/car-mic-probe`.
 
 ## Not yet specified
 
-- **Speaker bleed**: the car speakers play the lesson while the mic is open, so the speaker's voice may leak into Attempts at pause edges. What to do about it (echo cancellation, trimming edges, ducking) waits on the mic research and the car mic check.
-- **When the mic may start**: per the mic research, Android only lets the recorder start while the player screen is visible; a lesson resumed from the wheel in the background would record nothing. Whether that's acceptable, or recording must be armed from the screen, waits on the car mic check.
-- **Recording format and size**: codec, bitrate, one file per Attempt vs one file per lesson with offsets; budget for 5 lessons × ~280 Attempts ≈ 65 min of kept voice (from the speaking-pause rule).
+- **Recording format and size**: codec, bitrate, one file per Attempt vs one file per lesson with offsets; budget for 5 lessons × ~280 Attempts ≈ 65 min of kept voice (from the speaking-pause rule). The car records 16 kHz mono PCM from `VOICE_COMMUNICATION`.
 - **Writing the spec**: once the tickets above are resolved, assemble `spec.md`.
 
 ## Out of scope
