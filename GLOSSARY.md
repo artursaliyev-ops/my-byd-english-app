@@ -33,7 +33,7 @@ One exchange inside a Talk: the learner says something, then the talk partner an
 _Avoid_: Message, round
 
 **Talk partner**:
-The one voice the learner talks with during a Talk: a friendly acquaintance, not a teacher. It speaks simple English and keeps the conversation going with a question back.
+The one voice the learner talks with during a Talk, named Anna: a friendly acquaintance, not a teacher. It speaks simple English and keeps the Talk going with a question back.
 _Avoid_: Bot, assistant, AI, tutor
 
 **Recast**:

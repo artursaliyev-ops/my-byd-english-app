@@ -215,11 +215,11 @@ private fun Header(ui: PlayerUi, onShowLessons: () -> Unit, dot: @Composable () 
                     Talk.clearNote()
                 }
                 Spacer(Modifier.width(12.dp))
-                Text(note, style = MaterialTheme.typography.bodyLarge, color = dim())
+                ErrorNote(note)
             }
             if (micDenied) {
                 Spacer(Modifier.width(12.dp))
-                Text("Microphone permission not granted", style = MaterialTheme.typography.bodyLarge, color = dim())
+                ErrorNote("Microphone permission not granted")
             }
         }
         Spacer(Modifier.width(28.dp))
@@ -563,3 +563,9 @@ fun formatTime(ms: Long): String {
 /** 1f → "1x", 0.75f → "0.75x", 1.1f → "1.1x". */
 fun formatSpeed(speed: Float): String =
     "%.2f".format(java.util.Locale.US, speed).trimEnd('0').trimEnd('.') + "x"
+
+/** A short error on the player: white text with a leading ⚠, never red (docs/ui6-glass-spec.md §4). */
+@Composable
+private fun ErrorNote(text: String) {
+    Text("⚠  $text", style = MaterialTheme.typography.bodyLarge, color = Ui6.colors.text)
+}
