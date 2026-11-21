@@ -137,18 +137,14 @@ private fun App() {
     val talk = Talk.screen
     val screen = appScreen(talk != null, showSettings, showPlayer, hasLesson = c != null && current != null)
     BackHandler(enabled = talk != null) {}
-    if (talk != null) {
-        TalkScreen(talk)
-        return
-    }
     // Screens crossfade, as UI6 pages do (spec §7).
     Crossfade(targetState = screen, animationSpec = Ui6.tween(Ui6.SCREEN_MS), label = "screen") { shown ->
         when (shown) {
             Screen.Settings -> SettingsScreen(onBack = { showSettings = false })
             // The outgoing player can outlive the controller during the fade; draw nothing then.
             Screen.Player -> controller?.let { PlayerScreen(it, onShowLessons = { showPlayer = false }) }
-            // Drawn above, before the crossfade.
-            Screen.Talk -> Unit
+            // The outgoing Talk screen can outlive its Talk during the fade; draw nothing then.
+            Screen.Talk -> Talk.screen?.let { TalkScreen(it) }
             Screen.Lessons -> LibraryScreen(
                 model = library,
                 nowPlaying = current,

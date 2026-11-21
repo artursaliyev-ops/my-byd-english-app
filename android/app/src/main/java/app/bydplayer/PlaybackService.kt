@@ -142,17 +142,18 @@ class PlaybackService : MediaSessionService() {
         private inline fun route(name: String, press: MediaPress, passThrough: () -> Unit) {
             val caller = session?.controllerForCurrentRequest
             if (caller == null || caller.isAppUi()) return passThrough()
-            act(name, settings.buttonMode().actionOf(press, Talk.active), caller.describe(), passThrough)
+            act(name, press, caller.describe(), passThrough)
         }
 
         /** A steering-wheel hold: the other mode's action, whoever sent it. */
         fun hold(forward: Boolean, from: String) {
             val press = if (forward) MediaPress.HoldNext else MediaPress.HoldPrevious
-            act(if (forward) "hold next" else "hold previous", settings.buttonMode().actionOf(press, Talk.active), from) {}
+            act(if (forward) "hold next" else "hold previous", press, from) {}
         }
 
-        private inline fun act(name: String, action: ButtonAction, from: String, asUsual: () -> Unit) {
-            when (action) {
+        /** Does what the Button mode (or a running Talk) makes of [press]. */
+        private inline fun act(name: String, press: MediaPress, from: String, asUsual: () -> Unit) {
+            when (val action = settings.buttonMode().actionOf(press, Talk.active)) {
                 is ButtonAction.Do -> {
                     ButtonLog.command(name, action.effect, from)
                     apply(action.effect)
