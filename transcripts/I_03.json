@@ -1,0 +1,2469 @@
+{
+ "id": "I_03",
+ "source": "Pimsleur_I_03.mp3",
+ "duration": 1753.18,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 124,
+ "segments": [
+  {
+   "start": 2.84,
+   "end": 7.0,
+   "text": "Американский английский язык по методу доктора Пимслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 7.06,
+   "end": 10.24,
+   "text": "Урок номер три. Слушайте этот разговор.",
+   "lang": "ru"
+  },
+  {
+   "start": 10.24,
+   "end": 12.02,
+   "text": "Hello, sir. How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 12.16,
+   "end": 12.94,
+   "text": "Fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 13.18,
+   "end": 14.84,
+   "text": "Oh, you understand English?",
+   "lang": "en"
+  },
+  {
+   "start": 15.1,
+   "end": 17.32,
+   "text": "Yes, ma'am. A little. Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 17.54,
+   "end": 18.4,
+   "text": "Are you Russian?",
+   "lang": "en"
+  },
+  {
+   "start": 18.66,
+   "end": 19.06,
+   "text": "Yes.",
+   "lang": "en"
+  },
+  {
+   "start": 19.28,
+   "end": 20.18,
+   "text": "But you understand English?",
+   "lang": "en"
+  },
+  {
+   "start": 20.56,
+   "end": 27.9,
+   "text": "В конце разговора вы слышали слово but, которое означает но.",
+   "lang": "ru"
+  },
+  {
+   "start": 28.04,
+   "end": 29.76,
+   "text": "Слушайте еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 29.76,
+   "end": 30.16,
+   "text": "Yes.",
+   "lang": "en"
+  },
+  {
+   "start": 30.16,
+   "end": 31.7,
+   "text": "Hello, sir. How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 31.88,
+   "end": 32.62,
+   "text": "Fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 32.82,
+   "end": 34.32,
+   "text": "Oh, you understand English?",
+   "lang": "en"
+  },
+  {
+   "start": 34.64,
+   "end": 36.8,
+   "text": "Yes, ma'am. A little. Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 37.02,
+   "end": 37.92,
+   "text": "Are you Russian?",
+   "lang": "en"
+  },
+  {
+   "start": 38.12,
+   "end": 38.5,
+   "text": "Yes.",
+   "lang": "en"
+  },
+  {
+   "start": 38.74,
+   "end": 39.98,
+   "text": "But you understand English?",
+   "lang": "en"
+  },
+  {
+   "start": 40.1,
+   "end": 44.46,
+   "text": "Вы помните, как сказать по-английски?",
+   "lang": "ru"
+  },
+  {
+   "start": 44.46,
+   "end": 47.08,
+   "text": "English",
+   "lang": "en"
+  },
+  {
+   "start": 47.08,
+   "end": 49.7,
+   "text": "English",
+   "lang": "en"
+  },
+  {
+   "start": 52.08,
+   "end": 55.18,
+   "text": "Скажите, я понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 55.18,
+   "end": 65.88,
+   "text": "you. I understand English. I understand English.",
+   "lang": "en"
+  },
+  {
+   "start": 69.68,
+   "end": 72.2,
+   "text": "Удаётся ли вам произносить слово",
+   "lang": "ru"
+  },
+  {
+   "start": 72.2,
+   "end": 75.8,
+   "text": "так, как это делает диктор?",
+   "lang": "ru"
+  },
+  {
+   "start": 75.94,
+   "end": 78.06,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 78.06,
+   "end": 79.06,
+   "text": "understand",
+   "lang": "en"
+  },
+  {
+   "start": 80.94,
+   "end": 82.34,
+   "text": "understand",
+   "lang": "en"
+  },
+  {
+   "start": 83.14,
+   "end": 86.92,
+   "text": "understand English",
+   "lang": "en"
+  },
+  {
+   "start": 90.38,
+   "end": 92.56,
+   "text": "I understand English.",
+   "lang": "ru"
+  },
+  {
+   "start": 92.56,
+   "end": 92.76,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 96.96,
+   "end": 98.18,
+   "text": "Скажите немного.",
+   "lang": "ru"
+  },
+  {
+   "start": 100.66,
+   "end": 101.36,
+   "text": "A little.",
+   "lang": "ru"
+  },
+  {
+   "start": 103.84,
+   "end": 104.28,
+   "text": "A little.",
+   "lang": "ru"
+  },
+  {
+   "start": 106.06,
+   "end": 111.9,
+   "text": "Сейчас скажите, я немного понимаю. Не забывайте о порядке слов.",
+   "lang": "ru"
+  },
+  {
+   "start": 111.9,
+   "end": 112.1,
+   "text": "love.",
+   "lang": "en"
+  },
+  {
+   "start": 116.08,
+   "end": 117.26,
+   "text": "I understand a little.",
+   "lang": "ru"
+  },
+  {
+   "start": 120.9,
+   "end": 124.54,
+   "text": "Скажите, я немного понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 128.52,
+   "end": 130.88,
+   "text": "I understand English a little.",
+   "lang": "en"
+  },
+  {
+   "start": 134.92,
+   "end": 137.34,
+   "text": "I understand English a little.",
+   "lang": "en"
+  },
+  {
+   "start": 141.28,
+   "end": 142.88,
+   "text": "Не очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 145.5,
+   "end": 146.94,
+   "text": "Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 150.18,
+   "end": 150.38,
+   "text": "Well.",
+   "lang": "en"
+  },
+  {
+   "start": 152.12,
+   "end": 155.16,
+   "text": "Вы обратили внимание на звук?",
+   "lang": "ru"
+  },
+  {
+   "start": 155.44,
+   "end": 157.06,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 157.14,
+   "end": 158.26,
+   "text": "Не очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 158.56,
+   "end": 161.1,
+   "text": "Следите за правильностью произношения.",
+   "lang": "ru"
+  },
+  {
+   "start": 164.62,
+   "end": 165.86,
+   "text": "Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 169.06,
+   "end": 172.62,
+   "text": "Сейчас скажите ей, что вы не понимаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 175.16,
+   "end": 177.16,
+   "text": "I don't understand.",
+   "lang": "en"
+  },
+  {
+   "start": 180.04,
+   "end": 182.04,
+   "text": "I don't understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 182.04,
+   "end": 182.4,
+   "text": "Stand.",
+   "lang": "en"
+  },
+  {
+   "start": 186.12,
+   "end": 188.0,
+   "text": "Можно добавить «извините».",
+   "lang": "ru"
+  },
+  {
+   "start": 190.78,
+   "end": 191.68,
+   "text": "Excuse me.",
+   "lang": "en"
+  },
+  {
+   "start": 194.14,
+   "end": 198.0,
+   "text": "Помните, как сказать по-английски «здравствуйте»?",
+   "lang": "ru"
+  },
+  {
+   "start": 200.56,
+   "end": 201.28,
+   "text": "Hello.",
+   "lang": "en"
+  },
+  {
+   "start": 203.58,
+   "end": 204.3,
+   "text": "Hello.",
+   "lang": "en"
+  },
+  {
+   "start": 206.72,
+   "end": 209.34,
+   "text": "Спросите, как я поживаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 211.88,
+   "end": 212.74,
+   "text": "How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 215.36,
+   "end": 216.44,
+   "text": "How are you, sir?",
+   "lang": "en"
+  },
+  {
+   "start": 219.04,
+   "end": 220.64,
+   "text": "Прекрасно, спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 223.7,
+   "end": 224.44,
+   "text": "Fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 227.22,
+   "end": 228.46,
+   "text": "I'm fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 230.36,
+   "end": 237.04,
+   "text": "Вот еще один, чуть более официальный способ поблагодарить кого-то.",
+   "lang": "ru"
+  },
+  {
+   "start": 237.1,
+   "end": 239.12,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 241.78,
+   "end": 242.86,
+   "text": "You",
+   "lang": "ru"
+  },
+  {
+   "start": 244.46,
+   "end": 245.54,
+   "text": "Thank",
+   "lang": "ru"
+  },
+  {
+   "start": 247.38,
+   "end": 248.84,
+   "text": "Thank you",
+   "lang": "ru"
+  },
+  {
+   "start": 250.54,
+   "end": 251.96,
+   "text": "Thank you",
+   "lang": "ru"
+  },
+  {
+   "start": 253.62,
+   "end": 259.72,
+   "text": "Вы заметили, как окончание первого слова сливается с началом второго?",
+   "lang": "ru"
+  },
+  {
+   "start": 259.76,
+   "end": 261.88,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 262.1,
+   "end": 262.4,
+   "text": "Q",
+   "lang": "ru"
+  },
+  {
+   "start": 263.9,
+   "end": 264.98,
+   "text": "Q",
+   "lang": "ru"
+  },
+  {
+   "start": 266.42,
+   "end": 267.86,
+   "text": "Thank you",
+   "lang": "ru"
+  },
+  {
+   "start": 270.2,
+   "end": 270.86,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 273.14,
+   "end": 278.96,
+   "text": "Дословно это означает «Спасибо вам». Скажите это еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 281.6,
+   "end": 282.4,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 285.0,
+   "end": 285.82,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 288.28,
+   "end": 291.14,
+   "text": "Скажите еще раз «Здравствуйте».",
+   "lang": "ru"
+  },
+  {
+   "start": 291.14,
+   "end": 296.82,
+   "text": "tweet you. Hello? Hello?",
+   "lang": "en"
+  },
+  {
+   "start": 298.68,
+   "end": 300.62,
+   "text": "Здравствуйте, мадам.",
+   "lang": "ru"
+  },
+  {
+   "start": 303.2,
+   "end": 304.22,
+   "text": "hello ma'am",
+   "lang": "en"
+  },
+  {
+   "start": 306.8,
+   "end": 307.92,
+   "text": "hello ma'am",
+   "lang": "en"
+  },
+  {
+   "start": 309.14,
+   "end": 313.02,
+   "text": "А как сказать «до свидания»?",
+   "lang": "ru"
+  },
+  {
+   "start": 313.02,
+   "end": 315.74,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 321.14,
+   "end": 322.7,
+   "text": "До свидания, мадам.",
+   "lang": "ru"
+  },
+  {
+   "start": 325.3,
+   "end": 326.6,
+   "text": "Goodbye, ma'am.",
+   "lang": "ru"
+  },
+  {
+   "start": 329.16,
+   "end": 330.52,
+   "text": "Goodbye, ma'am.",
+   "lang": "ru"
+  },
+  {
+   "start": 333.2,
+   "end": 335.94,
+   "text": "Сейчас скажите спасибо вам.",
+   "lang": "ru"
+  },
+  {
+   "start": 338.1,
+   "end": 339.04,
+   "text": "Thank you.",
+   "lang": "ru"
+  },
+  {
+   "start": 341.48,
+   "end": 344.48,
+   "text": "Спросите меня еще раз, как я поживаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 346.72,
+   "end": 347.92,
+   "text": "How are you?",
+   "lang": "ru"
+  },
+  {
+   "start": 350.42,
+   "end": 351.38,
+   "text": "How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 353.9,
+   "end": 356.54,
+   "text": "Попробуйте ответить. Не очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 359.22,
+   "end": 360.54,
+   "text": "Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 363.12,
+   "end": 364.48,
+   "text": "Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 366.38,
+   "end": 371.0,
+   "text": "Как мне сказать вам, что я не понимаю по-английски?",
+   "lang": "ru"
+  },
+  {
+   "start": 374.74,
+   "end": 376.86,
+   "text": "I don't understand English.",
+   "lang": "en"
+  },
+  {
+   "start": 380.52,
+   "end": 383.2,
+   "text": "Вы понимаете по-английски?",
+   "lang": "ru"
+  },
+  {
+   "start": 386.8,
+   "end": 388.7,
+   "text": "Do you understand English?",
+   "lang": "en"
+  },
+  {
+   "start": 392.4,
+   "end": 394.3,
+   "text": "Do you understand English?",
+   "lang": "en"
+  },
+  {
+   "start": 397.86,
+   "end": 400.82,
+   "text": "Я немного понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 404.6,
+   "end": 407.4,
+   "text": "I understand English a little.",
+   "lang": "en"
+  },
+  {
+   "start": 412.32,
+   "end": 416.6,
+   "text": "Как вы поблагодарите женщину?",
+   "lang": "ru"
+  },
+  {
+   "start": 419.48,
+   "end": 420.54,
+   "text": "Thank you, ma'am.",
+   "lang": "en"
+  },
+  {
+   "start": 423.42,
+   "end": 424.2,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 426.3,
+   "end": 426.82,
+   "text": "Thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 428.3,
+   "end": 431.6,
+   "text": "А сейчас спросите, русский ли я?",
+   "lang": "ru"
+  },
+  {
+   "start": 434.76,
+   "end": 435.78,
+   "text": "Are you Russian?",
+   "lang": "en"
+  },
+  {
+   "start": 438.96,
+   "end": 440.36,
+   "text": "Are you Russian, sir?",
+   "lang": "en"
+  },
+  {
+   "start": 443.08,
+   "end": 446.98,
+   "text": "Как ответить «Да, я русский»?",
+   "lang": "ru"
+  },
+  {
+   "start": 450.9,
+   "end": 452.22,
+   "text": "Yes, I'm Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 456.62,
+   "end": 457.18,
+   "text": "I'm",
+   "lang": "en"
+  },
+  {
+   "start": 459.46,
+   "end": 460.3,
+   "text": "I'm Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 463.34,
+   "end": 467.3,
+   "text": "Сейчас попробуйте спросить у женщины, русская ли она.",
+   "lang": "ru"
+  },
+  {
+   "start": 470.96,
+   "end": 472.56,
+   "text": "Are you Russian, ma'am?",
+   "lang": "ru"
+  },
+  {
+   "start": 476.42,
+   "end": 477.02,
+   "text": "Russian.",
+   "lang": "ru"
+  },
+  {
+   "start": 479.94,
+   "end": 482.78,
+   "text": "Спросите ее еще раз, русская ли она?",
+   "lang": "ru"
+  },
+  {
+   "start": 486.44,
+   "end": 488.04,
+   "text": "Are you Russian, ma'am?",
+   "lang": "ru"
+  },
+  {
+   "start": 491.72,
+   "end": 494.86,
+   "text": "Она отвечает, нет, я американка.",
+   "lang": "ru"
+  },
+  {
+   "start": 495.1,
+   "end": 495.7,
+   "text": "Слушайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 495.96,
+   "end": 497.32,
+   "text": "No, I'm American.",
+   "lang": "ru"
+  },
+  {
+   "start": 497.92,
+   "end": 501.28,
+   "text": "Слушайте и повторяйте слово «американка».",
+   "lang": "ru"
+  },
+  {
+   "start": 503.66,
+   "end": 505.06,
+   "text": "American",
+   "lang": "ru"
+  },
+  {
+   "start": 505.06,
+   "end": 505.88,
+   "text": "American",
+   "lang": "ru"
+  },
+  {
+   "start": 507.4,
+   "end": 508.8,
+   "text": "can",
+   "lang": "en"
+  },
+  {
+   "start": 510.18,
+   "end": 511.58,
+   "text": "American",
+   "lang": "ru"
+  },
+  {
+   "start": 513.2,
+   "end": 514.6,
+   "text": "American",
+   "lang": "ru"
+  },
+  {
+   "start": 516.42,
+   "end": 517.82,
+   "text": "American",
+   "lang": "ru"
+  },
+  {
+   "start": 520.08,
+   "end": 521.48,
+   "text": "American",
+   "lang": "ru"
+  },
+  {
+   "start": 524.0,
+   "end": 526.56,
+   "text": "Скажите «американка».",
+   "lang": "ru"
+  },
+  {
+   "start": 529.04,
+   "end": 529.86,
+   "text": "American.",
+   "lang": "ru"
+  },
+  {
+   "start": 532.78,
+   "end": 535.0,
+   "text": "Скажите, что вы американка.",
+   "lang": "ru"
+  },
+  {
+   "start": 537.56,
+   "end": 538.9,
+   "text": "I am American.",
+   "lang": "ru"
+  },
+  {
+   "start": 538.9,
+   "end": 539.22,
+   "text": "Reckon.",
+   "lang": "en"
+  },
+  {
+   "start": 542.18,
+   "end": 545.18,
+   "text": "Спросите ее, понимает ли она по-русски.",
+   "lang": "ru"
+  },
+  {
+   "start": 545.18,
+   "end": 545.28,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 548.6,
+   "end": 550.58,
+   "text": "Do you understand Russian?",
+   "lang": "ru"
+  },
+  {
+   "start": 554.74,
+   "end": 555.98,
+   "text": "Do you understand Russian?",
+   "lang": "ru"
+  },
+  {
+   "start": 559.26,
+   "end": 562.5,
+   "text": "Помните, как сказать «немного»?",
+   "lang": "ru"
+  },
+  {
+   "start": 564.42,
+   "end": 565.14,
+   "text": "A little.",
+   "lang": "en"
+  },
+  {
+   "start": 566.92,
+   "end": 569.92,
+   "text": "Сейчас скажите «не очень хорошо».",
+   "lang": "ru"
+  },
+  {
+   "start": 573.0,
+   "end": 574.48,
+   "text": "Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 577.58,
+   "end": 579.06,
+   "text": "Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 580.5,
+   "end": 585.84,
+   "text": "Вот как сказать «я не американец».",
+   "lang": "ru"
+  },
+  {
+   "start": 585.84,
+   "end": 588.44,
+   "text": "I'm not American. I'm not American.",
+   "lang": "en"
+  },
+  {
+   "start": 588.94,
+   "end": 591.08,
+   "text": "Повторяйте вслед за диктором.",
+   "lang": "ru"
+  },
+  {
+   "start": 591.1,
+   "end": 592.82,
+   "text": "Я не американец.",
+   "lang": "ru"
+  },
+  {
+   "start": 592.82,
+   "end": 594.0,
+   "text": "I'm not American.",
+   "lang": "en"
+  },
+  {
+   "start": 596.66,
+   "end": 597.48,
+   "text": "American.",
+   "lang": "en"
+  },
+  {
+   "start": 600.0,
+   "end": 601.38,
+   "text": "Not American.",
+   "lang": "en"
+  },
+  {
+   "start": 603.8,
+   "end": 605.04,
+   "text": "Not American.",
+   "lang": "en"
+  },
+  {
+   "start": 607.7,
+   "end": 608.52,
+   "text": "I'm.",
+   "lang": "en"
+  },
+  {
+   "start": 610.24,
+   "end": 611.7,
+   "text": "I'm not American.",
+   "lang": "en"
+  },
+  {
+   "start": 614.82,
+   "end": 616.28,
+   "text": "I'm not American.",
+   "lang": "en"
+  },
+  {
+   "start": 620.02,
+   "end": 624.02,
+   "text": "Отрицательным это предложение делает слово not.",
+   "lang": "ru"
+  },
+  {
+   "start": 624.12,
+   "end": 627.56,
+   "text": "Скажите еще раз. Я не американец.",
+   "lang": "ru"
+  },
+  {
+   "start": 630.28,
+   "end": 631.8,
+   "text": "I'm not American.",
+   "lang": "en"
+  },
+  {
+   "start": 634.86,
+   "end": 635.74,
+   "text": "Not",
+   "lang": "en"
+  },
+  {
+   "start": 637.28,
+   "end": 638.8,
+   "text": "I'm not American.",
+   "lang": "en"
+  },
+  {
+   "start": 642.22,
+   "end": 647.66,
+   "text": "Предположим, вы хотите спросить, а вы слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 647.92,
+   "end": 648.4,
+   "text": "And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 650.86,
+   "end": 651.1,
+   "text": "And.",
+   "lang": "ru"
+  },
+  {
+   "start": 653.56,
+   "end": 653.9,
+   "text": "And.",
+   "lang": "ru"
+  },
+  {
+   "start": 655.56,
+   "end": 656.62,
+   "text": "And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 659.6,
+   "end": 662.82,
+   "text": "Какое английское слово означает «а»?",
+   "lang": "ru"
+  },
+  {
+   "start": 664.62,
+   "end": 665.54,
+   "text": "And.",
+   "lang": "ru"
+  },
+  {
+   "start": 667.96,
+   "end": 668.2,
+   "text": "And.",
+   "lang": "ru"
+  },
+  {
+   "start": 670.86,
+   "end": 674.72,
+   "text": "Вы обратили внимание на звук «д» в конце этого слова?",
+   "lang": "ru"
+  },
+  {
+   "start": 674.72,
+   "end": 679.62,
+   "text": "Спросите еще раз, а вы следите за правильностью произношения.",
+   "lang": "ru"
+  },
+  {
+   "start": 681.7,
+   "end": 682.44,
+   "text": "And you?",
+   "lang": "en"
+  },
+  {
+   "start": 684.68,
+   "end": 685.38,
+   "text": "And you?",
+   "lang": "en"
+  },
+  {
+   "start": 686.96,
+   "end": 695.18,
+   "text": "Вы заметили, как звук в конце первого слова соединяется с «я» в начале второго?",
+   "lang": "ru"
+  },
+  {
+   "start": 695.22,
+   "end": 698.18,
+   "text": "Так часто бывает при быстром темпе речи.",
+   "lang": "ru"
+  },
+  {
+   "start": 698.2,
+   "end": 700.18,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 700.18,
+   "end": 701.68,
+   "text": "And, and you?",
+   "lang": "en"
+  },
+  {
+   "start": 705.2,
+   "end": 707.0,
+   "text": "And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 707.0,
+   "end": 707.16,
+   "text": "You?",
+   "lang": "en"
+  },
+  {
+   "start": 710.46,
+   "end": 713.82,
+   "text": "Сейчас скажите. Я русский, а вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 717.24,
+   "end": 719.22,
+   "text": "I'm Russian, and you?",
+   "lang": "ru"
+  },
+  {
+   "start": 723.0,
+   "end": 725.7,
+   "text": "Скажите мужчине, вы русский?",
+   "lang": "ru"
+  },
+  {
+   "start": 728.2,
+   "end": 729.72,
+   "text": "You are Russian.",
+   "lang": "ru"
+  },
+  {
+   "start": 731.98,
+   "end": 736.72,
+   "text": "Сейчас попробуйте сказать «Вы не русская».",
+   "lang": "ru"
+  },
+  {
+   "start": 739.16,
+   "end": 740.44,
+   "text": "You're not Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 743.56,
+   "end": 744.2,
+   "text": "Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 746.48,
+   "end": 747.76,
+   "text": "You're not Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 750.52,
+   "end": 753.16,
+   "text": "Спросите «А вы?»",
+   "lang": "ru"
+  },
+  {
+   "start": 755.24,
+   "end": 755.78,
+   "text": "And you?",
+   "lang": "en"
+  },
+  {
+   "start": 758.12,
+   "end": 760.92,
+   "text": "Скажите, я не американец.",
+   "lang": "ru"
+  },
+  {
+   "start": 763.78,
+   "end": 765.02,
+   "text": "I'm not American.",
+   "lang": "en"
+  },
+  {
+   "start": 768.16,
+   "end": 769.46,
+   "text": "I'm not American.",
+   "lang": "en"
+  },
+  {
+   "start": 772.58,
+   "end": 776.82,
+   "text": "Сейчас вы хотите добавить, но я понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 777.36,
+   "end": 781.46,
+   "text": "Слушайте и повторяйте слово, которое означает «но».",
+   "lang": "ru"
+  },
+  {
+   "start": 783.66,
+   "end": 784.8,
+   "text": "But.",
+   "lang": "ru"
+  },
+  {
+   "start": 786.72,
+   "end": 787.18,
+   "text": "But.",
+   "lang": "ru"
+  },
+  {
+   "start": 788.54,
+   "end": 791.9,
+   "text": "А сейчас сами скажите «но».",
+   "lang": "ru"
+  },
+  {
+   "start": 793.3,
+   "end": 794.44,
+   "text": "But.",
+   "lang": "ru"
+  },
+  {
+   "start": 796.42,
+   "end": 799.72,
+   "text": "Попробуйте сказать «но я понимаю».",
+   "lang": "ru"
+  },
+  {
+   "start": 802.4,
+   "end": 804.18,
+   "text": "But I understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 804.18,
+   "end": 804.86,
+   "text": "And",
+   "lang": "en"
+  },
+  {
+   "start": 807.36,
+   "end": 808.5,
+   "text": "But.",
+   "lang": "ru"
+  },
+  {
+   "start": 809.72,
+   "end": 811.5,
+   "text": "But I understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 811.5,
+   "end": 811.86,
+   "text": "Stand.",
+   "lang": "en"
+  },
+  {
+   "start": 815.5,
+   "end": 818.64,
+   "text": "Скажите, но я понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 822.74,
+   "end": 824.66,
+   "text": "But I understand English.",
+   "lang": "en"
+  },
+  {
+   "start": 829.14,
+   "end": 837.06,
+   "text": "Последний звук в словах but, don't, not часто сливается с первым звуком в следующем слове.",
+   "lang": "ru"
+  },
+  {
+   "start": 837.12,
+   "end": 840.62,
+   "text": "Скажите еще раз, но я понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 844.42,
+   "end": 846.7,
+   "text": "But I understand English.",
+   "lang": "ru"
+  },
+  {
+   "start": 850.66,
+   "end": 852.18,
+   "text": "But I...",
+   "lang": "ru"
+  },
+  {
+   "start": 853.62,
+   "end": 855.88,
+   "text": "But I understand...",
+   "lang": "ru"
+  },
+  {
+   "start": 858.02,
+   "end": 860.34,
+   "text": "But I understand English.",
+   "lang": "ru"
+  },
+  {
+   "start": 860.34,
+   "end": 860.52,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 864.26,
+   "end": 867.34,
+   "text": "Я немного понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 871.64,
+   "end": 873.88,
+   "text": "I understand English a little.",
+   "lang": "ru"
+  },
+  {
+   "start": 878.0,
+   "end": 880.4,
+   "text": "I understand English a little.",
+   "lang": "en"
+  },
+  {
+   "start": 885.3,
+   "end": 886.4,
+   "text": "Спросите, а вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 888.58,
+   "end": 889.38,
+   "text": "And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 891.64,
+   "end": 892.22,
+   "text": "And.",
+   "lang": "ru"
+  },
+  {
+   "start": 894.08,
+   "end": 894.84,
+   "text": "And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 897.34,
+   "end": 900.12,
+   "text": "Спросите у женщины, американка ли она?",
+   "lang": "ru"
+  },
+  {
+   "start": 902.72,
+   "end": 904.1,
+   "text": "Are you American?",
+   "lang": "en"
+  },
+  {
+   "start": 907.22,
+   "end": 908.9,
+   "text": "Are you American, ma'am?",
+   "lang": "en"
+  },
+  {
+   "start": 912.72,
+   "end": 914.3,
+   "text": "Спросите, вы русский?",
+   "lang": "ru"
+  },
+  {
+   "start": 917.26,
+   "end": 918.26,
+   "text": "Are you Russian?",
+   "lang": "en"
+  },
+  {
+   "start": 921.48,
+   "end": 924.32,
+   "text": "Спросите ее, вы понимаете по-русски?",
+   "lang": "ru"
+  },
+  {
+   "start": 928.28,
+   "end": 930.12,
+   "text": "Do you understand Russian?",
+   "lang": "en"
+  },
+  {
+   "start": 934.26,
+   "end": 936.16,
+   "text": "Слушайте ее ответ.",
+   "lang": "ru"
+  },
+  {
+   "start": 936.16,
+   "end": 939.34,
+   "text": "No, I'm sorry. I don't understand Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 939.46,
+   "end": 946.56,
+   "text": "Чтобы смягчить звучание «нет», в английском языке часто добавляется «простите».",
+   "lang": "ru"
+  },
+  {
+   "start": 946.56,
+   "end": 949.32,
+   "text": "No, I'm sorry. I don't understand Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 949.96,
+   "end": 952.26,
+   "text": "Вот как сказать «простите».",
+   "lang": "ru"
+  },
+  {
+   "start": 952.8,
+   "end": 954.46,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 954.52,
+   "end": 955.48,
+   "text": "Простите.",
+   "lang": "ru"
+  },
+  {
+   "start": 955.48,
+   "end": 956.56,
+   "text": "Sorry.",
+   "lang": "en"
+  },
+  {
+   "start": 961.42,
+   "end": 961.72,
+   "text": "Re.",
+   "lang": "en"
+  },
+  {
+   "start": 962.36,
+   "end": 977.16,
+   "text": "Sorry. I'm sorry. No, I'm sorry.",
+   "lang": "ru"
+  },
+  {
+   "start": 977.16,
+   "end": 977.4,
+   "text": "Sorry.",
+   "lang": "en"
+  },
+  {
+   "start": 980.36,
+   "end": 983.9,
+   "text": "Вы обратили внимание на английский звук R?",
+   "lang": "ru"
+  },
+  {
+   "start": 984.18,
+   "end": 984.98,
+   "text": "Скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 985.08,
+   "end": 986.46,
+   "text": "Нет, простите.",
+   "lang": "ru"
+  },
+  {
+   "start": 989.7,
+   "end": 991.34,
+   "text": "No, I'm sorry.",
+   "lang": "en"
+  },
+  {
+   "start": 994.66,
+   "end": 996.28,
+   "text": "No, I'm sorry.",
+   "lang": "en"
+  },
+  {
+   "start": 1000.0,
+   "end": 1002.56,
+   "text": "Скажите, я не понимаю по-русски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1002.56,
+   "end": 1008.06,
+   "text": "you. I don't understand Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 1011.6,
+   "end": 1016.52,
+   "text": "А как сказать «Нет, простите, я не понимаю по-русски»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1022.58,
+   "end": 1025.58,
+   "text": "No, I'm sorry. I don't understand Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 1031.82,
+   "end": 1034.9,
+   "text": "No, I'm sorry. I don't understand Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 1040.78,
+   "end": 1043.02,
+   "text": "Как сказать спасибо?",
+   "lang": "ru"
+  },
+  {
+   "start": 1044.96,
+   "end": 1046.14,
+   "text": "Thank you.",
+   "lang": "ru"
+  },
+  {
+   "start": 1048.42,
+   "end": 1048.86,
+   "text": "Thank you.",
+   "lang": "ru"
+  },
+  {
+   "start": 1050.24,
+   "end": 1054.06,
+   "text": "А как можно сказать это менее официально?",
+   "lang": "ru"
+  },
+  {
+   "start": 1055.8,
+   "end": 1056.78,
+   "text": "Thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1058.36,
+   "end": 1059.34,
+   "text": "Thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1061.22,
+   "end": 1065.44,
+   "text": "Сейчас мы попробуем попросить о чем-нибудь по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1067.16,
+   "end": 1068.68,
+   "text": "Пожалуйста. Слушайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1070.88,
+   "end": 1072.96,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1073.32,
+   "end": 1073.82,
+   "text": "Пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1075.78,
+   "end": 1077.18,
+   "text": "Пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1078.6,
+   "end": 1080.0,
+   "text": "Ease",
+   "lang": "en"
+  },
+  {
+   "start": 1081.66,
+   "end": 1083.06,
+   "text": "Пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1084.74,
+   "end": 1086.14,
+   "text": "Please.",
+   "lang": "en"
+  },
+  {
+   "start": 1089.22,
+   "end": 1092.0,
+   "text": "Как сказать Пожалуйста?",
+   "lang": "ru"
+  },
+  {
+   "start": 1094.04,
+   "end": 1094.9,
+   "text": "Пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1097.16,
+   "end": 1098.9,
+   "text": "Скажите, извините.",
+   "lang": "ru"
+  },
+  {
+   "start": 1098.9,
+   "end": 1105.92,
+   "text": "you. Excuse me. Excuse me.",
+   "lang": "en"
+  },
+  {
+   "start": 1108.44,
+   "end": 1111.02,
+   "text": "Скажите, вы американка?",
+   "lang": "ru"
+  },
+  {
+   "start": 1113.7,
+   "end": 1114.76,
+   "text": "You're American.",
+   "lang": "en"
+  },
+  {
+   "start": 1117.8,
+   "end": 1118.6,
+   "text": "You're.",
+   "lang": "en"
+  },
+  {
+   "start": 1120.38,
+   "end": 1122.58,
+   "text": "Скажите, я русский.",
+   "lang": "ru"
+  },
+  {
+   "start": 1125.18,
+   "end": 1125.9,
+   "text": "I'm Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 1128.7,
+   "end": 1131.68,
+   "text": "Скажите, но я понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1135.1,
+   "end": 1137.16,
+   "text": "But I understand English.",
+   "lang": "en"
+  },
+  {
+   "start": 1140.84,
+   "end": 1142.88,
+   "text": "But I understand English.",
+   "lang": "en"
+  },
+  {
+   "start": 1146.56,
+   "end": 1149.38,
+   "text": "Сейчас скажите, нет, мадам.",
+   "lang": "ru"
+  },
+  {
+   "start": 1151.84,
+   "end": 1152.7,
+   "text": "No, ma'am.",
+   "lang": "en"
+  },
+  {
+   "start": 1155.06,
+   "end": 1158.2,
+   "text": "Скажите, я не понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1161.58,
+   "end": 1163.5,
+   "text": "I don't understand English.",
+   "lang": "en"
+  },
+  {
+   "start": 1167.5,
+   "end": 1168.38,
+   "text": "Простите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1170.42,
+   "end": 1171.38,
+   "text": "I'm sorry.",
+   "lang": "en"
+  },
+  {
+   "start": 1173.68,
+   "end": 1176.48,
+   "text": "Простите, я не понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1181.14,
+   "end": 1184.0,
+   "text": "I'm sorry, I don't understand English.",
+   "lang": "ru"
+  },
+  {
+   "start": 1184.0,
+   "end": 1184.2,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 1188.62,
+   "end": 1190.72,
+   "text": "I don't understand English.",
+   "lang": "ru"
+  },
+  {
+   "start": 1190.72,
+   "end": 1191.0,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 1195.06,
+   "end": 1197.12,
+   "text": "Скажите, я не русская.",
+   "lang": "ru"
+  },
+  {
+   "start": 1200.08,
+   "end": 1201.44,
+   "text": "I'm not Russian.",
+   "lang": "ru"
+  },
+  {
+   "start": 1204.76,
+   "end": 1207.38,
+   "text": "Скажите, вы не понимаете по-русски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1210.28,
+   "end": 1212.76,
+   "text": "you don't understand russian",
+   "lang": "en"
+  },
+  {
+   "start": 1214.8,
+   "end": 1218.18,
+   "text": "you don't understand russian",
+   "lang": "en"
+  },
+  {
+   "start": 1221.88,
+   "end": 1224.84,
+   "text": "Скажите девушке, что она не русская.",
+   "lang": "ru"
+  },
+  {
+   "start": 1228.2,
+   "end": 1229.72,
+   "text": "You're not Russian, miss",
+   "lang": "en"
+  },
+  {
+   "start": 1233.24,
+   "end": 1234.8,
+   "text": "You're not Russian, miss",
+   "lang": "en"
+  },
+  {
+   "start": 1238.3,
+   "end": 1241.58,
+   "text": "Скажите мужчине, что он не американец.",
+   "lang": "ru"
+  },
+  {
+   "start": 1245.48,
+   "end": 1247.02,
+   "text": "You're not American, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1250.56,
+   "end": 1253.96,
+   "text": "Сейчас скажите. Я русский, а вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 1257.8,
+   "end": 1259.18,
+   "text": "I'm Russian, and you?",
+   "lang": "en"
+  },
+  {
+   "start": 1263.08,
+   "end": 1264.5,
+   "text": "I'm Russian, and you?",
+   "lang": "en"
+  },
+  {
+   "start": 1268.34,
+   "end": 1270.52,
+   "text": "Спросите, вы американка?",
+   "lang": "ru"
+  },
+  {
+   "start": 1273.34,
+   "end": 1274.46,
+   "text": "Are you American?",
+   "lang": "en"
+  },
+  {
+   "start": 1277.8,
+   "end": 1280.72,
+   "text": "Скажите, простите, я не понимаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.72,
+   "end": 1280.9,
+   "text": "mile.",
+   "lang": "en"
+  },
+  {
+   "start": 1285.32,
+   "end": 1287.44,
+   "text": "I'm sorry, I don't understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 1292.04,
+   "end": 1294.22,
+   "text": "I'm sorry, I don't understand.",
+   "lang": "en"
+  },
+  {
+   "start": 1299.28,
+   "end": 1302.22,
+   "text": "Помните, как спросить, как вы поживаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 1304.3,
+   "end": 1305.4,
+   "text": "How are you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1307.44,
+   "end": 1308.12,
+   "text": "How?",
+   "lang": "ru"
+  },
+  {
+   "start": 1309.9,
+   "end": 1311.0,
+   "text": "How are you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1313.38,
+   "end": 1315.78,
+   "text": "Отвечайте. Прекрасно. Спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1318.44,
+   "end": 1319.88,
+   "text": "Fine, thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1322.44,
+   "end": 1324.2,
+   "text": "I'm fine, thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1327.46,
+   "end": 1332.2,
+   "text": "Вы хорошо запомнили первый звук английского слова «спасибо»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1332.4,
+   "end": 1334.02,
+   "text": "Слушайте еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1334.56,
+   "end": 1336.18,
+   "text": "С. С. Thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1337.06,
+   "end": 1339.72,
+   "text": "Скажите еще раз. Прекрасно. Спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.82,
+   "end": 1343.78,
+   "text": "Fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 1346.7,
+   "end": 1348.12,
+   "text": "I'm fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 1351.16,
+   "end": 1354.24,
+   "text": "Попробуйте сказать это вежливее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.68,
+   "end": 1358.74,
+   "text": "Fine, thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1361.94,
+   "end": 1362.68,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1364.6,
+   "end": 1366.06,
+   "text": "I'm fine, thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1368.6,
+   "end": 1372.08,
+   "text": "Помните, как сказать «извините»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1374.28,
+   "end": 1378.7,
+   "text": "Excuse me. Excuse.",
+   "lang": "ru"
+  },
+  {
+   "start": 1381.7,
+   "end": 1384.02,
+   "text": "Сейчас скажите спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1386.0,
+   "end": 1387.18,
+   "text": "Thank you.",
+   "lang": "ru"
+  },
+  {
+   "start": 1389.48,
+   "end": 1391.86,
+   "text": "Удается ли вам произносить звук ц?",
+   "lang": "ru"
+  },
+  {
+   "start": 1392.02,
+   "end": 1394.14,
+   "text": "Так же, как это делает диктор.",
+   "lang": "ru"
+  },
+  {
+   "start": 1394.22,
+   "end": 1399.1,
+   "text": "Сейчас скажите спасибо, используя оба знакомые вам варианта.",
+   "lang": "ru"
+  },
+  {
+   "start": 1402.64,
+   "end": 1404.24,
+   "text": "Thank you. Thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1404.24,
+   "end": 1404.52,
+   "text": "Thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 1408.02,
+   "end": 1409.74,
+   "text": "Thank you. Thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1409.74,
+   "end": 1409.98,
+   "text": "Thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 1413.32,
+   "end": 1416.72,
+   "text": "А сейчас скажите «Извините, сэр».",
+   "lang": "ru"
+  },
+  {
+   "start": 1419.6,
+   "end": 1421.0,
+   "text": "Excuse me, sir.",
+   "lang": "ru"
+  },
+  {
+   "start": 1424.12,
+   "end": 1425.64,
+   "text": "Excuse me, sir.",
+   "lang": "ru"
+  },
+  {
+   "start": 1428.68,
+   "end": 1430.02,
+   "text": "Вы русский?",
+   "lang": "ru"
+  },
+  {
+   "start": 1432.4,
+   "end": 1433.86,
+   "text": "Are you Russian?",
+   "lang": "ru"
+  },
+  {
+   "start": 1436.48,
+   "end": 1437.76,
+   "text": "Are you Russian?",
+   "lang": "en"
+  },
+  {
+   "start": 1440.92,
+   "end": 1442.52,
+   "text": "Скажите «да».",
+   "lang": "ru"
+  },
+  {
+   "start": 1443.98,
+   "end": 1444.78,
+   "text": "Yes.",
+   "lang": "ru"
+  },
+  {
+   "start": 1446.18,
+   "end": 1447.3,
+   "text": "Yes, miss.",
+   "lang": "ru"
+  },
+  {
+   "start": 1450.02,
+   "end": 1452.92,
+   "text": "Скажите «я не понимаю по-русски».",
+   "lang": "ru"
+  },
+  {
+   "start": 1456.48,
+   "end": 1458.54,
+   "text": "I don't understand Russian.",
+   "lang": "ru"
+  },
+  {
+   "start": 1462.4,
+   "end": 1466.38,
+   "text": "А как сказать «Я немного понимаю по-русски»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1470.16,
+   "end": 1472.4,
+   "text": "I understand Russian a little.",
+   "lang": "en"
+  },
+  {
+   "start": 1476.24,
+   "end": 1478.48,
+   "text": "I understand Russian a little.",
+   "lang": "en"
+  },
+  {
+   "start": 1482.6,
+   "end": 1484.96,
+   "text": "Скажите «Пожалуйста, сэр».",
+   "lang": "ru"
+  },
+  {
+   "start": 1487.18,
+   "end": 1488.06,
+   "text": "Please, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1490.54,
+   "end": 1491.52,
+   "text": "Please, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1491.8,
+   "end": 1497.28,
+   "text": "А как сказать спасибо более вежливо?",
+   "lang": "ru"
+  },
+  {
+   "start": 1499.42,
+   "end": 1500.2,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1502.32,
+   "end": 1503.1,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1504.74,
+   "end": 1507.66,
+   "text": "Скажите «до свидания».",
+   "lang": "ru"
+  },
+  {
+   "start": 1507.66,
+   "end": 1509.98,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 1512.42,
+   "end": 1520.42,
+   "text": "Сейчас представьте, что, идя по улице, вы увидели девушку, которая работает в магазине недалеко от вашей гостиницы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1520.54,
+   "end": 1525.72,
+   "text": "Она идет впереди вас, поэтому вы хотите окликнуть ее. Как бы вы это сделали?",
+   "lang": "ru"
+  },
+  {
+   "start": 1525.72,
+   "end": 1530.5,
+   "text": "Miss? Miss?",
+   "lang": "en"
+  },
+  {
+   "start": 1532.6,
+   "end": 1532.96,
+   "text": "Yes?",
+   "lang": "en"
+  },
+  {
+   "start": 1533.46,
+   "end": 1534.66,
+   "text": "Поздоровайтесь с ней.",
+   "lang": "ru"
+  },
+  {
+   "start": 1537.66,
+   "end": 1537.94,
+   "text": "Hello, miss.",
+   "lang": "ru"
+  },
+  {
+   "start": 1540.44,
+   "end": 1541.4,
+   "text": "Hello, sir.",
+   "lang": "ru"
+  },
+  {
+   "start": 1542.06,
+   "end": 1544.04,
+   "text": "Спросите, как она поживает?",
+   "lang": "ru"
+  },
+  {
+   "start": 1545.92,
+   "end": 1546.96,
+   "text": "How are you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1548.78,
+   "end": 1551.34,
+   "text": "I'm fine, thanks. And you, sir?",
+   "lang": "ru"
+  },
+  {
+   "start": 1553.44,
+   "end": 1554.42,
+   "text": "I'm fine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1557.22,
+   "end": 1559.48,
+   "text": "Спросите, понимает ли она по-русски?",
+   "lang": "ru"
+  },
+  {
+   "start": 1562.5,
+   "end": 1564.22,
+   "text": "Do you understand Russian?",
+   "lang": "ru"
+  },
+  {
+   "start": 1567.74,
+   "end": 1571.44,
+   "text": "Как она скажет, что не понимает по-русски?",
+   "lang": "ru"
+  },
+  {
+   "start": 1574.84,
+   "end": 1576.58,
+   "text": "I don't understand Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 1580.12,
+   "end": 1591.48,
+   "text": "А сейчас она собирается задать вам вопрос. Отвечайте ей.",
+   "lang": "ru"
+  },
+  {
+   "start": 1591.78,
+   "end": 1592.66,
+   "text": "Вы русский?",
+   "lang": "ru"
+  },
+  {
+   "start": 1596.04,
+   "end": 1598.02,
+   "text": "Yes, miss, I'm Russian.",
+   "lang": "ru"
+  },
+  {
+   "start": 1601.6,
+   "end": 1603.32,
+   "text": "Yes, Miss, I'm Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 1607.22,
+   "end": 1610.08,
+   "text": "Добавьте, но я понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1613.8,
+   "end": 1615.9,
+   "text": "But I understand English.",
+   "lang": "ru"
+  },
+  {
+   "start": 1615.9,
+   "end": 1616.1,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 1619.72,
+   "end": 1621.84,
+   "text": "But I understand English.",
+   "lang": "ru"
+  },
+  {
+   "start": 1621.84,
+   "end": 1622.1,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 1625.76,
+   "end": 1629.14,
+   "text": "Вам было бы лучше сказать «немного».",
+   "lang": "ru"
+  },
+  {
+   "start": 1630.96,
+   "end": 1631.68,
+   "text": "A little.",
+   "lang": "en"
+  },
+  {
+   "start": 1633.74,
+   "end": 1637.06,
+   "text": "Скажите, я немного понимаю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1640.84,
+   "end": 1643.08,
+   "text": "I understand English a little.",
+   "lang": "en"
+  },
+  {
+   "start": 1646.9,
+   "end": 1649.2,
+   "text": "I understand English a little.",
+   "lang": "en"
+  },
+  {
+   "start": 1653.12,
+   "end": 1657.7,
+   "text": "Может быть, было бы лучше сказать «не очень хорошо».",
+   "lang": "ru"
+  },
+  {
+   "start": 1659.82,
+   "end": 1661.0,
+   "text": "Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 1663.52,
+   "end": 1664.82,
+   "text": "Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 1666.96,
+   "end": 1672.12,
+   "text": "Вы слушаете ее ответ и, отвечая, поблагодарите ее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1672.12,
+   "end": 1674.82,
+   "text": "But you understand English very well.",
+   "lang": "en"
+  },
+  {
+   "start": 1677.2,
+   "end": 1678.22,
+   "text": "Thank you, Miss.",
+   "lang": "en"
+  },
+  {
+   "start": 1680.6,
+   "end": 1681.74,
+   "text": "Thank you, Miss.",
+   "lang": "en"
+  },
+  {
+   "start": 1684.2,
+   "end": 1685.16,
+   "text": "Thanks, Miss.",
+   "lang": "en"
+  },
+  {
+   "start": 1687.68,
+   "end": 1690.74,
+   "text": "Сейчас она собирается что-то вам сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1690.9,
+   "end": 1694.04,
+   "text": "Если не понимаете, скажите ей об этом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1694.38,
+   "end": 1695.92,
+   "text": "I think that you speak English very well.",
+   "lang": "ru"
+  },
+  {
+   "start": 1699.04,
+   "end": 1700.38,
+   "text": "I don't understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 1700.38,
+   "end": 1700.72,
+   "text": "Stand.",
+   "lang": "en"
+  },
+  {
+   "start": 1703.76,
+   "end": 1705.92,
+   "text": "I'm sorry, I don't understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 1710.84,
+   "end": 1712.34,
+   "text": "Она сказала вам.",
+   "lang": "ru"
+  },
+  {
+   "start": 1712.66,
+   "end": 1714.54,
+   "text": "Вы очень хорошо говорите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1715.06,
+   "end": 1717.4,
+   "text": "Сейчас скажите «пожалуйста, мисс».",
+   "lang": "ru"
+  },
+  {
+   "start": 1719.84,
+   "end": 1720.8,
+   "text": "Please, Miss.",
+   "lang": "en"
+  },
+  {
+   "start": 1723.5,
+   "end": 1724.62,
+   "text": "Please, Miss.",
+   "lang": "en"
+  },
+  {
+   "start": 1726.48,
+   "end": 1730.72,
+   "text": "Но в это время она замечает своего знакомого,",
+   "lang": "ru"
+  },
+  {
+   "start": 1730.76,
+   "end": 1732.78,
+   "text": "который тоже идет по улице.",
+   "lang": "ru"
+  },
+  {
+   "start": 1732.96,
+   "end": 1736.48,
+   "text": "Торопясь к нему, она говорит вам «до свидания».",
+   "lang": "ru"
+  },
+  {
+   "start": 1736.48,
+   "end": 1737.58,
+   "text": "Отвечайте ей.",
+   "lang": "ru"
+  },
+  {
+   "start": 1737.58,
+   "end": 1738.58,
+   "text": "Goodbye, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1741.22,
+   "end": 1742.04,
+   "text": "Goodbye, miss.",
+   "lang": "en"
+  },
+  {
+   "start": 1744.78,
+   "end": 1745.2,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 1747.64,
+   "end": 1750.02,
+   "text": "Урок номер три окончен.",
+   "lang": "ru"
+  }
+ ]
+}

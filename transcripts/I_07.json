@@ -1,0 +1,2379 @@
+{
+ "id": "I_07",
+ "source": "Pimsleur_I_07.mp3",
+ "duration": 1767.16,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 123,
+ "segments": [
+  {
+   "start": 3.42,
+   "end": 7.08,
+   "text": "Американский английский язык по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 7.12,
+   "end": 10.26,
+   "text": "Урок номер 7. Слушайте этот разговор.",
+   "lang": "ru"
+  },
+  {
+   "start": 10.26,
+   "end": 11.1,
+   "text": "Hello, Susan.",
+   "lang": "en"
+  },
+  {
+   "start": 11.44,
+   "end": 12.22,
+   "text": "Hello, Peter.",
+   "lang": "en"
+  },
+  {
+   "start": 12.5,
+   "end": 14.48,
+   "text": "Would you like to have something to eat now, Susan?",
+   "lang": "en"
+  },
+  {
+   "start": 14.72,
+   "end": 17.1,
+   "text": "No, Peter, not now. Later, please.",
+   "lang": "en"
+  },
+  {
+   "start": 17.18,
+   "end": 19.4,
+   "text": "But I'd like to have something to drink now.",
+   "lang": "en"
+  },
+  {
+   "start": 19.58,
+   "end": 19.94,
+   "text": "Where?",
+   "lang": "en"
+  },
+  {
+   "start": 20.22,
+   "end": 20.92,
+   "text": "I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 21.14,
+   "end": 21.86,
+   "text": "At a restaurant?",
+   "lang": "en"
+  },
+  {
+   "start": 22.2,
+   "end": 23.04,
+   "text": "Yes, okay.",
+   "lang": "en"
+  },
+  {
+   "start": 25.22,
+   "end": 25.86,
+   "text": "Hello, Susan.",
+   "lang": "en"
+  },
+  {
+   "start": 26.1,
+   "end": 26.84,
+   "text": "Hello, Peter.",
+   "lang": "en"
+  },
+  {
+   "start": 27.06,
+   "end": 29.08,
+   "text": "Would you like to have something to eat now, Susan?",
+   "lang": "en"
+  },
+  {
+   "start": 29.32,
+   "end": 29.98,
+   "text": "No, Peter.",
+   "lang": "en"
+  },
+  {
+   "start": 30.0,
+   "end": 31.64,
+   "text": "Peter, not now. Later, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 31.8,
+   "end": 33.96,
+   "text": "But I'd like to have something to drink now.",
+   "lang": "ru"
+  },
+  {
+   "start": 34.18,
+   "end": 34.54,
+   "text": "Where?",
+   "lang": "ru"
+  },
+  {
+   "start": 34.78,
+   "end": 35.48,
+   "text": "I don't know.",
+   "lang": "ru"
+  },
+  {
+   "start": 35.74,
+   "end": 36.5,
+   "text": "At a restaurant?",
+   "lang": "ru"
+  },
+  {
+   "start": 36.76,
+   "end": 37.64,
+   "text": "Yes, okay.",
+   "lang": "ru"
+  },
+  {
+   "start": 38.52,
+   "end": 40.74,
+   "text": "Спросите, где вы хотели бы поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 43.52,
+   "end": 44.84,
+   "text": "Where would you like to eat?",
+   "lang": "ru"
+  },
+  {
+   "start": 47.68,
+   "end": 49.08,
+   "text": "Where would you like to eat?",
+   "lang": "ru"
+  },
+  {
+   "start": 52.22,
+   "end": 54.7,
+   "text": "Помните, как сказать в ресторане?",
+   "lang": "ru"
+  },
+  {
+   "start": 57.2,
+   "end": 58.18,
+   "text": "At a restaurant.",
+   "lang": "ru"
+  },
+  {
+   "start": 60.76,
+   "end": 61.88,
+   "text": "At a restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 64.98,
+   "end": 68.06,
+   "text": "Скажите мне, что вы хотели бы что-нибудь поесть.",
+   "lang": "ru"
+  },
+  {
+   "start": 71.66,
+   "end": 73.5,
+   "text": "I'd like to have something to eat.",
+   "lang": "en"
+  },
+  {
+   "start": 77.02,
+   "end": 78.86,
+   "text": "To have something to eat.",
+   "lang": "en"
+  },
+  {
+   "start": 82.48,
+   "end": 83.28,
+   "text": "I'd like.",
+   "lang": "en"
+  },
+  {
+   "start": 85.26,
+   "end": 87.1,
+   "text": "I'd like to have something to eat.",
+   "lang": "en"
+  },
+  {
+   "start": 90.68,
+   "end": 92.12,
+   "text": "Спросите, когда?",
+   "lang": "ru"
+  },
+  {
+   "start": 92.12,
+   "end": 94.12,
+   "text": "When?",
+   "lang": "en"
+  },
+  {
+   "start": 96.4,
+   "end": 99.38,
+   "text": "Спросите, когда вы хотели бы поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 102.46,
+   "end": 103.64,
+   "text": "When would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 106.76,
+   "end": 108.04,
+   "text": "When would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 111.02,
+   "end": 112.6,
+   "text": "Скажите, сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 112.6,
+   "end": 113.0,
+   "text": "Сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 113.0,
+   "end": 115.16,
+   "text": "Now.",
+   "lang": "en"
+  },
+  {
+   "start": 116.96,
+   "end": 117.52,
+   "text": "Now.",
+   "lang": "en"
+  },
+  {
+   "start": 120.12,
+   "end": 122.96,
+   "text": "Спросите, хотела ли бы она тоже что-нибудь поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 123.54,
+   "end": 125.1,
+   "text": "Не забывайте о порядке слов.",
+   "lang": "ru"
+  },
+  {
+   "start": 129.3,
+   "end": 131.58,
+   "text": "Would you like to have something to eat too?",
+   "lang": "en"
+  },
+  {
+   "start": 136.04,
+   "end": 138.08,
+   "text": "Would you like to have something to eat too?",
+   "lang": "en"
+  },
+  {
+   "start": 142.6,
+   "end": 146.2,
+   "text": "Попробуйте спросить, хотела ли бы она сейчас что-нибудь поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 150.4,
+   "end": 152.32,
+   "text": "Would you like to have something to eat now?",
+   "lang": "en"
+  },
+  {
+   "start": 156.68,
+   "end": 158.76,
+   "text": "Would you like to have something to eat now?",
+   "lang": "en"
+  },
+  {
+   "start": 163.08,
+   "end": 169.3,
+   "text": "Как коротко вы можете ответить, имея в виду «Да, я хотела бы что-нибудь поесть»?",
+   "lang": "ru"
+  },
+  {
+   "start": 171.66,
+   "end": 172.78,
+   "text": "Yes, I would",
+   "lang": "en"
+  },
+  {
+   "start": 173.8,
+   "end": 176.54,
+   "text": "Yes, I would",
+   "lang": "en"
+  },
+  {
+   "start": 179.32,
+   "end": 181.04,
+   "text": "Скажите, нет, спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 183.22,
+   "end": 184.12,
+   "text": "No, thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 185.78,
+   "end": 191.4,
+   "text": "Но я хотела бы что-нибудь выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 195.5,
+   "end": 197.5,
+   "text": "But I'd like to have something to drink.",
+   "lang": "en"
+  },
+  {
+   "start": 201.7,
+   "end": 203.72,
+   "text": "But I'd like to have something to drink.",
+   "lang": "en"
+  },
+  {
+   "start": 208.42,
+   "end": 211.22,
+   "text": "Скажите, я тоже хотел бы что-нибудь выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 215.72,
+   "end": 217.78,
+   "text": "I'd like to have something to drink, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 222.28,
+   "end": 224.36,
+   "text": "I'd like to have something to drink too",
+   "lang": "en"
+  },
+  {
+   "start": 229.44,
+   "end": 230.4,
+   "text": "Спросите, когда?",
+   "lang": "ru"
+  },
+  {
+   "start": 232.68,
+   "end": 233.16,
+   "text": "When?",
+   "lang": "ru"
+  },
+  {
+   "start": 235.24,
+   "end": 235.52,
+   "text": "When?",
+   "lang": "en"
+  },
+  {
+   "start": 235.52,
+   "end": 235.66,
+   "text": "When?",
+   "lang": "en"
+  },
+  {
+   "start": 238.24,
+   "end": 239.2,
+   "text": "Скажите, позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 239.2,
+   "end": 243.64,
+   "text": "Later. Later.",
+   "lang": "en"
+  },
+  {
+   "start": 244.64,
+   "end": 249.04,
+   "text": "Сейчас он говорит, я хочу поесть позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 252.12,
+   "end": 253.54,
+   "text": "I want to eat later.",
+   "lang": "en"
+  },
+  {
+   "start": 256.86,
+   "end": 257.38,
+   "text": "Want",
+   "lang": "en"
+  },
+  {
+   "start": 257.38,
+   "end": 260.82,
+   "text": "I want to eat later.",
+   "lang": "en"
+  },
+  {
+   "start": 264.02,
+   "end": 267.16,
+   "text": "Спросите его, где вы хотели бы поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 270.72,
+   "end": 272.0,
+   "text": "Where would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 274.94,
+   "end": 277.78,
+   "text": "Попробуйте ответить. Не здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 279.92,
+   "end": 281.18,
+   "text": "Not here.",
+   "lang": "ru"
+  },
+  {
+   "start": 283.92,
+   "end": 284.16,
+   "text": "Here.",
+   "lang": "ru"
+  },
+  {
+   "start": 286.14,
+   "end": 286.3,
+   "text": "Here.",
+   "lang": "ru"
+  },
+  {
+   "start": 288.4,
+   "end": 288.64,
+   "text": "Not.",
+   "lang": "ru"
+  },
+  {
+   "start": 290.06,
+   "end": 291.4,
+   "text": "Not here.",
+   "lang": "ru"
+  },
+  {
+   "start": 293.22,
+   "end": 294.5,
+   "text": "Not here.",
+   "lang": "ru"
+  },
+  {
+   "start": 297.16,
+   "end": 298.66,
+   "text": "Спросите его, где?",
+   "lang": "ru"
+  },
+  {
+   "start": 300.62,
+   "end": 301.06,
+   "text": "Where?",
+   "lang": "ru"
+  },
+  {
+   "start": 302.92,
+   "end": 303.1,
+   "text": "Where?",
+   "lang": "ru"
+  },
+  {
+   "start": 304.8,
+   "end": 306.66,
+   "text": "Спросите его, там?",
+   "lang": "ru"
+  },
+  {
+   "start": 309.42,
+   "end": 310.0,
+   "text": "Over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 312.38,
+   "end": 313.32,
+   "text": "Over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 316.14,
+   "end": 318.28,
+   "text": "Отвечайте. Нет, не там.",
+   "lang": "ru"
+  },
+  {
+   "start": 321.88,
+   "end": 323.82,
+   "text": "No, not over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 327.94,
+   "end": 329.8,
+   "text": "Скажите, в ресторане, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 333.42,
+   "end": 335.02,
+   "text": "At a restaurant, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 338.38,
+   "end": 340.02,
+   "text": "At a restaurant, please.",
+   "lang": "en"
+  },
+  {
+   "start": 343.44,
+   "end": 348.28,
+   "text": "Сейчас скажите, хорошо, имею в виду, все в порядке.",
+   "lang": "ru"
+  },
+  {
+   "start": 348.28,
+   "end": 350.64,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 351.72,
+   "end": 353.12,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 355.36,
+   "end": 358.92,
+   "text": "Слушайте, что он скажет, а потом ответьте ему.",
+   "lang": "ru"
+  },
+  {
+   "start": 358.92,
+   "end": 360.1,
+   "text": "Thank you, ma'am.",
+   "lang": "en"
+  },
+  {
+   "start": 361.7,
+   "end": 362.54,
+   "text": "You're welcome.",
+   "lang": "en"
+  },
+  {
+   "start": 364.22,
+   "end": 365.06,
+   "text": "You're welcome.",
+   "lang": "en"
+  },
+  {
+   "start": 367.06,
+   "end": 369.66,
+   "text": "Скажите, я хотела бы поесть здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 372.76,
+   "end": 373.94,
+   "text": "I'd like to eat here.",
+   "lang": "en"
+  },
+  {
+   "start": 377.22,
+   "end": 378.94,
+   "text": "Скажите, но я не хочу.",
+   "lang": "ru"
+  },
+  {
+   "start": 378.94,
+   "end": 388.02,
+   "text": "you. But I don't want to. I don't want to.",
+   "lang": "en"
+  },
+  {
+   "start": 390.78,
+   "end": 393.18,
+   "text": "Спросите, где он хотел бы поесть.",
+   "lang": "ru"
+  },
+  {
+   "start": 396.3,
+   "end": 397.54,
+   "text": "Where would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 400.12,
+   "end": 401.88,
+   "text": "Он отвечает.",
+   "lang": "ru"
+  },
+  {
+   "start": 401.9,
+   "end": 405.2,
+   "text": "В гостинице. Вот как сказать гостиница.",
+   "lang": "ru"
+  },
+  {
+   "start": 405.4,
+   "end": 407.52,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 407.52,
+   "end": 418.98,
+   "text": "Hotel. Tell. Tell. Ho. Hotel. Hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 421.48,
+   "end": 424.96,
+   "text": "Обратите внимание на звуки O и L.",
+   "lang": "ru"
+  },
+  {
+   "start": 425.76,
+   "end": 427.7,
+   "text": "Скажите еще раз. Гостиница.",
+   "lang": "ru"
+  },
+  {
+   "start": 427.7,
+   "end": 430.02,
+   "text": "Hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 432.3,
+   "end": 432.7,
+   "text": "Tell.",
+   "lang": "en"
+  },
+  {
+   "start": 434.62,
+   "end": 434.66,
+   "text": "Ho.",
+   "lang": "en"
+  },
+  {
+   "start": 436.26,
+   "end": 436.86,
+   "text": "Hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 437.48,
+   "end": 441.46,
+   "text": "А вот как сказать в гостинице.",
+   "lang": "ru"
+  },
+  {
+   "start": 441.58,
+   "end": 443.66,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 443.66,
+   "end": 444.76,
+   "text": "at the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 447.98,
+   "end": 448.0,
+   "text": "the",
+   "lang": "en"
+  },
+  {
+   "start": 448.0,
+   "end": 449.88,
+   "text": "the",
+   "lang": "en"
+  },
+  {
+   "start": 449.88,
+   "end": 452.52,
+   "text": "the hotel",
+   "lang": "en"
+  },
+  {
+   "start": 453.9,
+   "end": 455.58,
+   "text": "the hotel",
+   "lang": "en"
+  },
+  {
+   "start": 457.74,
+   "end": 460.78,
+   "text": "At. At the hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 463.24,
+   "end": 464.16,
+   "text": "at the hotel",
+   "lang": "en"
+  },
+  {
+   "start": 466.32,
+   "end": 472.42,
+   "text": "В английском языке слово the обозначает какой-то конкретный предмет.",
+   "lang": "ru"
+  },
+  {
+   "start": 472.6,
+   "end": 479.74,
+   "text": "Сейчас мужчина говорит the, потому что он имеет в виду конкретную гостиницу, ту, где он живет.",
+   "lang": "ru"
+  },
+  {
+   "start": 479.94,
+   "end": 482.58,
+   "text": "Скажите еще раз. В гостинице.",
+   "lang": "ru"
+  },
+  {
+   "start": 484.9,
+   "end": 486.22,
+   "text": "At the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 487.94,
+   "end": 494.98,
+   "text": "А как сказать в ресторане?",
+   "lang": "ru"
+  },
+  {
+   "start": 497.34,
+   "end": 498.66,
+   "text": "At a restaurant.",
+   "lang": "ru"
+  },
+  {
+   "start": 501.14,
+   "end": 501.86,
+   "text": "A.",
+   "lang": "ru"
+  },
+  {
+   "start": 503.7,
+   "end": 509.86,
+   "text": "Помните, что A относится не к одному строго определенному месту или предмету,",
+   "lang": "ru"
+  },
+  {
+   "start": 509.86,
+   "end": 514.8,
+   "text": "а к какому-либо вообще, в данном случае, к какому-нибудь ресторану.",
+   "lang": "ru"
+  },
+  {
+   "start": 514.86,
+   "end": 517.22,
+   "text": "Скажите еще раз. В ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 519.3,
+   "end": 520.56,
+   "text": "At a restaurant.",
+   "lang": "ru"
+  },
+  {
+   "start": 522.88,
+   "end": 527.48,
+   "text": "Скажите «в гостинице», имея в виду конкретную гостиницу.",
+   "lang": "ru"
+  },
+  {
+   "start": 530.12,
+   "end": 530.96,
+   "text": "at the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 532.08,
+   "end": 538.56,
+   "text": "А как вы скажете «в гостинице», имея в виду любую гостиницу?",
+   "lang": "ru"
+  },
+  {
+   "start": 540.92,
+   "end": 542.46,
+   "text": "At a hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 545.08,
+   "end": 546.2,
+   "text": "At a hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 549.16,
+   "end": 551.26,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 551.68,
+   "end": 552.68,
+   "text": "At a hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 552.98,
+   "end": 554.02,
+   "text": "At the hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 554.02,
+   "end": 554.28,
+   "text": "hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 560.64,
+   "end": 563.06,
+   "text": "Скажите, простите, я не хочу.",
+   "lang": "ru"
+  },
+  {
+   "start": 563.06,
+   "end": 574.62,
+   "text": "you. I'm sorry, I don't want to. I don't want to.",
+   "lang": "en"
+  },
+  {
+   "start": 577.2,
+   "end": 581.02,
+   "text": "помните как спросить когда вы хотели бы поесть",
+   "lang": "ru"
+  },
+  {
+   "start": 584.14,
+   "end": 585.44,
+   "text": "When would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 588.76,
+   "end": 590.04,
+   "text": "When would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 593.24,
+   "end": 596.48,
+   "text": "Сейчас спросите, где вы хотели бы поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 599.82,
+   "end": 601.2,
+   "text": "Where would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 604.38,
+   "end": 607.62,
+   "text": "А сейчас слушайте и повторяйте вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 607.98,
+   "end": 609.62,
+   "text": "Что вы хотели бы поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 609.62,
+   "end": 611.14,
+   "text": "What would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 614.62,
+   "end": 614.98,
+   "text": "What?",
+   "lang": "en"
+  },
+  {
+   "start": 615.92,
+   "end": 620.04,
+   "text": "What? What would you like to eat?",
+   "lang": "ru"
+  },
+  {
+   "start": 623.7,
+   "end": 626.14,
+   "text": "Спросите, что она хотела бы поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 629.28,
+   "end": 630.82,
+   "text": "What would you like to eat?",
+   "lang": "ru"
+  },
+  {
+   "start": 634.5,
+   "end": 636.2,
+   "text": "Отвечайте, я не знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 638.4,
+   "end": 639.46,
+   "text": "I don't know.",
+   "lang": "ru"
+  },
+  {
+   "start": 641.48,
+   "end": 642.72,
+   "text": "I don't know.",
+   "lang": "ru"
+  },
+  {
+   "start": 645.34,
+   "end": 647.74,
+   "text": "Спросите, где вы хотели бы поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 650.88,
+   "end": 652.22,
+   "text": "Where would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 655.76,
+   "end": 657.32,
+   "text": "Спросите, в ресторане?",
+   "lang": "ru"
+  },
+  {
+   "start": 657.46,
+   "end": 659.94,
+   "text": "Имея в виду какой-нибудь ресторан вообще.",
+   "lang": "ru"
+  },
+  {
+   "start": 662.2,
+   "end": 663.46,
+   "text": "At a restaurant?",
+   "lang": "ru"
+  },
+  {
+   "start": 666.16,
+   "end": 666.2,
+   "text": "А.",
+   "lang": "ru"
+  },
+  {
+   "start": 667.14,
+   "end": 668.42,
+   "text": "At a restaurant?",
+   "lang": "ru"
+  },
+  {
+   "start": 671.02,
+   "end": 675.58,
+   "text": "Сейчас спросите. В гостинице? Имею в виду конкретную гостиницу.",
+   "lang": "ru"
+  },
+  {
+   "start": 677.92,
+   "end": 679.04,
+   "text": "At the hotel?",
+   "lang": "en"
+  },
+  {
+   "start": 682.22,
+   "end": 682.3,
+   "text": "The",
+   "lang": "en"
+  },
+  {
+   "start": 683.18,
+   "end": 684.78,
+   "text": "At the hotel?",
+   "lang": "en"
+  },
+  {
+   "start": 687.6,
+   "end": 690.52,
+   "text": "Скажите. Хорошо. Спасибо, сэр.",
+   "lang": "ru"
+  },
+  {
+   "start": 694.32,
+   "end": 695.9,
+   "text": "Okay, thank you sir.",
+   "lang": "en"
+  },
+  {
+   "start": 699.74,
+   "end": 700.2,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 701.86,
+   "end": 703.94,
+   "text": "Ответьте. На здоровье.",
+   "lang": "ru"
+  },
+  {
+   "start": 705.58,
+   "end": 706.48,
+   "text": "You're welcome.",
+   "lang": "en"
+  },
+  {
+   "start": 708.18,
+   "end": 711.48,
+   "text": "Скажите. Я хотела бы что-нибудь выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 715.66,
+   "end": 717.56,
+   "text": "I would like to have something to drink",
+   "lang": "en"
+  },
+  {
+   "start": 721.9,
+   "end": 725.02,
+   "text": "Сейчас спросите. Что вы хотели бы выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 728.06,
+   "end": 729.34,
+   "text": "What would you like to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 732.52,
+   "end": 733.8,
+   "text": "What would you like to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 735.68,
+   "end": 741.34,
+   "text": "Вот как сказать «вина». Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 741.62,
+   "end": 741.86,
+   "text": "Wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 741.86,
+   "end": 743.12,
+   "text": "wine",
+   "lang": "en"
+  },
+  {
+   "start": 748.06,
+   "end": 753.86,
+   "text": "Скажите еще раз «вина». Обратите внимание на первый звук в этом слове.",
+   "lang": "ru"
+  },
+  {
+   "start": 753.86,
+   "end": 756.22,
+   "text": "Wine",
+   "lang": "en"
+  },
+  {
+   "start": 758.02,
+   "end": 761.48,
+   "text": "Немного вина. Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 761.48,
+   "end": 762.62,
+   "text": "Some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 765.28,
+   "end": 765.96,
+   "text": "Some.",
+   "lang": "en"
+  },
+  {
+   "start": 767.68,
+   "end": 768.36,
+   "text": "Some.",
+   "lang": "en"
+  },
+  {
+   "start": 770.32,
+   "end": 771.76,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 771.94,
+   "end": 773.12,
+   "text": "Немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 773.12,
+   "end": 776.26,
+   "text": "Some wine",
+   "lang": "en"
+  },
+  {
+   "start": 776.26,
+   "end": 779.6,
+   "text": "Some wine",
+   "lang": "en"
+  },
+  {
+   "start": 780.46,
+   "end": 785.02,
+   "text": "А как сказать «я немного понимаю»?",
+   "lang": "ru"
+  },
+  {
+   "start": 787.92,
+   "end": 789.8,
+   "text": "I understand a little.",
+   "lang": "en"
+  },
+  {
+   "start": 792.8,
+   "end": 793.68,
+   "text": "A little.",
+   "lang": "en"
+  },
+  {
+   "start": 795.24,
+   "end": 802.98,
+   "text": "Обратите внимание, что в зависимости от контекста слово «немного» может переводиться на английский язык по-разному.",
+   "lang": "ru"
+  },
+  {
+   "start": 803.12,
+   "end": 807.04,
+   "text": "По мере изучения языка вам будет легче принимать решение,",
+   "lang": "ru"
+  },
+  {
+   "start": 807.12,
+   "end": 812.06,
+   "text": "какое из этих двух слов следует использовать в той или иной ситуации.",
+   "lang": "ru"
+  },
+  {
+   "start": 812.24,
+   "end": 816.12,
+   "text": "Сейчас попробуйте сказать «Я хотела бы немного вина».",
+   "lang": "ru"
+  },
+  {
+   "start": 819.12,
+   "end": 820.44,
+   "text": "I'd like some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 823.78,
+   "end": 824.74,
+   "text": "Some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 827.3,
+   "end": 832.26,
+   "text": "Скажите «В ресторане», имея в виду какой-нибудь ресторан вообще.",
+   "lang": "ru"
+  },
+  {
+   "start": 834.72,
+   "end": 836.52,
+   "text": "В ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 839.16,
+   "end": 840.12,
+   "text": "at a restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 843.16,
+   "end": 846.12,
+   "text": "Спросите, что она хотела бы выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 849.12,
+   "end": 850.42,
+   "text": "what would you like to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 853.52,
+   "end": 857.12,
+   "text": "Попробуйте спросить, хотела ли бы она немного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 860.2,
+   "end": 861.32,
+   "text": "Would you like some wine?",
+   "lang": "en"
+  },
+  {
+   "start": 864.12,
+   "end": 865.9,
+   "text": "Would you like some wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 868.66,
+   "end": 874.42,
+   "text": "Как коротко ответить, имея в виду «Да, я хотела бы немного вина»?",
+   "lang": "ru"
+  },
+  {
+   "start": 876.8,
+   "end": 878.06,
+   "text": "Yes, I would.",
+   "lang": "ru"
+  },
+  {
+   "start": 881.02,
+   "end": 881.76,
+   "text": "Yes, I would.",
+   "lang": "ru"
+  },
+  {
+   "start": 884.34,
+   "end": 888.64,
+   "text": "Сейчас скажите «Да, я хотела бы немного вина».",
+   "lang": "ru"
+  },
+  {
+   "start": 891.82,
+   "end": 893.86,
+   "text": "Yes, I'd like some wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 897.84,
+   "end": 899.3,
+   "text": "Yes, I'd like some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 902.36,
+   "end": 909.74,
+   "text": "Я хотел бы немного пива. Вот как сказать пиво. Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 909.86,
+   "end": 910.8,
+   "text": "Some beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 910.8,
+   "end": 911.02,
+   "text": "Beer.",
+   "lang": "en"
+  },
+  {
+   "start": 913.24,
+   "end": 913.68,
+   "text": "Beer.",
+   "lang": "en"
+  },
+  {
+   "start": 913.84,
+   "end": 922.18,
+   "text": "Beer. Beer. Some beer. Some beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 924.48,
+   "end": 926.86,
+   "text": "Скажите, немного пива.",
+   "lang": "ru"
+  },
+  {
+   "start": 928.4,
+   "end": 934.24,
+   "text": "Some beer. Скажите, немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 936.56,
+   "end": 937.78,
+   "text": "Some wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 940.16,
+   "end": 941.32,
+   "text": "Some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 944.42,
+   "end": 947.3,
+   "text": "Скажите, я хотел бы немного пива.",
+   "lang": "ru"
+  },
+  {
+   "start": 950.26,
+   "end": 951.78,
+   "text": "I'd like some beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 954.92,
+   "end": 956.42,
+   "text": "I'd like some beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 959.26,
+   "end": 964.9,
+   "text": "В этом предложении использована сокращенная форма от «я хотел бы».",
+   "lang": "ru"
+  },
+  {
+   "start": 964.9,
+   "end": 968.82,
+   "text": "Сейчас попробуйте сказать «но я хотела бы немного вина».",
+   "lang": "ru"
+  },
+  {
+   "start": 968.82,
+   "end": 973.16,
+   "text": "Используйте полную форму для того, чтобы выделить контраст.",
+   "lang": "ru"
+  },
+  {
+   "start": 976.84,
+   "end": 978.56,
+   "text": "But I would like some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 982.34,
+   "end": 984.0,
+   "text": "But I would like some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 988.0,
+   "end": 989.5,
+   "text": "Спросите, где?",
+   "lang": "ru"
+  },
+  {
+   "start": 991.72,
+   "end": 998.48,
+   "text": "Как вы ответите ему? Не в гостинице, имея в виду конкретную гостиницу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1001.42,
+   "end": 1002.56,
+   "text": "Not at the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 1005.72,
+   "end": 1006.9,
+   "text": "Not at the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 1009.98,
+   "end": 1015.08,
+   "text": "Скажите, в ресторане, пожалуйста, имея в виду любой ресторан.",
+   "lang": "ru"
+  },
+  {
+   "start": 1015.08,
+   "end": 1015.18,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 1018.12,
+   "end": 1019.88,
+   "text": "At a restaurant, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1023.34,
+   "end": 1024.84,
+   "text": "At a restaurant, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1028.7,
+   "end": 1030.62,
+   "text": "Скажите, но позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1032.64,
+   "end": 1033.76,
+   "text": "But later.",
+   "lang": "ru"
+  },
+  {
+   "start": 1033.76,
+   "end": 1036.92,
+   "text": "But later...",
+   "lang": "en"
+  },
+  {
+   "start": 1039.14,
+   "end": 1040.54,
+   "text": "Скажите, не сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1042.64,
+   "end": 1043.62,
+   "text": "Not now.",
+   "lang": "ru"
+  },
+  {
+   "start": 1045.52,
+   "end": 1046.6,
+   "text": "Not now.",
+   "lang": "en"
+  },
+  {
+   "start": 1048.2,
+   "end": 1052.18,
+   "text": "Как сказать, что вы хотели бы что-нибудь поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1055.88,
+   "end": 1057.5,
+   "text": "I'd like to have something to eat.",
+   "lang": "en"
+  },
+  {
+   "start": 1061.22,
+   "end": 1064.38,
+   "text": "Скажите, я тоже хотела бы что-нибудь поесть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1068.74,
+   "end": 1070.66,
+   "text": "I'd like to have something to eat too.",
+   "lang": "en"
+  },
+  {
+   "start": 1074.86,
+   "end": 1079.1,
+   "text": "А как сказать «Я хотел бы и выпить что-нибудь тоже»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1083.3,
+   "end": 1085.22,
+   "text": "I'd like to have something to drink too",
+   "lang": "en"
+  },
+  {
+   "start": 1089.54,
+   "end": 1091.6,
+   "text": "I'd like to have something to drink too",
+   "lang": "en"
+  },
+  {
+   "start": 1096.22,
+   "end": 1099.7,
+   "text": "Спросите у женщины, хотела ли бы она что-нибудь выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1103.62,
+   "end": 1105.14,
+   "text": "Would you like to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1108.8,
+   "end": 1110.58,
+   "text": "Would you like to have something to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 1114.66,
+   "end": 1116.32,
+   "text": "Скажите, нет, спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1118.36,
+   "end": 1119.44,
+   "text": "No, thank you.",
+   "lang": "ru"
+  },
+  {
+   "start": 1121.2,
+   "end": 1122.12,
+   "text": "No, thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1124.64,
+   "end": 1127.34,
+   "text": "Как ей ответить? Не сейчас, позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.64,
+   "end": 1132.12,
+   "text": "Not now, later.",
+   "lang": "ru"
+  },
+  {
+   "start": 1135.1,
+   "end": 1136.84,
+   "text": "Not now, later.",
+   "lang": "en"
+  },
+  {
+   "start": 1140.4,
+   "end": 1143.44,
+   "text": "Спросите, хотела ли бы она что-нибудь поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1147.1,
+   "end": 1148.78,
+   "text": "Would you like to have something to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 1152.44,
+   "end": 1154.28,
+   "text": "Would you like to have something to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 1157.44,
+   "end": 1161.82,
+   "text": "Как коротко ответить? Да, я хотела бы поесть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1163.9,
+   "end": 1165.06,
+   "text": "Yes, I would.",
+   "lang": "ru"
+  },
+  {
+   "start": 1167.16,
+   "end": 1168.36,
+   "text": "Yes, I would.",
+   "lang": "en"
+  },
+  {
+   "start": 1171.12,
+   "end": 1173.68,
+   "text": "Спросите, где она хотела бы поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1176.66,
+   "end": 1178.18,
+   "text": "Where would you like to eat?",
+   "lang": "ru"
+  },
+  {
+   "start": 1181.46,
+   "end": 1182.84,
+   "text": "where would you like to eat",
+   "lang": "en"
+  },
+  {
+   "start": 1185.62,
+   "end": 1191.16,
+   "text": "Как ей сказать в ресторане, имея в виду какой-нибудь ресторан вообще?",
+   "lang": "ru"
+  },
+  {
+   "start": 1193.62,
+   "end": 1194.94,
+   "text": "At a restaurant.",
+   "lang": "ru"
+  },
+  {
+   "start": 1197.28,
+   "end": 1199.04,
+   "text": "At a restaurant, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1202.76,
+   "end": 1205.08,
+   "text": "Скажите ей, хорошо, когда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1208.22,
+   "end": 1209.64,
+   "text": "Okay, when?",
+   "lang": "ru"
+  },
+  {
+   "start": 1212.72,
+   "end": 1214.18,
+   "text": "Okay, when?",
+   "lang": "ru"
+  },
+  {
+   "start": 1217.1,
+   "end": 1220.04,
+   "text": "Как ей ответить, сейчас, пожалуйста?",
+   "lang": "ru"
+  },
+  {
+   "start": 1223.14,
+   "end": 1223.98,
+   "text": "Now, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1225.62,
+   "end": 1228.28,
+   "text": "Она говорит вам.",
+   "lang": "ru"
+  },
+  {
+   "start": 1228.32,
+   "end": 1230.6,
+   "text": "В ресторане Парковый проспект.",
+   "lang": "ru"
+  },
+  {
+   "start": 1230.7,
+   "end": 1232.68,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1232.68,
+   "end": 1234.56,
+   "text": "At the Park Avenue restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 1238.34,
+   "end": 1239.62,
+   "text": "The restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 1241.78,
+   "end": 1243.72,
+   "text": "The Park Avenue restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 1247.38,
+   "end": 1249.44,
+   "text": "At the Park Avenue restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 1252.8,
+   "end": 1257.72,
+   "text": "Как сказать ресторан, имея в виду конкретный ресторан?",
+   "lang": "ru"
+  },
+  {
+   "start": 1257.72,
+   "end": 1260.78,
+   "text": "The restaurant",
+   "lang": "en"
+  },
+  {
+   "start": 1260.78,
+   "end": 1264.04,
+   "text": "The restaurant",
+   "lang": "en"
+  },
+  {
+   "start": 1266.12,
+   "end": 1271.9,
+   "text": "Сейчас имею в виду ресторан Парковый проспект. Скажите, в ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 1274.26,
+   "end": 1276.26,
+   "text": "В ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 1278.86,
+   "end": 1282.24,
+   "text": "Скажите, в ресторане Парковый проспект?",
+   "lang": "ru"
+  },
+  {
+   "start": 1286.16,
+   "end": 1288.32,
+   "text": "at the Park Avenue Restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 1292.46,
+   "end": 1296.34,
+   "text": "Попробуйте спросить, где ресторан Парковый проспект?",
+   "lang": "ru"
+  },
+  {
+   "start": 1300.52,
+   "end": 1302.88,
+   "text": "Where is the Park Avenue restaurant?",
+   "lang": "en"
+  },
+  {
+   "start": 1307.38,
+   "end": 1308.78,
+   "text": "Where is...",
+   "lang": "en"
+  },
+  {
+   "start": 1310.3,
+   "end": 1312.74,
+   "text": "Where is the Park Avenue restaurant?",
+   "lang": "en"
+  },
+  {
+   "start": 1316.62,
+   "end": 1319.9,
+   "text": "Как ей ответить? Это там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1322.28,
+   "end": 1323.3,
+   "text": "It's over there.",
+   "lang": "en"
+  },
+  {
+   "start": 1325.7,
+   "end": 1326.78,
+   "text": "It's over there.",
+   "lang": "en"
+  },
+  {
+   "start": 1327.18,
+   "end": 1331.96,
+   "text": "Она говорит «на парковом проспекте».",
+   "lang": "ru"
+  },
+  {
+   "start": 1331.96,
+   "end": 1334.06,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1334.06,
+   "end": 1335.4,
+   "text": "On Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1337.98,
+   "end": 1339.18,
+   "text": "Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1341.74,
+   "end": 1341.98,
+   "text": "On.",
+   "lang": "en"
+  },
+  {
+   "start": 1343.4,
+   "end": 1344.2,
+   "text": "On.",
+   "lang": "en"
+  },
+  {
+   "start": 1345.72,
+   "end": 1347.36,
+   "text": "On Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1349.9,
+   "end": 1351.46,
+   "text": "On Park Avenue.",
+   "lang": "ru"
+  },
+  {
+   "start": 1354.3,
+   "end": 1357.74,
+   "text": "Скажите еще раз. На парковом проспекте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1359.98,
+   "end": 1361.64,
+   "text": "On Park Avenue.",
+   "lang": "ru"
+  },
+  {
+   "start": 1361.64,
+   "end": 1361.9,
+   "text": "Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1364.86,
+   "end": 1368.58,
+   "text": "А вы помните, как сказать «парковый проспект там»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1372.6,
+   "end": 1374.98,
+   "text": "Park Avenue is over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1378.6,
+   "end": 1380.54,
+   "text": "Park Avenue",
+   "lang": "en"
+  },
+  {
+   "start": 1382.46,
+   "end": 1386.54,
+   "text": "Сейчас скажите, это на Парковом проспекте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1389.84,
+   "end": 1391.42,
+   "text": "It's on Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1394.86,
+   "end": 1396.46,
+   "text": "It's on Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1399.94,
+   "end": 1402.86,
+   "text": "Скажите, я тоже хотел бы поесть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1406.1,
+   "end": 1407.68,
+   "text": "I would like to eat too",
+   "lang": "en"
+  },
+  {
+   "start": 1410.88,
+   "end": 1412.72,
+   "text": "I would like to eat too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1416.28,
+   "end": 1420.02,
+   "text": "Попробуйте сказать в ресторане на Парковом проспекте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1424.14,
+   "end": 1426.32,
+   "text": "At the restaurant on Park Avenue.",
+   "lang": "ru"
+  },
+  {
+   "start": 1430.52,
+   "end": 1432.82,
+   "text": "At the restaurant on Park Avenue.",
+   "lang": "ru"
+  },
+  {
+   "start": 1432.82,
+   "end": 1433.02,
+   "text": "Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1437.08,
+   "end": 1439.8,
+   "text": "Вы только что приехали в ресторан.",
+   "lang": "ru"
+  },
+  {
+   "start": 1439.9,
+   "end": 1443.42,
+   "text": "Как вы спросите у женщины, что вы хотели бы поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1446.48,
+   "end": 1447.76,
+   "text": "What would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 1450.86,
+   "end": 1452.12,
+   "text": "What would you like to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 1452.66,
+   "end": 1457.52,
+   "text": "Как она отвечает? Я не знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1459.28,
+   "end": 1460.32,
+   "text": "I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 1462.46,
+   "end": 1465.86,
+   "text": "Спросите. Хорошо. Что вы хотели бы выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1469.8,
+   "end": 1471.96,
+   "text": "Хорошо. Что вы хотели бы выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1476.66,
+   "end": 1478.16,
+   "text": "okay what would you like to drink",
+   "lang": "en"
+  },
+  {
+   "start": 1482.78,
+   "end": 1484.36,
+   "text": "Спросите, знает ли она?",
+   "lang": "ru"
+  },
+  {
+   "start": 1486.38,
+   "end": 1487.24,
+   "text": "Do you know?",
+   "lang": "en"
+  },
+  {
+   "start": 1489.34,
+   "end": 1490.12,
+   "text": "Do you know?",
+   "lang": "en"
+  },
+  {
+   "start": 1492.32,
+   "end": 1495.14,
+   "text": "Она отвечает, я не знаю, а вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 1498.92,
+   "end": 1500.52,
+   "text": "I don't know. And you?",
+   "lang": "en"
+  },
+  {
+   "start": 1504.58,
+   "end": 1507.48,
+   "text": "Скажите ей, я хотел бы немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1510.42,
+   "end": 1511.7,
+   "text": "I'd like some wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1514.6,
+   "end": 1515.8,
+   "text": "I'd like some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1519.24,
+   "end": 1522.4,
+   "text": "Спросите ее, вы тоже хотели бы немного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1525.34,
+   "end": 1526.98,
+   "text": "Would you like some wine too?",
+   "lang": "ru"
+  },
+  {
+   "start": 1530.18,
+   "end": 1531.68,
+   "text": "Would you like some wine too?",
+   "lang": "en"
+  },
+  {
+   "start": 1535.14,
+   "end": 1537.46,
+   "text": "Сейчас спросите, немного пива?",
+   "lang": "ru"
+  },
+  {
+   "start": 1539.22,
+   "end": 1540.26,
+   "text": "Some beer?",
+   "lang": "en"
+  },
+  {
+   "start": 1542.16,
+   "end": 1543.16,
+   "text": "Some beer?",
+   "lang": "en"
+  },
+  {
+   "start": 1544.8,
+   "end": 1546.82,
+   "text": "Как ей ответить вам?",
+   "lang": "ru"
+  },
+  {
+   "start": 1546.98,
+   "end": 1548.78,
+   "text": "Нет, спасибо, не сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1548.78,
+   "end": 1559.14,
+   "text": "chess. No, thank you. Not now. No, thanks. Not now.",
+   "lang": "en"
+  },
+  {
+   "start": 1563.32,
+   "end": 1566.1,
+   "text": "Спросите, хотела ли бы она что-нибудь поесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1570.22,
+   "end": 1572.02,
+   "text": "Would you like to have something to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 1575.0,
+   "end": 1577.44,
+   "text": "Как она отвечает?",
+   "lang": "ru"
+  },
+  {
+   "start": 1577.6,
+   "end": 1578.28,
+   "text": "Нет, спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1580.56,
+   "end": 1581.5,
+   "text": "No, thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1583.5,
+   "end": 1584.26,
+   "text": "No, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 1586.36,
+   "end": 1587.78,
+   "text": "Попробуйте спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1587.8,
+   "end": 1589.16,
+   "text": "Вы не хотите есть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1591.9,
+   "end": 1593.24,
+   "text": "You don't want to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 1595.94,
+   "end": 1597.28,
+   "text": "You don't want to eat?",
+   "lang": "en"
+  },
+  {
+   "start": 1599.38,
+   "end": 1603.2,
+   "text": "Как ей ответить вам? Не сейчас, спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1606.12,
+   "end": 1607.6,
+   "text": "Not now, thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1610.32,
+   "end": 1611.64,
+   "text": "Not now, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 1614.8,
+   "end": 1617.9,
+   "text": "Спросите ее, хотела ли бы она немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1621.0,
+   "end": 1622.14,
+   "text": "Would you like some wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1625.44,
+   "end": 1626.42,
+   "text": "Would you like some wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1626.44,
+   "end": 1632.28,
+   "text": "Да, я хотела бы немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1636.28,
+   "end": 1637.9,
+   "text": "Yes, I'd like some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1642.02,
+   "end": 1643.24,
+   "text": "I'd like some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1646.4,
+   "end": 1647.44,
+   "text": "Не здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1649.22,
+   "end": 1650.4,
+   "text": "Not here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1650.4,
+   "end": 1651.56,
+   "text": "Not here.",
+   "lang": "en"
+  },
+  {
+   "start": 1652.34,
+   "end": 1653.2,
+   "text": "Not here.",
+   "lang": "en"
+  },
+  {
+   "start": 1655.42,
+   "end": 1659.88,
+   "text": "Скажите, в гостинице. Имею в виду конкретную гостиницу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1662.0,
+   "end": 1663.4,
+   "text": "At the hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 1665.8,
+   "end": 1666.9,
+   "text": "At the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 1669.56,
+   "end": 1673.78,
+   "text": "Попробуйте сказать, в гостинице на Парковом проспекте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1677.58,
+   "end": 1679.8,
+   "text": "At the hotel on Park Avenue.",
+   "lang": "ru"
+  },
+  {
+   "start": 1683.52,
+   "end": 1685.0,
+   "text": "On Park Avenue",
+   "lang": "en"
+  },
+  {
+   "start": 1686.66,
+   "end": 1689.6,
+   "text": "At the hotel on Park Avenue",
+   "lang": "en"
+  },
+  {
+   "start": 1693.18,
+   "end": 1695.9,
+   "text": "Она говорит, но позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1698.0,
+   "end": 1699.0,
+   "text": "But later.",
+   "lang": "ru"
+  },
+  {
+   "start": 1701.46,
+   "end": 1701.96,
+   "text": "But later.",
+   "lang": "ru"
+  },
+  {
+   "start": 1704.52,
+   "end": 1708.9,
+   "text": "Попробуйте сказать «Я хотела бы что-нибудь выпить позже».",
+   "lang": "ru"
+  },
+  {
+   "start": 1712.78,
+   "end": 1714.9,
+   "text": "I'd like to have something to drink later.",
+   "lang": "ru"
+  },
+  {
+   "start": 1719.44,
+   "end": 1721.62,
+   "text": "I'd like to have something to drink later.",
+   "lang": "ru"
+  },
+  {
+   "start": 1721.62,
+   "end": 1721.74,
+   "text": "Later.",
+   "lang": "en"
+  },
+  {
+   "start": 1726.66,
+   "end": 1727.74,
+   "text": "Хорошо, но...",
+   "lang": "ru"
+  },
+  {
+   "start": 1730.08,
+   "end": 1732.22,
+   "text": "Okay, but...",
+   "lang": "en"
+  },
+  {
+   "start": 1734.42,
+   "end": 1736.72,
+   "text": "Okay, but...",
+   "lang": "en"
+  },
+  {
+   "start": 1738.92,
+   "end": 1742.3,
+   "text": "Но я хотел бы что-нибудь выпить сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1742.3,
+   "end": 1742.58,
+   "text": "Yes.",
+   "lang": "en"
+  },
+  {
+   "start": 1747.32,
+   "end": 1749.52,
+   "text": "But I'd like to have something to drink now.",
+   "lang": "en"
+  },
+  {
+   "start": 1754.52,
+   "end": 1756.62,
+   "text": "I'd like to have something to drink now.",
+   "lang": "en"
+  },
+  {
+   "start": 1761.52,
+   "end": 1763.78,
+   "text": "Урок номер 7 окончен.",
+   "lang": "ru"
+  }
+ ]
+}
