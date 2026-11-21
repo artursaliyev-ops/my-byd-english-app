@@ -21,7 +21,7 @@ object Talk {
     /** A Talk is running, so the media buttons follow the Talk rule (spec §10). Main thread. */
     val active: Boolean get() = screen != null
 
-    /** A short note on the player after a Talk that couldn't connect (spec §8), null otherwise. */
+    /** A short note on the player after a Talk that couldn't connect or hit the free-tier limit (spec §8), null otherwise. */
     var note by mutableStateOf<String?>(null)
         internal set
 

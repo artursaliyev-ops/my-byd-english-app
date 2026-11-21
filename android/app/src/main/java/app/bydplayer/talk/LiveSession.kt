@@ -54,7 +54,7 @@ class LiveSession(
 
             override fun onFailure(webSocket: WebSocket, t: Throwable, response: Response?) {
                 Log.w(TAG, "socket failed: ${t.javaClass.simpleName}, HTTP ${response?.code} after ${ms()} ms")
-                lost(null, null)
+                lost(null, null, response?.code)
             }
         })
     }
@@ -87,10 +87,10 @@ class LiveSession(
     }
 
     /** [code] and [reason] from the server's close frame, null for a failure. The reason is never logged. */
-    private fun lost(code: Int?, reason: String?) {
+    private fun lost(code: Int?, reason: String?, httpStatus: Int? = null) {
         if (closed) return
         closed = true
-        onLost(LiveProtocol.classifyLoss(code, reason, resuming = handle != null, setUp = setUp))
+        onLost(LiveProtocol.classifyLoss(code, reason, resuming = handle != null, setUp = setUp, httpStatus = httpStatus))
     }
 
     private fun ms() = (System.nanoTime() - openedAt) / 1_000_000

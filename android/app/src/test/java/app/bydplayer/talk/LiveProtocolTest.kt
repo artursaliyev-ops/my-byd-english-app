@@ -126,4 +126,37 @@ class LiveProtocolTest {
         assertEquals(LiveLoss.Network, LiveProtocol.classifyLoss(closeCode = 1011, reason = "", resuming = true, setUp = true))
         assertEquals(LiveLoss.Network, LiveProtocol.classifyLoss(closeCode = 1008, reason = "", resuming = false, setUp = false))
     }
+
+    // Sample close frames for a free-tier refusal. Google documents none for the Live API; these
+    // are the forms developers report (see LiveProtocol.classifyLoss).
+    @Test
+    fun `a close whose reason says the quota or rate limit is hit is a limit, whatever the code`() {
+        val limits = listOf(
+            1011 to "You exceeded your current quota, please check your plan and billing details.",
+            1011 to "Resource has been exhausted (e.g. check quota).",
+            1011 to "RESOURCE_EXHAUSTED",
+            1008 to "Quota exceeded for quota metric 'Live sessions' and limit 'per day'",
+            1011 to "Rate limit exceeded. Try again later.",
+            1013 to "rate-limited",
+            1011 to "Maximum concurrent sessions exceeded",
+        )
+        for ((code, reason) in limits) {
+            for (resuming in listOf(false, true)) for (setUp in listOf(false, true)) {
+                assertEquals("$code $reason", LiveLoss.Limit, LiveProtocol.classifyLoss(code, reason, resuming, setUp))
+            }
+        }
+    }
+
+    @Test
+    fun `an HTTP 429 on the handshake is a limit`() {
+        assertEquals(LiveLoss.Limit, LiveProtocol.classifyLoss(null, null, resuming = false, setUp = false, httpStatus = 429))
+    }
+
+    @Test
+    fun `a 1011 without a limit reason, or another handshake failure, is not a limit`() {
+        assertEquals(LiveLoss.Network, LiveProtocol.classifyLoss(1011, "Internal error encountered.", resuming = false, setUp = true))
+        assertEquals(LiveLoss.Network, LiveProtocol.classifyLoss(1011, "The service is currently unavailable.", resuming = false, setUp = true))
+        assertEquals(LiveLoss.Network, LiveProtocol.classifyLoss(null, null, resuming = false, setUp = false, httpStatus = 503))
+        assertEquals(LiveLoss.HandleRefused, LiveProtocol.classifyLoss(1008, "Invalid session handle", resuming = true, setUp = false))
+    }
 }

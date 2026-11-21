@@ -84,6 +84,9 @@ class TalkTurns {
     /** A new session without the old conversation: once it is set up, say the connection came back. */
     private var cameBack = false
 
+    /** A limit refusal mid-Talk has had its one retry; cleared once a session is set up again. */
+    private var limitRetried = false
+
     fun on(event: TalkEvent): List<TalkEffect> {
         if (state == TurnState.Ended) return emptyList()
         return when (event) {
@@ -134,6 +137,8 @@ class TalkTurns {
                 emptyList()
             }
             TalkEvent.ResumeRefused -> onResumeRefused()
+            TalkEvent.LimitReached -> onLimit()
+            TalkEvent.LimitRetry -> onLimitRetry()
             TalkEvent.FocusPaused -> pause()
             TalkEvent.FocusDucked -> if (ducked) emptyList() else {
                 ducked = true
@@ -302,9 +307,38 @@ class TalkTurns {
         return listOf(TalkEffect.NewSession)
     }
 
+    /**
+     * Gemini's free tier refused (spec §8), never told as the network. Before any session was set
+     * up: the tone and back to the player with the note, the lesson as it was. Mid-Talk: the
+     * screen stays as it is and one retry goes out after [TalkConfig.LIMIT_RETRY_MS]; refused
+     * again, the Talk ends with the note and the lesson resumes by the usual rule.
+     */
+    private fun onLimit(): List<TalkEffect> {
+        if (!setUp) {
+            state = TurnState.Ended
+            return listOf(TalkEffect.PlayNoConnection, TalkEffect.GiveUp(TalkConfig.TALK_LIMIT))
+        }
+        if (limitRetried) {
+            state = TurnState.Ended
+            return listOf(TalkEffect.EndWithNote(TalkConfig.TALK_LIMIT))
+        }
+        limitRetried = true
+        // Held as a reconnect: a late answer is dropped and timers wait for the retry.
+        reconnecting = true
+        return listOf(TalkEffect.After(TalkConfig.LIMIT_RETRY_MS, TalkEvent.LimitRetry))
+    }
+
+    /** The wait after a limit refusal is over: reopen, resending a Turn under way. */
+    private fun onLimitRetry(): List<TalkEffect> {
+        if (!limitRetried || !reconnecting) return emptyList()
+        resendOnSetup = inTurn
+        return reopen()
+    }
+
     /** The next session is set up: say it came back, come back from No signal, resend a failed Turn, or nothing. */
     private fun onReconnected(): List<TalkEffect> {
         reconnecting = false
+        limitRetried = false
         if (cameBack) {
             cameBack = false
             resendOnSetup = false
@@ -536,6 +570,13 @@ sealed interface TalkEvent {
 
     /** The server refused the resumption handle (see [LiveProtocol.classifyLoss]). */
     data object ResumeRefused : TalkEvent
+
+    /** Gemini's free tier refused: a quota or rate limit (see [LiveProtocol.classifyLoss]). */
+    data object LimitReached : TalkEvent
+
+    /** [TalkConfig.LIMIT_RETRY_MS] since a limit refusal mid-Talk: try once more. */
+    data object LimitRetry : TalkEvent
+
     /** Transient focus loss without ducking: a call, "Hi BYD" (spec §10). */
     data object FocusPaused : TalkEvent
 
@@ -621,6 +662,9 @@ sealed interface TalkEffect {
 
     /** End the Talk like [End], but give the lesson back only once audio focus returns. */
     data object EndWhenFocusBack : TalkEffect
+
+    /** End the Talk like [End] and show [note] on the player; the lesson resumes by the usual rule. */
+    data class EndWithNote(val note: String) : TalkEffect
 
     /** End the Talk like [End], but leave the lesson paused: another media app has taken over. */
     data object EndLessonPaused : TalkEffect

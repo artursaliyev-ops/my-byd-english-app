@@ -41,6 +41,12 @@ object TalkConfig {
     /** The note on the player when Talk can't connect (spec §8). */
     const val NO_INTERNET = "No internet"
 
+    /** The note on the player when Gemini's free tier refuses (spec §8). */
+    const val TALK_LIMIT = "Talk limit reached. Try later."
+
+    /** The wait before the one retry after a limit refusal mid-Talk (spec §8). */
+    const val LIMIT_RETRY_MS = 5_000L
+
     /** A Talk's wall-clock cap from its start, No signal and Paused included (spec §6 step 9). */
     const val TALK_CAP_MS = 30 * 60 * 1000L
 

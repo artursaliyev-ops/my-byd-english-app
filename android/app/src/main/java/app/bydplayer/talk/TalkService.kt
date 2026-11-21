@@ -120,6 +120,7 @@ class TalkService : Service() {
     private fun lostEvent(loss: LiveLoss): TalkEvent = when (loss) {
         LiveLoss.Network -> TalkEvent.SessionLost
         LiveLoss.HandleRefused -> TalkEvent.ResumeRefused
+        LiveLoss.Limit -> TalkEvent.LimitReached
     }
 
     private fun handle(event: TalkEvent) {
@@ -156,6 +157,7 @@ class TalkService : Service() {
                     session?.open()
                 }
                 is TalkEffect.GiveUp -> finishTalk(LessonBack.AsBefore, effect.note)
+                is TalkEffect.EndWithNote -> finishTalk(LessonBack.Now, effect.note)
             }
         }
     }

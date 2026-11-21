@@ -4,9 +4,9 @@
 
 **Blocked by:** 18 (Network drops)
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] Quota and rate-limit errors (setup refusal, close codes or error messages) are told apart from network errors in one place, with unit tests using sample error payloads.
-- [ ] At session start → the "no connection" tone, back to the player with "Talk limit reached. Try later.", and the lesson as it was.
-- [ ] Mid-Talk → one retry after 5 s; refused again → the Talk ends with the same note and the lesson resumes by the usual rule.
-- [ ] A limit error never shows "No signal" or "No internet".
+- [x] Quota and rate-limit errors (setup refusal, close codes or error messages) are told apart from network errors in one place, with unit tests using sample error payloads.
+- [x] At session start → the "no connection" tone, back to the player with "Talk limit reached. Try later.", and the lesson as it was.
+- [x] Mid-Talk → one retry after 5 s; refused again → the Talk ends with the same note and the lesson resumes by the usual rule.
+- [x] A limit error never shows "No signal" or "No internet".

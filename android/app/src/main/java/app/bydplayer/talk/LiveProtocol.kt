@@ -88,13 +88,36 @@ object LiveProtocol {
      * [reason] come from the server's close frame, both null for a socket failure; [resuming]
      * says the session was opened with a handle, [setUp] that its `setupComplete` came.
      *
-     * A server that closes a resumed session before setting it up has refused the handle; any
-     * other loss is the network.
+     * [httpStatus] is the handshake's HTTP status when the socket failed before opening.
+     *
+     * A free-tier refusal (quota or rate limit) is a [LiveLoss.Limit], told by the reason text
+     * and never by the close code alone: 1011 also carries plain server errors. Google documents
+     * HTTP `429 RESOURCE_EXHAUSTED` for the Gemini API in general, but no close frame for the Live
+     * API, so the reason forms in [LIMIT_REASON] are assumed, taken from what developers report
+     * (1011 "You exceeded your current quota…", 1011 "Resource has been exhausted", a "Maximum
+     * concurrent sessions" close), plus "rate limit" wordings.
+     *
+     * Otherwise, a server that closes a resumed session before setting it up has refused the
+     * handle; any other loss is the network.
      */
-    fun classifyLoss(closeCode: Int?, reason: String?, resuming: Boolean, setUp: Boolean): LiveLoss = when {
+    fun classifyLoss(
+        closeCode: Int?,
+        reason: String?,
+        resuming: Boolean,
+        setUp: Boolean,
+        httpStatus: Int? = null,
+    ): LiveLoss = when {
+        httpStatus == 429 -> LiveLoss.Limit
+        reason != null && LIMIT_REASON.containsMatchIn(reason) -> LiveLoss.Limit
         closeCode != null && resuming && !setUp -> LiveLoss.HandleRefused
         else -> LiveLoss.Network
     }
+
+    /** Close reasons that mean a quota or rate limit (assumed forms, see [classifyLoss]). */
+    private val LIMIT_REASON = Regex(
+        "resource[_ ]exhausted|resource has been exhausted|quota|rate[- ]?limit|concurrent sessions",
+        RegexOption.IGNORE_CASE,
+    )
 
     private fun JSONObject.transcript(key: String): String? =
         optJSONObject(key)?.optString("text")?.takeIf { it.isNotEmpty() }
@@ -107,6 +130,9 @@ enum class LiveLoss {
 
     /** The server wouldn't resume with the handle: a new session (spec §8). */
     HandleRefused,
+
+    /** Gemini's free tier refused: a quota or rate limit, never shown as the network (spec §8). */
+    Limit,
 }
 
 /** What the Live server tells the Talk (spec §3). */
