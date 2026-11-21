@@ -30,8 +30,9 @@ Goal: a native Android app on the BYD Song Plus head unit (DiLink) for listening
   - resume at the last lesson and position on app start
 
 - **Whisper setup** (ticket 01): mlx-whisper large-v3, Russian pass, then an English pass over gaps > 3 s, anti-hallucination on. About 6–7 min/lesson, about 12 h total. See [01](issues/01-whisper-prototype.md).
+- **[Find out DiLink capabilities on the user's BYD Song Plus](issues/03-dilink-capabilities.md)**: 2025+ Song Plus EV, China firmware with English UI, fixed 15.6" landscape screen. minSdk 28 / targetSdk 33, landscape only, install from USB stick, developer mode on (ADB possible). SAF picker access to USB is still unverified.
 
 ## Fog
 
-- DiLink Android version, screen resolution and whether sideloading is allowed on this car. This sets minSdk and layout.
+- Whether the system folder picker (SAF) exists and can see a USB stick. If it can't, how the audio gets to the app. First checked in Android project skeleton.
 - How the reading lessons relate to the PDF (show PDF pages? out of scope for v1?).
