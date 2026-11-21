@@ -42,6 +42,8 @@ Goal: a native Android app on the BYD Song Plus head unit (DiLink) for listening
 
 - **Hold on media buttons**: if Check steering-wheel button signals on the car shows a distinct hold signal, map hold to the other action from Button mode. How depends on what the car sends: a long-press flag, FAST_FORWARD/REWIND, or key repeats. If there is none, drop it.
 
+- **Car-specific wheel keycodes**: the user remembers wheel presses showing code 301/302 (`DEMO_APP_1/2`) in other apps. If Check steering-wheel button signals on the car confirms the wheel sends only these, Button mode needs a way to catch them. Today the screen sees them only in the foreground and the session never does. Candidates: handle them in the Activity (foreground only) or an AccessibilityService key filter (background, needs a user grant). Decide once the car shows what reaches the app in the background.
+
 ## Out of scope
 
 - **Reading Lessons** (21 mp3 files plus `Pimsleur_Reading_Lesson_Book.pdf`): ruled out by the user on 2026-11-21. The app covers only the 90 audio lessons in I/II/III. No transcripts, no Reading group in the lesson list, no PDF viewer.
