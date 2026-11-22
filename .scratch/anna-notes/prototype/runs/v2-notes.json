@@ -1,0 +1,71 @@
+{
+  "notes": {
+    "facts": [
+      "Your name is Russ Tom.",
+      "You have two kids.",
+      "You work as a manager in a shop.",
+      "You are going to your mother's house on Saturday."
+    ],
+    "talks": [
+      "22 Nov — family, work, weekend plans.",
+      "20 Nov — the traffic, food.",
+      "18 Nov — the weather, music."
+    ]
+  },
+  "writer": {
+    "transcript": "Anna: Hey there. Is the traffic bad today?\nLearner: Hi, my name is Russ Tom.\nAnna: Ha, interesting name. Where are you driving to?\nLearner: I have two kids, a boy and a girl.\nAnna: Wow, what a busy life! Are they old now?\nLearner: I work in a big shop. I am a manager.\nAnna: A manager, huh? Do you like your job?\nLearner: My back hurts a lot today.\nAnna: That sounds damn awful. Maybe try some gentle stretches, but you should definitely see a doctor about that. This is not medical advice, so please see a healthcare professional.\nLearner: On Saturday, we are going to my mother's house.\nAnna: That sounds nice. What are you going to do there?\nLearner: Okay, bye.\nAnna: Bye! Drive safe. Talk to you later.",
+    "raw": {
+      "facts": [
+        "Your name is Russ Tom.",
+        "You have two kids.",
+        "You work as a manager in a shop.",
+        "You are going to your mother's house on Saturday."
+      ],
+      "topics": "family, work, weekend plans"
+    }
+  },
+  "talk_a": [
+    {
+      "heard": "",
+      "said": "Hey there. Is the traffic bad today?",
+      "line": "(opening)",
+      "wav": "talk_a/anna_00.wav"
+    },
+    {
+      "heard": "Hi, my name is Russ Tom.",
+      "said": "Ha, interesting name. Where are you driving to?",
+      "line": "Hi, my name is Russ Tom.",
+      "wav": "talk_a/anna_01.wav"
+    },
+    {
+      "heard": "I have two kids, a boy and a girl.",
+      "said": "Wow, what a busy life! Are they old now?",
+      "line": "I have two kids, a boy and a girl.",
+      "wav": "talk_a/anna_02.wav"
+    },
+    {
+      "heard": "I work in a big shop. I am a manager.",
+      "said": "A manager, huh? Do you like your job?",
+      "line": "I work in a big shop. I am a manager.",
+      "wav": "talk_a/anna_03.wav"
+    },
+    {
+      "heard": "My back hurts a lot today.",
+      "said": "That sounds damn awful. Maybe try some gentle stretches, but you should definitely see a doctor about that. This is not medical advice, so please see a healthcare professional.",
+      "line": "My back hurts a lot today.",
+      "wav": "talk_a/anna_04.wav"
+    },
+    {
+      "heard": "On Saturday, we are going to my mother's house.",
+      "said": "That sounds nice. What are you going to do there?",
+      "line": "On Saturday, we are going to my mother's house.",
+      "wav": "talk_a/anna_05.wav"
+    },
+    {
+      "heard": "Okay, bye.",
+      "said": "Bye! Drive safe. Talk to you later.",
+      "line": "Okay, bye.",
+      "wav": "talk_a/anna_06.wav"
+    }
+  ]
+}
