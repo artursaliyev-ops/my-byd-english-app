@@ -32,6 +32,7 @@ A hand-off-ready **spec** at `.scratch/anna-notes/spec.md` for **Notes**: Anna k
 - [Shape the Notes list and wipe button in Settings](issues/04-notes-in-settings.md): an "Anna's notes" section after "Record my answers", always visible (no driving signal), "About you" facts in short second-person lines and "Your last Talks" by date, shown exactly as stored; "Delete Anna's notes" with a confirm dialog.
 - [Decide when Notes are written and how the list is kept](issues/02-when-notes-are-written.md): every ending with ≥ 3 Turns gets one call after the Talk, 20 s in all with one retry; a new Talk doesn't wait; the app keeps the newest 10 Talk lines, the model returns ≤ 20 facts with corrections in place; one `filesDir/anna-notes.json` written atomically; a wipe deletes it and the Talk in progress writes nothing.
 - [Read the project's free-tier limits in AI Studio](issues/06-read-free-tier-limits.md): free tier gives `gemini-3.1-flash-lite` and `3.5-flash-lite` 15 RPM / 250K TPM / 500 RPD each, Live unlimited requests at 65K TPM; ~1–3 Notes calls a day and ~420 extra setup tokens fit with room to spare.
+- [Prototype how Anna uses Notes](issues/03-anna-with-notes.md): a framed Notes block (with today's date) at the end of the system instruction, with rules: never ask again or check ("…, right?"), at most one unprompted use a Talk, nothing made up, name at most once; the app asks for a note in the hello on every second Talk; owner approved the amount. Owner-voice test set with Notes still unverified. Prototype on branch `prototype/anna-notes-use`.
 
 ## Not yet specified
 
@@ -41,4 +42,5 @@ A hand-off-ready **spec** at `.scratch/anna-notes/spec.md` for **Notes**: Anna k
 
 - **Editing single Notes** and a **"forget that" voice command**: ruled out in charting; wiping all Notes in Settings is the only control.
 - **Moving Talk to `gemini-3.8-live`** (3.1 flash live is now "legacy"; 3.8 has async tools): a model change for Talk as a whole, not part of Notes.
+- **Anna giving medical advice** ("see a doctor… This is not medical advice" to "My back hurts", seen in [Prototype how Anna uses Notes](issues/03-anna-with-notes.md)): a break of the base prompt's rule, for voice talk, not Notes.
 - **Tying Notes to the learner's Pimsleur level or lessons**: as in voice talk, Anna keeps one fixed A1–A2 rule.
