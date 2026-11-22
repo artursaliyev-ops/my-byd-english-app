@@ -26,3 +26,13 @@ Resolved 2026-11-22 (research, AFK). Findings with sources and probe numbers: no
 - **Car switched off before the reply:** nothing is written and the old Notes stay, which is the agreed rule.
 - **Limits:** Google publishes no free-tier request limits for Flash-Lite or Live (read them in the project's AI Studio page); one call per Talk is ~1–3 requests a day. `gemini-3.1-flash-live-preview` is now "legacy"; `gemini-3.8-live` supports async tools.
 - **Unmeasured:** text-call latency over the hotspot, this project's real limits, accuracy on a real noisy ~75-Turn transcript, and whether Notes in the prompt change the test set's pass rate (the last is [Prototype how Anna uses Notes](03-anna-with-notes.md)).
+
+### Caveats from a second check (2026-11-22)
+
+Not in notes-writing.md; from a later check of the same docs and developer forums.
+
+- **Tool calls weaker still:** forum users (not Google staff) report Anna's audio cutting off when 3.1 flash live calls a tool, and the model sometimes saying the result instead of calling it; the Live API reference also says a session can't be resumed while a function call is pending. More reason against (a).
+- **Retry the text call:** a forum thread from August 2026 reports 429s on `gemini-3.1-flash-lite` far below quota. Retry at least once inside the ~20 s.
+- **Schema field to confirm:** the probe used `generationConfig.responseJsonSchema`, but today's structured-output page shows `generationConfig.responseFormat.text.{mimeType, schema}` for REST. The build confirms which one `v1beta` accepts.
+- **The app must keep both transcripts:** Talk today keeps only Anna's latest line (`annaLine` in `TalkTurns.kt`). Notes need the learner's and Anna's transcripts for the whole Talk, still in memory only.
+- **Mishearing becomes a wrong fact:** the learner's transcript is a separate speech-recognition pass, so a misheard word can turn into a fact. Sending Anna's transcript too helps, since she often repeats what she heard.
