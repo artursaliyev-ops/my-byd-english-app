@@ -34,7 +34,8 @@ import com.google.common.util.concurrent.ListenableFuture
  * focus and the [TalkTurns] state machine for one Talk. Every event is handled on the main
  * thread: socket, mic and playback callbacks are posted here, fed to [TalkTurns], and its effects
  * carried out. Started only from the visible Talk button, so the one recording of the Talk starts
- * while the app is on screen. Nothing from a Talk is written to disk.
+ * while the app is on screen. Nothing from a Talk is written to disk but its Notes, by
+ * [AnnaNotes] after it ends (Notes spec §4).
  */
 class TalkService : Service() {
     private val main = Handler(Looper.getMainLooper())
@@ -51,6 +52,9 @@ class TalkService : Service() {
     private var lesson: MediaController? = null
     private var lessonWasPlaying = false
     private var startedAt = 0L
+
+    /** The Notes this Talk started with (Notes spec §6), and the store's generation for its call. */
+    private var notes: AnnaNotes.Start? = null
 
     /** When the last "no connection" tone finishes, so a Talk that ends on it lets it play out. */
     private var toneUntil = 0L
@@ -88,7 +92,8 @@ class TalkService : Service() {
         // Voice practice gives the mic up; it comes back by its own rule after the Talk (spec §5).
         RecorderService.stop(this)
         goForeground()
-        turns = TalkTurns()
+        val start = AnnaNotes.start(this).also { notes = it }
+        turns = TalkTurns(start.opening)
         publish()
         // The 30-min cap counts from here, wall-clock (spec §6 step 9).
         timers.postDelayed({ handle(TalkEvent.TimeUp) }, TalkConfig.Timing.TALK_CAP_MS)
@@ -103,7 +108,8 @@ class TalkService : Service() {
             onEvent = { e -> main.post { handle(TalkEvent.Mic(e)) } },
             onFailed = { main.post { Log.w(TAG, "mic failed: ending the Talk"); handle(TalkEvent.EndPressed) } },
         ).also { it.start() }
-        val prompt = assets.open(TalkConfig.Protocol.PROMPT_ASSET).bufferedReader().use { it.readText() }.trim()
+        // The same prompt, Notes included, goes in every setup of this Talk (Notes spec §6).
+        val prompt = start.prompt
         session = LiveLink(
             connect = { resume, onEvent, onLost ->
                 LiveSession(BuildConfig.GEMINI_API_KEY, prompt, onEvent, onLost, resume)
@@ -198,6 +204,9 @@ class TalkService : Service() {
      * on the player.
      */
     private fun finishTalk(lessonBack: LessonBack = LessonBack.Now, note: String? = null, asBefore: Boolean = false) {
+        val transcript = turns?.transcript.orEmpty().toList()
+        notes?.let { AnnaNotes.afterTalk(this, it, transcript) }
+        notes = null
         turns = null
         quietSince = null
         timers.removeCallbacksAndMessages(null)

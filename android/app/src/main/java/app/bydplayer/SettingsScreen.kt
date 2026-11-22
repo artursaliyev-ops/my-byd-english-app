@@ -33,10 +33,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import app.bydplayer.talk.AnnaNotes
 
 /**
  * Settings: the Button mode for the media buttons, "Record my answers" for voice practice,
- * and a **Last button** readout of the signals the app received, so the user can see in
+ * "Anna's notes" (read-only, with a wipe; Notes spec §7), and a **Last button** readout of the signals the app received, so the user can see in
  * the car what the steering wheel sends.
  */
 @Composable
@@ -47,6 +48,10 @@ fun SettingsScreen(onBack: () -> Unit) {
     var recordAnswers by remember { mutableStateOf(store.recordAnswers() && VoicePractice.hasMicPermission(context)) }
     var permissionDenied by remember { mutableStateOf(false) }
     var confirmDelete by remember { mutableStateOf(false) }
+    var confirmDeleteNotes by remember { mutableStateOf(false) }
+    // Reads the file once; a call that writes while Settings is open updates it.
+    remember { AnnaNotes.store(context) }
+    val notes = AnnaNotes.current
     fun turnOn() {
         store.setRecordAnswers(true)
         recordAnswers = true
@@ -137,6 +142,45 @@ fun SettingsScreen(onBack: () -> Unit) {
                     }) { Text("Delete") }
                 },
                 dismissButton = { TextButton(onClick = { confirmDelete = false }) { Text("Cancel") } },
+            )
+        }
+
+        Text("Anna's notes", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(top = 16.dp))
+        Text(
+            "Anna keeps a few short notes about you and your last Talks, so she remembers them next time. " +
+                "On this car only. No sound and no full talk is kept.",
+            style = MaterialTheme.typography.bodyLarge,
+            color = dim,
+        )
+        if (notes.isEmpty) {
+            Text("No notes yet.", style = MaterialTheme.typography.bodyLarge, color = dim)
+        } else {
+            if (notes.facts.isNotEmpty()) {
+                Text("About you", style = MaterialTheme.typography.titleMedium)
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    notes.facts.forEach { Text(it, style = MaterialTheme.typography.bodyLarge) }
+                }
+            }
+            if (notes.talks.isNotEmpty()) {
+                Text("Your last Talks", style = MaterialTheme.typography.titleMedium)
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    notes.talks.forEach { Text(it.shown, style = MaterialTheme.typography.bodyLarge) }
+                }
+            }
+            GlassButton(onClick = { confirmDeleteNotes = true }, modifier = Modifier.height(80.dp)) { GlassLabel("Delete Anna's notes") }
+        }
+        if (confirmDeleteNotes) {
+            AlertDialog(
+                onDismissRequest = { confirmDeleteNotes = false },
+                title = { Text("Delete Anna's notes?") },
+                text = { Text("Anna will forget everything in her notes. This can't be undone.") },
+                confirmButton = {
+                    TextButton(onClick = {
+                        AnnaNotes.wipe(context)
+                        confirmDeleteNotes = false
+                    }) { Text("Delete") }
+                },
+                dismissButton = { TextButton(onClick = { confirmDeleteNotes = false }) { Text("Cancel") } },
             )
         }
 

@@ -21,6 +21,11 @@ class AppSetup:
     voice: str
     opening: str
     prompt: str
+    # Anna's notes (Notes spec §4, §6): the recall opening, the Notes block and the writer call.
+    opening_recall: str = ""
+    notes_block: str = ""
+    notes_writer: str = ""
+    notes_model: str = ""
 
 
 IN_RATE = 16_000
@@ -127,6 +132,30 @@ def app_setup(repo: pathlib.Path) -> AppSetup:
             voice=consts["VOICE"],
             opening=consts["OPENING"],
             prompt=(repo / ASSETS / consts["PROMPT_ASSET"]).read_text(encoding="utf-8"),
+            opening_recall=consts["OPENING_RECALL"],
+            notes_block=(repo / ASSETS / consts["BLOCK_ASSET"]).read_text(encoding="utf-8"),
+            notes_writer=(repo / ASSETS / consts["WRITER_ASSET"]).read_text(encoding="utf-8"),
+            notes_model=consts["NOTES_MODEL"],
         )
     except KeyError as e:
         raise SystemExit(f"{TALK_CONFIG} no longer has a plain string constant {e}; update testset.py")
+
+
+# ---- Anna's notes (Notes spec §2, §6), the same text as Notes.kt builds ----
+
+def talk_line(date, topics: str) -> str:
+    """As Settings shows it: "22 Nov — work, the weekend." ([date] a datetime.date)."""
+    return f"{date.day} {date.strftime('%b')} — {topics.strip().rstrip('.')}."
+
+
+def prompt_with_notes(s: AppSetup, facts: list, talks: list, today) -> str:
+    """Anna's system instruction with Notes, as `Notes.prompt`: [talks] are shown lines; [today] a date."""
+    if not facts and not talks:
+        return s.prompt
+    def lines(items):
+        return "\n".join(f"- {i}" for i in items) if items else "- (none yet)"
+    block = (s.notes_block.strip()
+             .replace("{today}", f"{today.strftime('%A')}, {today.day} {today.strftime('%b')}")
+             .replace("{facts}", lines(facts))
+             .replace("{talks}", lines(talks)))
+    return s.prompt.rstrip() + "\n\n" + block

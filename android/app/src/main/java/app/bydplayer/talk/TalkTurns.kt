@@ -17,7 +17,10 @@ package app.bydplayer.talk
  * came-back, time-up) also gets an answer from Anna; this machine runs each such exchange like
  * a Turn, with the same timeout and retry, though the glossary's Turn is the learner's.
  */
-class TalkTurns {
+class TalkTurns(
+    /** The opening control text: the normal one, or the recall one on every second Talk with Notes (Notes spec §6). */
+    private val opening: String = TalkConfig.Text.OPENING,
+) {
     // ---- What the screen shows ----
 
     val state: TurnState
@@ -31,6 +34,22 @@ class TalkTurns {
     /** Anna's latest line, from her output transcript (spec §7). Kept in memory only. */
     var annaLine: String = ""
         private set
+
+    /**
+     * The whole Talk's transcript (Notes spec §3), across reconnects: each exchange Anna answered,
+     * with what the learner said (null after control text). In memory only, for the Notes call.
+     */
+    val transcript: List<SaidTurn> get() = said
+
+    private val said = mutableListOf<SaidTurn>()
+    private val learnerNow = StringBuilder()
+    private val annaNow = StringBuilder()
+
+    /** A new exchange (or its retry) begins: what came before it is not part of it. */
+    private fun freshExchange() {
+        learnerNow.setLength(0)
+        annaNow.setLength(0)
+    }
 
     /** How full the white silence ring is in Your turn, 0 to 1 (spec §6 step 4). */
     var silence: Float = 0f
@@ -254,12 +273,13 @@ class TalkTurns {
     /** Sends [text] with its Turn timeout. Every text but the nudge starts a new session's context afresh. */
     private fun sendControl(text: String): List<TalkEffect> {
         if (text != TalkConfig.Text.QUIET) contextLost = false
+        freshExchange()
         return listOf(TalkEffect.SendText(text), armTurnTimeout())
     }
 
     private fun sendOpening(): List<TalkEffect> {
         opened = true
-        return beginControlTurn(TalkConfig.Text.OPENING)
+        return beginControlTurn(opening)
     }
 
     private fun sendTimeUp(): List<TalkEffect> {
@@ -509,6 +529,7 @@ class TalkTurns {
         val text = controlText
         if (contextLost && (text == null || text == TalkConfig.Text.QUIET)) return cameBack()
         if (text != null) return sendControl(text)
+        freshExchange()
         val resend = listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(utterance))
         // Still speaking: the rest goes out live from here.
         if (phase == TurnState.You) return resend
@@ -536,7 +557,12 @@ class TalkTurns {
         } else {
             emptyList()
         }
+        is LiveEvent.LearnerSaid -> {
+            learnerNow.append(event.text)
+            emptyList()
+        }
         is LiveEvent.AnnaSaid -> if (droppingAnswer) emptyList() else {
+            annaNow.append(event.text)
             annaLine = if (lineDone) event.text.trim() else (annaLine + event.text).trimStart()
             lineDone = false
             emptyList()
@@ -553,6 +579,7 @@ class TalkTurns {
     private fun onTurnComplete(): List<TalkEffect> {
         lineDone = true
         inTurn = false
+        if (!droppingAnswer) keepExchange()
         val drain = if (droppingAnswer) {
             droppingAnswer = false
             emptyList()
@@ -570,6 +597,13 @@ class TalkTurns {
         return drain + if (goAwayPending) reconnectBetweenTurns() else emptyList()
     }
 
+    private fun keepExchange() {
+        val anna = annaNow.toString().replace(Regex("\\s+"), " ").trim()
+        val learner = learnerNow.toString().replace(Regex("\\s+"), " ").trim()
+        if (anna.isNotEmpty()) said += SaidTurn(learner.ifEmpty { null }, anna)
+        freshExchange()
+    }
+
     private fun onMic(event: MicEvent): List<TalkEffect> {
         if (!listening) return emptyList()
         return when (event) {
@@ -584,6 +618,7 @@ class TalkTurns {
                 droppingAnswer = false
                 heard.reset()
                 heard.write(event.preRoll)
+                freshExchange()
                 listOf(TalkEffect.StartActivity, TalkEffect.SendAudio(event.preRoll))
             }
             is MicEvent.Audio -> {

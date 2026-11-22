@@ -5,7 +5,8 @@ activityStart / activityEnd (activity detection is off: the head unit decides th
 and streamed in real time in 100 ms chunks. First-audio time is from activityEnd (from the
 opening text for case 1); the app adds its end-of-speech silence window on top.
 
-Usage: <venv>/bin/python -I tools/talk_test_set/run.py CLIPS_FOLDER [--label NAME]
+Usage: <venv>/bin/python -I tools/talk_test_set/run.py CLIPS_FOLDER [--label NAME] [--notes NOTES_JSON]
+--notes: run with Anna's Notes in the prompt (a file like two_talks.py writes: {"facts": [...], "talks": [...]}).
 Needs google-genai (see README). Key: GEMINI_API_KEY in android/local.properties, never printed.
 Writes tools/out/talk_test_set/<label>/ (git-ignored): results.json and Anna's replies as WAV.
 """
@@ -87,14 +88,19 @@ async def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("clips", type=pathlib.Path, help="folder of case_02.wav..case_14.wav, 16 kHz mono")
     ap.add_argument("--label", help="results folder name (default: clips folder name)")
+    ap.add_argument("--notes", type=pathlib.Path, help="Notes JSON to put in Anna's prompt (Notes spec §8)")
     a = ap.parse_args()
     setup = testset.app_setup(REPO)
+    if a.notes:
+        import dataclasses, datetime
+        n = json.loads(a.notes.read_text(encoding="utf-8"))
+        setup = dataclasses.replace(setup, prompt=testset.prompt_with_notes(setup, n["facts"], n["talks"], datetime.date.today()))
     clips = testset.load_clips(a.clips)
     out_dir = REPO / "tools/out/talk_test_set" / (a.label or a.clips.name)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     client = genai.Client(api_key=testset.api_key(REPO), http_options={"api_version": setup.api_version})
-    print(f"{setup.model}, voice {setup.voice}, {setup.api_version}, clips {a.clips}")
+    print(f"{setup.model}, voice {setup.voice}, {setup.api_version}, clips {a.clips}" + (f", Notes {a.notes}" if a.notes else ""))
     results = []
     async with client.aio.live.connect(model=setup.model, config=live_config(setup)) as session:
         for case in testset.CASES:
@@ -123,4 +129,5 @@ async def main():
     print(f"Judge each case against 'expect' (README). Pass: >= {testset.PASS_BAR}/{len(testset.CASES)} with 7, 10, 11. -> {out_dir}")
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

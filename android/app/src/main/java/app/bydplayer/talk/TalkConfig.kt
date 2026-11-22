@@ -22,10 +22,29 @@ object TalkConfig {
         const val PROMPT_ASSET = "talk/anna-prompt.txt"
     }
 
+    /** Anna's Notes (Notes spec §4, §6). */
+    object NotesCall {
+        /** The writer call: one `v1beta` `generateContent` request, then one retry on the fallback. */
+        const val ENDPOINT = "https://generativelanguage.googleapis.com/${Protocol.API_VERSION}/models"
+        const val NOTES_MODEL = "gemini-3.1-flash-lite"
+        const val NOTES_FALLBACK_MODEL = "gemini-3.5-flash-lite"
+
+        /** The whole call, retry included; the first try gets at most [FIRST_TRY_MS]. */
+        const val BUDGET_MS = 20_000L
+        const val FIRST_TRY_MS = 10_000L
+
+        const val WRITER_ASSET = "talk/notes-writer.txt"
+        const val BLOCK_ASSET = "talk/anna-notes-block.txt"
+        const val NOTES_FILE = "anna-notes.json"
+    }
+
     /** Words: the app's control text (spec §4), Anna's fixed reply, and the player's notes. */
     object Text {
         /** App control text (spec §4), sent as bare realtime text. */
         const val OPENING = "(The learner pressed Talk. Start the Talk.)"
+
+        /** The opening on every second Talk that has Notes (Notes spec §6). */
+        const val OPENING_RECALL = "(The learner pressed Talk. Start the Talk. In your hello, ask about one thing from the notes.)"
         const val QUIET = "(The learner is quiet.)"
         const val TIME_UP = "(Time is up.)"
 
