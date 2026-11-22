@@ -30,11 +30,12 @@ A hand-off-ready **spec** at `.scratch/anna-notes/spec.md` for **Notes**: Anna k
 
 - [Find how Notes can be written and carried in on the free tier](issues/01-how-notes-are-written.md): one free text-model call after the Talk (`gemini-3.1-flash-lite`, JSON schema) returns the whole new list from the old Notes plus the in-memory transcripts; Notes go into the next Talk's system instruction (~420 tokens, no slower hello); no tool calls mid-Talk, no asking Anna at the end. Research on branch `research/anna-notes-writing`.
 - [Shape the Notes list and wipe button in Settings](issues/04-notes-in-settings.md): an "Anna's notes" section after "Record my answers", always visible (no driving signal), "About you" facts in short second-person lines and "Your last Talks" by date, shown exactly as stored; "Delete Anna's notes" with a confirm dialog.
-- [Decide when Notes are written and how the list is kept](issues/02-when-notes-are-written.md): every ending with ≥ 3 Turns gets one 20 s, no-retry call after the Talk; a new Talk doesn't wait; the app keeps the newest 10 Talk lines, the model returns ≤ 20 facts with corrections in place; one `filesDir/anna-notes.json` written atomically; a wipe deletes it and the Talk in progress writes nothing.
+- [Decide when Notes are written and how the list is kept](issues/02-when-notes-are-written.md): every ending with ≥ 3 Turns gets one call after the Talk, 20 s in all with one retry; a new Talk doesn't wait; the app keeps the newest 10 Talk lines, the model returns ≤ 20 facts with corrections in place; one `filesDir/anna-notes.json` written atomically; a wipe deletes it and the Talk in progress writes nothing.
+- [Read the project's free-tier limits in AI Studio](issues/06-read-free-tier-limits.md): free tier gives `gemini-3.1-flash-lite` and `3.5-flash-lite` 15 RPM / 250K TPM / 500 RPD each, Live unlimited requests at 65K TPM; ~1–3 Notes calls a day and ~420 extra setup tokens fit with room to spare.
 
 ## Not yet specified
 
-<!-- nothing open: the setup-cost question was answered by the research ticket (no slower hello, ~420 tokens); the real free-tier numbers are their own ticket -->
+<!-- nothing open: setup cost and free-tier numbers are both answered -->
 
 ## Out of scope
 
