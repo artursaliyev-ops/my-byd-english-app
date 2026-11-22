@@ -33,6 +33,7 @@ A hand-off-ready **spec** at `.scratch/anna-notes/spec.md` for **Notes**: Anna k
 - [Decide when Notes are written and how the list is kept](issues/02-when-notes-are-written.md): every ending with ≥ 3 Turns gets one call after the Talk, 20 s in all with one retry; a new Talk doesn't wait; the app keeps the newest 10 Talk lines, the model returns ≤ 20 facts with corrections in place; one `filesDir/anna-notes.json` written atomically; a wipe deletes it and the Talk in progress writes nothing.
 - [Read the project's free-tier limits in AI Studio](issues/06-read-free-tier-limits.md): free tier gives `gemini-3.1-flash-lite` and `3.5-flash-lite` 15 RPM / 250K TPM / 500 RPD each, Live unlimited requests at 65K TPM; ~1–3 Notes calls a day and ~420 extra setup tokens fit with room to spare.
 - [Prototype how Anna uses Notes](issues/03-anna-with-notes.md): a framed Notes block (with today's date) at the end of the system instruction, with rules: never ask again or check ("…, right?"), at most one unprompted use a Talk, nothing made up, name at most once; the app asks for a note in the hello on every second Talk; owner approved the amount. Owner-voice test set with Notes still unverified. Prototype on branch `prototype/anna-notes-use`.
+- [Write the Notes spec](issues/05-write-the-spec.md): the hand-off spec at [spec.md](spec.md); the voice talk spec points to it for "Nothing on disk but Notes"; §10 lists seven defaults no ticket settled.
 
 ## Not yet specified
 

@@ -12,7 +12,7 @@ In:
 Out:
 - **Offline Talk.** Tried and failed the bar on the car; no offline fallback (*Decide whether Talk runs offline or in the cloud*).
 - **Level tracking**: tying Anna's English to the current Pimsleur lesson or vocabulary (map, Out of scope).
-- **Memory between Talks** and any stored transcript or audio (*Decide what Talk remembers and keeps*).
+- Any stored transcript or audio (*Decide what Talk remembers and keeps*). **Memory between Talks** is now [Anna's notes](../anna-notes/spec.md): a few short text Notes, nothing else.
 - **Barge-in** (cutting in while Anna speaks), until the car echo check (§12) passes (*Shape the Talk screen…*, *Decide how Talk behaves around calls…*).
 - **A paid tier** and OpenAI Realtime (*Pick the cloud provider, model and key*).
 
@@ -54,6 +54,8 @@ Out:
 ## 4. Anna: the talk partner prompt
 
 *From "Decide how the talk partner behaves". Same prompt the probes ran; the last three rules are new for the app's control text.*
+
+With [Anna's notes](../anna-notes/spec.md) (§6 there), "You don't know the learner's name and you don't ask it." becomes "You never ask the learner's name.", and a Notes block follows the prompt when there are Notes.
 
 ```
 You are Anna, a funny American woman with a teasing, a bit sarcastic sense of humor, but warm underneath. You are chatting in English with a learner who is driving a car. The learner speaks Russian and is learning English with Pimsleur. You are a friend in the passenger seat, not a teacher. You don't know the learner's name and you don't ask it.
@@ -123,7 +125,7 @@ Known misses on the Mac run (machine voice): case 2 (no recast) and case 7 (answ
 - **One recording for the whole Talk.** Start it once, from the visible screen, and stop it when the Talk ends. "Mic closed" anywhere in this spec means its samples are **dropped in software**, never a stop and restart: a restart from the background is muted on the car.
 - **Silenced capture:** if `AudioRecordingConfiguration.isClientSilenced()` turns true, treat the samples as silence.
 - **Voice practice:** at Talk start, stop `RecorderService` if it is running; it starts again by its own rule (the app on screen while a lesson plays). Attempts made before the Talk are untouched.
-- **Nothing on disk** (*Decide what Talk remembers and keeps*): mic audio, Anna's audio and transcripts live in memory only, for the current Turn or session. Logs carry timings and errors only: no transcripts, no audio, no key.
+- **Nothing on disk but Notes** (*Decide what Talk remembers and keeps*, changed by [Anna's notes](../anna-notes/spec.md)): mic audio, Anna's audio and transcripts live in memory only; both transcripts are kept for the whole Talk until its Notes call is done, then dropped. The only thing written is `filesDir/anna-notes.json` (Notes spec §5). Logs carry timings and errors only: no transcripts, no Notes, no audio, no key.
 
 ## 6. Turn lifecycle
 
