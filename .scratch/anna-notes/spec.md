@@ -142,7 +142,7 @@ Unmeasured. Run them before the build ships; each has a bar and a fallback.
 
 | Check | Bar | If it fails |
 |---|---|---|
-| **Schema field**: one `v1beta` `generateContent` call with `responseJsonSchema`, then with `responseFormat` | One is accepted and returns schema-valid JSON | Use the one that works; if neither does, send `responseMimeType` only and rely on the app's validation |
+| ~~**Schema field**~~ (settled 2026-11-22 from the Mac: `responseJsonSchema` returned schema-valid JSON in 2.0 s; `responseFormat.text.mimeType` got HTTP 400) | | |
 | **Owner's voice test set with Notes** (Mac, then car) | ≥ 12/14 with cases 7, 10, 11 | Tune the Notes block and rerun; the base prompt must still pass without Notes |
 | **Writer on a real Talk**: three real 10–20 min Talks over the hotspot | Each call returns within 20 s; Notes are right, A1–A2, nothing never-write, corrections replace | Over 20 s: raise `NOTES_BUDGET_MS`. Wrong facts: tune `notes-writer.txt` |
 | **Car switched off** right after "bye" | Old Notes stay whole and readable | The temp-and-rename write is wrong; fix it |

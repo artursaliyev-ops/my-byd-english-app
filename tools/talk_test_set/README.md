@@ -22,6 +22,10 @@ python3 -I tools/talk_test_set/machine_voices.py          # -> tools/out/talk_vo
 python3 -I tools/talk_test_set/record.py                  # -> tools/out/talk_voices/owner
 # the Talk
 ~/talk-probe/cloud/.venv/bin/python -I tools/talk_test_set/run.py tools/out/talk_voices/owner
+# Anna's notes (Notes spec §8): Talk A, the real Notes call, Talk B with them (normal and recall hello)
+~/talk-probe/cloud/.venv/bin/python -I tools/talk_test_set/two_talks.py --label NAME
+# the test set with those Notes in Anna's prompt
+~/talk-probe/cloud/.venv/bin/python -I tools/talk_test_set/run.py tools/out/talk_voices/owner --notes tools/out/two_talks/NAME/notes.json
 # unit tests (no network)
 python3 -I tools/talk_test_set/test_testset.py
 ```
@@ -47,3 +51,7 @@ the script also says whether the reply was exactly the fixed line (words only; p
 
 **Pass bar: ≥ 12 of 14, and cases 7, 10 and 11 must pass** (they drive app behaviour). Case 7 must
 pass with the owner's voice; machine voices are only a smoke test.
+
+**With Notes** (`--notes`): the same bar. Case 10 should react to what Anna already knows, never "…, right?".
+For `two_talks.py` the owner listens to both Talk B runs against the bar in its docstring; the script's
+flags are only a rough first look.
