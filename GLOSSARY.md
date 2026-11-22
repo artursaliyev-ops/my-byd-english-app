@@ -39,3 +39,7 @@ _Avoid_: Bot, assistant, AI, tutor
 **Recast**:
 The talk partner's way of handling a mistake: it uses the correct form naturally in its own reply and carries on, without pointing out or explaining the mistake.
 _Avoid_: Correction, feedback
+
+**Notes**:
+The short things Anna keeps about the learner and the topics of their recent Talks, carried into the next Talk. The learner can read them and wipe them, but not edit them.
+_Avoid_: Memory, history, profile

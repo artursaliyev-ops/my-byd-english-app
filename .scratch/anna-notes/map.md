@@ -1,0 +1,38 @@
+# Anna's notes — map
+Label: wayfinder:map
+
+## Destination
+
+A hand-off-ready **spec** at `.scratch/anna-notes/spec.md` for **Notes**: Anna keeps a few short facts about the learner and the topics of recent Talks, and uses them in the next Talk, so a session can build it without new decisions.
+
+## Notes
+
+- Domain: the Android app in `android/`; Talk lives in `android/app/src/main/java/app/bydplayer/talk/` and is specced in [the voice talk spec](../voice-talk/spec.md). Terms **Talk**, **Turn**, **Talk partner** and **Notes** are in `GLOSSARY.md`. Consult `domain-modeling` for new terms.
+- This reverses part of [Decide what Talk remembers and keeps](../voice-talk/issues/12-memory-and-retention.md): the head unit now keeps Notes as text. Everything else there still holds: no audio, no full transcript, logs carry timings and errors only.
+- Car: DiLink 5.0, Android 12; the model is Gemini Live (`gemini-3.1-flash-live-preview`, API `v1beta`) on the **free tier**, key from `local.properties`. Anna's prompt is `android/app/src/main/assets/talk/anna-prompt.txt`; the test set runner is `tools/talk_test_set/`.
+- Settled in charting (2026-11-22, owner):
+  - Destination is a spec, not code.
+  - Only short text Notes are stored on the head unit: no audio, no transcript.
+  - Notes hold both facts about the learner (job, family, kids, car, likes; about 20 at most) and the topics of the last ~10 Talks with their dates; older ones drop off.
+  - Anna uses them lightly: sometimes one thing from last time in her hello, sometimes a reference mid-Talk, and she doesn't ask again what she already knows. Not every time.
+  - Name: kept only if the learner says it, used sometimes; Anna never asks for it.
+  - Never written, even if said: health, religion, politics, money, and exact addresses (home, work).
+  - Corrections by voice replace the old fact ("No, I have three kids"). No "forget that" voice command.
+  - A Talk with fewer than 3 Turns adds nothing.
+  - If writing Notes fails (no network, a limit, the car switched off), that Talk is silently not kept and the old Notes stay as they were.
+  - Settings shows the Notes as a read-only list (when parked) and has a button that wipes them all. No editing.
+  - A two-Talk test is added (say "I have two kids" in one, Anna remembers it in the next and doesn't ask again), and the current test set must still pass.
+- UI follows the UI6 glass style in `Glass.kt`.
+
+## Decisions so far
+
+<!-- one line per closed ticket -->
+
+## Not yet specified
+
+- Whether Notes add enough to every Talk's setup to slow the first hello or eat into the free tier noticeably; depends on how Notes are written and carried in.
+
+## Out of scope
+
+- **Editing single Notes** and a **"forget that" voice command**: ruled out in charting; wiping all Notes in Settings is the only control.
+- **Tying Notes to the learner's Pimsleur level or lessons**: as in voice talk, Anna keeps one fixed A1–A2 rule.
