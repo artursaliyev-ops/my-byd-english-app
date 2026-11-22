@@ -1,6 +1,6 @@
 # Read the project's free-tier limits in AI Studio
 Type: task
-Status: open
+Status: claimed
 Blocked by:
 
 ## Question

@@ -30,6 +30,7 @@ A hand-off-ready **spec** at `.scratch/anna-notes/spec.md` for **Notes**: Anna k
 
 - [Find how Notes can be written and carried in on the free tier](issues/01-how-notes-are-written.md): one free text-model call after the Talk (`gemini-3.1-flash-lite`, JSON schema) returns the whole new list from the old Notes plus the in-memory transcripts; Notes go into the next Talk's system instruction (~420 tokens, no slower hello); no tool calls mid-Talk, no asking Anna at the end. Research on branch `research/anna-notes-writing`.
 - [Shape the Notes list and wipe button in Settings](issues/04-notes-in-settings.md): an "Anna's notes" section after "Record my answers", always visible (no driving signal), "About you" facts in short second-person lines and "Your last Talks" by date, shown exactly as stored; "Delete Anna's notes" with a confirm dialog.
+- [Decide when Notes are written and how the list is kept](issues/02-when-notes-are-written.md): every ending with ≥ 3 Turns gets one 20 s, no-retry call after the Talk; a new Talk doesn't wait; the app keeps the newest 10 Talk lines, the model returns ≤ 20 facts with corrections in place; one `filesDir/anna-notes.json` written atomically; a wipe deletes it and the Talk in progress writes nothing.
 
 ## Not yet specified
 
