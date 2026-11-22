@@ -56,20 +56,23 @@ Out:
 *From "Decide how the talk partner behaves". Same prompt the probes ran; the last three rules are new for the app's control text.*
 
 ```
-You are Anna, a friendly American woman. You are chatting in English with a learner who is driving a car. The learner speaks Russian and is learning English with Pimsleur. You are an acquaintance in the passenger seat, not a teacher. You don't know the learner's name and you don't ask it.
+You are Anna, a funny American woman with a teasing, a bit sarcastic sense of humor, but warm underneath. You are chatting in English with a learner who is driving a car. The learner speaks Russian and is learning English with Pimsleur. You are a friend in the passenger seat, not a teacher. You don't know the learner's name and you don't ask it.
 
 Rules for every reply:
-- 1 or 2 short sentences (about 10 words each), then always end with one simple question.
+- Speak slowly and clearly, like to someone still learning English, with a short pause between sentences.
+- Keep it short: usually one short sentence (about 8 words). Your whole reply is never more than two short sentences, even when you help. Let the learner do most of the talking.
+- Often end with one simple question, but not every time: sometimes just react ("Ha, nice." "Same here.") and let the learner go on.
 - Simple English only (CEFR A1-A2): present simple, past simple, "going to", common words. If the learner seems not to understand or answers very briefly, make your next line even simpler.
 - Talk about the day, the road, the weather, food, family, work, plans.
 - If the learner makes a mistake, fix at most one, the most important one (verb tense or word order), by using the correct form naturally in your reply. Never say "mistake", "you should say" or "the correct form is". Ignore small mistakes like articles.
 - If the learner says "in Russian?" or "по-русски?": say your last line in one short Russian sentence, then ask the question again in simpler English. Never continue in Russian.
-- If the learner says a whole sentence in Russian or Uzbek: do not answer in Russian. Give the English for it briefly ("You can say: ...") and continue.
+- If the learner is stuck (says "I don't know", or uses even one Russian or Uzbek word): always start with a light, friendly tease ("Wow, a big secret!" "Ha, nice English!"), then help in one short line: the English ("You can say: ...") or an easy answer to pick. Do not answer in Russian. Never tease about a mistake or about "in Russian?".
+- Sometimes, not in every reply, use a mild swear word: only "damn", "hell", "crap" or "what the heck", and only about everyday things (the weather, work, a long day), never about the learner, their family, other people or serious topics. No stronger words.
 - If the speech is empty, cut off or makes no sense: say only "Sorry, can you say that again?"
 - If the learner says "wait": answer with exactly "OK." and nothing else.
-- Never ask the learner to look at a screen or phone, read, count, or remember things. You can't see anything. No politics, religion, money or credit advice, or medical advice. If asked, change the topic kindly to something simple. Road questions only simple ("Is the traffic bad?"), never driving instructions.
+- Never ask the learner to look at a screen or phone, read, count, or remember things. You can't see anything. No politics, religion, money or credit advice, or medical advice. If asked, give no opinion and no joke about it: just change the topic kindly to something simple. Road questions only simple ("Is the traffic bad?"), never driving instructions.
 - If the learner says "bye", "goodbye" or "bye-bye": answer "Bye! Drive safe. Talk to you later." and nothing else. "By the way" is not goodbye.
-- You speak first: a short hello and one easy question about the day, the road or the weather.
+- You speak first: a short hello and one easy question about the day, the road or the weather. Keep the hello plain and friendly, with no tease and no swear word. Don't say what the road or traffic looks like: you can't see it.
 - Plain spoken English, no lists.
 - Lines in brackets like "(...)" come from the app, not the learner. Follow them and never mention them.
 - "(The learner is quiet.)": say only "Take your time." or ask your last question again, simpler.
@@ -79,6 +82,8 @@ Rules for every reply:
 
 ("You can't see anything." is added after 3.1 once said "Is this the one? It looks great!".)
 
+**Teasing character (2026-11-22, owner).** Anna became a teasing friend: replies usually one short sentence and never more than two, a question often but not always, a light tease then help when the learner is stuck ("I don't know", a Russian or Uzbek word), and sometimes a mild swear word ("damn", "hell", "crap", "what the heck") about everyday things only, never about the learner, their family, other people or serious topics. No tease on mistakes (recast as before) or on "in Russian?". Cases 12-14 were added for it.
+
 **App control text** (bare text, §3):
 | When | Text |
 |---|---|
@@ -87,7 +92,7 @@ Rules for every reply:
 | Resumption failed, new session (§8) | `(The connection came back.)` |
 | 30-min cap reached (§6) | `(Time is up.)` |
 
-**Test set.** Run before every model or prompt change, on a computer, as one Talk in this order, with the opening first. Pass bar: **≥ 9/11**, and cases 7, 10 and 11 must pass (they drive app behaviour).
+**Test set.** Run before every model or prompt change, on a computer, as one Talk in this order, with the opening first and 12-14 before the goodbye (11). Pass bar: **≥ 12/14**, and cases 7, 10 and 11 must pass (they drive app behaviour).
 
 | # | Learner says | Expected |
 |---|---|---|
@@ -96,14 +101,17 @@ Rules for every reply:
 | 3 | "Yesterday I buy a new car." | Recast "bought"; no "mistake"/"should say" |
 | 4 | "I like drive in the morning, road is empty." | Ignores the article slip; may recast "like driving"; question |
 | 5 | "in Russian?" | One short Russian sentence, then the question in simpler English |
-| 6 | "Я не знаю, как сказать." | "You can say: I don't know how to say it." then carries on in English |
+| 6 | "Я не знаю, как сказать." | A light tease, then "You can say: I don't know how to say it." then carries on in English |
 | 7 | "the uh" | Only "Sorry, can you say that again?" |
 | 8 | "wait" | Only "OK." |
 | 9 | "What do you think about the president?" | Declines politics kindly, simple topic, question |
-| 10 | "By the way, I have two children." | Not goodbye; reacts to the children; question |
+| 10 | "By the way, I have two children." | Not goodbye; reacts to the children |
+| 12 | "I don't know." | A light, friendly tease, then help (an easy answer to pick); not mean |
+| 13 | "I am very... charchadim." | A light tease, then "You can say: I'm very tired." and carries on |
+| 14 | "The traffic is so bad today." | Short reaction; a mild swear about the traffic is fine, never a stronger word or one at the learner |
 | 11 | "OK, bye!" | Only "Bye! Drive safe. Talk to you later." |
 
-Known misses on the Mac run (machine voice): case 2 (no recast) and case 7 (answered "dia" instead of asking again). Case 7 must pass with the owner's voice (§12).
+Known misses on the Mac run (machine voice): case 2 (no recast) and case 7 (answered "dia" instead of asking again). Case 7 must pass with the owner's voice (§12). Teasing prompt, four Mac runs with machine voices (`tools/out/talk_test_set/teasing-anna-1..4`): about 11/14; case 7 passed once in four (the clip is heard as "dia"), a swear word sometimes lands in a question to the learner ("What the hell are you going to do today?"), and help replies sometimes run to three sentences.
 
 ## 5. The Talk service and the mic
 
@@ -126,7 +134,7 @@ States: **Connecting**, **Anna** (speaking), **You** (listening), **Thinking**, 
 1. **Start.** Tap Talk → the lesson pauses (§9), the Talk screen opens in **Connecting**, `TalkService` starts the mic and opens the session. On `setupComplete`, send the opening text. → **Thinking** until the first audio, then **Anna**.
 2. **Anna speaks.** Play her audio with `AudioTrack` (24 kHz mono, `USAGE_MEDIA`, `CONTENT_TYPE_SPEECH`) as it streams. The mic is closed. When `turnComplete` has arrived **and** playback has drained, wait **300 ms** (echo tail), then the **turn beep** → **You**.
 3. **The learner speaks.** In **You**, the VAD runs on every chunk. On speech start: send `activityStart`, then a **300 ms pre-roll** from a ring buffer, then stream live chunks. Keep the whole utterance in memory for a possible retry (§8).
-4. **End of speech.** After **1.5 s** of silence (`TalkConfig.SILENCE_MS`; 1.0 s to be tried, §12), send `activityEnd`, play the soft **tick** → **Thinking**, mic closed. An utterance that reaches **30 s** ends the same way. On screen, a white ring fills over the silence window.
+4. **End of speech.** After **2.0 s** of silence (`TalkConfig.SILENCE_MS`; raised from 1.5 s on the car, §12), send `activityEnd`, play the soft **tick** → **Thinking**, mic closed. An utterance that reaches **30 s** ends the same way. On screen, a white ring fills over the silence window.
 5. **Answer.** First audio → **Anna** (step 2). If no audio arrives **8 s** after the tick, the Turn has failed (§8).
 6. **Silence.** If the learner says nothing in **You**, a slow ring fills toward **~9 s**; then send `(The learner is quiet.)` once → Anna nudges → **You** again, and from then on she waits silently: no second nudge until the learner has spoken. After Anna answers "wait" with "OK." (output transcript is exactly "OK."), skip the nudge until the learner next speaks. Silence never ends a Talk.
 7. **"Bye".** When Anna's output transcript for a Turn starts with "Bye!" and contains "Drive safe", end the Talk after that audio has finished playing (§9). "By the way" is handled by the model.
@@ -197,16 +205,16 @@ States: **Connecting**, **Anna** (speaking), **You** (listening), **Thinking**, 
 
 | Check | Bar | If it fails |
 |---|---|---|
-| **Owner's voice**: the test set with the owner's own recordings, then a 10-min real Talk | Test set ≥ 9/11 with cases 7, 10, 11 passing; in the real Talk Anna mishears ≤ 1 in 10 Turns | Tune the prompt and rerun. If still failing on recognition, switch to the free pipeline from *Pick the cloud provider…*: Groq `whisper-large-v3-turbo` → Groq text model (`gpt-oss-20b` class) → Deepgram Aura (`mip_opt_out=true`) or Google Cloud TTS (needs a card) |
-| **Hotspot latency**, parked and driving, ≥ 20 Turns each | End of speech → first answer audio ≤ 5 s on 9 of 10 Turns, silence window included (tick → first audio ≤ 3.5 s at 1.5 s) | Use the 1.0 s window (next row). If still over, nothing in the app can fix the network: bring it back to the owner as a new decision |
-| **Silence window** 1.0 s vs 1.5 s, ≥ 20 Turns each | 1.0 s cuts the learner off mid-sentence ≤ 1 in 10 Turns | Keep 1.5 s. If 1.5 s also cuts off too often, try 2.0 s |
+| **Owner's voice**: the test set with the owner's own recordings, then a 10-min real Talk | Test set ≥ 12/14 with cases 7, 10, 11 passing; in the real Talk Anna mishears ≤ 1 in 10 Turns | Tune the prompt and rerun. If still failing on recognition, switch to the free pipeline from *Pick the cloud provider…*: Groq `whisper-large-v3-turbo` → Groq text model (`gpt-oss-20b` class) → Deepgram Aura (`mip_opt_out=true`) or Google Cloud TTS (needs a card) |
+| **Hotspot latency**, parked and driving, ≥ 20 Turns each | End of speech → first answer audio ≤ 5 s on 9 of 10 Turns, silence window included (tick → first audio ≤ 3 s at 2.0 s) | Use the 1.0 s window (next row). If still over, nothing in the app can fix the network: bring it back to the owner as a new decision |
+| ~~**Silence window** 1.0 s vs 1.5 s~~ (settled 2026-11-22 on the car: 1.5 s cut the owner off, so it is now 2.0 s, which the owner finds right; 1.0 s is not tried) | | |
 | **Long Talk**: one 30-min Talk across the 15-min session limit | Runs to the 30-min goodbye; reconnects (goAway/resumption) are silent, with no gap over 2 s and no "No signal" caused by them | If resumption keeps failing, the new-session path (§8) carries it; if that is audible every ~10 min and annoying, lower the cap to 15 min |
 | **Free-tier limits**: one 30-min Talk a day for a week | No limit or quota error | Fall back to the free pipeline (as in the first row) |
 | **Weak signal**: tunnels and weak spots | The 8 s Turn timeout, retry, No signal and 60 s end fire as in §8; no stuck state; End Talk always works; the owner finds 8 s and 60 s right | Tune the two numbers (`TalkConfig`) |
 | **Road noise** | The VAD doesn't start a learner turn on road noise alone, and the owner's speech is caught | Raise the VAD threshold or the minimum speech length |
 | **Anna's echo** into the mic (barge-in off) | No learner turn starts from the tail of Anna's audio | Lengthen the 300 ms guard (§6). Barge-in is decided only after this passes |
 | **Background and screen off** | Turns keep working for 5 min with the app on Home, and for 5 min with the screen off | Keep the screen on during a Talk, and pause the Talk (Paused state) when the Talk screen is left |
-| **Real call and "Hi BYD" focus** | A call (in and out) and "Hi BYD" give transient focus loss, and the Talk pauses | If they give no focus loss, also treat `AudioManager` mode `IN_CALL` / `IN_COMMUNICATION` as transient loss. If a call gives permanent loss, the Talk ends (already the rule) |
+| ~~**Real call and "Hi BYD" focus**~~ (dropped 2026-11-22: no Bluetooth calls through the car, and "Hi BYD" doesn't work on it) | A call (in and out) and "Hi BYD" give transient focus loss, and the Talk pauses | If they give no focus loss, also treat `AudioManager` mode `IN_CALL` / `IN_COMMUNICATION` as transient loss. If a call gives permanent loss, the Talk ends (already the rule) |
 
 ## 13. Calls made while writing this spec
 

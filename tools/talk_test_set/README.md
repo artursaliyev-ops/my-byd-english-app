@@ -1,6 +1,6 @@
 # Talk test set
 
-Checks Anna before any model or prompt change (spec §4 "Test set"). Plays the opening and the 10
+Checks Anna before any model or prompt change (spec §4 "Test set"). Plays the opening and the 13
 learner lines into Gemini Live as one Talk, with the app's own setup, and prints what Anna heard,
 what she said and the time to her first audio.
 
@@ -26,7 +26,7 @@ python3 -I tools/talk_test_set/record.py                  # -> tools/out/talk_vo
 python3 -I tools/talk_test_set/test_testset.py
 ```
 
-Any folder works if it holds `case_02.wav` … `case_11.wav`, 16 kHz mono 16-bit, named by case
+Any folder works if it holds `case_02.wav` … `case_14.wav`, 16 kHz mono 16-bit, named by case
 number (case 1 is the opening, sent as text). Results land in `tools/out/talk_test_set/<label>/`
 (`results.json` and Anna's replies as WAV). `tools/out/` is git-ignored: commit recordings or
 results only if the owner chooses to.
@@ -40,7 +40,10 @@ the script also says whether the reply was exactly the fixed line (words only; p
 - First check `heard`: if the transcript shows the clip wasn't understood (common with machine
   voices), note it; a miss caused by a bad clip says little about the prompt.
 - Case 1: also fails if Anna mentions what she can see ("The traffic looks busy") — she can't see.
-- Any case: a reply that doesn't end with a question fails, except 7, 8 and 11.
+- Any case: a reply longer than two short sentences fails. Anna doesn't have to end with a question.
+- Any case: a swear word stronger than "damn", "hell", "crap" or "what the heck", or any swear word
+  aimed at the learner, fails (the script flags the stronger ones). A tease on case 3 (a mistake) or
+  case 5 ("in Russian?") fails too.
 
-**Pass bar: ≥ 9 of 11, and cases 7, 10 and 11 must pass** (they drive app behaviour). Case 7 must
+**Pass bar: ≥ 12 of 14, and cases 7, 10 and 11 must pass** (they drive app behaviour). Case 7 must
 pass with the owner's voice; machine voices are only a smoke test.

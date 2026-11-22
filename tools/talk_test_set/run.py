@@ -85,7 +85,7 @@ def save(path, pcm):
 
 async def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("clips", type=pathlib.Path, help="folder of case_02.wav..case_11.wav, 16 kHz mono")
+    ap.add_argument("clips", type=pathlib.Path, help="folder of case_02.wav..case_14.wav, 16 kHz mono")
     ap.add_argument("--label", help="results folder name (default: clips folder name)")
     a = ap.parse_args()
     setup = testset.app_setup(REPO)
@@ -112,13 +112,15 @@ async def main():
                 print(f"  heard:   {rec['heard']!r}")
             print(f"  Anna:    {rec['said']}")
             print(f"  expect:  {case.expect}" + ("" if exact is None else f"  [exact reply: {'yes' if exact else 'NO'}]"))
+            if testset.strong_words(rec["said"]):
+                print(f"  STRONG WORDS: {', '.join(testset.strong_words(rec['said']))} (a fail)")
     firsts = sorted(r["first_audio_s"] for r in results if r["first_audio_s"] is not None)
     report = {"model": setup.model, "voice": setup.voice, "api_version": setup.api_version,
               "clips": str(a.clips), "turns": results}
     (out_dir / "results.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     if firsts:
         print(f"\nfirst audio: min {firsts[0]} / median {firsts[len(firsts) // 2]} / max {firsts[-1]} s")
-    print(f"Judge each case against 'expect' (README). Pass: >= {testset.PASS_BAR}/11 with 7, 10, 11. -> {out_dir}")
+    print(f"Judge each case against 'expect' (README). Pass: >= {testset.PASS_BAR}/{len(testset.CASES)} with 7, 10, 11. -> {out_dir}")
 
 
 asyncio.run(main())

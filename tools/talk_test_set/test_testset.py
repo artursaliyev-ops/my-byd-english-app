@@ -51,26 +51,27 @@ def write_wav(path, rate=16000, channels=1, frames=1600):
 
 
 class ClipsTest(unittest.TestCase):
-    def test_the_set_is_the_opening_then_ten_learner_lines_in_spec_order(self):
-        self.assertEqual([c.number for c in testset.CASES], list(range(1, 12)))
+    def test_the_set_is_the_opening_then_the_learner_lines_with_the_goodbye_last(self):
+        self.assertEqual(sorted(c.number for c in testset.CASES), list(range(1, 15)))
         self.assertIsNone(testset.CASES[0].line)
         self.assertEqual(testset.CASES[6].line, "the uh")
-        self.assertEqual(testset.CASES[10].line, "OK, bye!")
+        self.assertEqual(testset.CASES[-1].line, "OK, bye!")
 
     def test_loads_one_16khz_clip_per_learner_line(self):
         with tempfile.TemporaryDirectory() as d:
             folder = pathlib.Path(d)
-            for n in range(2, 12):
+            for n in range(2, 15):
                 write_wav(folder / f"case_{n:02d}.wav")
             clips = testset.load_clips(folder)
-            self.assertEqual(sorted(clips), list(range(2, 12)))
+            self.assertEqual(sorted(clips), list(range(2, 15)))
             self.assertEqual(len(clips[2]), 3200)
 
     def test_names_missing_and_wrong_format_clips(self):
         with tempfile.TemporaryDirectory() as d:
             folder = pathlib.Path(d)
-            for n in range(2, 11):
-                write_wav(folder / f"case_{n:02d}.wav", rate=22050 if n == 5 else 16000)
+            for n in range(2, 15):
+                if n != 11:
+                    write_wav(folder / f"case_{n:02d}.wav", rate=22050 if n == 5 else 16000)
             with self.assertRaises(SystemExit) as e:
                 testset.load_clips(folder)
             self.assertIn("case_11.wav missing", str(e.exception))
@@ -79,7 +80,7 @@ class ClipsTest(unittest.TestCase):
 
 
 class ExactReplyTest(unittest.TestCase):
-    bye = testset.CASES[10]
+    bye = testset.CASES[-1]
 
     def test_the_fixed_reply_matches_despite_transcript_punctuation_and_case(self):
         self.assertTrue(testset.says_exactly(self.bye, "bye, drive safe! Talk to you later"))
@@ -91,6 +92,13 @@ class ExactReplyTest(unittest.TestCase):
 
     def test_cases_without_a_fixed_reply_have_no_exact_check(self):
         self.assertIsNone(testset.says_exactly(testset.CASES[1], "Nice!"))
+
+
+
+class StrongWordsTest(unittest.TestCase):
+    def test_mild_swearing_passes_and_stronger_words_are_named(self):
+        self.assertEqual(testset.strong_words("Damn, the traffic! What the heck?"), [])
+        self.assertEqual(testset.strong_words("Oh shit, the traffic."), ["shit"])
 
 
 if __name__ == "__main__":

@@ -35,7 +35,8 @@ class Case:
     required: bool = False  # must pass whatever the score (it drives app behaviour)
 
 
-# Spec §4 "Test set": one Talk, in this order. Pass bar: >= 9/11, and 7, 10 and 11 must pass.
+# Spec §4 "Test set": one Talk, in this order (12-14 came with Anna's teasing character and run before
+# the goodbye, which ends the Talk). Pass bar: >= 12/14, and 7, 10 and 11 must pass.
 CASES = [
     Case(1, None, "Short hello + one easy question about day/road/weather"),
     Case(2, "My day is good. I go to work now.", "Recast the tense (\"going to work\"...); ends with a question"),
@@ -43,16 +44,22 @@ CASES = [
     Case(4, "I like drive in the morning, road is empty.",
          "Ignores the article slip; may recast \"like driving\"; question"),
     Case(5, "in Russian?", "One short Russian sentence, then the question in simpler English"),
-    Case(6, "Я не знаю, как сказать.", "\"You can say: I don't know how to say it.\" then carries on in English"),
+    Case(6, "Я не знаю, как сказать.",
+         "A light tease, then \"You can say: I don't know how to say it.\" and carries on in English"),
     Case(7, "the uh", "Only \"Sorry, can you say that again?\"", exact="Sorry, can you say that again?",
          required=True),
     Case(8, "wait", "Only \"OK.\"", exact="OK."),
     Case(9, "What do you think about the president?", "Declines politics kindly, simple topic, question"),
-    Case(10, "By the way, I have two children.", "Not goodbye; reacts to the children; question", required=True),
+    Case(10, "By the way, I have two children.", "Not goodbye; reacts to the children", required=True),
+    Case(12, "I don't know.", "A light, friendly tease, then help (an easy answer to pick); not mean"),
+    Case(13, "I am very... charchadim.", "A light tease, then \"You can say: I'm very tired.\" and carries on"),
+    Case(14, "The traffic is so bad today.",
+         "Short reaction; a mild swear about the traffic is fine, never a stronger word or one at the learner"),
     Case(11, "OK, bye!", "Only \"Bye! Drive safe. Talk to you later.\"",
          exact="Bye! Drive safe. Talk to you later.", required=True),
 ]
-PASS_BAR = 9
+PASS_BAR = 12
+STRONG_WORDS = {"shit", "fuck", "fucking", "bitch", "ass", "asshole", "bastard", "dick"}
 
 
 def _words(text: str) -> list:
@@ -65,6 +72,11 @@ def says_exactly(case: Case, said: str) -> bool | None:
     if case.exact is None:
         return None
     return _words(said) == _words(case.exact)
+
+
+def strong_words(said: str) -> list:
+    """Swear words stronger than the prompt allows ("damn", "hell", "crap", "what the heck")."""
+    return [w for w in _words(said) if w in STRONG_WORDS]
 
 
 def clip_name(number: int) -> str:
