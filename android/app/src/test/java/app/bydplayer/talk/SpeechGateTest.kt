@@ -18,6 +18,9 @@ class SpeechGateTest {
     private fun speech(tag: Short = 1000) = ShortArray(512) { tag }
     private fun feed(n: Int, frame: () -> ShortArray) = (1..n).flatMap { gate.feed(frame()) }
 
+    /** Quiet frames that just reach the silence window. */
+    private val window = ((TalkConfig.Timing.SILENCE_MS + 31) / 32).toInt()
+
     /** Samples of a little-endian 16-bit PCM byte array. */
     private fun ByteArray.samples() = ShortArray(size / 2) { ((this[2 * it + 1].toInt() shl 8) or (this[2 * it].toInt() and 0xFF)).toShort() }
 
@@ -49,19 +52,19 @@ class SpeechGateTest {
     }
 
     @Test
-    fun `one and a half seconds of silence ends the utterance with all its audio sent, and closes the mic`() {
+    fun `the silence window ends the utterance with all its audio sent, and closes the mic`() {
         gate.open()
-        val events = feed(4) { speech() } + feed(47) { quiet() }
+        val events = feed(4) { speech() } + feed(window) { quiet() }
         assertEquals(MicEvent.SpeechEnded, events.last())
         val sent = events.filterIsInstance<MicEvent.Audio>().sumOf { it.pcm.size / 2 }
-        assertEquals((4 + 47) * 512, sent)
+        assertEquals((4 + window) * 512, sent)
         assertEquals(emptyList<MicEvent>(), feed(10) { speech() })
     }
 
     @Test
     fun `just under the silence window the utterance goes on`() {
         gate.open()
-        val events = feed(4) { speech() } + feed(46) { quiet() }
+        val events = feed(4) { speech() } + feed(window - 1) { quiet() }
         assertTrue(MicEvent.SpeechEnded !in events)
     }
 
@@ -69,7 +72,7 @@ class SpeechGateTest {
     fun `the silence ring fills over the silence window and empties when the learner speaks again`() {
         gate.open()
         feed(2) { speech() }
-        val rising = feed(23) { quiet() }.filterIsInstance<MicEvent.Silence>().map { it.fraction }
+        val rising = feed(window / 2) { quiet() }.filterIsInstance<MicEvent.Silence>().map { it.fraction }
         assertTrue(rising.zipWithNext().all { (a, b) -> b > a })
         assertEquals(0.5f, rising.last(), 0.05f)
         assertEquals(MicEvent.Silence(0f), gate.feed(speech()).filterIsInstance<MicEvent.Silence>().single())

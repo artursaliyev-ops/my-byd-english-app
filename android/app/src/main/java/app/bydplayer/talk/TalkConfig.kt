@@ -87,8 +87,8 @@ object TalkConfig {
 
     /** How long things take and wait (spec §6, §8, §9, §10). */
     object Timing {
-        /** Silence that ends the learner's speech (spec §6 step 4; 1.0 s to be tried, §12). */
-        const val SILENCE_MS = 1_500L
+        /** Silence that ends the learner's speech (spec §6 step 4). Raised from 1.5 s to 2.0 s on 2026-11-22: 1.5 s cut the owner off in the car (§12). */
+        const val SILENCE_MS = 2_000L
 
         /** An utterance this long ends as if the learner had gone quiet. */
         const val MAX_UTTERANCE_MS = 30_000L
