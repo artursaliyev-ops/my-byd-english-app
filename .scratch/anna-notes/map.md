@@ -28,6 +28,8 @@ A hand-off-ready **spec** at `.scratch/anna-notes/spec.md` for **Notes**: Anna k
 
 <!-- one line per closed ticket -->
 
+- [Shape the Notes list and wipe button in Settings](issues/04-notes-in-settings.md): an "Anna's notes" section after "Record my answers", always visible (no driving signal), "About you" facts in short second-person lines and "Your last Talks" by date, shown exactly as stored; "Delete Anna's notes" with a confirm dialog.
+
 ## Not yet specified
 
 - Whether Notes add enough to every Talk's setup to slow the first hello or eat into the free tier noticeably; depends on how Notes are written and carried in.

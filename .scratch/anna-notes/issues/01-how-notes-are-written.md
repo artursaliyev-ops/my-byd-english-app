@@ -1,6 +1,6 @@
 # Find how Notes can be written and carried in on the free tier
 Type: research
-Status: open
+Status: claimed
 Blocked by:
 
 ## Question
