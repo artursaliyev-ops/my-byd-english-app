@@ -1,6 +1,6 @@
 # Find how Notes can be written and carried in on the free tier
 Type: research
-Status: claimed
+Status: resolved
 Blocked by:
 
 ## Question
@@ -14,3 +14,15 @@ AFK. How can Talk produce Notes and give them to the next Talk, on the Gemini fr
 For each: reliability, cost against the free-tier limits Talk already uses, how corrections ("No, I have three kids") and the never-write topics (health, religion, politics, money, addresses) can be enforced, and what happens if the car is switched off before it finishes. Also: the best way to carry Notes into the next Talk (inside the system instruction vs a bracketed text line after setup), and whether ~20 facts plus ~10 topic lines change setup time or token use in a way that matters.
 
 Primary sources: Google AI for Developers docs (Live API tools, session setup, rate limits page, structured output). Record dates read; mark estimates as estimates.
+
+## Answer
+
+Resolved 2026-11-22 (research, AFK). Findings with sources and probe numbers: notes-writing.md on the throwaway branch `research/anna-notes-writing`, at `.scratch/anna-notes/research/notes-writing.md` (never merged). Docs read 2026-11-22; the probe ran from a Mac on home broadband, not the car.
+
+- **Write Notes with one text-model call after the Talk** (option b): `gemini-3.1-flash-lite` (fallback `gemini-3.5-flash-lite`), both free and both taking a JSON schema (`generationConfig.responseJsonSchema` in `v1beta` `generateContent`). Send the old Notes plus the in-memory input and output transcripts; the model returns the whole new list, so a correction replaces the old fact. The app stores the reply only if it is valid. `maxItems` is enforced, `maxLength` is ignored, so the app caps line length itself. Probe: 4 of 4 runs replaced "two kids" with "three kids" and wrote nothing about health, religion, money or the address; 0.95–1.7 s, but each model's first call took 7–8 s, so allow ~20 s.
+- **Not (a), a tool call during the Talk:** 3.1 flash live only does synchronous function calling, so Anna stays silent until the app answers (+0.65 s on that Turn even with an instant answer), and the model saved poor facts ("driving to work now"). Writing mid-Talk would also break "a failed Talk is silently not kept".
+- **Not (c), asking Anna at the end:** the model can only answer in audio, so she reads the Notes aloud; the text is only a transcript of her speech, and it can't run once the session is lost.
+- **Carry Notes in inside the system instruction:** compression always keeps it, and the app already resends the same setup on every reconnect. ~20 facts + 10 topic lines added ~420 tokens and no measurable change to setup (~0.7 s) or the first hello.
+- **Car switched off before the reply:** nothing is written and the old Notes stay, which is the agreed rule.
+- **Limits:** Google publishes no free-tier request limits for Flash-Lite or Live (read them in the project's AI Studio page); one call per Talk is ~1–3 requests a day. `gemini-3.1-flash-live-preview` is now "legacy"; `gemini-3.8-live` supports async tools.
+- **Unmeasured:** text-call latency over the hotspot, this project's real limits, accuracy on a real noisy ~75-Turn transcript, and whether Notes in the prompt change the test set's pass rate (the last is [Prototype how Anna uses Notes](03-anna-with-notes.md)).

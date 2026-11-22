@@ -1,7 +1,7 @@
 # Write the Notes spec
 Type: task
 Status: open
-Blocked by: 01, 02, 03, 04
+Blocked by: 01, 02, 03, 04, 06
 
 ## Question
 

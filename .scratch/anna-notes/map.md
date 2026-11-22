@@ -28,13 +28,15 @@ A hand-off-ready **spec** at `.scratch/anna-notes/spec.md` for **Notes**: Anna k
 
 <!-- one line per closed ticket -->
 
+- [Find how Notes can be written and carried in on the free tier](issues/01-how-notes-are-written.md): one free text-model call after the Talk (`gemini-3.1-flash-lite`, JSON schema) returns the whole new list from the old Notes plus the in-memory transcripts; Notes go into the next Talk's system instruction (~420 tokens, no slower hello); no tool calls mid-Talk, no asking Anna at the end. Research on branch `research/anna-notes-writing`.
 - [Shape the Notes list and wipe button in Settings](issues/04-notes-in-settings.md): an "Anna's notes" section after "Record my answers", always visible (no driving signal), "About you" facts in short second-person lines and "Your last Talks" by date, shown exactly as stored; "Delete Anna's notes" with a confirm dialog.
 
 ## Not yet specified
 
-- Whether Notes add enough to every Talk's setup to slow the first hello or eat into the free tier noticeably; depends on how Notes are written and carried in.
+<!-- nothing open: the setup-cost question was answered by the research ticket (no slower hello, ~420 tokens); the real free-tier numbers are their own ticket -->
 
 ## Out of scope
 
 - **Editing single Notes** and a **"forget that" voice command**: ruled out in charting; wiping all Notes in Settings is the only control.
+- **Moving Talk to `gemini-3.8-live`** (3.1 flash live is now "legacy"; 3.8 has async tools): a model change for Talk as a whole, not part of Notes.
 - **Tying Notes to the learner's Pimsleur level or lessons**: as in voice talk, Anna keeps one fixed A1–A2 rule.
