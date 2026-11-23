@@ -1,0 +1,2313 @@
+{
+ "id": "I_16",
+ "source": "Pimsleur_I_16.mp3",
+ "duration": 1798.87,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 122,
+ "segments": [
+  {
+   "start": 1.72,
+   "end": 7.04,
+   "text": "Американский английский язык по методу доктора Пимпслера. Урок номер 16.",
+   "lang": "ru"
+  },
+  {
+   "start": 7.04,
+   "end": 9.4,
+   "text": "Listen to this telephone conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 9.94,
+   "end": 11.88,
+   "text": "Mary is speaking with Charles.",
+   "lang": "en"
+  },
+  {
+   "start": 12.24,
+   "end": 12.8,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 13.36,
+   "end": 14.22,
+   "text": "Hello, Charles.",
+   "lang": "en"
+  },
+  {
+   "start": 14.46,
+   "end": 15.24,
+   "text": "It's Mary.",
+   "lang": "en"
+  },
+  {
+   "start": 15.64,
+   "end": 16.46,
+   "text": "Hello, Mary.",
+   "lang": "en"
+  },
+  {
+   "start": 16.62,
+   "end": 17.34,
+   "text": "How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 17.46,
+   "end": 18.38,
+   "text": "Fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 18.76,
+   "end": 21.02,
+   "text": "Charles, would you like to have dinner with me?",
+   "lang": "en"
+  },
+  {
+   "start": 21.32,
+   "end": 21.88,
+   "text": "When?",
+   "lang": "en"
+  },
+  {
+   "start": 21.92,
+   "end": 22.62,
+   "text": "Not tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 22.78,
+   "end": 24.1,
+   "text": "It's very late now.",
+   "lang": "en"
+  },
+  {
+   "start": 24.38,
+   "end": 25.56,
+   "text": "No, tomorrow night.",
+   "lang": "en"
+  },
+  {
+   "start": 25.76,
+   "end": 26.28,
+   "text": "Okay?",
+   "lang": "en"
+  },
+  {
+   "start": 26.42,
+   "end": 27.74,
+   "text": "At 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 28.02,
+   "end": 28.58,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 28.64,
+   "end": 29.78,
+   "text": "Tomorrow at 7.",
+   "lang": "en"
+  },
+  {
+   "start": 30.24,
+   "end": 31.28,
+   "text": "Thank you, Charles.",
+   "lang": "en"
+  },
+  {
+   "start": 31.58,
+   "end": 32.94,
+   "text": "Thank you very much.",
+   "lang": "en"
+  },
+  {
+   "start": 33.12,
+   "end": 33.66,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 34.12,
+   "end": 39.04,
+   "text": "В этом разговоре вы слышали выражение",
+   "lang": "ru"
+  },
+  {
+   "start": 39.04,
+   "end": 42.88,
+   "text": "very late, что означает очень поздно.",
+   "lang": "ru"
+  },
+  {
+   "start": 43.64,
+   "end": 44.1,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 44.72,
+   "end": 46.68,
+   "text": "Hello, Charles. It's Mary.",
+   "lang": "en"
+  },
+  {
+   "start": 47.02,
+   "end": 48.84,
+   "text": "Hello, Mary. How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 49.04,
+   "end": 52.54,
+   "text": "Fine, thanks. Charles, would you like to have dinner with me?",
+   "lang": "en"
+  },
+  {
+   "start": 52.9,
+   "end": 55.68,
+   "text": "When? Not tonight. It's very late now.",
+   "lang": "en"
+  },
+  {
+   "start": 56.0,
+   "end": 59.32,
+   "text": "No, tomorrow night. Okay? At 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 60.0,
+   "end": 61.52,
+   "text": "Окей, завтра в 7.",
+   "lang": "ru"
+  },
+  {
+   "start": 61.74,
+   "end": 65.06,
+   "text": "Спасибо, Чарльз. Спасибо большое. Пока.",
+   "lang": "ru"
+  },
+  {
+   "start": 65.96,
+   "end": 66.62,
+   "text": "Пока, Мэри.",
+   "lang": "ru"
+  },
+  {
+   "start": 67.52,
+   "end": 70.64,
+   "text": "Помните, как можно поздороваться с кем-нибудь утром?",
+   "lang": "ru"
+  },
+  {
+   "start": 72.4,
+   "end": 73.5,
+   "text": "Good morning.",
+   "lang": "ru"
+  },
+  {
+   "start": 75.5,
+   "end": 76.58,
+   "text": "Good morning.",
+   "lang": "ru"
+  },
+  {
+   "start": 78.7,
+   "end": 82.22,
+   "text": "Какое слово произносят, давая кому-то что-нибудь?",
+   "lang": "ru"
+  },
+  {
+   "start": 84.18,
+   "end": 84.88,
+   "text": "Here.",
+   "lang": "ru"
+  },
+  {
+   "start": 86.8,
+   "end": 87.5,
+   "text": "Here.",
+   "lang": "ru"
+  },
+  {
+   "start": 90.0,
+   "end": 92.5,
+   "text": "Попробуйте сказать «это для вас».",
+   "lang": "ru"
+  },
+  {
+   "start": 94.0,
+   "end": 95.34,
+   "text": "It's for you.",
+   "lang": "ru"
+  },
+  {
+   "start": 98.08,
+   "end": 98.56,
+   "text": "It's.",
+   "lang": "ru"
+  },
+  {
+   "start": 99.8,
+   "end": 101.5,
+   "text": "It's for you.",
+   "lang": "ru"
+  },
+  {
+   "start": 104.48,
+   "end": 106.46,
+   "text": "А как спросить «для меня»?",
+   "lang": "ru"
+  },
+  {
+   "start": 108.1,
+   "end": 109.6,
+   "text": "For me.",
+   "lang": "ru"
+  },
+  {
+   "start": 111.3,
+   "end": 112.86,
+   "text": "For me.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.64,
+   "end": 118.32,
+   "text": "Сейчас скажите «большое спасибо».",
+   "lang": "ru"
+  },
+  {
+   "start": 120.92,
+   "end": 122.94,
+   "text": "Thank you very much.",
+   "lang": "ru"
+  },
+  {
+   "start": 125.98,
+   "end": 127.54,
+   "text": "Thank you very much.",
+   "lang": "en"
+  },
+  {
+   "start": 130.86,
+   "end": 133.24,
+   "text": "Отвечайте. На здоровье.",
+   "lang": "ru"
+  },
+  {
+   "start": 135.04,
+   "end": 136.42,
+   "text": "You're welcome.",
+   "lang": "ru"
+  },
+  {
+   "start": 139.32,
+   "end": 140.42,
+   "text": "Спросите, что это?",
+   "lang": "ru"
+  },
+  {
+   "start": 141.92,
+   "end": 143.38,
+   "text": "What is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 145.46,
+   "end": 146.22,
+   "text": "What is it?",
+   "lang": "en"
+  },
+  {
+   "start": 148.4,
+   "end": 150.32,
+   "text": "Скажите, я не знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 152.78,
+   "end": 153.86,
+   "text": "I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 156.52,
+   "end": 159.12,
+   "text": "Скажите еще раз, это для вас?",
+   "lang": "ru"
+  },
+  {
+   "start": 161.84,
+   "end": 162.66,
+   "text": "It's for you.",
+   "lang": "en"
+  },
+  {
+   "start": 165.48,
+   "end": 167.3,
+   "text": "Спросите, для меня?",
+   "lang": "ru"
+  },
+  {
+   "start": 169.64,
+   "end": 170.36,
+   "text": "For me?",
+   "lang": "en"
+  },
+  {
+   "start": 172.72,
+   "end": 173.5,
+   "text": "For me?",
+   "lang": "en"
+  },
+  {
+   "start": 175.62,
+   "end": 178.32,
+   "text": "Спросите, сколько вы ему должны?",
+   "lang": "ru"
+  },
+  {
+   "start": 182.04,
+   "end": 183.48,
+   "text": "how much do i owe you",
+   "lang": "en"
+  },
+  {
+   "start": 185.22,
+   "end": 189.6,
+   "text": "А как спросить, сколько это стоит?",
+   "lang": "ru"
+  },
+  {
+   "start": 191.98,
+   "end": 193.42,
+   "text": "How much is it?",
+   "lang": "en"
+  },
+  {
+   "start": 195.92,
+   "end": 196.54,
+   "text": "Is it?",
+   "lang": "en"
+  },
+  {
+   "start": 198.24,
+   "end": 205.74,
+   "text": "Как он ответит, вы должны мне пять долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 205.74,
+   "end": 217.32,
+   "text": "lot of you owe me five dollars you owe",
+   "lang": "en"
+  },
+  {
+   "start": 219.14,
+   "end": 226.36,
+   "text": "Как ему спросить, у вас есть пять долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 230.22,
+   "end": 231.8,
+   "text": "Do you have $5?",
+   "lang": "en"
+  },
+  {
+   "start": 235.58,
+   "end": 238.22,
+   "text": "Дайте короткий положительный ответ.",
+   "lang": "ru"
+  },
+  {
+   "start": 241.38,
+   "end": 242.44,
+   "text": "Yes, I do.",
+   "lang": "en"
+  },
+  {
+   "start": 245.64,
+   "end": 246.6,
+   "text": "Yes, I do.",
+   "lang": "en"
+  },
+  {
+   "start": 249.8,
+   "end": 253.56,
+   "text": "Сейчас коротко скажите ему, что у вас нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 256.22,
+   "end": 257.78,
+   "text": "No, I don't.",
+   "lang": "en"
+  },
+  {
+   "start": 260.34,
+   "end": 261.9,
+   "text": "No, I don't.",
+   "lang": "en"
+  },
+  {
+   "start": 264.82,
+   "end": 266.88,
+   "text": "Скажите, у меня нет денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 270.14,
+   "end": 271.96,
+   "text": "I don't have any money.",
+   "lang": "en"
+  },
+  {
+   "start": 275.82,
+   "end": 278.06,
+   "text": "Спросите, у вас нет денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 281.94,
+   "end": 283.52,
+   "text": "You don't have any money?",
+   "lang": "en"
+  },
+  {
+   "start": 287.3,
+   "end": 291.4,
+   "text": "Как коротко ответить, что нет? У вас нет денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 294.4,
+   "end": 296.02,
+   "text": "No, I don't.",
+   "lang": "en"
+  },
+  {
+   "start": 298.76,
+   "end": 300.24,
+   "text": "I don't have any.",
+   "lang": "en"
+  },
+  {
+   "start": 303.26,
+   "end": 306.72,
+   "text": "Помните, как сказать «У меня есть доллар»?",
+   "lang": "ru"
+  },
+  {
+   "start": 309.8,
+   "end": 311.36,
+   "text": "I have a dollar.",
+   "lang": "en"
+  },
+  {
+   "start": 314.6,
+   "end": 315.56,
+   "text": "A dollar.",
+   "lang": "en"
+  },
+  {
+   "start": 317.58,
+   "end": 320.04,
+   "text": "Спросите, сколько вы хотите денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 323.86,
+   "end": 325.7,
+   "text": "How much money do you want?",
+   "lang": "en"
+  },
+  {
+   "start": 328.64,
+   "end": 332.98,
+   "text": "Он говорит, дайте мне 18 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 336.92,
+   "end": 338.6,
+   "text": "Give me $18.",
+   "lang": "ru"
+  },
+  {
+   "start": 343.22,
+   "end": 343.86,
+   "text": "$18.",
+   "lang": "ru"
+  },
+  {
+   "start": 346.16,
+   "end": 348.56,
+   "text": "Give me $18, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 348.56,
+   "end": 348.78,
+   "text": "Please.",
+   "lang": "en"
+  },
+  {
+   "start": 353.84,
+   "end": 358.08,
+   "text": "Скажите, я могу дать вам немного, имею в виду немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 361.54,
+   "end": 362.94,
+   "text": "I can give you some.",
+   "lang": "en"
+  },
+  {
+   "start": 365.86,
+   "end": 372.5,
+   "text": "А как она говорит, вот 17 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 376.08,
+   "end": 378.32,
+   "text": "Here's $17.",
+   "lang": "en"
+  },
+  {
+   "start": 385.44,
+   "end": 388.34,
+   "text": "Он говорит, это много.",
+   "lang": "ru"
+  },
+  {
+   "start": 391.22,
+   "end": 392.06,
+   "text": "That's a lot.",
+   "lang": "en"
+  },
+  {
+   "start": 399.52,
+   "end": 404.38,
+   "text": "Вы помните, как сказать «это много денег»?",
+   "lang": "ru"
+  },
+  {
+   "start": 407.74,
+   "end": 409.18,
+   "text": "That's a lot of money.",
+   "lang": "ru"
+  },
+  {
+   "start": 412.06,
+   "end": 413.38,
+   "text": "Of money.",
+   "lang": "en"
+  },
+  {
+   "start": 416.12,
+   "end": 419.5,
+   "text": "Скажите, 18 долларов – это много денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 425.84,
+   "end": 428.8,
+   "text": "18 dollars – that's a lot of money.",
+   "lang": "ru"
+  },
+  {
+   "start": 434.58,
+   "end": 437.54,
+   "text": "Он говорит, это слишком много.",
+   "lang": "ru"
+  },
+  {
+   "start": 437.54,
+   "end": 438.94,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 439.44,
+   "end": 440.78,
+   "text": "That's too much.",
+   "lang": "en"
+  },
+  {
+   "start": 443.78,
+   "end": 444.44,
+   "text": "Too.",
+   "lang": "en"
+  },
+  {
+   "start": 445.96,
+   "end": 447.02,
+   "text": "Too much.",
+   "lang": "en"
+  },
+  {
+   "start": 449.08,
+   "end": 449.98,
+   "text": "Too much.",
+   "lang": "en"
+  },
+  {
+   "start": 452.24,
+   "end": 453.52,
+   "text": "That's too much.",
+   "lang": "en"
+  },
+  {
+   "start": 456.2,
+   "end": 458.96,
+   "text": "Скажите еще раз, слишком много.",
+   "lang": "ru"
+  },
+  {
+   "start": 458.96,
+   "end": 461.82,
+   "text": "Too much.",
+   "lang": "en"
+  },
+  {
+   "start": 462.78,
+   "end": 464.18,
+   "text": "Too.",
+   "lang": "en"
+  },
+  {
+   "start": 465.58,
+   "end": 470.3,
+   "text": "Вы уже знаете несколько английских слов с таким же звучанием.",
+   "lang": "ru"
+  },
+  {
+   "start": 470.98,
+   "end": 474.52,
+   "text": "Вы помните, например, как спросить, что вы хотели бы выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 477.68,
+   "end": 479.06,
+   "text": "What would you like to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 482.42,
+   "end": 482.82,
+   "text": "Two.",
+   "lang": "en"
+  },
+  {
+   "start": 484.6,
+   "end": 488.42,
+   "text": "Сейчас скажите, вот две порции пива.",
+   "lang": "ru"
+  },
+  {
+   "start": 491.84,
+   "end": 493.3,
+   "text": "Here are two beers.",
+   "lang": "en"
+  },
+  {
+   "start": 496.74,
+   "end": 497.56,
+   "text": "Two.",
+   "lang": "ru"
+  },
+  {
+   "start": 499.2,
+   "end": 509.94,
+   "text": "Хотя эти слова звучат одинаково, но они используются в различном контексте, поэтому вы вряд ли спутаете их. Скажите еще раз. Слишком много.",
+   "lang": "ru"
+  },
+  {
+   "start": 512.76,
+   "end": 513.24,
+   "text": "Too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 515.54,
+   "end": 516.9,
+   "text": "That's too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 519.72,
+   "end": 522.1,
+   "text": "Спросите. Девятнадцать долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 532.42,
+   "end": 535.76,
+   "text": "Сейчас скажите, это слишком много денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 538.96,
+   "end": 540.12,
+   "text": "That's too much money.",
+   "lang": "en"
+  },
+  {
+   "start": 543.28,
+   "end": 544.48,
+   "text": "That's too much money.",
+   "lang": "en"
+  },
+  {
+   "start": 547.82,
+   "end": 549.82,
+   "text": "Спросите, сколько у меня денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 553.5,
+   "end": 555.3,
+   "text": "How much money do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 557.76,
+   "end": 560.68,
+   "text": "У меня 20 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 561.4,
+   "end": 563.98,
+   "text": "У меня 20 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 572.18,
+   "end": 575.22,
+   "text": "Скажите, у вас есть 20 долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 578.34,
+   "end": 580.38,
+   "text": "You have $20.",
+   "lang": "en"
+  },
+  {
+   "start": 580.76,
+   "end": 586.02,
+   "text": "Нет, 24.",
+   "lang": "ru"
+  },
+  {
+   "start": 586.02,
+   "end": 587.9,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 589.04,
+   "end": 589.7,
+   "text": "No, 24.",
+   "lang": "en"
+  },
+  {
+   "start": 599.9,
+   "end": 603.14,
+   "text": "Скажите мне, что у вас есть 25 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 606.78,
+   "end": 608.92,
+   "text": "I have $25.",
+   "lang": "ru"
+  },
+  {
+   "start": 612.96,
+   "end": 613.96,
+   "text": "25.",
+   "lang": "ru"
+  },
+  {
+   "start": 613.96,
+   "end": 615.1,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 617.22,
+   "end": 619.1,
+   "text": "Скажите мне, это много денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 622.06,
+   "end": 623.88,
+   "text": "That's a lot of money.",
+   "lang": "ru"
+  },
+  {
+   "start": 627.48,
+   "end": 629.42,
+   "text": "Сейчас скажите число 28.",
+   "lang": "ru"
+  },
+  {
+   "start": 631.74,
+   "end": 632.74,
+   "text": "28.",
+   "lang": "ru"
+  },
+  {
+   "start": 635.02,
+   "end": 640.86,
+   "text": "28. Скажите мне, что у меня слишком много денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 644.34,
+   "end": 646.28,
+   "text": "You have too much money.",
+   "lang": "ru"
+  },
+  {
+   "start": 649.7,
+   "end": 651.86,
+   "text": "У меня есть 30 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 652.16,
+   "end": 653.2,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 654.04,
+   "end": 655.18,
+   "text": "I have 30 dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 658.46,
+   "end": 659.18,
+   "text": "30.",
+   "lang": "ru"
+  },
+  {
+   "start": 660.62,
+   "end": 661.34,
+   "text": "30.",
+   "lang": "ru"
+  },
+  {
+   "start": 663.32,
+   "end": 666.0,
+   "text": "Скажите мне, что у вас есть 30 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 669.04,
+   "end": 671.36,
+   "text": "I have $30.",
+   "lang": "en"
+  },
+  {
+   "start": 678.3,
+   "end": 681.12,
+   "text": "Скажите мне, что у вас есть 39 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 683.88,
+   "end": 687.48,
+   "text": "I have $39.",
+   "lang": "en"
+  },
+  {
+   "start": 696.48,
+   "end": 698.72,
+   "text": "Скажите, нет, двадцать девять.",
+   "lang": "ru"
+  },
+  {
+   "start": 701.48,
+   "end": 703.16,
+   "text": "No, 29.",
+   "lang": "en"
+  },
+  {
+   "start": 710.12,
+   "end": 712.12,
+   "text": "Скажите мне, что это много денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 715.0,
+   "end": 716.8,
+   "text": "Это много денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 719.7,
+   "end": 723.34,
+   "text": "Сейчас попробуйте спросить, это слишком много?",
+   "lang": "ru"
+  },
+  {
+   "start": 726.1,
+   "end": 727.68,
+   "text": "Это слишком много?",
+   "lang": "ru"
+  },
+  {
+   "start": 727.96,
+   "end": 728.36,
+   "text": "Это?",
+   "lang": "ru"
+  },
+  {
+   "start": 730.84,
+   "end": 731.62,
+   "text": "Is that?",
+   "lang": "en"
+  },
+  {
+   "start": 733.56,
+   "end": 735.24,
+   "text": "Это слишком много?",
+   "lang": "ru"
+  },
+  {
+   "start": 737.98,
+   "end": 740.3,
+   "text": "Нет, но этого достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 742.12,
+   "end": 744.12,
+   "text": "No, but that's enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 748.04,
+   "end": 748.8,
+   "text": "Enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 750.72,
+   "end": 751.48,
+   "text": "Enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 753.54,
+   "end": 754.28,
+   "text": "Enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 756.5,
+   "end": 757.16,
+   "text": "Enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 759.36,
+   "end": 760.38,
+   "text": "That's enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 762.96,
+   "end": 763.98,
+   "text": "That's enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 766.7,
+   "end": 768.08,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 768.2,
+   "end": 769.22,
+   "text": "Этого достаточно?",
+   "lang": "ru"
+  },
+  {
+   "start": 772.12,
+   "end": 773.08,
+   "text": "That's enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 775.8,
+   "end": 777.82,
+   "text": "Спросите, этого достаточно?",
+   "lang": "ru"
+  },
+  {
+   "start": 780.22,
+   "end": 781.78,
+   "text": "Is that enough?",
+   "lang": "ru"
+  },
+  {
+   "start": 784.24,
+   "end": 785.36,
+   "text": "Is that enough?",
+   "lang": "en"
+  },
+  {
+   "start": 787.88,
+   "end": 791.58,
+   "text": "Попробуйте сказать, нет, этого недостаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 795.22,
+   "end": 797.22,
+   "text": "No, that's not enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 801.3,
+   "end": 801.86,
+   "text": "Not enough.",
+   "lang": "en"
+  },
+  {
+   "start": 801.86,
+   "end": 802.06,
+   "text": "Not enough.",
+   "lang": "en"
+  },
+  {
+   "start": 804.46,
+   "end": 807.68,
+   "text": "35 – это достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 812.46,
+   "end": 814.6,
+   "text": "Thirty-five. That's enough.",
+   "lang": "en"
+  },
+  {
+   "start": 819.06,
+   "end": 821.48,
+   "text": "Скажите, это слишком много.",
+   "lang": "ru"
+  },
+  {
+   "start": 824.42,
+   "end": 825.38,
+   "text": "That's too much.",
+   "lang": "en"
+  },
+  {
+   "start": 828.42,
+   "end": 830.54,
+   "text": "Спросите, это слишком много?",
+   "lang": "ru"
+  },
+  {
+   "start": 833.18,
+   "end": 835.02,
+   "text": "Is that too much?",
+   "lang": "en"
+  },
+  {
+   "start": 837.96,
+   "end": 839.5,
+   "text": "Is that too much?",
+   "lang": "en"
+  },
+  {
+   "start": 842.72,
+   "end": 845.74,
+   "text": "Скажите, да, это слишком много денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 850.04,
+   "end": 851.86,
+   "text": "Yes, that's too much money.",
+   "lang": "en"
+  },
+  {
+   "start": 855.96,
+   "end": 857.76,
+   "text": "Дайте мне 40 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 859.2,
+   "end": 861.04,
+   "text": "Дайте мне 40 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 869.56,
+   "end": 871.46,
+   "text": "Скажите, 40 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 877.86,
+   "end": 886.86,
+   "text": "Обратите внимание, что английское число forty – сорок, образованное из числа four и окончания t.",
+   "lang": "ru"
+  },
+  {
+   "start": 887.72,
+   "end": 892.68,
+   "text": "Так оканчиваются все английские числа десятки от двадцати до девяноста.",
+   "lang": "ru"
+  },
+  {
+   "start": 892.86,
+   "end": 898.88,
+   "text": "Слушайте и повторяйте, обращая внимание на разницу между четырнадцать и сорок.",
+   "lang": "ru"
+  },
+  {
+   "start": 904.92,
+   "end": 907.3,
+   "text": "Скажите, 14 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 915.52,
+   "end": 917.5,
+   "text": "Дайте мне 40 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 920.76,
+   "end": 923.24,
+   "text": "Give me $40.",
+   "lang": "en"
+  },
+  {
+   "start": 929.84,
+   "end": 933.12,
+   "text": "Удается ли вам точно копировать произношение диктора?",
+   "lang": "ru"
+  },
+  {
+   "start": 934.0,
+   "end": 942.14,
+   "text": "Обратите внимание, что когда американцы говорят быстро, то окончание «tay» звучит почти как быстрое «day».",
+   "lang": "ru"
+  },
+  {
+   "start": 942.74,
+   "end": 943.68,
+   "text": "Сейчас скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 944.4,
+   "end": 945.6,
+   "text": "Дайте мне 47 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 949.6,
+   "end": 951.78,
+   "text": "Give me $47.",
+   "lang": "en"
+  },
+  {
+   "start": 960.12,
+   "end": 963.68,
+   "text": "Попробуйте спросить, вы можете дать мне немного пива?",
+   "lang": "ru"
+  },
+  {
+   "start": 967.54,
+   "end": 969.5,
+   "text": "Can you give me some beer?",
+   "lang": "ru"
+  },
+  {
+   "start": 973.6,
+   "end": 974.52,
+   "text": "Can you?",
+   "lang": "ru"
+  },
+  {
+   "start": 976.72,
+   "end": 980.18,
+   "text": "Помните, как сказать, вот две порции пива?",
+   "lang": "ru"
+  },
+  {
+   "start": 983.48,
+   "end": 984.94,
+   "text": "Here are two beers.",
+   "lang": "ru"
+  },
+  {
+   "start": 987.62,
+   "end": 989.68,
+   "text": "Here are...",
+   "lang": "en"
+  },
+  {
+   "start": 990.8,
+   "end": 995.62,
+   "text": "А сейчас спросите, вы можете дать мне немного денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 999.14,
+   "end": 1000.74,
+   "text": "Can you give me some money?",
+   "lang": "en"
+  },
+  {
+   "start": 1004.24,
+   "end": 1007.68,
+   "text": "Скажите, 46? Этого достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1012.94,
+   "end": 1014.9,
+   "text": "Forty-six. That's enough.",
+   "lang": "en"
+  },
+  {
+   "start": 1019.6,
+   "end": 1020.76,
+   "text": "That's enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 1023.6,
+   "end": 1025.64,
+   "text": "Спросите, этого достаточно?",
+   "lang": "ru"
+  },
+  {
+   "start": 1028.38,
+   "end": 1029.88,
+   "text": "Is that enough?",
+   "lang": "ru"
+  },
+  {
+   "start": 1033.16,
+   "end": 1034.96,
+   "text": "Нет, этого недостаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1038.52,
+   "end": 1040.28,
+   "text": "No, that's not enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 1044.26,
+   "end": 1047.52,
+   "text": "Скажите, я хотел бы 48 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1051.26,
+   "end": 1053.14,
+   "text": "I'd like $48.",
+   "lang": "en"
+  },
+  {
+   "start": 1057.12,
+   "end": 1059.58,
+   "text": "Скажите нет, 38.",
+   "lang": "ru"
+  },
+  {
+   "start": 1062.98,
+   "end": 1064.46,
+   "text": "No, 38.",
+   "lang": "en"
+  },
+  {
+   "start": 1066.82,
+   "end": 1068.66,
+   "text": "Нет, 28.",
+   "lang": "ru"
+  },
+  {
+   "start": 1070.58,
+   "end": 1072.36,
+   "text": "Нет, 28.",
+   "lang": "ru"
+  },
+  {
+   "start": 1075.7,
+   "end": 1077.48,
+   "text": "No, 28.",
+   "lang": "en"
+  },
+  {
+   "start": 1084.16,
+   "end": 1087.86,
+   "text": "Скажите, пожалуйста, дайте мне немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1091.32,
+   "end": 1092.96,
+   "text": "Пожалуйста, дайте мне немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1096.84,
+   "end": 1099.04,
+   "text": "Спросите, сколько денег вы хотите?",
+   "lang": "ru"
+  },
+  {
+   "start": 1102.58,
+   "end": 1104.22,
+   "text": "Сколько денег вы хотите?",
+   "lang": "ru"
+  },
+  {
+   "start": 1107.86,
+   "end": 1109.56,
+   "text": "How much money do you want?",
+   "lang": "en"
+  },
+  {
+   "start": 1113.52,
+   "end": 1116.06,
+   "text": "Попробуйте спросить, сколько у меня долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1120.18,
+   "end": 1122.18,
+   "text": "How many dollars do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 1126.42,
+   "end": 1127.22,
+   "text": "How many?",
+   "lang": "en"
+  },
+  {
+   "start": 1129.48,
+   "end": 1131.36,
+   "text": "Скажите, у меня нет денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1134.22,
+   "end": 1135.76,
+   "text": "I don't have any money.",
+   "lang": "en"
+  },
+  {
+   "start": 1139.08,
+   "end": 1141.28,
+   "text": "Скажите, дайте мне немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1143.9,
+   "end": 1145.2,
+   "text": "Give me some money.",
+   "lang": "en"
+  },
+  {
+   "start": 1147.86,
+   "end": 1148.82,
+   "text": "Some money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1151.32,
+   "end": 1155.68,
+   "text": "Скажите, у меня нет. Имею в виду, нет никаких денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1158.22,
+   "end": 1159.54,
+   "text": "I don't have any.",
+   "lang": "ru"
+  },
+  {
+   "start": 1162.58,
+   "end": 1164.36,
+   "text": "Спросите, у вас есть деньги?",
+   "lang": "ru"
+  },
+  {
+   "start": 1167.38,
+   "end": 1169.04,
+   "text": "Do you have any money?",
+   "lang": "ru"
+  },
+  {
+   "start": 1172.02,
+   "end": 1173.0,
+   "text": "Any money?",
+   "lang": "ru"
+  },
+  {
+   "start": 1174.88,
+   "end": 1176.58,
+   "text": "Do you have any money?",
+   "lang": "ru"
+  },
+  {
+   "start": 1179.82,
+   "end": 1182.9,
+   "text": "Помните, как дать короткий утвердительный ответ на такой вопрос?",
+   "lang": "ru"
+  },
+  {
+   "start": 1182.9,
+   "end": 1191.3,
+   "text": "pros. Yes, I do. Yes, I do.",
+   "lang": "en"
+  },
+  {
+   "start": 1194.72,
+   "end": 1197.36,
+   "text": "Отвечайте. Нет, у меня нет денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1201.82,
+   "end": 1203.82,
+   "text": "No, I don't have any money.",
+   "lang": "en"
+  },
+  {
+   "start": 1208.0,
+   "end": 1209.62,
+   "text": "No, I don't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1212.38,
+   "end": 1215.04,
+   "text": "Скажите, я хотела бы немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1217.86,
+   "end": 1219.4,
+   "text": "I'd like some money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1222.54,
+   "end": 1226.0,
+   "text": "Скажите, пожалуйста, дайте мне немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1229.5,
+   "end": 1231.28,
+   "text": "Please give me some money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1234.72,
+   "end": 1235.78,
+   "text": "Some money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1238.28,
+   "end": 1240.0,
+   "text": "Скажите, я не могу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1242.82,
+   "end": 1243.54,
+   "text": "I can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1246.16,
+   "end": 1246.96,
+   "text": "I can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1249.6,
+   "end": 1250.16,
+   "text": "У меня нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1252.56,
+   "end": 1253.94,
+   "text": "I don't have any.",
+   "lang": "ru"
+  },
+  {
+   "start": 1256.8,
+   "end": 1258.64,
+   "text": "Скажите, у вас есть немного?",
+   "lang": "ru"
+  },
+  {
+   "start": 1261.24,
+   "end": 1262.44,
+   "text": "You have some?",
+   "lang": "en"
+  },
+  {
+   "start": 1265.22,
+   "end": 1267.76,
+   "text": "Попробуйте сказать, у вас есть деньги?",
+   "lang": "ru"
+  },
+  {
+   "start": 1270.44,
+   "end": 1271.66,
+   "text": "You have money?",
+   "lang": "en"
+  },
+  {
+   "start": 1274.2,
+   "end": 1275.4,
+   "text": "You have money?",
+   "lang": "en"
+  },
+  {
+   "start": 1277.28,
+   "end": 1280.78,
+   "text": "А как сказать, у вас есть много?",
+   "lang": "ru"
+  },
+  {
+   "start": 1283.46,
+   "end": 1284.86,
+   "text": "You have a lot.",
+   "lang": "en"
+  },
+  {
+   "start": 1291.34,
+   "end": 1295.4,
+   "text": "Скажите, хорошо, вот 25 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1299.86,
+   "end": 1302.68,
+   "text": "Okay, here's $25.",
+   "lang": "en"
+  },
+  {
+   "start": 1307.58,
+   "end": 1310.4,
+   "text": "Вот 25 долларов для вас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1314.8,
+   "end": 1317.5,
+   "text": "Here's $25 for you.",
+   "lang": "en"
+  },
+  {
+   "start": 1322.4,
+   "end": 1324.6,
+   "text": "Спасибо, этого достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1327.66,
+   "end": 1329.16,
+   "text": "Thank you. That's enough.",
+   "lang": "en"
+  },
+  {
+   "start": 1330.84,
+   "end": 1335.06,
+   "text": "Как вы можете поздороваться с кем-нибудь утром?",
+   "lang": "ru"
+  },
+  {
+   "start": 1337.0,
+   "end": 1338.0,
+   "text": "Good morning.",
+   "lang": "en"
+  },
+  {
+   "start": 1339.96,
+   "end": 1341.06,
+   "text": "Good morning.",
+   "lang": "en"
+  },
+  {
+   "start": 1341.9,
+   "end": 1346.28,
+   "text": "А сейчас просто скажите «Здравствуйте».",
+   "lang": "ru"
+  },
+  {
+   "start": 1346.28,
+   "end": 1348.6,
+   "text": "Hello?",
+   "lang": "en"
+  },
+  {
+   "start": 1350.62,
+   "end": 1351.18,
+   "text": "Hello.",
+   "lang": "ru"
+  },
+  {
+   "start": 1353.2,
+   "end": 1355.58,
+   "text": "Hello. Would you like to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1356.52,
+   "end": 1361.4,
+   "text": "Спросите, есть ли у него вино, имея в виду какое-нибудь вино вообще.",
+   "lang": "ru"
+  },
+  {
+   "start": 1361.4,
+   "end": 1362.2,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1365.06,
+   "end": 1366.66,
+   "text": "Do you have any wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1370.34,
+   "end": 1373.12,
+   "text": "I'm sorry, miss. I don't have any wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1373.56,
+   "end": 1376.7,
+   "text": "А как он скажет, я не могу дать вам вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1379.7,
+   "end": 1381.68,
+   "text": "I can't give you any wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1384.84,
+   "end": 1386.04,
+   "text": "I can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1388.14,
+   "end": 1390.04,
+   "text": "Но я могу дать вам немного пива.",
+   "lang": "ru"
+  },
+  {
+   "start": 1393.84,
+   "end": 1396.0,
+   "text": "But I can give you some beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1399.8,
+   "end": 1403.82,
+   "text": "А как сказать «Да, я хотела бы выпить пиво»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1408.22,
+   "end": 1409.82,
+   "text": "Yes, I'd like to have a beer.",
+   "lang": "en"
+  },
+  {
+   "start": 1414.18,
+   "end": 1415.4,
+   "text": "I'd like to have a beer.",
+   "lang": "en"
+  },
+  {
+   "start": 1418.42,
+   "end": 1421.38,
+   "text": "Скажите, вот две порции пива, мисс.",
+   "lang": "ru"
+  },
+  {
+   "start": 1425.28,
+   "end": 1427.06,
+   "text": "Here are two beers, Miss.",
+   "lang": "en"
+  },
+  {
+   "start": 1431.06,
+   "end": 1432.34,
+   "text": "Here are two beers.",
+   "lang": "en"
+  },
+  {
+   "start": 1435.54,
+   "end": 1436.92,
+   "text": "Большое спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1440.02,
+   "end": 1441.38,
+   "text": "Thank you very much.",
+   "lang": "en"
+  },
+  {
+   "start": 1444.52,
+   "end": 1446.56,
+   "text": "Спросите, сколько это стоит?",
+   "lang": "ru"
+  },
+  {
+   "start": 1448.76,
+   "end": 1450.08,
+   "text": "How much is it?",
+   "lang": "en"
+  },
+  {
+   "start": 1452.42,
+   "end": 1453.54,
+   "text": "How much is it?",
+   "lang": "en"
+  },
+  {
+   "start": 1455.42,
+   "end": 1458.32,
+   "text": "А как спросить, сколько стоит пиво?",
+   "lang": "ru"
+  },
+  {
+   "start": 1461.22,
+   "end": 1462.4,
+   "text": "How much is a beer?",
+   "lang": "en"
+  },
+  {
+   "start": 1465.56,
+   "end": 1467.34,
+   "text": "Скажите, тридцать семь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1472.82,
+   "end": 1473.7,
+   "text": "Сорок два.",
+   "lang": "ru"
+  },
+  {
+   "start": 1475.9,
+   "end": 1476.82,
+   "text": "Сорок два.",
+   "lang": "ru"
+  },
+  {
+   "start": 1482.36,
+   "end": 1488.04,
+   "text": "Скажите ему, что это слишком много, имея в виду слишком много денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1490.44,
+   "end": 1492.5,
+   "text": "That's too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 1496.0,
+   "end": 1496.08,
+   "text": "Two.",
+   "lang": "ru"
+  },
+  {
+   "start": 1498.38,
+   "end": 1499.3,
+   "text": "That's too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 1502.68,
+   "end": 1504.0,
+   "text": "Скажите сорок.",
+   "lang": "ru"
+  },
+  {
+   "start": 1505.96,
+   "end": 1506.3,
+   "text": "Forty.",
+   "lang": "ru"
+  },
+  {
+   "start": 1508.32,
+   "end": 1508.76,
+   "text": "Forty.",
+   "lang": "ru"
+  },
+  {
+   "start": 1510.82,
+   "end": 1512.8,
+   "text": "Сейчас скажите четырнадцать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1514.46,
+   "end": 1515.86,
+   "text": "Fourteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1518.12,
+   "end": 1524.08,
+   "text": "14. Спросите, вы понимаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 1526.36,
+   "end": 1528.2,
+   "text": "Do you understand?",
+   "lang": "ru"
+  },
+  {
+   "start": 1530.66,
+   "end": 1534.62,
+   "text": "Как можно коротко ответить, что вы не понимаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 1536.52,
+   "end": 1538.22,
+   "text": "No, I don't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1540.78,
+   "end": 1541.44,
+   "text": "I don't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1543.4,
+   "end": 1544.68,
+   "text": "No, I don't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1546.7,
+   "end": 1552.08,
+   "text": "А сейчас немного арифметики по-английски. Отвечайте на вопросы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1552.08,
+   "end": 1555.16,
+   "text": "Now some arithmetic in English.",
+   "lang": "en"
+  },
+  {
+   "start": 1555.9,
+   "end": 1556.52,
+   "text": "Answer the questions.",
+   "lang": "en"
+  },
+  {
+   "start": 1557.34,
+   "end": 1559.46,
+   "text": "Two and three is how much?",
+   "lang": "en"
+  },
+  {
+   "start": 1565.8,
+   "end": 1566.54,
+   "text": "Five.",
+   "lang": "en"
+  },
+  {
+   "start": 1568.02,
+   "end": 1570.1,
+   "text": "Five and three is how much?",
+   "lang": "en"
+  },
+  {
+   "start": 1571.7,
+   "end": 1572.44,
+   "text": "Eight.",
+   "lang": "en"
+  },
+  {
+   "start": 1574.68,
+   "end": 1574.92,
+   "text": "Eight.",
+   "lang": "ru"
+  },
+  {
+   "start": 1576.72,
+   "end": 1578.84,
+   "text": "Eight and five is how much?",
+   "lang": "ru"
+  },
+  {
+   "start": 1581.16,
+   "end": 1581.8,
+   "text": "Thirteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1584.3,
+   "end": 1584.94,
+   "text": "Thirteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1587.06,
+   "end": 1589.38,
+   "text": "Eleven and four is how much?",
+   "lang": "ru"
+  },
+  {
+   "start": 1591.74,
+   "end": 1592.38,
+   "text": "Fifteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1594.96,
+   "end": 1595.6,
+   "text": "Fifteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1598.14,
+   "end": 1600.26,
+   "text": "Thirteen and four is how much?",
+   "lang": "ru"
+  },
+  {
+   "start": 1602.68,
+   "end": 1603.32,
+   "text": "Seventeen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1608.0,
+   "end": 1611.26,
+   "text": "16 and 4 is how much?",
+   "lang": "ru"
+  },
+  {
+   "start": 1613.38,
+   "end": 1618.86,
+   "text": "20 and 6 is how much?",
+   "lang": "ru"
+  },
+  {
+   "start": 1621.06,
+   "end": 1622.02,
+   "text": "26",
+   "lang": "ru"
+  },
+  {
+   "start": 1628.24,
+   "end": 1630.86,
+   "text": "28 and 4 is how much?",
+   "lang": "ru"
+  },
+  {
+   "start": 1630.86,
+   "end": 1632.54,
+   "text": "28 and 4",
+   "lang": "en"
+  },
+  {
+   "start": 1634.14,
+   "end": 1635.1,
+   "text": "32",
+   "lang": "ru"
+  },
+  {
+   "start": 1635.86,
+   "end": 1636.86,
+   "text": "32",
+   "lang": "ru"
+  },
+  {
+   "start": 1636.86,
+   "end": 1638.06,
+   "text": "thirty two",
+   "lang": "en"
+  },
+  {
+   "start": 1640.1,
+   "end": 1642.94,
+   "text": "32 and 2 is how much?",
+   "lang": "ru"
+  },
+  {
+   "start": 1643.6,
+   "end": 1644.86,
+   "text": "32 and 2",
+   "lang": "ru"
+  },
+  {
+   "start": 1646.5,
+   "end": 1647.46,
+   "text": "34",
+   "lang": "ru"
+  },
+  {
+   "start": 1649.3,
+   "end": 1650.26,
+   "text": "34",
+   "lang": "ru"
+  },
+  {
+   "start": 1652.14,
+   "end": 1655.16,
+   "text": "34 and 12 is how much?",
+   "lang": "ru"
+  },
+  {
+   "start": 1655.24,
+   "end": 1657.1,
+   "text": "34 and 12",
+   "lang": "ru"
+  },
+  {
+   "start": 1659.16,
+   "end": 1660.12,
+   "text": "46",
+   "lang": "ru"
+  },
+  {
+   "start": 1662.56,
+   "end": 1665.3,
+   "text": "Thirty-three and ten is how much?",
+   "lang": "en"
+  },
+  {
+   "start": 1665.58,
+   "end": 1667.38,
+   "text": "Thirty-three and ten.",
+   "lang": "en"
+  },
+  {
+   "start": 1669.64,
+   "end": 1670.62,
+   "text": "Forty-three.",
+   "lang": "en"
+  },
+  {
+   "start": 1672.86,
+   "end": 1673.82,
+   "text": "Forty-three.",
+   "lang": "en"
+  },
+  {
+   "start": 1675.54,
+   "end": 1679.1,
+   "text": "Эй, стойте, стойте! Этого достаточно!",
+   "lang": "ru"
+  },
+  {
+   "start": 1679.94,
+   "end": 1687.8,
+   "text": "«Эй, стоп! Стоп! Это достаточно! Теперь вы будете говорить с мужчиной. Отвечайте утвердительно».",
+   "lang": "ru"
+  },
+  {
+   "start": 1687.8,
+   "end": 1700.56,
+   "text": "Отвечайте утвердительно, давая краткие ответы. Например, если он спрашивает, можете ли вы сделать что-то, вам нужно ответить «Да, я могу». Для начала поздоровайтесь с ним.",
+   "lang": "ru"
+  },
+  {
+   "start": 1702.58,
+   "end": 1703.02,
+   "text": "Hello.",
+   "lang": "en"
+  },
+  {
+   "start": 1705.12,
+   "end": 1707.98,
+   "text": "Hello. Excuse me, but do you have any money?",
+   "lang": "en"
+  },
+  {
+   "start": 1710.4,
+   "end": 1711.22,
+   "text": "Yes, I do.",
+   "lang": "en"
+  },
+  {
+   "start": 1713.6,
+   "end": 1714.84,
+   "text": "Yes, I have some.",
+   "lang": "en"
+  },
+  {
+   "start": 1717.5,
+   "end": 1718.66,
+   "text": "I have some money.",
+   "lang": "en"
+  },
+  {
+   "start": 1720.76,
+   "end": 1721.92,
+   "text": "Do you have a lot?",
+   "lang": "en"
+  },
+  {
+   "start": 1724.34,
+   "end": 1725.18,
+   "text": "Yes, I do.",
+   "lang": "en"
+  },
+  {
+   "start": 1727.54,
+   "end": 1728.88,
+   "text": "Yes, I have a lot.",
+   "lang": "en"
+  },
+  {
+   "start": 1729.12,
+   "end": 1730.52,
+   "text": "Hello.",
+   "lang": "ru"
+  },
+  {
+   "start": 1731.88,
+   "end": 1735.4,
+   "text": "I'm going to have a beer. Would you like to have a beer with me?",
+   "lang": "ru"
+  },
+  {
+   "start": 1737.72,
+   "end": 1738.54,
+   "text": "Yes, I would.",
+   "lang": "ru"
+  },
+  {
+   "start": 1740.88,
+   "end": 1742.46,
+   "text": "I'd like to have a beer with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 1745.48,
+   "end": 1748.48,
+   "text": "But I don't have any. Can you buy some for me?",
+   "lang": "ru"
+  },
+  {
+   "start": 1750.62,
+   "end": 1751.44,
+   "text": "Yes, I can.",
+   "lang": "ru"
+  },
+  {
+   "start": 1753.54,
+   "end": 1754.6,
+   "text": "I can buy some.",
+   "lang": "ru"
+  },
+  {
+   "start": 1756.76,
+   "end": 1758.34,
+   "text": "I can buy some for you.",
+   "lang": "ru"
+  },
+  {
+   "start": 1760.9,
+   "end": 1763.06,
+   "text": "Can you buy some wine, too?",
+   "lang": "ru"
+  },
+  {
+   "start": 1765.12,
+   "end": 1766.06,
+   "text": "Yes, I can.",
+   "lang": "ru"
+  },
+  {
+   "start": 1768.04,
+   "end": 1769.86,
+   "text": "I can buy some wine, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1773.78,
+   "end": 1775.3,
+   "text": "Do you have enough money?",
+   "lang": "ru"
+  },
+  {
+   "start": 1777.68,
+   "end": 1778.58,
+   "text": "Yes, I do.",
+   "lang": "ru"
+  },
+  {
+   "start": 1780.9,
+   "end": 1782.24,
+   "text": "Yes, I have enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 1785.12,
+   "end": 1787.16,
+   "text": "Then I'm going with you, okay?",
+   "lang": "ru"
+  },
+  {
+   "start": 1789.98,
+   "end": 1791.1,
+   "text": "Yes, okay.",
+   "lang": "en"
+  },
+  {
+   "start": 1793.9,
+   "end": 1796.68,
+   "text": "Урок номер 16 окончен.",
+   "lang": "ru"
+  }
+ ]
+}

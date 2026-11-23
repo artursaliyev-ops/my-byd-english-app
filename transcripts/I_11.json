@@ -1,0 +1,2169 @@
+{
+ "id": "I_11",
+ "source": "Pimsleur_I_11.mp3",
+ "duration": 1801.61,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 135,
+ "segments": [
+  {
+   "start": 1.9,
+   "end": 7.82,
+   "text": "Американский английский язык по методу доктора Пимпслера. Урок номер 11.",
+   "lang": "ru"
+  },
+  {
+   "start": 7.82,
+   "end": 10.28,
+   "text": "Listen to this English conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 10.9,
+   "end": 14.18,
+   "text": "Слушайте этот разговор на английском языке.",
+   "lang": "ru"
+  },
+  {
+   "start": 14.18,
+   "end": 16.82,
+   "text": "Listen to this English conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 44.18,
+   "end": 44.52,
+   "text": "It's too late.",
+   "lang": "en"
+  },
+  {
+   "start": 45.24,
+   "end": 49.86,
+   "text": "В какой-то момент мужчина сказал",
+   "lang": "ru"
+  },
+  {
+   "start": 49.86,
+   "end": 54.38,
+   "text": "что означает слишком поздно.",
+   "lang": "ru"
+  },
+  {
+   "start": 56.64,
+   "end": 57.92,
+   "text": "Слушайте еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 58.4,
+   "end": 59.26,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 59.9,
+   "end": 63.22,
+   "text": "Michelle, at what time would you like to have something to eat with me?",
+   "lang": "en"
+  },
+  {
+   "start": 63.56,
+   "end": 64.94,
+   "text": "At one o'clock, okay?",
+   "lang": "en"
+  },
+  {
+   "start": 65.42,
+   "end": 68.06,
+   "text": "No, not at one o'clock. At two o'clock?",
+   "lang": "en"
+  },
+  {
+   "start": 68.26,
+   "end": 71.04,
+   "text": "No, not at two o'clock, but at three o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 71.36,
+   "end": 74.34,
+   "text": "Oh, no, not at three o'clock. At four o'clock?",
+   "lang": "ru"
+  },
+  {
+   "start": 74.58,
+   "end": 75.42,
+   "text": "No, thank you.",
+   "lang": "ru"
+  },
+  {
+   "start": 75.8,
+   "end": 76.92,
+   "text": "At five o'clock?",
+   "lang": "ru"
+  },
+  {
+   "start": 77.14,
+   "end": 78.34,
+   "text": "No, later, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 78.96,
+   "end": 80.56,
+   "text": "Okay, at eight o'clock?",
+   "lang": "ru"
+  },
+  {
+   "start": 80.88,
+   "end": 84.36,
+   "text": "No, not at eight o'clock, but at nine o'clock, okay?",
+   "lang": "ru"
+  },
+  {
+   "start": 84.82,
+   "end": 86.62,
+   "text": "No, nine o'clock is too late.",
+   "lang": "ru"
+  },
+  {
+   "start": 86.94,
+   "end": 88.64,
+   "text": "I don't want to eat with you, John.",
+   "lang": "ru"
+  },
+  {
+   "start": 89.6,
+   "end": 91.86,
+   "text": "Помните, как спросить, который час?",
+   "lang": "ru"
+  },
+  {
+   "start": 94.52,
+   "end": 95.62,
+   "text": "What time is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 98.06,
+   "end": 99.14,
+   "text": "What time is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 101.98,
+   "end": 103.8,
+   "text": "Ответьте, что вы не знаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 106.4,
+   "end": 107.28,
+   "text": "I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 109.56,
+   "end": 111.38,
+   "text": "А, да, я знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.58,
+   "end": 116.06,
+   "text": "Oh, yes, I know.",
+   "lang": "en"
+  },
+  {
+   "start": 119.52,
+   "end": 122.24,
+   "text": "Скажите ему, что сейчас 3 часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 124.78,
+   "end": 125.98,
+   "text": "It's three o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 128.82,
+   "end": 130.92,
+   "text": "Скажите ему, что сейчас 5 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 134.14,
+   "end": 135.46,
+   "text": "It's five o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 138.52,
+   "end": 139.12,
+   "text": "Five.",
+   "lang": "ru"
+  },
+  {
+   "start": 141.78,
+   "end": 143.48,
+   "text": "Спросите, вы знаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 146.22,
+   "end": 147.24,
+   "text": "Do you know?",
+   "lang": "ru"
+  },
+  {
+   "start": 149.84,
+   "end": 151.62,
+   "text": "Вы знаете, который час?",
+   "lang": "ru"
+  },
+  {
+   "start": 152.38,
+   "end": 154.24,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 154.44,
+   "end": 156.28,
+   "text": "Do you know what time it is?",
+   "lang": "ru"
+  },
+  {
+   "start": 156.28,
+   "end": 161.8,
+   "text": "What time it is?",
+   "lang": "ru"
+  },
+  {
+   "start": 164.9,
+   "end": 165.8,
+   "text": "What time it is?",
+   "lang": "ru"
+  },
+  {
+   "start": 168.46,
+   "end": 170.52,
+   "text": "Do you know what time it is?",
+   "lang": "ru"
+  },
+  {
+   "start": 174.84,
+   "end": 176.06,
+   "text": "Спросите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 176.24,
+   "end": 178.22,
+   "text": "Вы знаете, который час?",
+   "lang": "ru"
+  },
+  {
+   "start": 178.84,
+   "end": 182.72,
+   "text": "Обратите внимание на порядок слов в конце этого вопроса.",
+   "lang": "ru"
+  },
+  {
+   "start": 186.84,
+   "end": 188.8,
+   "text": "Do you know what time it is?",
+   "lang": "en"
+  },
+  {
+   "start": 192.44,
+   "end": 195.12,
+   "text": "Сейчас четыре часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 198.04,
+   "end": 199.3,
+   "text": "It's four o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 202.54,
+   "end": 203.1,
+   "text": "Four.",
+   "lang": "en"
+  },
+  {
+   "start": 205.04,
+   "end": 207.78,
+   "text": "Скажите, сейчас один час.",
+   "lang": "ru"
+  },
+  {
+   "start": 211.2,
+   "end": 212.34,
+   "text": "It's one o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 215.54,
+   "end": 216.06,
+   "text": "One.",
+   "lang": "ru"
+  },
+  {
+   "start": 219.1,
+   "end": 221.48,
+   "text": "Спросите, собирается ли он сейчас пообедать?",
+   "lang": "ru"
+  },
+  {
+   "start": 225.26,
+   "end": 227.0,
+   "text": "Are you going to have lunch now?",
+   "lang": "ru"
+  },
+  {
+   "start": 230.72,
+   "end": 232.56,
+   "text": "Are you going to have lunch now?",
+   "lang": "ru"
+  },
+  {
+   "start": 235.7,
+   "end": 241.04,
+   "text": "Как ему ответить «Нет, я собираюсь поесть позже»?",
+   "lang": "ru"
+  },
+  {
+   "start": 245.06,
+   "end": 247.74,
+   "text": "No, I'm going to eat later.",
+   "lang": "ru"
+  },
+  {
+   "start": 251.86,
+   "end": 254.06,
+   "text": "I'm going to eat later.",
+   "lang": "ru"
+  },
+  {
+   "start": 257.14,
+   "end": 260.46,
+   "text": "Он добавляет «Восемь часов».",
+   "lang": "ru"
+  },
+  {
+   "start": 262.66,
+   "end": 264.0,
+   "text": "At eight o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 266.64,
+   "end": 269.72,
+   "text": "Позже я собираюсь выпить немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 270.34,
+   "end": 272.18,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 272.5,
+   "end": 274.6,
+   "text": "I'm going to have some wine later.",
+   "lang": "ru"
+  },
+  {
+   "start": 279.24,
+   "end": 279.88,
+   "text": "Have.",
+   "lang": "ru"
+  },
+  {
+   "start": 281.78,
+   "end": 283.5,
+   "text": "To have some wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 287.06,
+   "end": 288.82,
+   "text": "I'm going to have some wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 292.94,
+   "end": 297.24,
+   "text": "Скажите, что позже вы собираетесь выпить немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 302.0,
+   "end": 303.44,
+   "text": "I'm going to have some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 303.64,
+   "end": 312.24,
+   "text": "А как сказать «Я собираюсь что-нибудь поесть»?",
+   "lang": "ru"
+  },
+  {
+   "start": 316.54,
+   "end": 318.46,
+   "text": "I'm going to have something to eat.",
+   "lang": "en"
+  },
+  {
+   "start": 322.56,
+   "end": 332.58,
+   "text": "В английском языке слово «иметь» часто может употребляться в значении «есть» или «пить», применительно к конкретным еде и напиткам.",
+   "lang": "ru"
+  },
+  {
+   "start": 333.34,
+   "end": 336.46,
+   "text": "Скажите еще раз, что вы хотели бы выпить вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 340.72,
+   "end": 342.2,
+   "text": "I'd like to have some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 346.52,
+   "end": 352.02,
+   "text": "Используя эту модель, попробуйте сказать, что вы собираетесь выпить пиво.",
+   "lang": "ru"
+  },
+  {
+   "start": 356.22,
+   "end": 357.66,
+   "text": "I'm going to have some beer.",
+   "lang": "en"
+  },
+  {
+   "start": 362.04,
+   "end": 364.02,
+   "text": "Скажите, в девять часов?",
+   "lang": "ru"
+  },
+  {
+   "start": 366.92,
+   "end": 368.34,
+   "text": "At 9 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 371.34,
+   "end": 372.16,
+   "text": "Найн.",
+   "lang": "ru"
+  },
+  {
+   "start": 374.6,
+   "end": 376.9,
+   "text": "Спросите, в котором часу?",
+   "lang": "ru"
+  },
+  {
+   "start": 379.28,
+   "end": 380.78,
+   "text": "At what time?",
+   "lang": "ru"
+  },
+  {
+   "start": 383.5,
+   "end": 385.0,
+   "text": "At what time?",
+   "lang": "ru"
+  },
+  {
+   "start": 388.06,
+   "end": 389.76,
+   "text": "Спросите, который час.",
+   "lang": "ru"
+  },
+  {
+   "start": 390.24,
+   "end": 396.14,
+   "text": "Давая понять, что вам нужно узнать точное время, добавьте в конце слово сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 400.44,
+   "end": 401.42,
+   "text": "What time is it now?",
+   "lang": "ru"
+  },
+  {
+   "start": 405.6,
+   "end": 406.64,
+   "text": "What time is it now?",
+   "lang": "ru"
+  },
+  {
+   "start": 406.64,
+   "end": 406.9,
+   "text": "Now.",
+   "lang": "en"
+  },
+  {
+   "start": 409.94,
+   "end": 413.44,
+   "text": "А как спросить, вы знаете, который час?",
+   "lang": "ru"
+  },
+  {
+   "start": 417.76,
+   "end": 419.56,
+   "text": "Do you know what time it is?",
+   "lang": "en"
+  },
+  {
+   "start": 423.8,
+   "end": 425.06,
+   "text": "What time it is?",
+   "lang": "en"
+  },
+  {
+   "start": 427.92,
+   "end": 429.78,
+   "text": "Do you know what time it is?",
+   "lang": "en"
+  },
+  {
+   "start": 433.8,
+   "end": 435.58,
+   "text": "Скажите, пять часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 437.98,
+   "end": 439.3,
+   "text": "Five o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 441.88,
+   "end": 442.54,
+   "text": "Five.",
+   "lang": "en"
+  },
+  {
+   "start": 443.74,
+   "end": 445.72,
+   "text": "Три часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 445.72,
+   "end": 449.02,
+   "text": "3 o'clock",
+   "lang": "en"
+  },
+  {
+   "start": 452.66,
+   "end": 456.04,
+   "text": "Сейчас четыре часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 459.32,
+   "end": 460.58,
+   "text": "It's four o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 463.76,
+   "end": 464.94,
+   "text": "Ответьте.",
+   "lang": "ru"
+  },
+  {
+   "start": 465.52,
+   "end": 466.94,
+   "text": "Сейчас один час.",
+   "lang": "ru"
+  },
+  {
+   "start": 467.98,
+   "end": 470.08,
+   "text": "Добавьте в конце фразы слово сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 470.08,
+   "end": 480.34,
+   "text": "chess. It's one o'clock now. It's one o'clock now.",
+   "lang": "en"
+  },
+  {
+   "start": 483.76,
+   "end": 484.94,
+   "text": "Скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 486.04,
+   "end": 487.82,
+   "text": "Я собираюсь пообедать в 2 часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 492.7,
+   "end": 495.06,
+   "text": "I'm going to have lunch at 2 o'clock",
+   "lang": "en"
+  },
+  {
+   "start": 499.74,
+   "end": 504.06,
+   "text": "Как сказать в ресторане на Парковом проспекте?",
+   "lang": "ru"
+  },
+  {
+   "start": 507.9,
+   "end": 510.24,
+   "text": "In the restaurant on Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 514.24,
+   "end": 515.84,
+   "text": "On Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 520.02,
+   "end": 522.82,
+   "text": "Спросите, хотела ли бы она что-нибудь выпить с вами?",
+   "lang": "ru"
+  },
+  {
+   "start": 528.1,
+   "end": 530.56,
+   "text": "Would you like to have something to drink with me?",
+   "lang": "en"
+  },
+  {
+   "start": 535.66,
+   "end": 540.26,
+   "text": "А сейчас спросите, хотела ли бы она выпить немного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 544.16,
+   "end": 545.62,
+   "text": "Would you like to have some wine?",
+   "lang": "en"
+  },
+  {
+   "start": 549.0,
+   "end": 551.2,
+   "text": "Would you like to have some wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 555.52,
+   "end": 557.18,
+   "text": "Как ей спросить когда?",
+   "lang": "ru"
+  },
+  {
+   "start": 559.06,
+   "end": 560.06,
+   "text": "When?",
+   "lang": "ru"
+  },
+  {
+   "start": 562.1,
+   "end": 563.96,
+   "text": "Как ей спросить где?",
+   "lang": "ru"
+  },
+  {
+   "start": 565.94,
+   "end": 566.94,
+   "text": "Where?",
+   "lang": "ru"
+  },
+  {
+   "start": 569.14,
+   "end": 571.82,
+   "text": "Спросите, когда? Сейчас?",
+   "lang": "ru"
+  },
+  {
+   "start": 574.58,
+   "end": 575.58,
+   "text": "When?",
+   "lang": "ru"
+  },
+  {
+   "start": 575.58,
+   "end": 576.12,
+   "text": "Now?",
+   "lang": "en"
+  },
+  {
+   "start": 579.4,
+   "end": 583.02,
+   "text": "Ответьте. Не сейчас. Позже, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 587.84,
+   "end": 590.1,
+   "text": "Not now. Later, please.",
+   "lang": "en"
+  },
+  {
+   "start": 593.88,
+   "end": 597.6,
+   "text": "Вот как сказать в шесть часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 599.64,
+   "end": 601.96,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 601.96,
+   "end": 605.5,
+   "text": "Listen and repeat at 6 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 611.04,
+   "end": 624.52,
+   "text": "Six. Six. Six o'clock. At six o'clock. At six o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 628.06,
+   "end": 630.34,
+   "text": "Скажите, в шесть часов, мисс?",
+   "lang": "ru"
+  },
+  {
+   "start": 633.88,
+   "end": 635.66,
+   "text": "At six o'clock, мисс.",
+   "lang": "ru"
+  },
+  {
+   "start": 639.06,
+   "end": 640.62,
+   "text": "Или в 7 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 642.44,
+   "end": 644.58,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 644.58,
+   "end": 646.5,
+   "text": "Or at 7 o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 655.22,
+   "end": 657.04,
+   "text": "At 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 659.84,
+   "end": 661.72,
+   "text": "Or at 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 666.12,
+   "end": 667.94,
+   "text": "Скажите, в 7 часов?",
+   "lang": "ru"
+  },
+  {
+   "start": 670.98,
+   "end": 672.68,
+   "text": "at 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 676.2,
+   "end": 678.9,
+   "text": "Скажите, в 6 часов или в 7 часов?",
+   "lang": "ru"
+  },
+  {
+   "start": 684.04,
+   "end": 686.26,
+   "text": "В 6 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 693.96,
+   "end": 697.12,
+   "text": "At 6 o'clock or at 7 o'clock?",
+   "lang": "en"
+  },
+  {
+   "start": 709.2,
+   "end": 710.84,
+   "text": "Not at six o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 714.18,
+   "end": 715.88,
+   "text": "Not at six o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 719.48,
+   "end": 720.16,
+   "text": "Позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 721.94,
+   "end": 722.62,
+   "text": "Later.",
+   "lang": "ru"
+  },
+  {
+   "start": 724.38,
+   "end": 725.06,
+   "text": "Later.",
+   "lang": "ru"
+  },
+  {
+   "start": 727.2,
+   "end": 728.5,
+   "text": "Спросите, хорошо?",
+   "lang": "ru"
+  },
+  {
+   "start": 730.64,
+   "end": 731.32,
+   "text": "Okay.",
+   "lang": "ru"
+  },
+  {
+   "start": 733.26,
+   "end": 733.94,
+   "text": "Okay.",
+   "lang": "ru"
+  },
+  {
+   "start": 736.8,
+   "end": 737.68,
+   "text": "Тогда в семь часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 739.4,
+   "end": 741.66,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 742.14,
+   "end": 743.6,
+   "text": "Then at seven o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 747.14,
+   "end": 748.88,
+   "text": "Then at 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 751.34,
+   "end": 755.28,
+   "text": "Как сказать по-английски «тогда»?",
+   "lang": "ru"
+  },
+  {
+   "start": 755.28,
+   "end": 757.92,
+   "text": "Then",
+   "lang": "en"
+  },
+  {
+   "start": 757.92,
+   "end": 760.12,
+   "text": "Then",
+   "lang": "en"
+  },
+  {
+   "start": 763.22,
+   "end": 765.8,
+   "text": "Скажите, тогда в восемь часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 769.38,
+   "end": 770.86,
+   "text": "Then at 8 o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 774.22,
+   "end": 775.82,
+   "text": "Then at 8 o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 779.5,
+   "end": 782.56,
+   "text": "Вот как сказать сегодня вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 782.8,
+   "end": 783.98,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 784.62,
+   "end": 785.24,
+   "text": "Tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 787.48,
+   "end": 788.1,
+   "text": "Night.",
+   "lang": "ru"
+  },
+  {
+   "start": 789.92,
+   "end": 790.54,
+   "text": "To.",
+   "lang": "ru"
+  },
+  {
+   "start": 792.64,
+   "end": 793.26,
+   "text": "Tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 795.52,
+   "end": 796.14,
+   "text": "Tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 798.9,
+   "end": 800.9,
+   "text": "Скажите, сегодня вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 800.9,
+   "end": 803.56,
+   "text": "Tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 804.5,
+   "end": 808.52,
+   "text": "А вот как сказать поужинать.",
+   "lang": "ru"
+  },
+  {
+   "start": 808.56,
+   "end": 809.78,
+   "text": "Послушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 810.24,
+   "end": 811.46,
+   "text": "To have dinner.",
+   "lang": "ru"
+  },
+  {
+   "start": 813.48,
+   "end": 820.5,
+   "text": "dinner dinner dinner to have dinner",
+   "lang": "en"
+  },
+  {
+   "start": 823.42,
+   "end": 825.4,
+   "text": "Скажите, поужинать.",
+   "lang": "ru"
+  },
+  {
+   "start": 827.9,
+   "end": 829.34,
+   "text": "To have dinner.",
+   "lang": "ru"
+  },
+  {
+   "start": 831.88,
+   "end": 833.44,
+   "text": "to have dinner",
+   "lang": "en"
+  },
+  {
+   "start": 836.58,
+   "end": 840.24,
+   "text": "Скажите, я собираюсь поужинать сегодня вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 843.78,
+   "end": 845.7,
+   "text": "I'm going to have dinner tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 845.7,
+   "end": 845.86,
+   "text": "night.",
+   "lang": "en"
+  },
+  {
+   "start": 849.22,
+   "end": 853.96,
+   "text": "А сейчас скажите, я хотел бы поужинать сегодня вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 858.28,
+   "end": 860.1,
+   "text": "I'd like to have dinner tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 864.9,
+   "end": 867.88,
+   "text": "Слушайте и повторяйте эти выражения вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 868.68,
+   "end": 869.82,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 870.38,
+   "end": 872.82,
+   "text": "I'd like to. I'm going to.",
+   "lang": "ru"
+  },
+  {
+   "start": 878.14,
+   "end": 880.64,
+   "text": "I'd like to. I'm going to.",
+   "lang": "ru"
+  },
+  {
+   "start": 885.96,
+   "end": 887.8,
+   "text": "I'd like to have dinner tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 891.86,
+   "end": 893.84,
+   "text": "I'm going to have dinner tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 898.96,
+   "end": 901.08,
+   "text": "Скажите, тогда в 7 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 901.08,
+   "end": 901.26,
+   "text": "So.",
+   "lang": "en"
+  },
+  {
+   "start": 904.36,
+   "end": 905.9,
+   "text": "Then at 7 o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 909.5,
+   "end": 911.92,
+   "text": "Женщина говорит, в 10 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 912.26,
+   "end": 913.42,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 916.52,
+   "end": 918.08,
+   "text": "At ten o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 921.14,
+   "end": 934.96,
+   "text": "10. 10. 10 o'clock. 10 o'clock. At 10 o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 938.3,
+   "end": 940.36,
+   "text": "Скажите, в 10 часов?",
+   "lang": "ru"
+  },
+  {
+   "start": 942.82,
+   "end": 944.34,
+   "text": "At 10 o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 947.24,
+   "end": 949.5,
+   "text": "Скажите, сегодня вечером?",
+   "lang": "ru"
+  },
+  {
+   "start": 951.12,
+   "end": 952.14,
+   "text": "Tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 952.14,
+   "end": 954.72,
+   "text": "Tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 956.86,
+   "end": 963.38,
+   "text": "Попробуйте сказать «Сегодня вечером я собираюсь поужинать в 10 часов».",
+   "lang": "ru"
+  },
+  {
+   "start": 968.94,
+   "end": 971.38,
+   "text": "Tonight I'm going to have dinner at 10 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 977.42,
+   "end": 980.02,
+   "text": "Tonight I'm going to have dinner at 10 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 985.58,
+   "end": 992.28,
+   "text": "Чтобы выделить время или место события, американцы часто ставят его в начале фразы.",
+   "lang": "ru"
+  },
+  {
+   "start": 992.9,
+   "end": 993.82,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 994.56,
+   "end": 998.04,
+   "text": "Сегодня вечером я собираюсь поужинать в 10 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1003.96,
+   "end": 1006.66,
+   "text": "Tonight I'm going to have dinner at 10 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1012.1,
+   "end": 1014.92,
+   "text": "Вот как сказать завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 1014.92,
+   "end": 1016.28,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1031.18,
+   "end": 1033.1,
+   "text": "Спросите, а завтра?",
+   "lang": "ru"
+  },
+  {
+   "start": 1035.5,
+   "end": 1037.18,
+   "text": "And tomorrow?",
+   "lang": "en"
+  },
+  {
+   "start": 1040.42,
+   "end": 1041.46,
+   "text": "And tomorrow?",
+   "lang": "en"
+  },
+  {
+   "start": 1044.72,
+   "end": 1045.72,
+   "text": "Отвечайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1046.46,
+   "end": 1048.76,
+   "text": "Завтра я собираюсь поужинать с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1055.12,
+   "end": 1057.14,
+   "text": "Tomorrow, I'm going to have dinner with you.",
+   "lang": "en"
+  },
+  {
+   "start": 1062.82,
+   "end": 1065.06,
+   "text": "Скажите, в три часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 1068.06,
+   "end": 1069.58,
+   "text": "At 3 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1075.94,
+   "end": 1077.88,
+   "text": "Скажите, в 4 часа?",
+   "lang": "ru"
+  },
+  {
+   "start": 1080.9,
+   "end": 1082.28,
+   "text": "at 4 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1085.64,
+   "end": 1089.9,
+   "text": "Скажите, нет, в 6 часов или в 7 часов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1096.62,
+   "end": 1099.92,
+   "text": "No, at 6 o'clock or at 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1106.4,
+   "end": 1107.86,
+   "text": "Не в девять часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1111.22,
+   "end": 1112.66,
+   "text": "Not at 9 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1116.04,
+   "end": 1117.38,
+   "text": "Not at 9 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1119.92,
+   "end": 1123.96,
+   "text": "Она говорит, тогда в десять часов, хорошо?",
+   "lang": "ru"
+  },
+  {
+   "start": 1128.4,
+   "end": 1130.34,
+   "text": "Then at 10 o'clock, okay?",
+   "lang": "en"
+  },
+  {
+   "start": 1134.8,
+   "end": 1136.76,
+   "text": "Then at 10 o'clock, okay?",
+   "lang": "en"
+  },
+  {
+   "start": 1139.22,
+   "end": 1143.26,
+   "text": "Как сказать завтра?",
+   "lang": "ru"
+  },
+  {
+   "start": 1144.78,
+   "end": 1146.18,
+   "text": "Tomorrow",
+   "lang": "en"
+  },
+  {
+   "start": 1146.52,
+   "end": 1151.28,
+   "text": "А как сказать сегодня вечером?",
+   "lang": "ru"
+  },
+  {
+   "start": 1151.28,
+   "end": 1153.88,
+   "text": "Tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 1155.32,
+   "end": 1159.48,
+   "text": "Сейчас попробуйте сказать завтра вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 1162.12,
+   "end": 1163.26,
+   "text": "Tomorrow night.",
+   "lang": "ru"
+  },
+  {
+   "start": 1166.0,
+   "end": 1167.08,
+   "text": "Tomorrow night.",
+   "lang": "en"
+  },
+  {
+   "start": 1170.48,
+   "end": 1173.76,
+   "text": "Скажите, завтра вечером в 7 часов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1173.76,
+   "end": 1173.94,
+   "text": "off.",
+   "lang": "en"
+  },
+  {
+   "start": 1178.36,
+   "end": 1180.6,
+   "text": "Tomorrow night at 7 o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 1185.64,
+   "end": 1188.48,
+   "text": "Скажите, нет, в 10 часов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1192.12,
+   "end": 1193.98,
+   "text": "No, at ten o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 1197.5,
+   "end": 1199.48,
+   "text": "No, at ten o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 1202.92,
+   "end": 1206.42,
+   "text": "Как сказать по-английски «слушайте»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1208.36,
+   "end": 1209.12,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1211.2,
+   "end": 1211.96,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1214.16,
+   "end": 1217.06,
+   "text": "А как сказать «повторяйте»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1219.04,
+   "end": 1219.8,
+   "text": "Repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1222.12,
+   "end": 1222.76,
+   "text": "Repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1224.6,
+   "end": 1226.24,
+   "text": "Repeat, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1228.42,
+   "end": 1235.86,
+   "text": "В следующих уроках все больше и больше указаний вы будете получать по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1235.9,
+   "end": 1238.22,
+   "text": "Вот как сказать сегодня.",
+   "lang": "ru"
+  },
+  {
+   "start": 1238.22,
+   "end": 1240.02,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1240.88,
+   "end": 1241.12,
+   "text": "Today.",
+   "lang": "en"
+  },
+  {
+   "start": 1242.68,
+   "end": 1244.04,
+   "text": "Day.",
+   "lang": "en"
+  },
+  {
+   "start": 1246.28,
+   "end": 1246.44,
+   "text": "Day.",
+   "lang": "en"
+  },
+  {
+   "start": 1250.72,
+   "end": 1251.3,
+   "text": "Today.",
+   "lang": "en"
+  },
+  {
+   "start": 1253.72,
+   "end": 1253.92,
+   "text": "Today.",
+   "lang": "en"
+  },
+  {
+   "start": 1255.7,
+   "end": 1257.88,
+   "text": "Скажите сегодня.",
+   "lang": "ru"
+  },
+  {
+   "start": 1257.88,
+   "end": 1260.52,
+   "text": "Today.",
+   "lang": "en"
+  },
+  {
+   "start": 1262.26,
+   "end": 1264.58,
+   "text": "Скажите завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 1266.02,
+   "end": 1267.42,
+   "text": "Tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 1269.26,
+   "end": 1272.12,
+   "text": "Скажите завтра вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 1274.42,
+   "end": 1275.56,
+   "text": "Tomorrow night.",
+   "lang": "en"
+  },
+  {
+   "start": 1277.84,
+   "end": 1279.1,
+   "text": "Tomorrow night.",
+   "lang": "en"
+  },
+  {
+   "start": 1282.12,
+   "end": 1283.84,
+   "text": "Скажите сегодня вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 1285.26,
+   "end": 1286.66,
+   "text": "Tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 1288.18,
+   "end": 1289.58,
+   "text": "Tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 1290.6,
+   "end": 1294.0,
+   "text": "А как сказать сегодня?",
+   "lang": "ru"
+  },
+  {
+   "start": 1294.0,
+   "end": 1296.7,
+   "text": "Today.",
+   "lang": "en"
+  },
+  {
+   "start": 1298.28,
+   "end": 1299.68,
+   "text": "Today.",
+   "lang": "en"
+  },
+  {
+   "start": 1301.8,
+   "end": 1306.1,
+   "text": "Спросите женщину, хотела ли бы она поужинать с вами сегодня?",
+   "lang": "ru"
+  },
+  {
+   "start": 1310.42,
+   "end": 1312.6,
+   "text": "Would you like to have dinner with me today?",
+   "lang": "en"
+  },
+  {
+   "start": 1316.78,
+   "end": 1320.8,
+   "text": "А как вы спросите, вы хотели бы выпить немного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1324.38,
+   "end": 1325.94,
+   "text": "Would you like to have some wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1329.64,
+   "end": 1331.18,
+   "text": "Would you like to have some wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1335.16,
+   "end": 1339.1,
+   "text": "Спросите ее, хотела ли бы она выпить немного пива?",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.66,
+   "end": 1344.12,
+   "text": "Would you like to have some beer?",
+   "lang": "en"
+  },
+  {
+   "start": 1347.64,
+   "end": 1348.8,
+   "text": "Отвечайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1348.9,
+   "end": 1351.24,
+   "text": "Не сегодня, завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 1354.78,
+   "end": 1356.58,
+   "text": "Not today, tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 1360.38,
+   "end": 1362.18,
+   "text": "Not today, tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 1365.9,
+   "end": 1367.06,
+   "text": "Спросите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1367.64,
+   "end": 1368.56,
+   "text": "В котором часу?",
+   "lang": "ru"
+  },
+  {
+   "start": 1371.26,
+   "end": 1372.42,
+   "text": "Отвечайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1374.08,
+   "end": 1375.48,
+   "text": "Answer.",
+   "lang": "en"
+  },
+  {
+   "start": 1376.4,
+   "end": 1378.44,
+   "text": "В шесть часов или в семь часов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1383.86,
+   "end": 1386.66,
+   "text": "At 6 o'clock or at 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1392.18,
+   "end": 1397.88,
+   "text": "Скажите, я сейчас собираюсь поужинать. Не забудьте о порядке слов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1401.8,
+   "end": 1403.52,
+   "text": "I'm going to have dinner now.",
+   "lang": "en"
+  },
+  {
+   "start": 1407.38,
+   "end": 1409.12,
+   "text": "I'm going to have dinner now.",
+   "lang": "en"
+  },
+  {
+   "start": 1412.2,
+   "end": 1418.42,
+   "text": "Вы помните, как спросить, который час? Желаю узнать точное время.",
+   "lang": "ru"
+  },
+  {
+   "start": 1421.88,
+   "end": 1423.38,
+   "text": "What time is it now?",
+   "lang": "en"
+  },
+  {
+   "start": 1426.94,
+   "end": 1428.44,
+   "text": "What time is it now?",
+   "lang": "en"
+  },
+  {
+   "start": 1431.82,
+   "end": 1435.42,
+   "text": "Скажите просто, сейчас 10 часов, мисс.",
+   "lang": "ru"
+  },
+  {
+   "start": 1439.54,
+   "end": 1440.84,
+   "text": "It's ten o'clock, miss.",
+   "lang": "en"
+  },
+  {
+   "start": 1444.74,
+   "end": 1448.94,
+   "text": "Скажите, я хотела бы поужинать с вами сегодня вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 1453.74,
+   "end": 1455.6,
+   "text": "I'd like to have dinner with you tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 1460.18,
+   "end": 1463.34,
+   "text": "Не сегодня вечером, завтра вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 1467.32,
+   "end": 1469.5,
+   "text": "Not tonight, tomorrow night.",
+   "lang": "ru"
+  },
+  {
+   "start": 1473.52,
+   "end": 1475.64,
+   "text": "Not tonight. Tomorrow night.",
+   "lang": "en"
+  },
+  {
+   "start": 1480.12,
+   "end": 1485.24,
+   "text": "Скажите, тогда в восемь часов в ресторане Парковый проспект.",
+   "lang": "ru"
+  },
+  {
+   "start": 1491.7,
+   "end": 1495.2,
+   "text": "Then at eight o'clock at the Park Avenue restaurant.",
+   "lang": "ru"
+  },
+  {
+   "start": 1501.82,
+   "end": 1502.64,
+   "text": "Хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1504.56,
+   "end": 1505.38,
+   "text": "Хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1507.14,
+   "end": 1509.88,
+   "text": "Now you will have a conversation with a man.",
+   "lang": "en"
+  },
+  {
+   "start": 1510.16,
+   "end": 1513.88,
+   "text": "Сейчас вы будете разговаривать с мужчиной.",
+   "lang": "ru"
+  },
+  {
+   "start": 1514.62,
+   "end": 1518.64,
+   "text": "Я подскажу вам, что говорить ему, а он будет вам отвечать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1519.26,
+   "end": 1521.88,
+   "text": "Прежде всего, спросите, как он поживает.",
+   "lang": "ru"
+  },
+  {
+   "start": 1524.12,
+   "end": 1524.92,
+   "text": "How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 1526.7,
+   "end": 1528.26,
+   "text": "How are you today?",
+   "lang": "ru"
+  },
+  {
+   "start": 1530.86,
+   "end": 1532.08,
+   "text": "I'm fine, thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1533.28,
+   "end": 1535.26,
+   "text": "Спросите, что он хочет делать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1538.16,
+   "end": 1539.54,
+   "text": "What do you want to do?",
+   "lang": "ru"
+  },
+  {
+   "start": 1542.64,
+   "end": 1543.78,
+   "text": "What do you want to do?",
+   "lang": "en"
+  },
+  {
+   "start": 1543.94,
+   "end": 1548.08,
+   "text": "When? Now?",
+   "lang": "ru"
+  },
+  {
+   "start": 1549.22,
+   "end": 1550.5,
+   "text": "Спросите, который час.",
+   "lang": "ru"
+  },
+  {
+   "start": 1552.48,
+   "end": 1553.6,
+   "text": "What time is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1555.5,
+   "end": 1556.76,
+   "text": "What time is it now?",
+   "lang": "en"
+  },
+  {
+   "start": 1559.34,
+   "end": 1561.48,
+   "text": "Вы знаете, который час?",
+   "lang": "ru"
+  },
+  {
+   "start": 1565.06,
+   "end": 1566.72,
+   "text": "Do you know what time it is?",
+   "lang": "en"
+  },
+  {
+   "start": 1570.0,
+   "end": 1571.9,
+   "text": "Do you know what time it is now?",
+   "lang": "en"
+  },
+  {
+   "start": 1576.22,
+   "end": 1579.02,
+   "text": "Спросите, что он хочет делать сегодня вечером?",
+   "lang": "ru"
+  },
+  {
+   "start": 1582.52,
+   "end": 1583.84,
+   "text": "What do you want to do tonight?",
+   "lang": "en"
+  },
+  {
+   "start": 1587.04,
+   "end": 1588.86,
+   "text": "I don't know. And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1590.36,
+   "end": 1593.36,
+   "text": "Спросите, хотел ли бы он что-нибудь выпить в гостинице?",
+   "lang": "ru"
+  },
+  {
+   "start": 1593.96,
+   "end": 1595.98,
+   "text": "Имею в виду конкретную гостиницу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1601.44,
+   "end": 1603.94,
+   "text": "Would you like to have something to drink at the hotel?",
+   "lang": "ru"
+  },
+  {
+   "start": 1603.94,
+   "end": 1604.18,
+   "text": "tell?",
+   "lang": "en"
+  },
+  {
+   "start": 1609.48,
+   "end": 1611.96,
+   "text": "Would you like to have something to drink at the hotel?",
+   "lang": "ru"
+  },
+  {
+   "start": 1611.96,
+   "end": 1619.58,
+   "text": "tell? Yes, I would, but not tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 1620.24,
+   "end": 1622.88,
+   "text": "Спросите, тогда завтра вечером?",
+   "lang": "ru"
+  },
+  {
+   "start": 1625.46,
+   "end": 1627.1,
+   "text": "Then tomorrow night?",
+   "lang": "en"
+  },
+  {
+   "start": 1629.7,
+   "end": 1631.3,
+   "text": "Then tomorrow night?",
+   "lang": "en"
+  },
+  {
+   "start": 1633.88,
+   "end": 1636.0,
+   "text": "Yes, tomorrow night is fine.",
+   "lang": "en"
+  },
+  {
+   "start": 1636.1,
+   "end": 1639.06,
+   "text": "Он собирается задать вам вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 1639.34,
+   "end": 1642.92,
+   "text": "В своем ответе скажите в 6 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1643.6,
+   "end": 1646.12,
+   "text": "At what time are you going to have dinner tonight?",
+   "lang": "ru"
+  },
+  {
+   "start": 1646.12,
+   "end": 1649.28,
+   "text": "At what time are you going to have dinner tonight?",
+   "lang": "en"
+  },
+  {
+   "start": 1651.64,
+   "end": 1653.38,
+   "text": "At six o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 1656.2,
+   "end": 1658.5,
+   "text": "I'm going to have dinner at six o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 1663.24,
+   "end": 1667.08,
+   "text": "В следующем ответе употребите слова в семь часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1667.58,
+   "end": 1668.5,
+   "text": "And tomorrow?",
+   "lang": "ru"
+  },
+  {
+   "start": 1671.48,
+   "end": 1672.98,
+   "text": "At seven o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 1676.24,
+   "end": 1678.74,
+   "text": "Tomorrow I'm going to have dinner at 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1684.4,
+   "end": 1689.02,
+   "text": "Отвечая на следующий вопрос, скажите в 10 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1689.54,
+   "end": 1692.7,
+   "text": "At what time would you like to have something to drink with me?",
+   "lang": "en"
+  },
+  {
+   "start": 1696.74,
+   "end": 1699.64,
+   "text": "At ten o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1702.12,
+   "end": 1704.84,
+   "text": "I'd like to have something to drink with you at ten o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1709.22,
+   "end": 1712.48,
+   "text": "А на этот вопрос ответьте сами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1712.48,
+   "end": 1714.64,
+   "text": "What would you like to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 1718.94,
+   "end": 1720.9,
+   "text": "I'd like to have some wine, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1725.3,
+   "end": 1726.72,
+   "text": "Some beer, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1729.6,
+   "end": 1730.98,
+   "text": "Some coffee, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1733.72,
+   "end": 1736.62,
+   "text": "Would you like to have some wine or some beer?",
+   "lang": "en"
+  },
+  {
+   "start": 1737.06,
+   "end": 1739.98,
+   "text": "Would you like to have some wine or some beer?",
+   "lang": "en"
+  },
+  {
+   "start": 1739.98,
+   "end": 1741.16,
+   "text": "But it's...",
+   "lang": "en"
+  },
+  {
+   "start": 1741.38,
+   "end": 1747.64,
+   "text": "Представьте, что вы не поняли. Как вы скажете «Простите, повторите, пожалуйста».",
+   "lang": "ru"
+  },
+  {
+   "start": 1751.02,
+   "end": 1753.1,
+   "text": "I'm sorry, repeat, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1757.02,
+   "end": 1759.12,
+   "text": "I'm sorry, repeat, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1763.6,
+   "end": 1767.26,
+   "text": "Скажите «Хорошо, но слушайте, пожалуйста».",
+   "lang": "ru"
+  },
+  {
+   "start": 1770.92,
+   "end": 1772.84,
+   "text": "Okay, but listen please.",
+   "lang": "en"
+  },
+  {
+   "start": 1776.84,
+   "end": 1778.92,
+   "text": "Okay, but listen, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1781.32,
+   "end": 1784.4,
+   "text": "Сейчас он скажет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1784.42,
+   "end": 1787.56,
+   "text": "До свидания, мисс. Ответьте ему.",
+   "lang": "ru"
+  },
+  {
+   "start": 1788.24,
+   "end": 1789.12,
+   "text": "Goodbye, Miss.",
+   "lang": "en"
+  },
+  {
+   "start": 1791.66,
+   "end": 1792.56,
+   "text": "Goodbye, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1794.96,
+   "end": 1795.46,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 1797.04,
+   "end": 1800.14,
+   "text": "Урок номер одиннадцать окончен.",
+   "lang": "ru"
+  },
+  {
+   "start": 1801.38,
+   "end": 1801.58,
+   "text": "Продолжение следует...",
+   "lang": "ru"
+  }
+ ]
+}

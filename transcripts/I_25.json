@@ -1,0 +1,2523 @@
+{
+ "id": "I_25",
+ "source": "Pimsleur_I_25.mp3",
+ "duration": 1800.99,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 153,
+ "segments": [
+  {
+   "start": 1.9,
+   "end": 7.78,
+   "text": "Американский английский язык по методу доктора Пимслера. Урок номер 25.",
+   "lang": "ru"
+  },
+  {
+   "start": 7.78,
+   "end": 10.02,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 10.74,
+   "end": 13.68,
+   "text": "Excuse me, miss. Is this the road to Long Island?",
+   "lang": "en"
+  },
+  {
+   "start": 13.92,
+   "end": 17.0,
+   "text": "No, it isn't. The road you want is over there.",
+   "lang": "en"
+  },
+  {
+   "start": 17.28,
+   "end": 19.16,
+   "text": "I'm sorry. I don't understand.",
+   "lang": "en"
+  },
+  {
+   "start": 19.66,
+   "end": 21.66,
+   "text": "Which is the road to Long Island?",
+   "lang": "en"
+  },
+  {
+   "start": 21.86,
+   "end": 25.26,
+   "text": "It's over there. Go straight ahead, then to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 25.5,
+   "end": 27.32,
+   "text": "How far is Long Island?",
+   "lang": "en"
+  },
+  {
+   "start": 27.58,
+   "end": 29.58,
+   "text": "Not far. 30 or 40 miles.",
+   "lang": "en"
+  },
+  {
+   "start": 30.0,
+   "end": 30.62,
+   "text": "Спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.74,
+   "end": 31.48,
+   "text": "Ваше благородие.",
+   "lang": "ru"
+  },
+  {
+   "start": 31.96,
+   "end": 35.74,
+   "text": "В английском как вы говорите «миля»?",
+   "lang": "ru"
+  },
+  {
+   "start": 37.76,
+   "end": 38.2,
+   "text": "Майл.",
+   "lang": "ru"
+  },
+  {
+   "start": 40.4,
+   "end": 40.8,
+   "text": "Майл.",
+   "lang": "ru"
+  },
+  {
+   "start": 42.5,
+   "end": 43.56,
+   "text": "Спросите.",
+   "lang": "ru"
+  },
+  {
+   "start": 43.56,
+   "end": 44.74,
+   "text": "Сколько миль?",
+   "lang": "ru"
+  },
+  {
+   "start": 47.3,
+   "end": 49.0,
+   "text": "Сколько миль?",
+   "lang": "ru"
+  },
+  {
+   "start": 51.88,
+   "end": 53.6,
+   "text": "Сколько миль?",
+   "lang": "ru"
+  },
+  {
+   "start": 57.12,
+   "end": 59.84,
+   "text": "Спросите его, куда он собирается.",
+   "lang": "ru"
+  },
+  {
+   "start": 62.8,
+   "end": 63.96,
+   "text": "Where are you going?",
+   "lang": "en"
+  },
+  {
+   "start": 67.04,
+   "end": 67.58,
+   "text": "Where?",
+   "lang": "en"
+  },
+  {
+   "start": 69.98,
+   "end": 72.14,
+   "text": "Ask which is the road to Long Island.",
+   "lang": "en"
+  },
+  {
+   "start": 76.64,
+   "end": 78.76,
+   "text": "Which is the road to Long Island?",
+   "lang": "en"
+  },
+  {
+   "start": 83.6,
+   "end": 85.9,
+   "text": "Now ask if this is the road to Long Island.",
+   "lang": "ru"
+  },
+  {
+   "start": 90.08,
+   "end": 92.26,
+   "text": "Is this the road to Long Island?",
+   "lang": "ru"
+  },
+  {
+   "start": 96.82,
+   "end": 99.06,
+   "text": "Попробуйте сказать New York.",
+   "lang": "ru"
+  },
+  {
+   "start": 101.52,
+   "end": 102.46,
+   "text": "New York.",
+   "lang": "ru"
+  },
+  {
+   "start": 105.04,
+   "end": 105.62,
+   "text": "York.",
+   "lang": "ru"
+  },
+  {
+   "start": 107.82,
+   "end": 108.4,
+   "text": "York.",
+   "lang": "ru"
+  },
+  {
+   "start": 111.06,
+   "end": 111.5,
+   "text": "New York.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.64,
+   "end": 117.4,
+   "text": "Это дорога в Нью-Йорк.",
+   "lang": "ru"
+  },
+  {
+   "start": 121.72,
+   "end": 123.8,
+   "text": "Is this the road to New York?",
+   "lang": "en"
+  },
+  {
+   "start": 126.6,
+   "end": 130.68,
+   "text": "По какой дороге можно проехать в Нью-Йорк?",
+   "lang": "ru"
+  },
+  {
+   "start": 135.3,
+   "end": 137.28,
+   "text": "Which is the road to New York?",
+   "lang": "en"
+  },
+  {
+   "start": 140.22,
+   "end": 143.02,
+   "text": "Вы помните?",
+   "lang": "ru"
+  },
+  {
+   "start": 143.02,
+   "end": 146.46,
+   "text": "Do you remember how to...",
+   "lang": "en"
+  },
+  {
+   "start": 146.48,
+   "end": 147.88,
+   "text": "Прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 150.72,
+   "end": 151.62,
+   "text": "Straight ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 154.6,
+   "end": 155.5,
+   "text": "Now set.",
+   "lang": "en"
+  },
+  {
+   "start": 155.52,
+   "end": 156.92,
+   "text": "Направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 159.28,
+   "end": 160.54,
+   "text": "To the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 163.12,
+   "end": 164.04,
+   "text": "To the right.",
+   "lang": "en"
+  },
+  {
+   "start": 164.44,
+   "end": 165.08,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 167.96,
+   "end": 169.24,
+   "text": "Поезжайте направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 172.12,
+   "end": 173.56,
+   "text": "Go to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 176.7,
+   "end": 177.34,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 178.2,
+   "end": 180.34,
+   "text": "Дорога, которую вы хотите найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 183.3,
+   "end": 184.88,
+   "text": "The road you want.",
+   "lang": "ru"
+  },
+  {
+   "start": 188.46,
+   "end": 189.06,
+   "text": "Направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 191.94,
+   "end": 193.14,
+   "text": "is to the right.",
+   "lang": "en"
+  },
+  {
+   "start": 196.18,
+   "end": 199.7,
+   "text": "Спросите, направо ли та дорога, которая мне нужна?",
+   "lang": "ru"
+  },
+  {
+   "start": 204.14,
+   "end": 206.32,
+   "text": "Is the road I want to the right?",
+   "lang": "en"
+  },
+  {
+   "start": 210.76,
+   "end": 212.04,
+   "text": "Или налево?",
+   "lang": "ru"
+  },
+  {
+   "start": 215.34,
+   "end": 216.46,
+   "text": "or to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 219.9,
+   "end": 222.64,
+   "text": "Спросите его, куда он собирается?",
+   "lang": "ru"
+  },
+  {
+   "start": 226.16,
+   "end": 227.3,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 229.3,
+   "end": 230.7,
+   "text": "Ask.",
+   "lang": "en"
+  },
+  {
+   "start": 230.94,
+   "end": 233.68,
+   "text": "По какой дороге можно проехать в Нью-Йорк?",
+   "lang": "ru"
+  },
+  {
+   "start": 238.08,
+   "end": 239.58,
+   "text": "Which is the road to...",
+   "lang": "en"
+  },
+  {
+   "start": 239.6,
+   "end": 240.74,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 243.78,
+   "end": 245.18,
+   "text": "Say,",
+   "lang": "en"
+  },
+  {
+   "start": 248.66,
+   "end": 251.58,
+   "text": "Go to the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 254.66,
+   "end": 256.02,
+   "text": "Потом направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 259.48,
+   "end": 261.1,
+   "text": "Then to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 264.82,
+   "end": 266.52,
+   "text": "Ask. А потом?",
+   "lang": "ru"
+  },
+  {
+   "start": 269.02,
+   "end": 270.04,
+   "text": "And then?",
+   "lang": "ru"
+  },
+  {
+   "start": 272.42,
+   "end": 273.4,
+   "text": "And then?",
+   "lang": "ru"
+  },
+  {
+   "start": 275.76,
+   "end": 277.04,
+   "text": "А потом прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 280.98,
+   "end": 282.72,
+   "text": "And then straight ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 282.72,
+   "end": 282.92,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 286.54,
+   "end": 288.46,
+   "text": "Ask how far it is.",
+   "lang": "ru"
+  },
+  {
+   "start": 288.46,
+   "end": 290.34,
+   "text": "Ask how far it is.",
+   "lang": "en"
+  },
+  {
+   "start": 293.32,
+   "end": 294.94,
+   "text": "How far is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 297.88,
+   "end": 298.64,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 298.64,
+   "end": 300.12,
+   "text": "Это недалеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 302.44,
+   "end": 303.72,
+   "text": "It's not far.",
+   "lang": "ru"
+  },
+  {
+   "start": 306.64,
+   "end": 307.62,
+   "text": "Это 70 миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 311.2,
+   "end": 312.82,
+   "text": "It's 70 miles.",
+   "lang": "ru"
+  },
+  {
+   "start": 316.58,
+   "end": 318.42,
+   "text": "It's 70 miles.",
+   "lang": "en"
+  },
+  {
+   "start": 322.0,
+   "end": 325.24,
+   "text": "Сейчас скажите семьдесят пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 330.94,
+   "end": 333.16,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 333.38,
+   "end": 335.22,
+   "text": "Это восемьдесят миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 338.02,
+   "end": 339.54,
+   "text": "It's eighty miles.",
+   "lang": "ru"
+  },
+  {
+   "start": 344.68,
+   "end": 349.84,
+   "text": "Как сказать «это дорога, которую вы хотите найти»?",
+   "lang": "ru"
+  },
+  {
+   "start": 353.4,
+   "end": 354.7,
+   "text": "That's the road you want.",
+   "lang": "en"
+  },
+  {
+   "start": 358.0,
+   "end": 360.94,
+   "text": "Скажите, «мне нужен бензин».",
+   "lang": "ru"
+  },
+  {
+   "start": 363.42,
+   "end": 364.8,
+   "text": "I need some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 367.58,
+   "end": 369.1,
+   "text": "Сколько он стоит?",
+   "lang": "ru"
+  },
+  {
+   "start": 371.38,
+   "end": 372.58,
+   "text": "How much is it?",
+   "lang": "en"
+  },
+  {
+   "start": 374.84,
+   "end": 375.96,
+   "text": "How much is it?",
+   "lang": "en"
+  },
+  {
+   "start": 378.38,
+   "end": 380.16,
+   "text": "Один доллар за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 382.84,
+   "end": 384.9,
+   "text": "$1 per gallon",
+   "lang": "en"
+  },
+  {
+   "start": 384.9,
+   "end": 388.98,
+   "text": "per gallon",
+   "lang": "en"
+  },
+  {
+   "start": 390.52,
+   "end": 392.6,
+   "text": "Но в Нью-Йорке",
+   "lang": "ru"
+  },
+  {
+   "start": 395.64,
+   "end": 397.32,
+   "text": "but in new york",
+   "lang": "en"
+  },
+  {
+   "start": 400.66,
+   "end": 401.94,
+   "text": "бензин дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 405.08,
+   "end": 407.08,
+   "text": "Газ более дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 410.4,
+   "end": 414.62,
+   "text": "Помните, как сказать «два доллара за галлон»?",
+   "lang": "ru"
+  },
+  {
+   "start": 417.9,
+   "end": 420.04,
+   "text": "Два доллара за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 420.88,
+   "end": 425.96,
+   "text": "Это два доллара за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 430.4,
+   "end": 431.68,
+   "text": "Now she says,",
+   "lang": "en"
+  },
+  {
+   "start": 431.94,
+   "end": 433.54,
+   "text": "Do you have a small car?",
+   "lang": "en"
+  },
+  {
+   "start": 437.36,
+   "end": 438.98,
+   "text": "You have a small car.",
+   "lang": "ru"
+  },
+  {
+   "start": 443.06,
+   "end": 443.66,
+   "text": "Small.",
+   "lang": "ru"
+  },
+  {
+   "start": 446.12,
+   "end": 446.72,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 447.24,
+   "end": 449.1,
+   "text": "Вам нужна машина побольше.",
+   "lang": "ru"
+  },
+  {
+   "start": 452.66,
+   "end": 454.28,
+   "text": "You need a bigger car.",
+   "lang": "ru"
+  },
+  {
+   "start": 457.84,
+   "end": 459.48,
+   "text": "You need a bigger car.",
+   "lang": "ru"
+  },
+  {
+   "start": 463.18,
+   "end": 466.78,
+   "text": "Да, у меня большая семья.",
+   "lang": "ru"
+  },
+  {
+   "start": 471.36,
+   "end": 473.36,
+   "text": "Yes, I have a big family.",
+   "lang": "en"
+  },
+  {
+   "start": 475.82,
+   "end": 478.62,
+   "text": "Я могу.",
+   "lang": "ru"
+  },
+  {
+   "start": 478.62,
+   "end": 480.24,
+   "text": "How do you say, Yamagu?",
+   "lang": "en"
+  },
+  {
+   "start": 483.04,
+   "end": 483.76,
+   "text": "I can.",
+   "lang": "en"
+  },
+  {
+   "start": 484.52,
+   "end": 487.32,
+   "text": "Я могу.",
+   "lang": "ru"
+  },
+  {
+   "start": 489.66,
+   "end": 491.08,
+   "text": "Now ask,",
+   "lang": "en"
+  },
+  {
+   "start": 494.32,
+   "end": 495.32,
+   "text": "Can I?",
+   "lang": "ru"
+  },
+  {
+   "start": 497.28,
+   "end": 498.3,
+   "text": "Can I?",
+   "lang": "ru"
+  },
+  {
+   "start": 500.58,
+   "end": 501.3,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 501.5,
+   "end": 503.28,
+   "text": "Я могу купить что-нибудь?",
+   "lang": "ru"
+  },
+  {
+   "start": 506.28,
+   "end": 507.76,
+   "text": "Can I buy something?",
+   "lang": "ru"
+  },
+  {
+   "start": 510.94,
+   "end": 513.14,
+   "text": "Say that you have $75.",
+   "lang": "ru"
+  },
+  {
+   "start": 513.14,
+   "end": 513.54,
+   "text": "dollars.",
+   "lang": "en"
+  },
+  {
+   "start": 517.94,
+   "end": 520.02,
+   "text": "I have $75.",
+   "lang": "ru"
+  },
+  {
+   "start": 525.42,
+   "end": 525.94,
+   "text": "75.",
+   "lang": "ru"
+  },
+  {
+   "start": 528.82,
+   "end": 530.22,
+   "text": "Sprint",
+   "lang": "en"
+  },
+  {
+   "start": 530.24,
+   "end": 533.06,
+   "text": "Спросите, можете ли вы что-нибудь купить в Нью-Йорке?",
+   "lang": "ru"
+  },
+  {
+   "start": 537.1,
+   "end": 539.18,
+   "text": "Can I buy something in New York?",
+   "lang": "ru"
+  },
+  {
+   "start": 543.3,
+   "end": 544.58,
+   "text": "Нет, вы не можете.",
+   "lang": "ru"
+  },
+  {
+   "start": 547.06,
+   "end": 548.34,
+   "text": "No, you can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 550.48,
+   "end": 551.42,
+   "text": "You can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 553.18,
+   "end": 554.08,
+   "text": "Почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 554.36,
+   "end": 555.74,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 556.56,
+   "end": 556.7,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 559.04,
+   "end": 559.32,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 561.24,
+   "end": 561.78,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 563.32,
+   "end": 564.52,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 564.8,
+   "end": 565.4,
+   "text": "Почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 567.56,
+   "end": 568.14,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 570.58,
+   "end": 571.2,
+   "text": "Потому что.",
+   "lang": "ru"
+  },
+  {
+   "start": 571.98,
+   "end": 572.84,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 573.86,
+   "end": 574.14,
+   "text": "Because.",
+   "lang": "ru"
+  },
+  {
+   "start": 576.94,
+   "end": 577.16,
+   "text": "Cause.",
+   "lang": "ru"
+  },
+  {
+   "start": 579.54,
+   "end": 579.66,
+   "text": "Cause.",
+   "lang": "ru"
+  },
+  {
+   "start": 581.1,
+   "end": 582.3,
+   "text": "Be.",
+   "lang": "ru"
+  },
+  {
+   "start": 582.3,
+   "end": 584.84,
+   "text": "B. Because.",
+   "lang": "en"
+  },
+  {
+   "start": 587.26,
+   "end": 589.72,
+   "text": "Потому что…",
+   "lang": "ru"
+  },
+  {
+   "start": 591.18,
+   "end": 592.58,
+   "text": "because",
+   "lang": "en"
+  },
+  {
+   "start": 595.54,
+   "end": 596.94,
+   "text": "Почему…",
+   "lang": "ru"
+  },
+  {
+   "start": 596.94,
+   "end": 599.38,
+   "text": "Why?",
+   "lang": "en"
+  },
+  {
+   "start": 601.54,
+   "end": 604.8,
+   "text": "Почему? Потому что.",
+   "lang": "ru"
+  },
+  {
+   "start": 608.16,
+   "end": 610.92,
+   "text": "Why? Because...",
+   "lang": "en"
+  },
+  {
+   "start": 613.92,
+   "end": 616.72,
+   "text": "Why? Because...",
+   "lang": "en"
+  },
+  {
+   "start": 620.72,
+   "end": 624.42,
+   "text": "Потому что мне нужно немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 628.74,
+   "end": 630.74,
+   "text": "Because I need some money.",
+   "lang": "en"
+  },
+  {
+   "start": 633.54,
+   "end": 637.36,
+   "text": "Мне нужно 80 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.64,
+   "end": 642.72,
+   "text": "I need eighty dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 646.24,
+   "end": 647.16,
+   "text": "Eighty.",
+   "lang": "ru"
+  },
+  {
+   "start": 649.52,
+   "end": 650.86,
+   "text": "А магазины закрыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 651.28,
+   "end": 652.2,
+   "text": "Магазины.",
+   "lang": "ru"
+  },
+  {
+   "start": 652.82,
+   "end": 653.64,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 654.04,
+   "end": 655.2,
+   "text": "The stores.",
+   "lang": "ru"
+  },
+  {
+   "start": 657.9,
+   "end": 658.82,
+   "text": "Stores.",
+   "lang": "ru"
+  },
+  {
+   "start": 661.5,
+   "end": 662.42,
+   "text": "Stores.",
+   "lang": "ru"
+  },
+  {
+   "start": 664.96,
+   "end": 665.76,
+   "text": "The stores.",
+   "lang": "ru"
+  },
+  {
+   "start": 668.34,
+   "end": 676.96,
+   "text": "Помните, что слово the может относиться не только к одному конкретному предмету, но и к конкретной группе предметов.",
+   "lang": "ru"
+  },
+  {
+   "start": 678.24,
+   "end": 679.26,
+   "text": "Магазины.",
+   "lang": "ru"
+  },
+  {
+   "start": 681.78,
+   "end": 682.82,
+   "text": "The stores.",
+   "lang": "en"
+  },
+  {
+   "start": 685.7,
+   "end": 686.7,
+   "text": "Now say,",
+   "lang": "en"
+  },
+  {
+   "start": 686.9,
+   "end": 690.36,
+   "text": "Магазин. Имея в виду конкретный магазин.",
+   "lang": "ru"
+  },
+  {
+   "start": 692.0,
+   "end": 693.7,
+   "text": "The Store",
+   "lang": "en"
+  },
+  {
+   "start": 696.12,
+   "end": 697.38,
+   "text": "The store.",
+   "lang": "ru"
+  },
+  {
+   "start": 699.8,
+   "end": 700.98,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 701.56,
+   "end": 702.44,
+   "text": "Магазины.",
+   "lang": "ru"
+  },
+  {
+   "start": 704.66,
+   "end": 706.08,
+   "text": "The stores.",
+   "lang": "ru"
+  },
+  {
+   "start": 708.26,
+   "end": 710.66,
+   "text": "А сейчас универмаг.",
+   "lang": "ru"
+  },
+  {
+   "start": 710.94,
+   "end": 713.98,
+   "text": "Слушайте и повторяйте, шаг за шагом.",
+   "lang": "ru"
+  },
+  {
+   "start": 714.12,
+   "end": 715.0,
+   "text": "Department.",
+   "lang": "ru"
+  },
+  {
+   "start": 717.82,
+   "end": 717.98,
+   "text": "Ment.",
+   "lang": "ru"
+  },
+  {
+   "start": 720.36,
+   "end": 720.56,
+   "text": "Ment.",
+   "lang": "ru"
+  },
+  {
+   "start": 723.02,
+   "end": 723.18,
+   "text": "Part.",
+   "lang": "ru"
+  },
+  {
+   "start": 723.18,
+   "end": 725.8,
+   "text": "Департмент.",
+   "lang": "ru"
+  },
+  {
+   "start": 726.0,
+   "end": 727.0,
+   "text": "Д.",
+   "lang": "ru"
+  },
+  {
+   "start": 730.36,
+   "end": 731.76,
+   "text": "Департмент.",
+   "lang": "ru"
+  },
+  {
+   "start": 733.58,
+   "end": 735.3,
+   "text": "Департмент-стор.",
+   "lang": "ru"
+  },
+  {
+   "start": 737.52,
+   "end": 739.2,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 740.08,
+   "end": 740.66,
+   "text": "Универмаг.",
+   "lang": "ru"
+  },
+  {
+   "start": 743.44,
+   "end": 745.24,
+   "text": "Департмент-стор.",
+   "lang": "ru"
+  },
+  {
+   "start": 748.4,
+   "end": 752.04,
+   "text": "Вот как сказать «магазины закрыты».",
+   "lang": "ru"
+  },
+  {
+   "start": 754.18,
+   "end": 755.8,
+   "text": "The stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 759.96,
+   "end": 760.76,
+   "text": "Closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 762.9,
+   "end": 763.7,
+   "text": "Closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 765.6,
+   "end": 768.04,
+   "text": "Say that the stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 771.64,
+   "end": 773.52,
+   "text": "The stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 773.52,
+   "end": 773.84,
+   "text": "Closed.",
+   "lang": "en"
+  },
+  {
+   "start": 777.24,
+   "end": 780.08,
+   "text": "Say that the department stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 780.08,
+   "end": 780.5,
+   "text": "Closed.",
+   "lang": "en"
+  },
+  {
+   "start": 784.92,
+   "end": 787.52,
+   "text": "The department stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 791.6,
+   "end": 794.72,
+   "text": "The department stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 794.72,
+   "end": 795.06,
+   "text": "Closed.",
+   "lang": "en"
+  },
+  {
+   "start": 799.56,
+   "end": 801.8,
+   "text": "Now ask Почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 803.68,
+   "end": 804.64,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 806.42,
+   "end": 808.74,
+   "text": "Answer Потому что?",
+   "lang": "ru"
+  },
+  {
+   "start": 810.7,
+   "end": 811.66,
+   "text": "Because",
+   "lang": "ru"
+  },
+  {
+   "start": 811.66,
+   "end": 812.08,
+   "text": "Because...",
+   "lang": "ru"
+  },
+  {
+   "start": 823.92,
+   "end": 826.46,
+   "text": "Because the stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 831.52,
+   "end": 833.6,
+   "text": "Ask if the stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 837.28,
+   "end": 838.92,
+   "text": "Are the stores closed?",
+   "lang": "ru"
+  },
+  {
+   "start": 842.46,
+   "end": 844.3,
+   "text": "Are the stores closed?",
+   "lang": "en"
+  },
+  {
+   "start": 846.98,
+   "end": 849.98,
+   "text": "Нет, они открыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 850.0,
+   "end": 853.58,
+   "text": "Нет, они открыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 856.0,
+   "end": 857.4,
+   "text": "Open",
+   "lang": "en"
+  },
+  {
+   "start": 857.4,
+   "end": 859.02,
+   "text": "Open",
+   "lang": "en"
+  },
+  {
+   "start": 861.18,
+   "end": 862.88,
+   "text": "They're open.",
+   "lang": "en"
+  },
+  {
+   "start": 863.52,
+   "end": 868.06,
+   "text": "Как вы говорите открыты?",
+   "lang": "ru"
+  },
+  {
+   "start": 868.06,
+   "end": 870.78,
+   "text": "Open.",
+   "lang": "en"
+  },
+  {
+   "start": 872.76,
+   "end": 874.68,
+   "text": "And how do you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 875.36,
+   "end": 876.2,
+   "text": "закрыты",
+   "lang": "ru"
+  },
+  {
+   "start": 877.98,
+   "end": 879.38,
+   "text": "Closed.",
+   "lang": "en"
+  },
+  {
+   "start": 881.32,
+   "end": 882.72,
+   "text": "Closed.",
+   "lang": "en"
+  },
+  {
+   "start": 884.26,
+   "end": 887.66,
+   "text": "Ask if the department stores are open.",
+   "lang": "ru"
+  },
+  {
+   "start": 892.3,
+   "end": 894.68,
+   "text": "Are the department stores open?",
+   "lang": "ru"
+  },
+  {
+   "start": 894.68,
+   "end": 894.86,
+   "text": "Open.",
+   "lang": "en"
+  },
+  {
+   "start": 900.5,
+   "end": 902.92,
+   "text": "Универмаги сейчас открыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 907.22,
+   "end": 909.78,
+   "text": "The department stores are open now.",
+   "lang": "en"
+  },
+  {
+   "start": 914.36,
+   "end": 915.12,
+   "text": "Open.",
+   "lang": "en"
+  },
+  {
+   "start": 916.36,
+   "end": 919.24,
+   "text": "Магазины поменьше закрыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 923.6,
+   "end": 925.8,
+   "text": "The smaller stores are closed.",
+   "lang": "en"
+  },
+  {
+   "start": 930.32,
+   "end": 931.96,
+   "text": "The smaller stores.",
+   "lang": "en"
+  },
+  {
+   "start": 935.08,
+   "end": 936.06,
+   "text": "How do you",
+   "lang": "en"
+  },
+  {
+   "start": 936.16,
+   "end": 937.76,
+   "text": "Который час?",
+   "lang": "ru"
+  },
+  {
+   "start": 940.32,
+   "end": 941.54,
+   "text": "What time is it?",
+   "lang": "en"
+  },
+  {
+   "start": 944.02,
+   "end": 945.2,
+   "text": "What time is it?",
+   "lang": "en"
+  },
+  {
+   "start": 947.96,
+   "end": 949.76,
+   "text": "9 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 952.66,
+   "end": 953.9,
+   "text": "Nine o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 956.6,
+   "end": 958.3,
+   "text": "It's nine o'clock",
+   "lang": "ru"
+  },
+  {
+   "start": 960.9,
+   "end": 963.68,
+   "text": "Ask if the stores are open",
+   "lang": "ru"
+  },
+  {
+   "start": 965.98,
+   "end": 968.64,
+   "text": "Are the stores open?",
+   "lang": "ru"
+  },
+  {
+   "start": 968.64,
+   "end": 968.74,
+   "text": "open.",
+   "lang": "en"
+  },
+  {
+   "start": 972.8,
+   "end": 972.96,
+   "text": "Answer",
+   "lang": "ru"
+  },
+  {
+   "start": 972.96,
+   "end": 975.38,
+   "text": "Нет, они закрыты",
+   "lang": "ru"
+  },
+  {
+   "start": 978.64,
+   "end": 980.54,
+   "text": "No, they're closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 983.98,
+   "end": 985.28,
+   "text": "They're closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 988.52,
+   "end": 988.76,
+   "text": "Ask",
+   "lang": "ru"
+  },
+  {
+   "start": 988.76,
+   "end": 989.48,
+   "text": "Почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 992.12,
+   "end": 992.38,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 994.82,
+   "end": 996.08,
+   "text": "Потому что уже поздно.",
+   "lang": "ru"
+  },
+  {
+   "start": 996.84,
+   "end": 997.64,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 998.72,
+   "end": 999.64,
+   "text": "Because it's late.",
+   "lang": "ru"
+  },
+  {
+   "start": 1002.2,
+   "end": 1003.06,
+   "text": "Late.",
+   "lang": "ru"
+  },
+  {
+   "start": 1003.06,
+   "end": 1003.3,
+   "text": "Late.",
+   "lang": "en"
+  },
+  {
+   "start": 1005.4,
+   "end": 1005.88,
+   "text": "Late.",
+   "lang": "en"
+  },
+  {
+   "start": 1007.82,
+   "end": 1008.3,
+   "text": "It.",
+   "lang": "en"
+  },
+  {
+   "start": 1008.5,
+   "end": 1011.26,
+   "text": "It's late.",
+   "lang": "ru"
+  },
+  {
+   "start": 1011.56,
+   "end": 1017.6,
+   "text": "По-английски дословно нужно сказать «это поздно».",
+   "lang": "ru"
+  },
+  {
+   "start": 1018.28,
+   "end": 1019.46,
+   "text": "Скажите это еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1022.44,
+   "end": 1022.86,
+   "text": "It's late.",
+   "lang": "ru"
+  },
+  {
+   "start": 1025.36,
+   "end": 1026.18,
+   "text": "It's late.",
+   "lang": "en"
+  },
+  {
+   "start": 1026.9,
+   "end": 1031.92,
+   "text": "Try to say «еще не поздно».",
+   "lang": "ru"
+  },
+  {
+   "start": 1034.44,
+   "end": 1035.66,
+   "text": "It's not late.",
+   "lang": "en"
+  },
+  {
+   "start": 1044.78,
+   "end": 1048.06,
+   "text": "Но магазины закрыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1051.54,
+   "end": 1052.72,
+   "text": "But the storm...",
+   "lang": "en"
+  },
+  {
+   "start": 1052.74,
+   "end": 1059.8,
+   "text": "Say, New York далеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 1062.64,
+   "end": 1064.9,
+   "text": "Нью-Йорк is far.",
+   "lang": "ru"
+  },
+  {
+   "start": 1068.44,
+   "end": 1070.14,
+   "text": "New York is far.",
+   "lang": "en"
+  },
+  {
+   "start": 1073.48,
+   "end": 1076.28,
+   "text": "85 миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 1076.28,
+   "end": 1076.86,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1079.88,
+   "end": 1081.02,
+   "text": "85 miles.",
+   "lang": "ru"
+  },
+  {
+   "start": 1084.58,
+   "end": 1086.1,
+   "text": "85 миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 1089.9,
+   "end": 1093.9,
+   "text": "Say, 85 миль, а магазины закрыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1100.36,
+   "end": 1103.5,
+   "text": "85 миль, and the stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 1103.5,
+   "end": 1103.84,
+   "text": "Closed.",
+   "lang": "en"
+  },
+  {
+   "start": 1110.18,
+   "end": 1110.9,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 1110.9,
+   "end": 1113.58,
+   "text": "Я хочу кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1116.64,
+   "end": 1118.5,
+   "text": "I want to buy something.",
+   "lang": "ru"
+  },
+  {
+   "start": 1118.5,
+   "end": 1118.7,
+   "text": "thing.",
+   "lang": "en"
+  },
+  {
+   "start": 1121.96,
+   "end": 1124.42,
+   "text": "Мой муж хочет кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1125.12,
+   "end": 1125.94,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1127.04,
+   "end": 1128.58,
+   "text": "My husband wants to buy something.",
+   "lang": "ru"
+  },
+  {
+   "start": 1128.58,
+   "end": 1128.88,
+   "text": "something.",
+   "lang": "en"
+  },
+  {
+   "start": 1133.5,
+   "end": 1134.08,
+   "text": "wants",
+   "lang": "ru"
+  },
+  {
+   "start": 1136.32,
+   "end": 1136.66,
+   "text": "wants",
+   "lang": "ru"
+  },
+  {
+   "start": 1136.66,
+   "end": 1140.4,
+   "text": "my husband wants",
+   "lang": "ru"
+  },
+  {
+   "start": 1140.4,
+   "end": 1145.64,
+   "text": "my husband wants to buy something",
+   "lang": "ru"
+  },
+  {
+   "start": 1145.64,
+   "end": 1146.08,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1150.38,
+   "end": 1155.6,
+   "text": "На конце английских эквивалентов слов типа хочет добавляются звуки",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.6,
+   "end": 1156.48,
+   "text": "или",
+   "lang": "ru"
+  },
+  {
+   "start": 1157.9,
+   "end": 1159.16,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1159.3,
+   "end": 1161.8,
+   "text": "Мой муж хочет кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1166.12,
+   "end": 1168.28,
+   "text": "My husband wants to buy something.",
+   "lang": "en"
+  },
+  {
+   "start": 1172.24,
+   "end": 1177.14,
+   "text": "А вы помните, как сказать «я хочу что-нибудь купить»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1180.42,
+   "end": 1181.98,
+   "text": "I want to buy something.",
+   "lang": "en"
+  },
+  {
+   "start": 1185.02,
+   "end": 1192.28,
+   "text": "Как правило, в английском языке в качестве «что-нибудь» и «кое-что» используется одно и то же слово.",
+   "lang": "ru"
+  },
+  {
+   "start": 1193.5,
+   "end": 1196.1,
+   "text": "Скажите мне, что ваш муж тоже хочет кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1201.28,
+   "end": 1203.86,
+   "text": "My husband wants to buy something, too.",
+   "lang": "en"
+  },
+  {
+   "start": 1208.76,
+   "end": 1209.84,
+   "text": "He wants.",
+   "lang": "en"
+  },
+  {
+   "start": 1212.68,
+   "end": 1213.72,
+   "text": "Try to say",
+   "lang": "en"
+  },
+  {
+   "start": 1213.82,
+   "end": 1215.46,
+   "text": "Ему нужны деньги.",
+   "lang": "ru"
+  },
+  {
+   "start": 1216.34,
+   "end": 1218.32,
+   "text": "Или, дословно, немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1221.44,
+   "end": 1223.02,
+   "text": "He needs some money.",
+   "lang": "en"
+  },
+  {
+   "start": 1226.46,
+   "end": 1227.1,
+   "text": "Needs.",
+   "lang": "en"
+  },
+  {
+   "start": 1227.72,
+   "end": 1234.2,
+   "text": "He needs some money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1237.02,
+   "end": 1239.72,
+   "text": "Ask. Что ему нужно?",
+   "lang": "ru"
+  },
+  {
+   "start": 1241.88,
+   "end": 1243.82,
+   "text": "What does he need?",
+   "lang": "ru"
+  },
+  {
+   "start": 1246.6,
+   "end": 1247.86,
+   "text": "What does he need?",
+   "lang": "en"
+  },
+  {
+   "start": 1251.38,
+   "end": 1252.14,
+   "text": "Say again.",
+   "lang": "en"
+  },
+  {
+   "start": 1252.36,
+   "end": 1254.04,
+   "text": "Ему нужны деньги.",
+   "lang": "ru"
+  },
+  {
+   "start": 1257.34,
+   "end": 1258.76,
+   "text": "He needs some money.",
+   "lang": "en"
+  },
+  {
+   "start": 1258.78,
+   "end": 1263.62,
+   "text": "Как вы спросите?",
+   "lang": "ru"
+  },
+  {
+   "start": 1263.62,
+   "end": 1264.8,
+   "text": "Which hour?",
+   "lang": "en"
+  },
+  {
+   "start": 1267.06,
+   "end": 1268.52,
+   "text": "What time is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1271.3,
+   "end": 1272.02,
+   "text": "Уже поздно?",
+   "lang": "ru"
+  },
+  {
+   "start": 1274.18,
+   "end": 1275.42,
+   "text": "Is it late?",
+   "lang": "ru"
+  },
+  {
+   "start": 1278.28,
+   "end": 1278.84,
+   "text": "Is it late?",
+   "lang": "ru"
+  },
+  {
+   "start": 1281.4,
+   "end": 1282.2,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1283.1,
+   "end": 1284.2,
+   "text": "Сейчас десять часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1287.16,
+   "end": 1288.56,
+   "text": "It's ten o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 1291.52,
+   "end": 1292.32,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1292.52,
+   "end": 1293.14,
+   "text": "Почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 1293.54,
+   "end": 1294.86,
+   "text": "Имею в виду,",
+   "lang": "ru"
+  },
+  {
+   "start": 1294.86,
+   "end": 1296.92,
+   "text": "почему вы спрашиваете об этом?",
+   "lang": "ru"
+  },
+  {
+   "start": 1296.92,
+   "end": 1299.4,
+   "text": "Why?",
+   "lang": "en"
+  },
+  {
+   "start": 1301.72,
+   "end": 1302.24,
+   "text": "Why?",
+   "lang": "en"
+  },
+  {
+   "start": 1303.56,
+   "end": 1307.3,
+   "text": "Потому что моя жена хочет кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1312.6,
+   "end": 1315.44,
+   "text": "because my wife wants to buy something.",
+   "lang": "en"
+  },
+  {
+   "start": 1321.04,
+   "end": 1324.32,
+   "text": "Удается ли вам точно копировать произношение диктора?",
+   "lang": "ru"
+  },
+  {
+   "start": 1324.32,
+   "end": 1325.92,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1326.94,
+   "end": 1327.9,
+   "text": "My wife wants.",
+   "lang": "ru"
+  },
+  {
+   "start": 1331.64,
+   "end": 1332.34,
+   "text": "Wants.",
+   "lang": "ru"
+  },
+  {
+   "start": 1335.14,
+   "end": 1336.62,
+   "text": "Она хочет кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1340.08,
+   "end": 1341.92,
+   "text": "She wants to buy something.",
+   "lang": "ru"
+  },
+  {
+   "start": 1345.56,
+   "end": 1346.78,
+   "text": "She wants.",
+   "lang": "ru"
+  },
+  {
+   "start": 1349.34,
+   "end": 1351.28,
+   "text": "Do you remember how to ask?",
+   "lang": "ru"
+  },
+  {
+   "start": 1351.52,
+   "end": 1353.34,
+   "text": "Она хочет кое-что купить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.12,
+   "end": 1359.26,
+   "text": "Does she want to buy something?",
+   "lang": "ru"
+  },
+  {
+   "start": 1359.26,
+   "end": 1359.98,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1363.3,
+   "end": 1364.14,
+   "text": "Does",
+   "lang": "ru"
+  },
+  {
+   "start": 1364.14,
+   "end": 1368.22,
+   "text": "Does she want to buy something?",
+   "lang": "ru"
+  },
+  {
+   "start": 1371.84,
+   "end": 1372.68,
+   "text": "Ask",
+   "lang": "ru"
+  },
+  {
+   "start": 1372.68,
+   "end": 1373.56,
+   "text": "Где?",
+   "lang": "ru"
+  },
+  {
+   "start": 1375.78,
+   "end": 1376.62,
+   "text": "Where?",
+   "lang": "ru"
+  },
+  {
+   "start": 1378.38,
+   "end": 1379.74,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 1379.74,
+   "end": 1381.34,
+   "text": "В универмаге",
+   "lang": "ru"
+  },
+  {
+   "start": 1381.34,
+   "end": 1384.62,
+   "text": "имея в виду в каком-нибудь универмаге.",
+   "lang": "ru"
+  },
+  {
+   "start": 1387.84,
+   "end": 1389.64,
+   "text": "In a department store.",
+   "lang": "ru"
+  },
+  {
+   "start": 1393.12,
+   "end": 1394.88,
+   "text": "In a department store.",
+   "lang": "en"
+  },
+  {
+   "start": 1397.86,
+   "end": 1400.62,
+   "text": "Ask if the stores are open.",
+   "lang": "ru"
+  },
+  {
+   "start": 1404.58,
+   "end": 1405.68,
+   "text": "Are the stores open?",
+   "lang": "ru"
+  },
+  {
+   "start": 1405.68,
+   "end": 1405.92,
+   "text": "open",
+   "lang": "en"
+  },
+  {
+   "start": 1408.96,
+   "end": 1415.68,
+   "text": "Используя слово small, скажите «маленькие магазины закрыты».",
+   "lang": "ru"
+  },
+  {
+   "start": 1419.38,
+   "end": 1421.5,
+   "text": "The small stores are closed.",
+   "lang": "en"
+  },
+  {
+   "start": 1425.9,
+   "end": 1428.58,
+   "text": "Магазины побольше открыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1432.48,
+   "end": 1434.42,
+   "text": "The bigger stores are open.",
+   "lang": "en"
+  },
+  {
+   "start": 1438.34,
+   "end": 1439.7,
+   "text": "The bigger stores.",
+   "lang": "en"
+  },
+  {
+   "start": 1442.9,
+   "end": 1445.18,
+   "text": "Универмаги сейчас открыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1449.56,
+   "end": 1451.24,
+   "text": "The department stores.",
+   "lang": "en"
+  },
+  {
+   "start": 1451.56,
+   "end": 1452.86,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1456.36,
+   "end": 1457.76,
+   "text": "Ask.",
+   "lang": "en"
+  },
+  {
+   "start": 1458.02,
+   "end": 1459.04,
+   "text": "А завтра?",
+   "lang": "ru"
+  },
+  {
+   "start": 1460.78,
+   "end": 1462.46,
+   "text": "And tomorrow?",
+   "lang": "ru"
+  },
+  {
+   "start": 1465.2,
+   "end": 1467.42,
+   "text": "Завтра они будут закрыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1467.72,
+   "end": 1469.16,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1469.7,
+   "end": 1471.58,
+   "text": "Завтра они закрыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1475.34,
+   "end": 1476.68,
+   "text": "They're closed",
+   "lang": "ru"
+  },
+  {
+   "start": 1479.1,
+   "end": 1481.5,
+   "text": "Tomorrow they're closed",
+   "lang": "ru"
+  },
+  {
+   "start": 1485.02,
+   "end": 1489.16,
+   "text": "Чтобы сказать по-английски, что завтра магазины будут закрыты,",
+   "lang": "ru"
+  },
+  {
+   "start": 1489.78,
+   "end": 1493.36,
+   "text": "дословно нужно произнести «Завтра они закрыты».",
+   "lang": "ru"
+  },
+  {
+   "start": 1493.9,
+   "end": 1495.04,
+   "text": "Скажите это еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1499.1,
+   "end": 1500.26,
+   "text": "Tomorrow they're closed",
+   "lang": "ru"
+  },
+  {
+   "start": 1503.96,
+   "end": 1508.06,
+   "text": "Но они будут открыты сегодня вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 1511.96,
+   "end": 1513.58,
+   "text": "But they're open tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 1517.42,
+   "end": 1520.22,
+   "text": "Где универмаги?",
+   "lang": "ru"
+  },
+  {
+   "start": 1520.22,
+   "end": 1526.34,
+   "text": "you. Where are the department stores?",
+   "lang": "en"
+  },
+  {
+   "start": 1530.9,
+   "end": 1533.02,
+   "text": "Скажите, что они недалеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 1536.18,
+   "end": 1537.26,
+   "text": "They're not far.",
+   "lang": "en"
+  },
+  {
+   "start": 1540.5,
+   "end": 1541.6,
+   "text": "They're not far.",
+   "lang": "en"
+  },
+  {
+   "start": 1544.56,
+   "end": 1546.28,
+   "text": "Поезжайте налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 1549.5,
+   "end": 1550.84,
+   "text": "Go to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 1554.18,
+   "end": 1555.5,
+   "text": "Go to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 1558.16,
+   "end": 1559.84,
+   "text": "А потом прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1563.5,
+   "end": 1564.98,
+   "text": "And then straight.",
+   "lang": "en"
+  },
+  {
+   "start": 1565.16,
+   "end": 1565.84,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1568.74,
+   "end": 1570.14,
+   "text": "Say...",
+   "lang": "en"
+  },
+  {
+   "start": 1570.74,
+   "end": 1572.64,
+   "text": "Моя жена хочет кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1576.78,
+   "end": 1578.94,
+   "text": "My wife wants to buy something.",
+   "lang": "ru"
+  },
+  {
+   "start": 1582.98,
+   "end": 1587.98,
+   "text": "В универмаге, имея в виду в каком-нибудь универмаге.",
+   "lang": "ru"
+  },
+  {
+   "start": 1591.28,
+   "end": 1592.84,
+   "text": "In a department store.",
+   "lang": "en"
+  },
+  {
+   "start": 1596.22,
+   "end": 1598.02,
+   "text": "Что она хочет купить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1601.62,
+   "end": 1603.1,
+   "text": "What does she want to buy?",
+   "lang": "en"
+  },
+  {
+   "start": 1606.88,
+   "end": 1607.34,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 1607.58,
+   "end": 1609.8,
+   "text": "Она хочет кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1613.52,
+   "end": 1615.52,
+   "text": "She wants to buy something.",
+   "lang": "en"
+  },
+  {
+   "start": 1620.56,
+   "end": 1623.6,
+   "text": "Ей нужно кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.82,
+   "end": 1630.0,
+   "text": "She needs to buy something.",
+   "lang": "en"
+  },
+  {
+   "start": 1634.6,
+   "end": 1637.88,
+   "text": "Что нужно купить вашей жене?",
+   "lang": "ru"
+  },
+  {
+   "start": 1641.96,
+   "end": 1643.84,
+   "text": "What does your wife need to buy?",
+   "lang": "en"
+  },
+  {
+   "start": 1648.26,
+   "end": 1650.22,
+   "text": "What does your wife need to buy?",
+   "lang": "en"
+  },
+  {
+   "start": 1653.28,
+   "end": 1657.32,
+   "text": "Кое-что для нашего маленького мальчика.",
+   "lang": "ru"
+  },
+  {
+   "start": 1662.58,
+   "end": 1664.62,
+   "text": "Something for our little boy.",
+   "lang": "en"
+  },
+  {
+   "start": 1669.66,
+   "end": 1673.32,
+   "text": "Спросите мужчину, достаточно ли у него денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1673.32,
+   "end": 1678.92,
+   "text": "Do you have enough money?",
+   "lang": "ru"
+  },
+  {
+   "start": 1682.74,
+   "end": 1684.54,
+   "text": "Do you have enough money?",
+   "lang": "en"
+  },
+  {
+   "start": 1684.66,
+   "end": 1691.54,
+   "text": "Answer. У меня 80 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1695.26,
+   "end": 1697.34,
+   "text": "I have 80 dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1701.32,
+   "end": 1704.18,
+   "text": "Спросите, 70 или 80?",
+   "lang": "ru"
+  },
+  {
+   "start": 1707.78,
+   "end": 1709.54,
+   "text": "70 or",
+   "lang": "en"
+  },
+  {
+   "start": 1709.64,
+   "end": 1717.9,
+   "text": "Say, не 70. У меня 80 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1723.88,
+   "end": 1726.74,
+   "text": "Not 70. I have $80.",
+   "lang": "ru"
+  },
+  {
+   "start": 1733.28,
+   "end": 1738.62,
+   "text": "Имея в виду эту конкретную сумму, скажите, но этого недостаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1742.1,
+   "end": 1743.82,
+   "text": "But that's not enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 1747.72,
+   "end": 1748.78,
+   "text": "That's not enough.",
+   "lang": "en"
+  },
+  {
+   "start": 1750.58,
+   "end": 1754.68,
+   "text": "В Нью-Йорке дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 1759.04,
+   "end": 1761.18,
+   "text": "In New York, it's expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 1764.02,
+   "end": 1767.38,
+   "text": "И моя жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 1770.04,
+   "end": 1771.4,
+   "text": "and my wife",
+   "lang": "ru"
+  },
+  {
+   "start": 1773.7,
+   "end": 1775.36,
+   "text": "try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 1775.36,
+   "end": 1777.78,
+   "text": "моей жене нужно много денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1782.46,
+   "end": 1785.04,
+   "text": "My wife needs a lot of money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1789.62,
+   "end": 1792.52,
+   "text": "My wife needs a lot of money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1797.38,
+   "end": 1799.72,
+   "text": "Урок 25 окончен.",
+   "lang": "ru"
+  }
+ ]
+}

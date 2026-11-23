@@ -1,0 +1,2163 @@
+{
+ "id": "I_13",
+ "source": "Pimsleur_I_13.mp3",
+ "duration": 1797.56,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 144,
+ "segments": [
+  {
+   "start": 2.16,
+   "end": 7.5,
+   "text": "Американский английский язык по методу доктора Пимпслера. Урок номер 13.",
+   "lang": "ru"
+  },
+  {
+   "start": 7.5,
+   "end": 9.88,
+   "text": "Listen to a telephone conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 10.56,
+   "end": 12.46,
+   "text": "Listen to a telephone conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 13.24,
+   "end": 14.86,
+   "text": "Hello, Mary. It's Jack.",
+   "lang": "en"
+  },
+  {
+   "start": 15.22,
+   "end": 16.76,
+   "text": "Hello, Jack. How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 16.9,
+   "end": 19.56,
+   "text": "Fine, thanks. What are you going to do tonight, Mary?",
+   "lang": "en"
+  },
+  {
+   "start": 19.94,
+   "end": 21.62,
+   "text": "Tonight? Oh, I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 21.84,
+   "end": 24.64,
+   "text": "Would you like to have dinner with me at 6 o'clock?",
+   "lang": "en"
+  },
+  {
+   "start": 24.88,
+   "end": 27.96,
+   "text": "No, thank you. I'm going to have dinner with Nancy tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 28.18,
+   "end": 31.24,
+   "text": "But would you like to have something to drink at the hotel later?",
+   "lang": "en"
+  },
+  {
+   "start": 31.6,
+   "end": 33.42,
+   "text": "Yes, I would. At what time?",
+   "lang": "en"
+  },
+  {
+   "start": 33.6,
+   "end": 36.6,
+   "text": "At 9 o'clock or later at 10 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 37.5,
+   "end": 39.12,
+   "text": "at 10 o'clock at the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 39.46,
+   "end": 40.24,
+   "text": "Goodbye, Mary.",
+   "lang": "en"
+  },
+  {
+   "start": 40.46,
+   "end": 41.54,
+   "text": "See you tonight, Jack.",
+   "lang": "en"
+  },
+  {
+   "start": 41.86,
+   "end": 43.96,
+   "text": "Женщина только что сказала.",
+   "lang": "ru"
+  },
+  {
+   "start": 45.56,
+   "end": 47.94,
+   "text": "Это означает «до вечера».",
+   "lang": "ru"
+  },
+  {
+   "start": 47.94,
+   "end": 49.9,
+   "text": "Listen again. Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 50.52,
+   "end": 52.14,
+   "text": "Hello, Mary. It's Jack.",
+   "lang": "en"
+  },
+  {
+   "start": 52.44,
+   "end": 53.98,
+   "text": "Hello, Jack. How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 54.14,
+   "end": 56.88,
+   "text": "Fine, thanks. What are you going to do tonight, Mary?",
+   "lang": "en"
+  },
+  {
+   "start": 57.2,
+   "end": 59.0,
+   "text": "Tonight? Oh, I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 59.2,
+   "end": 62.1,
+   "text": "Would you like to have dinner with me at 6 o'clock?",
+   "lang": "en"
+  },
+  {
+   "start": 62.32,
+   "end": 65.4,
+   "text": "No, thank you. I'm going to have dinner with Nancy tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 65.52,
+   "end": 68.6,
+   "text": "But would you like to have something to drink at the hotel later?",
+   "lang": "en"
+  },
+  {
+   "start": 68.9,
+   "end": 70.72,
+   "text": "Yes, I would. At what time?",
+   "lang": "en"
+  },
+  {
+   "start": 70.94,
+   "end": 73.68,
+   "text": "At 9 o'clock or later at 10 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 73.92,
+   "end": 76.28,
+   "text": "Okay. At 10 o'clock at the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 77.94,
+   "end": 78.7,
+   "text": "See you tonight, Jack.",
+   "lang": "en"
+  },
+  {
+   "start": 79.26,
+   "end": 81.16,
+   "text": "Спросите у меня, который час?",
+   "lang": "ru"
+  },
+  {
+   "start": 83.8,
+   "end": 85.0,
+   "text": "What time is it?",
+   "lang": "en"
+  },
+  {
+   "start": 86.18,
+   "end": 91.0,
+   "text": "А сейчас спросите, вы знаете, который час?",
+   "lang": "ru"
+  },
+  {
+   "start": 91.0,
+   "end": 91.22,
+   "text": "Yes.",
+   "lang": "en"
+  },
+  {
+   "start": 94.84,
+   "end": 96.46,
+   "text": "Do you know what time it is?",
+   "lang": "en"
+  },
+  {
+   "start": 100.1,
+   "end": 103.04,
+   "text": "Скажите, сейчас одиннадцать часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 106.58,
+   "end": 107.92,
+   "text": "It's 11 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 111.26,
+   "end": 111.86,
+   "text": "Eleven.",
+   "lang": "en"
+  },
+  {
+   "start": 114.12,
+   "end": 116.68,
+   "text": "Скажите нет, сейчас восемь часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 120.46,
+   "end": 122.3,
+   "text": "No, it's eight o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 125.98,
+   "end": 126.58,
+   "text": "Eight.",
+   "lang": "ru"
+  },
+  {
+   "start": 128.78,
+   "end": 130.92,
+   "text": "Спросите, сколько вы должны мне.",
+   "lang": "ru"
+  },
+  {
+   "start": 134.26,
+   "end": 135.88,
+   "text": "How much do I owe you?",
+   "lang": "ru"
+  },
+  {
+   "start": 138.2,
+   "end": 139.6,
+   "text": "Oh.",
+   "lang": "en"
+  },
+  {
+   "start": 140.24,
+   "end": 141.96,
+   "text": "Oh, I owe you.",
+   "lang": "ru"
+  },
+  {
+   "start": 144.34,
+   "end": 145.7,
+   "text": "How much do I owe you?",
+   "lang": "en"
+  },
+  {
+   "start": 148.84,
+   "end": 151.12,
+   "text": "Скажите, один доллар?",
+   "lang": "ru"
+  },
+  {
+   "start": 159.14,
+   "end": 162.62,
+   "text": "Сейчас скажите, тринадцать долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 170.78,
+   "end": 172.18,
+   "text": "Dollars",
+   "lang": "en"
+  },
+  {
+   "start": 174.04,
+   "end": 176.32,
+   "text": "Скажите «нет» 12.",
+   "lang": "ru"
+  },
+  {
+   "start": 179.28,
+   "end": 180.76,
+   "text": "No, twelve.",
+   "lang": "en"
+  },
+  {
+   "start": 183.62,
+   "end": 184.48,
+   "text": "Twelve.",
+   "lang": "en"
+  },
+  {
+   "start": 186.5,
+   "end": 190.18,
+   "text": "Спросите «12 или 13?»",
+   "lang": "ru"
+  },
+  {
+   "start": 193.42,
+   "end": 195.36,
+   "text": "12 or 13.",
+   "lang": "ru"
+  },
+  {
+   "start": 199.34,
+   "end": 203.16,
+   "text": "Помните, как сказать «Я вас понимаю».",
+   "lang": "ru"
+  },
+  {
+   "start": 205.54,
+   "end": 207.22,
+   "text": "I understand you.",
+   "lang": "en"
+  },
+  {
+   "start": 210.08,
+   "end": 210.92,
+   "text": "You.",
+   "lang": "en"
+  },
+  {
+   "start": 212.38,
+   "end": 215.9,
+   "text": "Попробуйте сказать «Я вас не понимаю».",
+   "lang": "ru"
+  },
+  {
+   "start": 218.58,
+   "end": 220.7,
+   "text": "I don't understand you.",
+   "lang": "en"
+  },
+  {
+   "start": 223.64,
+   "end": 225.92,
+   "text": "I don't understand you.",
+   "lang": "en"
+  },
+  {
+   "start": 229.56,
+   "end": 232.7,
+   "text": "Скажите, простите, я вас не понимаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 237.94,
+   "end": 240.9,
+   "text": "I'm sorry, I don't understand you.",
+   "lang": "en"
+  },
+  {
+   "start": 244.72,
+   "end": 247.12,
+   "text": "Скажите, пожалуйста, слушайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 248.94,
+   "end": 250.8,
+   "text": "Please listen.",
+   "lang": "en"
+  },
+  {
+   "start": 252.6,
+   "end": 253.84,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 254.92,
+   "end": 258.52,
+   "text": "Сейчас скажите. Пожалуйста, повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 260.52,
+   "end": 261.84,
+   "text": "Please repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 264.16,
+   "end": 265.04,
+   "text": "Repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 266.24,
+   "end": 270.28,
+   "text": "Как спросить, вы хотели бы что-нибудь выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 274.02,
+   "end": 275.86,
+   "text": "Would you like to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 280.26,
+   "end": 283.04,
+   "text": "Сейчас спросите. Вы хотели бы выпить вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 286.6,
+   "end": 288.26,
+   "text": "Would you like to have some wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 291.88,
+   "end": 293.92,
+   "text": "Вы хотели бы поужинать со мной?",
+   "lang": "ru"
+  },
+  {
+   "start": 297.88,
+   "end": 299.7,
+   "text": "Would you like to have dinner with me?",
+   "lang": "ru"
+  },
+  {
+   "start": 299.7,
+   "end": 299.78,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 303.34,
+   "end": 306.16,
+   "text": "Спросите, когда? Сегодня?",
+   "lang": "ru"
+  },
+  {
+   "start": 309.0,
+   "end": 310.42,
+   "text": "When? Today?",
+   "lang": "en"
+  },
+  {
+   "start": 313.24,
+   "end": 314.04,
+   "text": "Today?",
+   "lang": "en"
+  },
+  {
+   "start": 315.72,
+   "end": 318.0,
+   "text": "Спросите, или завтра?",
+   "lang": "ru"
+  },
+  {
+   "start": 320.0,
+   "end": 321.44,
+   "text": "For tomorrow?",
+   "lang": "en"
+  },
+  {
+   "start": 323.72,
+   "end": 324.68,
+   "text": "Tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 326.66,
+   "end": 329.44,
+   "text": "Скажите, сегодня вечером?",
+   "lang": "ru"
+  },
+  {
+   "start": 329.44,
+   "end": 331.64,
+   "text": "Tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 332.5,
+   "end": 333.9,
+   "text": "Tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 334.96,
+   "end": 338.48,
+   "text": "Сейчас скажите. Завтра вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 340.76,
+   "end": 342.04,
+   "text": "Tomorrow night.",
+   "lang": "en"
+  },
+  {
+   "start": 344.36,
+   "end": 345.72,
+   "text": "Tomorrow night.",
+   "lang": "en"
+  },
+  {
+   "start": 348.34,
+   "end": 350.74,
+   "text": "Спросите. В котором часу?",
+   "lang": "ru"
+  },
+  {
+   "start": 352.92,
+   "end": 354.26,
+   "text": "At what time?",
+   "lang": "en"
+  },
+  {
+   "start": 356.48,
+   "end": 357.76,
+   "text": "At what time?",
+   "lang": "en"
+  },
+  {
+   "start": 360.3,
+   "end": 363.42,
+   "text": "Скажите, в 6 часов или в 7 часов?",
+   "lang": "ru"
+  },
+  {
+   "start": 368.8,
+   "end": 371.62,
+   "text": "at 6 o'clock or at 7 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 377.26,
+   "end": 378.82,
+   "text": "Спросите, сегодня?",
+   "lang": "ru"
+  },
+  {
+   "start": 378.82,
+   "end": 380.82,
+   "text": "Today?",
+   "lang": "en"
+  },
+  {
+   "start": 383.58,
+   "end": 386.02,
+   "text": "Скажите, не завтра вечером?",
+   "lang": "ru"
+  },
+  {
+   "start": 388.8,
+   "end": 390.6,
+   "text": "Not tomorrow night.",
+   "lang": "en"
+  },
+  {
+   "start": 394.18,
+   "end": 396.3,
+   "text": "Скажите, я не собираюсь есть.",
+   "lang": "ru"
+  },
+  {
+   "start": 399.92,
+   "end": 401.32,
+   "text": "I'm not going to eat.",
+   "lang": "en"
+  },
+  {
+   "start": 404.26,
+   "end": 406.86,
+   "text": "Я не собираюсь есть с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 411.02,
+   "end": 412.58,
+   "text": "I'm not going to eat with you.",
+   "lang": "en"
+  },
+  {
+   "start": 416.26,
+   "end": 419.56,
+   "text": "Я не собираюсь есть с вами завтра вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 424.62,
+   "end": 426.9,
+   "text": "I'm not going to eat with you tomorrow night.",
+   "lang": "ru"
+  },
+  {
+   "start": 432.04,
+   "end": 434.38,
+   "text": "I'm not going to eat with you tomorrow night.",
+   "lang": "ru"
+  },
+  {
+   "start": 439.34,
+   "end": 442.5,
+   "text": "А сейчас она добавляет, подчеркивая,",
+   "lang": "ru"
+  },
+  {
+   "start": 442.5,
+   "end": 446.02,
+   "text": "но я хотела бы поужинать с вами сегодня вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 446.02,
+   "end": 451.22,
+   "text": "Для усиления интонации используйте полную форму вместо сокращенной.",
+   "lang": "ru"
+  },
+  {
+   "start": 456.36,
+   "end": 458.58,
+   "text": "But I would like to have dinner with you tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 463.88,
+   "end": 466.18,
+   "text": "But I would like to have dinner with you tonight.",
+   "lang": "en"
+  },
+  {
+   "start": 469.7,
+   "end": 474.42,
+   "text": "Вот как спросить, сколько у вас долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 476.02,
+   "end": 477.94,
+   "text": "Как спросить «Сколько долларов?»",
+   "lang": "ru"
+  },
+  {
+   "start": 477.94,
+   "end": 478.78,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 479.08,
+   "end": 480.24,
+   "text": "How many dollars?",
+   "lang": "en"
+  },
+  {
+   "start": 482.94,
+   "end": 483.7,
+   "text": "Many.",
+   "lang": "en"
+  },
+  {
+   "start": 485.04,
+   "end": 485.8,
+   "text": "Many.",
+   "lang": "en"
+  },
+  {
+   "start": 487.16,
+   "end": 488.2,
+   "text": "How many?",
+   "lang": "en"
+  },
+  {
+   "start": 489.82,
+   "end": 490.86,
+   "text": "How many?",
+   "lang": "en"
+  },
+  {
+   "start": 492.5,
+   "end": 493.54,
+   "text": "How many?",
+   "lang": "en"
+  },
+  {
+   "start": 493.68,
+   "end": 493.76,
+   "text": "How many dollars?",
+   "lang": "en"
+  },
+  {
+   "start": 500.42,
+   "end": 501.44,
+   "text": "How many?",
+   "lang": "en"
+  },
+  {
+   "start": 508.78,
+   "end": 510.2,
+   "text": "How many dollars?",
+   "lang": "en"
+  },
+  {
+   "start": 517.42,
+   "end": 519.14,
+   "text": "Сколько у вас есть долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 519.52,
+   "end": 522.58,
+   "text": "How many dollars do you have?",
+   "lang": "ru"
+  },
+  {
+   "start": 526.26,
+   "end": 527.02,
+   "text": "Have",
+   "lang": "ru"
+  },
+  {
+   "start": 528.22,
+   "end": 528.98,
+   "text": "Have",
+   "lang": "ru"
+  },
+  {
+   "start": 530.38,
+   "end": 531.6,
+   "text": "You have",
+   "lang": "ru"
+  },
+  {
+   "start": 533.74,
+   "end": 535.12,
+   "text": "Do you have",
+   "lang": "ru"
+  },
+  {
+   "start": 537.32,
+   "end": 538.64,
+   "text": "Do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 540.14,
+   "end": 544.4,
+   "text": "Как сказать по-английски «У вас есть»?",
+   "lang": "ru"
+  },
+  {
+   "start": 546.32,
+   "end": 547.34,
+   "text": "You have.",
+   "lang": "en"
+  },
+  {
+   "start": 549.96,
+   "end": 552.2,
+   "text": "Спросите, сколько у меня долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 555.82,
+   "end": 558.08,
+   "text": "How many dollars do you have?",
+   "lang": "ru"
+  },
+  {
+   "start": 561.64,
+   "end": 564.48,
+   "text": "У меня есть 14 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 564.7,
+   "end": 565.64,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 566.02,
+   "end": 568.16,
+   "text": "I have fourteen dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 573.02,
+   "end": 573.52,
+   "text": "Fourteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 576.3,
+   "end": 576.8,
+   "text": "Fourteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 578.6,
+   "end": 580.2,
+   "text": "I have.",
+   "lang": "ru"
+  },
+  {
+   "start": 581.74,
+   "end": 584.56,
+   "text": "I have fourteen dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 588.38,
+   "end": 592.3,
+   "text": "Как сказать по-английски четырнадцать?",
+   "lang": "ru"
+  },
+  {
+   "start": 594.42,
+   "end": 595.58,
+   "text": "Fourteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 597.54,
+   "end": 600.72,
+   "text": "А как сказать «У меня есть»?",
+   "lang": "ru"
+  },
+  {
+   "start": 603.12,
+   "end": 604.16,
+   "text": "I have.",
+   "lang": "en"
+  },
+  {
+   "start": 611.0,
+   "end": 613.4,
+   "text": "Спросите, сколько у меня долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 617.64,
+   "end": 619.54,
+   "text": "How many dollars do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 623.94,
+   "end": 624.76,
+   "text": "Отвечайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 624.9,
+   "end": 627.26,
+   "text": "У меня есть 14 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 630.56,
+   "end": 633.26,
+   "text": "I have $14.",
+   "lang": "en"
+  },
+  {
+   "start": 636.68,
+   "end": 640.0,
+   "text": "У меня есть 15 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.0,
+   "end": 643.14,
+   "text": "Listen and repeat. I have $15.",
+   "lang": "en"
+  },
+  {
+   "start": 654.24,
+   "end": 655.66,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 655.66,
+   "end": 656.7,
+   "text": "Fifteen.",
+   "lang": "en"
+  },
+  {
+   "start": 662.02,
+   "end": 664.36,
+   "text": "Спросите, сколько у меня долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 668.38,
+   "end": 670.24,
+   "text": "How many dollars do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 673.62,
+   "end": 676.48,
+   "text": "У меня есть 15 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 679.2,
+   "end": 683.14,
+   "text": "I have $15.",
+   "lang": "en"
+  },
+  {
+   "start": 687.48,
+   "end": 692.08,
+   "text": "Сейчас скажите, у меня есть 14 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 695.9,
+   "end": 698.52,
+   "text": "I have $14.",
+   "lang": "en"
+  },
+  {
+   "start": 703.4,
+   "end": 709.4,
+   "text": "Как и в русском языке, английское слово четырнадцать состоит из двух частей.",
+   "lang": "ru"
+  },
+  {
+   "start": 709.42,
+   "end": 713.74,
+   "text": "Самого слова четыре – four, и окончание – teen.",
+   "lang": "ru"
+  },
+  {
+   "start": 713.98,
+   "end": 720.38,
+   "text": "Такое окончание имеют все английские числа от тринадцати до девятнадцати.",
+   "lang": "ru"
+  },
+  {
+   "start": 720.96,
+   "end": 723.14,
+   "text": "Скажите еще раз – четырнадцать.",
+   "lang": "ru"
+  },
+  {
+   "start": 729.18,
+   "end": 732.42,
+   "text": "Сейчас попробуйте сказать шестнадцать.",
+   "lang": "ru"
+  },
+  {
+   "start": 734.98,
+   "end": 735.74,
+   "text": "Sixteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 738.64,
+   "end": 739.4,
+   "text": "Sixteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 742.38,
+   "end": 743.14,
+   "text": "Sixteen.",
+   "lang": "ru"
+  },
+  {
+   "start": 745.84,
+   "end": 748.72,
+   "text": "Спросите, есть ли у меня шестнадцать долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 752.8,
+   "end": 755.04,
+   "text": "Do you have sixteen dollars?",
+   "lang": "ru"
+  },
+  {
+   "start": 759.62,
+   "end": 762.88,
+   "text": "Скажите, нет, у меня тринадцать долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 767.32,
+   "end": 770.44,
+   "text": "No, I have $13.",
+   "lang": "en"
+  },
+  {
+   "start": 778.64,
+   "end": 781.0,
+   "text": "Сейчас скажите 15",
+   "lang": "ru"
+  },
+  {
+   "start": 781.0,
+   "end": 781.6,
+   "text": "Fifteen.",
+   "lang": "en"
+  },
+  {
+   "start": 787.12,
+   "end": 790.04,
+   "text": "Скажите, что у вас 15 долларов",
+   "lang": "ru"
+  },
+  {
+   "start": 793.54,
+   "end": 796.36,
+   "text": "I have $15.",
+   "lang": "en"
+  },
+  {
+   "start": 799.5,
+   "end": 804.42,
+   "text": "Как сказать «У меня есть один доллар»?",
+   "lang": "ru"
+  },
+  {
+   "start": 807.28,
+   "end": 809.1,
+   "text": "I have one dollar.",
+   "lang": "ru"
+  },
+  {
+   "start": 811.52,
+   "end": 813.86,
+   "text": "I have $1.",
+   "lang": "en"
+  },
+  {
+   "start": 816.48,
+   "end": 820.46,
+   "text": "А вот как звучит по-английски слово деньги.",
+   "lang": "ru"
+  },
+  {
+   "start": 820.76,
+   "end": 821.76,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 822.14,
+   "end": 822.74,
+   "text": "Money.",
+   "lang": "ru"
+  },
+  {
+   "start": 824.32,
+   "end": 825.08,
+   "text": "Knee.",
+   "lang": "ru"
+  },
+  {
+   "start": 826.28,
+   "end": 827.04,
+   "text": "Knee.",
+   "lang": "ru"
+  },
+  {
+   "start": 828.04,
+   "end": 828.8,
+   "text": "Money.",
+   "lang": "ru"
+  },
+  {
+   "start": 830.74,
+   "end": 830.9,
+   "text": "Money.",
+   "lang": "ru"
+  },
+  {
+   "start": 832.48,
+   "end": 833.88,
+   "text": "Сколько у вас денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 833.88,
+   "end": 835.14,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 839.12,
+   "end": 841.04,
+   "text": "How much money do you have?",
+   "lang": "ru"
+  },
+  {
+   "start": 845.04,
+   "end": 846.2,
+   "text": "How much money?",
+   "lang": "en"
+  },
+  {
+   "start": 848.92,
+   "end": 850.74,
+   "text": "How much money do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 855.08,
+   "end": 857.66,
+   "text": "Спросите еще раз. Сколько у вас денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 861.64,
+   "end": 863.44,
+   "text": "How much money do you have?",
+   "lang": "ru"
+  },
+  {
+   "start": 867.14,
+   "end": 870.56,
+   "text": "Сейчас спросите, сколько у меня долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 874.34,
+   "end": 876.28,
+   "text": "How many dollars do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 879.9,
+   "end": 883.64,
+   "text": "Слушайте и повторяйте эти два вопроса вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 883.64,
+   "end": 886.44,
+   "text": "How much money? How many dollars?",
+   "lang": "en"
+  },
+  {
+   "start": 891.54,
+   "end": 893.62,
+   "text": "How much? How many?",
+   "lang": "en"
+  },
+  {
+   "start": 897.7,
+   "end": 904.26,
+   "text": "Слово much используется для того, чтобы спросить об общем количестве чего-то.",
+   "lang": "ru"
+  },
+  {
+   "start": 904.3,
+   "end": 910.82,
+   "text": "Но спрашивая о конкретной сумме, в долларах, например, нужно использовать слово many.",
+   "lang": "ru"
+  },
+  {
+   "start": 910.98,
+   "end": 913.98,
+   "text": "Сейчас спросите, сколько у меня денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 917.2,
+   "end": 919.06,
+   "text": "Как много денег у вас?",
+   "lang": "ru"
+  },
+  {
+   "start": 919.06,
+   "end": 919.4,
+   "text": "have.",
+   "lang": "en"
+  },
+  {
+   "start": 923.86,
+   "end": 926.16,
+   "text": "Продавщица. Сколько вы ей должны?",
+   "lang": "ru"
+  },
+  {
+   "start": 928.66,
+   "end": 930.52,
+   "text": "How much do I owe you?",
+   "lang": "ru"
+  },
+  {
+   "start": 933.6,
+   "end": 936.1,
+   "text": "Она отвечает. 15 долларов, сэр.",
+   "lang": "ru"
+  },
+  {
+   "start": 938.98,
+   "end": 941.0,
+   "text": "15 долларов, сэр.",
+   "lang": "ru"
+  },
+  {
+   "start": 944.18,
+   "end": 946.98,
+   "text": "Скажите. 14 долларов, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 950.24,
+   "end": 952.0,
+   "text": "14 долларов, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 955.4,
+   "end": 958.4,
+   "text": "Скажите, у меня есть 10 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 960.78,
+   "end": 963.96,
+   "text": "I have $10.",
+   "lang": "en"
+  },
+  {
+   "start": 968.28,
+   "end": 970.92,
+   "text": "Спросите, у вас есть 5 долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 974.34,
+   "end": 976.26,
+   "text": "Do you have $5?",
+   "lang": "en"
+  },
+  {
+   "start": 983.86,
+   "end": 986.22,
+   "text": "Спросите, сколько вы должны мне?",
+   "lang": "ru"
+  },
+  {
+   "start": 989.52,
+   "end": 991.18,
+   "text": "How much do I owe you?",
+   "lang": "en"
+  },
+  {
+   "start": 994.32,
+   "end": 996.66,
+   "text": "Спросите, сколько долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 999.58,
+   "end": 1000.82,
+   "text": "How many dollars?",
+   "lang": "en"
+  },
+  {
+   "start": 1002.16,
+   "end": 1006.36,
+   "text": "А как спросить, сколько денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 1008.44,
+   "end": 1009.96,
+   "text": "How much money?",
+   "lang": "en"
+  },
+  {
+   "start": 1012.38,
+   "end": 1013.54,
+   "text": "How much money?",
+   "lang": "en"
+  },
+  {
+   "start": 1016.2,
+   "end": 1017.54,
+   "text": "Сколько у вас денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 1021.3,
+   "end": 1022.98,
+   "text": "How much money do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 1027.06,
+   "end": 1030.3,
+   "text": "Спросите у продавщицы, сколько вы ей должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 1033.64,
+   "end": 1035.1,
+   "text": "How much do I owe you?",
+   "lang": "en"
+  },
+  {
+   "start": 1038.12,
+   "end": 1041.16,
+   "text": "Она отвечает, 15 долларов, сэр.",
+   "lang": "ru"
+  },
+  {
+   "start": 1045.2,
+   "end": 1046.22,
+   "text": "$15, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1050.22,
+   "end": 1051.34,
+   "text": "$15, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1054.3,
+   "end": 1057.68,
+   "text": "Вот как еще можно сказать об этом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1057.68,
+   "end": 1058.98,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1058.98,
+   "end": 1061.16,
+   "text": "It's $15, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1065.98,
+   "end": 1068.3,
+   "text": "It's $15.",
+   "lang": "en"
+  },
+  {
+   "start": 1087.68,
+   "end": 1089.26,
+   "text": "It's fifteen dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1092.68,
+   "end": 1094.64,
+   "text": "It's fifteen dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1097.84,
+   "end": 1102.22,
+   "text": "А сейчас скажите просто. Четырнадцать долларов, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1106.26,
+   "end": 1108.08,
+   "text": "Fourteen dollars, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1111.86,
+   "end": 1114.96,
+   "text": "Помните, как сказать «Я не понимаю»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1117.68,
+   "end": 1119.22,
+   "text": "I don't understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 1119.22,
+   "end": 1119.56,
+   "text": "Stand.",
+   "lang": "en"
+  },
+  {
+   "start": 1122.44,
+   "end": 1123.28,
+   "text": "Don't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1125.06,
+   "end": 1127.72,
+   "text": "Сейчас попробуйте сказать, у меня нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.12,
+   "end": 1131.44,
+   "text": "I don't have.",
+   "lang": "ru"
+  },
+  {
+   "start": 1134.04,
+   "end": 1135.18,
+   "text": "Don't have.",
+   "lang": "ru"
+  },
+  {
+   "start": 1137.6,
+   "end": 1138.26,
+   "text": "I don't have.",
+   "lang": "ru"
+  },
+  {
+   "start": 1141.58,
+   "end": 1145.9,
+   "text": "Не меняя порядка слов, спросите, у вас нет 16 долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1149.5,
+   "end": 1151.58,
+   "text": "You don't have $16?",
+   "lang": "en"
+  },
+  {
+   "start": 1155.62,
+   "end": 1158.26,
+   "text": "Скажите, у меня есть один доллар.",
+   "lang": "ru"
+  },
+  {
+   "start": 1160.4,
+   "end": 1162.9,
+   "text": "I have $1.",
+   "lang": "en"
+  },
+  {
+   "start": 1164.9,
+   "end": 1167.58,
+   "text": "I have $1.",
+   "lang": "en"
+  },
+  {
+   "start": 1171.0,
+   "end": 1174.34,
+   "text": "Спросите у продавщицы, сколько вы ей должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 1177.68,
+   "end": 1179.08,
+   "text": "How much do I owe you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1182.06,
+   "end": 1184.08,
+   "text": "How much do I owe you, ma'am?",
+   "lang": "ru"
+  },
+  {
+   "start": 1187.94,
+   "end": 1189.06,
+   "text": "Она отвечает.",
+   "lang": "ru"
+  },
+  {
+   "start": 1189.14,
+   "end": 1190.8,
+   "text": "15 долларов, сэр.",
+   "lang": "ru"
+  },
+  {
+   "start": 1194.08,
+   "end": 1195.76,
+   "text": "15 долларов, сэр.",
+   "lang": "ru"
+  },
+  {
+   "start": 1199.22,
+   "end": 1201.82,
+   "text": "Скажите, у меня есть 10 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1205.36,
+   "end": 1207.0,
+   "text": "I have 10 dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1210.92,
+   "end": 1213.4,
+   "text": "Спросите, у вас есть пять долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1216.64,
+   "end": 1218.56,
+   "text": "Do you have $5?",
+   "lang": "en"
+  },
+  {
+   "start": 1228.98,
+   "end": 1232.34,
+   "text": "Спросите у нее еще раз, сколько вы ей должны?",
+   "lang": "ru"
+  },
+  {
+   "start": 1235.34,
+   "end": 1236.88,
+   "text": "How much do I owe you?",
+   "lang": "en"
+  },
+  {
+   "start": 1239.74,
+   "end": 1242.6,
+   "text": "Скажите, 15 долларов, сэр?",
+   "lang": "ru"
+  },
+  {
+   "start": 1246.26,
+   "end": 1247.22,
+   "text": "$15, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1249.76,
+   "end": 1258.66,
+   "text": "Как сказать, у меня нет 16 долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1263.32,
+   "end": 1265.66,
+   "text": "I don't have $16.",
+   "lang": "en"
+  },
+  {
+   "start": 1270.12,
+   "end": 1275.8,
+   "text": "I don't have $16.",
+   "lang": "ru"
+  },
+  {
+   "start": 1281.4,
+   "end": 1284.8,
+   "text": "Скажите, у меня есть 14 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1288.4,
+   "end": 1290.76,
+   "text": "I have $14.",
+   "lang": "ru"
+  },
+  {
+   "start": 1294.5,
+   "end": 1296.9,
+   "text": "I have $14.",
+   "lang": "ru"
+  },
+  {
+   "start": 1301.32,
+   "end": 1303.3,
+   "text": "Скажите, но не 15.",
+   "lang": "ru"
+  },
+  {
+   "start": 1306.32,
+   "end": 1307.98,
+   "text": "But not 15.",
+   "lang": "en"
+  },
+  {
+   "start": 1310.92,
+   "end": 1312.5,
+   "text": "But not 15.",
+   "lang": "en"
+  },
+  {
+   "start": 1315.86,
+   "end": 1319.46,
+   "text": "Скажите, хорошо, тогда 14 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1324.54,
+   "end": 1326.58,
+   "text": "Okay, then, $14.",
+   "lang": "en"
+  },
+  {
+   "start": 1331.74,
+   "end": 1332.5,
+   "text": "Then.",
+   "lang": "ru"
+  },
+  {
+   "start": 1334.18,
+   "end": 1334.94,
+   "text": "Then.",
+   "lang": "ru"
+  },
+  {
+   "start": 1336.54,
+   "end": 1339.36,
+   "text": "Okay, then. It's $14, sir.",
+   "lang": "ru"
+  },
+  {
+   "start": 1344.48,
+   "end": 1346.68,
+   "text": "Спасибо, мадам. До свидания.",
+   "lang": "ru"
+  },
+  {
+   "start": 1350.32,
+   "end": 1352.18,
+   "text": "Thank you, ma'am. Goodbye.",
+   "lang": "ru"
+  },
+  {
+   "start": 1352.18,
+   "end": 1352.38,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 1355.5,
+   "end": 1359.68,
+   "text": "Сейчас вы собираетесь поговорить с продавщицей.",
+   "lang": "ru"
+  },
+  {
+   "start": 1359.68,
+   "end": 1362.12,
+   "text": "You are going to speak with the saleswoman.",
+   "lang": "en"
+  },
+  {
+   "start": 1362.8,
+   "end": 1365.28,
+   "text": "С продавщицей.",
+   "lang": "ru"
+  },
+  {
+   "start": 1365.28,
+   "end": 1367.82,
+   "text": "You are going to speak with the saleswoman.",
+   "lang": "en"
+  },
+  {
+   "start": 1368.4,
+   "end": 1370.7,
+   "text": "Спросите, сколько вы ей должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 1372.96,
+   "end": 1379.4,
+   "text": "Как она ответит вам?",
+   "lang": "ru"
+  },
+  {
+   "start": 1379.5,
+   "end": 1380.72,
+   "text": "Одиннадцать долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1387.32,
+   "end": 1389.04,
+   "text": "It's eleven dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1392.5,
+   "end": 1395.56,
+   "text": "Спросите еще раз, сколько вы ей должны?",
+   "lang": "ru"
+  },
+  {
+   "start": 1398.72,
+   "end": 1400.9,
+   "text": "How much do I owe you?",
+   "lang": "en"
+  },
+  {
+   "start": 1404.42,
+   "end": 1407.88,
+   "text": "Попробуйте сказать, вы должны мне...",
+   "lang": "ru"
+  },
+  {
+   "start": 1409.3,
+   "end": 1411.04,
+   "text": "You owe me...",
+   "lang": "ru"
+  },
+  {
+   "start": 1411.04,
+   "end": 1413.6,
+   "text": "Me",
+   "lang": "en"
+  },
+  {
+   "start": 1414.1,
+   "end": 1416.32,
+   "text": "You owe me...",
+   "lang": "ru"
+  },
+  {
+   "start": 1418.28,
+   "end": 1419.4,
+   "text": "You owe me",
+   "lang": "en"
+  },
+  {
+   "start": 1420.58,
+   "end": 1423.56,
+   "text": "You owe me eleven dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1427.64,
+   "end": 1430.9,
+   "text": "Скажите, вы должны мне одиннадцать долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1434.58,
+   "end": 1436.9,
+   "text": "You owe me eleven dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1441.0,
+   "end": 1446.3,
+   "text": "Сейчас она раз за разом будет добавлять к цене по доллару или по два.",
+   "lang": "ru"
+  },
+  {
+   "start": 1446.54,
+   "end": 1453.86,
+   "text": "Каждый раз, когда она будет говорить вам об этом, складывайте числа в уме и называйте общую сумму.",
+   "lang": "ru"
+  },
+  {
+   "start": 1453.86,
+   "end": 1456.98,
+   "text": "You owe me $11 and $1.",
+   "lang": "en"
+  },
+  {
+   "start": 1462.84,
+   "end": 1465.16,
+   "text": "I owe you $12.",
+   "lang": "en"
+  },
+  {
+   "start": 1468.56,
+   "end": 1472.12,
+   "text": "Yes, $12 and $2.",
+   "lang": "ru"
+  },
+  {
+   "start": 1474.76,
+   "end": 1476.12,
+   "text": "$14.",
+   "lang": "ru"
+  },
+  {
+   "start": 1478.18,
+   "end": 1480.86,
+   "text": "I owe you $14.",
+   "lang": "ru"
+  },
+  {
+   "start": 1484.38,
+   "end": 1487.22,
+   "text": "Yes, and $1, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1490.16,
+   "end": 1491.52,
+   "text": "$15.",
+   "lang": "ru"
+  },
+  {
+   "start": 1494.84,
+   "end": 1497.04,
+   "text": "I owe you $15.",
+   "lang": "ru"
+  },
+  {
+   "start": 1501.8,
+   "end": 1504.08,
+   "text": "Yes, $15 and 1.",
+   "lang": "ru"
+  },
+  {
+   "start": 1507.4,
+   "end": 1508.0,
+   "text": "$16.",
+   "lang": "ru"
+  },
+  {
+   "start": 1510.28,
+   "end": 1510.88,
+   "text": "$16.",
+   "lang": "ru"
+  },
+  {
+   "start": 1510.88,
+   "end": 1513.8,
+   "text": "Now I owe you $16, ma'am.",
+   "lang": "ru"
+  },
+  {
+   "start": 1519.52,
+   "end": 1523.38,
+   "text": "Yes, you owe me $16. Do you have $16?",
+   "lang": "ru"
+  },
+  {
+   "start": 1524.6,
+   "end": 1527.56,
+   "text": "Скажите, что у вас нет 16 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1531.9,
+   "end": 1534.14,
+   "text": "I don't have $16.",
+   "lang": "en"
+  },
+  {
+   "start": 1538.42,
+   "end": 1540.8,
+   "text": "I don't have $16.",
+   "lang": "en"
+  },
+  {
+   "start": 1545.2,
+   "end": 1546.98,
+   "text": "How much money do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 1547.8,
+   "end": 1550.94,
+   "text": "Скажите, что у вас есть 15 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1553.42,
+   "end": 1557.14,
+   "text": "I have $15.",
+   "lang": "en"
+  },
+  {
+   "start": 1561.94,
+   "end": 1565.26,
+   "text": "Спросите еще раз, сколько вы ей должны?",
+   "lang": "ru"
+  },
+  {
+   "start": 1565.26,
+   "end": 1569.66,
+   "text": "me. How much do I owe you?",
+   "lang": "en"
+  },
+  {
+   "start": 1571.2,
+   "end": 1578.5,
+   "text": "А сейчас спросите, сколько долларов вы хотите?",
+   "lang": "ru"
+  },
+  {
+   "start": 1581.86,
+   "end": 1584.02,
+   "text": "How many dollars do you want?",
+   "lang": "en"
+  },
+  {
+   "start": 1587.72,
+   "end": 1588.54,
+   "text": "How many?",
+   "lang": "en"
+  },
+  {
+   "start": 1590.3,
+   "end": 1592.26,
+   "text": "How many dollars do you want?",
+   "lang": "en"
+  },
+  {
+   "start": 1592.72,
+   "end": 1599.52,
+   "text": "Как ей сказать, вы должны мне 10 долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1603.28,
+   "end": 1605.06,
+   "text": "You owe me $10.",
+   "lang": "en"
+  },
+  {
+   "start": 1608.8,
+   "end": 1610.62,
+   "text": "You owe me $10.",
+   "lang": "en"
+  },
+  {
+   "start": 1614.6,
+   "end": 1615.84,
+   "text": "Слушайте ответ.",
+   "lang": "ru"
+  },
+  {
+   "start": 1617.88,
+   "end": 1628.54,
+   "text": "Он сказал, вот 10 долларов. Сейчас представьте, что вы в американском ресторане. Вы собираетесь поговорить с барменом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1629.14,
+   "end": 1631.84,
+   "text": "Now imagine that you're in an American restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 1632.18,
+   "end": 1634.48,
+   "text": "You're going to speak with the bartender.",
+   "lang": "en"
+  },
+  {
+   "start": 1634.72,
+   "end": 1641.86,
+   "text": "Вежливо скажите, что вы не понимаете, и попросите повторить то, что я вам сейчас сказал.",
+   "lang": "ru"
+  },
+  {
+   "start": 1649.92,
+   "end": 1653.68,
+   "text": "I'm sorry, I don't understand you, sir. Repeat, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1661.76,
+   "end": 1670.06,
+   "text": "Now imagine you're in an American restaurant. You're going to speak with the bartender. Listen. Hello, what would you like to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1670.8,
+   "end": 1674.62,
+   "text": "Вежливо скажите, что вы хотели бы выпить немного пива.",
+   "lang": "ru"
+  },
+  {
+   "start": 1678.64,
+   "end": 1680.58,
+   "text": "I'd like to have some beer, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1684.82,
+   "end": 1685.66,
+   "text": "Some beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1688.0,
+   "end": 1689.86,
+   "text": "I'd like to have some beer, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1694.0,
+   "end": 1695.54,
+   "text": "Would you like one or two?",
+   "lang": "ru"
+  },
+  {
+   "start": 1695.9,
+   "end": 1696.96,
+   "text": "One or two?",
+   "lang": "ru"
+  },
+  {
+   "start": 1697.38,
+   "end": 1699.52,
+   "text": "One. One beer, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1699.92,
+   "end": 1701.6,
+   "text": "Okay, here's a beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1702.24,
+   "end": 1705.06,
+   "text": "Спросите у бармена, сколько вы ему должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 1707.88,
+   "end": 1709.34,
+   "text": "How much do I owe you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1711.86,
+   "end": 1713.02,
+   "text": "How much is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1715.08,
+   "end": 1716.28,
+   "text": "It's two dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1717.08,
+   "end": 1719.76,
+   "text": "Скажите, что у вас нет десяти долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1723.38,
+   "end": 1725.18,
+   "text": "I don't have ten dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1728.7,
+   "end": 1729.78,
+   "text": "Ten dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1731.96,
+   "end": 1733.72,
+   "text": "I don't have ten dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1736.54,
+   "end": 1738.88,
+   "text": "Not 10.2",
+   "lang": "en"
+  },
+  {
+   "start": 1738.88,
+   "end": 1740.98,
+   "text": "Not 10.2",
+   "lang": "en"
+  },
+  {
+   "start": 1741.54,
+   "end": 1745.1,
+   "text": "Скажите ему, что сейчас вы понимаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 1747.58,
+   "end": 1749.28,
+   "text": "I understand now.",
+   "lang": "en"
+  },
+  {
+   "start": 1751.86,
+   "end": 1753.9,
+   "text": "Oh, now I understand.",
+   "lang": "en"
+  },
+  {
+   "start": 1757.74,
+   "end": 1761.38,
+   "text": "Скажите бармену, что у вас есть 7 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1764.28,
+   "end": 1766.04,
+   "text": "I have seven dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1768.68,
+   "end": 1770.52,
+   "text": "I have $7.",
+   "lang": "en"
+  },
+  {
+   "start": 1773.86,
+   "end": 1777.76,
+   "text": "Сейчас скажите ему, что вы хотели бы три пива.",
+   "lang": "ru"
+  },
+  {
+   "start": 1780.64,
+   "end": 1782.26,
+   "text": "I'd like three beers.",
+   "lang": "ru"
+  },
+  {
+   "start": 1785.26,
+   "end": 1786.94,
+   "text": "I'd like three beers.",
+   "lang": "ru"
+  },
+  {
+   "start": 1790.38,
+   "end": 1792.74,
+   "text": "Okay, here's three beers.",
+   "lang": "ru"
+  },
+  {
+   "start": 1793.04,
+   "end": 1795.64,
+   "text": "Урок номер 13 окончен.",
+   "lang": "ru"
+  }
+ ]
+}

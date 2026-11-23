@@ -1,0 +1,2379 @@
+{
+ "id": "I_21",
+ "source": "Pimsleur_I_21.mp3",
+ "duration": 1797.33,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 132,
+ "segments": [
+  {
+   "start": 2.5,
+   "end": 8.1,
+   "text": "Американский английский язык по методу доктора Пимпслера. Урок номер 21.",
+   "lang": "ru"
+  },
+  {
+   "start": 8.1,
+   "end": 13.54,
+   "text": "Listen to this conversation. Mr. Zhukov is speaking with Mrs. Johnson.",
+   "lang": "en"
+  },
+  {
+   "start": 14.0,
+   "end": 17.04,
+   "text": "Mr. Zhukov is speaking with Mrs. Johnson.",
+   "lang": "en"
+  },
+  {
+   "start": 17.58,
+   "end": 19.44,
+   "text": "Hello, sir. Who are you?",
+   "lang": "en"
+  },
+  {
+   "start": 19.86,
+   "end": 23.66,
+   "text": "I'm Ivan Zhukov. I'm Russian, but I speak a little English.",
+   "lang": "en"
+  },
+  {
+   "start": 24.04,
+   "end": 28.26,
+   "text": "Oh, you're Mr. Zhukov. Pleased to meet you. Come in, please.",
+   "lang": "en"
+  },
+  {
+   "start": 28.56,
+   "end": 31.06,
+   "text": "Thank you, ma'am. Is Mr. Johnson here?",
+   "lang": "en"
+  },
+  {
+   "start": 31.4,
+   "end": 33.86,
+   "text": "No, he's not here now. Can you wait?",
+   "lang": "en"
+  },
+  {
+   "start": 34.14,
+   "end": 35.28,
+   "text": "Yes, I can wait.",
+   "lang": "en"
+  },
+  {
+   "start": 35.82,
+   "end": 38.86,
+   "text": "Well, Mr. Zhukov, is Mrs. Zhukov in New York with you?",
+   "lang": "en"
+  },
+  {
+   "start": 39.24,
+   "end": 40.1,
+   "text": "Yes, she is.",
+   "lang": "en"
+  },
+  {
+   "start": 40.58,
+   "end": 42.28,
+   "text": "And are your children here, too?",
+   "lang": "en"
+  },
+  {
+   "start": 42.78,
+   "end": 43.96,
+   "text": "No, they're in Russia.",
+   "lang": "en"
+  },
+  {
+   "start": 44.18,
+   "end": 45.98,
+   "text": "How many children do you have?",
+   "lang": "ru"
+  },
+  {
+   "start": 46.32,
+   "end": 47.6,
+   "text": "We have three boys.",
+   "lang": "ru"
+  },
+  {
+   "start": 48.0,
+   "end": 49.66,
+   "text": "You don't have any girls?",
+   "lang": "ru"
+  },
+  {
+   "start": 50.12,
+   "end": 52.6,
+   "text": "No, we don't. We don't have any girls.",
+   "lang": "ru"
+  },
+  {
+   "start": 53.06,
+   "end": 59.48,
+   "text": "В этом разговоре вы услышали слово wait, которое означает подождать.",
+   "lang": "ru"
+  },
+  {
+   "start": 59.9,
+   "end": 61.7,
+   "text": "Wait. Listen again.",
+   "lang": "ru"
+  },
+  {
+   "start": 62.38,
+   "end": 64.08,
+   "text": "Hello, sir. Who are you?",
+   "lang": "ru"
+  },
+  {
+   "start": 64.46,
+   "end": 68.3,
+   "text": "I'm Ivan Zhukov. I'm Russian, but I speak a little English.",
+   "lang": "ru"
+  },
+  {
+   "start": 68.64,
+   "end": 72.88,
+   "text": "Oh, you're Mr. Zhukov. Pleased to meet you. Come in, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 73.52,
+   "end": 75.7,
+   "text": "Thank you, ma'am. Is Mr. Johnson here?",
+   "lang": "en"
+  },
+  {
+   "start": 76.1,
+   "end": 78.48,
+   "text": "No, he's not here now. Can you wait?",
+   "lang": "en"
+  },
+  {
+   "start": 78.84,
+   "end": 79.9,
+   "text": "Yes, I can wait.",
+   "lang": "en"
+  },
+  {
+   "start": 80.14,
+   "end": 83.48,
+   "text": "Well, Mr. Zhukov, is Mrs. Zhukov in New York with you?",
+   "lang": "en"
+  },
+  {
+   "start": 83.84,
+   "end": 84.72,
+   "text": "Yes, she is.",
+   "lang": "en"
+  },
+  {
+   "start": 85.14,
+   "end": 86.88,
+   "text": "And are your children here, too?",
+   "lang": "en"
+  },
+  {
+   "start": 87.28,
+   "end": 88.62,
+   "text": "No, they're in Russia.",
+   "lang": "en"
+  },
+  {
+   "start": 88.96,
+   "end": 90.62,
+   "text": "How many children do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 90.94,
+   "end": 92.22,
+   "text": "We have three boys.",
+   "lang": "en"
+  },
+  {
+   "start": 92.74,
+   "end": 94.26,
+   "text": "You don't have any girls?",
+   "lang": "en"
+  },
+  {
+   "start": 94.66,
+   "end": 97.14,
+   "text": "No, we don't. We don't have any girls.",
+   "lang": "en"
+  },
+  {
+   "start": 97.64,
+   "end": 100.42,
+   "text": "Помните, как сказать «войдите»?",
+   "lang": "ru"
+  },
+  {
+   "start": 101.96,
+   "end": 102.58,
+   "text": "Come in.",
+   "lang": "en"
+  },
+  {
+   "start": 104.24,
+   "end": 105.12,
+   "text": "Come in, please.",
+   "lang": "en"
+  },
+  {
+   "start": 106.42,
+   "end": 110.92,
+   "text": "Что вы скажете после того, как кого-то познакомили с вами?",
+   "lang": "ru"
+  },
+  {
+   "start": 110.92,
+   "end": 111.08,
+   "text": "me.",
+   "lang": "en"
+  },
+  {
+   "start": 113.88,
+   "end": 114.7,
+   "text": "Pleased to meet you.",
+   "lang": "en"
+  },
+  {
+   "start": 117.5,
+   "end": 118.38,
+   "text": "Pleased to meet you.",
+   "lang": "en"
+  },
+  {
+   "start": 120.06,
+   "end": 127.26,
+   "text": "Как вежливо поздороваться с молодой незамужней американкой, которую зовут Мэри Джонсон?",
+   "lang": "ru"
+  },
+  {
+   "start": 129.96,
+   "end": 130.92,
+   "text": "Hello, Ms. Johnson.",
+   "lang": "en"
+  },
+  {
+   "start": 132.52,
+   "end": 136.72,
+   "text": "А если вы не знаете, замужем она или нет?",
+   "lang": "ru"
+  },
+  {
+   "start": 139.82,
+   "end": 141.0,
+   "text": "Hello, Ms. Johnson.",
+   "lang": "en"
+  },
+  {
+   "start": 144.2,
+   "end": 145.22,
+   "text": "Ms. Johnson.",
+   "lang": "en"
+  },
+  {
+   "start": 146.14,
+   "end": 153.08,
+   "text": "Как вы скажете «мальчик», имея в виду какого-то мальчика вообще?",
+   "lang": "ru"
+  },
+  {
+   "start": 155.16,
+   "end": 156.24,
+   "text": "A boy.",
+   "lang": "en"
+  },
+  {
+   "start": 158.42,
+   "end": 159.44,
+   "text": "A boy.",
+   "lang": "en"
+  },
+  {
+   "start": 161.32,
+   "end": 165.28,
+   "text": "Сейчас скажите «большой мальчик».",
+   "lang": "ru"
+  },
+  {
+   "start": 167.34,
+   "end": 168.62,
+   "text": "A big boy.",
+   "lang": "ru"
+  },
+  {
+   "start": 171.2,
+   "end": 172.52,
+   "text": "A big boy.",
+   "lang": "en"
+  },
+  {
+   "start": 175.88,
+   "end": 177.58,
+   "text": "Спросите, сколько у вас детей?",
+   "lang": "ru"
+  },
+  {
+   "start": 181.92,
+   "end": 183.86,
+   "text": "How many children do you have?",
+   "lang": "ru"
+  },
+  {
+   "start": 188.32,
+   "end": 190.3,
+   "text": "Сколько у вас детей, господин Жуков?",
+   "lang": "ru"
+  },
+  {
+   "start": 195.6,
+   "end": 198.26,
+   "text": "How many children do you have, Mr. Zhukov?",
+   "lang": "en"
+  },
+  {
+   "start": 203.5,
+   "end": 205.86,
+   "text": "Скажите, два мальчика.",
+   "lang": "ru"
+  },
+  {
+   "start": 207.44,
+   "end": 208.82,
+   "text": "Two boys.",
+   "lang": "en"
+  },
+  {
+   "start": 210.8,
+   "end": 213.42,
+   "text": "Скажите, мальчики большие.",
+   "lang": "ru"
+  },
+  {
+   "start": 216.42,
+   "end": 217.96,
+   "text": "The boys are big.",
+   "lang": "en"
+  },
+  {
+   "start": 221.14,
+   "end": 222.76,
+   "text": "The boys are big.",
+   "lang": "en"
+  },
+  {
+   "start": 225.28,
+   "end": 230.28,
+   "text": "Они большие. Не забывайте использовать сокращенную форму.",
+   "lang": "ru"
+  },
+  {
+   "start": 232.54,
+   "end": 233.44,
+   "text": "They're big.",
+   "lang": "en"
+  },
+  {
+   "start": 236.04,
+   "end": 236.64,
+   "text": "They're.",
+   "lang": "en"
+  },
+  {
+   "start": 238.14,
+   "end": 240.14,
+   "text": "Спросите, они здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 242.54,
+   "end": 243.58,
+   "text": "Are they here?",
+   "lang": "en"
+  },
+  {
+   "start": 245.5,
+   "end": 248.96,
+   "text": "Дайте короткий положительный ответ на этот вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 251.68,
+   "end": 253.04,
+   "text": "Yes, they are.",
+   "lang": "en"
+  },
+  {
+   "start": 255.48,
+   "end": 258.46,
+   "text": "Сейчас скажите «они там».",
+   "lang": "ru"
+  },
+  {
+   "start": 260.64,
+   "end": 262.24,
+   "text": "They're over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 265.04,
+   "end": 266.56,
+   "text": "There over there.",
+   "lang": "en"
+  },
+  {
+   "start": 269.78,
+   "end": 273.28,
+   "text": "Спросите «А ваша жена? Где она?»",
+   "lang": "ru"
+  },
+  {
+   "start": 277.34,
+   "end": 279.28,
+   "text": "And your wife? Where is she?",
+   "lang": "en"
+  },
+  {
+   "start": 283.8,
+   "end": 284.72,
+   "text": "where is she",
+   "lang": "en"
+  },
+  {
+   "start": 287.72,
+   "end": 289.54,
+   "text": "Скажите, она тоже там?",
+   "lang": "ru"
+  },
+  {
+   "start": 293.08,
+   "end": 294.6,
+   "text": "She's over there, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 298.42,
+   "end": 299.06,
+   "text": "She's.",
+   "lang": "ru"
+  },
+  {
+   "start": 301.72,
+   "end": 304.28,
+   "text": "Как сказать, мой муж, он там?",
+   "lang": "ru"
+  },
+  {
+   "start": 308.96,
+   "end": 311.38,
+   "text": "My husband, he's over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 315.58,
+   "end": 316.98,
+   "text": "He's",
+   "lang": "en"
+  },
+  {
+   "start": 318.2,
+   "end": 321.02,
+   "text": "Сейчас попробуйте спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 321.02,
+   "end": 322.6,
+   "text": "У вас есть девочки?",
+   "lang": "ru"
+  },
+  {
+   "start": 323.42,
+   "end": 329.12,
+   "text": "По-английски дословно вы должны сказать «какие-нибудь девочки».",
+   "lang": "ru"
+  },
+  {
+   "start": 331.48,
+   "end": 333.1,
+   "text": "Do you have any girls?",
+   "lang": "en"
+  },
+  {
+   "start": 339.26,
+   "end": 343.28,
+   "text": "Как ей дать короткий положительный ответ?",
+   "lang": "ru"
+  },
+  {
+   "start": 345.86,
+   "end": 347.3,
+   "text": "Да, мы живем.",
+   "lang": "ru"
+  },
+  {
+   "start": 350.08,
+   "end": 351.24,
+   "text": "Yes, we do.",
+   "lang": "en"
+  },
+  {
+   "start": 353.74,
+   "end": 355.5,
+   "text": "Сейчас скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 356.04,
+   "end": 357.92,
+   "text": "Да, у нас три девочки.",
+   "lang": "ru"
+  },
+  {
+   "start": 361.92,
+   "end": 364.36,
+   "text": "Да, у нас три девочки.",
+   "lang": "ru"
+  },
+  {
+   "start": 368.3,
+   "end": 371.36,
+   "text": "Как ей спросить, где вы живете?",
+   "lang": "ru"
+  },
+  {
+   "start": 374.52,
+   "end": 375.78,
+   "text": "Where do you live?",
+   "lang": "en"
+  },
+  {
+   "start": 378.84,
+   "end": 380.36,
+   "text": "Попробуйте спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 380.42,
+   "end": 381.82,
+   "text": "Вы живете в России?",
+   "lang": "ru"
+  },
+  {
+   "start": 381.82,
+   "end": 381.96,
+   "text": "See you.",
+   "lang": "en"
+  },
+  {
+   "start": 385.18,
+   "end": 387.02,
+   "text": "Do you live in Russia?",
+   "lang": "ru"
+  },
+  {
+   "start": 389.8,
+   "end": 391.56,
+   "text": "In Russia",
+   "lang": "en"
+  },
+  {
+   "start": 393.5,
+   "end": 399.88,
+   "text": "Yes, we do.",
+   "lang": "ru"
+  },
+  {
+   "start": 400.56,
+   "end": 402.94,
+   "text": "Скажите, мы живем в Москве.",
+   "lang": "ru"
+  },
+  {
+   "start": 405.62,
+   "end": 407.24,
+   "text": "We live in Moscow.",
+   "lang": "ru"
+  },
+  {
+   "start": 409.7,
+   "end": 412.96,
+   "text": "Попробуйте сказать «Мы можем».",
+   "lang": "ru"
+  },
+  {
+   "start": 414.8,
+   "end": 415.8,
+   "text": "We can.",
+   "lang": "en"
+  },
+  {
+   "start": 419.8,
+   "end": 424.24,
+   "text": "Вот как сказать «Мы можем подождать».",
+   "lang": "ru"
+  },
+  {
+   "start": 425.0,
+   "end": 426.16,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 427.12,
+   "end": 427.78,
+   "text": "We can wait.",
+   "lang": "en"
+  },
+  {
+   "start": 430.68,
+   "end": 431.28,
+   "text": "Wait.",
+   "lang": "en"
+  },
+  {
+   "start": 433.28,
+   "end": 433.88,
+   "text": "Wait.",
+   "lang": "en"
+  },
+  {
+   "start": 435.88,
+   "end": 437.02,
+   "text": "We can wait.",
+   "lang": "en"
+  },
+  {
+   "start": 439.08,
+   "end": 442.92,
+   "text": "Как спросить «Вы можете подождать?»",
+   "lang": "ru"
+  },
+  {
+   "start": 445.26,
+   "end": 446.46,
+   "text": "Can you wait?",
+   "lang": "en"
+  },
+  {
+   "start": 451.9,
+   "end": 457.44,
+   "text": "А сейчас скажите «Вы можете подождать?»",
+   "lang": "ru"
+  },
+  {
+   "start": 459.24,
+   "end": 460.5,
+   "text": "You can wait.",
+   "lang": "ru"
+  },
+  {
+   "start": 463.08,
+   "end": 466.42,
+   "text": "Как сказать по-английски «Мы хотели бы»?",
+   "lang": "ru"
+  },
+  {
+   "start": 469.06,
+   "end": 470.34,
+   "text": "We would like",
+   "lang": "en"
+  },
+  {
+   "start": 473.26,
+   "end": 474.24,
+   "text": "We'd like",
+   "lang": "en"
+  },
+  {
+   "start": 476.44,
+   "end": 480.7,
+   "text": "Сейчас попробуйте сказать «мы хотим».",
+   "lang": "ru"
+  },
+  {
+   "start": 482.36,
+   "end": 483.38,
+   "text": "We want.",
+   "lang": "en"
+  },
+  {
+   "start": 488.82,
+   "end": 491.68,
+   "text": "Скажите, мы хотим много детей.",
+   "lang": "ru"
+  },
+  {
+   "start": 495.38,
+   "end": 497.12,
+   "text": "We want a lot of children.",
+   "lang": "en"
+  },
+  {
+   "start": 500.8,
+   "end": 503.24,
+   "text": "Попробуйте сказать, подождите.",
+   "lang": "ru"
+  },
+  {
+   "start": 503.24,
+   "end": 505.66,
+   "text": "Wait.",
+   "lang": "en"
+  },
+  {
+   "start": 506.98,
+   "end": 508.38,
+   "text": "Wait.",
+   "lang": "en"
+  },
+  {
+   "start": 510.72,
+   "end": 510.92,
+   "text": "Wait.",
+   "lang": "en"
+  },
+  {
+   "start": 512.96,
+   "end": 516.14,
+   "text": "Попробуйте сказать, мы не хотим много детей.",
+   "lang": "ru"
+  },
+  {
+   "start": 519.68,
+   "end": 521.78,
+   "text": "Мы не хотим много детей.",
+   "lang": "ru"
+  },
+  {
+   "start": 521.78,
+   "end": 522.0,
+   "text": "children.",
+   "lang": "en"
+  },
+  {
+   "start": 525.76,
+   "end": 528.62,
+   "text": "Помните, как сказать в Москве?",
+   "lang": "ru"
+  },
+  {
+   "start": 530.64,
+   "end": 532.02,
+   "text": "In Moscow.",
+   "lang": "en"
+  },
+  {
+   "start": 534.28,
+   "end": 536.08,
+   "text": "Сейчас скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 536.64,
+   "end": 537.54,
+   "text": "Мы живем в России.",
+   "lang": "ru"
+  },
+  {
+   "start": 540.04,
+   "end": 541.96,
+   "text": "Мы живем в России.",
+   "lang": "ru"
+  },
+  {
+   "start": 544.42,
+   "end": 547.46,
+   "text": "Моя жена и я живем в России.",
+   "lang": "ru"
+  },
+  {
+   "start": 552.24,
+   "end": 554.28,
+   "text": "My wife and I live in Russia.",
+   "lang": "en"
+  },
+  {
+   "start": 558.78,
+   "end": 563.8,
+   "text": "Имея в виду конкретную группу детей, скажите «с детьми».",
+   "lang": "ru"
+  },
+  {
+   "start": 565.86,
+   "end": 567.86,
+   "text": "with the children",
+   "lang": "en"
+  },
+  {
+   "start": 567.86,
+   "end": 572.04,
+   "text": "with the children",
+   "lang": "en"
+  },
+  {
+   "start": 575.28,
+   "end": 577.44,
+   "text": "Скажите, дети в России?",
+   "lang": "ru"
+  },
+  {
+   "start": 581.62,
+   "end": 583.46,
+   "text": "The children are in Russia.",
+   "lang": "en"
+  },
+  {
+   "start": 587.8,
+   "end": 589.5,
+   "text": "Спросите, где они?",
+   "lang": "ru"
+  },
+  {
+   "start": 589.5,
+   "end": 596.6,
+   "text": "you. Where are they? Where are they?",
+   "lang": "en"
+  },
+  {
+   "start": 599.54,
+   "end": 601.36,
+   "text": "Скажите, они в России?",
+   "lang": "ru"
+  },
+  {
+   "start": 604.64,
+   "end": 605.86,
+   "text": "They're in Russia.",
+   "lang": "en"
+  },
+  {
+   "start": 608.96,
+   "end": 610.16,
+   "text": "They're in Russia.",
+   "lang": "en"
+  },
+  {
+   "start": 613.38,
+   "end": 616.22,
+   "text": "Спросите у миссис Джонсон, где ее дети?",
+   "lang": "ru"
+  },
+  {
+   "start": 620.58,
+   "end": 622.74,
+   "text": "Where are your children, Mrs. Johnson?",
+   "lang": "en"
+  },
+  {
+   "start": 627.02,
+   "end": 628.12,
+   "text": "Они здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 628.12,
+   "end": 631.86,
+   "text": "Are they here?",
+   "lang": "en"
+  },
+  {
+   "start": 634.48,
+   "end": 637.64,
+   "text": "Дайте короткий положительный ответ на этот вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.72,
+   "end": 641.8,
+   "text": "Yes, they are.",
+   "lang": "en"
+  },
+  {
+   "start": 644.78,
+   "end": 645.78,
+   "text": "Yes, they are.",
+   "lang": "en"
+  },
+  {
+   "start": 648.8,
+   "end": 652.04,
+   "text": "Миссис Джонсон говорит, мои девочки здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 655.18,
+   "end": 656.66,
+   "text": "My girls are here.",
+   "lang": "en"
+  },
+  {
+   "start": 659.8,
+   "end": 661.38,
+   "text": "My girls are here.",
+   "lang": "en"
+  },
+  {
+   "start": 664.46,
+   "end": 669.9,
+   "text": "Скажите, девочки большие, имею в виду уже большие.",
+   "lang": "ru"
+  },
+  {
+   "start": 672.9,
+   "end": 674.72,
+   "text": "The girls are big.",
+   "lang": "ru"
+  },
+  {
+   "start": 680.3,
+   "end": 684.4,
+   "text": "Сейчас попробуйте сказать «большие девочки».",
+   "lang": "ru"
+  },
+  {
+   "start": 686.48,
+   "end": 688.04,
+   "text": "The big girls.",
+   "lang": "ru"
+  },
+  {
+   "start": 693.16,
+   "end": 694.88,
+   "text": "Большие девочки.",
+   "lang": "ru"
+  },
+  {
+   "start": 697.66,
+   "end": 700.88,
+   "text": "Скажите еще раз. Девочки большие?",
+   "lang": "ru"
+  },
+  {
+   "start": 704.38,
+   "end": 705.86,
+   "text": "The girls are big.",
+   "lang": "en"
+  },
+  {
+   "start": 709.36,
+   "end": 710.96,
+   "text": "Большие девочки.",
+   "lang": "ru"
+  },
+  {
+   "start": 713.74,
+   "end": 715.3,
+   "text": "The Big Girls.",
+   "lang": "en"
+  },
+  {
+   "start": 718.92,
+   "end": 720.72,
+   "text": "Скажите, девочка здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 723.28,
+   "end": 725.04,
+   "text": "The girl is here.",
+   "lang": "en"
+  },
+  {
+   "start": 727.84,
+   "end": 729.22,
+   "text": "The girl's here.",
+   "lang": "en"
+  },
+  {
+   "start": 732.48,
+   "end": 733.98,
+   "text": "Большая девочка здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 737.76,
+   "end": 739.54,
+   "text": "The big girl is here.",
+   "lang": "en"
+  },
+  {
+   "start": 743.44,
+   "end": 745.74,
+   "text": "Скажите, большой мальчик здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 749.34,
+   "end": 751.44,
+   "text": "The big boy is here.",
+   "lang": "ru"
+  },
+  {
+   "start": 754.88,
+   "end": 756.86,
+   "text": "The big boy is here.",
+   "lang": "ru"
+  },
+  {
+   "start": 756.86,
+   "end": 757.02,
+   "text": "year.",
+   "lang": "en"
+  },
+  {
+   "start": 760.34,
+   "end": 763.08,
+   "text": "А как сказать «он здесь»?",
+   "lang": "ru"
+  },
+  {
+   "start": 765.24,
+   "end": 766.3,
+   "text": "He's here.",
+   "lang": "ru"
+  },
+  {
+   "start": 769.08,
+   "end": 769.24,
+   "text": "He.",
+   "lang": "ru"
+  },
+  {
+   "start": 770.86,
+   "end": 771.98,
+   "text": "He's here.",
+   "lang": "ru"
+  },
+  {
+   "start": 775.0,
+   "end": 776.14,
+   "text": "А маленькая девочка?",
+   "lang": "ru"
+  },
+  {
+   "start": 776.8,
+   "end": 777.54,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 778.04,
+   "end": 779.28,
+   "text": "And the little girl?",
+   "lang": "ru"
+  },
+  {
+   "start": 781.96,
+   "end": 782.8,
+   "text": "Little.",
+   "lang": "ru"
+  },
+  {
+   "start": 784.8,
+   "end": 785.02,
+   "text": "Little.",
+   "lang": "ru"
+  },
+  {
+   "start": 786.22,
+   "end": 787.74,
+   "text": "The little girl.",
+   "lang": "ru"
+  },
+  {
+   "start": 790.42,
+   "end": 794.68,
+   "text": "Слушайте и повторяйте для отработки правильного произношения.",
+   "lang": "ru"
+  },
+  {
+   "start": 796.26,
+   "end": 797.1,
+   "text": "Little.",
+   "lang": "ru"
+  },
+  {
+   "start": 798.72,
+   "end": 800.28,
+   "text": "The little.",
+   "lang": "ru"
+  },
+  {
+   "start": 802.86,
+   "end": 804.26,
+   "text": "The little girl.",
+   "lang": "ru"
+  },
+  {
+   "start": 806.7,
+   "end": 809.92,
+   "text": "Спросите еще раз. А маленькая девочка?",
+   "lang": "ru"
+  },
+  {
+   "start": 811.88,
+   "end": 813.28,
+   "text": "And",
+   "lang": "en"
+  },
+  {
+   "start": 813.46,
+   "end": 820.48,
+   "text": "А как сказать «я немного понимаю по-английски»?",
+   "lang": "ru"
+  },
+  {
+   "start": 825.0,
+   "end": 827.36,
+   "text": "I understand English a little.",
+   "lang": "en"
+  },
+  {
+   "start": 830.86,
+   "end": 832.94,
+   "text": "A little.",
+   "lang": "ru"
+  },
+  {
+   "start": 834.86,
+   "end": 838.04,
+   "text": "Попробуйте спросить, где маленькая девочка?",
+   "lang": "ru"
+  },
+  {
+   "start": 840.9,
+   "end": 842.54,
+   "text": "Where's the little girl?",
+   "lang": "ru"
+  },
+  {
+   "start": 846.58,
+   "end": 849.42,
+   "text": "Сейчас попробуйте сказать, маленький мальчик.",
+   "lang": "ru"
+  },
+  {
+   "start": 851.42,
+   "end": 852.9,
+   "text": "The little boy.",
+   "lang": "ru"
+  },
+  {
+   "start": 855.2,
+   "end": 856.52,
+   "text": "The Little Boy",
+   "lang": "en"
+  },
+  {
+   "start": 858.94,
+   "end": 863.8,
+   "text": "Удается ли вам точно копировать произношение диктора? Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 864.26,
+   "end": 865.28,
+   "text": "Маленький мальчик.",
+   "lang": "ru"
+  },
+  {
+   "start": 867.68,
+   "end": 869.02,
+   "text": "The little boy.",
+   "lang": "ru"
+  },
+  {
+   "start": 871.72,
+   "end": 872.4,
+   "text": "Little.",
+   "lang": "ru"
+  },
+  {
+   "start": 874.08,
+   "end": 875.82,
+   "text": "Мой мальчик маленький.",
+   "lang": "ru"
+  },
+  {
+   "start": 878.98,
+   "end": 880.6,
+   "text": "My boy is little.",
+   "lang": "ru"
+  },
+  {
+   "start": 883.8,
+   "end": 885.24,
+   "text": "My boy is little.",
+   "lang": "ru"
+  },
+  {
+   "start": 885.24,
+   "end": 885.36,
+   "text": "level.",
+   "lang": "en"
+  },
+  {
+   "start": 888.6,
+   "end": 890.58,
+   "text": "Наш мальчик маленький.",
+   "lang": "ru"
+  },
+  {
+   "start": 890.7,
+   "end": 891.9,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 892.64,
+   "end": 893.72,
+   "text": "Our boy is little.",
+   "lang": "ru"
+  },
+  {
+   "start": 901.9,
+   "end": 904.52,
+   "text": "Скажите, наш мальчик.",
+   "lang": "ru"
+  },
+  {
+   "start": 904.52,
+   "end": 907.66,
+   "text": "Our Boy",
+   "lang": "en"
+  },
+  {
+   "start": 909.76,
+   "end": 913.76,
+   "text": "Попробуйте сказать, наш мальчик небольшой.",
+   "lang": "ru"
+  },
+  {
+   "start": 917.74,
+   "end": 919.66,
+   "text": "Our boy isn't big.",
+   "lang": "en"
+  },
+  {
+   "start": 924.26,
+   "end": 924.88,
+   "text": "isn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 926.42,
+   "end": 928.48,
+   "text": "Скажите, он маленький?",
+   "lang": "ru"
+  },
+  {
+   "start": 930.42,
+   "end": 931.68,
+   "text": "He's little.",
+   "lang": "ru"
+  },
+  {
+   "start": 934.1,
+   "end": 934.94,
+   "text": "He's little.",
+   "lang": "en"
+  },
+  {
+   "start": 937.18,
+   "end": 938.1,
+   "text": "Правда?",
+   "lang": "ru"
+  },
+  {
+   "start": 938.16,
+   "end": 939.4,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 939.86,
+   "end": 940.44,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 940.44,
+   "end": 940.62,
+   "text": "Really?",
+   "lang": "en"
+  },
+  {
+   "start": 942.38,
+   "end": 942.9,
+   "text": "Really?",
+   "lang": "en"
+  },
+  {
+   "start": 945.0,
+   "end": 945.52,
+   "text": "Really?",
+   "lang": "en"
+  },
+  {
+   "start": 947.7,
+   "end": 949.14,
+   "text": "Спросите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 949.32,
+   "end": 950.04,
+   "text": "Правда?",
+   "lang": "ru"
+  },
+  {
+   "start": 950.04,
+   "end": 952.38,
+   "text": "Really?",
+   "lang": "en"
+  },
+  {
+   "start": 953.26,
+   "end": 954.7,
+   "text": "Really? Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 956.84,
+   "end": 958.9,
+   "text": "Спросите, где ваша девочка?",
+   "lang": "ru"
+  },
+  {
+   "start": 961.68,
+   "end": 963.08,
+   "text": "Where is your girl?",
+   "lang": "ru"
+  },
+  {
+   "start": 966.46,
+   "end": 969.32,
+   "text": "Спросите, где ваша девочка, миссис Джонсон?",
+   "lang": "ru"
+  },
+  {
+   "start": 973.56,
+   "end": 975.8,
+   "text": "Where is your girl, mrs. Johnson?",
+   "lang": "ru"
+  },
+  {
+   "start": 980.36,
+   "end": 984.72,
+   "text": "Спросите, наша большая девочка или наша маленькая девочка?",
+   "lang": "ru"
+  },
+  {
+   "start": 990.16,
+   "end": 992.94,
+   "text": "Our big girl or our little girl?",
+   "lang": "en"
+  },
+  {
+   "start": 998.36,
+   "end": 1001.2,
+   "text": "Our big girl or our little girl?",
+   "lang": "en"
+  },
+  {
+   "start": 1006.22,
+   "end": 1008.26,
+   "text": "Наша большая девочка там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1012.4,
+   "end": 1014.9,
+   "text": "Our big girl is over there.",
+   "lang": "en"
+  },
+  {
+   "start": 1019.24,
+   "end": 1021.34,
+   "text": "Our big girl's over there.",
+   "lang": "en"
+  },
+  {
+   "start": 1025.96,
+   "end": 1027.52,
+   "text": "Спросите, правда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1027.52,
+   "end": 1030.24,
+   "text": "Really?",
+   "lang": "en"
+  },
+  {
+   "start": 1032.22,
+   "end": 1034.54,
+   "text": "Наша маленькая девочка здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1038.12,
+   "end": 1040.1,
+   "text": "Our little girl is here.",
+   "lang": "en"
+  },
+  {
+   "start": 1044.1,
+   "end": 1046.88,
+   "text": "Спросите, она хотела бы что-нибудь выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1051.66,
+   "end": 1053.7,
+   "text": "Would she like to have something to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 1053.78,
+   "end": 1060.96,
+   "text": "Да, она хотела бы немного воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 1066.08,
+   "end": 1067.62,
+   "text": "Yes, she'd like some water.",
+   "lang": "en"
+  },
+  {
+   "start": 1072.36,
+   "end": 1073.42,
+   "text": "Yes, she would.",
+   "lang": "en"
+  },
+  {
+   "start": 1075.66,
+   "end": 1077.96,
+   "text": "Но она может подождать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1080.6,
+   "end": 1081.86,
+   "text": "But she can wait",
+   "lang": "en"
+  },
+  {
+   "start": 1084.28,
+   "end": 1085.86,
+   "text": "But she can wait",
+   "lang": "en"
+  },
+  {
+   "start": 1089.16,
+   "end": 1091.62,
+   "text": "Допустим, что вас зовут Иван Жуков.",
+   "lang": "ru"
+  },
+  {
+   "start": 1092.42,
+   "end": 1096.78,
+   "text": "Вы с женой приехали в гости к ее нью-йоркской подруге Кэти Джонсон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1096.94,
+   "end": 1098.64,
+   "text": "Вы постучали в дверь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1100.04,
+   "end": 1100.8,
+   "text": "Приглашаю вас войти.",
+   "lang": "ru"
+  },
+  {
+   "start": 1100.8,
+   "end": 1107.06,
+   "text": "you come in come in please",
+   "lang": "en"
+  },
+  {
+   "start": 1110.32,
+   "end": 1117.16,
+   "text": "Ваша жена представляет вас друг другу, но вы не знаете, замужем ли ее подруга. Что вы можете сказать?",
+   "lang": "ru"
+  },
+  {
+   "start": 1121.88,
+   "end": 1123.76,
+   "text": "Please to meet you, Ms. Johnson.",
+   "lang": "en"
+  },
+  {
+   "start": 1128.46,
+   "end": 1128.86,
+   "text": "Ms.",
+   "lang": "en"
+  },
+  {
+   "start": 1130.74,
+   "end": 1132.56,
+   "text": "Как она отвечает?",
+   "lang": "ru"
+  },
+  {
+   "start": 1136.52,
+   "end": 1138.48,
+   "text": "pleased to meet you mr zhukov",
+   "lang": "en"
+  },
+  {
+   "start": 1142.52,
+   "end": 1145.58,
+   "text": "Она спрашивает, вы хотели бы выпить что-нибудь?",
+   "lang": "ru"
+  },
+  {
+   "start": 1150.48,
+   "end": 1152.5,
+   "text": "Would you like to have something to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 1157.58,
+   "end": 1160.18,
+   "text": "Скажите, да, мы хотели бы кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1164.06,
+   "end": 1166.16,
+   "text": "Yes, we'd like some coffee",
+   "lang": "en"
+  },
+  {
+   "start": 1170.1,
+   "end": 1173.12,
+   "text": "А как сказать, он хотел бы кофе?",
+   "lang": "ru"
+  },
+  {
+   "start": 1176.86,
+   "end": 1178.26,
+   "text": "He'd like some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1182.04,
+   "end": 1182.56,
+   "text": "He'd.",
+   "lang": "en"
+  },
+  {
+   "start": 1183.72,
+   "end": 1186.48,
+   "text": "Но я хочу немного воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 1189.78,
+   "end": 1191.72,
+   "text": "But I want some water.",
+   "lang": "en"
+  },
+  {
+   "start": 1195.12,
+   "end": 1196.2,
+   "text": "Some water.",
+   "lang": "en"
+  },
+  {
+   "start": 1198.32,
+   "end": 1202.1,
+   "text": "Сейчас скажите, мы хотели бы что-нибудь выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1206.64,
+   "end": 1208.56,
+   "text": "We'd like to have something to drink.",
+   "lang": "en"
+  },
+  {
+   "start": 1211.06,
+   "end": 1214.82,
+   "text": "Но мы можем подождать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1217.26,
+   "end": 1218.5,
+   "text": "But we can wait",
+   "lang": "en"
+  },
+  {
+   "start": 1220.78,
+   "end": 1222.16,
+   "text": "We can wait",
+   "lang": "en"
+  },
+  {
+   "start": 1223.1,
+   "end": 1228.14,
+   "text": "Сейчас вы хотите спросить, где туалет?",
+   "lang": "ru"
+  },
+  {
+   "start": 1228.14,
+   "end": 1229.5,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1229.92,
+   "end": 1231.1,
+   "text": "Where's the bathroom?",
+   "lang": "en"
+  },
+  {
+   "start": 1234.2,
+   "end": 1234.86,
+   "text": "Room.",
+   "lang": "en"
+  },
+  {
+   "start": 1236.66,
+   "end": 1237.32,
+   "text": "Room.",
+   "lang": "en"
+  },
+  {
+   "start": 1237.96,
+   "end": 1250.34,
+   "text": "Room. Bath. Bath. Bathroom. Where's the bathroom?",
+   "lang": "ru"
+  },
+  {
+   "start": 1253.3,
+   "end": 1256.34,
+   "text": "Спросите еще раз. Где туалет?",
+   "lang": "ru"
+  },
+  {
+   "start": 1259.02,
+   "end": 1260.74,
+   "text": "Where is the bathroom?",
+   "lang": "ru"
+  },
+  {
+   "start": 1260.74,
+   "end": 1260.96,
+   "text": "room.",
+   "lang": "en"
+  },
+  {
+   "start": 1264.52,
+   "end": 1265.12,
+   "text": "The bathroom.",
+   "lang": "ru"
+  },
+  {
+   "start": 1267.5,
+   "end": 1270.04,
+   "text": "Она отвечает. Это там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1272.32,
+   "end": 1273.82,
+   "text": "It's over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1276.52,
+   "end": 1278.46,
+   "text": "Спросите. Правда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.12,
+   "end": 1281.08,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 1282.4,
+   "end": 1288.06,
+   "text": "Как сказать «маленький мальчик», имея в виду конкретного мальчика?",
+   "lang": "ru"
+  },
+  {
+   "start": 1290.5,
+   "end": 1291.68,
+   "text": "The little boy.",
+   "lang": "en"
+  },
+  {
+   "start": 1294.16,
+   "end": 1295.28,
+   "text": "The little boy.",
+   "lang": "en"
+  },
+  {
+   "start": 1297.66,
+   "end": 1300.78,
+   "text": "Скажите, наши четыре мальчика.",
+   "lang": "ru"
+  },
+  {
+   "start": 1303.7,
+   "end": 1305.52,
+   "text": "Our four boys.",
+   "lang": "en"
+  },
+  {
+   "start": 1308.58,
+   "end": 1310.38,
+   "text": "Our four boys.",
+   "lang": "en"
+  },
+  {
+   "start": 1313.3,
+   "end": 1315.46,
+   "text": "Сейчас попробуйте сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1315.8,
+   "end": 1317.6,
+   "text": "Наши мальчики большие.",
+   "lang": "ru"
+  },
+  {
+   "start": 1320.62,
+   "end": 1322.14,
+   "text": "Our boys are big.",
+   "lang": "en"
+  },
+  {
+   "start": 1325.34,
+   "end": 1327.34,
+   "text": "Our boys are big.",
+   "lang": "en"
+  },
+  {
+   "start": 1331.5,
+   "end": 1334.22,
+   "text": "Скажите. Большая девочка.",
+   "lang": "ru"
+  },
+  {
+   "start": 1336.48,
+   "end": 1338.2,
+   "text": "The big girl.",
+   "lang": "ru"
+  },
+  {
+   "start": 1340.68,
+   "end": 1342.26,
+   "text": "The Big Girl",
+   "lang": "en"
+  },
+  {
+   "start": 1345.2,
+   "end": 1348.2,
+   "text": "Скажите, четыре большие девочки.",
+   "lang": "ru"
+  },
+  {
+   "start": 1348.94,
+   "end": 1349.82,
+   "text": "Будьте внимательны.",
+   "lang": "ru"
+  },
+  {
+   "start": 1350.42,
+   "end": 1353.94,
+   "text": "Имеется в виду конкретная группа из четырех девочек.",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.48,
+   "end": 1359.74,
+   "text": "The four big girls.",
+   "lang": "ru"
+  },
+  {
+   "start": 1364.22,
+   "end": 1365.9,
+   "text": "The four big girls.",
+   "lang": "ru"
+  },
+  {
+   "start": 1369.94,
+   "end": 1372.62,
+   "text": "Ваши четыре большие девочки.",
+   "lang": "ru"
+  },
+  {
+   "start": 1376.28,
+   "end": 1378.66,
+   "text": "Your four big girls.",
+   "lang": "ru"
+  },
+  {
+   "start": 1382.84,
+   "end": 1384.06,
+   "text": "Попробуйте сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1384.44,
+   "end": 1387.0,
+   "text": "Ваши четыре девочки большие.",
+   "lang": "ru"
+  },
+  {
+   "start": 1391.68,
+   "end": 1394.48,
+   "text": "Your four girls are big.",
+   "lang": "en"
+  },
+  {
+   "start": 1397.66,
+   "end": 1403.44,
+   "text": "Как ей сказать «Да, наши девочки большие»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1407.92,
+   "end": 1409.94,
+   "text": "Yes, our girls are big.",
+   "lang": "en"
+  },
+  {
+   "start": 1414.16,
+   "end": 1417.8,
+   "text": "Скажите ей, наша девочка тоже большая?",
+   "lang": "ru"
+  },
+  {
+   "start": 1421.88,
+   "end": 1424.06,
+   "text": "Our girl is big too",
+   "lang": "en"
+  },
+  {
+   "start": 1427.92,
+   "end": 1430.34,
+   "text": "Our girl's big too",
+   "lang": "en"
+  },
+  {
+   "start": 1433.78,
+   "end": 1435.76,
+   "text": "Она здесь, с нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1435.96,
+   "end": 1437.18,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1438.04,
+   "end": 1439.24,
+   "text": "Она здесь, с нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1441.98,
+   "end": 1443.5,
+   "text": "С нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1444.26,
+   "end": 1445.94,
+   "text": "С нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1446.46,
+   "end": 1449.94,
+   "text": "Она здесь, с нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1452.92,
+   "end": 1455.22,
+   "text": "Как сказать «с нами»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1456.9,
+   "end": 1458.04,
+   "text": "С нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1460.76,
+   "end": 1462.12,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1462.24,
+   "end": 1463.08,
+   "text": "Она здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1463.44,
+   "end": 1463.8,
+   "text": "С нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1467.5,
+   "end": 1469.06,
+   "text": "She's here with us.",
+   "lang": "en"
+  },
+  {
+   "start": 1472.64,
+   "end": 1475.04,
+   "text": "Спросите, где туалет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1477.4,
+   "end": 1478.8,
+   "text": "Where's the bathroom?",
+   "lang": "en"
+  },
+  {
+   "start": 1482.02,
+   "end": 1483.96,
+   "text": "Excuse me, where's the bathroom?",
+   "lang": "en"
+  },
+  {
+   "start": 1487.16,
+   "end": 1491.08,
+   "text": "Вот как сказать семья.",
+   "lang": "ru"
+  },
+  {
+   "start": 1493.44,
+   "end": 1493.58,
+   "text": "Family.",
+   "lang": "ru"
+  },
+  {
+   "start": 1496.2,
+   "end": 1496.24,
+   "text": "Lee.",
+   "lang": "ru"
+  },
+  {
+   "start": 1498.66,
+   "end": 1498.84,
+   "text": "Fam.",
+   "lang": "ru"
+  },
+  {
+   "start": 1500.88,
+   "end": 1501.76,
+   "text": "Family.",
+   "lang": "ru"
+  },
+  {
+   "start": 1504.48,
+   "end": 1504.68,
+   "text": "Family.",
+   "lang": "ru"
+  },
+  {
+   "start": 1507.48,
+   "end": 1508.36,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1508.52,
+   "end": 1509.26,
+   "text": "Семья.",
+   "lang": "ru"
+  },
+  {
+   "start": 1511.46,
+   "end": 1512.34,
+   "text": "Family.",
+   "lang": "ru"
+  },
+  {
+   "start": 1514.68,
+   "end": 1515.84,
+   "text": "Попробуйте сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1516.2,
+   "end": 1517.46,
+   "text": "Две семьи.",
+   "lang": "ru"
+  },
+  {
+   "start": 1520.06,
+   "end": 1521.54,
+   "text": "Two families.",
+   "lang": "ru"
+  },
+  {
+   "start": 1524.22,
+   "end": 1525.62,
+   "text": "Families",
+   "lang": "en"
+  },
+  {
+   "start": 1527.84,
+   "end": 1530.14,
+   "text": "Скажите, наша семья.",
+   "lang": "ru"
+  },
+  {
+   "start": 1531.76,
+   "end": 1533.64,
+   "text": "Our Family",
+   "lang": "en"
+  },
+  {
+   "start": 1536.0,
+   "end": 1539.02,
+   "text": "Спросите у женщины, где ее семья.",
+   "lang": "ru"
+  },
+  {
+   "start": 1541.72,
+   "end": 1543.46,
+   "text": "Where's your family?",
+   "lang": "ru"
+  },
+  {
+   "start": 1546.62,
+   "end": 1547.94,
+   "text": "Where's your family?",
+   "lang": "en"
+  },
+  {
+   "start": 1551.02,
+   "end": 1553.32,
+   "text": "Спросите, моя семья?",
+   "lang": "ru"
+  },
+  {
+   "start": 1555.44,
+   "end": 1556.88,
+   "text": "My family?",
+   "lang": "en"
+  },
+  {
+   "start": 1559.42,
+   "end": 1562.44,
+   "text": "Скажите, маленькие дети в России?",
+   "lang": "ru"
+  },
+  {
+   "start": 1566.78,
+   "end": 1568.84,
+   "text": "The little children are in Russia.",
+   "lang": "en"
+  },
+  {
+   "start": 1573.02,
+   "end": 1575.06,
+   "text": "The little children are in Russia.",
+   "lang": "en"
+  },
+  {
+   "start": 1579.28,
+   "end": 1582.0,
+   "text": "Большая девочка здесь с нами",
+   "lang": "ru"
+  },
+  {
+   "start": 1586.3,
+   "end": 1589.1,
+   "text": "The big girl is here with us.",
+   "lang": "en"
+  },
+  {
+   "start": 1593.92,
+   "end": 1594.86,
+   "text": "With us.",
+   "lang": "en"
+  },
+  {
+   "start": 1596.82,
+   "end": 1599.14,
+   "text": "The big girl's here with us.",
+   "lang": "en"
+  },
+  {
+   "start": 1603.74,
+   "end": 1606.6,
+   "text": "Скажите, у вас большая семья?",
+   "lang": "ru"
+  },
+  {
+   "start": 1610.12,
+   "end": 1611.7,
+   "text": "You have a big family.",
+   "lang": "en"
+  },
+  {
+   "start": 1614.46,
+   "end": 1617.98,
+   "text": "You are in the United States with your family.",
+   "lang": "ru"
+  },
+  {
+   "start": 1618.14,
+   "end": 1620.62,
+   "text": "You have two boys and one girl.",
+   "lang": "ru"
+  },
+  {
+   "start": 1620.78,
+   "end": 1623.04,
+   "text": "You're going to speak with Miss Johnson.",
+   "lang": "ru"
+  },
+  {
+   "start": 1623.3,
+   "end": 1627.14,
+   "text": "When you answer, don't say I, say we.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.52,
+   "end": 1630.86,
+   "text": "Для начала скажите ей, доброе утро.",
+   "lang": "ru"
+  },
+  {
+   "start": 1632.74,
+   "end": 1633.76,
+   "text": "Good morning.",
+   "lang": "ru"
+  },
+  {
+   "start": 1635.56,
+   "end": 1637.3,
+   "text": "Good morning, Miss Johnson.",
+   "lang": "ru"
+  },
+  {
+   "start": 1640.92,
+   "end": 1643.98,
+   "text": "Доброе утро, сэр. Это ваш маленький ребенок?",
+   "lang": "ru"
+  },
+  {
+   "start": 1643.98,
+   "end": 1644.08,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 1647.74,
+   "end": 1650.26,
+   "text": "Да, это наш маленький ребенок.",
+   "lang": "ru"
+  },
+  {
+   "start": 1653.96,
+   "end": 1655.8,
+   "text": "Наш маленький ребенок.",
+   "lang": "ru"
+  },
+  {
+   "start": 1658.42,
+   "end": 1660.2,
+   "text": "Сколько ребенков у вас?",
+   "lang": "ru"
+  },
+  {
+   "start": 1660.2,
+   "end": 1660.54,
+   "text": "have.",
+   "lang": "en"
+  },
+  {
+   "start": 1663.46,
+   "end": 1665.22,
+   "text": "У нас есть два ребенка.",
+   "lang": "ru"
+  },
+  {
+   "start": 1668.24,
+   "end": 1670.32,
+   "text": "And do you have any girls?",
+   "lang": "ru"
+  },
+  {
+   "start": 1674.78,
+   "end": 1676.92,
+   "text": "Yes, we have one girl.",
+   "lang": "ru"
+  },
+  {
+   "start": 1681.28,
+   "end": 1683.36,
+   "text": "Is your girl little or big?",
+   "lang": "ru"
+  },
+  {
+   "start": 1684.2,
+   "end": 1686.2,
+   "text": "Скажите, что она большая?",
+   "lang": "ru"
+  },
+  {
+   "start": 1688.72,
+   "end": 1689.7,
+   "text": "She's big.",
+   "lang": "ru"
+  },
+  {
+   "start": 1692.08,
+   "end": 1694.12,
+   "text": "Does she understand English?",
+   "lang": "ru"
+  },
+  {
+   "start": 1699.42,
+   "end": 1701.92,
+   "text": "No, she doesn't understand English.",
+   "lang": "en"
+  },
+  {
+   "start": 1707.04,
+   "end": 1710.2,
+   "text": "Your little boy wants something. What does he want?",
+   "lang": "en"
+  },
+  {
+   "start": 1710.36,
+   "end": 1713.4,
+   "text": "Может быть, он хотел бы выпить что-нибудь?",
+   "lang": "ru"
+  },
+  {
+   "start": 1718.16,
+   "end": 1720.5,
+   "text": "Maybe he'd like to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1725.72,
+   "end": 1727.7,
+   "text": "Maybe he'd like to have something to drink.",
+   "lang": "en"
+  },
+  {
+   "start": 1727.78,
+   "end": 1733.78,
+   "text": "No, thank you.",
+   "lang": "ru"
+  },
+  {
+   "start": 1734.6,
+   "end": 1736.38,
+   "text": "Спросите, где туалет?",
+   "lang": "ru"
+  },
+  {
+   "start": 1739.68,
+   "end": 1740.88,
+   "text": "Where's the bathroom?",
+   "lang": "ru"
+  },
+  {
+   "start": 1740.88,
+   "end": 1741.1,
+   "text": "room.",
+   "lang": "en"
+  },
+  {
+   "start": 1744.24,
+   "end": 1746.12,
+   "text": "Where's the bathroom, please?",
+   "lang": "ru"
+  },
+  {
+   "start": 1750.42,
+   "end": 1752.5,
+   "text": "The bathroom is over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1753.08,
+   "end": 1756.68,
+   "text": "Попробуйте сказать, американские семьи большие.",
+   "lang": "ru"
+  },
+  {
+   "start": 1761.02,
+   "end": 1763.18,
+   "text": "American families are big.",
+   "lang": "ru"
+  },
+  {
+   "start": 1767.88,
+   "end": 1769.88,
+   "text": "Скажите, у вас много детей?",
+   "lang": "ru"
+  },
+  {
+   "start": 1773.64,
+   "end": 1775.36,
+   "text": "You have a lot of children.",
+   "lang": "ru"
+  },
+  {
+   "start": 1779.44,
+   "end": 1781.92,
+   "text": "Скажите да, и много туалетов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1786.64,
+   "end": 1788.76,
+   "text": "Yes, and a lot of bathrooms.",
+   "lang": "ru"
+  },
+  {
+   "start": 1788.76,
+   "end": 1789.04,
+   "text": "rooms.",
+   "lang": "en"
+  },
+  {
+   "start": 1793.92,
+   "end": 1796.46,
+   "text": "Урок номер 21 окончен.",
+   "lang": "ru"
+  }
+ ]
+}

@@ -1,0 +1,2361 @@
+{
+ "id": "I_24",
+ "source": "Pimsleur_I_24.mp3",
+ "duration": 1799.03,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 161,
+ "segments": [
+  {
+   "start": 2.3,
+   "end": 7.78,
+   "text": "Американский английский язык по методу доктора Пимпслера. Урок номер 24.",
+   "lang": "ru"
+  },
+  {
+   "start": 8.36,
+   "end": 13.16,
+   "text": "Слушайте эту разговор. Мистер Жуков говорит с миссис Джонсон.",
+   "lang": "ru"
+  },
+  {
+   "start": 14.2,
+   "end": 15.66,
+   "text": "Газоэкспенсивно в Америке?",
+   "lang": "ru"
+  },
+  {
+   "start": 15.76,
+   "end": 17.94,
+   "text": "Нет, он не очень экспенсивен.",
+   "lang": "ru"
+  },
+  {
+   "start": 18.1,
+   "end": 19.7,
+   "text": "Сколько он стоит за галлон?",
+   "lang": "ru"
+  },
+  {
+   "start": 19.82,
+   "end": 21.72,
+   "text": "Я не знаю, но не слишком.",
+   "lang": "ru"
+  },
+  {
+   "start": 22.18,
+   "end": 23.54,
+   "text": "У вас есть машина?",
+   "lang": "ru"
+  },
+  {
+   "start": 23.74,
+   "end": 24.66,
+   "text": "Да, у меня есть.",
+   "lang": "ru"
+  },
+  {
+   "start": 25.42,
+   "end": 29.04,
+   "text": "В этом разговоре вы услышали выражение «по галлону».",
+   "lang": "ru"
+  },
+  {
+   "start": 30.0,
+   "end": 32.04,
+   "text": "которое означает загалон.",
+   "lang": "ru"
+  },
+  {
+   "start": 32.12,
+   "end": 32.96,
+   "text": "Listen again.",
+   "lang": "ru"
+  },
+  {
+   "start": 33.36,
+   "end": 35.52,
+   "text": "Is gas expensive in America?",
+   "lang": "ru"
+  },
+  {
+   "start": 36.02,
+   "end": 37.56,
+   "text": "No, it's not very expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 38.1,
+   "end": 39.66,
+   "text": "How much is it per gallon?",
+   "lang": "ru"
+  },
+  {
+   "start": 40.02,
+   "end": 41.82,
+   "text": "I don't know, but not too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 42.18,
+   "end": 43.44,
+   "text": "Do you have a car?",
+   "lang": "ru"
+  },
+  {
+   "start": 43.86,
+   "end": 44.78,
+   "text": "Yes, I do.",
+   "lang": "ru"
+  },
+  {
+   "start": 45.16,
+   "end": 46.68,
+   "text": "Tell me that you're Russian.",
+   "lang": "ru"
+  },
+  {
+   "start": 49.0,
+   "end": 49.82,
+   "text": "I'm Russian.",
+   "lang": "ru"
+  },
+  {
+   "start": 52.06,
+   "end": 53.9,
+   "text": "Tell me that you live in Moscow.",
+   "lang": "ru"
+  },
+  {
+   "start": 57.12,
+   "end": 58.58,
+   "text": "I live in Moscow.",
+   "lang": "ru"
+  },
+  {
+   "start": 58.58,
+   "end": 58.7,
+   "text": "go.",
+   "lang": "en"
+  },
+  {
+   "start": 61.7,
+   "end": 63.9,
+   "text": "Tell me that you're going to America.",
+   "lang": "ru"
+  },
+  {
+   "start": 63.9,
+   "end": 64.12,
+   "text": "America.",
+   "lang": "en"
+  },
+  {
+   "start": 67.34,
+   "end": 68.8,
+   "text": "I'm going to America.",
+   "lang": "ru"
+  },
+  {
+   "start": 68.8,
+   "end": 69.1,
+   "text": "America.",
+   "lang": "en"
+  },
+  {
+   "start": 72.42,
+   "end": 74.12,
+   "text": "Tell me that you have a car.",
+   "lang": "ru"
+  },
+  {
+   "start": 76.84,
+   "end": 78.04,
+   "text": "I have a car.",
+   "lang": "ru"
+  },
+  {
+   "start": 80.78,
+   "end": 82.9,
+   "text": "Tell me that you have a small car.",
+   "lang": "ru"
+  },
+  {
+   "start": 86.7,
+   "end": 88.58,
+   "text": "I have a small car.",
+   "lang": "ru"
+  },
+  {
+   "start": 92.24,
+   "end": 94.4,
+   "text": "I have a small car.",
+   "lang": "ru"
+  },
+  {
+   "start": 98.08,
+   "end": 100.38,
+   "text": "How do you say поменьше?",
+   "lang": "ru"
+  },
+  {
+   "start": 102.78,
+   "end": 103.54,
+   "text": "Smaller.",
+   "lang": "ru"
+  },
+  {
+   "start": 105.84,
+   "end": 108.56,
+   "text": "Now say Я хотел бы машину побольше.",
+   "lang": "ru"
+  },
+  {
+   "start": 112.0,
+   "end": 113.92,
+   "text": "I'd like a bigger car.",
+   "lang": "ru"
+  },
+  {
+   "start": 117.3,
+   "end": 118.84,
+   "text": "A bigger car.",
+   "lang": "ru"
+  },
+  {
+   "start": 122.06,
+   "end": 124.4,
+   "text": "Куда вы собираетесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 126.92,
+   "end": 128.18,
+   "text": "Where are you going?",
+   "lang": "en"
+  },
+  {
+   "start": 130.78,
+   "end": 132.02,
+   "text": "Where are you going?",
+   "lang": "en"
+  },
+  {
+   "start": 134.66,
+   "end": 137.72,
+   "text": "Tell me that you are going to America with your family.",
+   "lang": "en"
+  },
+  {
+   "start": 143.2,
+   "end": 145.8,
+   "text": "I'm going to America with my family.",
+   "lang": "en"
+  },
+  {
+   "start": 151.22,
+   "end": 154.34,
+   "text": "Ask how many people there are in my family.",
+   "lang": "en"
+  },
+  {
+   "start": 159.1,
+   "end": 160.66,
+   "text": "How many people are in my family?",
+   "lang": "en"
+  },
+  {
+   "start": 160.68,
+   "end": 168.94,
+   "text": "В нашей семье три человека.",
+   "lang": "ru"
+  },
+  {
+   "start": 173.32,
+   "end": 176.54,
+   "text": "There are three people in our family.",
+   "lang": "en"
+  },
+  {
+   "start": 180.86,
+   "end": 183.34,
+   "text": "У нас маленькая семья.",
+   "lang": "ru"
+  },
+  {
+   "start": 186.88,
+   "end": 188.86,
+   "text": "We have a small family.",
+   "lang": "en"
+  },
+  {
+   "start": 192.12,
+   "end": 195.96,
+   "text": "Как сказать, у нас есть маленькая девочка.",
+   "lang": "ru"
+  },
+  {
+   "start": 199.72,
+   "end": 201.6,
+   "text": "We have a little girl.",
+   "lang": "en"
+  },
+  {
+   "start": 205.58,
+   "end": 206.18,
+   "text": "Little.",
+   "lang": "en"
+  },
+  {
+   "start": 206.56,
+   "end": 209.46,
+   "text": "Она в Америке с нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 209.46,
+   "end": 215.86,
+   "text": "me. She's in America with us.",
+   "lang": "en"
+  },
+  {
+   "start": 220.12,
+   "end": 223.82,
+   "text": "Скажите еще раз, что у вас маленькая семья.",
+   "lang": "ru"
+  },
+  {
+   "start": 227.6,
+   "end": 229.64,
+   "text": "We have a small family.",
+   "lang": "en"
+  },
+  {
+   "start": 234.52,
+   "end": 236.38,
+   "text": "Наша семья больше.",
+   "lang": "ru"
+  },
+  {
+   "start": 239.52,
+   "end": 241.16,
+   "text": "Our family is bigger.",
+   "lang": "en"
+  },
+  {
+   "start": 244.28,
+   "end": 244.88,
+   "text": "Bigger.",
+   "lang": "en"
+  },
+  {
+   "start": 245.82,
+   "end": 248.6,
+   "text": "В нашей семье пять человек.",
+   "lang": "ru"
+  },
+  {
+   "start": 253.82,
+   "end": 256.34,
+   "text": "There are five people in our family.",
+   "lang": "ru"
+  },
+  {
+   "start": 261.1,
+   "end": 264.1,
+   "text": "Ask if gas is expensive in America.",
+   "lang": "ru"
+  },
+  {
+   "start": 264.1,
+   "end": 267.5,
+   "text": "Ask if gas is expensive in America.",
+   "lang": "en"
+  },
+  {
+   "start": 272.5,
+   "end": 274.94,
+   "text": "Is gas expensive in America?",
+   "lang": "ru"
+  },
+  {
+   "start": 274.94,
+   "end": 275.2,
+   "text": "America?",
+   "lang": "en"
+  },
+  {
+   "start": 279.98,
+   "end": 283.32,
+   "text": "No, gas isn't very expensive in America.",
+   "lang": "ru"
+  },
+  {
+   "start": 283.82,
+   "end": 285.48,
+   "text": "Ask how much it is.",
+   "lang": "ru"
+  },
+  {
+   "start": 288.46,
+   "end": 289.32,
+   "text": "How much is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 291.7,
+   "end": 293.1,
+   "text": "How much is it?",
+   "lang": "en"
+  },
+  {
+   "start": 295.36,
+   "end": 298.48,
+   "text": "Try to say один доллар за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 299.24,
+   "end": 300.94,
+   "text": "per gallon.",
+   "lang": "ru"
+  },
+  {
+   "start": 304.6,
+   "end": 306.62,
+   "text": "One dollar per gallon.",
+   "lang": "ru"
+  },
+  {
+   "start": 310.86,
+   "end": 310.94,
+   "text": "per",
+   "lang": "ru"
+  },
+  {
+   "start": 311.88,
+   "end": 312.64,
+   "text": "per",
+   "lang": "ru"
+  },
+  {
+   "start": 312.64,
+   "end": 313.18,
+   "text": "per",
+   "lang": "en"
+  },
+  {
+   "start": 314.92,
+   "end": 315.76,
+   "text": "per gallon",
+   "lang": "en"
+  },
+  {
+   "start": 318.1,
+   "end": 319.68,
+   "text": "one dollar per gallon",
+   "lang": "en"
+  },
+  {
+   "start": 323.62,
+   "end": 327.78,
+   "text": "Несмотря на то, что цены в разных местах отличаются друг от друга,",
+   "lang": "ru"
+  },
+  {
+   "start": 327.98,
+   "end": 332.52,
+   "text": "давайте считать, что галлон нашего бензина стоит доллар.",
+   "lang": "ru"
+  },
+  {
+   "start": 332.82,
+   "end": 333.74,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 334.06,
+   "end": 335.74,
+   "text": "Один доллар за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 339.4,
+   "end": 341.2,
+   "text": "One dollar per gallon.",
+   "lang": "ru"
+  },
+  {
+   "start": 345.1,
+   "end": 347.38,
+   "text": "Ask me how many gallons I want.",
+   "lang": "ru"
+  },
+  {
+   "start": 351.66,
+   "end": 353.74,
+   "text": "How many gallons do you want?",
+   "lang": "ru"
+  },
+  {
+   "start": 358.42,
+   "end": 361.0,
+   "text": "Say, Я хочу 10 галлонов.",
+   "lang": "ru"
+  },
+  {
+   "start": 364.4,
+   "end": 366.12,
+   "text": "I want 10 gallons.",
+   "lang": "ru"
+  },
+  {
+   "start": 370.14,
+   "end": 370.74,
+   "text": "Подождите.",
+   "lang": "ru"
+  },
+  {
+   "start": 372.32,
+   "end": 372.92,
+   "text": "Wait.",
+   "lang": "ru"
+  },
+  {
+   "start": 373.82,
+   "end": 378.42,
+   "text": "Здесь это дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 382.28,
+   "end": 384.3,
+   "text": "Here, it's more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 388.54,
+   "end": 390.06,
+   "text": "It's more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 393.38,
+   "end": 395.38,
+   "text": "Два доллара за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 399.44,
+   "end": 401.0,
+   "text": "$2 per gallon",
+   "lang": "en"
+  },
+  {
+   "start": 404.6,
+   "end": 411.56,
+   "text": "Имея в виду эту конкретную цену, скажите выразительно «это слишком много».",
+   "lang": "ru"
+  },
+  {
+   "start": 413.58,
+   "end": 415.34,
+   "text": "That's too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 419.04,
+   "end": 424.64,
+   "text": "Ask. Long Island далеко?",
+   "lang": "ru"
+  },
+  {
+   "start": 427.9,
+   "end": 430.08,
+   "text": "Is Long Island far?",
+   "lang": "ru"
+  },
+  {
+   "start": 430.08,
+   "end": 431.34,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 433.92,
+   "end": 436.86,
+   "text": "Вот как спросить, далеко ли это?",
+   "lang": "ru"
+  },
+  {
+   "start": 436.86,
+   "end": 438.2,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 439.2,
+   "end": 440.26,
+   "text": "How far is it?",
+   "lang": "en"
+  },
+  {
+   "start": 443.14,
+   "end": 444.14,
+   "text": "How far?",
+   "lang": "en"
+  },
+  {
+   "start": 446.2,
+   "end": 446.88,
+   "text": "Far.",
+   "lang": "en"
+  },
+  {
+   "start": 448.48,
+   "end": 450.2,
+   "text": "How far is it?",
+   "lang": "en"
+  },
+  {
+   "start": 453.5,
+   "end": 458.98,
+   "text": "Задавая этот вопрос, вы хотите узнать точное расстояние до определенного места.",
+   "lang": "ru"
+  },
+  {
+   "start": 459.44,
+   "end": 461.9,
+   "text": "Спросите еще раз, далеко ли это?",
+   "lang": "ru"
+  },
+  {
+   "start": 464.7,
+   "end": 466.4,
+   "text": "How far is it?",
+   "lang": "en"
+  },
+  {
+   "start": 468.74,
+   "end": 470.6,
+   "text": "Не очень далеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 473.42,
+   "end": 474.84,
+   "text": "Not very far.",
+   "lang": "en"
+  },
+  {
+   "start": 477.76,
+   "end": 479.42,
+   "text": "It's not very far.",
+   "lang": "en"
+  },
+  {
+   "start": 482.54,
+   "end": 485.54,
+   "text": "Помните, как сказать «одна миля»?",
+   "lang": "ru"
+  },
+  {
+   "start": 487.58,
+   "end": 488.8,
+   "text": "One mile.",
+   "lang": "en"
+  },
+  {
+   "start": 490.92,
+   "end": 492.16,
+   "text": "One mile.",
+   "lang": "en"
+  },
+  {
+   "start": 493.9,
+   "end": 497.62,
+   "text": "Сейчас скажите 65 миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 500.96,
+   "end": 503.16,
+   "text": "65 миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 506.4,
+   "end": 507.8,
+   "text": "65.",
+   "lang": "ru"
+  },
+  {
+   "start": 510.62,
+   "end": 513.84,
+   "text": "Скажите, дорога на Лонг-Айленд.",
+   "lang": "ru"
+  },
+  {
+   "start": 516.96,
+   "end": 519.18,
+   "text": "Дорога на Лонг-Айленд.",
+   "lang": "ru"
+  },
+  {
+   "start": 522.62,
+   "end": 525.98,
+   "text": "Ask. По какой дороге нужно ехать на Long Island?",
+   "lang": "ru"
+  },
+  {
+   "start": 530.64,
+   "end": 532.9,
+   "text": "Which is the road to Long Island?",
+   "lang": "ru"
+  },
+  {
+   "start": 537.48,
+   "end": 538.16,
+   "text": "Which?",
+   "lang": "ru"
+  },
+  {
+   "start": 540.1,
+   "end": 541.88,
+   "text": "Say. Прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 544.26,
+   "end": 545.24,
+   "text": "Straight ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 547.74,
+   "end": 550.74,
+   "text": "How do you say далеко?",
+   "lang": "ru"
+  },
+  {
+   "start": 550.74,
+   "end": 553.2,
+   "text": "Far.",
+   "lang": "en"
+  },
+  {
+   "start": 555.58,
+   "end": 557.58,
+   "text": "Спросите, далеко ли это?",
+   "lang": "ru"
+  },
+  {
+   "start": 560.84,
+   "end": 562.84,
+   "text": "How far is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 566.16,
+   "end": 567.96,
+   "text": "How far is it?",
+   "lang": "en"
+  },
+  {
+   "start": 571.52,
+   "end": 573.36,
+   "text": "Шестьдесят четыре мили.",
+   "lang": "ru"
+  },
+  {
+   "start": 576.58,
+   "end": 578.2,
+   "text": "64 miles.",
+   "lang": "en"
+  },
+  {
+   "start": 581.86,
+   "end": 583.0,
+   "text": "Семьдесят миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 586.18,
+   "end": 587.02,
+   "text": "70 miles.",
+   "lang": "en"
+  },
+  {
+   "start": 587.18,
+   "end": 593.24,
+   "text": "Нет, семьдесят пять миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 596.88,
+   "end": 599.76,
+   "text": "No, 75 miles.",
+   "lang": "en"
+  },
+  {
+   "start": 604.52,
+   "end": 607.3,
+   "text": "Я хотел бы бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 607.32,
+   "end": 610.66,
+   "text": "Имею в виду, я хотел бы купить бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 614.02,
+   "end": 615.7,
+   "text": "I'd like some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 619.38,
+   "end": 621.0,
+   "text": "I'd like some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 624.64,
+   "end": 626.36,
+   "text": "Мне нужен бензин.",
+   "lang": "ru"
+  },
+  {
+   "start": 626.38,
+   "end": 627.64,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 628.6,
+   "end": 629.82,
+   "text": "I need some gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 633.66,
+   "end": 634.44,
+   "text": "Need.",
+   "lang": "ru"
+  },
+  {
+   "start": 636.74,
+   "end": 637.52,
+   "text": "Need.",
+   "lang": "ru"
+  },
+  {
+   "start": 639.78,
+   "end": 641.02,
+   "text": "I need.",
+   "lang": "ru"
+  },
+  {
+   "start": 643.48,
+   "end": 645.38,
+   "text": "I need some gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 649.06,
+   "end": 650.2,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 651.0,
+   "end": 652.14,
+   "text": "Мне нужен бензин.",
+   "lang": "ru"
+  },
+  {
+   "start": 655.42,
+   "end": 657.34,
+   "text": "I need some gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 657.34,
+   "end": 657.68,
+   "text": "Yes.",
+   "lang": "en"
+  },
+  {
+   "start": 660.96,
+   "end": 663.68,
+   "text": "How do you say вам нужен?",
+   "lang": "ru"
+  },
+  {
+   "start": 666.1,
+   "end": 667.26,
+   "text": "You need.",
+   "lang": "ru"
+  },
+  {
+   "start": 669.6,
+   "end": 672.88,
+   "text": "Now try to ask вам нужен бензин?",
+   "lang": "ru"
+  },
+  {
+   "start": 675.56,
+   "end": 677.16,
+   "text": "Do you need gas?",
+   "lang": "ru"
+  },
+  {
+   "start": 679.98,
+   "end": 681.6,
+   "text": "Do you need gas?",
+   "lang": "ru"
+  },
+  {
+   "start": 684.54,
+   "end": 688.06,
+   "text": "Дайте короткий утвердительный ответ на этот вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 690.64,
+   "end": 691.72,
+   "text": "Yes, I do.",
+   "lang": "en"
+  },
+  {
+   "start": 694.2,
+   "end": 695.76,
+   "text": "I need some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 699.92,
+   "end": 703.66,
+   "text": "Пожалуйста, дайте мне 15 галлонов бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 709.16,
+   "end": 712.28,
+   "text": "Please give me 15 gallons of gas.",
+   "lang": "en"
+  },
+  {
+   "start": 718.16,
+   "end": 719.34,
+   "text": "Этого достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 722.14,
+   "end": 723.26,
+   "text": "That's enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 725.96,
+   "end": 727.02,
+   "text": "That's enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 730.24,
+   "end": 732.66,
+   "text": "Now say, У нас маленькая машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 735.9,
+   "end": 737.72,
+   "text": "We have a small car.",
+   "lang": "ru"
+  },
+  {
+   "start": 741.7,
+   "end": 744.94,
+   "text": "Нам нужна машина побольше.",
+   "lang": "ru"
+  },
+  {
+   "start": 748.42,
+   "end": 750.2,
+   "text": "We need a bigger car.",
+   "lang": "en"
+  },
+  {
+   "start": 753.66,
+   "end": 755.38,
+   "text": "We need a bigger car.",
+   "lang": "en"
+  },
+  {
+   "start": 759.14,
+   "end": 762.24,
+   "text": "Но это дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 765.74,
+   "end": 767.12,
+   "text": "But it's more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 771.04,
+   "end": 772.24,
+   "text": "But it's more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 772.26,
+   "end": 778.86,
+   "text": "Ask. У вас большая семья?",
+   "lang": "ru"
+  },
+  {
+   "start": 782.74,
+   "end": 784.46,
+   "text": "Do you have a big family?",
+   "lang": "en"
+  },
+  {
+   "start": 787.82,
+   "end": 792.94,
+   "text": "Дайте короткий утвердительный ответ, используя слово мы.",
+   "lang": "ru"
+  },
+  {
+   "start": 795.62,
+   "end": 796.84,
+   "text": "Yes, we do.",
+   "lang": "en"
+  },
+  {
+   "start": 799.44,
+   "end": 800.86,
+   "text": "Да, мы делаем.",
+   "lang": "ru"
+  },
+  {
+   "start": 803.48,
+   "end": 805.82,
+   "text": "Сколько человек в вашей семье?",
+   "lang": "ru"
+  },
+  {
+   "start": 810.78,
+   "end": 813.88,
+   "text": "Как много людей в вашей семье?",
+   "lang": "ru"
+  },
+  {
+   "start": 819.08,
+   "end": 821.26,
+   "text": "В нашей семье шесть человек.",
+   "lang": "ru"
+  },
+  {
+   "start": 821.26,
+   "end": 828.78,
+   "text": "There are six people in our family.",
+   "lang": "ru"
+  },
+  {
+   "start": 833.76,
+   "end": 835.48,
+   "text": "Say, извините.",
+   "lang": "ru"
+  },
+  {
+   "start": 837.64,
+   "end": 838.9,
+   "text": "Excuse me.",
+   "lang": "ru"
+  },
+  {
+   "start": 841.34,
+   "end": 843.48,
+   "text": "Извините, по какой дороге?",
+   "lang": "ru"
+  },
+  {
+   "start": 848.2,
+   "end": 850.9,
+   "text": "Excuse me, which is the road?",
+   "lang": "ru"
+  },
+  {
+   "start": 855.88,
+   "end": 858.3,
+   "text": "Ask, куда вы собираетесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 861.3,
+   "end": 862.14,
+   "text": "Where are you going?",
+   "lang": "ru"
+  },
+  {
+   "start": 865.3,
+   "end": 867.46,
+   "text": "По какой дороге можно проехать на Long Island?",
+   "lang": "ru"
+  },
+  {
+   "start": 871.92,
+   "end": 873.94,
+   "text": "Which is the road to Long Island?",
+   "lang": "en"
+  },
+  {
+   "start": 878.38,
+   "end": 879.94,
+   "text": "Это дорога на Long Island.",
+   "lang": "ru"
+  },
+  {
+   "start": 883.98,
+   "end": 886.32,
+   "text": "Is this the road to Long Island?",
+   "lang": "en"
+  },
+  {
+   "start": 890.54,
+   "end": 891.28,
+   "text": "This.",
+   "lang": "en"
+  },
+  {
+   "start": 893.28,
+   "end": 894.5,
+   "text": "Is this?",
+   "lang": "en"
+  },
+  {
+   "start": 896.7,
+   "end": 897.44,
+   "text": "Is this?",
+   "lang": "en"
+  },
+  {
+   "start": 897.46,
+   "end": 899.1,
+   "text": "Is this the road to Long Island?",
+   "lang": "ru"
+  },
+  {
+   "start": 903.3,
+   "end": 905.66,
+   "text": "Say, да, это прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 909.58,
+   "end": 911.46,
+   "text": "Yes, it's straight ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 915.32,
+   "end": 916.6,
+   "text": "Это направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 916.6,
+   "end": 917.88,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 918.34,
+   "end": 919.76,
+   "text": "It's to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 922.84,
+   "end": 923.52,
+   "text": "Right.",
+   "lang": "ru"
+  },
+  {
+   "start": 925.44,
+   "end": 926.12,
+   "text": "Right.",
+   "lang": "ru"
+  },
+  {
+   "start": 928.12,
+   "end": 929.1,
+   "text": "The right.",
+   "lang": "ru"
+  },
+  {
+   "start": 931.02,
+   "end": 932.26,
+   "text": "To the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 934.76,
+   "end": 936.08,
+   "text": "It's to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 939.1,
+   "end": 939.98,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 940.32,
+   "end": 941.42,
+   "text": "Это направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 944.0,
+   "end": 945.36,
+   "text": "It's to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 948.04,
+   "end": 948.66,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 948.9,
+   "end": 949.94,
+   "text": "Это не прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 949.94,
+   "end": 950.12,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 953.44,
+   "end": 954.88,
+   "text": "It's not straight ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 954.88,
+   "end": 955.16,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 958.36,
+   "end": 960.02,
+   "text": "It's not straight ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 963.52,
+   "end": 964.9,
+   "text": "Поезжайте направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 964.9,
+   "end": 966.08,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 967.06,
+   "end": 967.82,
+   "text": "Go to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 970.94,
+   "end": 971.12,
+   "text": "Go.",
+   "lang": "ru"
+  },
+  {
+   "start": 972.9,
+   "end": 973.66,
+   "text": "Go.",
+   "lang": "ru"
+  },
+  {
+   "start": 975.38,
+   "end": 976.84,
+   "text": "Go to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 980.04,
+   "end": 981.56,
+   "text": "Say, поезжайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 983.1,
+   "end": 983.86,
+   "text": "Go.",
+   "lang": "ru"
+  },
+  {
+   "start": 983.86,
+   "end": 984.02,
+   "text": "Go.",
+   "lang": "ru"
+  },
+  {
+   "start": 985.78,
+   "end": 989.5,
+   "text": "Помните, как сказать «Я собираюсь на Лонг-Айленд»?",
+   "lang": "ru"
+  },
+  {
+   "start": 992.66,
+   "end": 994.82,
+   "text": "I'm going to Long Island.",
+   "lang": "ru"
+  },
+  {
+   "start": 998.2,
+   "end": 999.08,
+   "text": "Going.",
+   "lang": "ru"
+  },
+  {
+   "start": 1000.66,
+   "end": 1008.04,
+   "text": "В английском языке слово go может быть использовано для обозначения различных видов движения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1008.74,
+   "end": 1010.1,
+   "text": "Сейчас скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.22,
+   "end": 1011.52,
+   "text": "Поезжайте направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1014.04,
+   "end": 1015.46,
+   "text": "Go to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 1018.44,
+   "end": 1021.26,
+   "text": "Помните, как сказать «вы хотите».",
+   "lang": "ru"
+  },
+  {
+   "start": 1023.46,
+   "end": 1024.42,
+   "text": "You want.",
+   "lang": "ru"
+  },
+  {
+   "start": 1027.28,
+   "end": 1029.42,
+   "text": "Дорога, которую вы хотите найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 1029.74,
+   "end": 1030.9,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1031.9,
+   "end": 1032.88,
+   "text": "The road you want.",
+   "lang": "ru"
+  },
+  {
+   "start": 1036.08,
+   "end": 1037.1,
+   "text": "You want.",
+   "lang": "ru"
+  },
+  {
+   "start": 1039.32,
+   "end": 1040.92,
+   "text": "The road you want.",
+   "lang": "ru"
+  },
+  {
+   "start": 1044.7,
+   "end": 1055.42,
+   "text": "Say. Дорога, которую вы хотите найти, обратите внимание, что по-английски слова «которую» и «найти» в данном случае не произносятся.",
+   "lang": "ru"
+  },
+  {
+   "start": 1058.48,
+   "end": 1060.18,
+   "text": "The road you want.",
+   "lang": "ru"
+  },
+  {
+   "start": 1063.46,
+   "end": 1068.4,
+   "text": "Try to say. Дорога, которую вы хотите найти, направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1068.4,
+   "end": 1075.26,
+   "text": "The road you want is to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 1079.9,
+   "end": 1080.54,
+   "text": "Ask",
+   "lang": "ru"
+  },
+  {
+   "start": 1080.54,
+   "end": 1081.72,
+   "text": "Направо?",
+   "lang": "ru"
+  },
+  {
+   "start": 1083.66,
+   "end": 1084.82,
+   "text": "To the right?",
+   "lang": "ru"
+  },
+  {
+   "start": 1087.4,
+   "end": 1087.8,
+   "text": "Или прямо?",
+   "lang": "ru"
+  },
+  {
+   "start": 1091.0,
+   "end": 1092.4,
+   "text": "Or straight ahead?",
+   "lang": "ru"
+  },
+  {
+   "start": 1092.4,
+   "end": 1092.64,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 1095.92,
+   "end": 1096.86,
+   "text": "Поезжайте прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1099.74,
+   "end": 1101.14,
+   "text": "Go straight ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1101.14,
+   "end": 1101.36,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 1104.26,
+   "end": 1104.94,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1105.24,
+   "end": 1105.92,
+   "text": "Правда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1107.58,
+   "end": 1108.26,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 1110.28,
+   "end": 1110.96,
+   "text": "Подождите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1112.58,
+   "end": 1113.26,
+   "text": "Wait.",
+   "lang": "ru"
+  },
+  {
+   "start": 1114.98,
+   "end": 1115.66,
+   "text": "Wait.",
+   "lang": "ru"
+  },
+  {
+   "start": 1117.72,
+   "end": 1120.64,
+   "text": "Дорога, которую вы хотите найти, налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 1120.68,
+   "end": 1122.0,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1122.36,
+   "end": 1124.86,
+   "text": "The road you want is to the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1129.68,
+   "end": 1130.28,
+   "text": "Left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1132.32,
+   "end": 1132.92,
+   "text": "Left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1134.84,
+   "end": 1136.12,
+   "text": "To the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1138.96,
+   "end": 1139.56,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1140.26,
+   "end": 1140.86,
+   "text": "Налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 1143.5,
+   "end": 1144.72,
+   "text": "To the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1144.9,
+   "end": 1146.96,
+   "text": "To the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1147.44,
+   "end": 1149.96,
+   "text": "The road you want is to the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1154.58,
+   "end": 1155.72,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.72,
+   "end": 1158.58,
+   "text": "Дорога, которую я хочу найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 1158.58,
+   "end": 1163.6,
+   "text": "you the road i want",
+   "lang": "en"
+  },
+  {
+   "start": 1167.38,
+   "end": 1173.94,
+   "text": "Налево ли дорога, которую я хочу найти? Обратите внимание на порядок слов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1173.94,
+   "end": 1181.44,
+   "text": "love. Is the road I want to the left?",
+   "lang": "en"
+  },
+  {
+   "start": 1186.12,
+   "end": 1188.94,
+   "text": "Is the road I want to the left?",
+   "lang": "ru"
+  },
+  {
+   "start": 1193.84,
+   "end": 1196.46,
+   "text": "Answer. Нет, это прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1196.46,
+   "end": 1196.6,
+   "text": "Yama?",
+   "lang": "en"
+  },
+  {
+   "start": 1200.62,
+   "end": 1202.58,
+   "text": "No, it's straight ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1202.58,
+   "end": 1202.8,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 1206.66,
+   "end": 1208.72,
+   "text": "Say. Не налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 1211.16,
+   "end": 1212.64,
+   "text": "Not to the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1215.38,
+   "end": 1216.58,
+   "text": "Not to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 1218.94,
+   "end": 1220.14,
+   "text": "Now say",
+   "lang": "ru"
+  },
+  {
+   "start": 1220.14,
+   "end": 1226.06,
+   "text": "Go to the left",
+   "lang": "ru"
+  },
+  {
+   "start": 1228.86,
+   "end": 1230.3,
+   "text": "Go to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 1233.2,
+   "end": 1235.42,
+   "text": "Это дорога, которую вы хотите найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 1239.24,
+   "end": 1240.68,
+   "text": "That's the road you want.",
+   "lang": "ru"
+  },
+  {
+   "start": 1244.44,
+   "end": 1246.58,
+   "text": "Поезжайте налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 1249.14,
+   "end": 1250.62,
+   "text": "Go to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 1253.32,
+   "end": 1254.8,
+   "text": "Go to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 1257.64,
+   "end": 1259.34,
+   "text": "Поезжайте направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1261.94,
+   "end": 1262.98,
+   "text": "Go to the right.",
+   "lang": "en"
+  },
+  {
+   "start": 1263.62,
+   "end": 1266.78,
+   "text": "А потом прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1266.78,
+   "end": 1268.34,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1268.84,
+   "end": 1270.62,
+   "text": "And then straight ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1274.54,
+   "end": 1275.18,
+   "text": "Then.",
+   "lang": "ru"
+  },
+  {
+   "start": 1276.96,
+   "end": 1277.6,
+   "text": "Then.",
+   "lang": "ru"
+  },
+  {
+   "start": 1279.62,
+   "end": 1280.26,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.44,
+   "end": 1281.18,
+   "text": "А потом?",
+   "lang": "ru"
+  },
+  {
+   "start": 1283.14,
+   "end": 1284.08,
+   "text": "And then?",
+   "lang": "ru"
+  },
+  {
+   "start": 1286.14,
+   "end": 1286.78,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1286.9,
+   "end": 1288.1,
+   "text": "А потом прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1292.14,
+   "end": 1293.96,
+   "text": "And then straight ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1293.96,
+   "end": 1294.16,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 1297.82,
+   "end": 1299.8,
+   "text": "Это дорога на Лонг-Айленд.",
+   "lang": "ru"
+  },
+  {
+   "start": 1304.28,
+   "end": 1306.08,
+   "text": "That's the road to Long Island.",
+   "lang": "en"
+  },
+  {
+   "start": 1310.14,
+   "end": 1313.28,
+   "text": "Помните, как спросить, далеко ли это?",
+   "lang": "ru"
+  },
+  {
+   "start": 1316.04,
+   "end": 1317.84,
+   "text": "How far is it?",
+   "lang": "en"
+  },
+  {
+   "start": 1320.5,
+   "end": 1322.32,
+   "text": "How far is it?",
+   "lang": "en"
+  },
+  {
+   "start": 1325.18,
+   "end": 1327.7,
+   "text": "Скажите, шестьдесят семь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1334.82,
+   "end": 1335.82,
+   "text": "Семьдесят пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1339.0,
+   "end": 1339.88,
+   "text": "Семьдесят пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1343.4,
+   "end": 1346.18,
+   "text": "А сейчас скажите, это семьдесят миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 1349.34,
+   "end": 1350.8,
+   "text": "It's seventy miles.",
+   "lang": "ru"
+  },
+  {
+   "start": 1354.22,
+   "end": 1356.28,
+   "text": "Say that you need some gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.4,
+   "end": 1358.78,
+   "text": "Say that you need some gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 1362.64,
+   "end": 1364.02,
+   "text": "I need some gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 1367.68,
+   "end": 1369.3,
+   "text": "I need some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1369.98,
+   "end": 1376.58,
+   "text": "Say. Пожалуйста, дайте мне 10 галлонов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1380.26,
+   "end": 1382.34,
+   "text": "Please give me 10 gallons.",
+   "lang": "ru"
+  },
+  {
+   "start": 1382.34,
+   "end": 1385.08,
+   "text": "Transcription by CastingWords",
+   "lang": "en"
+  },
+  {
+   "start": 1386.62,
+   "end": 1388.52,
+   "text": "Спросите, сколько вы мне должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 1388.52,
+   "end": 1393.32,
+   "text": "How much do I owe you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1396.26,
+   "end": 1398.14,
+   "text": "Один доллар за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1401.12,
+   "end": 1402.94,
+   "text": "One dollar per gallon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1406.58,
+   "end": 1407.12,
+   "text": "Per gallon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1409.7,
+   "end": 1410.52,
+   "text": "Это десять долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1410.52,
+   "end": 1410.68,
+   "text": "dollars.",
+   "lang": "en"
+  },
+  {
+   "start": 1413.66,
+   "end": 1415.14,
+   "text": "That's ten dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1418.52,
+   "end": 1421.08,
+   "text": "Что он скажет, давая вам 10 долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1424.0,
+   "end": 1426.44,
+   "text": "Here. Here's 10 dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1429.48,
+   "end": 1433.02,
+   "text": "Try to say, мне нужна машина поменьше.",
+   "lang": "ru"
+  },
+  {
+   "start": 1436.6,
+   "end": 1438.78,
+   "text": "I need a smaller car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1442.5,
+   "end": 1444.72,
+   "text": "I need a smaller car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1444.72,
+   "end": 1444.94,
+   "text": "car.",
+   "lang": "en"
+  },
+  {
+   "start": 1448.88,
+   "end": 1451.34,
+   "text": "Ask if this is the road to Long Island.",
+   "lang": "ru"
+  },
+  {
+   "start": 1456.0,
+   "end": 1458.2,
+   "text": "Is this the road to Long Island?",
+   "lang": "ru"
+  },
+  {
+   "start": 1463.36,
+   "end": 1465.82,
+   "text": "Дорога, которую вы хотите найти...",
+   "lang": "ru"
+  },
+  {
+   "start": 1468.5,
+   "end": 1470.08,
+   "text": "The road you want...",
+   "lang": "ru"
+  },
+  {
+   "start": 1473.14,
+   "end": 1476.24,
+   "text": "Дорога, которую вы хотите найти направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1480.62,
+   "end": 1482.82,
+   "text": "The road you want is to the right.",
+   "lang": "en"
+  },
+  {
+   "start": 1486.84,
+   "end": 1489.12,
+   "text": "Поезжайте направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1491.84,
+   "end": 1493.04,
+   "text": "Go to the right.",
+   "lang": "en"
+  },
+  {
+   "start": 1495.86,
+   "end": 1497.14,
+   "text": "Go to the right.",
+   "lang": "en"
+  },
+  {
+   "start": 1498.8,
+   "end": 1501.6,
+   "text": "Потом налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 1504.84,
+   "end": 1506.5,
+   "text": "Then, to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 1509.7,
+   "end": 1511.58,
+   "text": "Then to the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1514.68,
+   "end": 1518.3,
+   "text": "How do you say, подождите, я не понимаю?",
+   "lang": "ru"
+  },
+  {
+   "start": 1522.92,
+   "end": 1524.96,
+   "text": "Wait, I don't understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 1529.94,
+   "end": 1532.2,
+   "text": "По какой дороге можно проехать на Лонг-Айленд?",
+   "lang": "ru"
+  },
+  {
+   "start": 1536.9,
+   "end": 1539.26,
+   "text": "Which is the road to Long Island?",
+   "lang": "ru"
+  },
+  {
+   "start": 1544.12,
+   "end": 1546.42,
+   "text": "Which is the road to Long Island?",
+   "lang": "en"
+  },
+  {
+   "start": 1551.18,
+   "end": 1552.9,
+   "text": "Это дорога на Long Island.",
+   "lang": "ru"
+  },
+  {
+   "start": 1557.56,
+   "end": 1559.9,
+   "text": "Is this the road to Long Island?",
+   "lang": "ru"
+  },
+  {
+   "start": 1564.98,
+   "end": 1567.48,
+   "text": "Нет, дорога, которую вы хотите найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 1571.64,
+   "end": 1573.98,
+   "text": "No, the road you want...",
+   "lang": "en"
+  },
+  {
+   "start": 1577.74,
+   "end": 1579.92,
+   "text": "The road you want is over there.",
+   "lang": "en"
+  },
+  {
+   "start": 1584.4,
+   "end": 1585.98,
+   "text": "Ask how far it is.",
+   "lang": "ru"
+  },
+  {
+   "start": 1588.86,
+   "end": 1590.52,
+   "text": "How far is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1593.22,
+   "end": 1595.1,
+   "text": "How far is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1598.1,
+   "end": 1599.66,
+   "text": "Поезжайте направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1602.0,
+   "end": 1603.66,
+   "text": "Go to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 1606.26,
+   "end": 1607.46,
+   "text": "Одна миля.",
+   "lang": "ru"
+  },
+  {
+   "start": 1609.2,
+   "end": 1610.32,
+   "text": "One mile.",
+   "lang": "ru"
+  },
+  {
+   "start": 1612.3,
+   "end": 1614.44,
+   "text": "Потом поезжайте налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 1617.5,
+   "end": 1619.3,
+   "text": "Then go to the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 1622.38,
+   "end": 1624.54,
+   "text": "А потом 20 миль прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1629.52,
+   "end": 1632.56,
+   "text": "And then 20 miles straight ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1637.74,
+   "end": 1639.42,
+   "text": "Лонг-Айленд недалеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 1642.6,
+   "end": 1644.26,
+   "text": "Long Island isn't far.",
+   "lang": "en"
+  },
+  {
+   "start": 1647.66,
+   "end": 1648.7,
+   "text": "Сколько миль?",
+   "lang": "ru"
+  },
+  {
+   "start": 1651.28,
+   "end": 1652.58,
+   "text": "How many miles?",
+   "lang": "en"
+  },
+  {
+   "start": 1655.32,
+   "end": 1657.16,
+   "text": "How many miles is it?",
+   "lang": "en"
+  },
+  {
+   "start": 1659.4,
+   "end": 1661.64,
+   "text": "Это 25 миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 1664.44,
+   "end": 1666.18,
+   "text": "It's 20...",
+   "lang": "en"
+  },
+  {
+   "start": 1666.28,
+   "end": 1676.3,
+   "text": "Say, мне нужен бензин. Или дословно, мне нужно немного бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1679.32,
+   "end": 1680.74,
+   "text": "I need some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1684.08,
+   "end": 1685.22,
+   "text": "Some gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 1688.44,
+   "end": 1689.74,
+   "text": "Бензин дорогой?",
+   "lang": "ru"
+  },
+  {
+   "start": 1693.18,
+   "end": 1694.88,
+   "text": "Is gas expensive?",
+   "lang": "ru"
+  },
+  {
+   "start": 1694.88,
+   "end": 1695.18,
+   "text": "Expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 1698.9,
+   "end": 1701.06,
+   "text": "Нет, один доллар за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1705.72,
+   "end": 1708.36,
+   "text": "No, it's one dollar per gallon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1712.84,
+   "end": 1714.98,
+   "text": "И у вас маленькая машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1719.06,
+   "end": 1720.86,
+   "text": "And you have a small car.",
+   "lang": "en"
+  },
+  {
+   "start": 1724.92,
+   "end": 1728.14,
+   "text": "Тогда я хотел бы 12 галлонов бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1734.16,
+   "end": 1737.2,
+   "text": "Then I'd like 12 gallons of gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1743.44,
+   "end": 1747.0,
+   "text": "Но по какой дороге можно проехать на Лонг-Айленд?",
+   "lang": "ru"
+  },
+  {
+   "start": 1752.06,
+   "end": 1754.66,
+   "text": "But which is the road to Long Island?",
+   "lang": "en"
+  },
+  {
+   "start": 1759.96,
+   "end": 1761.7,
+   "text": "Налево или направо?",
+   "lang": "ru"
+  },
+  {
+   "start": 1766.2,
+   "end": 1768.32,
+   "text": "To the left or to the right?",
+   "lang": "en"
+  },
+  {
+   "start": 1772.2,
+   "end": 1773.8,
+   "text": "Или прямо?",
+   "lang": "ru"
+  },
+  {
+   "start": 1776.4,
+   "end": 1777.96,
+   "text": "or straight ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1779.88,
+   "end": 1782.98,
+   "text": "Я не знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1785.32,
+   "end": 1786.2,
+   "text": "I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 1786.84,
+   "end": 1789.94,
+   "text": "До свидания, сэр.",
+   "lang": "ru"
+  },
+  {
+   "start": 1792.08,
+   "end": 1792.88,
+   "text": "Goodbye, sir.",
+   "lang": "en"
+  },
+  {
+   "start": 1794.18,
+   "end": 1797.46,
+   "text": "Урок 24 окончен.",
+   "lang": "ru"
+  }
+ ]
+}

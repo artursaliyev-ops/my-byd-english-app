@@ -1,0 +1,2343 @@
+{
+ "id": "I_18",
+ "source": "Pimsleur_I_18.mp3",
+ "duration": 1786.93,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 131,
+ "segments": [
+  {
+   "start": 2.68,
+   "end": 8.44,
+   "text": "Американский английский язык по методу доктора Пимпслера. Урок номер восемнадцать.",
+   "lang": "ru"
+  },
+  {
+   "start": 8.98,
+   "end": 10.04,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 10.44,
+   "end": 12.72,
+   "text": "Mr. and Mrs. Vasiliev are in America.",
+   "lang": "en"
+  },
+  {
+   "start": 12.92,
+   "end": 14.46,
+   "text": "She wants to buy a book.",
+   "lang": "en"
+  },
+  {
+   "start": 14.62,
+   "end": 17.14,
+   "text": "She wants to buy a book.",
+   "lang": "en"
+  },
+  {
+   "start": 17.4,
+   "end": 17.92,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 18.26,
+   "end": 18.78,
+   "text": "Vladimir.",
+   "lang": "en"
+  },
+  {
+   "start": 19.08,
+   "end": 20.64,
+   "text": "Yes, what do you want?",
+   "lang": "en"
+  },
+  {
+   "start": 20.9,
+   "end": 22.72,
+   "text": "I'm going to buy something, Vladimir.",
+   "lang": "en"
+  },
+  {
+   "start": 23.16,
+   "end": 24.82,
+   "text": "Oh, what are you going to buy?",
+   "lang": "en"
+  },
+  {
+   "start": 25.14,
+   "end": 25.66,
+   "text": "A book.",
+   "lang": "en"
+  },
+  {
+   "start": 25.82,
+   "end": 27.18,
+   "text": "I'm going to buy a book.",
+   "lang": "en"
+  },
+  {
+   "start": 27.4,
+   "end": 28.8,
+   "text": "And how much is the book?",
+   "lang": "en"
+  },
+  {
+   "start": 29.12,
+   "end": 30.34,
+   "text": "It's not very expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 30.82,
+   "end": 31.66,
+   "text": "Twenty dollars?",
+   "lang": "en"
+  },
+  {
+   "start": 32.0,
+   "end": 32.82,
+   "text": "Twenty dollars.",
+   "lang": "en"
+  },
+  {
+   "start": 33.06,
+   "end": 34.26,
+   "text": "That's not too much.",
+   "lang": "en"
+  },
+  {
+   "start": 34.52,
+   "end": 36.12,
+   "text": "Then please give me some money.",
+   "lang": "en"
+  },
+  {
+   "start": 36.46,
+   "end": 36.98,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 38.74,
+   "end": 39.8,
+   "text": "Is that enough?",
+   "lang": "en"
+  },
+  {
+   "start": 40.12,
+   "end": 41.08,
+   "text": "Yes, that's enough.",
+   "lang": "en"
+  },
+  {
+   "start": 41.28,
+   "end": 42.48,
+   "text": "I have some money, too.",
+   "lang": "en"
+  },
+  {
+   "start": 42.82,
+   "end": 43.58,
+   "text": "Thanks, Vladimir.",
+   "lang": "en"
+  },
+  {
+   "start": 44.0,
+   "end": 45.46,
+   "text": "I'm going to buy the book now.",
+   "lang": "en"
+  },
+  {
+   "start": 45.62,
+   "end": 45.98,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 46.36,
+   "end": 46.8,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 47.54,
+   "end": 48.3,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 49.06,
+   "end": 49.5,
+   "text": "Vladimir!",
+   "lang": "en"
+  },
+  {
+   "start": 50.0,
+   "end": 51.38,
+   "text": "Yes, what do you want?",
+   "lang": "en"
+  },
+  {
+   "start": 51.68,
+   "end": 53.56,
+   "text": "I'm going to buy something, Vladimir.",
+   "lang": "en"
+  },
+  {
+   "start": 54.04,
+   "end": 55.56,
+   "text": "Oh, what are you going to buy?",
+   "lang": "en"
+  },
+  {
+   "start": 55.84,
+   "end": 56.46,
+   "text": "A book.",
+   "lang": "en"
+  },
+  {
+   "start": 56.64,
+   "end": 57.98,
+   "text": "I'm going to buy a book.",
+   "lang": "en"
+  },
+  {
+   "start": 58.58,
+   "end": 59.68,
+   "text": "And how much is the book?",
+   "lang": "ru"
+  },
+  {
+   "start": 59.92,
+   "end": 62.42,
+   "text": "It's not very expensive. Twenty dollars?",
+   "lang": "ru"
+  },
+  {
+   "start": 62.78,
+   "end": 64.92,
+   "text": "Twenty dollars. That's not too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 65.12,
+   "end": 66.7,
+   "text": "Then please give me some money.",
+   "lang": "ru"
+  },
+  {
+   "start": 66.98,
+   "end": 69.96,
+   "text": "Okay. Here's fifteen dollars. Is that enough?",
+   "lang": "ru"
+  },
+  {
+   "start": 70.28,
+   "end": 72.96,
+   "text": "Yes, that's enough. I have some money too.",
+   "lang": "ru"
+  },
+  {
+   "start": 73.28,
+   "end": 76.6,
+   "text": "Thanks, Vladimir. I'm going to buy the book now. Goodbye.",
+   "lang": "ru"
+  },
+  {
+   "start": 76.98,
+   "end": 77.46,
+   "text": "Goodbye.",
+   "lang": "ru"
+  },
+  {
+   "start": 78.34,
+   "end": 81.7,
+   "text": "Помните, как будет по-английски число пятьдесят?",
+   "lang": "ru"
+  },
+  {
+   "start": 83.54,
+   "end": 84.1,
+   "text": "Fifty.",
+   "lang": "ru"
+  },
+  {
+   "start": 85.92,
+   "end": 86.48,
+   "text": "Fifty.",
+   "lang": "ru"
+  },
+  {
+   "start": 86.48,
+   "end": 89.9,
+   "text": "А как сказать 60?",
+   "lang": "ru"
+  },
+  {
+   "start": 97.42,
+   "end": 98.84,
+   "text": "Тридцать пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 100.56,
+   "end": 101.98,
+   "text": "Тридцать пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 107.84,
+   "end": 109.28,
+   "text": "Скажите двадцать пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.82,
+   "end": 116.5,
+   "text": "Двадцать восемь.",
+   "lang": "ru"
+  },
+  {
+   "start": 117.94,
+   "end": 119.36,
+   "text": "Двадцать восемь.",
+   "lang": "ru"
+  },
+  {
+   "start": 124.38,
+   "end": 126.56,
+   "text": "Скажите, это недорого?",
+   "lang": "ru"
+  },
+  {
+   "start": 129.16,
+   "end": 130.5,
+   "text": "It's not expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 133.34,
+   "end": 134.68,
+   "text": "It's not expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 137.58,
+   "end": 138.82,
+   "text": "Возразите ему.",
+   "lang": "ru"
+  },
+  {
+   "start": 141.98,
+   "end": 143.4,
+   "text": "Yes, it's expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 146.7,
+   "end": 148.18,
+   "text": "Yes, it's expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 151.5,
+   "end": 155.22,
+   "text": "Как бы вы сказали ей, что она говорит слишком быстро?",
+   "lang": "ru"
+  },
+  {
+   "start": 158.22,
+   "end": 159.88,
+   "text": "You speak too fast.",
+   "lang": "en"
+  },
+  {
+   "start": 163.56,
+   "end": 165.96,
+   "text": "Скажите ей, что вы не понимаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 168.34,
+   "end": 169.86,
+   "text": "I don't understand.",
+   "lang": "en"
+  },
+  {
+   "start": 173.4,
+   "end": 175.72,
+   "text": "Спросите, достаточно ли у меня денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 178.1,
+   "end": 180.16,
+   "text": "Do you have enough money?",
+   "lang": "en"
+  },
+  {
+   "start": 182.86,
+   "end": 184.52,
+   "text": "Do you have enough money?",
+   "lang": "en"
+  },
+  {
+   "start": 187.82,
+   "end": 189.48,
+   "text": "Скажите, тридцать один.",
+   "lang": "ru"
+  },
+  {
+   "start": 194.92,
+   "end": 198.88,
+   "text": "Сейчас скажите ей, что у вас есть сорок один доллар.",
+   "lang": "ru"
+  },
+  {
+   "start": 202.24,
+   "end": 204.22,
+   "text": "I have $41.",
+   "lang": "en"
+  },
+  {
+   "start": 210.9,
+   "end": 214.1,
+   "text": "Как спросить, это слишком много?",
+   "lang": "ru"
+  },
+  {
+   "start": 216.88,
+   "end": 218.36,
+   "text": "Is that too much?",
+   "lang": "en"
+  },
+  {
+   "start": 221.06,
+   "end": 227.28,
+   "text": "Нет, но этого достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 230.74,
+   "end": 232.34,
+   "text": "No, but that's enough.",
+   "lang": "en"
+  },
+  {
+   "start": 233.52,
+   "end": 238.74,
+   "text": "А вы помните, как сказать «это недорого»?",
+   "lang": "ru"
+  },
+  {
+   "start": 241.48,
+   "end": 242.6,
+   "text": "It's not expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 243.86,
+   "end": 250.8,
+   "text": "Вы не согласны с ней. Скажите «да, это дорого».",
+   "lang": "ru"
+  },
+  {
+   "start": 253.66,
+   "end": 255.3,
+   "text": "Yes, it's expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 258.7,
+   "end": 260.82,
+   "text": "Yes, it is expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 264.28,
+   "end": 268.42,
+   "text": "Сейчас скажите, это не слишком дорого?",
+   "lang": "ru"
+  },
+  {
+   "start": 271.98,
+   "end": 273.66,
+   "text": "It's not too expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 277.44,
+   "end": 279.08,
+   "text": "It's not too expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 282.62,
+   "end": 286.94,
+   "text": "Сейчас он говорит. Здесь это дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 288.98,
+   "end": 289.54,
+   "text": "Дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 289.68,
+   "end": 291.1,
+   "text": "More expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 293.72,
+   "end": 300.28,
+   "text": "More. More. More expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 303.22,
+   "end": 309.28,
+   "text": "Обратите внимание, что по-английски дороже обозначается двумя словами.",
+   "lang": "ru"
+  },
+  {
+   "start": 310.1,
+   "end": 313.7,
+   "text": "Более дорого. Скажите, это дороже?",
+   "lang": "ru"
+  },
+  {
+   "start": 317.08,
+   "end": 318.0,
+   "text": "It's more expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 318.0,
+   "end": 318.34,
+   "text": "Offensive.",
+   "lang": "en"
+  },
+  {
+   "start": 321.46,
+   "end": 324.26,
+   "text": "Скажите, здесь это дороже?",
+   "lang": "ru"
+  },
+  {
+   "start": 327.48,
+   "end": 329.36,
+   "text": "Here it's more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 332.9,
+   "end": 334.78,
+   "text": "Here it's more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 338.64,
+   "end": 341.3,
+   "text": "Спросите, достаточно ли у меня денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 344.42,
+   "end": 345.98,
+   "text": "Do you have enough money?",
+   "lang": "en"
+  },
+  {
+   "start": 349.16,
+   "end": 352.26,
+   "text": "Скажите, вы говорите очень быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 355.4,
+   "end": 357.24,
+   "text": "You speak very fast.",
+   "lang": "en"
+  },
+  {
+   "start": 360.26,
+   "end": 363.34,
+   "text": "Вы говорите по-английски слишком быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 367.34,
+   "end": 369.7,
+   "text": "You speak English too fast.",
+   "lang": "en"
+  },
+  {
+   "start": 373.76,
+   "end": 376.08,
+   "text": "Здесь это дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 379.5,
+   "end": 381.42,
+   "text": "Here it's more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 385.22,
+   "end": 387.26,
+   "text": "Скажите пятьдесят.",
+   "lang": "ru"
+  },
+  {
+   "start": 393.88,
+   "end": 395.28,
+   "text": "Сорок пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 400.08,
+   "end": 401.0,
+   "text": "65",
+   "lang": "ru"
+  },
+  {
+   "start": 404.12,
+   "end": 405.04,
+   "text": "65",
+   "lang": "ru"
+  },
+  {
+   "start": 408.04,
+   "end": 408.96,
+   "text": "60",
+   "lang": "ru"
+  },
+  {
+   "start": 411.02,
+   "end": 411.94,
+   "text": "65",
+   "lang": "ru"
+  },
+  {
+   "start": 415.02,
+   "end": 417.28,
+   "text": "Спросите, сколько это стоит?",
+   "lang": "ru"
+  },
+  {
+   "start": 419.44,
+   "end": 421.02,
+   "text": "How much is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 423.8,
+   "end": 424.64,
+   "text": "How much is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 426.18,
+   "end": 430.36,
+   "text": "Как ей ответить? 53 доллара.",
+   "lang": "ru"
+  },
+  {
+   "start": 437.36,
+   "end": 439.4,
+   "text": "It's $53.",
+   "lang": "en"
+  },
+  {
+   "start": 442.86,
+   "end": 445.84,
+   "text": "Спросите, это слишком дорого?",
+   "lang": "ru"
+  },
+  {
+   "start": 448.44,
+   "end": 450.72,
+   "text": "Is that too expensive?",
+   "lang": "ru"
+  },
+  {
+   "start": 454.78,
+   "end": 456.62,
+   "text": "Сейчас скажите 62.",
+   "lang": "ru"
+  },
+  {
+   "start": 459.26,
+   "end": 460.5,
+   "text": "62.",
+   "lang": "ru"
+  },
+  {
+   "start": 463.58,
+   "end": 466.02,
+   "text": "Как сказать «Это не очень дорого»?",
+   "lang": "ru"
+  },
+  {
+   "start": 468.66,
+   "end": 470.84,
+   "text": "It's not very expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 474.86,
+   "end": 479.44,
+   "text": "Возразите ей. Скажите, да, это очень дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 483.22,
+   "end": 485.0,
+   "text": "Yes, it's very expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 488.82,
+   "end": 492.58,
+   "text": "А сейчас скажите, это слишком дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 495.3,
+   "end": 496.78,
+   "text": "It's too expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 499.92,
+   "end": 501.4,
+   "text": "It's too expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 505.06,
+   "end": 508.1,
+   "text": "Представьте, что вы видите незнакомого человека.",
+   "lang": "ru"
+  },
+  {
+   "start": 509.04,
+   "end": 510.76,
+   "text": "Вы хотите спросить, кто это?",
+   "lang": "ru"
+  },
+  {
+   "start": 510.76,
+   "end": 513.42,
+   "text": "Listen and repeat. Who is that?",
+   "lang": "en"
+  },
+  {
+   "start": 515.44,
+   "end": 515.96,
+   "text": "Who?",
+   "lang": "en"
+  },
+  {
+   "start": 517.46,
+   "end": 517.98,
+   "text": "Who?",
+   "lang": "en"
+  },
+  {
+   "start": 519.5,
+   "end": 520.44,
+   "text": "Who is that?",
+   "lang": "en"
+  },
+  {
+   "start": 523.06,
+   "end": 525.4,
+   "text": "Спросите еще раз, кто это?",
+   "lang": "ru"
+  },
+  {
+   "start": 527.66,
+   "end": 528.58,
+   "text": "Who is that?",
+   "lang": "en"
+  },
+  {
+   "start": 530.84,
+   "end": 532.0,
+   "text": "Who's that?",
+   "lang": "ru"
+  },
+  {
+   "start": 534.58,
+   "end": 535.34,
+   "text": "Who's?",
+   "lang": "ru"
+  },
+  {
+   "start": 537.24,
+   "end": 540.72,
+   "text": "Обратите внимание, что выражение Who is?",
+   "lang": "ru"
+  },
+  {
+   "start": 541.1,
+   "end": 544.08,
+   "text": "также может употребляться в сокращенной форме.",
+   "lang": "ru"
+  },
+  {
+   "start": 544.4,
+   "end": 548.42,
+   "text": "Спросите меня еще раз, кто это, используя сокращение?",
+   "lang": "ru"
+  },
+  {
+   "start": 550.28,
+   "end": 551.3,
+   "text": "Who's that?",
+   "lang": "ru"
+  },
+  {
+   "start": 553.64,
+   "end": 554.12,
+   "text": "Who's that?",
+   "lang": "ru"
+  },
+  {
+   "start": 556.1,
+   "end": 557.34,
+   "text": "Это мой муж.",
+   "lang": "ru"
+  },
+  {
+   "start": 557.54,
+   "end": 558.72,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 559.74,
+   "end": 560.4,
+   "text": "That's my husband.",
+   "lang": "ru"
+  },
+  {
+   "start": 562.54,
+   "end": 563.94,
+   "text": "husband",
+   "lang": "en"
+  },
+  {
+   "start": 566.02,
+   "end": 567.42,
+   "text": "my",
+   "lang": "en"
+  },
+  {
+   "start": 571.14,
+   "end": 572.54,
+   "text": "husband",
+   "lang": "en"
+  },
+  {
+   "start": 578.76,
+   "end": 582.34,
+   "text": "Как сказать муж?",
+   "lang": "ru"
+  },
+  {
+   "start": 584.04,
+   "end": 585.44,
+   "text": "Husband",
+   "lang": "en"
+  },
+  {
+   "start": 586.94,
+   "end": 588.34,
+   "text": "Husband",
+   "lang": "en"
+  },
+  {
+   "start": 588.64,
+   "end": 592.0,
+   "text": "А как сказать мой?",
+   "lang": "ru"
+  },
+  {
+   "start": 592.0,
+   "end": 595.92,
+   "text": "my my",
+   "lang": "en"
+  },
+  {
+   "start": 599.06,
+   "end": 601.04,
+   "text": "Спросите, кто это?",
+   "lang": "ru"
+  },
+  {
+   "start": 603.52,
+   "end": 604.38,
+   "text": "Who is that?",
+   "lang": "en"
+  },
+  {
+   "start": 606.42,
+   "end": 608.0,
+   "text": "Моя жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 608.0,
+   "end": 609.26,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 609.86,
+   "end": 610.74,
+   "text": "My wife.",
+   "lang": "en"
+  },
+  {
+   "start": 612.86,
+   "end": 613.38,
+   "text": "Wife.",
+   "lang": "en"
+  },
+  {
+   "start": 614.38,
+   "end": 619.14,
+   "text": "Wife. Wife. My wife.",
+   "lang": "ru"
+  },
+  {
+   "start": 621.68,
+   "end": 623.74,
+   "text": "Скажите, моя жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 625.66,
+   "end": 629.8,
+   "text": "My wife. My.",
+   "lang": "ru"
+  },
+  {
+   "start": 631.86,
+   "end": 633.66,
+   "text": "Скажите, мой муж.",
+   "lang": "ru"
+  },
+  {
+   "start": 636.02,
+   "end": 637.3,
+   "text": "My husband.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.2,
+   "end": 642.36,
+   "text": "Скажите, это моя жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 645.42,
+   "end": 646.56,
+   "text": "That's my wife.",
+   "lang": "en"
+  },
+  {
+   "start": 649.74,
+   "end": 650.88,
+   "text": "That's my wife.",
+   "lang": "en"
+  },
+  {
+   "start": 654.04,
+   "end": 658.22,
+   "text": "Попробуйте сказать, моя жена хотела бы что-нибудь выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 662.86,
+   "end": 665.36,
+   "text": "My wife would like to have something to drink.",
+   "lang": "en"
+  },
+  {
+   "start": 670.04,
+   "end": 672.64,
+   "text": "My wife would like to have something to drink.",
+   "lang": "en"
+  },
+  {
+   "start": 677.88,
+   "end": 680.6,
+   "text": "Скажите, я хотел бы что-нибудь выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 684.84,
+   "end": 686.7,
+   "text": "I'd like to have something to drink.",
+   "lang": "en"
+  },
+  {
+   "start": 691.02,
+   "end": 691.88,
+   "text": "I'd like.",
+   "lang": "ru"
+  },
+  {
+   "start": 694.04,
+   "end": 695.94,
+   "text": "I'd like to have something to drink.",
+   "lang": "ru"
+  },
+  {
+   "start": 700.78,
+   "end": 704.1,
+   "text": "Скажите, мой муж хотел бы что-нибудь выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 709.52,
+   "end": 712.0,
+   "text": "My husband would like to have something to drink.",
+   "lang": "en"
+  },
+  {
+   "start": 716.94,
+   "end": 721.64,
+   "text": "А как сказать, мой муж хотел бы выпить немного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 726.56,
+   "end": 728.82,
+   "text": "My husband would like to have some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 741.06,
+   "end": 744.92,
+   "text": "Вы помните, что по-английски так принято говорить о том,",
+   "lang": "ru"
+  },
+  {
+   "start": 744.98,
+   "end": 747.5,
+   "text": "что вы хотели бы выпить что-то конкретное?",
+   "lang": "ru"
+  },
+  {
+   "start": 747.9,
+   "end": 751.38,
+   "text": "Скажите еще раз, что ваш муж хотел бы выпить вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 756.38,
+   "end": 758.62,
+   "text": "My husband would like to have some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 763.82,
+   "end": 766.28,
+   "text": "Мой муж хотел бы выпить немного воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 766.62,
+   "end": 767.7,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 768.42,
+   "end": 770.66,
+   "text": "My husband would like to have some water.",
+   "lang": "ru"
+  },
+  {
+   "start": 775.62,
+   "end": 776.18,
+   "text": "Water",
+   "lang": "ru"
+  },
+  {
+   "start": 777.54,
+   "end": 778.1,
+   "text": "Water",
+   "lang": "ru"
+  },
+  {
+   "start": 780.02,
+   "end": 781.0,
+   "text": "Some water",
+   "lang": "ru"
+  },
+  {
+   "start": 783.32,
+   "end": 785.14,
+   "text": "Скажите, вода.",
+   "lang": "ru"
+  },
+  {
+   "start": 785.14,
+   "end": 787.18,
+   "text": "water",
+   "lang": "en"
+  },
+  {
+   "start": 787.18,
+   "end": 789.6,
+   "text": "water",
+   "lang": "en"
+  },
+  {
+   "start": 790.92,
+   "end": 795.2,
+   "text": "Сейчас скажите, я хотела бы выпить немного воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 798.76,
+   "end": 800.3,
+   "text": "I'd like to have some water.",
+   "lang": "en"
+  },
+  {
+   "start": 803.82,
+   "end": 807.4,
+   "text": "Скажите, моя жена хотела бы выпить немного воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 811.82,
+   "end": 814.08,
+   "text": "My wife would like to have some water.",
+   "lang": "ru"
+  },
+  {
+   "start": 818.54,
+   "end": 820.6,
+   "text": "Я хотел бы выпить кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 820.76,
+   "end": 821.86,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 822.22,
+   "end": 824.02,
+   "text": "I'd like to have some coffee.",
+   "lang": "ru"
+  },
+  {
+   "start": 827.64,
+   "end": 828.22,
+   "text": "Coffee.",
+   "lang": "ru"
+  },
+  {
+   "start": 830.08,
+   "end": 830.66,
+   "text": "Coffee.",
+   "lang": "ru"
+  },
+  {
+   "start": 832.5,
+   "end": 833.62,
+   "text": "Some coffee.",
+   "lang": "ru"
+  },
+  {
+   "start": 836.14,
+   "end": 837.36,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 837.5,
+   "end": 839.36,
+   "text": "Я хотел бы выпить кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 839.36,
+   "end": 844.08,
+   "text": "По-английски дословно вы должны говорить «немного кофе».",
+   "lang": "ru"
+  },
+  {
+   "start": 847.64,
+   "end": 849.28,
+   "text": "I'd like to have some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 853.22,
+   "end": 856.22,
+   "text": "Скажите, мой муж хотел бы выпить кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 860.96,
+   "end": 863.32,
+   "text": "My husband would like to have some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 874.98,
+   "end": 877.6,
+   "text": "Но я хотела бы выпить немного воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 877.6,
+   "end": 883.78,
+   "text": "be. But I'd like to have some water.",
+   "lang": "en"
+  },
+  {
+   "start": 887.78,
+   "end": 889.14,
+   "text": "Ваша жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 889.26,
+   "end": 890.3,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 890.3,
+   "end": 891.72,
+   "text": "Your wife.",
+   "lang": "en"
+  },
+  {
+   "start": 894.66,
+   "end": 894.82,
+   "text": "Your.",
+   "lang": "en"
+  },
+  {
+   "start": 896.8,
+   "end": 897.16,
+   "text": "Your.",
+   "lang": "en"
+  },
+  {
+   "start": 899.36,
+   "end": 899.96,
+   "text": "Your wife.",
+   "lang": "ru"
+  },
+  {
+   "start": 902.38,
+   "end": 904.62,
+   "text": "Скажите, ваша жена здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 907.34,
+   "end": 909.0,
+   "text": "Your wife is here.",
+   "lang": "ru"
+  },
+  {
+   "start": 912.32,
+   "end": 915.0,
+   "text": "Вы помните, как сказать «вы русский»?",
+   "lang": "ru"
+  },
+  {
+   "start": 917.08,
+   "end": 918.38,
+   "text": "Your Russian.",
+   "lang": "ru"
+  },
+  {
+   "start": 921.34,
+   "end": 921.54,
+   "text": "Your.",
+   "lang": "ru"
+  },
+  {
+   "start": 923.46,
+   "end": 929.82,
+   "text": "Английское слово ваш по звучанию почти не отличается от сокращенной формы you are.",
+   "lang": "ru"
+  },
+  {
+   "start": 930.7,
+   "end": 931.52,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 932.3,
+   "end": 932.94,
+   "text": "Ваша жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 934.78,
+   "end": 935.9,
+   "text": "Your wife.",
+   "lang": "en"
+  },
+  {
+   "start": 937.98,
+   "end": 939.02,
+   "text": "Your wife.",
+   "lang": "en"
+  },
+  {
+   "start": 940.96,
+   "end": 942.64,
+   "text": "Сейчас скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 942.64,
+   "end": 943.9,
+   "text": "Ваш муж здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 943.9,
+   "end": 944.08,
+   "text": "Peace.",
+   "lang": "en"
+  },
+  {
+   "start": 946.94,
+   "end": 948.78,
+   "text": "Your husband is here.",
+   "lang": "ru"
+  },
+  {
+   "start": 948.78,
+   "end": 948.88,
+   "text": "here.",
+   "lang": "en"
+  },
+  {
+   "start": 951.92,
+   "end": 954.24,
+   "text": "Спросите, где мой муж?",
+   "lang": "ru"
+  },
+  {
+   "start": 957.1,
+   "end": 958.42,
+   "text": "Where is my husband?",
+   "lang": "en"
+  },
+  {
+   "start": 961.66,
+   "end": 962.74,
+   "text": "Where's my husband?",
+   "lang": "en"
+  },
+  {
+   "start": 966.16,
+   "end": 966.8,
+   "text": "Where's?",
+   "lang": "en"
+  },
+  {
+   "start": 968.32,
+   "end": 974.64,
+   "text": "Обратите внимание на сокращение, образованное из where и is.",
+   "lang": "ru"
+  },
+  {
+   "start": 975.06,
+   "end": 979.38,
+   "text": "Используя это сокращение, спросите, где моя жена?",
+   "lang": "ru"
+  },
+  {
+   "start": 981.74,
+   "end": 983.14,
+   "text": "Where is my wife?",
+   "lang": "ru"
+  },
+  {
+   "start": 985.66,
+   "end": 986.92,
+   "text": "Where is my wife?",
+   "lang": "en"
+  },
+  {
+   "start": 990.3,
+   "end": 992.44,
+   "text": "Скажите, ваша жена не здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 992.44,
+   "end": 992.66,
+   "text": "Peace.",
+   "lang": "en"
+  },
+  {
+   "start": 995.46,
+   "end": 997.34,
+   "text": "Your wife is not here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1000.34,
+   "end": 1001.28,
+   "text": "Is not.",
+   "lang": "ru"
+  },
+  {
+   "start": 1001.58,
+   "end": 1005.02,
+   "text": "Обычно тоже употребляется в сокращенном варианте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1005.12,
+   "end": 1006.3,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1007.2,
+   "end": 1007.88,
+   "text": "Isn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1009.84,
+   "end": 1010.52,
+   "text": "Isn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.52,
+   "end": 1013.22,
+   "text": "isn't",
+   "lang": "en"
+  },
+  {
+   "start": 1015.0,
+   "end": 1018.42,
+   "text": "Сейчас попробуйте сказать, используя сокращение.",
+   "lang": "ru"
+  },
+  {
+   "start": 1018.84,
+   "end": 1020.32,
+   "text": "Ваша жена не здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1023.58,
+   "end": 1025.28,
+   "text": "Your wife isn't here.",
+   "lang": "en"
+  },
+  {
+   "start": 1028.54,
+   "end": 1030.34,
+   "text": "Your wife isn't here.",
+   "lang": "en"
+  },
+  {
+   "start": 1034.16,
+   "end": 1036.22,
+   "text": "Скажите, ваш муж не здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1039.84,
+   "end": 1041.76,
+   "text": "Your husband isn't here.",
+   "lang": "en"
+  },
+  {
+   "start": 1045.66,
+   "end": 1048.68,
+   "text": "Скажите, моя жена хотела бы кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1052.66,
+   "end": 1054.52,
+   "text": "My wife would like some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1058.48,
+   "end": 1061.2,
+   "text": "Мой муж хотел бы выпить немного воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 1065.9,
+   "end": 1068.34,
+   "text": "My husband would like to have some water.",
+   "lang": "en"
+  },
+  {
+   "start": 1073.36,
+   "end": 1075.58,
+   "text": "Спросите, у вас есть вино?",
+   "lang": "ru"
+  },
+  {
+   "start": 1078.98,
+   "end": 1080.44,
+   "text": "Do you have any wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1083.98,
+   "end": 1084.66,
+   "text": "Any.",
+   "lang": "ru"
+  },
+  {
+   "start": 1086.22,
+   "end": 1087.96,
+   "text": "Do you have any wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1091.46,
+   "end": 1093.54,
+   "text": "Коротко ответьте, что нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1096.02,
+   "end": 1097.44,
+   "text": "No, I don't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1099.74,
+   "end": 1101.36,
+   "text": "No, ma'am, I don't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1104.1,
+   "end": 1107.52,
+   "text": "Как сказать, простите, у меня нет вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1112.32,
+   "end": 1114.96,
+   "text": "I'm sorry, I don't have any wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1119.88,
+   "end": 1121.8,
+   "text": "Здесь вино дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1125.48,
+   "end": 1127.72,
+   "text": "Here wine is more expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 1131.58,
+   "end": 1133.92,
+   "text": "Here wine is more expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 1137.48,
+   "end": 1143.12,
+   "text": "Сейчас спросите, кто это? Не забудьте использовать сокращение.",
+   "lang": "ru"
+  },
+  {
+   "start": 1145.54,
+   "end": 1146.42,
+   "text": "Who's that?",
+   "lang": "en"
+  },
+  {
+   "start": 1148.84,
+   "end": 1149.52,
+   "text": "Who?",
+   "lang": "en"
+  },
+  {
+   "start": 1151.16,
+   "end": 1152.02,
+   "text": "Who's that?",
+   "lang": "en"
+  },
+  {
+   "start": 1154.3,
+   "end": 1157.1,
+   "text": "Попробуйте спросить, кто там?",
+   "lang": "ru"
+  },
+  {
+   "start": 1160.0,
+   "end": 1161.12,
+   "text": "Who's over there?",
+   "lang": "en"
+  },
+  {
+   "start": 1164.12,
+   "end": 1165.26,
+   "text": "Who's over there?",
+   "lang": "ru"
+  },
+  {
+   "start": 1168.54,
+   "end": 1170.38,
+   "text": "Скажите, это моя жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 1172.98,
+   "end": 1174.12,
+   "text": "That's my wife.",
+   "lang": "ru"
+  },
+  {
+   "start": 1177.02,
+   "end": 1177.58,
+   "text": "That's.",
+   "lang": "ru"
+  },
+  {
+   "start": 1179.6,
+   "end": 1180.68,
+   "text": "That's my wife.",
+   "lang": "ru"
+  },
+  {
+   "start": 1183.5,
+   "end": 1185.48,
+   "text": "Что хочет делать ваша жена?",
+   "lang": "ru"
+  },
+  {
+   "start": 1185.88,
+   "end": 1186.44,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1187.08,
+   "end": 1188.92,
+   "text": "What does your wife want to do?",
+   "lang": "ru"
+  },
+  {
+   "start": 1189.66,
+   "end": 1190.78,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1191.26,
+   "end": 1193.22,
+   "text": "What does your wife want to do?",
+   "lang": "ru"
+  },
+  {
+   "start": 1197.14,
+   "end": 1197.88,
+   "text": "Does.",
+   "lang": "ru"
+  },
+  {
+   "start": 1199.72,
+   "end": 1200.46,
+   "text": "Does.",
+   "lang": "ru"
+  },
+  {
+   "start": 1202.32,
+   "end": 1204.46,
+   "text": "What does your wife want to do?",
+   "lang": "ru"
+  },
+  {
+   "start": 1208.4,
+   "end": 1216.32,
+   "text": "Говоря о другом человеке, вместо вопросительного слова do вы должны использовать слово does.",
+   "lang": "ru"
+  },
+  {
+   "start": 1216.84,
+   "end": 1218.24,
+   "text": "Спросите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1218.84,
+   "end": 1220.3,
+   "text": "Что хочет делать ваша жена?",
+   "lang": "ru"
+  },
+  {
+   "start": 1221.1,
+   "end": 1222.64,
+   "text": "Не забудьте о порядке слов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1222.64,
+   "end": 1222.8,
+   "text": "love.",
+   "lang": "en"
+  },
+  {
+   "start": 1226.06,
+   "end": 1228.18,
+   "text": "What does your wife want to do?",
+   "lang": "ru"
+  },
+  {
+   "start": 1231.7,
+   "end": 1232.54,
+   "text": "Does.",
+   "lang": "ru"
+  },
+  {
+   "start": 1234.64,
+   "end": 1237.72,
+   "text": "Скажите, моя жена хотела бы...",
+   "lang": "ru"
+  },
+  {
+   "start": 1240.28,
+   "end": 1242.4,
+   "text": "My wife would like...",
+   "lang": "ru"
+  },
+  {
+   "start": 1245.42,
+   "end": 1248.96,
+   "text": "Скажите, моя жена хотела бы что-нибудь поесть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1253.92,
+   "end": 1255.88,
+   "text": "My wife would like to have something to eat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1260.48,
+   "end": 1262.84,
+   "text": "My wife would like to have something to eat.",
+   "lang": "en"
+  },
+  {
+   "start": 1268.02,
+   "end": 1269.02,
+   "text": "Попробуйте спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1269.3,
+   "end": 1271.5,
+   "text": "Ваша жена хочет что-нибудь выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1276.62,
+   "end": 1279.02,
+   "text": "Does your wife want to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1279.02,
+   "end": 1279.34,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1284.36,
+   "end": 1289.18,
+   "text": "Does your wife want to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1294.52,
+   "end": 1297.72,
+   "text": "Сейчас спросите. Вы хотите что-нибудь выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1301.82,
+   "end": 1304.02,
+   "text": "Do you want to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1308.56,
+   "end": 1312.26,
+   "text": "Слушайте и повторяйте эти два вопросительных слова вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1312.26,
+   "end": 1314.44,
+   "text": "Do, does.",
+   "lang": "en"
+  },
+  {
+   "start": 1317.78,
+   "end": 1319.4,
+   "text": "Do – does",
+   "lang": "ru"
+  },
+  {
+   "start": 1322.44,
+   "end": 1324.12,
+   "text": "Do, does.",
+   "lang": "en"
+  },
+  {
+   "start": 1327.88,
+   "end": 1331.66,
+   "text": "Спросите меня еще раз, хочет ли моя жена что-нибудь выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1335.94,
+   "end": 1338.38,
+   "text": "Does your wife want to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.72,
+   "end": 1345.24,
+   "text": "Does your wife want to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1350.14,
+   "end": 1353.92,
+   "text": "Сейчас спросите. А вы? Что вы хотели бы выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1358.54,
+   "end": 1360.92,
+   "text": "And you? What would you like to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1366.1,
+   "end": 1368.2,
+   "text": "Скажите, кофе или воды?",
+   "lang": "ru"
+  },
+  {
+   "start": 1368.2,
+   "end": 1373.76,
+   "text": "Some coffee or water.",
+   "lang": "en"
+  },
+  {
+   "start": 1377.14,
+   "end": 1378.88,
+   "text": "Coffee or water.",
+   "lang": "en"
+  },
+  {
+   "start": 1382.42,
+   "end": 1385.52,
+   "text": "Скажите, ваша жена может выпить немного воды?",
+   "lang": "ru"
+  },
+  {
+   "start": 1389.32,
+   "end": 1391.2,
+   "text": "Your wife can have some water.",
+   "lang": "en"
+  },
+  {
+   "start": 1394.96,
+   "end": 1397.0,
+   "text": "Your wife can have some water.",
+   "lang": "en"
+  },
+  {
+   "start": 1401.1,
+   "end": 1403.16,
+   "text": "Используя эту же модель, скажите",
+   "lang": "ru"
+  },
+  {
+   "start": 1403.16,
+   "end": 1405.28,
+   "text": "А вы можете выпить кофе?",
+   "lang": "ru"
+  },
+  {
+   "start": 1409.32,
+   "end": 1411.26,
+   "text": "And you can have some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1415.52,
+   "end": 1416.36,
+   "text": "Some coffee.",
+   "lang": "ru"
+  },
+  {
+   "start": 1418.9,
+   "end": 1420.38,
+   "text": "And you can have some coffee.",
+   "lang": "ru"
+  },
+  {
+   "start": 1424.0,
+   "end": 1425.0,
+   "text": "Большое спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1427.66,
+   "end": 1429.14,
+   "text": "Thank you very much.",
+   "lang": "ru"
+  },
+  {
+   "start": 1431.44,
+   "end": 1432.88,
+   "text": "Thank you very much.",
+   "lang": "ru"
+  },
+  {
+   "start": 1435.74,
+   "end": 1438.1,
+   "text": "Спросите меня, где моя жена?",
+   "lang": "ru"
+  },
+  {
+   "start": 1440.62,
+   "end": 1441.78,
+   "text": "Where's your wife?",
+   "lang": "ru"
+  },
+  {
+   "start": 1444.5,
+   "end": 1445.44,
+   "text": "Where's your wife?",
+   "lang": "en"
+  },
+  {
+   "start": 1448.14,
+   "end": 1451.28,
+   "text": "Скажите, моя жена? Я не знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1455.18,
+   "end": 1457.24,
+   "text": "My wife? I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 1461.26,
+   "end": 1463.64,
+   "text": "Скажите, моя жена не здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1466.62,
+   "end": 1468.22,
+   "text": "My wife isn't here.",
+   "lang": "en"
+  },
+  {
+   "start": 1471.78,
+   "end": 1472.84,
+   "text": "My wife isn't here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1472.84,
+   "end": 1472.92,
+   "text": "here.",
+   "lang": "en"
+  },
+  {
+   "start": 1476.28,
+   "end": 1479.98,
+   "text": "Спросите ее, хотела ли бы она поужинать вместе с вами?",
+   "lang": "ru"
+  },
+  {
+   "start": 1479.98,
+   "end": 1480.1,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 1483.72,
+   "end": 1485.54,
+   "text": "Would you like to have dinner with me?",
+   "lang": "ru"
+  },
+  {
+   "start": 1489.78,
+   "end": 1491.3,
+   "text": "Простите, я не могу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1494.6,
+   "end": 1496.28,
+   "text": "I'm sorry, I can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1499.4,
+   "end": 1501.22,
+   "text": "I'm sorry, I can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1503.76,
+   "end": 1507.56,
+   "text": "Я собираюсь поужинать вместе со своим мужем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1511.42,
+   "end": 1513.38,
+   "text": "I'm going to have dinner with my husband.",
+   "lang": "en"
+  },
+  {
+   "start": 1517.48,
+   "end": 1519.42,
+   "text": "I'm going to have dinner with my husband.",
+   "lang": "en"
+  },
+  {
+   "start": 1522.8,
+   "end": 1524.84,
+   "text": "Сейчас скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1525.46,
+   "end": 1529.68,
+   "text": "Сегодня вечером я собираюсь поужинать вместе со своим мужем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1535.14,
+   "end": 1537.48,
+   "text": "Tonight I'm going to have dinner with my husband.",
+   "lang": "ru"
+  },
+  {
+   "start": 1543.18,
+   "end": 1545.6,
+   "text": "Tonight, I'm going to have dinner with my husband.",
+   "lang": "en"
+  },
+  {
+   "start": 1551.52,
+   "end": 1554.2,
+   "text": "Спросите, тогда вы хотели бы что-нибудь выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1558.74,
+   "end": 1560.76,
+   "text": "Then would you like to have something to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 1565.3,
+   "end": 1567.58,
+   "text": "Then would you like to have something to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 1570.56,
+   "end": 1574.2,
+   "text": "Как ей коротко согласиться с вами?",
+   "lang": "ru"
+  },
+  {
+   "start": 1575.22,
+   "end": 1577.4,
+   "text": "Yes, I would.",
+   "lang": "en"
+  },
+  {
+   "start": 1579.6,
+   "end": 1580.74,
+   "text": "Yes, I'd like to.",
+   "lang": "en"
+  },
+  {
+   "start": 1583.3,
+   "end": 1586.32,
+   "text": "Спросите, что она хотела бы выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1589.22,
+   "end": 1590.46,
+   "text": "What would you like to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 1592.96,
+   "end": 1595.46,
+   "text": "Как она ответит? Кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1597.48,
+   "end": 1598.56,
+   "text": "Some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1600.7,
+   "end": 1602.16,
+   "text": "Some coffee, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1605.08,
+   "end": 1607.98,
+   "text": "Спросите, вы хотели бы немного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1610.94,
+   "end": 1612.18,
+   "text": "Would you like some wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1615.36,
+   "end": 1616.54,
+   "text": "Would you like some wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1618.44,
+   "end": 1621.0,
+   "text": "Она отвечает.",
+   "lang": "ru"
+  },
+  {
+   "start": 1621.08,
+   "end": 1623.32,
+   "text": "Нет, это слишком дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 1626.88,
+   "end": 1628.68,
+   "text": "No, it's too expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 1632.36,
+   "end": 1633.66,
+   "text": "Too expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 1635.96,
+   "end": 1638.3,
+   "text": "Здесь это дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1641.6,
+   "end": 1643.44,
+   "text": "Here it's more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 1647.5,
+   "end": 1650.7,
+   "text": "Спросите. Вы хотели бы выпить немного пива?",
+   "lang": "ru"
+  },
+  {
+   "start": 1653.54,
+   "end": 1655.5,
+   "text": "Would you like to have some beer?",
+   "lang": "ru"
+  },
+  {
+   "start": 1658.96,
+   "end": 1660.56,
+   "text": "Would you like to have some beer?",
+   "lang": "en"
+  },
+  {
+   "start": 1663.2,
+   "end": 1667.5,
+   "text": "Она говорит, пожалуйста, дайте мне кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1667.54,
+   "end": 1671.98,
+   "text": "Не забудьте, что дословно вы должны сказать немного кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1675.34,
+   "end": 1676.98,
+   "text": "Please give me some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1680.4,
+   "end": 1683.88,
+   "text": "Попробуйте спросить, ваш муж тоже хочет кофе?",
+   "lang": "ru"
+  },
+  {
+   "start": 1688.3,
+   "end": 1690.74,
+   "text": "Does your husband want some coffee too?",
+   "lang": "en"
+  },
+  {
+   "start": 1695.22,
+   "end": 1697.72,
+   "text": "Does your husband want some coffee too?",
+   "lang": "en"
+  },
+  {
+   "start": 1702.12,
+   "end": 1706.1,
+   "text": "Она отвечает, я не знаю, мой муж не здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1710.42,
+   "end": 1713.3,
+   "text": "I don't know. My husband isn't here.",
+   "lang": "en"
+  },
+  {
+   "start": 1717.7,
+   "end": 1719.54,
+   "text": "My husband isn't here.",
+   "lang": "en"
+  },
+  {
+   "start": 1722.78,
+   "end": 1727.14,
+   "text": "Закажите для нее кофе. Скажите, один кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1729.3,
+   "end": 1730.46,
+   "text": "One coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1732.68,
+   "end": 1734.2,
+   "text": "One coffee, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1736.92,
+   "end": 1739.9,
+   "text": "Скажите, вот ваш кофе, мадам.",
+   "lang": "ru"
+  },
+  {
+   "start": 1743.66,
+   "end": 1744.98,
+   "text": "Here's your coffee, ma'am.",
+   "lang": "en"
+  },
+  {
+   "start": 1748.8,
+   "end": 1750.22,
+   "text": "Here's your coffee, ma'am.",
+   "lang": "en"
+  },
+  {
+   "start": 1753.2,
+   "end": 1756.16,
+   "text": "Сейчас спросите, кто там?",
+   "lang": "ru"
+  },
+  {
+   "start": 1758.68,
+   "end": 1759.84,
+   "text": "Who's over there?",
+   "lang": "en"
+  },
+  {
+   "start": 1762.48,
+   "end": 1763.72,
+   "text": "Who's over there?",
+   "lang": "en"
+  },
+  {
+   "start": 1766.14,
+   "end": 1769.18,
+   "text": "Она говорит, вот мой муж.",
+   "lang": "ru"
+  },
+  {
+   "start": 1772.02,
+   "end": 1773.2,
+   "text": "Here's my husband.",
+   "lang": "en"
+  },
+  {
+   "start": 1779.82,
+   "end": 1781.52,
+   "text": "И ваша жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 1783.78,
+   "end": 1784.98,
+   "text": "And your wife.",
+   "lang": "en"
+  }
+ ]
+}

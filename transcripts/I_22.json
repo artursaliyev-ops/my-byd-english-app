@@ -1,0 +1,2589 @@
+{
+ "id": "I_22",
+ "source": "Pimsleur_I_22.mp3",
+ "duration": 1801.46,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 136,
+ "segments": [
+  {
+   "start": 1.78,
+   "end": 7.52,
+   "text": "Американский английский язык по методу доктора Пимпслера. Урок номер 22.",
+   "lang": "ru"
+  },
+  {
+   "start": 10.34,
+   "end": 14.9,
+   "text": "Мистер Джонсон только что познакомился с госпожой Смирновой.",
+   "lang": "ru"
+  },
+  {
+   "start": 15.62,
+   "end": 17.34,
+   "text": "Pleased to meet you, Mrs. Smirnoff.",
+   "lang": "en"
+  },
+  {
+   "start": 17.56,
+   "end": 19.64,
+   "text": "Is your husband here in New York, too?",
+   "lang": "en"
+  },
+  {
+   "start": 20.16,
+   "end": 22.88,
+   "text": "Yes, he is. And the children are with us, too.",
+   "lang": "en"
+  },
+  {
+   "start": 23.46,
+   "end": 25.06,
+   "text": "How many children do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 25.38,
+   "end": 29.24,
+   "text": "Three. We have three children, one boy and two girls.",
+   "lang": "en"
+  },
+  {
+   "start": 30.0,
+   "end": 31.3,
+   "text": "Is that your boy over there?",
+   "lang": "ru"
+  },
+  {
+   "start": 31.58,
+   "end": 32.42,
+   "text": "Yes, it is.",
+   "lang": "ru"
+  },
+  {
+   "start": 32.72,
+   "end": 35.44,
+   "text": "He's very big. Are your girls big, too?",
+   "lang": "ru"
+  },
+  {
+   "start": 35.76,
+   "end": 37.3,
+   "text": "No, the girls are little.",
+   "lang": "ru"
+  },
+  {
+   "start": 37.68,
+   "end": 38.8,
+   "text": "Where are they now?",
+   "lang": "ru"
+  },
+  {
+   "start": 39.18,
+   "end": 41.16,
+   "text": "They're at the hotel with my husband.",
+   "lang": "ru"
+  },
+  {
+   "start": 41.7,
+   "end": 42.52,
+   "text": "Listen again.",
+   "lang": "ru"
+  },
+  {
+   "start": 43.3,
+   "end": 45.0,
+   "text": "Pleased to meet you, Mrs. Smirnoff.",
+   "lang": "ru"
+  },
+  {
+   "start": 45.26,
+   "end": 47.32,
+   "text": "Is your husband here in New York, too?",
+   "lang": "ru"
+  },
+  {
+   "start": 47.56,
+   "end": 50.34,
+   "text": "Yes, he is. And the children are with us, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 50.66,
+   "end": 52.26,
+   "text": "How many children do you have?",
+   "lang": "ru"
+  },
+  {
+   "start": 52.62,
+   "end": 56.6,
+   "text": "Three. We have three children, one boy and two girls.",
+   "lang": "ru"
+  },
+  {
+   "start": 56.9,
+   "end": 58.52,
+   "text": "Is that your boy over there?",
+   "lang": "ru"
+  },
+  {
+   "start": 58.84,
+   "end": 59.68,
+   "text": "Yes, it is.",
+   "lang": "ru"
+  },
+  {
+   "start": 60.0,
+   "end": 62.6,
+   "text": "He's very big. Are your girls big too?",
+   "lang": "ru"
+  },
+  {
+   "start": 62.92,
+   "end": 64.4,
+   "text": "No, the girls are little.",
+   "lang": "ru"
+  },
+  {
+   "start": 64.66,
+   "end": 65.82,
+   "text": "Where are they now?",
+   "lang": "ru"
+  },
+  {
+   "start": 66.14,
+   "end": 68.08,
+   "text": "They're at the hotel with my husband.",
+   "lang": "ru"
+  },
+  {
+   "start": 69.04,
+   "end": 74.94,
+   "text": "Начиная с этого урока, вы будете получать все больше и больше указаний на английском языке.",
+   "lang": "ru"
+  },
+  {
+   "start": 75.16,
+   "end": 75.78,
+   "text": "Например,",
+   "lang": "ru"
+  },
+  {
+   "start": 76.12,
+   "end": 76.94,
+   "text": "Now say",
+   "lang": "ru"
+  },
+  {
+   "start": 76.94,
+   "end": 78.1,
+   "text": "Здравствуйте",
+   "lang": "ru"
+  },
+  {
+   "start": 78.1,
+   "end": 79.26,
+   "text": "in English",
+   "lang": "ru"
+  },
+  {
+   "start": 79.26,
+   "end": 80.24,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 80.24,
+   "end": 81.46,
+   "text": "Здравствуйте",
+   "lang": "ru"
+  },
+  {
+   "start": 83.5,
+   "end": 84.14,
+   "text": "Hello",
+   "lang": "ru"
+  },
+  {
+   "start": 86.1,
+   "end": 93.24,
+   "text": "Это важный шаг на пути к пониманию английского языка, без предварительного перевода сказанного на русский.",
+   "lang": "ru"
+  },
+  {
+   "start": 93.64,
+   "end": 96.54,
+   "text": "Поначалу это может показаться немного трудным.",
+   "lang": "ru"
+  },
+  {
+   "start": 97.22,
+   "end": 101.08,
+   "text": "Если понадобится, вы можете прослушать этот урок несколько раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 101.86,
+   "end": 103.36,
+   "text": "Очень приятно.",
+   "lang": "ru"
+  },
+  {
+   "start": 106.2,
+   "end": 107.06,
+   "text": "Pleased to meet you.",
+   "lang": "en"
+  },
+  {
+   "start": 109.76,
+   "end": 110.42,
+   "text": "Ask me.",
+   "lang": "en"
+  },
+  {
+   "start": 110.6,
+   "end": 111.82,
+   "text": "Спросите у меня.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.14,
+   "end": 115.78,
+   "text": "Ask me how I am.",
+   "lang": "ru"
+  },
+  {
+   "start": 118.02,
+   "end": 118.6,
+   "text": "How are you?",
+   "lang": "ru"
+  },
+  {
+   "start": 120.4,
+   "end": 122.68,
+   "text": "Ask me again how I am.",
+   "lang": "ru"
+  },
+  {
+   "start": 124.6,
+   "end": 125.8,
+   "text": "How are you?",
+   "lang": "ru"
+  },
+  {
+   "start": 127.78,
+   "end": 129.14,
+   "text": "Say in English.",
+   "lang": "ru"
+  },
+  {
+   "start": 129.48,
+   "end": 130.74,
+   "text": "Большой мальчик.",
+   "lang": "ru"
+  },
+  {
+   "start": 130.86,
+   "end": 133.34,
+   "text": "Имею в виду какого-то мальчика вообще.",
+   "lang": "ru"
+  },
+  {
+   "start": 136.36,
+   "end": 137.14,
+   "text": "A big boy.",
+   "lang": "ru"
+  },
+  {
+   "start": 140.02,
+   "end": 140.8,
+   "text": "A big boy.",
+   "lang": "ru"
+  },
+  {
+   "start": 143.1,
+   "end": 146.24,
+   "text": "У нас большой мальчик.",
+   "lang": "ru"
+  },
+  {
+   "start": 149.44,
+   "end": 150.86,
+   "text": "We have a big boy.",
+   "lang": "en"
+  },
+  {
+   "start": 153.62,
+   "end": 155.66,
+   "text": "Наш мальчик большой.",
+   "lang": "ru"
+  },
+  {
+   "start": 155.66,
+   "end": 160.94,
+   "text": "Our boy is big.",
+   "lang": "ru"
+  },
+  {
+   "start": 164.06,
+   "end": 165.92,
+   "text": "Our boy is big.",
+   "lang": "en"
+  },
+  {
+   "start": 166.26,
+   "end": 172.06,
+   "text": "Say. У нас две девочки.",
+   "lang": "ru"
+  },
+  {
+   "start": 174.94,
+   "end": 176.78,
+   "text": "We have two girls.",
+   "lang": "ru"
+  },
+  {
+   "start": 179.9,
+   "end": 183.08,
+   "text": "Now say. Маленькая девочка.",
+   "lang": "ru"
+  },
+  {
+   "start": 185.68,
+   "end": 187.3,
+   "text": "A little girl.",
+   "lang": "ru"
+  },
+  {
+   "start": 190.2,
+   "end": 191.32,
+   "text": "A little girl.",
+   "lang": "en"
+  },
+  {
+   "start": 191.42,
+   "end": 198.24,
+   "text": "Say. Еще у нас есть маленькая девочка.",
+   "lang": "ru"
+  },
+  {
+   "start": 202.46,
+   "end": 204.72,
+   "text": "We have a little girl too.",
+   "lang": "ru"
+  },
+  {
+   "start": 204.72,
+   "end": 205.5,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 209.16,
+   "end": 212.74,
+   "text": "Say. Наша девочка небольшая.",
+   "lang": "ru"
+  },
+  {
+   "start": 216.68,
+   "end": 218.6,
+   "text": "Our girl isn't big.",
+   "lang": "ru"
+  },
+  {
+   "start": 222.7,
+   "end": 223.84,
+   "text": "Our girl.",
+   "lang": "ru"
+  },
+  {
+   "start": 225.98,
+   "end": 227.04,
+   "text": "Ask me.",
+   "lang": "ru"
+  },
+  {
+   "start": 227.34,
+   "end": 228.34,
+   "text": "Спросите меня.",
+   "lang": "ru"
+  },
+  {
+   "start": 228.6,
+   "end": 231.02,
+   "text": "Ask me how many children I have.",
+   "lang": "ru"
+  },
+  {
+   "start": 231.8,
+   "end": 233.9,
+   "text": "Ask me how many children I have.",
+   "lang": "ru"
+  },
+  {
+   "start": 237.9,
+   "end": 240.04,
+   "text": "How many children do you have?",
+   "lang": "ru"
+  },
+  {
+   "start": 244.28,
+   "end": 246.48,
+   "text": "Say that you have three children.",
+   "lang": "en"
+  },
+  {
+   "start": 248.54,
+   "end": 252.32,
+   "text": "Мы имеем три ребенка.",
+   "lang": "ru"
+  },
+  {
+   "start": 255.72,
+   "end": 261.12,
+   "text": "Мы имеем один ребенок.",
+   "lang": "ru"
+  },
+  {
+   "start": 261.88,
+   "end": 267.38,
+   "text": "И две девочки.",
+   "lang": "ru"
+  },
+  {
+   "start": 270.22,
+   "end": 271.78,
+   "text": "And two girls.",
+   "lang": "ru"
+  },
+  {
+   "start": 275.1,
+   "end": 275.84,
+   "text": "Are they big?",
+   "lang": "ru"
+  },
+  {
+   "start": 276.0,
+   "end": 278.56,
+   "text": "Дайте короткий утвердительный ответ.",
+   "lang": "ru"
+  },
+  {
+   "start": 279.48,
+   "end": 280.22,
+   "text": "Are they big?",
+   "lang": "ru"
+  },
+  {
+   "start": 282.94,
+   "end": 284.2,
+   "text": "Yes, they are.",
+   "lang": "ru"
+  },
+  {
+   "start": 286.76,
+   "end": 288.24,
+   "text": "Yes, they are.",
+   "lang": "ru"
+  },
+  {
+   "start": 290.9,
+   "end": 293.2,
+   "text": "Ask. Где туалет?",
+   "lang": "ru"
+  },
+  {
+   "start": 295.82,
+   "end": 297.26,
+   "text": "Where is the bathroom?",
+   "lang": "ru"
+  },
+  {
+   "start": 297.26,
+   "end": 297.54,
+   "text": "room.",
+   "lang": "en"
+  },
+  {
+   "start": 300.44,
+   "end": 302.98,
+   "text": "Say that the bathroom is over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 306.8,
+   "end": 308.72,
+   "text": "The bathroom is over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 308.72,
+   "end": 308.82,
+   "text": "there.",
+   "lang": "en"
+  },
+  {
+   "start": 312.74,
+   "end": 314.06,
+   "text": "It's over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 317.14,
+   "end": 318.56,
+   "text": "Ask in English.",
+   "lang": "ru"
+  },
+  {
+   "start": 318.94,
+   "end": 319.62,
+   "text": "Правда?",
+   "lang": "ru"
+  },
+  {
+   "start": 321.72,
+   "end": 322.4,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 324.48,
+   "end": 325.16,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 327.3,
+   "end": 327.98,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 328.88,
+   "end": 329.9,
+   "text": "Мы можем подождать.",
+   "lang": "ru"
+  },
+  {
+   "start": 331.86,
+   "end": 333.68,
+   "text": "We can wait.",
+   "lang": "ru"
+  },
+  {
+   "start": 336.3,
+   "end": 337.42,
+   "text": "We can wait.",
+   "lang": "en"
+  },
+  {
+   "start": 337.56,
+   "end": 338.64,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 341.18,
+   "end": 342.48,
+   "text": "Дети в России?",
+   "lang": "ru"
+  },
+  {
+   "start": 342.48,
+   "end": 342.7,
+   "text": "See you.",
+   "lang": "en"
+  },
+  {
+   "start": 345.7,
+   "end": 347.9,
+   "text": "Are the children in Russia?",
+   "lang": "ru"
+  },
+  {
+   "start": 351.52,
+   "end": 352.5,
+   "text": "Are the children",
+   "lang": "en"
+  },
+  {
+   "start": 352.78,
+   "end": 353.86,
+   "text": "No.",
+   "lang": "ru"
+  },
+  {
+   "start": 356.0,
+   "end": 357.4,
+   "text": "No.",
+   "lang": "en"
+  },
+  {
+   "start": 358.46,
+   "end": 359.92,
+   "text": "Моя семья в Америке.",
+   "lang": "ru"
+  },
+  {
+   "start": 360.04,
+   "end": 361.78,
+   "text": "Слышите и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 361.78,
+   "end": 363.98,
+   "text": "My family is in America.",
+   "lang": "en"
+  },
+  {
+   "start": 368.74,
+   "end": 383.54,
+   "text": "America. America. In. In America. My family's in America.",
+   "lang": "en"
+  },
+  {
+   "start": 387.24,
+   "end": 390.02,
+   "text": "Say again that your family is in America.",
+   "lang": "en"
+  },
+  {
+   "start": 390.04,
+   "end": 390.68,
+   "text": "My family is in America.",
+   "lang": "ru"
+  },
+  {
+   "start": 391.28,
+   "end": 396.98,
+   "text": "My family is in America.",
+   "lang": "ru"
+  },
+  {
+   "start": 396.98,
+   "end": 397.24,
+   "text": "America.",
+   "lang": "en"
+  },
+  {
+   "start": 401.3,
+   "end": 403.78,
+   "text": "Now say, Они не в России.",
+   "lang": "ru"
+  },
+  {
+   "start": 403.78,
+   "end": 404.06,
+   "text": "See ya.",
+   "lang": "en"
+  },
+  {
+   "start": 407.2,
+   "end": 408.6,
+   "text": "They are not in Russia.",
+   "lang": "ru"
+  },
+  {
+   "start": 412.0,
+   "end": 413.52,
+   "text": "Ask if they are here.",
+   "lang": "ru"
+  },
+  {
+   "start": 414.24,
+   "end": 415.92,
+   "text": "Спросите, здесь ли они?",
+   "lang": "ru"
+  },
+  {
+   "start": 418.42,
+   "end": 419.54,
+   "text": "Are they here?",
+   "lang": "ru"
+  },
+  {
+   "start": 421.52,
+   "end": 424.76,
+   "text": "Дайте короткий утвердительный ответ.",
+   "lang": "ru"
+  },
+  {
+   "start": 427.26,
+   "end": 428.32,
+   "text": "Yes, they are.",
+   "lang": "en"
+  },
+  {
+   "start": 430.88,
+   "end": 432.1,
+   "text": "Yes, they are.",
+   "lang": "en"
+  },
+  {
+   "start": 434.82,
+   "end": 437.04,
+   "text": "Say that your family is with you.",
+   "lang": "en"
+  },
+  {
+   "start": 440.52,
+   "end": 442.18,
+   "text": "My family is with me.",
+   "lang": "en"
+  },
+  {
+   "start": 443.9,
+   "end": 448.78,
+   "text": "Now say, Наша семья с нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 448.78,
+   "end": 448.94,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 452.4,
+   "end": 454.68,
+   "text": "Our family is with us.",
+   "lang": "ru"
+  },
+  {
+   "start": 458.36,
+   "end": 460.48,
+   "text": "Our families with us.",
+   "lang": "en"
+  },
+  {
+   "start": 464.32,
+   "end": 465.52,
+   "text": "Сколько человек?",
+   "lang": "ru"
+  },
+  {
+   "start": 465.94,
+   "end": 469.16,
+   "text": "How many people?",
+   "lang": "ru"
+  },
+  {
+   "start": 469.16,
+   "end": 469.36,
+   "text": "People.",
+   "lang": "en"
+  },
+  {
+   "start": 472.76,
+   "end": 472.78,
+   "text": "People.",
+   "lang": "en"
+  },
+  {
+   "start": 473.96,
+   "end": 475.12,
+   "text": "People.",
+   "lang": "en"
+  },
+  {
+   "start": 477.16,
+   "end": 478.36,
+   "text": "Ask in English.",
+   "lang": "en"
+  },
+  {
+   "start": 478.38,
+   "end": 480.0,
+   "text": "Сколько человек?",
+   "lang": "ru"
+  },
+  {
+   "start": 482.7,
+   "end": 484.26,
+   "text": "How many people?",
+   "lang": "en"
+  },
+  {
+   "start": 485.62,
+   "end": 488.7,
+   "text": "В вашей семье.",
+   "lang": "ru"
+  },
+  {
+   "start": 488.7,
+   "end": 490.3,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 490.66,
+   "end": 491.92,
+   "text": "In your family.",
+   "lang": "ru"
+  },
+  {
+   "start": 494.54,
+   "end": 495.48,
+   "text": "In.",
+   "lang": "ru"
+  },
+  {
+   "start": 496.84,
+   "end": 497.78,
+   "text": "In.",
+   "lang": "ru"
+  },
+  {
+   "start": 499.16,
+   "end": 500.8,
+   "text": "In your family.",
+   "lang": "ru"
+  },
+  {
+   "start": 503.44,
+   "end": 504.38,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 505.2,
+   "end": 506.3,
+   "text": "В вашей семье.",
+   "lang": "ru"
+  },
+  {
+   "start": 508.6,
+   "end": 510.22,
+   "text": "In your family.",
+   "lang": "ru"
+  },
+  {
+   "start": 512.82,
+   "end": 517.48,
+   "text": "Сейчас она хочет спросить, сколько человек в вашей семье?",
+   "lang": "ru"
+  },
+  {
+   "start": 519.22,
+   "end": 522.3,
+   "text": "How many people are there in your family?",
+   "lang": "ru"
+  },
+  {
+   "start": 527.76,
+   "end": 528.76,
+   "text": "Are there?",
+   "lang": "ru"
+  },
+  {
+   "start": 530.72,
+   "end": 531.62,
+   "text": "Are there?",
+   "lang": "ru"
+  },
+  {
+   "start": 533.62,
+   "end": 535.34,
+   "text": "How many people are there?",
+   "lang": "ru"
+  },
+  {
+   "start": 538.58,
+   "end": 541.02,
+   "text": "How many people are there in your family?",
+   "lang": "ru"
+  },
+  {
+   "start": 545.74,
+   "end": 546.76,
+   "text": "Ask again.",
+   "lang": "ru"
+  },
+  {
+   "start": 546.76,
+   "end": 549.34,
+   "text": "How many people are there in your family?",
+   "lang": "en"
+  },
+  {
+   "start": 554.08,
+   "end": 556.76,
+   "text": "How many people are there in your family?",
+   "lang": "ru"
+  },
+  {
+   "start": 562.04,
+   "end": 562.74,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 562.74,
+   "end": 564.14,
+   "text": "Попробуйте сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 564.14,
+   "end": 565.94,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 565.94,
+   "end": 567.86,
+   "text": "В моей семье",
+   "lang": "ru"
+  },
+  {
+   "start": 570.72,
+   "end": 572.22,
+   "text": "In my family",
+   "lang": "ru"
+  },
+  {
+   "start": 575.18,
+   "end": 575.94,
+   "text": "Ask",
+   "lang": "ru"
+  },
+  {
+   "start": 575.94,
+   "end": 578.62,
+   "text": "Сколько человек в вашей семье?",
+   "lang": "ru"
+  },
+  {
+   "start": 583.5,
+   "end": 585.66,
+   "text": "How many people are there in your family?",
+   "lang": "en"
+  },
+  {
+   "start": 589.2,
+   "end": 592.94,
+   "text": "В моей семье три человека.",
+   "lang": "ru"
+  },
+  {
+   "start": 593.18,
+   "end": 594.6,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 595.48,
+   "end": 596.7,
+   "text": "В моей семье три человека.",
+   "lang": "ru"
+  },
+  {
+   "start": 597.8,
+   "end": 598.88,
+   "text": "Есть.",
+   "lang": "ru"
+  },
+  {
+   "start": 603.0,
+   "end": 603.96,
+   "text": "There are.",
+   "lang": "en"
+  },
+  {
+   "start": 605.64,
+   "end": 606.72,
+   "text": "Есть.",
+   "lang": "ru"
+  },
+  {
+   "start": 609.7,
+   "end": 611.76,
+   "text": "There are three people in my family.",
+   "lang": "ru"
+  },
+  {
+   "start": 616.3,
+   "end": 618.3,
+   "text": "Say that there are three people.",
+   "lang": "ru"
+  },
+  {
+   "start": 622.1,
+   "end": 623.76,
+   "text": "There are three people.",
+   "lang": "ru"
+  },
+  {
+   "start": 628.04,
+   "end": 630.22,
+   "text": "Say, в моей семье.",
+   "lang": "ru"
+  },
+  {
+   "start": 633.06,
+   "end": 634.4,
+   "text": "In my family.",
+   "lang": "ru"
+  },
+  {
+   "start": 637.4,
+   "end": 639.68,
+   "text": "There are three people in my family.",
+   "lang": "en"
+  },
+  {
+   "start": 644.26,
+   "end": 650.5,
+   "text": "Когда идет речь о количестве, в английском языке часто используется выражение",
+   "lang": "ru"
+  },
+  {
+   "start": 650.5,
+   "end": 655.34,
+   "text": "There are. Повторяйте вслед за диктором вопрос и ответ на него.",
+   "lang": "ru"
+  },
+  {
+   "start": 655.74,
+   "end": 658.7,
+   "text": "How many are there? There are three.",
+   "lang": "ru"
+  },
+  {
+   "start": 664.4,
+   "end": 667.94,
+   "text": "How many people are there? There are three people.",
+   "lang": "ru"
+  },
+  {
+   "start": 674.74,
+   "end": 678.32,
+   "text": "Say again that there are three people in your family.",
+   "lang": "ru"
+  },
+  {
+   "start": 683.64,
+   "end": 686.46,
+   "text": "There are three people in my family.",
+   "lang": "ru"
+  },
+  {
+   "start": 691.42,
+   "end": 693.4,
+   "text": "В моей машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 695.66,
+   "end": 696.94,
+   "text": "В моем автомобиле.",
+   "lang": "ru"
+  },
+  {
+   "start": 699.44,
+   "end": 700.4,
+   "text": "Автомобиль.",
+   "lang": "ru"
+  },
+  {
+   "start": 702.04,
+   "end": 703.0,
+   "text": "Автомобиль.",
+   "lang": "ru"
+  },
+  {
+   "start": 704.62,
+   "end": 705.74,
+   "text": "Скажите снова.",
+   "lang": "ru"
+  },
+  {
+   "start": 706.1,
+   "end": 707.58,
+   "text": "В моей машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 710.18,
+   "end": 712.08,
+   "text": "В моем автомобиле.",
+   "lang": "ru"
+  },
+  {
+   "start": 714.82,
+   "end": 715.94,
+   "text": "Попробуйте сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 716.76,
+   "end": 717.32,
+   "text": "машина",
+   "lang": "ru"
+  },
+  {
+   "start": 719.3,
+   "end": 719.86,
+   "text": "car",
+   "lang": "ru"
+  },
+  {
+   "start": 722.0,
+   "end": 722.96,
+   "text": "a car",
+   "lang": "ru"
+  },
+  {
+   "start": 725.56,
+   "end": 727.52,
+   "text": "Ask me if I have a car.",
+   "lang": "ru"
+  },
+  {
+   "start": 728.62,
+   "end": 730.78,
+   "text": "Спросите, есть ли у меня машина?",
+   "lang": "ru"
+  },
+  {
+   "start": 731.26,
+   "end": 731.82,
+   "text": "if",
+   "lang": "ru"
+  },
+  {
+   "start": 732.46,
+   "end": 732.56,
+   "text": "ли",
+   "lang": "ru"
+  },
+  {
+   "start": 732.56,
+   "end": 732.72,
+   "text": "Lee.",
+   "lang": "en"
+  },
+  {
+   "start": 735.88,
+   "end": 737.36,
+   "text": "Do you have a car?",
+   "lang": "ru"
+  },
+  {
+   "start": 740.7,
+   "end": 741.86,
+   "text": "How do you say",
+   "lang": "ru"
+  },
+  {
+   "start": 741.86,
+   "end": 743.98,
+   "text": "Как сказать ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 745.54,
+   "end": 746.32,
+   "text": "Если.",
+   "lang": "ru"
+  },
+  {
+   "start": 746.32,
+   "end": 748.2,
+   "text": "if",
+   "lang": "en"
+  },
+  {
+   "start": 752.66,
+   "end": 755.22,
+   "text": "Попросите меня снова, если у меня есть машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 758.02,
+   "end": 759.72,
+   "text": "У вас есть машина?",
+   "lang": "ru"
+  },
+  {
+   "start": 762.7,
+   "end": 765.32,
+   "text": "Дайте короткий утвердительный ответ.",
+   "lang": "ru"
+  },
+  {
+   "start": 765.32,
+   "end": 765.64,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 768.5,
+   "end": 769.7,
+   "text": "Yes, I do.",
+   "lang": "ru"
+  },
+  {
+   "start": 772.88,
+   "end": 774.24,
+   "text": "Yes, I do.",
+   "lang": "en"
+  },
+  {
+   "start": 776.98,
+   "end": 779.52,
+   "text": "Ask me if my car is here.",
+   "lang": "ru"
+  },
+  {
+   "start": 779.52,
+   "end": 782.42,
+   "text": "Ask me if my car is here.",
+   "lang": "en"
+  },
+  {
+   "start": 785.14,
+   "end": 787.02,
+   "text": "Is your car here?",
+   "lang": "ru"
+  },
+  {
+   "start": 790.14,
+   "end": 791.64,
+   "text": "Is your car here?",
+   "lang": "en"
+  },
+  {
+   "start": 794.94,
+   "end": 797.7,
+   "text": "Ask me if my family is in America.",
+   "lang": "en"
+  },
+  {
+   "start": 801.82,
+   "end": 803.16,
+   "text": "Is your family in America?",
+   "lang": "en"
+  },
+  {
+   "start": 803.18,
+   "end": 809.56,
+   "text": "Да, они здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 813.7,
+   "end": 814.9,
+   "text": "Yes, they're here.",
+   "lang": "en"
+  },
+  {
+   "start": 818.44,
+   "end": 819.32,
+   "text": "There.",
+   "lang": "ru"
+  },
+  {
+   "start": 821.72,
+   "end": 824.96,
+   "text": "How do you say Моя жена с детьми?",
+   "lang": "ru"
+  },
+  {
+   "start": 829.2,
+   "end": 831.54,
+   "text": "My wife is with the children.",
+   "lang": "ru"
+  },
+  {
+   "start": 835.94,
+   "end": 839.68,
+   "text": "Say В нашей семье пять человек.",
+   "lang": "ru"
+  },
+  {
+   "start": 844.68,
+   "end": 847.22,
+   "text": "There are five people in our family.",
+   "lang": "en"
+  },
+  {
+   "start": 852.04,
+   "end": 853.42,
+   "text": "In our family.",
+   "lang": "en"
+  },
+  {
+   "start": 855.34,
+   "end": 859.38,
+   "text": "У нас есть машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 862.12,
+   "end": 863.42,
+   "text": "We have a car.",
+   "lang": "en"
+  },
+  {
+   "start": 866.44,
+   "end": 867.68,
+   "text": "We have a car.",
+   "lang": "en"
+  },
+  {
+   "start": 870.92,
+   "end": 873.92,
+   "text": "У нас большая машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 877.64,
+   "end": 879.36,
+   "text": "We have a big car.",
+   "lang": "en"
+  },
+  {
+   "start": 883.42,
+   "end": 885.66,
+   "text": "Ask if it is big or little.",
+   "lang": "en"
+  },
+  {
+   "start": 892.08,
+   "end": 893.66,
+   "text": "Is it big or little?",
+   "lang": "en"
+  },
+  {
+   "start": 897.56,
+   "end": 899.14,
+   "text": "Is it big or little?",
+   "lang": "en"
+  },
+  {
+   "start": 902.46,
+   "end": 904.28,
+   "text": "Say that it isn't big.",
+   "lang": "en"
+  },
+  {
+   "start": 906.6,
+   "end": 908.64,
+   "text": "It isn't big.",
+   "lang": "ru"
+  },
+  {
+   "start": 908.64,
+   "end": 908.88,
+   "text": "Big.",
+   "lang": "en"
+  },
+  {
+   "start": 911.66,
+   "end": 914.44,
+   "text": "Say that it isn't really little.",
+   "lang": "ru"
+  },
+  {
+   "start": 917.64,
+   "end": 919.74,
+   "text": "It isn't really little.",
+   "lang": "ru"
+  },
+  {
+   "start": 922.84,
+   "end": 924.98,
+   "text": "It isn't really little.",
+   "lang": "ru"
+  },
+  {
+   "start": 927.9,
+   "end": 930.44,
+   "text": "Say – достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 932.58,
+   "end": 933.94,
+   "text": "Enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 936.94,
+   "end": 939.1,
+   "text": "Say – достаточно большая.",
+   "lang": "ru"
+  },
+  {
+   "start": 939.18,
+   "end": 945.4,
+   "text": "По-английски дословно вам придется произнести «большая достаточно».",
+   "lang": "ru"
+  },
+  {
+   "start": 947.24,
+   "end": 948.48,
+   "text": "Big enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 951.68,
+   "end": 952.24,
+   "text": "Big enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 954.82,
+   "end": 959.36,
+   "text": "Say. Моя машина достаточно большая?",
+   "lang": "ru"
+  },
+  {
+   "start": 963.46,
+   "end": 965.74,
+   "text": "My car is big enough.",
+   "lang": "ru"
+  },
+  {
+   "start": 970.04,
+   "end": 973.16,
+   "text": "Say. Для нашей семьи.",
+   "lang": "ru"
+  },
+  {
+   "start": 975.78,
+   "end": 977.5,
+   "text": "For our family.",
+   "lang": "ru"
+  },
+  {
+   "start": 980.26,
+   "end": 982.02,
+   "text": "For our family.",
+   "lang": "ru"
+  },
+  {
+   "start": 985.0,
+   "end": 987.2,
+   "text": "Ask me if I speak English.",
+   "lang": "ru"
+  },
+  {
+   "start": 987.2,
+   "end": 987.46,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 990.24,
+   "end": 991.88,
+   "text": "Do you speak English?",
+   "lang": "ru"
+  },
+  {
+   "start": 991.88,
+   "end": 992.16,
+   "text": "English?",
+   "lang": "en"
+  },
+  {
+   "start": 995.06,
+   "end": 996.24,
+   "text": "Not really.",
+   "lang": "ru"
+  },
+  {
+   "start": 998.44,
+   "end": 999.6,
+   "text": "Not really.",
+   "lang": "ru"
+  },
+  {
+   "start": 1002.06,
+   "end": 1005.2,
+   "text": "Ask Ms. Jones if she speaks Russian.",
+   "lang": "ru"
+  },
+  {
+   "start": 1005.76,
+   "end": 1009.28,
+   "text": "Спросите у мисс Джонс, говорит ли она по-русски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1013.38,
+   "end": 1015.6,
+   "text": "Do you speak Russian, Ms. Jones?",
+   "lang": "en"
+  },
+  {
+   "start": 1020.08,
+   "end": 1021.14,
+   "text": "Ms. Jones?",
+   "lang": "en"
+  },
+  {
+   "start": 1023.8,
+   "end": 1025.2,
+   "text": "No, I don't speak Russian.",
+   "lang": "en"
+  },
+  {
+   "start": 1025.22,
+   "end": 1028.54,
+   "text": "Я немного говорю по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1031.8,
+   "end": 1034.28,
+   "text": "I speak English a little.",
+   "lang": "ru"
+  },
+  {
+   "start": 1038.56,
+   "end": 1039.92,
+   "text": "Say that you can understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 1039.92,
+   "end": 1040.32,
+   "text": "Stand.",
+   "lang": "en"
+  },
+  {
+   "start": 1043.5,
+   "end": 1045.28,
+   "text": "I can understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 1045.28,
+   "end": 1045.68,
+   "text": "Stand.",
+   "lang": "en"
+  },
+  {
+   "start": 1048.76,
+   "end": 1050.5,
+   "text": "I can understand.",
+   "lang": "ru"
+  },
+  {
+   "start": 1050.5,
+   "end": 1050.9,
+   "text": "stand.",
+   "lang": "en"
+  },
+  {
+   "start": 1054.18,
+   "end": 1056.48,
+   "text": "Say, три человека.",
+   "lang": "ru"
+  },
+  {
+   "start": 1059.16,
+   "end": 1060.68,
+   "text": "Three people.",
+   "lang": "ru"
+  },
+  {
+   "start": 1063.92,
+   "end": 1066.1,
+   "text": "Say, в нашей семье.",
+   "lang": "ru"
+  },
+  {
+   "start": 1068.48,
+   "end": 1070.22,
+   "text": "In our family.",
+   "lang": "ru"
+  },
+  {
+   "start": 1072.76,
+   "end": 1074.44,
+   "text": "In our family.",
+   "lang": "ru"
+  },
+  {
+   "start": 1077.06,
+   "end": 1081.28,
+   "text": "Now say, в нашей семье пять человек.",
+   "lang": "ru"
+  },
+  {
+   "start": 1086.52,
+   "end": 1089.2,
+   "text": "There are five people in our family.",
+   "lang": "ru"
+  },
+  {
+   "start": 1093.86,
+   "end": 1095.28,
+   "text": "There are five.",
+   "lang": "ru"
+  },
+  {
+   "start": 1098.18,
+   "end": 1100.5,
+   "text": "Say that you have three children.",
+   "lang": "ru"
+  },
+  {
+   "start": 1100.5,
+   "end": 1100.76,
+   "text": "children.",
+   "lang": "en"
+  },
+  {
+   "start": 1104.18,
+   "end": 1106.24,
+   "text": "We have three children.",
+   "lang": "ru"
+  },
+  {
+   "start": 1109.86,
+   "end": 1114.22,
+   "text": "У нас одна девочка и два мальчика.",
+   "lang": "ru"
+  },
+  {
+   "start": 1119.54,
+   "end": 1122.56,
+   "text": "Мы имеем одну девушку и двух мальчиков.",
+   "lang": "ru"
+  },
+  {
+   "start": 1127.6,
+   "end": 1129.74,
+   "text": "One girl and two boys",
+   "lang": "en"
+  },
+  {
+   "start": 1134.4,
+   "end": 1138.98,
+   "text": "Используя слово «мы», дайте утвердительный ответ на следующий вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 1139.56,
+   "end": 1140.98,
+   "text": "Do you have a car?",
+   "lang": "ru"
+  },
+  {
+   "start": 1140.98,
+   "end": 1142.84,
+   "text": "Do you have a car?",
+   "lang": "en"
+  },
+  {
+   "start": 1146.38,
+   "end": 1147.84,
+   "text": "Yes, we have a car.",
+   "lang": "en"
+  },
+  {
+   "start": 1151.24,
+   "end": 1152.32,
+   "text": "Yes, we do.",
+   "lang": "en"
+  },
+  {
+   "start": 1154.64,
+   "end": 1157.88,
+   "text": "Мы хотели бы купить немного бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1157.88,
+   "end": 1159.52,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1160.58,
+   "end": 1161.42,
+   "text": "We'd like some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1165.1,
+   "end": 1165.78,
+   "text": "Gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1167.74,
+   "end": 1168.42,
+   "text": "Gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1170.66,
+   "end": 1171.66,
+   "text": "Some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1174.56,
+   "end": 1175.96,
+   "text": "We'd like some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1178.8,
+   "end": 1183.94,
+   "text": "В подобного рода фразах слово купить можно не произносить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1184.28,
+   "end": 1187.96,
+   "text": "Say again. Мы хотели бы немного бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1190.94,
+   "end": 1192.58,
+   "text": "We'd like some gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 1195.88,
+   "end": 1199.0,
+   "text": "Say. Дайте мне немного бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1202.26,
+   "end": 1203.66,
+   "text": "Give me some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1206.42,
+   "end": 1211.28,
+   "text": "В Америке стандартной мерой жидкости служит галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1212.06,
+   "end": 1215.36,
+   "text": "Один галлон – это примерно 3,75 литра.",
+   "lang": "ru"
+  },
+  {
+   "start": 1215.96,
+   "end": 1218.6,
+   "text": "Вот как можно попросить 5 галлонов бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1218.6,
+   "end": 1220.3,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1220.68,
+   "end": 1222.76,
+   "text": "Five gallons of gas, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1227.58,
+   "end": 1228.42,
+   "text": "Gallons.",
+   "lang": "ru"
+  },
+  {
+   "start": 1230.52,
+   "end": 1231.36,
+   "text": "Gallons.",
+   "lang": "ru"
+  },
+  {
+   "start": 1233.32,
+   "end": 1234.8,
+   "text": "Five gallons.",
+   "lang": "ru"
+  },
+  {
+   "start": 1237.64,
+   "end": 1239.48,
+   "text": "Five gallons of gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 1243.68,
+   "end": 1245.76,
+   "text": "Say, десять галлонов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1245.76,
+   "end": 1249.12,
+   "text": "of 10 gallons.",
+   "lang": "en"
+  },
+  {
+   "start": 1251.08,
+   "end": 1252.12,
+   "text": "Try",
+   "lang": "en"
+  },
+  {
+   "start": 1252.34,
+   "end": 1254.5,
+   "text": "Попробуйте спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1256.62,
+   "end": 1257.36,
+   "text": "Сколько галлонов?",
+   "lang": "ru"
+  },
+  {
+   "start": 1260.14,
+   "end": 1261.7,
+   "text": "How many gallons?",
+   "lang": "en"
+  },
+  {
+   "start": 1264.68,
+   "end": 1266.22,
+   "text": "How many gallons?",
+   "lang": "en"
+  },
+  {
+   "start": 1269.2,
+   "end": 1272.22,
+   "text": "Помните, как сказать «мы хотим»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1273.8,
+   "end": 1275.28,
+   "text": "We want.",
+   "lang": "ru"
+  },
+  {
+   "start": 1277.78,
+   "end": 1278.26,
+   "text": "We want.",
+   "lang": "en"
+  },
+  {
+   "start": 1278.26,
+   "end": 1278.48,
+   "text": "We want.",
+   "lang": "en"
+  },
+  {
+   "start": 1279.8,
+   "end": 1283.74,
+   "text": "А сейчас скажите, мы хотели бы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1283.74,
+   "end": 1287.04,
+   "text": "We'd like...",
+   "lang": "en"
+  },
+  {
+   "start": 1288.74,
+   "end": 1290.3,
+   "text": "We'd like...",
+   "lang": "en"
+  },
+  {
+   "start": 1292.46,
+   "end": 1295.52,
+   "text": "Мы хотели бы 15 галлонов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1300.2,
+   "end": 1302.46,
+   "text": "We'd like 15 gallons.",
+   "lang": "en"
+  },
+  {
+   "start": 1307.4,
+   "end": 1312.14,
+   "text": "в машине, имея в виду конкретную машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 1314.64,
+   "end": 1315.5,
+   "text": "In the car.",
+   "lang": "en"
+  },
+  {
+   "start": 1317.0,
+   "end": 1324.34,
+   "text": "в нашей машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 1326.98,
+   "end": 1328.56,
+   "text": "In our car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1332.2,
+   "end": 1332.34,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1333.26,
+   "end": 1334.7,
+   "text": "20 галлонов бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1334.7,
+   "end": 1334.78,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 1338.04,
+   "end": 1339.74,
+   "text": "20 gallons of gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 1343.4,
+   "end": 1344.2,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1344.72,
+   "end": 1345.52,
+   "text": "Подождите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1346.96,
+   "end": 1347.76,
+   "text": "Wait.",
+   "lang": "ru"
+  },
+  {
+   "start": 1349.78,
+   "end": 1349.96,
+   "text": "Wait.",
+   "lang": "ru"
+  },
+  {
+   "start": 1351.4,
+   "end": 1352.72,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.98,
+   "end": 1359.18,
+   "text": "That's a lot of gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1362.2,
+   "end": 1365.12,
+   "text": "Это слишком много.",
+   "lang": "ru"
+  },
+  {
+   "start": 1368.0,
+   "end": 1368.96,
+   "text": "That's too much.",
+   "lang": "en"
+  },
+  {
+   "start": 1370.96,
+   "end": 1372.72,
+   "text": "Этого достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1375.62,
+   "end": 1376.46,
+   "text": "That's enough.",
+   "lang": "en"
+  },
+  {
+   "start": 1379.46,
+   "end": 1381.38,
+   "text": "Этого достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1384.34,
+   "end": 1385.54,
+   "text": "Is that enough?",
+   "lang": "ru"
+  },
+  {
+   "start": 1388.5,
+   "end": 1389.38,
+   "text": "Is that enough?",
+   "lang": "en"
+  },
+  {
+   "start": 1389.46,
+   "end": 1396.56,
+   "text": "Say, 25 галлонов? Это слишком много.",
+   "lang": "ru"
+  },
+  {
+   "start": 1402.04,
+   "end": 1405.32,
+   "text": "25 галлонов? That's too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 1405.32,
+   "end": 1410.4,
+   "text": "Thank you very much.",
+   "lang": "en"
+  },
+  {
+   "start": 1410.66,
+   "end": 1411.62,
+   "text": "Миллиард.",
+   "lang": "ru"
+  },
+  {
+   "start": 1411.62,
+   "end": 1414.9,
+   "text": "Основной мерой длины в Америке является миля.",
+   "lang": "ru"
+  },
+  {
+   "start": 1415.68,
+   "end": 1418.64,
+   "text": "Миля – это примерно 1600 метров.",
+   "lang": "ru"
+  },
+  {
+   "start": 1419.48,
+   "end": 1422.02,
+   "text": "Вот как сказать «миля» по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1422.44,
+   "end": 1423.62,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1424.48,
+   "end": 1425.44,
+   "text": "Миллиард.",
+   "lang": "ru"
+  },
+  {
+   "start": 1427.2,
+   "end": 1428.16,
+   "text": "Миллиард.",
+   "lang": "ru"
+  },
+  {
+   "start": 1430.0,
+   "end": 1432.14,
+   "text": "Спросите, сколько миль?",
+   "lang": "ru"
+  },
+  {
+   "start": 1435.32,
+   "end": 1436.3,
+   "text": "How many miles?",
+   "lang": "ru"
+  },
+  {
+   "start": 1439.94,
+   "end": 1440.18,
+   "text": "Miles.",
+   "lang": "ru"
+  },
+  {
+   "start": 1442.18,
+   "end": 1443.88,
+   "text": "How many miles?",
+   "lang": "ru"
+  },
+  {
+   "start": 1447.18,
+   "end": 1447.56,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1448.02,
+   "end": 1448.94,
+   "text": "Отвечайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1449.22,
+   "end": 1450.02,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1450.52,
+   "end": 1451.82,
+   "text": "Пятьдесят миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 1454.52,
+   "end": 1455.76,
+   "text": "Fifty miles.",
+   "lang": "ru"
+  },
+  {
+   "start": 1458.6,
+   "end": 1459.52,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1460.44,
+   "end": 1463.0,
+   "text": "Тогда я собираюсь купить немного бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1467.48,
+   "end": 1469.64,
+   "text": "Then I'm going to buy some gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1474.26,
+   "end": 1477.38,
+   "text": "Пожалуйста, дайте мне 16 галлонов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1481.42,
+   "end": 1484.38,
+   "text": "Please give me 16 gallons.",
+   "lang": "ru"
+  },
+  {
+   "start": 1489.28,
+   "end": 1490.88,
+   "text": "Please give me 16.",
+   "lang": "en"
+  },
+  {
+   "start": 1491.28,
+   "end": 1498.88,
+   "text": "Ask. Где туалет?",
+   "lang": "ru"
+  },
+  {
+   "start": 1500.68,
+   "end": 1502.66,
+   "text": "Where is the bathroom?",
+   "lang": "ru"
+  },
+  {
+   "start": 1505.3,
+   "end": 1507.82,
+   "text": "Say that the bathroom is over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1511.6,
+   "end": 1513.46,
+   "text": "The bathroom is over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1517.3,
+   "end": 1518.38,
+   "text": "Can you wait?",
+   "lang": "ru"
+  },
+  {
+   "start": 1520.9,
+   "end": 1524.24,
+   "text": "Say, да, мы можем подождать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1527.54,
+   "end": 1529.02,
+   "text": "Yes, we can wait.",
+   "lang": "ru"
+  },
+  {
+   "start": 1532.56,
+   "end": 1533.6,
+   "text": "Yes, we can.",
+   "lang": "en"
+  },
+  {
+   "start": 1536.0,
+   "end": 1537.9,
+   "text": "Сейчас он говорит.",
+   "lang": "ru"
+  },
+  {
+   "start": 1538.7,
+   "end": 1540.34,
+   "text": "Я собираюсь на Long Island.",
+   "lang": "ru"
+  },
+  {
+   "start": 1540.78,
+   "end": 1542.14,
+   "text": "Long Island.",
+   "lang": "ru"
+  },
+  {
+   "start": 1542.52,
+   "end": 1543.82,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1543.82,
+   "end": 1545.64,
+   "text": "8. Long Island",
+   "lang": "en"
+  },
+  {
+   "start": 1547.66,
+   "end": 1549.06,
+   "text": "Lund",
+   "lang": "en"
+  },
+  {
+   "start": 1549.06,
+   "end": 1551.54,
+   "text": "Island",
+   "lang": "en"
+  },
+  {
+   "start": 1551.54,
+   "end": 1554.32,
+   "text": "Island",
+   "lang": "en"
+  },
+  {
+   "start": 1555.84,
+   "end": 1557.24,
+   "text": "Long",
+   "lang": "en"
+  },
+  {
+   "start": 1558.78,
+   "end": 1560.74,
+   "text": "Long Island",
+   "lang": "en"
+  },
+  {
+   "start": 1563.28,
+   "end": 1564.84,
+   "text": "Лонг-Айленд.",
+   "lang": "ru"
+  },
+  {
+   "start": 1567.14,
+   "end": 1572.06,
+   "text": "Лонг-Айленд – это часть Нью-Йорка, знаменитая своими пляжами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1572.42,
+   "end": 1574.74,
+   "text": "Я собираюсь на Лонг-Айленд.",
+   "lang": "ru"
+  },
+  {
+   "start": 1574.74,
+   "end": 1576.28,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1576.68,
+   "end": 1578.38,
+   "text": "I'm going to Long Island.",
+   "lang": "en"
+  },
+  {
+   "start": 1581.52,
+   "end": 1582.94,
+   "text": "To Long Island.",
+   "lang": "en"
+  },
+  {
+   "start": 1588.04,
+   "end": 1594.3,
+   "text": "Говоря, что вы собираетесь в определенное место, нужно использовать перед его названием слово",
+   "lang": "ru"
+  },
+  {
+   "start": 1594.3,
+   "end": 1599.12,
+   "text": "Я собираюсь на Лонг-Айленд.",
+   "lang": "ru"
+  },
+  {
+   "start": 1602.72,
+   "end": 1604.22,
+   "text": "I'm going to Long Island.",
+   "lang": "en"
+  },
+  {
+   "start": 1607.52,
+   "end": 1609.72,
+   "text": "Сколько миль до Лонг-Айленда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1609.84,
+   "end": 1611.22,
+   "text": "Послушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1612.2,
+   "end": 1614.2,
+   "text": "Сколько миль до Лонг-Айленда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1617.9,
+   "end": 1619.4,
+   "text": "To Long Island",
+   "lang": "en"
+  },
+  {
+   "start": 1621.86,
+   "end": 1628.32,
+   "text": "Сколько миль до Лонг-Айленда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1631.42,
+   "end": 1632.82,
+   "text": "Ask.",
+   "lang": "en"
+  },
+  {
+   "start": 1632.94,
+   "end": 1635.58,
+   "text": "Сколько миль до Лонг-Айленда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1640.2,
+   "end": 1642.22,
+   "text": "How many miles to Long Island?",
+   "lang": "en"
+  },
+  {
+   "start": 1647.52,
+   "end": 1648.92,
+   "text": "Отвечайте",
+   "lang": "ru"
+  },
+  {
+   "start": 1648.92,
+   "end": 1651.74,
+   "text": "60 миль",
+   "lang": "ru"
+  },
+  {
+   "start": 1653.94,
+   "end": 1655.92,
+   "text": "60 миль",
+   "lang": "ru"
+  },
+  {
+   "start": 1658.84,
+   "end": 1660.64,
+   "text": "It's 60 miles.",
+   "lang": "ru"
+  },
+  {
+   "start": 1664.3,
+   "end": 1666.3,
+   "text": "Сколько миль до Лонг-Айленда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1670.24,
+   "end": 1672.62,
+   "text": "How many miles to Long Island?",
+   "lang": "ru"
+  },
+  {
+   "start": 1677.0,
+   "end": 1678.6,
+   "text": "65 миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 1682.5,
+   "end": 1684.2,
+   "text": "65 miles.",
+   "lang": "ru"
+  },
+  {
+   "start": 1688.64,
+   "end": 1689.28,
+   "text": "Правда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1691.22,
+   "end": 1691.86,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 1693.8,
+   "end": 1694.44,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 1696.4,
+   "end": 1697.04,
+   "text": "Yes.",
+   "lang": "ru"
+  },
+  {
+   "start": 1698.2,
+   "end": 1698.32,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1699.2,
+   "end": 1700.64,
+   "text": "У меня большая машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1703.9,
+   "end": 1705.5,
+   "text": "I have a big car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1708.88,
+   "end": 1710.68,
+   "text": "I have a big car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1714.54,
+   "end": 1717.86,
+   "text": "Попробуйте спросить его, большая ли у него семья.",
+   "lang": "ru"
+  },
+  {
+   "start": 1721.44,
+   "end": 1723.36,
+   "text": "Do you have a big family?",
+   "lang": "ru"
+  },
+  {
+   "start": 1727.1,
+   "end": 1728.8,
+   "text": "Do you have a big family?",
+   "lang": "en"
+  },
+  {
+   "start": 1728.94,
+   "end": 1729.54,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 1731.86,
+   "end": 1733.26,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 1733.48,
+   "end": 1736.38,
+   "text": "Да, в моей семье шесть человек.",
+   "lang": "ru"
+  },
+  {
+   "start": 1741.94,
+   "end": 1744.64,
+   "text": "Yes, there are six people in my family.",
+   "lang": "ru"
+  },
+  {
+   "start": 1750.02,
+   "end": 1752.8,
+   "text": "Say that there are six people in your car.",
+   "lang": "en"
+  },
+  {
+   "start": 1756.86,
+   "end": 1759.68,
+   "text": "There are six people in my car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1763.88,
+   "end": 1767.28,
+   "text": "Но у меня большая машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1770.6,
+   "end": 1772.16,
+   "text": "But I have a big car.",
+   "lang": "en"
+  },
+  {
+   "start": 1774.94,
+   "end": 1777.5,
+   "text": "У меня много бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1779.52,
+   "end": 1781.1,
+   "text": "I have",
+   "lang": "en"
+  },
+  {
+   "start": 1781.12,
+   "end": 1787.44,
+   "text": "И мы собираемся на Лонг-Айленд.",
+   "lang": "ru"
+  },
+  {
+   "start": 1791.06,
+   "end": 1793.38,
+   "text": "И мы идем на Лонг-Айленд.",
+   "lang": "ru"
+  }
+ ]
+}

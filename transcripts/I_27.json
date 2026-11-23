@@ -1,0 +1,2463 @@
+{
+ "id": "I_27",
+ "source": "Pimsleur_I_27.mp3",
+ "duration": 1816.82,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 170,
+ "segments": [
+  {
+   "start": 3.46,
+   "end": 8.96,
+   "text": "Американский английский язык по методу доктора Пимслера. Урок номер 27.",
+   "lang": "ru"
+  },
+  {
+   "start": 8.96,
+   "end": 11.04,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 25.96,
+   "end": 30.1,
+   "text": "Вы слышали, как женщина сказала?",
+   "lang": "ru"
+  },
+  {
+   "start": 30.8,
+   "end": 34.16,
+   "text": "Что означает «Скажите мне»?",
+   "lang": "ru"
+  },
+  {
+   "start": 34.76,
+   "end": 35.2,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 36.0,
+   "end": 37.24,
+   "text": "Hello, how are you?",
+   "lang": "en"
+  },
+  {
+   "start": 37.6,
+   "end": 38.86,
+   "text": "Fine, thanks. And you?",
+   "lang": "en"
+  },
+  {
+   "start": 39.22,
+   "end": 40.24,
+   "text": "I'm fine, too.",
+   "lang": "en"
+  },
+  {
+   "start": 40.6,
+   "end": 42.64,
+   "text": "Tell me, when are you going to Washington?",
+   "lang": "en"
+  },
+  {
+   "start": 43.12,
+   "end": 43.9,
+   "text": "Tomorrow night.",
+   "lang": "en"
+  },
+  {
+   "start": 44.28,
+   "end": 46.18,
+   "text": "And what are you going to do today?",
+   "lang": "en"
+  },
+  {
+   "start": 46.82,
+   "end": 48.98,
+   "text": "Today I'm going to work. And you?",
+   "lang": "en"
+  },
+  {
+   "start": 49.34,
+   "end": 51.04,
+   "text": "I'm going to see some friends.",
+   "lang": "en"
+  },
+  {
+   "start": 51.58,
+   "end": 52.96,
+   "text": "Tell me in English.",
+   "lang": "en"
+  },
+  {
+   "start": 53.48,
+   "end": 54.68,
+   "text": "Доброе утро!",
+   "lang": "ru"
+  },
+  {
+   "start": 56.9,
+   "end": 57.64,
+   "text": "Good morning.",
+   "lang": "en"
+  },
+  {
+   "start": 59.98,
+   "end": 61.3,
+   "text": "Ask me how I am.",
+   "lang": "en"
+  },
+  {
+   "start": 64.16,
+   "end": 64.48,
+   "text": "Как дела?",
+   "lang": "ru"
+  },
+  {
+   "start": 67.22,
+   "end": 69.04,
+   "text": "Ответ, что ты в порядке.",
+   "lang": "ru"
+  },
+  {
+   "start": 71.54,
+   "end": 72.82,
+   "text": "Я в порядке.",
+   "lang": "ru"
+  },
+  {
+   "start": 75.54,
+   "end": 77.58,
+   "text": "Попроси, если магазины открыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 80.66,
+   "end": 82.02,
+   "text": "Они открыты?",
+   "lang": "ru"
+  },
+  {
+   "start": 85.24,
+   "end": 86.6,
+   "text": "Они открыты?",
+   "lang": "ru"
+  },
+  {
+   "start": 89.62,
+   "end": 91.14,
+   "text": "Ответ, что они закрыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 91.14,
+   "end": 91.5,
+   "text": "Closed.",
+   "lang": "en"
+  },
+  {
+   "start": 94.16,
+   "end": 94.88,
+   "text": "They're closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 97.52,
+   "end": 98.44,
+   "text": "Ask why.",
+   "lang": "ru"
+  },
+  {
+   "start": 100.48,
+   "end": 101.08,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 103.2,
+   "end": 105.64,
+   "text": "Answer. Потому что уже поздно.",
+   "lang": "ru"
+  },
+  {
+   "start": 108.84,
+   "end": 110.06,
+   "text": "Because it's late.",
+   "lang": "ru"
+  },
+  {
+   "start": 113.3,
+   "end": 114.14,
+   "text": "It's late.",
+   "lang": "ru"
+  },
+  {
+   "start": 116.6,
+   "end": 118.62,
+   "text": "Ask me if I'm going to work.",
+   "lang": "ru"
+  },
+  {
+   "start": 121.76,
+   "end": 123.32,
+   "text": "Are you going to work?",
+   "lang": "ru"
+  },
+  {
+   "start": 126.62,
+   "end": 128.38,
+   "text": "Say that you don't think so.",
+   "lang": "en"
+  },
+  {
+   "start": 128.74,
+   "end": 130.38,
+   "text": "Say that you don't think so.",
+   "lang": "en"
+  },
+  {
+   "start": 133.54,
+   "end": 134.8,
+   "text": "I don't think so.",
+   "lang": "en"
+  },
+  {
+   "start": 137.9,
+   "end": 139.14,
+   "text": "I don't think so.",
+   "lang": "en"
+  },
+  {
+   "start": 141.8,
+   "end": 144.4,
+   "text": "Вы думаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 146.72,
+   "end": 147.86,
+   "text": "You think?",
+   "lang": "en"
+  },
+  {
+   "start": 149.34,
+   "end": 151.72,
+   "text": "Вы так не думаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 153.82,
+   "end": 156.44,
+   "text": "Вы так не думаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 159.08,
+   "end": 160.92,
+   "text": "Вы так не думаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 160.92,
+   "end": 165.62,
+   "text": "You don't think so.",
+   "lang": "ru"
+  },
+  {
+   "start": 168.68,
+   "end": 170.84,
+   "text": "Say that you are going to New York.",
+   "lang": "ru"
+  },
+  {
+   "start": 174.48,
+   "end": 176.14,
+   "text": "I'm going to New York.",
+   "lang": "ru"
+  },
+  {
+   "start": 179.6,
+   "end": 188.12,
+   "text": "Не забывайте, что в английском языке слово going может быть использовано для обозначения различных способов передвижения.",
+   "lang": "ru"
+  },
+  {
+   "start": 188.12,
+   "end": 190.62,
+   "text": "Ask. Вы едете в Нью-Йорк?",
+   "lang": "ru"
+  },
+  {
+   "start": 194.14,
+   "end": 196.0,
+   "text": "Are you going to New York?",
+   "lang": "ru"
+  },
+  {
+   "start": 199.74,
+   "end": 201.18,
+   "text": "Are you going to New York?",
+   "lang": "en"
+  },
+  {
+   "start": 201.2,
+   "end": 207.12,
+   "text": "Say. Может быть.",
+   "lang": "ru"
+  },
+  {
+   "start": 209.16,
+   "end": 209.82,
+   "text": "Maybe.",
+   "lang": "ru"
+  },
+  {
+   "start": 209.82,
+   "end": 211.08,
+   "text": "Maybe.",
+   "lang": "en"
+  },
+  {
+   "start": 213.94,
+   "end": 219.98,
+   "text": "Вот как произносится название еще одного американского города, Бостона.",
+   "lang": "ru"
+  },
+  {
+   "start": 220.16,
+   "end": 221.4,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 222.24,
+   "end": 222.96,
+   "text": "Boston.",
+   "lang": "ru"
+  },
+  {
+   "start": 224.96,
+   "end": 225.68,
+   "text": "Boston.",
+   "lang": "ru"
+  },
+  {
+   "start": 228.26,
+   "end": 228.46,
+   "text": "Boston.",
+   "lang": "ru"
+  },
+  {
+   "start": 230.68,
+   "end": 232.9,
+   "text": "Say that you are going to Boston.",
+   "lang": "ru"
+  },
+  {
+   "start": 236.52,
+   "end": 238.2,
+   "text": "I'm going to Boston.",
+   "lang": "ru"
+  },
+  {
+   "start": 241.38,
+   "end": 244.42,
+   "text": "А как сказать «я так думаю»?",
+   "lang": "ru"
+  },
+  {
+   "start": 246.86,
+   "end": 248.08,
+   "text": "I think so.",
+   "lang": "ru"
+  },
+  {
+   "start": 250.7,
+   "end": 251.86,
+   "text": "I think so.",
+   "lang": "en"
+  },
+  {
+   "start": 254.3,
+   "end": 257.92,
+   "text": "Я думаю, что я еду в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 262.04,
+   "end": 264.08,
+   "text": "I think I'm going to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 268.26,
+   "end": 270.36,
+   "text": "I think I'm going to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 274.86,
+   "end": 276.62,
+   "text": "Ask what he's going to do there.",
+   "lang": "ru"
+  },
+  {
+   "start": 276.62,
+   "end": 278.78,
+   "text": "Ask what he's going to do there.",
+   "lang": "en"
+  },
+  {
+   "start": 282.48,
+   "end": 284.4,
+   "text": "What are you going to do there?",
+   "lang": "ru"
+  },
+  {
+   "start": 288.5,
+   "end": 290.9,
+   "text": "Say that you are going to see a few friends.",
+   "lang": "ru"
+  },
+  {
+   "start": 290.9,
+   "end": 291.22,
+   "text": "ends.",
+   "lang": "en"
+  },
+  {
+   "start": 295.98,
+   "end": 297.86,
+   "text": "I'm going to see a few friends.",
+   "lang": "ru"
+  },
+  {
+   "start": 302.88,
+   "end": 305.2,
+   "text": "Say that you have a few friends there.",
+   "lang": "en"
+  },
+  {
+   "start": 308.16,
+   "end": 311.06,
+   "text": "Я вижу своих друзей.",
+   "lang": "ru"
+  },
+  {
+   "start": 315.36,
+   "end": 317.88,
+   "text": "Say that you are going to see your friends.",
+   "lang": "en"
+  },
+  {
+   "start": 322.66,
+   "end": 324.56,
+   "text": "I'm going to see my friends.",
+   "lang": "en"
+  },
+  {
+   "start": 329.28,
+   "end": 330.16,
+   "text": "My friends.",
+   "lang": "en"
+  },
+  {
+   "start": 332.8,
+   "end": 334.8,
+   "text": "Я собираюсь работать.",
+   "lang": "ru"
+  },
+  {
+   "start": 338.56,
+   "end": 340.2,
+   "text": "And I'm going to work.",
+   "lang": "en"
+  },
+  {
+   "start": 342.9,
+   "end": 344.82,
+   "text": "Может быть.",
+   "lang": "ru"
+  },
+  {
+   "start": 346.76,
+   "end": 347.32,
+   "text": "Maybe.",
+   "lang": "en"
+  },
+  {
+   "start": 349.26,
+   "end": 350.92,
+   "text": "And how does one say",
+   "lang": "en"
+  },
+  {
+   "start": 351.08,
+   "end": 353.46,
+   "text": "Я думаю, что я собираюсь работать.",
+   "lang": "ru"
+  },
+  {
+   "start": 357.86,
+   "end": 359.62,
+   "text": "I think I'm going to work.",
+   "lang": "ru"
+  },
+  {
+   "start": 363.7,
+   "end": 365.82,
+   "text": "I think I'm going to work.",
+   "lang": "en"
+  },
+  {
+   "start": 370.14,
+   "end": 373.18,
+   "text": "Помните, как сказать по-английски число 80?",
+   "lang": "ru"
+  },
+  {
+   "start": 375.42,
+   "end": 376.18,
+   "text": "80",
+   "lang": "ru"
+  },
+  {
+   "start": 377.72,
+   "end": 378.48,
+   "text": "80",
+   "lang": "ru"
+  },
+  {
+   "start": 380.98,
+   "end": 381.74,
+   "text": "85",
+   "lang": "ru"
+  },
+  {
+   "start": 384.54,
+   "end": 385.3,
+   "text": "85",
+   "lang": "ru"
+  },
+  {
+   "start": 390.36,
+   "end": 394.42,
+   "text": "Now try to say 90.",
+   "lang": "ru"
+  },
+  {
+   "start": 396.48,
+   "end": 397.88,
+   "text": "90",
+   "lang": "ru"
+  },
+  {
+   "start": 397.88,
+   "end": 400.32,
+   "text": "90",
+   "lang": "ru"
+  },
+  {
+   "start": 402.18,
+   "end": 403.58,
+   "text": "95",
+   "lang": "ru"
+  },
+  {
+   "start": 406.0,
+   "end": 406.8,
+   "text": "95",
+   "lang": "ru"
+  },
+  {
+   "start": 409.06,
+   "end": 410.4,
+   "text": "95",
+   "lang": "ru"
+  },
+  {
+   "start": 412.82,
+   "end": 414.22,
+   "text": "92",
+   "lang": "ru"
+  },
+  {
+   "start": 416.68,
+   "end": 418.08,
+   "text": "92",
+   "lang": "ru"
+  },
+  {
+   "start": 420.02,
+   "end": 421.42,
+   "text": "92",
+   "lang": "ru"
+  },
+  {
+   "start": 424.06,
+   "end": 425.46,
+   "text": "99",
+   "lang": "ru"
+  },
+  {
+   "start": 427.7,
+   "end": 429.1,
+   "text": "99",
+   "lang": "ru"
+  },
+  {
+   "start": 430.86,
+   "end": 432.26,
+   "text": "99",
+   "lang": "ru"
+  },
+  {
+   "start": 432.26,
+   "end": 432.58,
+   "text": "89.",
+   "lang": "ru"
+  },
+  {
+   "start": 435.3,
+   "end": 436.98,
+   "text": "Now say 89.",
+   "lang": "ru"
+  },
+  {
+   "start": 439.94,
+   "end": 440.7,
+   "text": "89.",
+   "lang": "ru"
+  },
+  {
+   "start": 443.66,
+   "end": 445.5,
+   "text": "Спросите, сколько вы мне должны?",
+   "lang": "ru"
+  },
+  {
+   "start": 448.46,
+   "end": 450.42,
+   "text": "How much do I owe you?",
+   "lang": "ru"
+  },
+  {
+   "start": 453.48,
+   "end": 454.24,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 454.74,
+   "end": 456.06,
+   "text": "90 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 458.72,
+   "end": 459.86,
+   "text": "90 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 462.34,
+   "end": 463.86,
+   "text": "Вот сто долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 464.7,
+   "end": 465.6,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 466.74,
+   "end": 468.06,
+   "text": "Here's one hundred dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 471.6,
+   "end": 472.48,
+   "text": "Hundred.",
+   "lang": "ru"
+  },
+  {
+   "start": 474.12,
+   "end": 475.0,
+   "text": "Hun.",
+   "lang": "ru"
+  },
+  {
+   "start": 476.64,
+   "end": 477.52,
+   "text": "Hundred.",
+   "lang": "ru"
+  },
+  {
+   "start": 479.96,
+   "end": 480.26,
+   "text": "Hundred.",
+   "lang": "ru"
+  },
+  {
+   "start": 482.88,
+   "end": 483.4,
+   "text": "One hundred.",
+   "lang": "ru"
+  },
+  {
+   "start": 485.7,
+   "end": 488.0,
+   "text": "Say, сто долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 490.44,
+   "end": 491.84,
+   "text": "$100",
+   "lang": "ru"
+  },
+  {
+   "start": 495.4,
+   "end": 498.2,
+   "text": "Say $150",
+   "lang": "ru"
+  },
+  {
+   "start": 502.88,
+   "end": 504.28,
+   "text": "$150",
+   "lang": "ru"
+  },
+  {
+   "start": 508.76,
+   "end": 510.16,
+   "text": "$150",
+   "lang": "ru"
+  },
+  {
+   "start": 510.16,
+   "end": 517.02,
+   "text": "Now say $180",
+   "lang": "ru"
+  },
+  {
+   "start": 520.54,
+   "end": 521.48,
+   "text": "180",
+   "lang": "ru"
+  },
+  {
+   "start": 524.48,
+   "end": 525.42,
+   "text": "190",
+   "lang": "ru"
+  },
+  {
+   "start": 528.76,
+   "end": 529.7,
+   "text": "190",
+   "lang": "ru"
+  },
+  {
+   "start": 532.9,
+   "end": 533.84,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 533.84,
+   "end": 535.6,
+   "text": "Это слишком много.",
+   "lang": "ru"
+  },
+  {
+   "start": 535.86,
+   "end": 538.04,
+   "text": "Имею в виду конкретную сумму.",
+   "lang": "ru"
+  },
+  {
+   "start": 540.44,
+   "end": 542.0,
+   "text": "That's too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 544.46,
+   "end": 545.94,
+   "text": "That's too much.",
+   "lang": "ru"
+  },
+  {
+   "start": 548.12,
+   "end": 549.52,
+   "text": "170",
+   "lang": "ru"
+  },
+  {
+   "start": 554.22,
+   "end": 555.62,
+   "text": "160",
+   "lang": "ru"
+  },
+  {
+   "start": 557.2,
+   "end": 558.6,
+   "text": "165",
+   "lang": "ru"
+  },
+  {
+   "start": 562.86,
+   "end": 564.26,
+   "text": "165",
+   "lang": "ru"
+  },
+  {
+   "start": 568.38,
+   "end": 569.78,
+   "text": "147",
+   "lang": "ru"
+  },
+  {
+   "start": 573.82,
+   "end": 575.22,
+   "text": "147",
+   "lang": "ru"
+  },
+  {
+   "start": 579.52,
+   "end": 581.66,
+   "text": "Спросите, сколько вы мне должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 585.56,
+   "end": 587.1,
+   "text": "How much do I owe you?",
+   "lang": "en"
+  },
+  {
+   "start": 590.3,
+   "end": 592.58,
+   "text": "Вы ничего мне не должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 592.58,
+   "end": 594.1,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 595.24,
+   "end": 596.42,
+   "text": "You don't owe me anything.",
+   "lang": "en"
+  },
+  {
+   "start": 600.34,
+   "end": 601.08,
+   "text": "Thing.",
+   "lang": "en"
+  },
+  {
+   "start": 602.86,
+   "end": 603.6,
+   "text": "Thing.",
+   "lang": "en"
+  },
+  {
+   "start": 605.52,
+   "end": 606.26,
+   "text": "Any.",
+   "lang": "en"
+  },
+  {
+   "start": 608.0,
+   "end": 608.7,
+   "text": "Anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 610.86,
+   "end": 612.68,
+   "text": "You don't owe me anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 612.68,
+   "end": 612.94,
+   "text": "thing.",
+   "lang": "en"
+  },
+  {
+   "start": 616.4,
+   "end": 619.52,
+   "text": "Say again. Вы ничего мне не должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 623.2,
+   "end": 625.1,
+   "text": "You don't owe me anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 629.02,
+   "end": 631.1,
+   "text": "Say. Сто долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 634.2,
+   "end": 635.64,
+   "text": "One hundred dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 638.82,
+   "end": 641.36,
+   "text": "Say, 90 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 643.92,
+   "end": 645.18,
+   "text": "90 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 647.74,
+   "end": 650.58,
+   "text": "Say, вы ничего мне не должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 653.7,
+   "end": 655.58,
+   "text": "You don't owe me anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 658.98,
+   "end": 659.82,
+   "text": "Почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 661.48,
+   "end": 662.32,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 664.62,
+   "end": 665.38,
+   "text": "Потому что?",
+   "lang": "ru"
+  },
+  {
+   "start": 665.38,
+   "end": 668.18,
+   "text": "Because.",
+   "lang": "en"
+  },
+  {
+   "start": 670.1,
+   "end": 672.34,
+   "text": "Вы ничего мне не должны.",
+   "lang": "ru"
+  },
+  {
+   "start": 675.74,
+   "end": 677.44,
+   "text": "You don't owe me anything.",
+   "lang": "en"
+  },
+  {
+   "start": 681.22,
+   "end": 682.86,
+   "text": "Ask me what I want.",
+   "lang": "ru"
+  },
+  {
+   "start": 682.86,
+   "end": 684.84,
+   "text": "Ask me what I want.",
+   "lang": "en"
+  },
+  {
+   "start": 687.58,
+   "end": 688.84,
+   "text": "What do you want?",
+   "lang": "ru"
+  },
+  {
+   "start": 691.46,
+   "end": 694.38,
+   "text": "Try to say Я ничего не хочу.",
+   "lang": "ru"
+  },
+  {
+   "start": 694.38,
+   "end": 694.5,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 697.84,
+   "end": 699.6,
+   "text": "I don't want anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 702.98,
+   "end": 704.76,
+   "text": "I don't want anything.",
+   "lang": "en"
+  },
+  {
+   "start": 708.06,
+   "end": 711.5,
+   "text": "Now try to say У меня ничего нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 714.98,
+   "end": 716.8,
+   "text": "I don't have anything.",
+   "lang": "en"
+  },
+  {
+   "start": 719.52,
+   "end": 722.02,
+   "text": "У меня ничего нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 722.02,
+   "end": 722.4,
+   "text": "anything.",
+   "lang": "en"
+  },
+  {
+   "start": 726.5,
+   "end": 727.34,
+   "text": "Что у вас есть?",
+   "lang": "ru"
+  },
+  {
+   "start": 730.16,
+   "end": 731.26,
+   "text": "What do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 733.28,
+   "end": 735.54,
+   "text": "У меня ничего нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 739.06,
+   "end": 740.72,
+   "text": "I don't have anything.",
+   "lang": "en"
+  },
+  {
+   "start": 744.46,
+   "end": 746.16,
+   "text": "И я ничего не хочу.",
+   "lang": "ru"
+  },
+  {
+   "start": 746.16,
+   "end": 751.94,
+   "text": "you. And I don't want anything.",
+   "lang": "en"
+  },
+  {
+   "start": 754.46,
+   "end": 757.6,
+   "text": "Я хочу уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 757.62,
+   "end": 759.12,
+   "text": "Я хочу уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 759.44,
+   "end": 761.14,
+   "text": "Я хочу уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 763.9,
+   "end": 765.1,
+   "text": "Уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 765.1,
+   "end": 767.94,
+   "text": "to leave",
+   "lang": "en"
+  },
+  {
+   "start": 770.08,
+   "end": 772.38,
+   "text": "Говори, что ты хочешь уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 775.62,
+   "end": 777.14,
+   "text": "I want to leave.",
+   "lang": "en"
+  },
+  {
+   "start": 780.48,
+   "end": 783.78,
+   "text": "Я не хочу уезжать.",
+   "lang": "ru"
+  },
+  {
+   "start": 787.32,
+   "end": 789.06,
+   "text": "I don't want to leave.",
+   "lang": "ru"
+  },
+  {
+   "start": 792.66,
+   "end": 795.66,
+   "text": "А сейчас скажите просто, что вы не хотите.",
+   "lang": "ru"
+  },
+  {
+   "start": 798.32,
+   "end": 799.84,
+   "text": "I don't want to.",
+   "lang": "ru"
+  },
+  {
+   "start": 802.38,
+   "end": 803.92,
+   "text": "I don't want to.",
+   "lang": "ru"
+  },
+  {
+   "start": 806.42,
+   "end": 809.82,
+   "text": "Say Я собираюсь уехать завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 813.84,
+   "end": 815.8,
+   "text": "I'm going to leave tomorrow.",
+   "lang": "ru"
+  },
+  {
+   "start": 820.38,
+   "end": 822.04,
+   "text": "I'm going to leave tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 825.92,
+   "end": 830.58,
+   "text": "Try to say Я думаю, что я собираюсь уехать завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 835.14,
+   "end": 837.6,
+   "text": "I think I'm going to leave tomorrow.",
+   "lang": "ru"
+  },
+  {
+   "start": 842.46,
+   "end": 844.82,
+   "text": "I think I'm going to leave tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 849.32,
+   "end": 851.48,
+   "text": "Мы собираемся уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 851.52,
+   "end": 852.8,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 853.86,
+   "end": 854.76,
+   "text": "We're going to leave.",
+   "lang": "ru"
+  },
+  {
+   "start": 858.18,
+   "end": 858.9,
+   "text": "We're.",
+   "lang": "ru"
+  },
+  {
+   "start": 858.9,
+   "end": 861.62,
+   "text": "we're",
+   "lang": "en"
+  },
+  {
+   "start": 862.84,
+   "end": 865.22,
+   "text": "We're. We're going to leave.",
+   "lang": "ru"
+  },
+  {
+   "start": 868.58,
+   "end": 872.8,
+   "text": "We're – это сокращенная форма от we are.",
+   "lang": "ru"
+  },
+  {
+   "start": 873.82,
+   "end": 876.8,
+   "text": "Now say. Мы собираемся уехать завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 880.52,
+   "end": 882.48,
+   "text": "We're going to leave tomorrow.",
+   "lang": "ru"
+  },
+  {
+   "start": 888.46,
+   "end": 891.0,
+   "text": "We're going to leave tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 894.3,
+   "end": 897.06,
+   "text": "Мы собираемся уехать вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 897.06,
+   "end": 898.7,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 899.76,
+   "end": 901.02,
+   "text": "We're going to leave together.",
+   "lang": "en"
+  },
+  {
+   "start": 905.08,
+   "end": 906.02,
+   "text": "Together.",
+   "lang": "en"
+  },
+  {
+   "start": 907.62,
+   "end": 908.56,
+   "text": "Gather.",
+   "lang": "en"
+  },
+  {
+   "start": 911.06,
+   "end": 911.3,
+   "text": "Together.",
+   "lang": "en"
+  },
+  {
+   "start": 913.12,
+   "end": 914.06,
+   "text": "Together.",
+   "lang": "en"
+  },
+  {
+   "start": 916.18,
+   "end": 919.42,
+   "text": "Удается ли вам точно копировать произношение диктора?",
+   "lang": "ru"
+  },
+  {
+   "start": 919.72,
+   "end": 921.24,
+   "text": "Listen and repeat again.",
+   "lang": "ru"
+  },
+  {
+   "start": 922.08,
+   "end": 922.86,
+   "text": "Together.",
+   "lang": "ru"
+  },
+  {
+   "start": 922.86,
+   "end": 925.34,
+   "text": "Together.",
+   "lang": "en"
+  },
+  {
+   "start": 926.86,
+   "end": 927.72,
+   "text": "Together.",
+   "lang": "en"
+  },
+  {
+   "start": 929.18,
+   "end": 933.14,
+   "text": "Try to say Мы едем в Бостон вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 933.14,
+   "end": 933.46,
+   "text": "MESTI.",
+   "lang": "en"
+  },
+  {
+   "start": 937.56,
+   "end": 939.66,
+   "text": "We're going to Boston together.",
+   "lang": "ru"
+  },
+  {
+   "start": 943.54,
+   "end": 946.5,
+   "text": "Мы едем в Бостон вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 949.98,
+   "end": 951.86,
+   "text": "Моя жена и я",
+   "lang": "ru"
+  },
+  {
+   "start": 954.8,
+   "end": 956.28,
+   "text": "My wife and I.",
+   "lang": "en"
+  },
+  {
+   "start": 958.34,
+   "end": 960.96,
+   "text": "Мы едем в Бостон",
+   "lang": "ru"
+  },
+  {
+   "start": 963.98,
+   "end": 965.26,
+   "text": "We're going to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 968.46,
+   "end": 969.44,
+   "text": "Вместе",
+   "lang": "ru"
+  },
+  {
+   "start": 969.44,
+   "end": 971.98,
+   "text": "Together.",
+   "lang": "en"
+  },
+  {
+   "start": 973.52,
+   "end": 976.76,
+   "text": "Моя жена хочет увидеть нескольких друзей.",
+   "lang": "ru"
+  },
+  {
+   "start": 981.5,
+   "end": 984.04,
+   "text": "My wife wants to see a few friends.",
+   "lang": "ru"
+  },
+  {
+   "start": 989.04,
+   "end": 991.5,
+   "text": "My wife wants to see a few friends.",
+   "lang": "en"
+  },
+  {
+   "start": 996.18,
+   "end": 998.08,
+   "text": "А я собираюсь работать.",
+   "lang": "ru"
+  },
+  {
+   "start": 998.08,
+   "end": 998.6,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1001.86,
+   "end": 1003.44,
+   "text": "And I'm going to work.",
+   "lang": "ru"
+  },
+  {
+   "start": 1007.12,
+   "end": 1010.0,
+   "text": "Say. Я хочу уехать с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.0,
+   "end": 1010.62,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1013.02,
+   "end": 1014.94,
+   "text": "I want to leave with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 1018.04,
+   "end": 1018.68,
+   "text": "Leave.",
+   "lang": "ru"
+  },
+  {
+   "start": 1021.0,
+   "end": 1022.22,
+   "text": "Но я не могу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1024.32,
+   "end": 1025.52,
+   "text": "But I can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1027.5,
+   "end": 1028.7,
+   "text": "I can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1030.34,
+   "end": 1032.94,
+   "text": "Now say. Я так не думаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1032.94,
+   "end": 1037.12,
+   "text": "I don't think so.",
+   "lang": "en"
+  },
+  {
+   "start": 1040.32,
+   "end": 1040.78,
+   "text": "I don't.",
+   "lang": "en"
+  },
+  {
+   "start": 1040.82,
+   "end": 1042.22,
+   "text": "Почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 1042.22,
+   "end": 1044.88,
+   "text": "Why?",
+   "lang": "en"
+  },
+  {
+   "start": 1046.34,
+   "end": 1047.74,
+   "text": "Почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 1049.6,
+   "end": 1050.48,
+   "text": "Потому что?",
+   "lang": "ru"
+  },
+  {
+   "start": 1053.4,
+   "end": 1056.74,
+   "text": "У меня нет денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1059.88,
+   "end": 1061.6,
+   "text": "I don't have any money.",
+   "lang": "en"
+  },
+  {
+   "start": 1064.88,
+   "end": 1065.82,
+   "text": "Any money.",
+   "lang": "en"
+  },
+  {
+   "start": 1067.08,
+   "end": 1069.38,
+   "text": "У меня ничего нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1072.34,
+   "end": 1073.98,
+   "text": "I don't have anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 1077.22,
+   "end": 1078.56,
+   "text": "I don't have anything.",
+   "lang": "en"
+  },
+  {
+   "start": 1079.04,
+   "end": 1084.2,
+   "text": "Say, у меня много денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1087.52,
+   "end": 1089.38,
+   "text": "I have a lot of money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1092.52,
+   "end": 1094.7,
+   "text": "У меня есть 90 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1097.98,
+   "end": 1100.0,
+   "text": "I have $90.",
+   "lang": "ru"
+  },
+  {
+   "start": 1103.42,
+   "end": 1104.7,
+   "text": "Или $100.",
+   "lang": "ru"
+  },
+  {
+   "start": 1104.7,
+   "end": 1104.98,
+   "text": "dollars.",
+   "lang": "en"
+  },
+  {
+   "start": 1108.44,
+   "end": 1110.14,
+   "text": "Or $100.",
+   "lang": "ru"
+  },
+  {
+   "start": 1114.12,
+   "end": 1116.18,
+   "text": "Вы можете уехать с нами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1119.52,
+   "end": 1121.5,
+   "text": "You can leave with us.",
+   "lang": "ru"
+  },
+  {
+   "start": 1124.94,
+   "end": 1126.78,
+   "text": "You can leave with us.",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.5,
+   "end": 1131.22,
+   "text": "Завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 1133.02,
+   "end": 1133.74,
+   "text": "Tomorrow.",
+   "lang": "ru"
+  },
+  {
+   "start": 1136.22,
+   "end": 1139.52,
+   "text": "Try to say, моя жена хочет уехать завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 1144.02,
+   "end": 1146.3,
+   "text": "My wife wants to leave tomorrow.",
+   "lang": "ru"
+  },
+  {
+   "start": 1146.3,
+   "end": 1146.54,
+   "text": "tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 1150.98,
+   "end": 1152.74,
+   "text": "Мы едем в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1156.18,
+   "end": 1157.6,
+   "text": "We're going to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 1160.84,
+   "end": 1162.24,
+   "text": "Вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1164.78,
+   "end": 1166.18,
+   "text": "Потом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1169.38,
+   "end": 1170.68,
+   "text": "then",
+   "lang": "en"
+  },
+  {
+   "start": 1173.6,
+   "end": 1177.1,
+   "text": "Мы едем в Вашингтон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1180.9,
+   "end": 1182.56,
+   "text": "We're going to Washington.",
+   "lang": "en"
+  },
+  {
+   "start": 1186.28,
+   "end": 1187.76,
+   "text": "Может быть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1187.76,
+   "end": 1190.42,
+   "text": "Maybe.",
+   "lang": "en"
+  },
+  {
+   "start": 1191.38,
+   "end": 1195.54,
+   "text": "Мы хотели бы увидеть нашу подругу Мэри.",
+   "lang": "ru"
+  },
+  {
+   "start": 1200.24,
+   "end": 1202.26,
+   "text": "We'd like to see our friend Mary.",
+   "lang": "en"
+  },
+  {
+   "start": 1209.74,
+   "end": 1211.8,
+   "text": "We'd like to see our friend Mary.",
+   "lang": "en"
+  },
+  {
+   "start": 1211.8,
+   "end": 1212.02,
+   "text": "Mary.",
+   "lang": "en"
+  },
+  {
+   "start": 1215.96,
+   "end": 1218.04,
+   "text": "Она живет в Вашингтоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 1221.14,
+   "end": 1222.76,
+   "text": "She lives in Washington.",
+   "lang": "en"
+  },
+  {
+   "start": 1225.8,
+   "end": 1231.28,
+   "text": "И она работает там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1234.38,
+   "end": 1235.98,
+   "text": "And she works there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1235.98,
+   "end": 1236.08,
+   "text": "there.",
+   "lang": "en"
+  },
+  {
+   "start": 1239.12,
+   "end": 1240.2,
+   "text": "She works.",
+   "lang": "ru"
+  },
+  {
+   "start": 1243.22,
+   "end": 1244.26,
+   "text": "У нее нет машины.",
+   "lang": "ru"
+  },
+  {
+   "start": 1244.46,
+   "end": 1245.72,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1246.22,
+   "end": 1247.88,
+   "text": "She doesn't have a car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1252.1,
+   "end": 1252.74,
+   "text": "Doesn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1255.18,
+   "end": 1255.82,
+   "text": "Doesn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1258.02,
+   "end": 1258.92,
+   "text": "Doesn't have.",
+   "lang": "ru"
+  },
+  {
+   "start": 1261.48,
+   "end": 1262.98,
+   "text": "She doesn't have.",
+   "lang": "ru"
+  },
+  {
+   "start": 1265.88,
+   "end": 1267.94,
+   "text": "She doesn't have a car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1272.24,
+   "end": 1277.16,
+   "text": "Doesn't – это сокращенная форма от словосочетания does not.",
+   "lang": "ru"
+  },
+  {
+   "start": 1278.12,
+   "end": 1278.94,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1279.04,
+   "end": 1280.36,
+   "text": "У нее нет машины.",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.36,
+   "end": 1280.84,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1284.66,
+   "end": 1285.92,
+   "text": "She doesn't have a car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1289.86,
+   "end": 1291.68,
+   "text": "She doesn't have a car.",
+   "lang": "en"
+  },
+  {
+   "start": 1295.84,
+   "end": 1298.54,
+   "text": "Она работает в Вашингтоне?",
+   "lang": "ru"
+  },
+  {
+   "start": 1301.84,
+   "end": 1303.78,
+   "text": "Она работает в Вашингтоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 1306.78,
+   "end": 1308.82,
+   "text": "И у нее нет машины?",
+   "lang": "ru"
+  },
+  {
+   "start": 1312.42,
+   "end": 1314.68,
+   "text": "И у нее нет машины?",
+   "lang": "ru"
+  },
+  {
+   "start": 1318.74,
+   "end": 1319.3,
+   "text": "try to",
+   "lang": "en"
+  },
+  {
+   "start": 1319.56,
+   "end": 1321.58,
+   "text": "Ей не нужна машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1325.62,
+   "end": 1327.42,
+   "text": "She doesn't need a car.",
+   "lang": "en"
+  },
+  {
+   "start": 1331.62,
+   "end": 1333.46,
+   "text": "She doesn't need a car.",
+   "lang": "en"
+  },
+  {
+   "start": 1337.62,
+   "end": 1342.04,
+   "text": "Слушайте вместе утвердительную и отрицательную формы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.04,
+   "end": 1345.02,
+   "text": "She needs. She doesn't need.",
+   "lang": "en"
+  },
+  {
+   "start": 1345.92,
+   "end": 1348.42,
+   "text": "She needs. She doesn't need.",
+   "lang": "ru"
+  },
+  {
+   "start": 1349.06,
+   "end": 1352.2,
+   "text": "Now say again. У нее нет машины.",
+   "lang": "ru"
+  },
+  {
+   "start": 1352.2,
+   "end": 1352.58,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1356.1,
+   "end": 1357.96,
+   "text": "She doesn't have a car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1361.86,
+   "end": 1365.76,
+   "text": "Try to say. Я не думаю, что ей нужна машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1370.3,
+   "end": 1372.56,
+   "text": "I don't think she needs a car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1377.4,
+   "end": 1379.46,
+   "text": "I don't think she needs a car.",
+   "lang": "en"
+  },
+  {
+   "start": 1384.04,
+   "end": 1386.82,
+   "text": "Спросите его, достаточно ли у него денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1390.18,
+   "end": 1392.02,
+   "text": "Do you have enough money?",
+   "lang": "en"
+  },
+  {
+   "start": 1395.98,
+   "end": 1397.98,
+   "text": "Say, да, я так думаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1401.48,
+   "end": 1403.14,
+   "text": "Yes, I think so.",
+   "lang": "en"
+  },
+  {
+   "start": 1406.54,
+   "end": 1407.9,
+   "text": "I think so.",
+   "lang": "ru"
+  },
+  {
+   "start": 1411.0,
+   "end": 1413.58,
+   "text": "Try to say, нам ничего не нужно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1416.96,
+   "end": 1418.64,
+   "text": "We don't need anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 1418.64,
+   "end": 1418.92,
+   "text": "thing.",
+   "lang": "en"
+  },
+  {
+   "start": 1422.16,
+   "end": 1423.48,
+   "text": "We don't need.",
+   "lang": "ru"
+  },
+  {
+   "start": 1426.08,
+   "end": 1427.7,
+   "text": "We don't need anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 1427.7,
+   "end": 1427.94,
+   "text": "anything.",
+   "lang": "en"
+  },
+  {
+   "start": 1431.22,
+   "end": 1433.92,
+   "text": "И нашей подруге тоже ничего не нужно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1438.66,
+   "end": 1441.52,
+   "text": "And our friend doesn't need anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 1446.76,
+   "end": 1447.64,
+   "text": "Doesn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1449.14,
+   "end": 1451.84,
+   "text": "Our friend doesn't need anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 1456.38,
+   "end": 1458.68,
+   "text": "Мы собираемся уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1461.56,
+   "end": 1463.18,
+   "text": "We're going to leave.",
+   "lang": "ru"
+  },
+  {
+   "start": 1466.66,
+   "end": 1468.04,
+   "text": "Завтра ночью.",
+   "lang": "ru"
+  },
+  {
+   "start": 1471.2,
+   "end": 1471.84,
+   "text": "Tomorrow night.",
+   "lang": "ru"
+  },
+  {
+   "start": 1475.3,
+   "end": 1476.82,
+   "text": "Мы хотели бы увидеть Вашингтон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1476.82,
+   "end": 1477.32,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1480.44,
+   "end": 1482.38,
+   "text": "We'd like to see Washington.",
+   "lang": "ru"
+  },
+  {
+   "start": 1486.24,
+   "end": 1487.08,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1488.02,
+   "end": 1489.26,
+   "text": "Наша подруга живет там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1492.52,
+   "end": 1494.48,
+   "text": "Our friend lives there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1497.38,
+   "end": 1498.78,
+   "text": "lives",
+   "lang": "en"
+  },
+  {
+   "start": 1500.46,
+   "end": 1502.66,
+   "text": "Она там работает тоже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1506.02,
+   "end": 1507.68,
+   "text": "She works there, too.",
+   "lang": "en"
+  },
+  {
+   "start": 1515.92,
+   "end": 1517.98,
+   "text": "Do you remember how to ask?",
+   "lang": "ru"
+  },
+  {
+   "start": 1518.7,
+   "end": 1519.32,
+   "text": "Куда вы едете?",
+   "lang": "ru"
+  },
+  {
+   "start": 1522.08,
+   "end": 1523.42,
+   "text": "Where are you going?",
+   "lang": "ru"
+  },
+  {
+   "start": 1526.26,
+   "end": 1527.58,
+   "text": "Where are you going?",
+   "lang": "ru"
+  },
+  {
+   "start": 1530.56,
+   "end": 1533.4,
+   "text": "Ask if the department stores are open now.",
+   "lang": "ru"
+  },
+  {
+   "start": 1538.3,
+   "end": 1540.78,
+   "text": "Are the department stores open now?",
+   "lang": "ru"
+  },
+  {
+   "start": 1546.26,
+   "end": 1548.08,
+   "text": "Say, Я так не думаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1550.68,
+   "end": 1552.08,
+   "text": "I don't think so.",
+   "lang": "ru"
+  },
+  {
+   "start": 1552.08,
+   "end": 1556.16,
+   "text": "I don't think so.",
+   "lang": "ru"
+  },
+  {
+   "start": 1558.9,
+   "end": 1560.78,
+   "text": "Do you remember how to say",
+   "lang": "ru"
+  },
+  {
+   "start": 1560.78,
+   "end": 1562.58,
+   "text": "Моя жена хочет?",
+   "lang": "ru"
+  },
+  {
+   "start": 1566.28,
+   "end": 1567.68,
+   "text": "My wife wants.",
+   "lang": "ru"
+  },
+  {
+   "start": 1571.62,
+   "end": 1572.3,
+   "text": "Ask",
+   "lang": "ru"
+  },
+  {
+   "start": 1572.3,
+   "end": 1574.14,
+   "text": "Что хочет делать ваша жена?",
+   "lang": "ru"
+  },
+  {
+   "start": 1574.14,
+   "end": 1574.72,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1577.82,
+   "end": 1579.78,
+   "text": "What does your wife want to do?",
+   "lang": "ru"
+  },
+  {
+   "start": 1583.7,
+   "end": 1585.54,
+   "text": "What does your wife want to do?",
+   "lang": "en"
+  },
+  {
+   "start": 1589.6,
+   "end": 1591.9,
+   "text": "Нам ничего не нужно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1595.3,
+   "end": 1597.3,
+   "text": "We don't need anything.",
+   "lang": "en"
+  },
+  {
+   "start": 1600.78,
+   "end": 1602.82,
+   "text": "We don't need anything.",
+   "lang": "en"
+  },
+  {
+   "start": 1606.4,
+   "end": 1608.64,
+   "text": "Но мы хотим кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1612.64,
+   "end": 1614.16,
+   "text": "But we want to buy something.",
+   "lang": "en"
+  },
+  {
+   "start": 1618.02,
+   "end": 1622.12,
+   "text": "В магазине, имея в виду какой-нибудь магазин вообще.",
+   "lang": "ru"
+  },
+  {
+   "start": 1624.56,
+   "end": 1625.6,
+   "text": "In a store.",
+   "lang": "en"
+  },
+  {
+   "start": 1631.28,
+   "end": 1633.62,
+   "text": "Мы хотим кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1637.02,
+   "end": 1638.52,
+   "text": "We want to buy something.",
+   "lang": "en"
+  },
+  {
+   "start": 1642.08,
+   "end": 1644.36,
+   "text": "Для нашей подруги Мэри.",
+   "lang": "ru"
+  },
+  {
+   "start": 1647.46,
+   "end": 1649.54,
+   "text": "For our friend Mary.",
+   "lang": "ru"
+  },
+  {
+   "start": 1652.66,
+   "end": 1654.7,
+   "text": "For our friend Mary.",
+   "lang": "ru"
+  },
+  {
+   "start": 1658.32,
+   "end": 1660.0,
+   "text": "Say, простите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1662.08,
+   "end": 1662.64,
+   "text": "I'm sorry.",
+   "lang": "ru"
+  },
+  {
+   "start": 1664.74,
+   "end": 1665.28,
+   "text": "I'm sorry.",
+   "lang": "ru"
+  },
+  {
+   "start": 1667.46,
+   "end": 1669.06,
+   "text": "Вы ничего не сможете купить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1672.12,
+   "end": 1674.26,
+   "text": "You can't buy anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 1677.92,
+   "end": 1679.6,
+   "text": "You can't buy anything.",
+   "lang": "en"
+  },
+  {
+   "start": 1683.06,
+   "end": 1685.08,
+   "text": "Для вашей подруги.",
+   "lang": "ru"
+  },
+  {
+   "start": 1687.08,
+   "end": 1688.8,
+   "text": "For your friend.",
+   "lang": "ru"
+  },
+  {
+   "start": 1691.02,
+   "end": 1692.1,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1693.76,
+   "end": 1693.96,
+   "text": "Почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 1695.66,
+   "end": 1696.04,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 1697.52,
+   "end": 1697.7,
+   "text": "Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 1699.34,
+   "end": 1700.02,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1700.02,
+   "end": 1702.24,
+   "text": "Сейчас слишком поздно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1704.0,
+   "end": 1705.2,
+   "text": "It's too late.",
+   "lang": "en"
+  },
+  {
+   "start": 1712.9,
+   "end": 1716.26,
+   "text": "Скажите, что универмаги сейчас закрыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1720.64,
+   "end": 1723.18,
+   "text": "The department stores are closed now.",
+   "lang": "en"
+  },
+  {
+   "start": 1727.6,
+   "end": 1730.14,
+   "text": "The department stores are closed now.",
+   "lang": "en"
+  },
+  {
+   "start": 1734.4,
+   "end": 1737.56,
+   "text": "Скажите, что завтра они будут открыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1740.68,
+   "end": 1741.46,
+   "text": "They're open.",
+   "lang": "en"
+  },
+  {
+   "start": 1741.66,
+   "end": 1748.58,
+   "text": "Say, мы собираемся уехать завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 1752.7,
+   "end": 1754.42,
+   "text": "We're going to leave tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 1754.88,
+   "end": 1756.1,
+   "text": "Вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1758.34,
+   "end": 1759.74,
+   "text": "Vmesti.",
+   "lang": "en"
+  },
+  {
+   "start": 1761.28,
+   "end": 1769.54,
+   "text": "say, Бостон дорогой, имея в виду дорогой город.",
+   "lang": "ru"
+  },
+  {
+   "start": 1773.04,
+   "end": 1774.72,
+   "text": "Boston is expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 1778.28,
+   "end": 1780.12,
+   "text": "Boston is expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 1783.66,
+   "end": 1786.12,
+   "text": "И Вашингтон тоже дорогой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1790.16,
+   "end": 1792.64,
+   "text": "И Вашингтон тоже дорогой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1797.76,
+   "end": 1800.26,
+   "text": "Урок номер 27 окончен.",
+   "lang": "ru"
+  },
+  {
+   "start": 1802.46,
+   "end": 1805.34,
+   "text": "На этом сегодняшний урок окончен.",
+   "lang": "ru"
+  },
+  {
+   "start": 1805.88,
+   "end": 1811.5,
+   "text": "Приступая завтра к работе над следующим уроком, начните, пожалуйста, со второй дорожки.",
+   "lang": "ru"
+  }
+ ]
+}

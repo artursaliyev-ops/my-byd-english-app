@@ -1,0 +1,2379 @@
+{
+ "id": "I_29",
+ "source": "Pimsleur_I_29.mp3",
+ "duration": 1789.81,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 139,
+ "segments": [
+  {
+   "start": 1.88,
+   "end": 5.78,
+   "text": "Американский английский язык по методу доктора Пимслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 5.82,
+   "end": 7.2,
+   "text": "Урок номер 29.",
+   "lang": "ru"
+  },
+  {
+   "start": 7.2,
+   "end": 9.96,
+   "text": "Listen. Hi, Nancy. How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 10.28,
+   "end": 12.28,
+   "text": "Hi, Boris. I'm fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 12.44,
+   "end": 14.36,
+   "text": "Слово bad.",
+   "lang": "ru"
+  },
+  {
+   "start": 14.36,
+   "end": 16.02,
+   "text": "Now ask what that means.",
+   "lang": "en"
+  },
+  {
+   "start": 18.56,
+   "end": 19.9,
+   "text": "What does that mean?",
+   "lang": "en"
+  },
+  {
+   "start": 22.28,
+   "end": 23.6,
+   "text": "What does that mean?",
+   "lang": "en"
+  },
+  {
+   "start": 26.36,
+   "end": 27.56,
+   "text": "Flora, bad.",
+   "lang": "en"
+  },
+  {
+   "start": 30.06,
+   "end": 32.14,
+   "text": "The word bad.",
+   "lang": "ru"
+  },
+  {
+   "start": 35.68,
+   "end": 36.32,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 36.32,
+   "end": 38.22,
+   "text": "Это означает плохо.",
+   "lang": "ru"
+  },
+  {
+   "start": 41.5,
+   "end": 43.68,
+   "text": "That means плохо.",
+   "lang": "ru"
+  },
+  {
+   "start": 46.92,
+   "end": 48.98,
+   "text": "That means плохо.",
+   "lang": "ru"
+  },
+  {
+   "start": 52.8,
+   "end": 53.96,
+   "text": "Неплохо.",
+   "lang": "ru"
+  },
+  {
+   "start": 55.38,
+   "end": 56.84,
+   "text": "Not bad.",
+   "lang": "ru"
+  },
+  {
+   "start": 56.84,
+   "end": 57.02,
+   "text": "Not bad.",
+   "lang": "en"
+  },
+  {
+   "start": 58.72,
+   "end": 59.92,
+   "text": "Not bad.",
+   "lang": "en"
+  },
+  {
+   "start": 61.98,
+   "end": 64.1,
+   "text": "Say that you understand now.",
+   "lang": "en"
+  },
+  {
+   "start": 67.0,
+   "end": 68.88,
+   "text": "I understand now.",
+   "lang": "en"
+  },
+  {
+   "start": 70.7,
+   "end": 74.16,
+   "text": "Как сказать, что вы не понимаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 76.94,
+   "end": 78.56,
+   "text": "I don't understand.",
+   "lang": "en"
+  },
+  {
+   "start": 81.48,
+   "end": 84.16,
+   "text": "Say again. Неплохо.",
+   "lang": "ru"
+  },
+  {
+   "start": 86.84,
+   "end": 87.32,
+   "text": "Not bad.",
+   "lang": "ru"
+  },
+  {
+   "start": 90.2,
+   "end": 90.72,
+   "text": "Not bad.",
+   "lang": "ru"
+  },
+  {
+   "start": 93.68,
+   "end": 95.16,
+   "text": "Now say, Мы здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 97.46,
+   "end": 98.48,
+   "text": "We're here.",
+   "lang": "ru"
+  },
+  {
+   "start": 100.62,
+   "end": 102.12,
+   "text": "На несколько дней.",
+   "lang": "ru"
+  },
+  {
+   "start": 105.3,
+   "end": 106.74,
+   "text": "For a few days.",
+   "lang": "ru"
+  },
+  {
+   "start": 109.88,
+   "end": 111.28,
+   "text": "For a few days.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.8,
+   "end": 117.06,
+   "text": "Скажите, что вы здесь на несколько дней.",
+   "lang": "ru"
+  },
+  {
+   "start": 120.86,
+   "end": 122.72,
+   "text": "We are here for a few days.",
+   "lang": "en"
+  },
+  {
+   "start": 126.16,
+   "end": 127.76,
+   "text": "How long?",
+   "lang": "ru"
+  },
+  {
+   "start": 129.48,
+   "end": 130.82,
+   "text": "How long?",
+   "lang": "en"
+  },
+  {
+   "start": 132.44,
+   "end": 133.52,
+   "text": "How long?",
+   "lang": "en"
+  },
+  {
+   "start": 135.72,
+   "end": 139.6,
+   "text": "Сейчас спросите, как долго она собирается остаться.",
+   "lang": "ru"
+  },
+  {
+   "start": 143.38,
+   "end": 145.56,
+   "text": "How long are you going to stay?",
+   "lang": "ru"
+  },
+  {
+   "start": 145.56,
+   "end": 158.78,
+   "text": "To stay. Going to stay. How long are you going to stay?",
+   "lang": "ru"
+  },
+  {
+   "start": 162.84,
+   "end": 165.5,
+   "text": "Say, мы собираемся остаться.",
+   "lang": "ru"
+  },
+  {
+   "start": 168.52,
+   "end": 170.02,
+   "text": "We are going to stay.",
+   "lang": "ru"
+  },
+  {
+   "start": 172.3,
+   "end": 174.58,
+   "text": "на несколько дней",
+   "lang": "ru"
+  },
+  {
+   "start": 178.14,
+   "end": 179.54,
+   "text": "потом",
+   "lang": "ru"
+  },
+  {
+   "start": 181.84,
+   "end": 182.66,
+   "text": "Phi Phi",
+   "lang": "en"
+  },
+  {
+   "start": 182.66,
+   "end": 183.18,
+   "text": "Phi Phi",
+   "lang": "en"
+  },
+  {
+   "start": 185.0,
+   "end": 188.48,
+   "text": "мы собираемся уехать",
+   "lang": "ru"
+  },
+  {
+   "start": 191.16,
+   "end": 192.44,
+   "text": "We're going to leave.",
+   "lang": "en"
+  },
+  {
+   "start": 194.9,
+   "end": 198.36,
+   "text": "Мы едем в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 201.36,
+   "end": 202.84,
+   "text": "We're going to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 206.06,
+   "end": 207.56,
+   "text": "We're going to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 210.5,
+   "end": 211.82,
+   "text": "Вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 213.98,
+   "end": 217.34,
+   "text": "У нас немного времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 220.6,
+   "end": 222.36,
+   "text": "We don't have much time.",
+   "lang": "en"
+  },
+  {
+   "start": 225.32,
+   "end": 229.14,
+   "text": "У меня есть 200 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 232.32,
+   "end": 234.8,
+   "text": "I have $200.",
+   "lang": "en"
+  },
+  {
+   "start": 241.4,
+   "end": 244.36,
+   "text": "How do you say 200?",
+   "lang": "ru"
+  },
+  {
+   "start": 254.02,
+   "end": 254.82,
+   "text": "Но...",
+   "lang": "ru"
+  },
+  {
+   "start": 257.76,
+   "end": 259.94,
+   "text": "Мне ничего не нужно.",
+   "lang": "ru"
+  },
+  {
+   "start": 262.9,
+   "end": 264.56,
+   "text": "I don't need anything.",
+   "lang": "en"
+  },
+  {
+   "start": 267.86,
+   "end": 270.02,
+   "text": "Моему мужу ничего не нужно.",
+   "lang": "ru"
+  },
+  {
+   "start": 273.94,
+   "end": 276.16,
+   "text": "My husband doesn't need anything.",
+   "lang": "en"
+  },
+  {
+   "start": 279.66,
+   "end": 281.84,
+   "text": "И у нас немного времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 285.82,
+   "end": 287.88,
+   "text": "And we don't have much time.",
+   "lang": "en"
+  },
+  {
+   "start": 290.66,
+   "end": 293.76,
+   "text": "Мы собираемся остаться",
+   "lang": "ru"
+  },
+  {
+   "start": 296.68,
+   "end": 298.02,
+   "text": "We're going to stay.",
+   "lang": "en"
+  },
+  {
+   "start": 299.44,
+   "end": 302.3,
+   "text": "на несколько дней.",
+   "lang": "ru"
+  },
+  {
+   "start": 305.22,
+   "end": 306.52,
+   "text": "For a few days.",
+   "lang": "en"
+  },
+  {
+   "start": 309.5,
+   "end": 311.78,
+   "text": "We're going to stay for a few days.",
+   "lang": "en"
+  },
+  {
+   "start": 316.76,
+   "end": 318.32,
+   "text": "Несколько недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 318.4,
+   "end": 319.66,
+   "text": "Несколько недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 320.12,
+   "end": 321.6,
+   "text": "Что это значит?",
+   "lang": "ru"
+  },
+  {
+   "start": 324.1,
+   "end": 325.74,
+   "text": "Что это значит?",
+   "lang": "ru"
+  },
+  {
+   "start": 328.6,
+   "end": 330.14,
+   "text": "Слово weeks.",
+   "lang": "ru"
+  },
+  {
+   "start": 333.14,
+   "end": 334.76,
+   "text": "Слово weeks.",
+   "lang": "ru"
+  },
+  {
+   "start": 337.86,
+   "end": 339.48,
+   "text": "The word weeks.",
+   "lang": "ru"
+  },
+  {
+   "start": 342.58,
+   "end": 344.6,
+   "text": "That means недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 344.96,
+   "end": 347.52,
+   "text": "Try to say одна неделя.",
+   "lang": "ru"
+  },
+  {
+   "start": 349.68,
+   "end": 350.76,
+   "text": "One week.",
+   "lang": "ru"
+  },
+  {
+   "start": 352.92,
+   "end": 354.38,
+   "text": "For one week.",
+   "lang": "ru"
+  },
+  {
+   "start": 357.98,
+   "end": 358.36,
+   "text": "Как долго?",
+   "lang": "ru"
+  },
+  {
+   "start": 360.42,
+   "end": 361.42,
+   "text": "How long?",
+   "lang": "ru"
+  },
+  {
+   "start": 363.28,
+   "end": 364.58,
+   "text": "For how long?",
+   "lang": "ru"
+  },
+  {
+   "start": 367.34,
+   "end": 368.56,
+   "text": "На одну неделю.",
+   "lang": "ru"
+  },
+  {
+   "start": 371.22,
+   "end": 372.62,
+   "text": "For one week.",
+   "lang": "ru"
+  },
+  {
+   "start": 375.24,
+   "end": 376.58,
+   "text": "For one week.",
+   "lang": "ru"
+  },
+  {
+   "start": 379.26,
+   "end": 381.22,
+   "text": "Мы собираемся остаться.",
+   "lang": "ru"
+  },
+  {
+   "start": 384.68,
+   "end": 386.14,
+   "text": "We're going to stay.",
+   "lang": "ru"
+  },
+  {
+   "start": 386.14,
+   "end": 386.38,
+   "text": "day.",
+   "lang": "en"
+  },
+  {
+   "start": 389.56,
+   "end": 391.12,
+   "text": "На одну неделю.",
+   "lang": "ru"
+  },
+  {
+   "start": 393.88,
+   "end": 395.26,
+   "text": "For one week.",
+   "lang": "ru"
+  },
+  {
+   "start": 398.42,
+   "end": 399.14,
+   "text": "Вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 401.16,
+   "end": 401.3,
+   "text": "Together.",
+   "lang": "ru"
+  },
+  {
+   "start": 402.82,
+   "end": 403.92,
+   "text": "А потом?",
+   "lang": "ru"
+  },
+  {
+   "start": 406.12,
+   "end": 407.18,
+   "text": "And then?",
+   "lang": "ru"
+  },
+  {
+   "start": 409.3,
+   "end": 411.28,
+   "text": "Мы собираемся уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 414.0,
+   "end": 415.48,
+   "text": "We're going to leave.",
+   "lang": "ru"
+  },
+  {
+   "start": 418.4,
+   "end": 421.1,
+   "text": "Now say, мы едем в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 424.02,
+   "end": 425.66,
+   "text": "We're going to Boston.",
+   "lang": "ru"
+  },
+  {
+   "start": 429.0,
+   "end": 429.78,
+   "text": "How do you",
+   "lang": "en"
+  },
+  {
+   "start": 429.88,
+   "end": 432.84,
+   "text": "Как спросить «Как долго?»",
+   "lang": "ru"
+  },
+  {
+   "start": 434.52,
+   "end": 435.42,
+   "text": "How long?",
+   "lang": "en"
+  },
+  {
+   "start": 440.86,
+   "end": 442.62,
+   "text": "Сколько времени вы уже здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 442.92,
+   "end": 446.32,
+   "text": "How long have you been here?",
+   "lang": "ru"
+  },
+  {
+   "start": 449.28,
+   "end": 450.68,
+   "text": "Ben",
+   "lang": "en"
+  },
+  {
+   "start": 450.92,
+   "end": 472.72,
+   "text": "been been have been have you been how long how long have you been here how long have you been here",
+   "lang": "ru"
+  },
+  {
+   "start": 476.74,
+   "end": 480.34,
+   "text": "Обратите внимание на новое значение слова have.",
+   "lang": "ru"
+  },
+  {
+   "start": 480.46,
+   "end": 490.62,
+   "text": "Оно используется здесь в сочетании со словом been, указывая на то, что кто-то с некоторых пор до настоящего времени находится в определенном месте.",
+   "lang": "ru"
+  },
+  {
+   "start": 491.22,
+   "end": 494.02,
+   "text": "Спросите еще раз, сколько времени вы уже здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 497.52,
+   "end": 499.46,
+   "text": "How long have you been here?",
+   "lang": "ru"
+  },
+  {
+   "start": 502.86,
+   "end": 504.84,
+   "text": "How long have you been here?",
+   "lang": "ru"
+  },
+  {
+   "start": 508.64,
+   "end": 517.7,
+   "text": "Обратите внимание, что по-английски дословно это звучит «Как долго вы были здесь?». Попробуйте спросить, сколько времени она уже в Бостоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 521.9,
+   "end": 524.16,
+   "text": "How long have you been in Boston?",
+   "lang": "ru"
+  },
+  {
+   "start": 528.42,
+   "end": 534.54,
+   "text": "Уже несколько недель. По-английски дословно это будет звучать на несколько недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 537.54,
+   "end": 538.82,
+   "text": "For a few weeks.",
+   "lang": "en"
+  },
+  {
+   "start": 541.94,
+   "end": 544.76,
+   "text": "Спросите у женщины, сколько времени она уже здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 548.48,
+   "end": 550.22,
+   "text": "How long have you been here?",
+   "lang": "en"
+  },
+  {
+   "start": 554.16,
+   "end": 557.52,
+   "text": "Вы хотите сказать, я здесь уже несколько недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 557.56,
+   "end": 559.46,
+   "text": "Try to say, я здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 562.04,
+   "end": 563.56,
+   "text": "I have been here.",
+   "lang": "en"
+  },
+  {
+   "start": 566.18,
+   "end": 567.18,
+   "text": "Have been.",
+   "lang": "en"
+  },
+  {
+   "start": 569.24,
+   "end": 570.66,
+   "text": "I have been here.",
+   "lang": "en"
+  },
+  {
+   "start": 573.4,
+   "end": 574.6,
+   "text": "I've been here.",
+   "lang": "en"
+  },
+  {
+   "start": 577.6,
+   "end": 578.24,
+   "text": "I've.",
+   "lang": "en"
+  },
+  {
+   "start": 579.96,
+   "end": 581.1,
+   "text": "I've been here.",
+   "lang": "en"
+  },
+  {
+   "start": 584.16,
+   "end": 586.2,
+   "text": "Вы обратили внимание на сокращение?",
+   "lang": "ru"
+  },
+  {
+   "start": 586.28,
+   "end": 589.08,
+   "text": "Вы будете использовать эту форму выражения",
+   "lang": "ru"
+  },
+  {
+   "start": 589.08,
+   "end": 591.98,
+   "text": "I have в подобном контексте.",
+   "lang": "ru"
+  },
+  {
+   "start": 592.58,
+   "end": 593.54,
+   "text": "Сейчас попробуйте сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 593.54,
+   "end": 596.0,
+   "text": "Я здесь уже несколько недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 600.52,
+   "end": 602.58,
+   "text": "I've been here for a few weeks.",
+   "lang": "en"
+  },
+  {
+   "start": 607.24,
+   "end": 608.56,
+   "text": "For a few weeks.",
+   "lang": "en"
+  },
+  {
+   "start": 611.98,
+   "end": 615.4,
+   "text": "Скажите еще раз, что вы здесь уже несколько недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 619.16,
+   "end": 621.34,
+   "text": "I've been here for a few weeks.",
+   "lang": "ru"
+  },
+  {
+   "start": 625.12,
+   "end": 628.32,
+   "text": "Try to say У меня недостаточно денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 631.52,
+   "end": 633.38,
+   "text": "I don't have enough money.",
+   "lang": "ru"
+  },
+  {
+   "start": 636.52,
+   "end": 638.4,
+   "text": "I don't have enough money.",
+   "lang": "ru"
+  },
+  {
+   "start": 641.46,
+   "end": 645.26,
+   "text": "А сейчас скажите, у нас недостаточно денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 648.96,
+   "end": 650.5,
+   "text": "We don't have enough money.",
+   "lang": "en"
+  },
+  {
+   "start": 650.52,
+   "end": 657.36,
+   "text": "Say, у нас 150 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 657.36,
+   "end": 663.64,
+   "text": "We have $150.",
+   "lang": "en"
+  },
+  {
+   "start": 668.4,
+   "end": 669.6,
+   "text": "150.",
+   "lang": "ru"
+  },
+  {
+   "start": 673.12,
+   "end": 674.92,
+   "text": "Say 143.",
+   "lang": "ru"
+  },
+  {
+   "start": 678.36,
+   "end": 679.76,
+   "text": "143.",
+   "lang": "ru"
+  },
+  {
+   "start": 683.8,
+   "end": 684.2,
+   "text": "197.",
+   "lang": "ru"
+  },
+  {
+   "start": 688.56,
+   "end": 689.22,
+   "text": "197.",
+   "lang": "ru"
+  },
+  {
+   "start": 693.36,
+   "end": 694.86,
+   "text": "Помните, как сказать 200?",
+   "lang": "ru"
+  },
+  {
+   "start": 697.16,
+   "end": 697.9,
+   "text": "200.",
+   "lang": "ru"
+  },
+  {
+   "start": 703.84,
+   "end": 705.24,
+   "text": "Спросите, сколько у меня денег?",
+   "lang": "ru"
+  },
+  {
+   "start": 708.6,
+   "end": 710.36,
+   "text": "How much money do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 713.96,
+   "end": 715.58,
+   "text": "How much money do you have?",
+   "lang": "en"
+  },
+  {
+   "start": 719.18,
+   "end": 720.06,
+   "text": "Try to say",
+   "lang": "en"
+  },
+  {
+   "start": 720.22,
+   "end": 722.52,
+   "text": "Я думаю, что у меня 200 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 727.08,
+   "end": 729.36,
+   "text": "I think I have $200.",
+   "lang": "ru"
+  },
+  {
+   "start": 729.36,
+   "end": 730.84,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 734.32,
+   "end": 736.38,
+   "text": "I think... Shoot!",
+   "lang": "ru"
+  },
+  {
+   "start": 737.14,
+   "end": 738.92,
+   "text": "Спросите, что это означает.",
+   "lang": "ru"
+  },
+  {
+   "start": 741.38,
+   "end": 742.82,
+   "text": "What does that mean?",
+   "lang": "ru"
+  },
+  {
+   "start": 745.28,
+   "end": 746.74,
+   "text": "What does that mean?",
+   "lang": "ru"
+  },
+  {
+   "start": 749.36,
+   "end": 751.96,
+   "text": "Say, у меня недостаточно денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 755.02,
+   "end": 756.92,
+   "text": "I don't have enough money.",
+   "lang": "en"
+  },
+  {
+   "start": 760.46,
+   "end": 763.34,
+   "text": "Спросите у женщины, сколько времени она уже в Бостоне?",
+   "lang": "ru"
+  },
+  {
+   "start": 767.54,
+   "end": 769.74,
+   "text": "How long have you been in Boston?",
+   "lang": "ru"
+  },
+  {
+   "start": 774.2,
+   "end": 776.04,
+   "text": "How long have you been in Boston?",
+   "lang": "en"
+  },
+  {
+   "start": 780.4,
+   "end": 784.26,
+   "text": "Со вчерашнего дня. Сначала освоим слово вчера.",
+   "lang": "ru"
+  },
+  {
+   "start": 784.4,
+   "end": 785.56,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 786.18,
+   "end": 786.86,
+   "text": "Yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 789.62,
+   "end": 789.74,
+   "text": "Day.",
+   "lang": "ru"
+  },
+  {
+   "start": 792.12,
+   "end": 792.22,
+   "text": "Day.",
+   "lang": "ru"
+  },
+  {
+   "start": 793.7,
+   "end": 795.1,
+   "text": "yesterday",
+   "lang": "ru"
+  },
+  {
+   "start": 795.1,
+   "end": 797.64,
+   "text": "yesterday",
+   "lang": "ru"
+  },
+  {
+   "start": 800.0,
+   "end": 801.4,
+   "text": "yesterday",
+   "lang": "ru"
+  },
+  {
+   "start": 802.98,
+   "end": 805.02,
+   "text": "Say вчера.",
+   "lang": "ru"
+  },
+  {
+   "start": 806.62,
+   "end": 807.64,
+   "text": "Yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 809.36,
+   "end": 811.36,
+   "text": "Со вчерашнего дня.",
+   "lang": "ru"
+  },
+  {
+   "start": 811.6,
+   "end": 812.74,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 815.14,
+   "end": 816.54,
+   "text": "Since yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 818.96,
+   "end": 819.98,
+   "text": "Since.",
+   "lang": "ru"
+  },
+  {
+   "start": 822.04,
+   "end": 823.06,
+   "text": "Since.",
+   "lang": "ru"
+  },
+  {
+   "start": 825.04,
+   "end": 826.54,
+   "text": "Since yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 829.2,
+   "end": 830.52,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 830.52,
+   "end": 832.04,
+   "text": "Since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 838.8,
+   "end": 843.0,
+   "text": "Мы здесь уже со вчерашнего дня.",
+   "lang": "ru"
+  },
+  {
+   "start": 843.1,
+   "end": 847.06,
+   "text": "Используйте сокращенную форму от we have.",
+   "lang": "ru"
+  },
+  {
+   "start": 851.74,
+   "end": 853.86,
+   "text": "We've been here since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 859.64,
+   "end": 866.28,
+   "text": "We've been here since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 866.28,
+   "end": 866.56,
+   "text": "day.",
+   "lang": "en"
+  },
+  {
+   "start": 871.42,
+   "end": 874.12,
+   "text": "Я здесь уже несколько дней.",
+   "lang": "ru"
+  },
+  {
+   "start": 878.52,
+   "end": 880.7,
+   "text": "I've been here for a few days.",
+   "lang": "en"
+  },
+  {
+   "start": 888.7,
+   "end": 892.58,
+   "text": "Мы здесь уже со вчерашнего дня.",
+   "lang": "ru"
+  },
+  {
+   "start": 896.82,
+   "end": 898.76,
+   "text": "We've been here since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 903.02,
+   "end": 904.22,
+   "text": "Since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 906.88,
+   "end": 908.54,
+   "text": "Что вы купили вчера?",
+   "lang": "ru"
+  },
+  {
+   "start": 908.54,
+   "end": 909.72,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 936.14,
+   "end": 937.98,
+   "text": "What did you buy yesterday?",
+   "lang": "ru"
+  },
+  {
+   "start": 937.98,
+   "end": 938.26,
+   "text": "today.",
+   "lang": "en"
+  },
+  {
+   "start": 942.26,
+   "end": 944.64,
+   "text": "Обратите внимание на слово did.",
+   "lang": "ru"
+  },
+  {
+   "start": 945.5,
+   "end": 951.36,
+   "text": "Эта форма вопросительного слова используется для обозначения чего-либо, случившегося в прошлом.",
+   "lang": "ru"
+  },
+  {
+   "start": 951.72,
+   "end": 952.98,
+   "text": "Спросите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 953.1,
+   "end": 954.48,
+   "text": "Что вы купили вчера?",
+   "lang": "ru"
+  },
+  {
+   "start": 958.0,
+   "end": 959.9,
+   "text": "What did you buy yesterday?",
+   "lang": "ru"
+  },
+  {
+   "start": 959.9,
+   "end": 960.14,
+   "text": "today.",
+   "lang": "en"
+  },
+  {
+   "start": 964.12,
+   "end": 966.26,
+   "text": "Сейчас слушайте и повторяйте ответ.",
+   "lang": "ru"
+  },
+  {
+   "start": 966.26,
+   "end": 967.78,
+   "text": "I bought something.",
+   "lang": "en"
+  },
+  {
+   "start": 970.46,
+   "end": 971.1,
+   "text": "Bought.",
+   "lang": "en"
+  },
+  {
+   "start": 973.18,
+   "end": 973.82,
+   "text": "Bought.",
+   "lang": "en"
+  },
+  {
+   "start": 975.74,
+   "end": 976.94,
+   "text": "I bought something.",
+   "lang": "en"
+  },
+  {
+   "start": 979.46,
+   "end": 981.42,
+   "text": "Спросите, что она купила.",
+   "lang": "ru"
+  },
+  {
+   "start": 984.04,
+   "end": 985.12,
+   "text": "What did you buy?",
+   "lang": "en"
+  },
+  {
+   "start": 988.0,
+   "end": 989.1,
+   "text": "What did you buy?",
+   "lang": "en"
+  },
+  {
+   "start": 991.04,
+   "end": 994.36,
+   "text": "Я купила кое-что.",
+   "lang": "ru"
+  },
+  {
+   "start": 996.84,
+   "end": 998.26,
+   "text": "I bought something.",
+   "lang": "en"
+  },
+  {
+   "start": 1003.98,
+   "end": 1007.46,
+   "text": "Что вы купили вчера?",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.96,
+   "end": 1012.46,
+   "text": "What did you buy yesterday?",
+   "lang": "en"
+  },
+  {
+   "start": 1015.98,
+   "end": 1018.88,
+   "text": "Что вы делали вчера?",
+   "lang": "ru"
+  },
+  {
+   "start": 1022.56,
+   "end": 1024.32,
+   "text": "What did you do yesterday?",
+   "lang": "en"
+  },
+  {
+   "start": 1028.36,
+   "end": 1029.08,
+   "text": "Answer",
+   "lang": "ru"
+  },
+  {
+   "start": 1030.54,
+   "end": 1031.72,
+   "text": "What did you do?",
+   "lang": "en"
+  },
+  {
+   "start": 1034.24,
+   "end": 1034.78,
+   "text": "Answer",
+   "lang": "en"
+  },
+  {
+   "start": 1034.86,
+   "end": 1036.54,
+   "text": "Я купила кое-что.",
+   "lang": "ru"
+  },
+  {
+   "start": 1039.22,
+   "end": 1040.38,
+   "text": "I bought something.",
+   "lang": "en"
+  },
+  {
+   "start": 1043.48,
+   "end": 1045.4,
+   "text": "Что вы купили?",
+   "lang": "ru"
+  },
+  {
+   "start": 1047.92,
+   "end": 1049.28,
+   "text": "Что вы купили?",
+   "lang": "ru"
+  },
+  {
+   "start": 1049.28,
+   "end": 1049.4,
+   "text": "Bye.",
+   "lang": "en"
+  },
+  {
+   "start": 1052.36,
+   "end": 1053.02,
+   "text": "Что вы купили?",
+   "lang": "ru"
+  },
+  {
+   "start": 1053.02,
+   "end": 1053.18,
+   "text": "Что вы купили?",
+   "lang": "ru"
+  },
+  {
+   "start": 1053.18,
+   "end": 1053.36,
+   "text": "Bye.",
+   "lang": "en"
+  },
+  {
+   "start": 1056.2,
+   "end": 1058.72,
+   "text": "Попробуйте сказать, кое-что выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1061.24,
+   "end": 1062.66,
+   "text": "Что-то выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1065.12,
+   "end": 1067.16,
+   "text": "Я купила кое-что выпить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1070.66,
+   "end": 1072.32,
+   "text": "I bought something to drink.",
+   "lang": "en"
+  },
+  {
+   "start": 1075.86,
+   "end": 1077.42,
+   "text": "Я купила вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1080.54,
+   "end": 1081.84,
+   "text": "I bought some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1085.04,
+   "end": 1086.2,
+   "text": "I bought some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1086.28,
+   "end": 1090.62,
+   "text": "And a newspaper.",
+   "lang": "ru"
+  },
+  {
+   "start": 1091.58,
+   "end": 1092.42,
+   "text": "Ask what that means.",
+   "lang": "ru"
+  },
+  {
+   "start": 1095.18,
+   "end": 1096.6,
+   "text": "What does that mean?",
+   "lang": "ru"
+  },
+  {
+   "start": 1099.66,
+   "end": 1100.96,
+   "text": "Слово newspaper.",
+   "lang": "ru"
+  },
+  {
+   "start": 1104.6,
+   "end": 1106.28,
+   "text": "The word newspaper.",
+   "lang": "ru"
+  },
+  {
+   "start": 1106.28,
+   "end": 1106.52,
+   "text": "paper.",
+   "lang": "en"
+  },
+  {
+   "start": 1110.04,
+   "end": 1110.8,
+   "text": "Word.",
+   "lang": "ru"
+  },
+  {
+   "start": 1112.92,
+   "end": 1115.4,
+   "text": "Try to ask, что означает это слово?",
+   "lang": "ru"
+  },
+  {
+   "start": 1115.4,
+   "end": 1115.54,
+   "text": "over.",
+   "lang": "en"
+  },
+  {
+   "start": 1118.66,
+   "end": 1120.52,
+   "text": "What does that word mean?",
+   "lang": "ru"
+  },
+  {
+   "start": 1123.8,
+   "end": 1125.74,
+   "text": "What does that word mean?",
+   "lang": "ru"
+  },
+  {
+   "start": 1128.5,
+   "end": 1133.48,
+   "text": "That means газету. Повторяйте вслед за диктором.",
+   "lang": "ru"
+  },
+  {
+   "start": 1133.84,
+   "end": 1134.76,
+   "text": "newspaper",
+   "lang": "ru"
+  },
+  {
+   "start": 1136.62,
+   "end": 1138.02,
+   "text": "paper",
+   "lang": "ru"
+  },
+  {
+   "start": 1138.02,
+   "end": 1140.7,
+   "text": "paper",
+   "lang": "ru"
+  },
+  {
+   "start": 1140.7,
+   "end": 1143.5,
+   "text": "news",
+   "lang": "ru"
+  },
+  {
+   "start": 1145.04,
+   "end": 1146.44,
+   "text": "news",
+   "lang": "ru"
+  },
+  {
+   "start": 1148.04,
+   "end": 1149.44,
+   "text": "newspaper",
+   "lang": "ru"
+  },
+  {
+   "start": 1149.44,
+   "end": 1152.4,
+   "text": "a newspaper",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.14,
+   "end": 1157.44,
+   "text": "Скажите, что вы купили газету.",
+   "lang": "ru"
+  },
+  {
+   "start": 1160.42,
+   "end": 1161.9,
+   "text": "I bought a newspaper.",
+   "lang": "en"
+  },
+  {
+   "start": 1165.2,
+   "end": 1166.66,
+   "text": "I bought a newspaper.",
+   "lang": "en"
+  },
+  {
+   "start": 1169.68,
+   "end": 1171.42,
+   "text": "Try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1171.62,
+   "end": 1173.08,
+   "text": "Американскую газету?",
+   "lang": "ru"
+  },
+  {
+   "start": 1176.04,
+   "end": 1178.02,
+   "text": "An American newspaper?",
+   "lang": "ru"
+  },
+  {
+   "start": 1180.94,
+   "end": 1182.94,
+   "text": "An American newspaper?",
+   "lang": "en"
+  },
+  {
+   "start": 1183.12,
+   "end": 1188.54,
+   "text": "Да, американскую газету.",
+   "lang": "ru"
+  },
+  {
+   "start": 1192.88,
+   "end": 1195.18,
+   "text": "Yes, an American newspaper.",
+   "lang": "en"
+  },
+  {
+   "start": 1199.82,
+   "end": 1200.64,
+   "text": "Ask.",
+   "lang": "en"
+  },
+  {
+   "start": 1200.76,
+   "end": 1202.58,
+   "text": "Сколько времени вы уже здесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 1205.92,
+   "end": 1207.66,
+   "text": "How long have you been here?",
+   "lang": "en"
+  },
+  {
+   "start": 1210.96,
+   "end": 1212.72,
+   "text": "How long have you been here?",
+   "lang": "en"
+  },
+  {
+   "start": 1215.36,
+   "end": 1217.98,
+   "text": "Я здесь уже несколько дней.",
+   "lang": "ru"
+  },
+  {
+   "start": 1222.42,
+   "end": 1224.22,
+   "text": "I've been here for a few days.",
+   "lang": "en"
+  },
+  {
+   "start": 1228.74,
+   "end": 1229.72,
+   "text": "I've been here.",
+   "lang": "en"
+  },
+  {
+   "start": 1231.84,
+   "end": 1234.9,
+   "text": "Now say, со вчерашнего дня.",
+   "lang": "ru"
+  },
+  {
+   "start": 1234.9,
+   "end": 1235.1,
+   "text": "Yeah.",
+   "lang": "en"
+  },
+  {
+   "start": 1238.02,
+   "end": 1238.72,
+   "text": "Since yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 1240.7,
+   "end": 1242.44,
+   "text": "Since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 1244.8,
+   "end": 1246.64,
+   "text": "Что вы делали вчера?",
+   "lang": "ru"
+  },
+  {
+   "start": 1250.14,
+   "end": 1252.02,
+   "text": "What did you do yesterday?",
+   "lang": "ru"
+  },
+  {
+   "start": 1252.02,
+   "end": 1252.2,
+   "text": "today.",
+   "lang": "en"
+  },
+  {
+   "start": 1255.78,
+   "end": 1257.56,
+   "text": "Я купила вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1259.8,
+   "end": 1261.44,
+   "text": "I bought some wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1263.86,
+   "end": 1265.26,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 1265.26,
+   "end": 1267.34,
+   "text": "немного дорогого вина",
+   "lang": "ru"
+  },
+  {
+   "start": 1270.04,
+   "end": 1272.12,
+   "text": "Some expensive wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1273.8,
+   "end": 1277.16,
+   "text": "И американскую газету.",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.88,
+   "end": 1282.88,
+   "text": "and an American newspaper.",
+   "lang": "en"
+  },
+  {
+   "start": 1286.82,
+   "end": 1288.6,
+   "text": "An American newspaper.",
+   "lang": "en"
+  },
+  {
+   "start": 1290.76,
+   "end": 1295.08,
+   "text": "Try to say неплохо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1297.04,
+   "end": 1298.12,
+   "text": "Not bad.",
+   "lang": "ru"
+  },
+  {
+   "start": 1300.9,
+   "end": 1301.3,
+   "text": "Not bad.",
+   "lang": "ru"
+  },
+  {
+   "start": 1304.18,
+   "end": 1306.3,
+   "text": "Say. У моего мужа нет вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1310.1,
+   "end": 1312.42,
+   "text": "My husband doesn't have any wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1316.3,
+   "end": 1318.58,
+   "text": "My husband doesn't have any wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1322.54,
+   "end": 1324.12,
+   "text": "Я купила вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1326.84,
+   "end": 1328.18,
+   "text": "I bought some wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1329.96,
+   "end": 1332.7,
+   "text": "Для своего мужа.",
+   "lang": "ru"
+  },
+  {
+   "start": 1335.04,
+   "end": 1336.26,
+   "text": "For my husband",
+   "lang": "en"
+  },
+  {
+   "start": 1338.78,
+   "end": 1344.88,
+   "text": "Имея в виду ту газету, которую вы купили, скажите «газета для меня».",
+   "lang": "ru"
+  },
+  {
+   "start": 1347.88,
+   "end": 1349.7,
+   "text": "The newspaper is for me.",
+   "lang": "en"
+  },
+  {
+   "start": 1355.7,
+   "end": 1357.64,
+   "text": "А вино для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.84,
+   "end": 1359.04,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1359.48,
+   "end": 1361.22,
+   "text": "И вино для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1361.22,
+   "end": 1361.42,
+   "text": "him.",
+   "lang": "en"
+  },
+  {
+   "start": 1364.92,
+   "end": 1366.02,
+   "text": "Для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1367.04,
+   "end": 1368.02,
+   "text": "Для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1370.46,
+   "end": 1370.82,
+   "text": "Для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1372.14,
+   "end": 1373.76,
+   "text": "Вино для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1377.32,
+   "end": 1379.92,
+   "text": "Как вы говорите «для него»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1381.78,
+   "end": 1383.02,
+   "text": "Для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1385.08,
+   "end": 1387.7,
+   "text": "Say again. Вино для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1390.9,
+   "end": 1392.84,
+   "text": "The wine is for him.",
+   "lang": "ru"
+  },
+  {
+   "start": 1396.14,
+   "end": 1397.8,
+   "text": "The wine is for him.",
+   "lang": "en"
+  },
+  {
+   "start": 1400.54,
+   "end": 1403.24,
+   "text": "Также я купила немного кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1406.34,
+   "end": 1408.3,
+   "text": "I bought some coffee too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1408.3,
+   "end": 1408.44,
+   "text": "you.",
+   "lang": "en"
+  },
+  {
+   "start": 1411.8,
+   "end": 1414.16,
+   "text": "Кофе для моей подруги Мэри.",
+   "lang": "ru"
+  },
+  {
+   "start": 1418.34,
+   "end": 1420.62,
+   "text": "The coffee is for my friend Mary.",
+   "lang": "en"
+  },
+  {
+   "start": 1425.32,
+   "end": 1426.08,
+   "text": "Куфе для нее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1426.08,
+   "end": 1427.56,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1427.98,
+   "end": 1429.84,
+   "text": "The coffee is for her.",
+   "lang": "en"
+  },
+  {
+   "start": 1432.9,
+   "end": 1433.66,
+   "text": "Her.",
+   "lang": "en"
+  },
+  {
+   "start": 1435.06,
+   "end": 1435.82,
+   "text": "Her.",
+   "lang": "en"
+  },
+  {
+   "start": 1437.3,
+   "end": 1438.32,
+   "text": "For her.",
+   "lang": "en"
+  },
+  {
+   "start": 1440.26,
+   "end": 1442.26,
+   "text": "The coffee is for her.",
+   "lang": "en"
+  },
+  {
+   "start": 1445.56,
+   "end": 1447.4,
+   "text": "Это для неё.",
+   "lang": "ru"
+  },
+  {
+   "start": 1449.92,
+   "end": 1451.0,
+   "text": "It's for her.",
+   "lang": "en"
+  },
+  {
+   "start": 1460.18,
+   "end": 1461.66,
+   "text": "Вино для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1462.0,
+   "end": 1466.64,
+   "text": "The wine is for him.",
+   "lang": "ru"
+  },
+  {
+   "start": 1469.54,
+   "end": 1470.68,
+   "text": "For him.",
+   "lang": "ru"
+  },
+  {
+   "start": 1472.62,
+   "end": 1473.38,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1473.64,
+   "end": 1474.66,
+   "text": "Кофе для нее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1474.66,
+   "end": 1474.74,
+   "text": "you.",
+   "lang": "en"
+  },
+  {
+   "start": 1477.8,
+   "end": 1479.68,
+   "text": "The coffee is for her.",
+   "lang": "ru"
+  },
+  {
+   "start": 1482.76,
+   "end": 1483.76,
+   "text": "For her.",
+   "lang": "ru"
+  },
+  {
+   "start": 1486.02,
+   "end": 1488.44,
+   "text": "Вот как спросить, вам нравится вино?",
+   "lang": "ru"
+  },
+  {
+   "start": 1488.54,
+   "end": 1489.8,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1489.8,
+   "end": 1491.58,
+   "text": "Do you like wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1494.52,
+   "end": 1495.16,
+   "text": "Like",
+   "lang": "en"
+  },
+  {
+   "start": 1495.96,
+   "end": 1504.76,
+   "text": "Like. You like. Do you like? Do you like wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1507.52,
+   "end": 1510.36,
+   "text": "Ask again. Вам нравится вино?",
+   "lang": "ru"
+  },
+  {
+   "start": 1512.9,
+   "end": 1518.72,
+   "text": "Do you like wine? Do you like wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1521.66,
+   "end": 1524.04,
+   "text": "Try to say Мне нравится.",
+   "lang": "ru"
+  },
+  {
+   "start": 1525.96,
+   "end": 1527.12,
+   "text": "I like.",
+   "lang": "ru"
+  },
+  {
+   "start": 1528.9,
+   "end": 1530.04,
+   "text": "I like.",
+   "lang": "ru"
+  },
+  {
+   "start": 1531.84,
+   "end": 1533.48,
+   "text": "Мне нравится вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 1535.74,
+   "end": 1537.06,
+   "text": "I like wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1539.4,
+   "end": 1543.12,
+   "text": "And how do you say Я хотела бы немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1545.88,
+   "end": 1547.42,
+   "text": "I'd like some wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1549.7,
+   "end": 1551.56,
+   "text": "Я хочу...",
+   "lang": "ru"
+  },
+  {
+   "start": 1553.04,
+   "end": 1555.52,
+   "text": "Вы хотите вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1558.02,
+   "end": 1559.36,
+   "text": "Do you like wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1560.1,
+   "end": 1563.3,
+   "text": "Вы хотите вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1563.38,
+   "end": 1567.76,
+   "text": "Я хотела бы немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1568.04,
+   "end": 1572.2,
+   "text": "Я хочу немного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1575.16,
+   "end": 1577.62,
+   "text": "Ask. Вы хотели бы немного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1580.76,
+   "end": 1582.3,
+   "text": "Would you like some wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1585.72,
+   "end": 1587.4,
+   "text": "Answer. Нет, спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1589.9,
+   "end": 1591.0,
+   "text": "No, thank you.",
+   "lang": "ru"
+  },
+  {
+   "start": 1593.22,
+   "end": 1594.12,
+   "text": "No, thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1596.5,
+   "end": 1597.94,
+   "text": "Я ничего не хочу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1597.94,
+   "end": 1598.08,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1601.08,
+   "end": 1602.78,
+   "text": "I don't want anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 1605.88,
+   "end": 1607.62,
+   "text": "I don't want anything.",
+   "lang": "en"
+  },
+  {
+   "start": 1611.24,
+   "end": 1616.46,
+   "text": "Имея в виду какое-нибудь пиво вообще, скажите, мой муж хотел бы пива.",
+   "lang": "ru"
+  },
+  {
+   "start": 1620.18,
+   "end": 1622.24,
+   "text": "My husband would like a beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1626.26,
+   "end": 1628.32,
+   "text": "Скажите, вот пиво.",
+   "lang": "ru"
+  },
+  {
+   "start": 1630.76,
+   "end": 1631.56,
+   "text": "Here's a beer.",
+   "lang": "en"
+  },
+  {
+   "start": 1632.82,
+   "end": 1634.86,
+   "text": "Это для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 1637.68,
+   "end": 1638.56,
+   "text": "It's for him.",
+   "lang": "en"
+  },
+  {
+   "start": 1641.4,
+   "end": 1642.3,
+   "text": "It's for him.",
+   "lang": "en"
+  },
+  {
+   "start": 1645.16,
+   "end": 1650.74,
+   "text": "Скажите, вино для нее, имея в виду эту конкретную порцию вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1654.0,
+   "end": 1655.82,
+   "text": "The wine is for her.",
+   "lang": "ru"
+  },
+  {
+   "start": 1659.18,
+   "end": 1661.04,
+   "text": "The wine is for her.",
+   "lang": "ru"
+  },
+  {
+   "start": 1664.8,
+   "end": 1667.76,
+   "text": "Сейчас представьте, что вас зовут Антон Сидоров.",
+   "lang": "ru"
+  },
+  {
+   "start": 1668.48,
+   "end": 1670.22,
+   "text": "Вы только вчера приехали в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1670.44,
+   "end": 1674.98,
+   "text": "Город вам очень понравился, и вы собираетесь остаться здесь на одну неделю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1675.6,
+   "end": 1676.92,
+   "text": "Вы разговариваете с...",
+   "lang": "ru"
+  },
+  {
+   "start": 1676.92,
+   "end": 1677.76,
+   "text": "Mrs. Jones.",
+   "lang": "ru"
+  },
+  {
+   "start": 1678.08,
+   "end": 1680.14,
+   "text": "...с которой вас только что познакомили.",
+   "lang": "ru"
+  },
+  {
+   "start": 1680.34,
+   "end": 1681.66,
+   "text": "Answer her questions.",
+   "lang": "ru"
+  },
+  {
+   "start": 1682.28,
+   "end": 1683.62,
+   "text": "Answer her questions.",
+   "lang": "ru"
+  },
+  {
+   "start": 1684.46,
+   "end": 1688.22,
+   "text": "I'm pleased to meet you, Mr. Sidorov. How long have you been here?",
+   "lang": "ru"
+  },
+  {
+   "start": 1690.9,
+   "end": 1691.84,
+   "text": "Since yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 1694.64,
+   "end": 1696.3,
+   "text": "I've been here since yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 1700.64,
+   "end": 1702.04,
+   "text": "What did you do yesterday?",
+   "lang": "ru"
+  },
+  {
+   "start": 1703.06,
+   "end": 1705.7,
+   "text": "Скажите, что вы кое-что купили для своей жены.",
+   "lang": "ru"
+  },
+  {
+   "start": 1710.12,
+   "end": 1712.44,
+   "text": "I bought something for my wife.",
+   "lang": "ru"
+  },
+  {
+   "start": 1716.94,
+   "end": 1719.24,
+   "text": "I bought something for my wife.",
+   "lang": "en"
+  },
+  {
+   "start": 1723.92,
+   "end": 1726.22,
+   "text": "How long are you going to stay in Boston?",
+   "lang": "ru"
+  },
+  {
+   "start": 1728.78,
+   "end": 1729.96,
+   "text": "For a week.",
+   "lang": "ru"
+  },
+  {
+   "start": 1732.5,
+   "end": 1734.72,
+   "text": "I'm going to stay for one week.",
+   "lang": "ru"
+  },
+  {
+   "start": 1739.4,
+   "end": 1742.9,
+   "text": "Скажите ей, я хотел бы остаться на несколько недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 1747.76,
+   "end": 1750.0,
+   "text": "I'd like to stay for a few weeks.",
+   "lang": "en"
+  },
+  {
+   "start": 1754.48,
+   "end": 1756.54,
+   "text": "Но у меня немного времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 1760.04,
+   "end": 1762.48,
+   "text": "But I don't have much time.",
+   "lang": "en"
+  },
+  {
+   "start": 1766.24,
+   "end": 1768.1,
+   "text": "I don't have much time.",
+   "lang": "ru"
+  },
+  {
+   "start": 1771.9,
+   "end": 1773.42,
+   "text": "Do you like Boston?",
+   "lang": "ru"
+  },
+  {
+   "start": 1775.92,
+   "end": 1777.1,
+   "text": "Yes, I do.",
+   "lang": "ru"
+  },
+  {
+   "start": 1779.54,
+   "end": 1781.72,
+   "text": "I like Boston very much.",
+   "lang": "ru"
+  },
+  {
+   "start": 1785.78,
+   "end": 1788.5,
+   "text": "Урок номер 29 окончен.",
+   "lang": "ru"
+  }
+ ]
+}
