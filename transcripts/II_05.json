@@ -1,0 +1,2283 @@
+{
+ "id": "II_05",
+ "source": "Pimsleur_II_05.mp3",
+ "duration": 1836.8,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 160,
+ "segments": [
+  {
+   "start": 4.74,
+   "end": 9.48,
+   "text": "Пятый урок английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 9.48,
+   "end": 11.1,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 12.48,
+   "end": 14.98,
+   "text": "Carlos, I'm sorry, but I have to leave now.",
+   "lang": "en"
+  },
+  {
+   "start": 15.48,
+   "end": 16.44,
+   "text": "Really? Why?",
+   "lang": "en"
+  },
+  {
+   "start": 16.92,
+   "end": 18.26,
+   "text": "I have to go into town.",
+   "lang": "en"
+  },
+  {
+   "start": 18.88,
+   "end": 22.32,
+   "text": "Tonight I'm going to see a friend and I'd like to buy some wine for him.",
+   "lang": "en"
+  },
+  {
+   "start": 22.68,
+   "end": 23.48,
+   "text": "Which friend?",
+   "lang": "en"
+  },
+  {
+   "start": 24.04,
+   "end": 26.9,
+   "text": "I don't think you know him. His name is Bill Richardson.",
+   "lang": "en"
+  },
+  {
+   "start": 27.42,
+   "end": 30.28,
+   "text": "Oh, I know Bill. He's a friend of mine, too.",
+   "lang": "en"
+  },
+  {
+   "start": 31.6,
+   "end": 32.26,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 33.48,
+   "end": 35.98,
+   "text": "Carlos, I'm sorry, but I have to leave now.",
+   "lang": "en"
+  },
+  {
+   "start": 36.3,
+   "end": 37.22,
+   "text": "Really? Why?",
+   "lang": "en"
+  },
+  {
+   "start": 37.52,
+   "end": 38.84,
+   "text": "I have to go into town.",
+   "lang": "en"
+  },
+  {
+   "start": 39.48,
+   "end": 43.08,
+   "text": "Tonight I'm going to see a friend and I'd like to buy some wine for him.",
+   "lang": "en"
+  },
+  {
+   "start": 43.38,
+   "end": 44.2,
+   "text": "Which friend?",
+   "lang": "en"
+  },
+  {
+   "start": 44.54,
+   "end": 47.32,
+   "text": "I don't think you know him. His name is Bill Richardson.",
+   "lang": "en"
+  },
+  {
+   "start": 47.96,
+   "end": 50.52,
+   "text": "Oh, I know Bill. He's a friend of mine, too.",
+   "lang": "en"
+  },
+  {
+   "start": 51.28,
+   "end": 55.28,
+   "text": "Там один мой знакомый.",
+   "lang": "ru"
+  },
+  {
+   "start": 58.36,
+   "end": 59.78,
+   "text": "There's a friend of mine.",
+   "lang": "en"
+  },
+  {
+   "start": 62.74,
+   "end": 64.12,
+   "text": "A friend of mine.",
+   "lang": "en"
+  },
+  {
+   "start": 66.16,
+   "end": 69.34,
+   "text": "Как его зовут?",
+   "lang": "ru"
+  },
+  {
+   "start": 72.58,
+   "end": 73.44,
+   "text": "What's his name?",
+   "lang": "en"
+  },
+  {
+   "start": 74.72,
+   "end": 79.12,
+   "text": "Его зовут Чарльз Джонсон.",
+   "lang": "ru"
+  },
+  {
+   "start": 82.34,
+   "end": 84.34,
+   "text": "His name is Charles Johnson",
+   "lang": "en"
+  },
+  {
+   "start": 87.34,
+   "end": 90.56,
+   "text": "Как вас зовут?",
+   "lang": "ru"
+  },
+  {
+   "start": 93.32,
+   "end": 94.32,
+   "text": "What's your name?",
+   "lang": "en"
+  },
+  {
+   "start": 100.36,
+   "end": 104.86,
+   "text": "Меня зовут Роза Мартинес.",
+   "lang": "ru"
+  },
+  {
+   "start": 109.12,
+   "end": 110.7,
+   "text": "My name is Rosa Martinez.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.86,
+   "end": 116.14,
+   "text": "How do you ask?",
+   "lang": "ru"
+  },
+  {
+   "start": 116.48,
+   "end": 118.3,
+   "text": "Что вы делали сегодня?",
+   "lang": "ru"
+  },
+  {
+   "start": 118.3,
+   "end": 118.9,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 121.44,
+   "end": 122.86,
+   "text": "What did you do today?",
+   "lang": "ru"
+  },
+  {
+   "start": 126.12,
+   "end": 126.72,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 127.44,
+   "end": 128.92,
+   "text": "Я смотрел город.",
+   "lang": "ru"
+  },
+  {
+   "start": 132.12,
+   "end": 133.52,
+   "text": "I saw the city.",
+   "lang": "ru"
+  },
+  {
+   "start": 135.96,
+   "end": 139.16,
+   "text": "И купил много вещей.",
+   "lang": "ru"
+  },
+  {
+   "start": 143.22,
+   "end": 145.04,
+   "text": "And I bought a lot of things",
+   "lang": "en"
+  },
+  {
+   "start": 149.02,
+   "end": 151.8,
+   "text": "Слишком много вещей.",
+   "lang": "ru"
+  },
+  {
+   "start": 154.44,
+   "end": 155.82,
+   "text": "Too Many Things",
+   "lang": "en"
+  },
+  {
+   "start": 157.56,
+   "end": 164.76,
+   "text": "Я много говорил по-английски. Дословно, много английского.",
+   "lang": "ru"
+  },
+  {
+   "start": 168.82,
+   "end": 170.8,
+   "text": "I spoke a lot of English.",
+   "lang": "ru"
+  },
+  {
+   "start": 174.96,
+   "end": 176.86,
+   "text": "I spoke a lot of English.",
+   "lang": "en"
+  },
+  {
+   "start": 181.2,
+   "end": 184.82,
+   "text": "Вы помните, как спросить, вы были в Вашингтоне?",
+   "lang": "ru"
+  },
+  {
+   "start": 188.12,
+   "end": 189.72,
+   "text": "Have you been to Washington?",
+   "lang": "ru"
+  },
+  {
+   "start": 192.54,
+   "end": 194.76,
+   "text": "Have you been to Washington?",
+   "lang": "en"
+  },
+  {
+   "start": 198.54,
+   "end": 199.26,
+   "text": "Answer",
+   "lang": "en"
+  },
+  {
+   "start": 199.32,
+   "end": 200.64,
+   "text": "Еще нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 202.88,
+   "end": 203.94,
+   "text": "Not yet.",
+   "lang": "en"
+  },
+  {
+   "start": 206.32,
+   "end": 207.3,
+   "text": "Not yet.",
+   "lang": "en"
+  },
+  {
+   "start": 209.28,
+   "end": 214.24,
+   "text": "Я пока что не был в Вашингтоне. Помните о порядке слов.",
+   "lang": "ru"
+  },
+  {
+   "start": 218.86,
+   "end": 221.58,
+   "text": "I haven't been to Washington yet.",
+   "lang": "en"
+  },
+  {
+   "start": 226.06,
+   "end": 228.66,
+   "text": "I haven't been to Washington yet.",
+   "lang": "en"
+  },
+  {
+   "start": 231.94,
+   "end": 235.84,
+   "text": "Я еще не видел Вашингтон.",
+   "lang": "ru"
+  },
+  {
+   "start": 235.84,
+   "end": 237.18,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 238.52,
+   "end": 240.26,
+   "text": "I haven't seen Washington yet.",
+   "lang": "en"
+  },
+  {
+   "start": 244.76,
+   "end": 245.8,
+   "text": "seen",
+   "lang": "ru"
+  },
+  {
+   "start": 247.32,
+   "end": 248.72,
+   "text": "Scene",
+   "lang": "en"
+  },
+  {
+   "start": 250.06,
+   "end": 252.46,
+   "text": "I haven't seen.",
+   "lang": "ru"
+  },
+  {
+   "start": 255.06,
+   "end": 257.94,
+   "text": "I haven't seen Washington yet.",
+   "lang": "ru"
+  },
+  {
+   "start": 262.14,
+   "end": 265.56,
+   "text": "Я еще не видел Вашингтон.",
+   "lang": "ru"
+  },
+  {
+   "start": 269.56,
+   "end": 271.92,
+   "text": "Я еще не видел Вашингтон.",
+   "lang": "ru"
+  },
+  {
+   "start": 271.92,
+   "end": 272.22,
+   "text": "yet.",
+   "lang": "en"
+  },
+  {
+   "start": 276.34,
+   "end": 277.42,
+   "text": "А вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 279.74,
+   "end": 280.84,
+   "text": "И вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 283.36,
+   "end": 284.64,
+   "text": "Попробуйте спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 284.86,
+   "end": 286.78,
+   "text": "Вы видели Белый дом?",
+   "lang": "ru"
+  },
+  {
+   "start": 286.78,
+   "end": 286.9,
+   "text": "Boom.",
+   "lang": "en"
+  },
+  {
+   "start": 289.96,
+   "end": 291.92,
+   "text": "Вы видели Белый дом?",
+   "lang": "ru"
+  },
+  {
+   "start": 295.48,
+   "end": 297.08,
+   "text": "Have you seen the White House?",
+   "lang": "en"
+  },
+  {
+   "start": 299.2,
+   "end": 301.56,
+   "text": "Еще нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 304.12,
+   "end": 304.78,
+   "text": "Not yet.",
+   "lang": "en"
+  },
+  {
+   "start": 306.76,
+   "end": 309.44,
+   "text": "Я еще не видела Белый дом.",
+   "lang": "ru"
+  },
+  {
+   "start": 313.3,
+   "end": 315.2,
+   "text": "I haven't seen the White House yet.",
+   "lang": "en"
+  },
+  {
+   "start": 318.62,
+   "end": 322.1,
+   "text": "Скажите, что Вашингтон небольшой город.",
+   "lang": "ru"
+  },
+  {
+   "start": 326.98,
+   "end": 328.66,
+   "text": "Washington isn't a big city.",
+   "lang": "en"
+  },
+  {
+   "start": 331.62,
+   "end": 338.56,
+   "text": "Сейчас вам нужно идти. Скажите «До свидания, увидимся завтра».",
+   "lang": "ru"
+  },
+  {
+   "start": 341.68,
+   "end": 343.08,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 343.94,
+   "end": 353.58,
+   "text": "А теперь представьте, что вы разговариваете с одной знакомой американкой.",
+   "lang": "ru"
+  },
+  {
+   "start": 353.66,
+   "end": 356.84,
+   "text": "Она спрашивает, у вас сегодня много работы?",
+   "lang": "ru"
+  },
+  {
+   "start": 360.48,
+   "end": 362.1,
+   "text": "Do you have a lot of work today?",
+   "lang": "en"
+  },
+  {
+   "start": 365.54,
+   "end": 367.5,
+   "text": "Кратко ответьте, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 370.32,
+   "end": 371.42,
+   "text": "Yes I do",
+   "lang": "en"
+  },
+  {
+   "start": 372.76,
+   "end": 376.34,
+   "text": "У меня еще много работы.",
+   "lang": "ru"
+  },
+  {
+   "start": 376.34,
+   "end": 380.88,
+   "text": "I still have a lot of work.",
+   "lang": "ru"
+  },
+  {
+   "start": 385.14,
+   "end": 385.78,
+   "text": "Still.",
+   "lang": "ru"
+  },
+  {
+   "start": 388.12,
+   "end": 388.76,
+   "text": "Still.",
+   "lang": "ru"
+  },
+  {
+   "start": 391.06,
+   "end": 393.1,
+   "text": "I still have a lot of work.",
+   "lang": "ru"
+  },
+  {
+   "start": 397.32,
+   "end": 397.96,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 398.96,
+   "end": 400.42,
+   "text": "У меня все еще есть.",
+   "lang": "ru"
+  },
+  {
+   "start": 403.74,
+   "end": 405.1,
+   "text": "I still have.",
+   "lang": "ru"
+  },
+  {
+   "start": 405.1,
+   "end": 407.08,
+   "text": "Have a great day.",
+   "lang": "en"
+  },
+  {
+   "start": 408.52,
+   "end": 415.9,
+   "text": "Обратите внимание, что в английском языке есть два разных слова, чтобы сказать «все еще».",
+   "lang": "ru"
+  },
+  {
+   "start": 415.9,
+   "end": 425.0,
+   "text": "Если нужно сказать «до сих пор», означает, что какое-то событие все еще происходит.",
+   "lang": "ru"
+  },
+  {
+   "start": 425.8,
+   "end": 430.42,
+   "text": "Сейчас скажите «У меня все еще много работы».",
+   "lang": "ru"
+  },
+  {
+   "start": 434.22,
+   "end": 436.06,
+   "text": "I still have a lot of work.",
+   "lang": "en"
+  },
+  {
+   "start": 438.5,
+   "end": 441.3,
+   "text": "И завтра",
+   "lang": "ru"
+  },
+  {
+   "start": 443.34,
+   "end": 445.46,
+   "text": "And tomorrow...",
+   "lang": "en"
+  },
+  {
+   "start": 446.34,
+   "end": 450.28,
+   "text": "Я должен поехать в центр",
+   "lang": "ru"
+  },
+  {
+   "start": 453.66,
+   "end": 456.06,
+   "text": "I have to go into town.",
+   "lang": "en"
+  },
+  {
+   "start": 459.96,
+   "end": 461.0,
+   "text": "Into town.",
+   "lang": "en"
+  },
+  {
+   "start": 463.4,
+   "end": 465.52,
+   "text": "Я должен идти в город.",
+   "lang": "ru"
+  },
+  {
+   "start": 469.62,
+   "end": 471.92,
+   "text": "Твой друг говорит, что я тоже.",
+   "lang": "ru"
+  },
+  {
+   "start": 474.76,
+   "end": 475.68,
+   "text": "Так и я.",
+   "lang": "ru"
+  },
+  {
+   "start": 478.28,
+   "end": 479.2,
+   "text": "Так и я.",
+   "lang": "ru"
+  },
+  {
+   "start": 481.7,
+   "end": 482.88,
+   "text": "К сожалению.",
+   "lang": "ru"
+  },
+  {
+   "start": 483.74,
+   "end": 484.72,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 485.44,
+   "end": 486.56,
+   "text": "К сожалению.",
+   "lang": "ru"
+  },
+  {
+   "start": 486.56,
+   "end": 486.88,
+   "text": "Unfortunately,",
+   "lang": "en"
+  },
+  {
+   "start": 490.42,
+   "end": 490.84,
+   "text": "Ли.",
+   "lang": "ru"
+  },
+  {
+   "start": 493.18,
+   "end": 494.02,
+   "text": "Фортюнет.",
+   "lang": "ru"
+  },
+  {
+   "start": 496.34,
+   "end": 498.1,
+   "text": "Фор-чу-нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 498.1,
+   "end": 498.34,
+   "text": "it.",
+   "lang": "en"
+  },
+  {
+   "start": 502.6,
+   "end": 503.44,
+   "text": "Фортюнетли.",
+   "lang": "ru"
+  },
+  {
+   "start": 505.78,
+   "end": 506.62,
+   "text": "Ан.",
+   "lang": "ru"
+  },
+  {
+   "start": 509.66,
+   "end": 510.5,
+   "text": "Анфортюнетли.",
+   "lang": "ru"
+  },
+  {
+   "start": 513.88,
+   "end": 514.72,
+   "text": "Сэй.",
+   "lang": "ru"
+  },
+  {
+   "start": 514.84,
+   "end": 515.76,
+   "text": "К сожалению.",
+   "lang": "ru"
+  },
+  {
+   "start": 515.76,
+   "end": 516.08,
+   "text": "Unfortunately.",
+   "lang": "en"
+  },
+  {
+   "start": 518.72,
+   "end": 520.12,
+   "text": "Unfortunately.",
+   "lang": "en"
+  },
+  {
+   "start": 521.6,
+   "end": 527.1,
+   "text": "У меня все еще много работы.",
+   "lang": "ru"
+  },
+  {
+   "start": 527.26,
+   "end": 529.16,
+   "text": "Пока что употребляйте",
+   "lang": "ru"
+  },
+  {
+   "start": 529.16,
+   "end": 532.32,
+   "text": "в отрицательных предложениях и",
+   "lang": "ru"
+  },
+  {
+   "start": 532.32,
+   "end": 537.34,
+   "text": "в утвердительных, если я не попрошу вас говорить иначе.",
+   "lang": "ru"
+  },
+  {
+   "start": 542.32,
+   "end": 544.38,
+   "text": "I still have a lot of work.",
+   "lang": "en"
+  },
+  {
+   "start": 549.14,
+   "end": 551.64,
+   "text": "I still have a lot of work.",
+   "lang": "ru"
+  },
+  {
+   "start": 556.42,
+   "end": 558.08,
+   "text": "Now try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 559.0,
+   "end": 560.84,
+   "text": "Вы видели Карлоса Монтеро?",
+   "lang": "ru"
+  },
+  {
+   "start": 565.32,
+   "end": 567.84,
+   "text": "Have you seen Carlos Montero?",
+   "lang": "ru"
+  },
+  {
+   "start": 572.3,
+   "end": 574.96,
+   "text": "Have you seen Carlos Montero?",
+   "lang": "ru"
+  },
+  {
+   "start": 579.46,
+   "end": 580.96,
+   "text": "Вы видели его?",
+   "lang": "ru"
+  },
+  {
+   "start": 580.96,
+   "end": 582.14,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 583.12,
+   "end": 584.34,
+   "text": "Have you seen him?",
+   "lang": "en"
+  },
+  {
+   "start": 587.12,
+   "end": 587.68,
+   "text": "Him.",
+   "lang": "en"
+  },
+  {
+   "start": 589.74,
+   "end": 591.04,
+   "text": "Have you seen him?",
+   "lang": "en"
+  },
+  {
+   "start": 594.26,
+   "end": 596.56,
+   "text": "Обратите внимание на порядок слов.",
+   "lang": "ru"
+  },
+  {
+   "start": 597.58,
+   "end": 599.74,
+   "text": "Спросите, вы его видели?",
+   "lang": "ru"
+  },
+  {
+   "start": 599.74,
+   "end": 603.84,
+   "text": "Have you seen him?",
+   "lang": "en"
+  },
+  {
+   "start": 607.12,
+   "end": 609.98,
+   "text": "Да, я видел его вчера.",
+   "lang": "ru"
+  },
+  {
+   "start": 614.5,
+   "end": 616.6,
+   "text": "Yes, I saw him yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 621.28,
+   "end": 622.6,
+   "text": "I saw him.",
+   "lang": "ru"
+  },
+  {
+   "start": 625.74,
+   "end": 627.42,
+   "text": "Скажите, что он ваш друг.",
+   "lang": "ru"
+  },
+  {
+   "start": 627.42,
+   "end": 627.66,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 631.18,
+   "end": 632.66,
+   "text": "He's a friend of mine.",
+   "lang": "ru"
+  },
+  {
+   "start": 636.66,
+   "end": 638.56,
+   "text": "Его жена – колумбийка.",
+   "lang": "ru"
+  },
+  {
+   "start": 639.98,
+   "end": 642.36,
+   "text": "Помните, как сказать его имя.",
+   "lang": "ru"
+  },
+  {
+   "start": 644.08,
+   "end": 645.94,
+   "text": "His name",
+   "lang": "en"
+  },
+  {
+   "start": 645.94,
+   "end": 649.56,
+   "text": "His name",
+   "lang": "en"
+  },
+  {
+   "start": 651.46,
+   "end": 654.94,
+   "text": "Теперь попробуйте сказать его жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 656.54,
+   "end": 658.32,
+   "text": "His wife",
+   "lang": "en"
+  },
+  {
+   "start": 660.54,
+   "end": 664.28,
+   "text": "Попробуйте сказать его жена колумбийка.",
+   "lang": "ru"
+  },
+  {
+   "start": 664.28,
+   "end": 670.84,
+   "text": "His wife is Colombian.",
+   "lang": "ru"
+  },
+  {
+   "start": 674.78,
+   "end": 676.72,
+   "text": "Я его знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 679.14,
+   "end": 680.5,
+   "text": "I know him.",
+   "lang": "ru"
+  },
+  {
+   "start": 682.96,
+   "end": 684.12,
+   "text": "I know him.",
+   "lang": "en"
+  },
+  {
+   "start": 684.22,
+   "end": 684.4,
+   "text": "I know him.",
+   "lang": "en"
+  },
+  {
+   "start": 686.58,
+   "end": 689.0,
+   "text": "Но я не знаю его жену.",
+   "lang": "ru"
+  },
+  {
+   "start": 692.76,
+   "end": 694.72,
+   "text": "Но я не знаю его жены.",
+   "lang": "ru"
+  },
+  {
+   "start": 694.72,
+   "end": 694.86,
+   "text": "life.",
+   "lang": "en"
+  },
+  {
+   "start": 698.96,
+   "end": 700.68,
+   "text": "Думаю, что она колумбийка.",
+   "lang": "ru"
+  },
+  {
+   "start": 703.84,
+   "end": 705.92,
+   "text": "I think she's Colombian.",
+   "lang": "en"
+  },
+  {
+   "start": 707.42,
+   "end": 711.12,
+   "text": "Но он мексиканец.",
+   "lang": "ru"
+  },
+  {
+   "start": 714.22,
+   "end": 715.6,
+   "text": "But he's Mexican",
+   "lang": "en"
+  },
+  {
+   "start": 719.38,
+   "end": 722.06,
+   "text": "Его семья.",
+   "lang": "ru"
+  },
+  {
+   "start": 724.42,
+   "end": 726.2,
+   "text": "His family",
+   "lang": "en"
+  },
+  {
+   "start": 729.62,
+   "end": 732.88,
+   "text": "Его семья все еще живет в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 737.44,
+   "end": 740.04,
+   "text": "His family still lives in Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 740.04,
+   "end": 747.12,
+   "text": "His family still lives in Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 751.9,
+   "end": 753.98,
+   "text": "Ask her if she's been to Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 753.98,
+   "end": 754.18,
+   "text": "Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 758.12,
+   "end": 759.7,
+   "text": "Кратко ответьте нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 762.76,
+   "end": 764.26,
+   "text": "No, I haven't.",
+   "lang": "ru"
+  },
+  {
+   "start": 767.14,
+   "end": 768.66,
+   "text": "No, I haven't.",
+   "lang": "ru"
+  },
+  {
+   "start": 771.66,
+   "end": 773.06,
+   "text": "Unfortunately...",
+   "lang": "en"
+  },
+  {
+   "start": 776.42,
+   "end": 777.06,
+   "text": "Unfortunately.",
+   "lang": "ru"
+  },
+  {
+   "start": 777.06,
+   "end": 777.38,
+   "text": "Unfortunately.",
+   "lang": "en"
+  },
+  {
+   "start": 780.68,
+   "end": 781.32,
+   "text": "Unfortunately.",
+   "lang": "ru"
+  },
+  {
+   "start": 781.32,
+   "end": 781.8,
+   "text": "Unfortunately,",
+   "lang": "en"
+  },
+  {
+   "start": 785.08,
+   "end": 786.82,
+   "text": "Я еще не была там.",
+   "lang": "ru"
+  },
+  {
+   "start": 789.72,
+   "end": 791.32,
+   "text": "I haven't been there yet.",
+   "lang": "ru"
+  },
+  {
+   "start": 794.18,
+   "end": 797.2,
+   "text": "Как бы вы спросили, у вас есть время?",
+   "lang": "ru"
+  },
+  {
+   "start": 800.42,
+   "end": 801.7,
+   "text": "Do you have time?",
+   "lang": "ru"
+  },
+  {
+   "start": 805.98,
+   "end": 809.62,
+   "text": "У вас есть время для чашки кофе?",
+   "lang": "ru"
+  },
+  {
+   "start": 813.84,
+   "end": 815.68,
+   "text": "do you have time for coffee",
+   "lang": "en"
+  },
+  {
+   "start": 819.68,
+   "end": 821.76,
+   "text": "do you have time for coffee",
+   "lang": "en"
+  },
+  {
+   "start": 825.4,
+   "end": 829.98,
+   "text": "У меня есть немного времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 833.18,
+   "end": 834.64,
+   "text": "I have a little time.",
+   "lang": "en"
+  },
+  {
+   "start": 842.88,
+   "end": 850.22,
+   "text": "Но, к сожалению, у меня не так много времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 850.22,
+   "end": 854.54,
+   "text": "I don't have much time.",
+   "lang": "en"
+  },
+  {
+   "start": 857.36,
+   "end": 859.88,
+   "text": "Я должна поехать в центр потом.",
+   "lang": "ru"
+  },
+  {
+   "start": 863.12,
+   "end": 865.48,
+   "text": "I have to go into town later.",
+   "lang": "en"
+  },
+  {
+   "start": 869.5,
+   "end": 872.44,
+   "text": "Я собираюсь встретиться с одним моим знакомым.",
+   "lang": "ru"
+  },
+  {
+   "start": 876.4,
+   "end": 878.24,
+   "text": "I'm going to see a friend of mine.",
+   "lang": "en"
+  },
+  {
+   "start": 881.92,
+   "end": 884.46,
+   "text": "Его зовут Педро Лопес.",
+   "lang": "ru"
+  },
+  {
+   "start": 888.42,
+   "end": 890.36,
+   "text": "His name is Pedro Lopez",
+   "lang": "en"
+  },
+  {
+   "start": 892.86,
+   "end": 897.28,
+   "text": "Он здесь со своей старшей дочерью.",
+   "lang": "ru"
+  },
+  {
+   "start": 900.7,
+   "end": 902.44,
+   "text": "He's here with his older daughter.",
+   "lang": "ru"
+  },
+  {
+   "start": 906.0,
+   "end": 908.72,
+   "text": "She says that the younger one is still in Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 908.72,
+   "end": 908.94,
+   "text": "Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 913.6,
+   "end": 915.72,
+   "text": "The younger one is still in Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 915.72,
+   "end": 915.96,
+   "text": "Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 920.68,
+   "end": 922.16,
+   "text": "Is still in Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 922.16,
+   "end": 922.4,
+   "text": "Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 926.24,
+   "end": 928.38,
+   "text": "Обратите внимание на порядок слов.",
+   "lang": "ru"
+  },
+  {
+   "start": 930.44,
+   "end": 934.76,
+   "text": "Скажите еще раз, младшая все еще в Мексике?",
+   "lang": "ru"
+  },
+  {
+   "start": 938.74,
+   "end": 940.78,
+   "text": "The younger one is still in Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 944.92,
+   "end": 945.5,
+   "text": "Ask.",
+   "lang": "en"
+  },
+  {
+   "start": 945.82,
+   "end": 949.64,
+   "text": "Вы собираетесь встретиться со своим знакомым сегодня?",
+   "lang": "ru"
+  },
+  {
+   "start": 954.34,
+   "end": 956.2,
+   "text": "You're going to see your friend today?",
+   "lang": "en"
+  },
+  {
+   "start": 961.4,
+   "end": 964.78,
+   "text": "Да, и вчера я тоже его видела.",
+   "lang": "ru"
+  },
+  {
+   "start": 969.76,
+   "end": 972.28,
+   "text": "Yes, and I saw him yesterday too",
+   "lang": "en"
+  },
+  {
+   "start": 976.9,
+   "end": 978.5,
+   "text": "I saw him",
+   "lang": "en"
+  },
+  {
+   "start": 980.64,
+   "end": 982.5,
+   "text": "Мы ездили в центр.",
+   "lang": "ru"
+  },
+  {
+   "start": 985.2,
+   "end": 987.2,
+   "text": "We went into town.",
+   "lang": "en"
+  },
+  {
+   "start": 990.0,
+   "end": 991.98,
+   "text": "И ели в его отеле.",
+   "lang": "ru"
+  },
+  {
+   "start": 995.92,
+   "end": 997.88,
+   "text": "And we ate at his hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 1001.84,
+   "end": 1006.74,
+   "text": "Он говорил по-испански с официантом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.9,
+   "end": 1013.08,
+   "text": "He spoke Spanish with the waiter",
+   "lang": "en"
+  },
+  {
+   "start": 1017.32,
+   "end": 1018.86,
+   "text": "He spoke Spanish.",
+   "lang": "en"
+  },
+  {
+   "start": 1021.68,
+   "end": 1024.1,
+   "text": "Но я не видела его дочь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1027.68,
+   "end": 1029.44,
+   "text": "But I didn't see his daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 1032.48,
+   "end": 1035.46,
+   "text": "Я еще не видела его дочь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1039.08,
+   "end": 1040.98,
+   "text": "I haven't seen his daughter yet.",
+   "lang": "en"
+  },
+  {
+   "start": 1043.48,
+   "end": 1047.22,
+   "text": "У меня сейчас есть немного времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 1050.46,
+   "end": 1052.4,
+   "text": "I have a little time now.",
+   "lang": "en"
+  },
+  {
+   "start": 1054.62,
+   "end": 1058.24,
+   "text": "У меня есть время на чашку кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1058.24,
+   "end": 1062.74,
+   "text": "I have time for coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1065.76,
+   "end": 1067.4,
+   "text": "I have time for coffee.",
+   "lang": "ru"
+  },
+  {
+   "start": 1070.5,
+   "end": 1071.1,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1071.94,
+   "end": 1073.54,
+   "text": "Отлично, и у меня тоже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1076.94,
+   "end": 1078.38,
+   "text": "Fine, so do I.",
+   "lang": "ru"
+  },
+  {
+   "start": 1078.38,
+   "end": 1078.54,
+   "text": "Bye.",
+   "lang": "en"
+  },
+  {
+   "start": 1081.74,
+   "end": 1084.52,
+   "text": "И другой способ сказать это.",
+   "lang": "ru"
+  },
+  {
+   "start": 1084.72,
+   "end": 1085.72,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1087.16,
+   "end": 1087.52,
+   "text": "Me too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1089.94,
+   "end": 1090.88,
+   "text": "Me too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1092.68,
+   "end": 1095.66,
+   "text": "Это более неформально, чем",
+   "lang": "ru"
+  },
+  {
+   "start": 1095.66,
+   "end": 1101.04,
+   "text": "Но вы можете использовать его после любого выражения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1102.08,
+   "end": 1105.68,
+   "text": "Скажите еще раз, в неформальной форме, я тоже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1107.88,
+   "end": 1108.78,
+   "text": "Me too.",
+   "lang": "en"
+  },
+  {
+   "start": 1110.94,
+   "end": 1112.36,
+   "text": "Now your friend says.",
+   "lang": "en"
+  },
+  {
+   "start": 1112.58,
+   "end": 1114.14,
+   "text": "Сегодня вечером",
+   "lang": "ru"
+  },
+  {
+   "start": 1117.52,
+   "end": 1118.92,
+   "text": "Tonight",
+   "lang": "en"
+  },
+  {
+   "start": 1122.8,
+   "end": 1126.56,
+   "text": "Я собираюсь встретиться с одной моей подругой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.32,
+   "end": 1132.16,
+   "text": "I'm going to see a friend of mine.",
+   "lang": "en"
+  },
+  {
+   "start": 1135.08,
+   "end": 1137.24,
+   "text": "Она колумбийка.",
+   "lang": "ru"
+  },
+  {
+   "start": 1138.92,
+   "end": 1140.72,
+   "text": "She's Colombian.",
+   "lang": "en"
+  },
+  {
+   "start": 1141.54,
+   "end": 1149.56,
+   "text": "А теперь представьте, что вы с другой подругой находитесь в ресторане и обсуждаете, что заказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1150.88,
+   "end": 1153.42,
+   "text": "Один бокал вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1153.46,
+   "end": 1154.82,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1154.82,
+   "end": 1157.14,
+   "text": "A glass of wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1160.0,
+   "end": 1160.72,
+   "text": "Glass.",
+   "lang": "en"
+  },
+  {
+   "start": 1162.62,
+   "end": 1163.72,
+   "text": "Glass of.",
+   "lang": "en"
+  },
+  {
+   "start": 1165.7,
+   "end": 1167.34,
+   "text": "A glass of wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1170.76,
+   "end": 1170.96,
+   "text": "Say.",
+   "lang": "en"
+  },
+  {
+   "start": 1176.14,
+   "end": 1177.82,
+   "text": "A glass of wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1181.28,
+   "end": 1184.02,
+   "text": "Что бы вам хотелось выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1187.62,
+   "end": 1189.0,
+   "text": "What would you like to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 1190.96,
+   "end": 1194.5,
+   "text": "Вы бы хотели бокал вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1197.88,
+   "end": 1199.52,
+   "text": "Would you like a glass of wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1202.88,
+   "end": 1205.66,
+   "text": "Как кратко ответить согласием?",
+   "lang": "ru"
+  },
+  {
+   "start": 1207.76,
+   "end": 1208.92,
+   "text": "Yes I would.",
+   "lang": "en"
+  },
+  {
+   "start": 1211.18,
+   "end": 1212.62,
+   "text": "Yes thanks I would.",
+   "lang": "en"
+  },
+  {
+   "start": 1215.36,
+   "end": 1218.98,
+   "text": "Скажите в неформальной форме «Я тоже».",
+   "lang": "ru"
+  },
+  {
+   "start": 1218.98,
+   "end": 1221.56,
+   "text": "Me too",
+   "lang": "en"
+  },
+  {
+   "start": 1221.56,
+   "end": 1224.52,
+   "text": "Me too",
+   "lang": "en"
+  },
+  {
+   "start": 1226.08,
+   "end": 1229.48,
+   "text": "Мне бы тоже хотелось бокал вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1233.82,
+   "end": 1235.64,
+   "text": "I'd like a glass of wine too",
+   "lang": "en"
+  },
+  {
+   "start": 1239.24,
+   "end": 1244.28,
+   "text": "Вам нужен официант. Попробуйте спросить, где он.",
+   "lang": "ru"
+  },
+  {
+   "start": 1246.76,
+   "end": 1247.66,
+   "text": "Where's the waiter?",
+   "lang": "en"
+  },
+  {
+   "start": 1250.28,
+   "end": 1251.24,
+   "text": "Where's the waiter?",
+   "lang": "en"
+  },
+  {
+   "start": 1251.92,
+   "end": 1257.74,
+   "text": "Вы хотите спросить, вы хотите красного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1257.74,
+   "end": 1259.16,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1260.12,
+   "end": 1261.52,
+   "text": "Would you like red wine?",
+   "lang": "en"
+  },
+  {
+   "start": 1265.16,
+   "end": 1265.68,
+   "text": "Red.",
+   "lang": "en"
+  },
+  {
+   "start": 1267.9,
+   "end": 1268.42,
+   "text": "Red.",
+   "lang": "en"
+  },
+  {
+   "start": 1269.84,
+   "end": 1271.56,
+   "text": "Red. Red wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1271.56,
+   "end": 1271.88,
+   "text": "wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1275.08,
+   "end": 1277.84,
+   "text": "Спросите, хочет ли она красного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1281.06,
+   "end": 1282.74,
+   "text": "Would you like red wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1286.12,
+   "end": 1287.64,
+   "text": "Now try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1288.66,
+   "end": 1289.68,
+   "text": "Или белого вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1292.28,
+   "end": 1293.66,
+   "text": "Or white wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1296.66,
+   "end": 1301.12,
+   "text": "Белый винт или белый винт?",
+   "lang": "ru"
+  },
+  {
+   "start": 1303.78,
+   "end": 1306.1,
+   "text": "Ask her if she still likes red wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1309.9,
+   "end": 1311.86,
+   "text": "Do you still like red wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1315.98,
+   "end": 1318.4,
+   "text": "Или вам хотелось бы белого вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1321.9,
+   "end": 1323.64,
+   "text": "Or would you like white wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1327.42,
+   "end": 1330.14,
+   "text": "Нет, мне хотелось бы красного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1333.78,
+   "end": 1335.86,
+   "text": "No, I'd like red wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1339.36,
+   "end": 1341.96,
+   "text": "Я всегда пью красное вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.04,
+   "end": 1343.26,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1344.52,
+   "end": 1346.14,
+   "text": "I always drink red wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1350.04,
+   "end": 1350.8,
+   "text": "Always.",
+   "lang": "ru"
+  },
+  {
+   "start": 1352.82,
+   "end": 1353.58,
+   "text": "Ways.",
+   "lang": "ru"
+  },
+  {
+   "start": 1355.8,
+   "end": 1356.56,
+   "text": "Always.",
+   "lang": "ru"
+  },
+  {
+   "start": 1359.0,
+   "end": 1360.62,
+   "text": "I always drink.",
+   "lang": "ru"
+  },
+  {
+   "start": 1363.78,
+   "end": 1365.62,
+   "text": "I always drink red wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1369.82,
+   "end": 1374.1,
+   "text": "Обратите внимание, что она говорит drink, а не have.",
+   "lang": "ru"
+  },
+  {
+   "start": 1375.2,
+   "end": 1381.74,
+   "text": "Когда кто-то говорит о своих привычках, используя такие слова, как всегда, никогда и тому подобное,",
+   "lang": "ru"
+  },
+  {
+   "start": 1381.82,
+   "end": 1385.3,
+   "text": "eat, drink наиболее употребительны.",
+   "lang": "ru"
+  },
+  {
+   "start": 1386.1,
+   "end": 1389.38,
+   "text": "Скажите, я всегда пью красное вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 1393.14,
+   "end": 1395.36,
+   "text": "I always drink red wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1399.68,
+   "end": 1400.38,
+   "text": "Всегда.",
+   "lang": "ru"
+  },
+  {
+   "start": 1400.38,
+   "end": 1403.0,
+   "text": "Always.",
+   "lang": "en"
+  },
+  {
+   "start": 1406.38,
+   "end": 1409.28,
+   "text": "А я всегда пью белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 1413.22,
+   "end": 1415.4,
+   "text": "And I always drink white wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1419.52,
+   "end": 1421.64,
+   "text": "I always drink white wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1426.6,
+   "end": 1429.9,
+   "text": "один бокал красного вина, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1434.2,
+   "end": 1436.44,
+   "text": "A glass of red wine please.",
+   "lang": "en"
+  },
+  {
+   "start": 1441.08,
+   "end": 1443.3,
+   "text": "И бокал белого вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1446.76,
+   "end": 1448.36,
+   "text": "and a glass of white wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1450.4,
+   "end": 1453.46,
+   "text": "Теперь вы хотите сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 1453.46,
+   "end": 1458.24,
+   "text": "Я никогда не пью красное вино",
+   "lang": "ru"
+  },
+  {
+   "start": 1460.12,
+   "end": 1462.76,
+   "text": "Я всегда пью белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 1466.74,
+   "end": 1467.46,
+   "text": "Never",
+   "lang": "en"
+  },
+  {
+   "start": 1471.58,
+   "end": 1474.14,
+   "text": "I never drink red wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1483.76,
+   "end": 1485.98,
+   "text": "I always drink white wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1489.42,
+   "end": 1491.5,
+   "text": "I always drink white wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1495.32,
+   "end": 1499.24,
+   "text": "И никогда не пью пива.",
+   "lang": "ru"
+  },
+  {
+   "start": 1502.52,
+   "end": 1504.34,
+   "text": "And I never drink beer.",
+   "lang": "en"
+  },
+  {
+   "start": 1507.82,
+   "end": 1509.46,
+   "text": "I never drink beer.",
+   "lang": "en"
+  },
+  {
+   "start": 1512.66,
+   "end": 1516.12,
+   "text": "Я всегда пью вино или кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1521.36,
+   "end": 1524.76,
+   "text": "I always drink wine or coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1530.38,
+   "end": 1534.46,
+   "text": "Скажите в более официальной форме «я тоже».",
+   "lang": "ru"
+  },
+  {
+   "start": 1537.22,
+   "end": 1538.08,
+   "text": "So do I.",
+   "lang": "ru"
+  },
+  {
+   "start": 1541.08,
+   "end": 1541.74,
+   "text": "So do I.",
+   "lang": "ru"
+  },
+  {
+   "start": 1541.74,
+   "end": 1541.84,
+   "text": "Bye.",
+   "lang": "en"
+  },
+  {
+   "start": 1544.78,
+   "end": 1548.18,
+   "text": "Ну а сейчас наступило время, когда вам пора уходить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1548.68,
+   "end": 1552.5,
+   "text": "Скажите, к сожалению, я должен сейчас уйти.",
+   "lang": "ru"
+  },
+  {
+   "start": 1557.42,
+   "end": 1559.58,
+   "text": "Unfortunately, I have to leave now.",
+   "lang": "ru"
+  },
+  {
+   "start": 1564.32,
+   "end": 1568.24,
+   "text": "Как она скажет в неформальной форме, и я тоже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1570.92,
+   "end": 1571.74,
+   "text": "Me too.",
+   "lang": "en"
+  },
+  {
+   "start": 1574.36,
+   "end": 1575.16,
+   "text": "Me too.",
+   "lang": "en"
+  },
+  {
+   "start": 1577.44,
+   "end": 1580.96,
+   "text": "She says, я должна ехать в центр.",
+   "lang": "ru"
+  },
+  {
+   "start": 1580.96,
+   "end": 1581.2,
+   "text": "Center.",
+   "lang": "en"
+  },
+  {
+   "start": 1584.82,
+   "end": 1586.62,
+   "text": "I have to go into town.",
+   "lang": "ru"
+  },
+  {
+   "start": 1586.62,
+   "end": 1586.86,
+   "text": "down.",
+   "lang": "en"
+  },
+  {
+   "start": 1589.68,
+   "end": 1593.36,
+   "text": "Я должна встретиться со своим знакомым.",
+   "lang": "ru"
+  },
+  {
+   "start": 1597.18,
+   "end": 1598.72,
+   "text": "I'm going to see my friend.",
+   "lang": "en"
+  },
+  {
+   "start": 1602.68,
+   "end": 1605.14,
+   "text": "Я не видела его со вчерашнего дня.",
+   "lang": "ru"
+  },
+  {
+   "start": 1609.2,
+   "end": 1611.74,
+   "text": "I haven't seen him since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 1618.5,
+   "end": 1619.18,
+   "text": "Say.",
+   "lang": "en"
+  },
+  {
+   "start": 1624.4,
+   "end": 1625.12,
+   "text": "Увидимся.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.7,
+   "end": 1628.62,
+   "text": "See you later.",
+   "lang": "en"
+  },
+  {
+   "start": 1631.6,
+   "end": 1635.72,
+   "text": "Представьте, что вы только что встретились с одной знакомой американкой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1635.88,
+   "end": 1639.4,
+   "text": "Спросите ее, у вас есть время для чашки кофе?",
+   "lang": "ru"
+  },
+  {
+   "start": 1643.58,
+   "end": 1645.4,
+   "text": "Do you have time for coffee?",
+   "lang": "en"
+  },
+  {
+   "start": 1648.98,
+   "end": 1651.3,
+   "text": "Или для бокала вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1651.3,
+   "end": 1651.4,
+   "text": "Huh?",
+   "lang": "en"
+  },
+  {
+   "start": 1654.78,
+   "end": 1656.36,
+   "text": "Or a glass of wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1659.82,
+   "end": 1662.32,
+   "text": "A glass of wine? Why not?",
+   "lang": "ru"
+  },
+  {
+   "start": 1663.6,
+   "end": 1669.8,
+   "text": "В ресторане, как вы спросите знакомую, какого вина ей бы хотелось, красного или белого?",
+   "lang": "ru"
+  },
+  {
+   "start": 1674.88,
+   "end": 1677.16,
+   "text": "Would you like red wine or white wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 1682.22,
+   "end": 1685.12,
+   "text": "Я хочу чай с черным виноградом. И ты?",
+   "lang": "ru"
+  },
+  {
+   "start": 1685.52,
+   "end": 1687.74,
+   "text": "Скажи, что ты никогда не пьешь черного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1691.36,
+   "end": 1693.28,
+   "text": "Я никогда не пью черного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1697.1,
+   "end": 1699.4,
+   "text": "Скажи ей, что ты будешь пить черный вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1702.9,
+   "end": 1704.84,
+   "text": "Я буду пить черный вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1708.42,
+   "end": 1712.8,
+   "text": "Во время разговора ваша подруга спрашивает, вы были в Бостоне?",
+   "lang": "ru"
+  },
+  {
+   "start": 1716.1,
+   "end": 1718.26,
+   "text": "Have you been to Boston?",
+   "lang": "en"
+  },
+  {
+   "start": 1722.56,
+   "end": 1725.72,
+   "text": "Ответьте, что да, вы ездили туда с женой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1730.9,
+   "end": 1733.24,
+   "text": "Yes, I went there with my wife.",
+   "lang": "en"
+  },
+  {
+   "start": 1738.52,
+   "end": 1741.36,
+   "text": "А сейчас спросите ее, который час.",
+   "lang": "ru"
+  },
+  {
+   "start": 1744.02,
+   "end": 1745.22,
+   "text": "What time is it?",
+   "lang": "en"
+  },
+  {
+   "start": 1747.46,
+   "end": 1750.1,
+   "text": "Она отвечает, что еще не поздно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1753.52,
+   "end": 1754.8,
+   "text": "It's not late yet",
+   "lang": "en"
+  },
+  {
+   "start": 1758.42,
+   "end": 1759.7,
+   "text": "It's not late yet",
+   "lang": "en"
+  },
+  {
+   "start": 1762.92,
+   "end": 1766.0,
+   "text": "Она говорит, что сейчас 6 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1769.06,
+   "end": 1770.24,
+   "text": "It's six o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1773.78,
+   "end": 1775.54,
+   "text": "Магазины еще открыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1779.18,
+   "end": 1781.1,
+   "text": "The stores are still open",
+   "lang": "en"
+  },
+  {
+   "start": 1781.1,
+   "end": 1786.62,
+   "text": "The stores are still open",
+   "lang": "en"
+  },
+  {
+   "start": 1789.48,
+   "end": 1790.88,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1790.9,
+   "end": 1792.8,
+   "text": "Тогда у нас есть время.",
+   "lang": "ru"
+  },
+  {
+   "start": 1796.0,
+   "end": 1797.46,
+   "text": "Then we have time.",
+   "lang": "en"
+  },
+  {
+   "start": 1801.34,
+   "end": 1806.26,
+   "text": "У нас есть время для второго бокала вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1811.6,
+   "end": 1814.5,
+   "text": "We have time for a second glass of wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1819.9,
+   "end": 1822.74,
+   "text": "We have time for a second glass of wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1827.98,
+   "end": 1831.0,
+   "text": "Это конец пятого урока.",
+   "lang": "ru"
+  }
+ ]
+}

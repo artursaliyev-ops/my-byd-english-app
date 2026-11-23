@@ -1,0 +1,2475 @@
+{
+ "id": "II_01",
+ "source": "Pimsleur_II_01.mp3",
+ "duration": 1887.87,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 144,
+ "segments": [
+  {
+   "start": 2.2,
+   "end": 7.56,
+   "text": "Первый урок английского по методу доктора Пимслера. Второй уровень.",
+   "lang": "ru"
+  },
+  {
+   "start": 7.56,
+   "end": 9.58,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 37.56,
+   "end": 43.7,
+   "text": "and you? Not bad. When did you arrive in New York? Yesterday morning. And how long",
+   "lang": "en"
+  },
+  {
+   "start": 43.82,
+   "end": 45.22,
+   "text": "Слово.",
+   "lang": "ru"
+  },
+  {
+   "start": 45.22,
+   "end": 46.28,
+   "text": "For two days.",
+   "lang": "en"
+  },
+  {
+   "start": 46.56,
+   "end": 50.36,
+   "text": "Two days? That's not much time. Do you like New York?",
+   "lang": "en"
+  },
+  {
+   "start": 50.8,
+   "end": 53.66,
+   "text": "Yes, I do. I like New York very much.",
+   "lang": "en"
+  },
+  {
+   "start": 54.54,
+   "end": 56.48,
+   "text": "In English, how do you say...",
+   "lang": "en"
+  },
+  {
+   "start": 56.48,
+   "end": 57.36,
+   "text": "Slovak.",
+   "lang": "en"
+  },
+  {
+   "start": 59.76,
+   "end": 60.28,
+   "text": "Word.",
+   "lang": "en"
+  },
+  {
+   "start": 62.82,
+   "end": 63.34,
+   "text": "Word.",
+   "lang": "en"
+  },
+  {
+   "start": 64.46,
+   "end": 66.72,
+   "text": "How do you say",
+   "lang": "ru"
+  },
+  {
+   "start": 66.72,
+   "end": 68.08,
+   "text": "то слово?",
+   "lang": "ru"
+  },
+  {
+   "start": 70.62,
+   "end": 72.04,
+   "text": "That word.",
+   "lang": "ru"
+  },
+  {
+   "start": 74.12,
+   "end": 75.96,
+   "text": "That word",
+   "lang": "en"
+  },
+  {
+   "start": 78.28,
+   "end": 79.76,
+   "text": "Try to ask",
+   "lang": "ru"
+  },
+  {
+   "start": 79.76,
+   "end": 82.72,
+   "text": "Что означает то слово?",
+   "lang": "ru"
+  },
+  {
+   "start": 82.72,
+   "end": 82.98,
+   "text": "Cooler.",
+   "lang": "en"
+  },
+  {
+   "start": 86.54,
+   "end": 88.74,
+   "text": "What does that word mean?",
+   "lang": "ru"
+  },
+  {
+   "start": 92.84,
+   "end": 94.72,
+   "text": "What does that word mean?",
+   "lang": "en"
+  },
+  {
+   "start": 95.82,
+   "end": 103.54,
+   "text": "А теперь представьте, что вы разговариваете с одной знакомой американкой.",
+   "lang": "ru"
+  },
+  {
+   "start": 103.92,
+   "end": 105.38,
+   "text": "Спросите, как у нее дела?",
+   "lang": "ru"
+  },
+  {
+   "start": 108.96,
+   "end": 110.06,
+   "text": "How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 112.46,
+   "end": 113.54,
+   "text": "She answers.",
+   "lang": "en"
+  },
+  {
+   "start": 114.22,
+   "end": 116.2,
+   "text": "Отлично, спасибо. Как у вас?",
+   "lang": "ru"
+  },
+  {
+   "start": 120.0,
+   "end": 121.62,
+   "text": "Fine, thanks. And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 125.38,
+   "end": 126.42,
+   "text": "Fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 126.6,
+   "end": 127.6,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 130.0,
+   "end": 131.4,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 131.88,
+   "end": 132.88,
+   "text": "Неплохо.",
+   "lang": "ru"
+  },
+  {
+   "start": 134.48,
+   "end": 135.76,
+   "text": "Not bad.",
+   "lang": "ru"
+  },
+  {
+   "start": 137.88,
+   "end": 138.72,
+   "text": "Not bad.",
+   "lang": "en"
+  },
+  {
+   "start": 139.82,
+   "end": 142.5,
+   "text": "How does she ask?",
+   "lang": "ru"
+  },
+  {
+   "start": 145.16,
+   "end": 145.58,
+   "text": "Как долго?",
+   "lang": "ru"
+  },
+  {
+   "start": 147.7,
+   "end": 149.12,
+   "text": "How long?",
+   "lang": "ru"
+  },
+  {
+   "start": 150.66,
+   "end": 156.8,
+   "text": "Как долго вы здесь находитесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 160.54,
+   "end": 162.3,
+   "text": "How long have you been here?",
+   "lang": "en"
+  },
+  {
+   "start": 166.22,
+   "end": 167.14,
+   "text": "How long?",
+   "lang": "en"
+  },
+  {
+   "start": 167.34,
+   "end": 173.92,
+   "text": "Answer. Мы здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 176.88,
+   "end": 177.88,
+   "text": "We've been here.",
+   "lang": "en"
+  },
+  {
+   "start": 178.9,
+   "end": 181.98,
+   "text": "со вчерашнего дня.",
+   "lang": "ru"
+  },
+  {
+   "start": 184.7,
+   "end": 185.9,
+   "text": "Since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 188.84,
+   "end": 190.72,
+   "text": "We've been here since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 193.54,
+   "end": 196.34,
+   "text": "Мы приехали.",
+   "lang": "ru"
+  },
+  {
+   "start": 198.42,
+   "end": 200.56,
+   "text": "Мы приехали.",
+   "lang": "ru"
+  },
+  {
+   "start": 202.96,
+   "end": 204.16,
+   "text": "We arrived.",
+   "lang": "en"
+  },
+  {
+   "start": 207.0,
+   "end": 209.1,
+   "text": "Вчера утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 212.08,
+   "end": 213.28,
+   "text": "Yesterday morning.",
+   "lang": "ru"
+  },
+  {
+   "start": 216.16,
+   "end": 217.48,
+   "text": "Yesterday morning.",
+   "lang": "ru"
+  },
+  {
+   "start": 217.48,
+   "end": 217.66,
+   "text": "Good morning.",
+   "lang": "en"
+  },
+  {
+   "start": 220.58,
+   "end": 223.36,
+   "text": "Она не расслышала то, что вы сказали.",
+   "lang": "ru"
+  },
+  {
+   "start": 223.48,
+   "end": 226.12,
+   "text": "Как она спросит вас, когда вы приехали?",
+   "lang": "ru"
+  },
+  {
+   "start": 229.2,
+   "end": 230.56,
+   "text": "When did you arrive?",
+   "lang": "ru"
+  },
+  {
+   "start": 234.1,
+   "end": 235.5,
+   "text": "When did you arrive?",
+   "lang": "ru"
+  },
+  {
+   "start": 238.82,
+   "end": 239.54,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 239.54,
+   "end": 242.5,
+   "text": "Мы приехали вчера утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 246.0,
+   "end": 248.62,
+   "text": "We arrived yesterday morning.",
+   "lang": "en"
+  },
+  {
+   "start": 253.26,
+   "end": 255.36,
+   "text": "Мы находимся здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 258.94,
+   "end": 259.9,
+   "text": "We've been here.",
+   "lang": "en"
+  },
+  {
+   "start": 262.9,
+   "end": 266.32,
+   "text": "Один день. Используйте число.",
+   "lang": "ru"
+  },
+  {
+   "start": 269.28,
+   "end": 270.78,
+   "text": "for one day",
+   "lang": "en"
+  },
+  {
+   "start": 273.82,
+   "end": 275.28,
+   "text": "for one day",
+   "lang": "en"
+  },
+  {
+   "start": 277.58,
+   "end": 280.64,
+   "text": "Мы здесь со вчерашнего дня.",
+   "lang": "ru"
+  },
+  {
+   "start": 280.64,
+   "end": 280.74,
+   "text": "Yeah.",
+   "lang": "en"
+  },
+  {
+   "start": 285.54,
+   "end": 287.34,
+   "text": "We've been here since yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 291.56,
+   "end": 295.62,
+   "text": "Как она спросит, нравится ли вам Нью-Йорк?",
+   "lang": "ru"
+  },
+  {
+   "start": 299.54,
+   "end": 300.58,
+   "text": "Do you like New York?",
+   "lang": "ru"
+  },
+  {
+   "start": 304.16,
+   "end": 305.5,
+   "text": "Do you like New York?",
+   "lang": "en"
+  },
+  {
+   "start": 309.52,
+   "end": 311.24,
+   "text": "Кратко ответьте, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 314.9,
+   "end": 315.94,
+   "text": "Yes, I do.",
+   "lang": "ru"
+  },
+  {
+   "start": 318.38,
+   "end": 320.46,
+   "text": "I like New York very much.",
+   "lang": "ru"
+  },
+  {
+   "start": 324.48,
+   "end": 325.56,
+   "text": "She asks.",
+   "lang": "ru"
+  },
+  {
+   "start": 326.48,
+   "end": 329.4,
+   "text": "Сколько времени вы собираетесь здесь пробыть?",
+   "lang": "ru"
+  },
+  {
+   "start": 333.22,
+   "end": 335.1,
+   "text": "How long are you going to stay?",
+   "lang": "en"
+  },
+  {
+   "start": 338.86,
+   "end": 340.74,
+   "text": "How long are you going to stay?",
+   "lang": "en"
+  },
+  {
+   "start": 344.28,
+   "end": 345.7,
+   "text": "Одну неделю.",
+   "lang": "ru"
+  },
+  {
+   "start": 348.36,
+   "end": 349.78,
+   "text": "for one week",
+   "lang": "en"
+  },
+  {
+   "start": 352.12,
+   "end": 353.42,
+   "text": "for a week",
+   "lang": "en"
+  },
+  {
+   "start": 355.68,
+   "end": 357.8,
+   "text": "Чем вы занимались вчера?",
+   "lang": "ru"
+  },
+  {
+   "start": 360.58,
+   "end": 362.98,
+   "text": "What did you do yesterday?",
+   "lang": "ru"
+  },
+  {
+   "start": 366.64,
+   "end": 368.12,
+   "text": "What did you do yesterday?",
+   "lang": "en"
+  },
+  {
+   "start": 371.86,
+   "end": 373.96,
+   "text": "Я купил...",
+   "lang": "ru"
+  },
+  {
+   "start": 375.74,
+   "end": 377.48,
+   "text": "I bought",
+   "lang": "en"
+  },
+  {
+   "start": 377.48,
+   "end": 381.08,
+   "text": "I bought",
+   "lang": "en"
+  },
+  {
+   "start": 382.2,
+   "end": 385.0,
+   "text": "много вещей.",
+   "lang": "ru"
+  },
+  {
+   "start": 387.9,
+   "end": 389.3,
+   "text": "a lot of things",
+   "lang": "en"
+  },
+  {
+   "start": 391.82,
+   "end": 393.58,
+   "text": "a lot of things",
+   "lang": "en"
+  },
+  {
+   "start": 395.04,
+   "end": 399.24,
+   "text": "Я купил американскую газету.",
+   "lang": "ru"
+  },
+  {
+   "start": 403.6,
+   "end": 405.76,
+   "text": "I bought an American newspaper.",
+   "lang": "en"
+  },
+  {
+   "start": 410.34,
+   "end": 412.52,
+   "text": "кое-что выпить,",
+   "lang": "ru"
+  },
+  {
+   "start": 415.34,
+   "end": 416.38,
+   "text": "Something to drink",
+   "lang": "en"
+  },
+  {
+   "start": 418.66,
+   "end": 421.86,
+   "text": "и немного вина для моей жены.",
+   "lang": "ru"
+  },
+  {
+   "start": 426.04,
+   "end": 428.1,
+   "text": "and some wine for my wife",
+   "lang": "en"
+  },
+  {
+   "start": 432.12,
+   "end": 435.22,
+   "text": "Я купил немного вина для неё.",
+   "lang": "ru"
+  },
+  {
+   "start": 438.84,
+   "end": 441.42,
+   "text": "I bought some wine for her.",
+   "lang": "en"
+  },
+  {
+   "start": 445.48,
+   "end": 446.38,
+   "text": "For her.",
+   "lang": "en"
+  },
+  {
+   "start": 447.98,
+   "end": 449.7,
+   "text": "А вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 451.84,
+   "end": 452.86,
+   "text": "And you?",
+   "lang": "en"
+  },
+  {
+   "start": 455.24,
+   "end": 456.62,
+   "text": "Купили что-нибудь?",
+   "lang": "ru"
+  },
+  {
+   "start": 457.22,
+   "end": 460.44,
+   "text": "Помните, как будет по-английски «что-нибудь»?",
+   "lang": "ru"
+  },
+  {
+   "start": 463.76,
+   "end": 465.36,
+   "text": "Did you buy anything?",
+   "lang": "ru"
+  },
+  {
+   "start": 468.88,
+   "end": 470.42,
+   "text": "Did you buy anything?",
+   "lang": "en"
+  },
+  {
+   "start": 474.44,
+   "end": 476.9,
+   "text": "Скажите, что ничего не купили.",
+   "lang": "ru"
+  },
+  {
+   "start": 476.9,
+   "end": 478.34,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 479.68,
+   "end": 480.72,
+   "text": "I didn't buy anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 480.72,
+   "end": 480.94,
+   "text": "thing.",
+   "lang": "en"
+  },
+  {
+   "start": 484.26,
+   "end": 484.94,
+   "text": "Didn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 486.78,
+   "end": 487.46,
+   "text": "Didn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 489.14,
+   "end": 490.02,
+   "text": "Didn't buy.",
+   "lang": "ru"
+  },
+  {
+   "start": 491.88,
+   "end": 493.48,
+   "text": "I didn't buy anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 493.48,
+   "end": 493.78,
+   "text": "anything.",
+   "lang": "en"
+  },
+  {
+   "start": 496.8,
+   "end": 497.48,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 498.26,
+   "end": 499.5,
+   "text": "Я ничего не купил.",
+   "lang": "ru"
+  },
+  {
+   "start": 502.5,
+   "end": 504.06,
+   "text": "I didn't buy anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 507.8,
+   "end": 511.14,
+   "text": "Это сокращение от did not.",
+   "lang": "ru"
+  },
+  {
+   "start": 511.48,
+   "end": 515.68,
+   "text": "А сейчас попробуйте сказать, мне ничего не хотелось.",
+   "lang": "ru"
+  },
+  {
+   "start": 518.52,
+   "end": 520.24,
+   "text": "I didn't want anything.",
+   "lang": "en"
+  },
+  {
+   "start": 523.14,
+   "end": 524.88,
+   "text": "I didn't want anything.",
+   "lang": "en"
+  },
+  {
+   "start": 527.6,
+   "end": 530.58,
+   "text": "Нам ничего не хотелось.",
+   "lang": "ru"
+  },
+  {
+   "start": 533.08,
+   "end": 535.52,
+   "text": "We didn't want anything",
+   "lang": "en"
+  },
+  {
+   "start": 535.52,
+   "end": 539.96,
+   "text": "We didn't",
+   "lang": "en"
+  },
+  {
+   "start": 541.72,
+   "end": 544.18,
+   "text": "И мы ничего не купили.",
+   "lang": "ru"
+  },
+  {
+   "start": 547.56,
+   "end": 549.52,
+   "text": "And we didn't buy anything.",
+   "lang": "ru"
+  },
+  {
+   "start": 552.9,
+   "end": 554.56,
+   "text": "We didn't buy anything.",
+   "lang": "en"
+  },
+  {
+   "start": 554.72,
+   "end": 561.62,
+   "text": "Say. Мы купили много вещей.",
+   "lang": "ru"
+  },
+  {
+   "start": 565.38,
+   "end": 567.34,
+   "text": "We bought a lot of things.",
+   "lang": "ru"
+  },
+  {
+   "start": 571.24,
+   "end": 573.12,
+   "text": "We bought a lot of things.",
+   "lang": "en"
+  },
+  {
+   "start": 577.12,
+   "end": 580.06,
+   "text": "Мы приехали вчера утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 584.2,
+   "end": 586.94,
+   "text": "We arrived yesterday morning.",
+   "lang": "en"
+  },
+  {
+   "start": 590.22,
+   "end": 594.06,
+   "text": "и купили много вещей.",
+   "lang": "ru"
+  },
+  {
+   "start": 598.06,
+   "end": 599.82,
+   "text": "and we bought a lot of things",
+   "lang": "en"
+  },
+  {
+   "start": 602.26,
+   "end": 604.82,
+   "text": "She says,",
+   "lang": "ru"
+  },
+  {
+   "start": 606.08,
+   "end": 607.46,
+   "text": "Мы ничего не купили.",
+   "lang": "ru"
+  },
+  {
+   "start": 610.5,
+   "end": 612.34,
+   "text": "We didn't buy anything.",
+   "lang": "en"
+  },
+  {
+   "start": 613.84,
+   "end": 618.98,
+   "text": "Но мы пообедали в одном хорошем ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 619.06,
+   "end": 621.7,
+   "text": "Помните, как сказать «доброе утро»?",
+   "lang": "ru"
+  },
+  {
+   "start": 624.42,
+   "end": 625.22,
+   "text": "Good morning.",
+   "lang": "en"
+  },
+  {
+   "start": 627.66,
+   "end": 628.14,
+   "text": "Good.",
+   "lang": "en"
+  },
+  {
+   "start": 629.96,
+   "end": 630.96,
+   "text": "Now try to say",
+   "lang": "en"
+  },
+  {
+   "start": 631.1,
+   "end": 633.08,
+   "text": "Хороший ресторан.",
+   "lang": "ru"
+  },
+  {
+   "start": 635.86,
+   "end": 637.42,
+   "text": "A good restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 640.52,
+   "end": 641.34,
+   "text": "Good.",
+   "lang": "en"
+  },
+  {
+   "start": 643.0,
+   "end": 644.64,
+   "text": "A good restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 646.0,
+   "end": 650.42,
+   "text": "А так будет «Мы обедали».",
+   "lang": "ru"
+  },
+  {
+   "start": 650.42,
+   "end": 651.68,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 662.7,
+   "end": 667.5,
+   "text": "Не перепутайте. Это слово звучит как цифра «эйт».",
+   "lang": "ru"
+  },
+  {
+   "start": 668.12,
+   "end": 671.0,
+   "text": "Скажите еще раз. Мы обедали.",
+   "lang": "ru"
+  },
+  {
+   "start": 673.34,
+   "end": 674.36,
+   "text": "We ate.",
+   "lang": "ru"
+  },
+  {
+   "start": 676.62,
+   "end": 677.68,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 678.46,
+   "end": 681.5,
+   "text": "Мы обедали в одном хорошем ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 686.14,
+   "end": 688.06,
+   "text": "We ate at a good restaurant.",
+   "lang": "ru"
+  },
+  {
+   "start": 692.18,
+   "end": 694.14,
+   "text": "We ate at a good restaurant.",
+   "lang": "ru"
+  },
+  {
+   "start": 697.58,
+   "end": 698.98,
+   "text": "Try.",
+   "lang": "en"
+  },
+  {
+   "start": 699.06,
+   "end": 702.2,
+   "text": "Вы обедали в хорошем ресторане?",
+   "lang": "ru"
+  },
+  {
+   "start": 706.74,
+   "end": 708.66,
+   "text": "Did you eat at a good restaurant?",
+   "lang": "en"
+  },
+  {
+   "start": 722.9,
+   "end": 726.46,
+   "text": "Можете угадать, как кратко сказать «да»?",
+   "lang": "ru"
+  },
+  {
+   "start": 728.64,
+   "end": 730.14,
+   "text": "Yes we did",
+   "lang": "en"
+  },
+  {
+   "start": 731.98,
+   "end": 733.7,
+   "text": "Yes we did",
+   "lang": "en"
+  },
+  {
+   "start": 733.94,
+   "end": 740.5,
+   "text": "А теперь постарайтесь кратко ответить «нет».",
+   "lang": "ru"
+  },
+  {
+   "start": 742.6,
+   "end": 744.56,
+   "text": "No we didn't.",
+   "lang": "en"
+  },
+  {
+   "start": 748.16,
+   "end": 748.8,
+   "text": "We didn't.",
+   "lang": "en"
+  },
+  {
+   "start": 751.76,
+   "end": 752.48,
+   "text": "Now say it.",
+   "lang": "en"
+  },
+  {
+   "start": 752.5,
+   "end": 755.92,
+   "text": "Мы обедали в одном хорошем ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 759.84,
+   "end": 761.8,
+   "text": "We ate at a good restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 766.06,
+   "end": 767.6,
+   "text": "Вчера утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 769.76,
+   "end": 771.58,
+   "text": "yesterday morning",
+   "lang": "en"
+  },
+  {
+   "start": 773.32,
+   "end": 775.3,
+   "text": "yesterday morning",
+   "lang": "en"
+  },
+  {
+   "start": 777.16,
+   "end": 779.48,
+   "text": "Now try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 780.64,
+   "end": 782.0,
+   "text": "Вы говорили по-английски?",
+   "lang": "ru"
+  },
+  {
+   "start": 784.94,
+   "end": 786.52,
+   "text": "Did you speak English?",
+   "lang": "ru"
+  },
+  {
+   "start": 789.82,
+   "end": 791.02,
+   "text": "Did you speak English?",
+   "lang": "en"
+  },
+  {
+   "start": 794.64,
+   "end": 798.56,
+   "text": "Нет, мы не говорили по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 802.3,
+   "end": 804.46,
+   "text": "No, we didn't speak English",
+   "lang": "en"
+  },
+  {
+   "start": 807.46,
+   "end": 809.9,
+   "text": "We didn't speak English",
+   "lang": "en"
+  },
+  {
+   "start": 812.46,
+   "end": 814.3,
+   "text": "Мы обедали.",
+   "lang": "ru"
+  },
+  {
+   "start": 816.56,
+   "end": 817.52,
+   "text": "We ate.",
+   "lang": "en"
+  },
+  {
+   "start": 818.02,
+   "end": 822.28,
+   "text": "В одном хорошем ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 825.24,
+   "end": 826.7,
+   "text": "At a good restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 829.72,
+   "end": 831.74,
+   "text": "We ate at a good restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 834.3,
+   "end": 837.56,
+   "text": "Но мы не говорили по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 837.56,
+   "end": 842.86,
+   "text": "you. But we didn't speak English.",
+   "lang": "en"
+  },
+  {
+   "start": 845.94,
+   "end": 848.2,
+   "text": "We didn't speak English.",
+   "lang": "ru"
+  },
+  {
+   "start": 848.2,
+   "end": 848.42,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 851.56,
+   "end": 859.5,
+   "text": "А теперь представьте, что вы женщина, которая приехала в Нью-Йорк со своим мужем и двумя дочками.",
+   "lang": "ru"
+  },
+  {
+   "start": 860.44,
+   "end": 865.5,
+   "text": "Вы гуляли по улице и вдруг случайно столкнулись со старым знакомым.",
+   "lang": "ru"
+  },
+  {
+   "start": 866.16,
+   "end": 868.46,
+   "text": "Послушайте, что он скажет.",
+   "lang": "ru"
+  },
+  {
+   "start": 869.68,
+   "end": 871.66,
+   "text": "good morning where are you going",
+   "lang": "en"
+  },
+  {
+   "start": 873.06,
+   "end": 875.92,
+   "text": "Скажите, что вы собираетесь кое-что купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 880.3,
+   "end": 881.76,
+   "text": "I'm going to buy something.",
+   "lang": "en"
+  },
+  {
+   "start": 886.12,
+   "end": 887.5,
+   "text": "What are you going to buy?",
+   "lang": "en"
+  },
+  {
+   "start": 888.82,
+   "end": 891.4,
+   "text": "Кое-что для моего мужа.",
+   "lang": "ru"
+  },
+  {
+   "start": 894.52,
+   "end": 895.9,
+   "text": "Something for my husband?",
+   "lang": "en"
+  },
+  {
+   "start": 899.4,
+   "end": 902.4,
+   "text": "Я собираюсь кое-что купить для него.",
+   "lang": "ru"
+  },
+  {
+   "start": 905.56,
+   "end": 907.84,
+   "text": "I'm going to buy something for him.",
+   "lang": "en"
+  },
+  {
+   "start": 910.88,
+   "end": 911.76,
+   "text": "For him.",
+   "lang": "en"
+  },
+  {
+   "start": 913.7,
+   "end": 916.76,
+   "text": "И кое-что для моей дочери.",
+   "lang": "ru"
+  },
+  {
+   "start": 917.52,
+   "end": 918.2,
+   "text": "Моя дочь.",
+   "lang": "ru"
+  },
+  {
+   "start": 918.2,
+   "end": 920.0,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 920.86,
+   "end": 921.54,
+   "text": "Daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 923.5,
+   "end": 924.18,
+   "text": "Daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 926.3,
+   "end": 926.8,
+   "text": "My daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 928.68,
+   "end": 930.66,
+   "text": "Say. Моя дочь.",
+   "lang": "ru"
+  },
+  {
+   "start": 932.74,
+   "end": 933.72,
+   "text": "My daughter.",
+   "lang": "ru"
+  },
+  {
+   "start": 935.7,
+   "end": 937.72,
+   "text": "Кое-что для моей дочери.",
+   "lang": "ru"
+  },
+  {
+   "start": 941.62,
+   "end": 943.22,
+   "text": "Something for my daughter.",
+   "lang": "ru"
+  },
+  {
+   "start": 943.22,
+   "end": 943.34,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 946.74,
+   "end": 949.26,
+   "text": "I'm going to buy something for my daughter.",
+   "lang": "ru"
+  },
+  {
+   "start": 954.24,
+   "end": 956.66,
+   "text": "Слушайте, что он спросит прямо сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 956.66,
+   "end": 956.9,
+   "text": "Chips.",
+   "lang": "en"
+  },
+  {
+   "start": 957.26,
+   "end": 959.32,
+   "text": "The big one or the little one?",
+   "lang": "en"
+  },
+  {
+   "start": 959.96,
+   "end": 965.66,
+   "text": "Как вы уже знаете, в разговорной речи стараются избегать повторов.",
+   "lang": "ru"
+  },
+  {
+   "start": 967.12,
+   "end": 973.06,
+   "text": "Он не стал повторять существительное daughter, а вместо него он сказал one.",
+   "lang": "ru"
+  },
+  {
+   "start": 973.78,
+   "end": 975.04,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 975.04,
+   "end": 976.78,
+   "text": "The big one.",
+   "lang": "en"
+  },
+  {
+   "start": 979.2,
+   "end": 979.8,
+   "text": "One.",
+   "lang": "en"
+  },
+  {
+   "start": 982.18,
+   "end": 983.32,
+   "text": "The big one.",
+   "lang": "en"
+  },
+  {
+   "start": 985.46,
+   "end": 986.64,
+   "text": "The little one.",
+   "lang": "en"
+  },
+  {
+   "start": 988.82,
+   "end": 991.06,
+   "text": "The big one or the little one?",
+   "lang": "ru"
+  },
+  {
+   "start": 994.98,
+   "end": 995.94,
+   "text": "Ask again.",
+   "lang": "ru"
+  },
+  {
+   "start": 996.78,
+   "end": 998.42,
+   "text": "Большая или маленькая?",
+   "lang": "ru"
+  },
+  {
+   "start": 1002.62,
+   "end": 1004.84,
+   "text": "The big one or the little one?",
+   "lang": "ru"
+  },
+  {
+   "start": 1009.48,
+   "end": 1011.06,
+   "text": "Моя дочь Мария.",
+   "lang": "ru"
+  },
+  {
+   "start": 1014.04,
+   "end": 1015.24,
+   "text": "My daughter Maria.",
+   "lang": "ru"
+  },
+  {
+   "start": 1015.24,
+   "end": 1015.52,
+   "text": "Maria",
+   "lang": "en"
+  },
+  {
+   "start": 1018.46,
+   "end": 1019.16,
+   "text": "My daughter Maria.",
+   "lang": "ru"
+  },
+  {
+   "start": 1019.16,
+   "end": 1019.4,
+   "text": "Maria",
+   "lang": "en"
+  },
+  {
+   "start": 1022.36,
+   "end": 1023.24,
+   "text": "Старшая.",
+   "lang": "ru"
+  },
+  {
+   "start": 1023.98,
+   "end": 1024.78,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1025.96,
+   "end": 1026.66,
+   "text": "The older one.",
+   "lang": "ru"
+  },
+  {
+   "start": 1029.0,
+   "end": 1029.88,
+   "text": "Older.",
+   "lang": "ru"
+  },
+  {
+   "start": 1031.54,
+   "end": 1032.42,
+   "text": "Older.",
+   "lang": "ru"
+  },
+  {
+   "start": 1033.72,
+   "end": 1034.92,
+   "text": "The older.",
+   "lang": "ru"
+  },
+  {
+   "start": 1036.54,
+   "end": 1037.96,
+   "text": "The older one.",
+   "lang": "ru"
+  },
+  {
+   "start": 1039.82,
+   "end": 1043.06,
+   "text": "Ваше произношение похоже на произношение диктора?",
+   "lang": "ru"
+  },
+  {
+   "start": 1043.86,
+   "end": 1045.14,
+   "text": "Обратите внимание, что",
+   "lang": "ru"
+  },
+  {
+   "start": 1045.14,
+   "end": 1045.76,
+   "text": "the",
+   "lang": "ru"
+  },
+  {
+   "start": 1045.76,
+   "end": 1047.32,
+   "text": "звучит как",
+   "lang": "ru"
+  },
+  {
+   "start": 1047.32,
+   "end": 1047.84,
+   "text": "the",
+   "lang": "ru"
+  },
+  {
+   "start": 1048.46,
+   "end": 1052.6,
+   "text": "Перед словом, которое начинается на гласный звук.",
+   "lang": "ru"
+  },
+  {
+   "start": 1053.32,
+   "end": 1055.64,
+   "text": "Скажите «старшая».",
+   "lang": "ru"
+  },
+  {
+   "start": 1056.92,
+   "end": 1058.76,
+   "text": "The older one",
+   "lang": "en"
+  },
+  {
+   "start": 1060.34,
+   "end": 1061.62,
+   "text": "The",
+   "lang": "en"
+  },
+  {
+   "start": 1061.62,
+   "end": 1064.54,
+   "text": "The older one",
+   "lang": "en"
+  },
+  {
+   "start": 1065.6,
+   "end": 1068.98,
+   "text": "Я купила кое-что для младшей.",
+   "lang": "ru"
+  },
+  {
+   "start": 1073.6,
+   "end": 1075.92,
+   "text": "I bought something for the little one.",
+   "lang": "en"
+  },
+  {
+   "start": 1080.5,
+   "end": 1081.66,
+   "text": "The little one.",
+   "lang": "en"
+  },
+  {
+   "start": 1083.82,
+   "end": 1085.44,
+   "text": "вчера утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 1087.64,
+   "end": 1089.44,
+   "text": "Yesterday morning",
+   "lang": "en"
+  },
+  {
+   "start": 1091.06,
+   "end": 1095.54,
+   "text": "Я купила кое-что для нее вчера утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 1100.88,
+   "end": 1103.64,
+   "text": "I bought something for her yesterday morning",
+   "lang": "en"
+  },
+  {
+   "start": 1109.46,
+   "end": 1113.86,
+   "text": "Спросите по-английски. Ваша старшая дочь говорит по-английски?",
+   "lang": "ru"
+  },
+  {
+   "start": 1114.84,
+   "end": 1118.02,
+   "text": "Обратите внимание на порядок слов в предложении.",
+   "lang": "ru"
+  },
+  {
+   "start": 1122.8,
+   "end": 1125.76,
+   "text": "Does your older daughter speak English?",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.66,
+   "end": 1133.12,
+   "text": "Does your older daughter speak English?",
+   "lang": "en"
+  },
+  {
+   "start": 1133.3,
+   "end": 1142.0,
+   "text": "Да, она говорит по-английски очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1147.12,
+   "end": 1149.4,
+   "text": "Да, она очень хорошо говорит английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 1149.4,
+   "end": 1149.82,
+   "text": "very well.",
+   "lang": "en"
+  },
+  {
+   "start": 1154.72,
+   "end": 1157.66,
+   "text": "Ваш муж тоже говорит по-английски?",
+   "lang": "ru"
+  },
+  {
+   "start": 1162.4,
+   "end": 1165.04,
+   "text": "Does your husband speak English too?",
+   "lang": "ru"
+  },
+  {
+   "start": 1168.36,
+   "end": 1170.26,
+   "text": "И похожий вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 1170.72,
+   "end": 1171.3,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1172.62,
+   "end": 1175.12,
+   "text": "Your husband speaks English too, doesn't he?",
+   "lang": "ru"
+  },
+  {
+   "start": 1177.12,
+   "end": 1179.8,
+   "text": "Продолжайте и повторите два последних слова.",
+   "lang": "ru"
+  },
+  {
+   "start": 1181.5,
+   "end": 1181.98,
+   "text": "Doesn't he?",
+   "lang": "en"
+  },
+  {
+   "start": 1184.68,
+   "end": 1185.0,
+   "text": "Doesn't.",
+   "lang": "en"
+  },
+  {
+   "start": 1187.36,
+   "end": 1187.78,
+   "text": "Doesn't he?",
+   "lang": "en"
+  },
+  {
+   "start": 1188.2,
+   "end": 1191.68,
+   "text": "Вы уже использовали",
+   "lang": "ru"
+  },
+  {
+   "start": 1191.68,
+   "end": 1195.92,
+   "text": "чтобы давать ответ в отрицательной форме.",
+   "lang": "ru"
+  },
+  {
+   "start": 1196.66,
+   "end": 1198.14,
+   "text": "Также вы использовали слова",
+   "lang": "ru"
+  },
+  {
+   "start": 1198.14,
+   "end": 1202.36,
+   "text": "и некоторые другие",
+   "lang": "ru"
+  },
+  {
+   "start": 1202.36,
+   "end": 1205.04,
+   "text": "в значении не так ли",
+   "lang": "ru"
+  },
+  {
+   "start": 1205.04,
+   "end": 1206.8,
+   "text": "или правда",
+   "lang": "ru"
+  },
+  {
+   "start": 1207.12,
+   "end": 1211.58,
+   "text": "Скажите, ваш муж говорит по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1211.58,
+   "end": 1217.52,
+   "text": "you. Your husband speaks English.",
+   "lang": "en"
+  },
+  {
+   "start": 1221.68,
+   "end": 1222.82,
+   "text": "Now ask",
+   "lang": "ru"
+  },
+  {
+   "start": 1222.82,
+   "end": 1225.74,
+   "text": "Ваш муж говорит по-английски?",
+   "lang": "ru"
+  },
+  {
+   "start": 1225.74,
+   "end": 1225.82,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1228.82,
+   "end": 1231.32,
+   "text": "Does your husband speak English?",
+   "lang": "ru"
+  },
+  {
+   "start": 1231.32,
+   "end": 1231.52,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 1234.58,
+   "end": 1236.48,
+   "text": "Now try to ask",
+   "lang": "ru"
+  },
+  {
+   "start": 1237.52,
+   "end": 1240.52,
+   "text": "Ваш муж говорит по-английски, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1241.52,
+   "end": 1248.64,
+   "text": "Your husband speaks English, doesn't he?",
+   "lang": "ru"
+  },
+  {
+   "start": 1253.84,
+   "end": 1254.8,
+   "text": "Doesn't he?",
+   "lang": "ru"
+  },
+  {
+   "start": 1257.24,
+   "end": 1260.16,
+   "text": "Your husband speaks English, doesn't he?",
+   "lang": "ru"
+  },
+  {
+   "start": 1265.16,
+   "end": 1265.96,
+   "text": "Answer",
+   "lang": "ru"
+  },
+  {
+   "start": 1265.96,
+   "end": 1269.28,
+   "text": "Нет, он не говорит по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1273.22,
+   "end": 1275.22,
+   "text": "No, he doesn't speak English.",
+   "lang": "en"
+  },
+  {
+   "start": 1284.44,
+   "end": 1286.62,
+   "text": "Вчера утром",
+   "lang": "ru"
+  },
+  {
+   "start": 1288.5,
+   "end": 1290.32,
+   "text": "Yesterday morning",
+   "lang": "en"
+  },
+  {
+   "start": 1291.88,
+   "end": 1295.9,
+   "text": "Мы ели в одном хорошем ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 1299.38,
+   "end": 1301.1,
+   "text": "We ate at a good restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 1303.9,
+   "end": 1306.92,
+   "text": "С американскими друзьями.",
+   "lang": "ru"
+  },
+  {
+   "start": 1310.32,
+   "end": 1312.2,
+   "text": "with some American friends.",
+   "lang": "en"
+  },
+  {
+   "start": 1315.96,
+   "end": 1319.74,
+   "text": "Но они не говорили по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1322.96,
+   "end": 1325.02,
+   "text": "But they didn't speak English.",
+   "lang": "en"
+  },
+  {
+   "start": 1328.4,
+   "end": 1330.28,
+   "text": "They didn't speak English.",
+   "lang": "en"
+  },
+  {
+   "start": 1333.62,
+   "end": 1335.58,
+   "text": "С моим мужем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1338.08,
+   "end": 1339.08,
+   "text": "with my husband.",
+   "lang": "en"
+  },
+  {
+   "start": 1340.42,
+   "end": 1344.46,
+   "text": "Они не говорили с ним по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1348.2,
+   "end": 1350.04,
+   "text": "They didn't speak English with him.",
+   "lang": "en"
+  },
+  {
+   "start": 1353.62,
+   "end": 1354.44,
+   "text": "With him.",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.06,
+   "end": 1357.18,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.74,
+   "end": 1358.98,
+   "text": "Ваша дочь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1361.58,
+   "end": 1362.7,
+   "text": "Your daughter.",
+   "lang": "ru"
+  },
+  {
+   "start": 1365.16,
+   "end": 1366.42,
+   "text": "Try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1367.18,
+   "end": 1370.26,
+   "text": "Ваша дочь живет в Бостоне, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1375.16,
+   "end": 1377.82,
+   "text": "Your daughter lives in Boston, doesn't she?",
+   "lang": "ru"
+  },
+  {
+   "start": 1382.92,
+   "end": 1383.52,
+   "text": "Doesn't she?",
+   "lang": "en"
+  },
+  {
+   "start": 1386.2,
+   "end": 1386.64,
+   "text": "Ask.",
+   "lang": "en"
+  },
+  {
+   "start": 1387.16,
+   "end": 1388.06,
+   "text": "Старшая?",
+   "lang": "ru"
+  },
+  {
+   "start": 1390.54,
+   "end": 1391.64,
+   "text": "The older one?",
+   "lang": "en"
+  },
+  {
+   "start": 1394.12,
+   "end": 1395.1,
+   "text": "The older one?",
+   "lang": "en"
+  },
+  {
+   "start": 1396.72,
+   "end": 1400.1,
+   "text": "Как бы вы ответили кратко, что да?",
+   "lang": "ru"
+  },
+  {
+   "start": 1402.86,
+   "end": 1404.02,
+   "text": "Yes, she does.",
+   "lang": "en"
+  },
+  {
+   "start": 1409.88,
+   "end": 1412.64,
+   "text": "Она живет там с друзьями.",
+   "lang": "ru"
+  },
+  {
+   "start": 1416.82,
+   "end": 1418.74,
+   "text": "She lives there with some friends.",
+   "lang": "en"
+  },
+  {
+   "start": 1423.5,
+   "end": 1424.84,
+   "text": "Мексиканские друзья.",
+   "lang": "ru"
+  },
+  {
+   "start": 1428.82,
+   "end": 1430.72,
+   "text": "Some Mexican friends.",
+   "lang": "en"
+  },
+  {
+   "start": 1432.84,
+   "end": 1434.68,
+   "text": "Some Mexican friends.",
+   "lang": "en"
+  },
+  {
+   "start": 1435.52,
+   "end": 1442.22,
+   "text": "А сейчас ваш знакомый хочет узнать, где вы остановились.",
+   "lang": "ru"
+  },
+  {
+   "start": 1442.4,
+   "end": 1445.92,
+   "text": "Он спрашивает, где находится ваш отель?",
+   "lang": "ru"
+  },
+  {
+   "start": 1449.24,
+   "end": 1450.46,
+   "text": "Where's your hotel?",
+   "lang": "en"
+  },
+  {
+   "start": 1453.56,
+   "end": 1454.28,
+   "text": "Answer",
+   "lang": "en"
+  },
+  {
+   "start": 1454.84,
+   "end": 1455.96,
+   "text": "На Парк Авеню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1458.68,
+   "end": 1460.36,
+   "text": "On Park Avenue",
+   "lang": "en"
+  },
+  {
+   "start": 1460.36,
+   "end": 1464.72,
+   "text": "On Park Avenue",
+   "lang": "en"
+  },
+  {
+   "start": 1467.42,
+   "end": 1468.96,
+   "text": "How do you ask for a ticket?",
+   "lang": "en"
+  },
+  {
+   "start": 1468.98,
+   "end": 1470.98,
+   "text": "Вам нравится отель?",
+   "lang": "ru"
+  },
+  {
+   "start": 1474.24,
+   "end": 1475.7,
+   "text": "Do you like the hotel?",
+   "lang": "en"
+  },
+  {
+   "start": 1478.94,
+   "end": 1480.36,
+   "text": "Now try to ask.",
+   "lang": "en"
+  },
+  {
+   "start": 1480.6,
+   "end": 1482.9,
+   "text": "Вам нравится отель, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1487.12,
+   "end": 1489.24,
+   "text": "You like the hotel, don't you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1493.5,
+   "end": 1494.18,
+   "text": "Don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1496.14,
+   "end": 1497.98,
+   "text": "You like the hotel, don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1502.1,
+   "end": 1503.66,
+   "text": "Обратите внимание, что",
+   "lang": "ru"
+  },
+  {
+   "start": 1503.66,
+   "end": 1505.06,
+   "text": "Don't you",
+   "lang": "ru"
+  },
+  {
+   "start": 1505.76,
+   "end": 1507.56,
+   "text": "похоже по звучанию на",
+   "lang": "ru"
+  },
+  {
+   "start": 1507.56,
+   "end": 1508.14,
+   "text": "to",
+   "lang": "ru"
+  },
+  {
+   "start": 1509.66,
+   "end": 1510.88,
+   "text": "Спросите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1511.18,
+   "end": 1513.14,
+   "text": "Вам нравится отель, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1517.28,
+   "end": 1519.26,
+   "text": "You like the hotel, don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1523.68,
+   "end": 1524.2,
+   "text": "Don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1526.68,
+   "end": 1529.48,
+   "text": "Он неплохой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1532.2,
+   "end": 1533.32,
+   "text": "It's not bad.",
+   "lang": "en"
+  },
+  {
+   "start": 1539.88,
+   "end": 1542.56,
+   "text": "Ванная комната большая.",
+   "lang": "ru"
+  },
+  {
+   "start": 1545.72,
+   "end": 1547.1,
+   "text": "The bathroom is big.",
+   "lang": "en"
+  },
+  {
+   "start": 1549.56,
+   "end": 1551.66,
+   "text": "Вы ели в отеле?",
+   "lang": "ru"
+  },
+  {
+   "start": 1555.28,
+   "end": 1556.98,
+   "text": "Did you eat at the hotel?",
+   "lang": "en"
+  },
+  {
+   "start": 1566.14,
+   "end": 1568.26,
+   "text": "Да, вчера мы там ели.",
+   "lang": "ru"
+  },
+  {
+   "start": 1568.32,
+   "end": 1574.06,
+   "text": "В английском языке указание времени обычно ставится в конец предложения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1578.24,
+   "end": 1580.2,
+   "text": "Yes, we ate there yesterday",
+   "lang": "en"
+  },
+  {
+   "start": 1583.68,
+   "end": 1585.92,
+   "text": "We ate there yesterday",
+   "lang": "en"
+  },
+  {
+   "start": 1588.38,
+   "end": 1590.0,
+   "text": "Ресторан хороший.",
+   "lang": "ru"
+  },
+  {
+   "start": 1593.62,
+   "end": 1595.22,
+   "text": "The restaurant is good.",
+   "lang": "en"
+  },
+  {
+   "start": 1600.5,
+   "end": 1604.6,
+   "text": "И не слишком дорогой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1607.76,
+   "end": 1609.58,
+   "text": "And not too expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 1613.68,
+   "end": 1613.96,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1614.16,
+   "end": 1616.88,
+   "text": "Правда или в самом деле?",
+   "lang": "ru"
+  },
+  {
+   "start": 1619.08,
+   "end": 1619.92,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 1621.86,
+   "end": 1622.7,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 1624.78,
+   "end": 1625.62,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1626.72,
+   "end": 1629.38,
+   "text": "Как долго вы собираетесь пробыть в Нью-Йорке?",
+   "lang": "ru"
+  },
+  {
+   "start": 1629.38,
+   "end": 1629.5,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1633.92,
+   "end": 1636.86,
+   "text": "Как долго вы будете жить в Нью-Йорке?",
+   "lang": "ru"
+  },
+  {
+   "start": 1641.48,
+   "end": 1642.56,
+   "text": "Попробуйте сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 1642.56,
+   "end": 1645.74,
+   "text": "Мой муж собирается уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1649.58,
+   "end": 1651.94,
+   "text": "Мой муж собирается уехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1655.98,
+   "end": 1657.42,
+   "text": "Завтра утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 1660.62,
+   "end": 1661.66,
+   "text": "Tomorrow morning.",
+   "lang": "en"
+  },
+  {
+   "start": 1666.46,
+   "end": 1669.32,
+   "text": "My husband is going to leave tomorrow morning.",
+   "lang": "en"
+  },
+  {
+   "start": 1673.0,
+   "end": 1677.62,
+   "text": "Он собирается уехать завтра утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 1681.96,
+   "end": 1683.96,
+   "text": "He's going to leave tomorrow morning.",
+   "lang": "en"
+  },
+  {
+   "start": 1693.36,
+   "end": 1696.36,
+   "text": "С нашей старшей дочерью.",
+   "lang": "ru"
+  },
+  {
+   "start": 1699.18,
+   "end": 1700.94,
+   "text": "with our older daughter",
+   "lang": "en"
+  },
+  {
+   "start": 1703.9,
+   "end": 1705.48,
+   "text": "our older daughter",
+   "lang": "en"
+  },
+  {
+   "start": 1707.08,
+   "end": 1711.06,
+   "text": "Они вместе едут в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1715.36,
+   "end": 1717.34,
+   "text": "They're going to Boston together.",
+   "lang": "en"
+  },
+  {
+   "start": 1721.72,
+   "end": 1723.74,
+   "text": "They're going to Boston together.",
+   "lang": "en"
+  },
+  {
+   "start": 1728.72,
+   "end": 1731.44,
+   "text": "У вас есть машина, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1735.14,
+   "end": 1736.84,
+   "text": "You have a car, don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1740.76,
+   "end": 1741.16,
+   "text": "Don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1743.72,
+   "end": 1745.82,
+   "text": "Кратко ответьте, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1749.16,
+   "end": 1750.22,
+   "text": "Yes we do",
+   "lang": "en"
+  },
+  {
+   "start": 1752.6,
+   "end": 1753.62,
+   "text": "Yes we do",
+   "lang": "en"
+  },
+  {
+   "start": 1754.68,
+   "end": 1758.26,
+   "text": "У нас маленькая машина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1761.42,
+   "end": 1762.88,
+   "text": "We have a small car.",
+   "lang": "en"
+  },
+  {
+   "start": 1765.42,
+   "end": 1767.86,
+   "text": "И Бостон не так уж далеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 1767.86,
+   "end": 1768.02,
+   "text": "Cool.",
+   "lang": "en"
+  },
+  {
+   "start": 1771.62,
+   "end": 1773.46,
+   "text": "And Boston isn't too far.",
+   "lang": "en"
+  },
+  {
+   "start": 1776.78,
+   "end": 1778.8,
+   "text": "Я останусь здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1782.22,
+   "end": 1783.62,
+   "text": "I'm going to stay here.",
+   "lang": "en"
+  },
+  {
+   "start": 1790.34,
+   "end": 1793.06,
+   "text": "с младшей.",
+   "lang": "ru"
+  },
+  {
+   "start": 1795.66,
+   "end": 1796.86,
+   "text": "with the little one.",
+   "lang": "en"
+  },
+  {
+   "start": 1799.34,
+   "end": 1803.26,
+   "text": "Мы собираемся остаться здесь на несколько недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 1807.82,
+   "end": 1809.94,
+   "text": "We're going to stay for a few weeks",
+   "lang": "en"
+  },
+  {
+   "start": 1813.74,
+   "end": 1816.32,
+   "text": "И завтра утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 1819.04,
+   "end": 1820.8,
+   "text": "and tomorrow morning.",
+   "lang": "en"
+  },
+  {
+   "start": 1822.32,
+   "end": 1826.1,
+   "text": "Мы планируем много всего посмотреть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1830.44,
+   "end": 1832.2,
+   "text": "We're going to see a lot of things.",
+   "lang": "en"
+  },
+  {
+   "start": 1835.94,
+   "end": 1839.3,
+   "text": "Сейчас я пойду что-нибудь купить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1839.78,
+   "end": 1845.26,
+   "text": "Now I'm going to buy something.",
+   "lang": "ru"
+  },
+  {
+   "start": 1848.9,
+   "end": 1851.08,
+   "text": "Для нашей старшей дочери.",
+   "lang": "ru"
+  },
+  {
+   "start": 1853.78,
+   "end": 1855.36,
+   "text": "For our older daughter.",
+   "lang": "ru"
+  },
+  {
+   "start": 1857.7,
+   "end": 1859.82,
+   "text": "И куплю газету.",
+   "lang": "ru"
+  },
+  {
+   "start": 1863.84,
+   "end": 1865.64,
+   "text": "And I'm going to buy a newspaper.",
+   "lang": "en"
+  },
+  {
+   "start": 1870.04,
+   "end": 1871.6,
+   "text": "Попрощайтесь с ним.",
+   "lang": "ru"
+  },
+  {
+   "start": 1873.14,
+   "end": 1874.54,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 1876.06,
+   "end": 1877.46,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 1878.1,
+   "end": 1880.72,
+   "text": "Это конец первого урока.",
+   "lang": "ru"
+  },
+  {
+   "start": 1881.42,
+   "end": 1882.6,
+   "text": "На сегодня это все.",
+   "lang": "ru"
+  },
+  {
+   "start": 1882.6,
+   "end": 1887.24,
+   "text": "Все. Завтра, когда вы будете готовы, мы начнем второй урок.",
+   "lang": "ru"
+  }
+ ]
+}

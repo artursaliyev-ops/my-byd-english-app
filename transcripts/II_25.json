@@ -1,0 +1,2265 @@
+{
+ "id": "II_25",
+ "source": "Pimsleur_II_25.mp3",
+ "duration": 1817.78,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 152,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.56,
+   "text": "I'd be the world rover for many years. I'd spend all my money on whiskey and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.26,
+   "end": 19.06,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем",
+   "lang": "ru"
+  },
+  {
+   "start": 20.1,
+   "end": 24.82,
+   "text": "25-й урок английского языка по методу доктора Пимстлера.",
+   "lang": "ru"
+  },
+  {
+   "start": 24.82,
+   "end": 26.06,
+   "text": "Слушайте эту разговор.",
+   "lang": "ru"
+  },
+  {
+   "start": 27.2,
+   "end": 28.68,
+   "text": "Mary, do you play tennis?",
+   "lang": "en"
+  },
+  {
+   "start": 29.16,
+   "end": 30.42,
+   "text": "Yes, I do. Why?",
+   "lang": "en"
+  },
+  {
+   "start": 30.74,
+   "end": 34.62,
+   "text": "Some friends of mine are coming to visit tomorrow and they both play very well.",
+   "lang": "en"
+  },
+  {
+   "start": 34.82,
+   "end": 36.26,
+   "text": "Would you like to play with us?",
+   "lang": "en"
+  },
+  {
+   "start": 36.48,
+   "end": 38.3,
+   "text": "Yes, I would. At what time?",
+   "lang": "en"
+  },
+  {
+   "start": 38.6,
+   "end": 40.18,
+   "text": "At 4 or 5 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 40.7,
+   "end": 42.06,
+   "text": "Okay, I can play tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 42.56,
+   "end": 43.0,
+   "text": "Great.",
+   "lang": "en"
+  },
+  {
+   "start": 44.0,
+   "end": 44.68,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 46.04,
+   "end": 47.4,
+   "text": "Mary, do you play tennis?",
+   "lang": "en"
+  },
+  {
+   "start": 47.82,
+   "end": 49.12,
+   "text": "Yes, I do. Why?",
+   "lang": "en"
+  },
+  {
+   "start": 49.66,
+   "end": 53.9,
+   "text": "Some friends of mine are coming to visit tomorrow and they both play very well.",
+   "lang": "en"
+  },
+  {
+   "start": 54.22,
+   "end": 55.76,
+   "text": "Would you like to play with us?",
+   "lang": "en"
+  },
+  {
+   "start": 56.06,
+   "end": 57.96,
+   "text": "Yes, I would. At what time?",
+   "lang": "en"
+  },
+  {
+   "start": 58.08,
+   "end": 59.6,
+   "text": "At 4 or 5 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 60.0,
+   "end": 61.42,
+   "text": "Okay, I can play tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 61.8,
+   "end": 62.26,
+   "text": "Great.",
+   "lang": "en"
+  },
+  {
+   "start": 62.84,
+   "end": 65.5,
+   "text": "Как спросить, вы играете в теннис?",
+   "lang": "ru"
+  },
+  {
+   "start": 68.64,
+   "end": 69.92,
+   "text": "Do you play tennis?",
+   "lang": "en"
+  },
+  {
+   "start": 73.12,
+   "end": 81.78,
+   "text": "Ask. Вам бы хотелось поиграть в теннис со мной?",
+   "lang": "ru"
+  },
+  {
+   "start": 86.26,
+   "end": 88.5,
+   "text": "Would you like to play tennis with me?",
+   "lang": "ru"
+  },
+  {
+   "start": 93.16,
+   "end": 94.34,
+   "text": "She answers",
+   "lang": "ru"
+  },
+  {
+   "start": 94.34,
+   "end": 95.74,
+   "text": "Ладно, где?",
+   "lang": "ru"
+  },
+  {
+   "start": 98.38,
+   "end": 99.62,
+   "text": "Okay, where?",
+   "lang": "ru"
+  },
+  {
+   "start": 102.88,
+   "end": 106.02,
+   "text": "Вы предлагаете поехать на ближайший корт.",
+   "lang": "ru"
+  },
+  {
+   "start": 106.02,
+   "end": 108.2,
+   "text": "Она говорит, хорошая идея.",
+   "lang": "ru"
+  },
+  {
+   "start": 110.8,
+   "end": 112.12,
+   "text": "That's a good idea.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.82,
+   "end": 118.28,
+   "text": "Now say, моя машина не очень хорошо работает.",
+   "lang": "ru"
+  },
+  {
+   "start": 118.28,
+   "end": 118.42,
+   "text": "it.",
+   "lang": "en"
+  },
+  {
+   "start": 123.26,
+   "end": 126.0,
+   "text": "My car isn't working very well.",
+   "lang": "ru"
+  },
+  {
+   "start": 130.98,
+   "end": 132.44,
+   "text": "А пешком?",
+   "lang": "ru"
+  },
+  {
+   "start": 134.78,
+   "end": 136.08,
+   "text": "And walking?",
+   "lang": "ru"
+  },
+  {
+   "start": 139.34,
+   "end": 139.94,
+   "text": "And walking?",
+   "lang": "ru"
+  },
+  {
+   "start": 142.7,
+   "end": 145.54,
+   "text": "А пешком идти слишком далеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 145.54,
+   "end": 145.66,
+   "text": "Cool.",
+   "lang": "en"
+  },
+  {
+   "start": 150.08,
+   "end": 152.2,
+   "text": "Walking takes too much time.",
+   "lang": "en"
+  },
+  {
+   "start": 156.78,
+   "end": 158.94,
+   "text": "Walking takes too much time.",
+   "lang": "en"
+  },
+  {
+   "start": 162.72,
+   "end": 166.82,
+   "text": "She says, мы можем поехать на моей машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 171.06,
+   "end": 172.56,
+   "text": "We can go in my car.",
+   "lang": "en"
+  },
+  {
+   "start": 177.08,
+   "end": 177.56,
+   "text": "Say,",
+   "lang": "en"
+  },
+  {
+   "start": 177.76,
+   "end": 178.38,
+   "text": "we can go in your car.",
+   "lang": "en"
+  },
+  {
+   "start": 178.4,
+   "end": 179.0,
+   "text": "Великолепно!",
+   "lang": "ru"
+  },
+  {
+   "start": 181.58,
+   "end": 182.2,
+   "text": "Great.",
+   "lang": "ru"
+  },
+  {
+   "start": 184.9,
+   "end": 185.52,
+   "text": "Great.",
+   "lang": "ru"
+  },
+  {
+   "start": 188.22,
+   "end": 189.32,
+   "text": "Now ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 190.08,
+   "end": 191.2,
+   "text": "Как давно у вас машина?",
+   "lang": "ru"
+  },
+  {
+   "start": 195.34,
+   "end": 197.28,
+   "text": "How long have you had your car?",
+   "lang": "ru"
+  },
+  {
+   "start": 201.76,
+   "end": 202.82,
+   "text": "She answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 203.4,
+   "end": 204.42,
+   "text": "Уже три года.",
+   "lang": "ru"
+  },
+  {
+   "start": 204.42,
+   "end": 205.04,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 207.52,
+   "end": 208.9,
+   "text": "For three years.",
+   "lang": "ru"
+  },
+  {
+   "start": 208.9,
+   "end": 209.08,
+   "text": "Cheers.",
+   "lang": "en"
+  },
+  {
+   "start": 211.94,
+   "end": 213.72,
+   "text": "У меня машина уже три года.",
+   "lang": "ru"
+  },
+  {
+   "start": 218.34,
+   "end": 220.5,
+   "text": "I've had my car for three years.",
+   "lang": "en"
+  },
+  {
+   "start": 225.02,
+   "end": 225.58,
+   "text": "Say.",
+   "lang": "en"
+  },
+  {
+   "start": 226.0,
+   "end": 227.86,
+   "text": "Вы водите быстро, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 231.74,
+   "end": 233.56,
+   "text": "You drive fast, don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 237.5,
+   "end": 238.4,
+   "text": "She answered.",
+   "lang": "en"
+  },
+  {
+   "start": 238.56,
+   "end": 240.2,
+   "text": "Мне нравится водить быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 243.54,
+   "end": 245.04,
+   "text": "I like to drive fast.",
+   "lang": "en"
+  },
+  {
+   "start": 247.46,
+   "end": 251.12,
+   "text": "И эти дороги очень хорошие.",
+   "lang": "ru"
+  },
+  {
+   "start": 255.4,
+   "end": 257.4,
+   "text": "And these roads are very good.",
+   "lang": "en"
+  },
+  {
+   "start": 260.06,
+   "end": 263.4,
+   "text": "Но я могу сбавить скорость.",
+   "lang": "ru"
+  },
+  {
+   "start": 266.5,
+   "end": 268.0,
+   "text": "But I can slow down.",
+   "lang": "en"
+  },
+  {
+   "start": 269.62,
+   "end": 272.34,
+   "text": "Если вы хотите.",
+   "lang": "ru"
+  },
+  {
+   "start": 274.58,
+   "end": 275.66,
+   "text": "If you want.",
+   "lang": "en"
+  },
+  {
+   "start": 278.2,
+   "end": 283.76,
+   "text": "Вы видели вчерашнюю газету? Используйте сокращенную форму.",
+   "lang": "ru"
+  },
+  {
+   "start": 288.26,
+   "end": 290.18,
+   "text": "Did you see yesterday's paper?",
+   "lang": "en"
+  },
+  {
+   "start": 294.98,
+   "end": 296.92,
+   "text": "Did you see yesterday's paper?",
+   "lang": "en"
+  },
+  {
+   "start": 301.58,
+   "end": 306.14,
+   "text": "Внезапно перед вами проносится машина. Скажите, помедленнее.",
+   "lang": "ru"
+  },
+  {
+   "start": 308.4,
+   "end": 309.44,
+   "text": "Slow down.",
+   "lang": "ru"
+  },
+  {
+   "start": 312.04,
+   "end": 313.04,
+   "text": "Slow down.",
+   "lang": "ru"
+  },
+  {
+   "start": 316.26,
+   "end": 317.96,
+   "text": "Now ask if she knows Mary Johnson.",
+   "lang": "ru"
+  },
+  {
+   "start": 321.54,
+   "end": 323.16,
+   "text": "Do you know Mary Johnson?",
+   "lang": "ru"
+  },
+  {
+   "start": 326.88,
+   "end": 329.18,
+   "text": "Say that you often play tennis with her.",
+   "lang": "ru"
+  },
+  {
+   "start": 333.0,
+   "end": 335.16,
+   "text": "I often play tennis with her.",
+   "lang": "ru"
+  },
+  {
+   "start": 339.4,
+   "end": 341.66,
+   "text": "и с ее мужем тоже.",
+   "lang": "ru"
+  },
+  {
+   "start": 345.88,
+   "end": 347.52,
+   "text": "and with her husband too.",
+   "lang": "en"
+  },
+  {
+   "start": 351.38,
+   "end": 352.5,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 352.5,
+   "end": 355.12,
+   "text": "Они оба очень хорошо играют.",
+   "lang": "ru"
+  },
+  {
+   "start": 359.0,
+   "end": 361.12,
+   "text": "They both play very well.",
+   "lang": "ru"
+  },
+  {
+   "start": 365.3,
+   "end": 369.44,
+   "text": "Ask. Вам бы хотелось поиграть с нами в теннис завтра?",
+   "lang": "ru"
+  },
+  {
+   "start": 374.18,
+   "end": 376.34,
+   "text": "Would you like to play tennis with us tomorrow?",
+   "lang": "en"
+  },
+  {
+   "start": 380.62,
+   "end": 383.84,
+   "text": "Как она кратко примет предложение?",
+   "lang": "ru"
+  },
+  {
+   "start": 386.88,
+   "end": 387.5,
+   "text": "Yes, I would.",
+   "lang": "ru"
+  },
+  {
+   "start": 387.5,
+   "end": 387.62,
+   "text": "Good.",
+   "lang": "en"
+  },
+  {
+   "start": 391.14,
+   "end": 391.7,
+   "text": "Великолепно!",
+   "lang": "ru"
+  },
+  {
+   "start": 393.3,
+   "end": 394.7,
+   "text": "Great.",
+   "lang": "en"
+  },
+  {
+   "start": 396.32,
+   "end": 397.72,
+   "text": "Great.",
+   "lang": "en"
+  },
+  {
+   "start": 400.18,
+   "end": 405.9,
+   "text": "Сейчас она хочет узнать, кто играет в теннис лучше, Мэри или ее муж, Билл.",
+   "lang": "ru"
+  },
+  {
+   "start": 405.9,
+   "end": 407.18,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 408.48,
+   "end": 409.28,
+   "text": "Who plays better?",
+   "lang": "en"
+  },
+  {
+   "start": 412.22,
+   "end": 412.92,
+   "text": "Better.",
+   "lang": "en"
+  },
+  {
+   "start": 414.8,
+   "end": 415.5,
+   "text": "Better.",
+   "lang": "en"
+  },
+  {
+   "start": 417.7,
+   "end": 418.9,
+   "text": "Who plays?",
+   "lang": "ru"
+  },
+  {
+   "start": 421.48,
+   "end": 422.96,
+   "text": "Who plays better?",
+   "lang": "ru"
+  },
+  {
+   "start": 425.82,
+   "end": 427.12,
+   "text": "Say in English.",
+   "lang": "ru"
+  },
+  {
+   "start": 427.46,
+   "end": 428.18,
+   "text": "Лучше.",
+   "lang": "ru"
+  },
+  {
+   "start": 429.96,
+   "end": 430.68,
+   "text": "Better.",
+   "lang": "ru"
+  },
+  {
+   "start": 433.06,
+   "end": 434.82,
+   "text": "Спросите, кто играет лучше.",
+   "lang": "ru"
+  },
+  {
+   "start": 437.46,
+   "end": 438.86,
+   "text": "Who plays better?",
+   "lang": "ru"
+  },
+  {
+   "start": 441.76,
+   "end": 442.48,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 442.98,
+   "end": 444.98,
+   "text": "Думаю, что Билл играет лучше.",
+   "lang": "ru"
+  },
+  {
+   "start": 448.92,
+   "end": 451.04,
+   "text": "I think Bill plays better.",
+   "lang": "en"
+  },
+  {
+   "start": 455.06,
+   "end": 456.24,
+   "text": "She asks.",
+   "lang": "en"
+  },
+  {
+   "start": 456.42,
+   "end": 459.06,
+   "text": "Тогда почему бы вам не поиграть в теннис с ним?",
+   "lang": "ru"
+  },
+  {
+   "start": 463.84,
+   "end": 466.36,
+   "text": "Then why don't you play tennis with him?",
+   "lang": "en"
+  },
+  {
+   "start": 470.9,
+   "end": 472.78,
+   "text": "А я могу поиграть с ней.",
+   "lang": "ru"
+  },
+  {
+   "start": 476.32,
+   "end": 478.02,
+   "text": "И я могу играть с ней.",
+   "lang": "ru"
+  },
+  {
+   "start": 481.5,
+   "end": 482.3,
+   "text": "Попробуй сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 482.3,
+   "end": 485.06,
+   "text": "У меня есть идея получше.",
+   "lang": "ru"
+  },
+  {
+   "start": 488.76,
+   "end": 490.44,
+   "text": "У меня есть лучшее мнение.",
+   "lang": "ru"
+  },
+  {
+   "start": 494.66,
+   "end": 495.8,
+   "text": "Более лучшее мнение.",
+   "lang": "ru"
+  },
+  {
+   "start": 499.02,
+   "end": 501.34,
+   "text": "Вы, Билл, Мэри и я",
+   "lang": "ru"
+  },
+  {
+   "start": 506.8,
+   "end": 509.72,
+   "text": "You, Bill, Mary and I",
+   "lang": "ru"
+  },
+  {
+   "start": 509.72,
+   "end": 509.84,
+   "text": "Bye.",
+   "lang": "en"
+  },
+  {
+   "start": 515.06,
+   "end": 516.84,
+   "text": "можем сыграть вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 519.68,
+   "end": 521.12,
+   "text": "Can play together.",
+   "lang": "ru"
+  },
+  {
+   "start": 521.12,
+   "end": 521.34,
+   "text": "together.",
+   "lang": "en"
+  },
+  {
+   "start": 524.8,
+   "end": 526.06,
+   "text": "Отличная идея!",
+   "lang": "ru"
+  },
+  {
+   "start": 529.38,
+   "end": 530.34,
+   "text": "That's a good idea.",
+   "lang": "ru"
+  },
+  {
+   "start": 533.7,
+   "end": 534.78,
+   "text": "That's a good idea.",
+   "lang": "en"
+  },
+  {
+   "start": 538.88,
+   "end": 541.64,
+   "text": "Сейчас представьте, что вы в баре с вашей знакомой.",
+   "lang": "ru"
+  },
+  {
+   "start": 542.0,
+   "end": 543.52,
+   "text": "Ask her what she would like to drink.",
+   "lang": "ru"
+  },
+  {
+   "start": 547.36,
+   "end": 548.62,
+   "text": "What would you like to drink?",
+   "lang": "ru"
+  },
+  {
+   "start": 552.6,
+   "end": 554.28,
+   "text": "Tell her that you're going to have a beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 558.46,
+   "end": 559.78,
+   "text": "I'm going to have a beer.",
+   "lang": "en"
+  },
+  {
+   "start": 562.92,
+   "end": 567.5,
+   "text": "Она говорит в неформальной форме, я тоже, хорошая идея.",
+   "lang": "ru"
+  },
+  {
+   "start": 572.42,
+   "end": 574.48,
+   "text": "Me too, that's a good idea",
+   "lang": "en"
+  },
+  {
+   "start": 579.48,
+   "end": 582.62,
+   "text": "Сейчас спросите ее, что она делала вчера.",
+   "lang": "ru"
+  },
+  {
+   "start": 586.42,
+   "end": 587.88,
+   "text": "What did you do today?",
+   "lang": "en"
+  },
+  {
+   "start": 591.54,
+   "end": 594.5,
+   "text": "Вы играли в теннис?",
+   "lang": "ru"
+  },
+  {
+   "start": 597.66,
+   "end": 599.02,
+   "text": "Did you play tennis?",
+   "lang": "en"
+  },
+  {
+   "start": 606.44,
+   "end": 609.78,
+   "text": "Вы помните, как сказать «Я пыталась»?",
+   "lang": "ru"
+  },
+  {
+   "start": 611.84,
+   "end": 612.92,
+   "text": "I tried.",
+   "lang": "ru"
+  },
+  {
+   "start": 612.92,
+   "end": 613.18,
+   "text": "Tried.",
+   "lang": "en"
+  },
+  {
+   "start": 615.84,
+   "end": 616.36,
+   "text": "Tried.",
+   "lang": "en"
+  },
+  {
+   "start": 618.66,
+   "end": 621.64,
+   "text": "Сейчас попробуйте сказать, я играла.",
+   "lang": "ru"
+  },
+  {
+   "start": 624.28,
+   "end": 625.4,
+   "text": "I played.",
+   "lang": "ru"
+  },
+  {
+   "start": 627.48,
+   "end": 628.88,
+   "text": "Played",
+   "lang": "en"
+  },
+  {
+   "start": 628.88,
+   "end": 631.92,
+   "text": "I played",
+   "lang": "en"
+  },
+  {
+   "start": 634.24,
+   "end": 637.06,
+   "text": "Я играла в теннис с Чарльзом.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.64,
+   "end": 642.66,
+   "text": "I played tennis with Charles.",
+   "lang": "en"
+  },
+  {
+   "start": 647.78,
+   "end": 650.18,
+   "text": "Он играет довольно хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 650.56,
+   "end": 654.06,
+   "text": "He plays pretty well.",
+   "lang": "ru"
+  },
+  {
+   "start": 657.1,
+   "end": 658.5,
+   "text": "Прекрасно.",
+   "lang": "ru"
+  },
+  {
+   "start": 661.38,
+   "end": 664.82,
+   "text": "Он играет довольно хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 668.64,
+   "end": 670.88,
+   "text": "Скажите, что он играет довольно хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 674.38,
+   "end": 676.06,
+   "text": "He plays pretty well.",
+   "lang": "en"
+  },
+  {
+   "start": 679.48,
+   "end": 681.54,
+   "text": "Но его жена играет лучше.",
+   "lang": "ru"
+  },
+  {
+   "start": 685.08,
+   "end": 686.82,
+   "text": "But his wife plays better.",
+   "lang": "en"
+  },
+  {
+   "start": 696.04,
+   "end": 698.3,
+   "text": "Мы играли там вчера.",
+   "lang": "ru"
+  },
+  {
+   "start": 702.04,
+   "end": 703.5,
+   "text": "We played there yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 707.14,
+   "end": 708.72,
+   "text": "How do you say in English?",
+   "lang": "en"
+  },
+  {
+   "start": 708.86,
+   "end": 710.26,
+   "text": "Вчера вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 712.76,
+   "end": 714.32,
+   "text": "Last night",
+   "lang": "ru"
+  },
+  {
+   "start": 716.74,
+   "end": 718.38,
+   "text": "Last night",
+   "lang": "ru"
+  },
+  {
+   "start": 720.6,
+   "end": 721.82,
+   "text": "Last",
+   "lang": "ru"
+  },
+  {
+   "start": 723.38,
+   "end": 728.86,
+   "text": "Сейчас таким же образом постарайтесь сказать «в прошлую субботу».",
+   "lang": "ru"
+  },
+  {
+   "start": 731.1,
+   "end": 732.86,
+   "text": "Last Saturday",
+   "lang": "ru"
+  },
+  {
+   "start": 735.36,
+   "end": 737.14,
+   "text": "Last Saturday",
+   "lang": "ru"
+  },
+  {
+   "start": 740.38,
+   "end": 744.16,
+   "text": "She says, мой муж и я ездили к ним домой.",
+   "lang": "ru"
+  },
+  {
+   "start": 749.28,
+   "end": 751.68,
+   "text": "My husband and I went to their place.",
+   "lang": "ru"
+  },
+  {
+   "start": 756.46,
+   "end": 758.14,
+   "text": "В прошлую субботу.",
+   "lang": "ru"
+  },
+  {
+   "start": 760.98,
+   "end": 761.98,
+   "text": "Last Saturday.",
+   "lang": "ru"
+  },
+  {
+   "start": 761.98,
+   "end": 762.18,
+   "text": "day.",
+   "lang": "en"
+  },
+  {
+   "start": 765.0,
+   "end": 768.92,
+   "text": "Try to say, также мы ездили туда в прошлую пятницу.",
+   "lang": "ru"
+  },
+  {
+   "start": 772.74,
+   "end": 775.38,
+   "text": "We went there last Friday too.",
+   "lang": "en"
+  },
+  {
+   "start": 779.24,
+   "end": 782.4,
+   "text": "Мы играли в теннис с Чарльзом и Сьюзан.",
+   "lang": "ru"
+  },
+  {
+   "start": 786.9,
+   "end": 789.34,
+   "text": "We played tennis with Charles and Susan.",
+   "lang": "ru"
+  },
+  {
+   "start": 794.16,
+   "end": 794.8,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 795.3,
+   "end": 797.26,
+   "text": "Сьюзан играет лучше, чем Чарльз?",
+   "lang": "ru"
+  },
+  {
+   "start": 802.0,
+   "end": 804.56,
+   "text": "Does Susan play better than Charles?",
+   "lang": "en"
+  },
+  {
+   "start": 816.28,
+   "end": 820.06,
+   "text": "Я не знаю, но она играет довольно хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 825.42,
+   "end": 828.36,
+   "text": "I don't know, but she plays pretty well.",
+   "lang": "en"
+  },
+  {
+   "start": 833.82,
+   "end": 835.52,
+   "text": "She plays pretty well",
+   "lang": "en"
+  },
+  {
+   "start": 839.48,
+   "end": 841.38,
+   "text": "Иногда их дети играют в теннис.",
+   "lang": "ru"
+  },
+  {
+   "start": 846.5,
+   "end": 848.84,
+   "text": "Sometimes their children play tennis.",
+   "lang": "en"
+  },
+  {
+   "start": 854.24,
+   "end": 855.68,
+   "text": "С нашими детьми.",
+   "lang": "ru"
+  },
+  {
+   "start": 858.18,
+   "end": 859.24,
+   "text": "with our children.",
+   "lang": "en"
+  },
+  {
+   "start": 862.08,
+   "end": 864.14,
+   "text": "Ask her how old her children are now.",
+   "lang": "en"
+  },
+  {
+   "start": 867.44,
+   "end": 870.04,
+   "text": "How old are your children now?",
+   "lang": "ru"
+  },
+  {
+   "start": 874.1,
+   "end": 875.76,
+   "text": "Моей дочери всего 12.",
+   "lang": "ru"
+  },
+  {
+   "start": 879.5,
+   "end": 881.2,
+   "text": "My daughter's only 12.",
+   "lang": "en"
+  },
+  {
+   "start": 884.42,
+   "end": 886.74,
+   "text": "Но она играет довольно хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 889.96,
+   "end": 891.6,
+   "text": "But she plays pretty well.",
+   "lang": "en"
+  },
+  {
+   "start": 894.52,
+   "end": 896.08,
+   "text": "Моему сыну 19.",
+   "lang": "ru"
+  },
+  {
+   "start": 896.08,
+   "end": 900.92,
+   "text": "My son is 19.",
+   "lang": "en"
+  },
+  {
+   "start": 904.12,
+   "end": 905.14,
+   "text": "Try to",
+   "lang": "en"
+  },
+  {
+   "start": 905.2,
+   "end": 908.9,
+   "text": "Он учится в Нью-Йорк-Университете.",
+   "lang": "ru"
+  },
+  {
+   "start": 908.9,
+   "end": 909.42,
+   "text": "Не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 914.46,
+   "end": 916.94,
+   "text": "He's at New York University, isn't he?",
+   "lang": "en"
+  },
+  {
+   "start": 922.02,
+   "end": 924.58,
+   "text": "Now ask if you're playing tennis together tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 929.4,
+   "end": 931.6,
+   "text": "Are we playing tennis together tomorrow?",
+   "lang": "ru"
+  },
+  {
+   "start": 931.6,
+   "end": 931.84,
+   "text": "tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 937.04,
+   "end": 939.14,
+   "text": "Обратите внимание еще раз, что",
+   "lang": "ru"
+  },
+  {
+   "start": 939.14,
+   "end": 940.46,
+   "text": "Are we playing?",
+   "lang": "ru"
+  },
+  {
+   "start": 940.66,
+   "end": 943.22,
+   "text": "может означать то же самое, что и",
+   "lang": "ru"
+  },
+  {
+   "start": 943.22,
+   "end": 944.44,
+   "text": "Are we going to play?",
+   "lang": "ru"
+  },
+  {
+   "start": 945.06,
+   "end": 949.7,
+   "text": "Послушайте эти два выражения и обратите внимание на разницу в значениях.",
+   "lang": "ru"
+  },
+  {
+   "start": 950.12,
+   "end": 951.9,
+   "text": "Do you play tennis?",
+   "lang": "ru"
+  },
+  {
+   "start": 952.8,
+   "end": 954.66,
+   "text": "Yes, but not very well.",
+   "lang": "ru"
+  },
+  {
+   "start": 956.08,
+   "end": 957.62,
+   "text": "Are you playing tennis tonight?",
+   "lang": "ru"
+  },
+  {
+   "start": 958.22,
+   "end": 960.56,
+   "text": "No, tonight I'm going to the movies.",
+   "lang": "ru"
+  },
+  {
+   "start": 961.98,
+   "end": 962.42,
+   "text": "Ask again.",
+   "lang": "ru"
+  },
+  {
+   "start": 963.38,
+   "end": 964.94,
+   "text": "Ну, мы играем в теннис завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 969.68,
+   "end": 971.84,
+   "text": "Well, are we playing tennis tomorrow?",
+   "lang": "ru"
+  },
+  {
+   "start": 971.84,
+   "end": 972.06,
+   "text": "tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 976.76,
+   "end": 978.86,
+   "text": "Here's how to say среда.",
+   "lang": "ru"
+  },
+  {
+   "start": 978.96,
+   "end": 980.1,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 981.08,
+   "end": 981.74,
+   "text": "Wednesday.",
+   "lang": "ru"
+  },
+  {
+   "start": 984.06,
+   "end": 984.74,
+   "text": "Wednesday",
+   "lang": "ru"
+  },
+  {
+   "start": 985.46,
+   "end": 986.72,
+   "text": "Wednesday",
+   "lang": "ru"
+  },
+  {
+   "start": 988.9,
+   "end": 990.3,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 992.02,
+   "end": 993.46,
+   "text": "Завтра среда",
+   "lang": "ru"
+  },
+  {
+   "start": 996.82,
+   "end": 998.6,
+   "text": "Tomorrow's Wednesday",
+   "lang": "ru"
+  },
+  {
+   "start": 998.6,
+   "end": 998.9,
+   "text": "Tuesday.",
+   "lang": "en"
+  },
+  {
+   "start": 1001.78,
+   "end": 1003.18,
+   "text": "Уже",
+   "lang": "ru"
+  },
+  {
+   "start": 1003.18,
+   "end": 1004.5,
+   "text": "Listen and repeat",
+   "lang": "ru"
+  },
+  {
+   "start": 1004.5,
+   "end": 1005.98,
+   "text": "Already",
+   "lang": "ru"
+  },
+  {
+   "start": 1005.98,
+   "end": 1008.38,
+   "text": "D",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.74,
+   "end": 1011.96,
+   "text": "Red.",
+   "lang": "en"
+  },
+  {
+   "start": 1013.68,
+   "end": 1014.66,
+   "text": "ready",
+   "lang": "ru"
+  },
+  {
+   "start": 1016.38,
+   "end": 1017.36,
+   "text": "all",
+   "lang": "ru"
+  },
+  {
+   "start": 1019.54,
+   "end": 1020.52,
+   "text": "already",
+   "lang": "ru"
+  },
+  {
+   "start": 1022.68,
+   "end": 1023.66,
+   "text": "already",
+   "lang": "ru"
+  },
+  {
+   "start": 1026.12,
+   "end": 1027.74,
+   "text": "Try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1027.92,
+   "end": 1029.38,
+   "text": "Завтра уже среда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1029.92,
+   "end": 1033.7,
+   "text": "В английском языке «уже» часто ставится в конец предложения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1033.82,
+   "end": 1034.7,
+   "text": "Дословно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1035.24,
+   "end": 1036.34,
+   "text": "Завтра среда уже?",
+   "lang": "ru"
+  },
+  {
+   "start": 1040.26,
+   "end": 1043.26,
+   "text": "Is tomorrow Wednesday already?",
+   "lang": "ru"
+  },
+  {
+   "start": 1047.48,
+   "end": 1050.36,
+   "text": "Is tomorrow Wednesday already?",
+   "lang": "en"
+  },
+  {
+   "start": 1055.58,
+   "end": 1057.2,
+   "text": "Кратко ответьте, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1059.68,
+   "end": 1061.78,
+   "text": "Yes it is",
+   "lang": "en"
+  },
+  {
+   "start": 1061.78,
+   "end": 1066.38,
+   "text": "Yes it is",
+   "lang": "en"
+  },
+  {
+   "start": 1070.24,
+   "end": 1072.14,
+   "text": "Замечательно. Поиграем завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 1076.28,
+   "end": 1078.48,
+   "text": "Great! We are playing tomorrow.",
+   "lang": "ru"
+  },
+  {
+   "start": 1082.9,
+   "end": 1084.32,
+   "text": "We are playing tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 1087.42,
+   "end": 1092.24,
+   "text": "Сейчас она смотрит на свои часы и говорит «Уже пять часов».",
+   "lang": "ru"
+  },
+  {
+   "start": 1095.74,
+   "end": 1097.44,
+   "text": "It's 5 o'clock already.",
+   "lang": "en"
+  },
+  {
+   "start": 1105.8,
+   "end": 1110.16,
+   "text": "Я должна отнести эти письма на почту.",
+   "lang": "ru"
+  },
+  {
+   "start": 1115.38,
+   "end": 1117.84,
+   "text": "I have to take these letters to the post office.",
+   "lang": "en"
+  },
+  {
+   "start": 1123.98,
+   "end": 1125.54,
+   "text": "Почта все еще открыта, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.6,
+   "end": 1133.48,
+   "text": "The post office is still open, isn't it?",
+   "lang": "en"
+  },
+  {
+   "start": 1138.54,
+   "end": 1141.02,
+   "text": "Say that yes, it's open until 6 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1146.88,
+   "end": 1149.4,
+   "text": "Yes, it's open until 6 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1155.54,
+   "end": 1157.2,
+   "text": "Ask if she's going to drive there.",
+   "lang": "en"
+  },
+  {
+   "start": 1161.18,
+   "end": 1170.0,
+   "text": "Да, прогулка займет слишком много времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 1174.6,
+   "end": 1178.04,
+   "text": "Yes, walking takes too much time.",
+   "lang": "en"
+  },
+  {
+   "start": 1183.28,
+   "end": 1185.4,
+   "text": "Walking takes too much time.",
+   "lang": "ru"
+  },
+  {
+   "start": 1189.06,
+   "end": 1196.78,
+   "text": "Теперь представьте, что вы со своей знакомой просматриваете свое расписание занятий теннисом на эту неделю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1196.92,
+   "end": 1199.38,
+   "text": "Скажите, уже понедельник?",
+   "lang": "ru"
+  },
+  {
+   "start": 1202.98,
+   "end": 1204.64,
+   "text": "It's Monday already.",
+   "lang": "ru"
+  },
+  {
+   "start": 1204.64,
+   "end": 1204.92,
+   "text": "already.",
+   "lang": "en"
+  },
+  {
+   "start": 1208.62,
+   "end": 1210.28,
+   "text": "It's Monday already.",
+   "lang": "ru"
+  },
+  {
+   "start": 1210.28,
+   "end": 1210.64,
+   "text": "already.",
+   "lang": "en"
+  },
+  {
+   "start": 1214.9,
+   "end": 1218.1,
+   "text": "Вы будете играть с нами в среду?",
+   "lang": "ru"
+  },
+  {
+   "start": 1223.0,
+   "end": 1225.14,
+   "text": "Are you playing with us on Wednesday?",
+   "lang": "en"
+  },
+  {
+   "start": 1230.2,
+   "end": 1233.62,
+   "text": "Как бы она ответила кратко в утвердительной форме?",
+   "lang": "ru"
+  },
+  {
+   "start": 1236.08,
+   "end": 1237.24,
+   "text": "Yes, I am.",
+   "lang": "ru"
+  },
+  {
+   "start": 1239.94,
+   "end": 1241.1,
+   "text": "Yes, I am.",
+   "lang": "ru"
+  },
+  {
+   "start": 1243.74,
+   "end": 1244.78,
+   "text": "She asks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1245.0,
+   "end": 1246.48,
+   "text": "Во сколько будем играть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1250.0,
+   "end": 1251.84,
+   "text": "At what time are we playing?",
+   "lang": "ru"
+  },
+  {
+   "start": 1255.34,
+   "end": 1257.26,
+   "text": "Say, в 6.15.",
+   "lang": "ru"
+  },
+  {
+   "start": 1260.98,
+   "end": 1262.56,
+   "text": "At 6.15.",
+   "lang": "ru"
+  },
+  {
+   "start": 1266.22,
+   "end": 1268.06,
+   "text": "Или, возможно, в 6.30.",
+   "lang": "ru"
+  },
+  {
+   "start": 1272.22,
+   "end": 1274.06,
+   "text": "Or maybe 6.30.",
+   "lang": "ru"
+  },
+  {
+   "start": 1277.92,
+   "end": 1281.18,
+   "text": "At 6.15. Or maybe 6.30.",
+   "lang": "ru"
+  },
+  {
+   "start": 1287.28,
+   "end": 1290.68,
+   "text": "Вы играли в теннис прошлую среду?",
+   "lang": "ru"
+  },
+  {
+   "start": 1295.12,
+   "end": 1297.64,
+   "text": "Did you play tennis last Wednesday?",
+   "lang": "ru"
+  },
+  {
+   "start": 1302.22,
+   "end": 1304.6,
+   "text": "Did you play tennis last Wednesday?",
+   "lang": "en"
+  },
+  {
+   "start": 1309.36,
+   "end": 1311.7,
+   "text": "Кратко ответьте в отрицательной форме.",
+   "lang": "ru"
+  },
+  {
+   "start": 1315.06,
+   "end": 1316.66,
+   "text": "No, I didn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1319.76,
+   "end": 1321.56,
+   "text": "No, I didn't",
+   "lang": "ru"
+  },
+  {
+   "start": 1324.7,
+   "end": 1325.58,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 1325.58,
+   "end": 1327.92,
+   "text": "Я играл в прошлую субботу",
+   "lang": "ru"
+  },
+  {
+   "start": 1331.76,
+   "end": 1333.9,
+   "text": "I played last Saturday",
+   "lang": "ru"
+  },
+  {
+   "start": 1333.9,
+   "end": 1334.1,
+   "text": "day.",
+   "lang": "en"
+  },
+  {
+   "start": 1337.88,
+   "end": 1340.78,
+   "text": "Ну, до свидания. Увидимся в среду.",
+   "lang": "ru"
+  },
+  {
+   "start": 1345.72,
+   "end": 1348.26,
+   "text": "Ну, до свидания. Увидимся в понедельник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1372.02,
+   "end": 1374.18,
+   "text": "Ты Филиппе Мартинес, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1374.18,
+   "end": 1374.32,
+   "text": "you?",
+   "lang": "en"
+  },
+  {
+   "start": 1379.7,
+   "end": 1381.34,
+   "text": "Кратко ответишь, что нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1385.04,
+   "end": 1386.16,
+   "text": "Нет, я не.",
+   "lang": "ru"
+  },
+  {
+   "start": 1386.16,
+   "end": 1386.48,
+   "text": "not.",
+   "lang": "en"
+  },
+  {
+   "start": 1389.9,
+   "end": 1391.1,
+   "text": "Нет, я не.",
+   "lang": "ru"
+  },
+  {
+   "start": 1391.1,
+   "end": 1391.44,
+   "text": "not.",
+   "lang": "en"
+  },
+  {
+   "start": 1394.72,
+   "end": 1396.84,
+   "text": "Скажи, что твой имя Мигель Родригес.",
+   "lang": "ru"
+  },
+  {
+   "start": 1401.42,
+   "end": 1403.52,
+   "text": "Мой имя Мигель Родригес.",
+   "lang": "ru"
+  },
+  {
+   "start": 1408.24,
+   "end": 1410.14,
+   "text": "Спроси, если Нанси в ее офисе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1410.14,
+   "end": 1415.96,
+   "text": "Is Nancy in her office?",
+   "lang": "ru"
+  },
+  {
+   "start": 1415.96,
+   "end": 1419.16,
+   "text": "Thank you for your attention.",
+   "lang": "en"
+  },
+  {
+   "start": 1419.98,
+   "end": 1424.16,
+   "text": "She says, Сейчас нет. Вы можете подождать несколько минут?",
+   "lang": "ru"
+  },
+  {
+   "start": 1426.38,
+   "end": 1427.6,
+   "text": "Not at the moment.",
+   "lang": "ru"
+  },
+  {
+   "start": 1430.52,
+   "end": 1431.5,
+   "text": "Puede esperar unos minutos?",
+   "lang": "ru"
+  },
+  {
+   "start": 1434.7,
+   "end": 1436.28,
+   "text": "Can you wait a few minutes?",
+   "lang": "ru"
+  },
+  {
+   "start": 1439.32,
+   "end": 1441.46,
+   "text": "Вам бы хотелось чашку кофе?",
+   "lang": "ru"
+  },
+  {
+   "start": 1445.44,
+   "end": 1446.56,
+   "text": "Would you like a cup of coffee?",
+   "lang": "en"
+  },
+  {
+   "start": 1446.58,
+   "end": 1451.26,
+   "text": "Да, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1453.44,
+   "end": 1454.32,
+   "text": "Yes, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1456.26,
+   "end": 1458.76,
+   "text": "С молоком, но без сахара.",
+   "lang": "ru"
+  },
+  {
+   "start": 1462.38,
+   "end": 1464.38,
+   "text": "With milk but no sugar.",
+   "lang": "en"
+  },
+  {
+   "start": 1473.42,
+   "end": 1477.8,
+   "text": "Сейчас девушка вас спрашивает, вы из Мексики, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1482.1,
+   "end": 1483.84,
+   "text": "You're from Mexico, aren't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1487.78,
+   "end": 1489.48,
+   "text": "Кратко ответьте, да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1492.4,
+   "end": 1493.76,
+   "text": "Yes I am.",
+   "lang": "en"
+  },
+  {
+   "start": 1496.32,
+   "end": 1497.5,
+   "text": "Да, я.",
+   "lang": "ru"
+  },
+  {
+   "start": 1500.5,
+   "end": 1503.16,
+   "text": "Вдруг она забыла, какой сегодня день.",
+   "lang": "ru"
+  },
+  {
+   "start": 1503.34,
+   "end": 1505.88,
+   "text": "Она спрашивает, сегодня уже среда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1509.92,
+   "end": 1511.66,
+   "text": "Сегодня уже среда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1512.46,
+   "end": 1517.8,
+   "text": "Сегодня уже среда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1517.8,
+   "end": 1518.12,
+   "text": "already?",
+   "lang": "en"
+  },
+  {
+   "start": 1522.24,
+   "end": 1523.36,
+   "text": "Попробуй сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1523.36,
+   "end": 1526.7,
+   "text": "Да, мы часто играем в теннис по средам.",
+   "lang": "ru"
+  },
+  {
+   "start": 1532.48,
+   "end": 1535.74,
+   "text": "Yes, we often play tennis on Wednesdays.",
+   "lang": "en"
+  },
+  {
+   "start": 1542.02,
+   "end": 1542.74,
+   "text": "Wednesdays",
+   "lang": "en"
+  },
+  {
+   "start": 1542.74,
+   "end": 1547.7,
+   "text": "We often play tennis on Wednesdays.",
+   "lang": "en"
+  },
+  {
+   "start": 1553.36,
+   "end": 1555.72,
+   "text": "Как она спросит, кто играет лучше?",
+   "lang": "ru"
+  },
+  {
+   "start": 1558.64,
+   "end": 1560.16,
+   "text": "Who plays better?",
+   "lang": "ru"
+  },
+  {
+   "start": 1563.42,
+   "end": 1564.46,
+   "text": "Who plays better?",
+   "lang": "en"
+  },
+  {
+   "start": 1564.54,
+   "end": 1565.3,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1566.9,
+   "end": 1568.3,
+   "text": "Say.",
+   "lang": "en"
+  },
+  {
+   "start": 1568.5,
+   "end": 1570.08,
+   "text": "Я играю довольно хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1573.74,
+   "end": 1575.46,
+   "text": "I play pretty well.",
+   "lang": "ru"
+  },
+  {
+   "start": 1579.16,
+   "end": 1580.96,
+   "text": "I play pretty well.",
+   "lang": "ru"
+  },
+  {
+   "start": 1580.96,
+   "end": 1581.28,
+   "text": "Well...",
+   "lang": "en"
+  },
+  {
+   "start": 1584.52,
+   "end": 1587.34,
+   "text": "Но Нэнси играет очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1592.06,
+   "end": 1594.86,
+   "text": "Но Нэнси играет очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1600.16,
+   "end": 1602.18,
+   "text": "Now let's move on to reading.",
+   "lang": "en"
+  },
+  {
+   "start": 1602.48,
+   "end": 1609.82,
+   "text": "If you want to do this right now, get your reading book and open it on the page with the 25th lesson.",
+   "lang": "en"
+  },
+  {
+   "start": 1610.16,
+   "end": 1613.3,
+   "text": "Read exercise number 1 aloud.",
+   "lang": "en"
+  },
+  {
+   "start": 1617.12,
+   "end": 1619.56,
+   "text": "ЭТ-фон-хом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1622.94,
+   "end": 1624.34,
+   "text": "Фон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.18,
+   "end": 1627.76,
+   "text": "Номер два.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.76,
+   "end": 1628.42,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1631.48,
+   "end": 1631.8,
+   "text": "Три.",
+   "lang": "ru"
+  },
+  {
+   "start": 1631.8,
+   "end": 1632.4,
+   "text": "coin a phrase",
+   "lang": "en"
+  },
+  {
+   "start": 1635.56,
+   "end": 1636.96,
+   "text": "Три.",
+   "lang": "ru"
+  },
+  {
+   "start": 1640.62,
+   "end": 1641.94,
+   "text": "Enjoy the wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1644.64,
+   "end": 1646.04,
+   "text": "Четыре.",
+   "lang": "ru"
+  },
+  {
+   "start": 1649.24,
+   "end": 1650.76,
+   "text": "We used to live here.",
+   "lang": "en"
+  },
+  {
+   "start": 1654.08,
+   "end": 1664.7,
+   "text": "Обратите внимание, что в упражнении 4 есть как ю, звонкая, то есть с призвуком е, так и у, глухая.",
+   "lang": "ru"
+  },
+  {
+   "start": 1665.32,
+   "end": 1669.62,
+   "text": "Звонкая как в used, глухая как в to.",
+   "lang": "ru"
+  },
+  {
+   "start": 1671.12,
+   "end": 1674.04,
+   "text": "Эти два звука можно записать разными способами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1676.04,
+   "end": 1680.78,
+   "text": "где будет глухое звучание. Попробуйте прочитать упражнение 5.",
+   "lang": "ru"
+  },
+  {
+   "start": 1684.02,
+   "end": 1685.58,
+   "text": "Have some soup.",
+   "lang": "en"
+  },
+  {
+   "start": 1688.58,
+   "end": 1689.84,
+   "text": "6.",
+   "lang": "ru"
+  },
+  {
+   "start": 1691.8,
+   "end": 1692.8,
+   "text": "6",
+   "lang": "ru"
+  },
+  {
+   "start": 1696.88,
+   "end": 1698.32,
+   "text": "Let's take route 3.",
+   "lang": "en"
+  },
+  {
+   "start": 1701.44,
+   "end": 1705.88,
+   "text": "В упражнении 7 будет другой глухой звук.",
+   "lang": "ru"
+  },
+  {
+   "start": 1705.96,
+   "end": 1708.06,
+   "text": "У. Произнесите его.",
+   "lang": "ru"
+  },
+  {
+   "start": 1711.54,
+   "end": 1713.38,
+   "text": "Пожалуйста, играйте тун.",
+   "lang": "ru"
+  },
+  {
+   "start": 1717.14,
+   "end": 1718.14,
+   "text": "Тун.",
+   "lang": "ru"
+  },
+  {
+   "start": 1720.3,
+   "end": 1726.44,
+   "text": "Этот же звук можно записать другим способом, как в упражнении 8. Произнесите его.",
+   "lang": "ru"
+  },
+  {
+   "start": 1729.08,
+   "end": 1730.7,
+   "text": "He grew fast.",
+   "lang": "en"
+  },
+  {
+   "start": 1734.06,
+   "end": 1734.96,
+   "text": "Grew.",
+   "lang": "en"
+  },
+  {
+   "start": 1736.26,
+   "end": 1744.98,
+   "text": "В упражнении 9 будет этот же звук записан четырьмя разными способами. Прочитайте упражнение 9.",
+   "lang": "ru"
+  },
+  {
+   "start": 1749.86,
+   "end": 1752.32,
+   "text": "June had a new blue moon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1756.84,
+   "end": 1759.16,
+   "text": "June had a new blue moon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1763.92,
+   "end": 1767.42,
+   "text": "В упражнении 10 U звонкое.",
+   "lang": "ru"
+  },
+  {
+   "start": 1767.72,
+   "end": 1769.34,
+   "text": "Прочитайте упражнение 10.",
+   "lang": "ru"
+  },
+  {
+   "start": 1769.5,
+   "end": 1770.92,
+   "text": "Вы знаете оба слова.",
+   "lang": "ru"
+  },
+  {
+   "start": 1773.72,
+   "end": 1774.82,
+   "text": "Excuse me.",
+   "lang": "ru"
+  },
+  {
+   "start": 1777.52,
+   "end": 1778.28,
+   "text": "Excuse.",
+   "lang": "ru"
+  },
+  {
+   "start": 1781.08,
+   "end": 1786.8,
+   "text": "В упражнении 11 будет такой же звонкий звук. Произнесите его.",
+   "lang": "ru"
+  },
+  {
+   "start": 1790.7,
+   "end": 1792.52,
+   "text": "We need a few dollars.",
+   "lang": "en"
+  },
+  {
+   "start": 1796.94,
+   "end": 1797.62,
+   "text": "Few.",
+   "lang": "en"
+  },
+  {
+   "start": 1800.0,
+   "end": 1801.06,
+   "text": "Двенадцать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1804.4,
+   "end": 1805.62,
+   "text": "Sit in this pew",
+   "lang": "en"
+  },
+  {
+   "start": 1809.92,
+   "end": 1814.24,
+   "text": "Это конец 25 урока.",
+   "lang": "ru"
+  }
+ ]
+}

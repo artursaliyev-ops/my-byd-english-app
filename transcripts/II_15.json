@@ -1,0 +1,2307 @@
+{
+ "id": "II_15",
+ "source": "Pimsleur_II_15.mp3",
+ "duration": 1841.37,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 136,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.86,
+   "text": "I've been a wild rover for many years.",
+   "lang": "ru"
+  },
+  {
+   "start": 5.84,
+   "end": 10.4,
+   "text": "I spent all my young with the envy that I missed.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.12,
+   "end": 19.14,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 24.08,
+   "end": 29.42,
+   "text": "15-й урок английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.98,
+   "end": 38.08,
+   "text": "В нем вы услышите «next week», что означает «на следующей неделе».",
+   "lang": "ru"
+  },
+  {
+   "start": 38.08,
+   "end": 38.76,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 39.68,
+   "end": 41.52,
+   "text": "Well, Charles, have a good trip?",
+   "lang": "en"
+  },
+  {
+   "start": 41.76,
+   "end": 43.22,
+   "text": "A good trip? Why?",
+   "lang": "en"
+  },
+  {
+   "start": 43.74,
+   "end": 45.5,
+   "text": "Aren't you going on vacation tomorrow?",
+   "lang": "en"
+  },
+  {
+   "start": 46.0,
+   "end": 49.98,
+   "text": "No, not until next week. And you? When are you going on vacation?",
+   "lang": "en"
+  },
+  {
+   "start": 50.44,
+   "end": 54.34,
+   "text": "I have a lot of work. I can't go until January or February.",
+   "lang": "en"
+  },
+  {
+   "start": 54.86,
+   "end": 55.84,
+   "text": "That's too bad.",
+   "lang": "en"
+  },
+  {
+   "start": 57.14,
+   "end": 57.92,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 58.96,
+   "end": 59.98,
+   "text": "Well, Charles...",
+   "lang": "en"
+  },
+  {
+   "start": 60.0,
+   "end": 60.72,
+   "text": "Have a good trip.",
+   "lang": "ru"
+  },
+  {
+   "start": 60.86,
+   "end": 62.44,
+   "text": "A good trip? Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 63.02,
+   "end": 64.74,
+   "text": "Aren't you going on vacation tomorrow?",
+   "lang": "ru"
+  },
+  {
+   "start": 65.26,
+   "end": 67.04,
+   "text": "No, not until next week.",
+   "lang": "ru"
+  },
+  {
+   "start": 67.18,
+   "end": 69.22,
+   "text": "And you? When are you going on vacation?",
+   "lang": "ru"
+  },
+  {
+   "start": 69.74,
+   "end": 71.26,
+   "text": "I have a lot of work.",
+   "lang": "ru"
+  },
+  {
+   "start": 71.4,
+   "end": 73.58,
+   "text": "I can't go until January or February.",
+   "lang": "ru"
+  },
+  {
+   "start": 74.14,
+   "end": 75.06,
+   "text": "That's too bad.",
+   "lang": "ru"
+  },
+  {
+   "start": 76.46,
+   "end": 77.44,
+   "text": "How do you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 78.24,
+   "end": 79.08,
+   "text": "Жестливого пути.",
+   "lang": "ru"
+  },
+  {
+   "start": 82.22,
+   "end": 83.28,
+   "text": "Have a good trip.",
+   "lang": "ru"
+  },
+  {
+   "start": 86.1,
+   "end": 87.2,
+   "text": "Have a good trip.",
+   "lang": "ru"
+  },
+  {
+   "start": 90.0,
+   "end": 90.9,
+   "text": "Привет!",
+   "lang": "ru"
+  },
+  {
+   "start": 90.9,
+   "end": 91.6,
+   "text": "Hello?",
+   "lang": "en"
+  },
+  {
+   "start": 95.96,
+   "end": 100.54,
+   "text": "Как спросить в неофициальной форме Привет, как дела?",
+   "lang": "ru"
+  },
+  {
+   "start": 104.72,
+   "end": 105.9,
+   "text": "Hi, how's it going?",
+   "lang": "en"
+  },
+  {
+   "start": 109.66,
+   "end": 110.4,
+   "text": "How's it going?",
+   "lang": "en"
+  },
+  {
+   "start": 112.94,
+   "end": 115.16,
+   "text": "Не очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 117.88,
+   "end": 119.28,
+   "text": "Not very well.",
+   "lang": "en"
+  },
+  {
+   "start": 121.9,
+   "end": 123.82,
+   "text": "Как жаль.",
+   "lang": "ru"
+  },
+  {
+   "start": 127.06,
+   "end": 127.94,
+   "text": "That's too bad.",
+   "lang": "en"
+  },
+  {
+   "start": 130.76,
+   "end": 137.08,
+   "text": "Вы разговариваете с одной знакомой. Как спросить? Вы собираетесь в отпуск, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 141.82,
+   "end": 143.98,
+   "text": "Вы на отдых, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 148.5,
+   "end": 150.44,
+   "text": "Да, в четверг.",
+   "lang": "ru"
+  },
+  {
+   "start": 154.32,
+   "end": 155.94,
+   "text": "Да, в четверг.",
+   "lang": "ru"
+  },
+  {
+   "start": 159.98,
+   "end": 163.16,
+   "text": "Скажите, что вы уезжаете в отпуск в четверг.",
+   "lang": "ru"
+  },
+  {
+   "start": 168.96,
+   "end": 171.44,
+   "text": "I'm going on vacation on Thursday",
+   "lang": "en"
+  },
+  {
+   "start": 176.84,
+   "end": 178.9,
+   "text": "Скажите, что вы едете в Колумбию.",
+   "lang": "ru"
+  },
+  {
+   "start": 182.2,
+   "end": 183.56,
+   "text": "I'm going to Columbia.",
+   "lang": "en"
+  },
+  {
+   "start": 187.48,
+   "end": 189.38,
+   "text": "Колумбия очень красива.",
+   "lang": "ru"
+  },
+  {
+   "start": 189.38,
+   "end": 190.86,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 190.86,
+   "end": 193.46,
+   "text": "Colombia is very beautiful.",
+   "lang": "en"
+  },
+  {
+   "start": 197.5,
+   "end": 198.26,
+   "text": "Beautiful",
+   "lang": "en"
+  },
+  {
+   "start": 202.92,
+   "end": 204.32,
+   "text": "Full",
+   "lang": "en"
+  },
+  {
+   "start": 205.76,
+   "end": 207.16,
+   "text": "View",
+   "lang": "en"
+  },
+  {
+   "start": 209.06,
+   "end": 210.46,
+   "text": "Beautiful",
+   "lang": "en"
+  },
+  {
+   "start": 216.0,
+   "end": 219.7,
+   "text": "Colombia is very beautiful.",
+   "lang": "en"
+  },
+  {
+   "start": 223.14,
+   "end": 224.54,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 225.02,
+   "end": 227.26,
+   "text": "Колумбия очень красива.",
+   "lang": "ru"
+  },
+  {
+   "start": 231.28,
+   "end": 232.72,
+   "text": "Colombia is very beautiful.",
+   "lang": "en"
+  },
+  {
+   "start": 232.74,
+   "end": 239.94,
+   "text": "Да, и там много того, что можно посмотреть.",
+   "lang": "ru"
+  },
+  {
+   "start": 240.52,
+   "end": 241.66,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 242.86,
+   "end": 244.86,
+   "text": "Yes, and there's a lot to see there.",
+   "lang": "en"
+  },
+  {
+   "start": 249.9,
+   "end": 251.34,
+   "text": "A lot to see.",
+   "lang": "ru"
+  },
+  {
+   "start": 254.56,
+   "end": 256.24,
+   "text": "There's a lot to see there.",
+   "lang": "ru"
+  },
+  {
+   "start": 256.24,
+   "end": 256.34,
+   "text": "there.",
+   "lang": "en"
+  },
+  {
+   "start": 260.42,
+   "end": 262.74,
+   "text": "Скажите, что там много чего можно посмотреть.",
+   "lang": "ru"
+  },
+  {
+   "start": 267.62,
+   "end": 269.3,
+   "text": "There's a lot to see there.",
+   "lang": "ru"
+  },
+  {
+   "start": 272.94,
+   "end": 275.9,
+   "text": "Как она пожелает вам счастливого пути?",
+   "lang": "ru"
+  },
+  {
+   "start": 279.52,
+   "end": 280.7,
+   "text": "Have a good trip!",
+   "lang": "ru"
+  },
+  {
+   "start": 283.58,
+   "end": 284.94,
+   "text": "Now she asks,",
+   "lang": "ru"
+  },
+  {
+   "start": 285.08,
+   "end": 286.42,
+   "text": "Когда вы уезжаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 289.36,
+   "end": 290.56,
+   "text": "When are you leaving?",
+   "lang": "ru"
+  },
+  {
+   "start": 293.48,
+   "end": 294.66,
+   "text": "На этой неделе?",
+   "lang": "ru"
+  },
+  {
+   "start": 297.38,
+   "end": 298.26,
+   "text": "This week?",
+   "lang": "ru"
+  },
+  {
+   "start": 300.4,
+   "end": 302.06,
+   "text": "Нет, не на этой неделе.",
+   "lang": "ru"
+  },
+  {
+   "start": 305.9,
+   "end": 307.48,
+   "text": "No, not this week.",
+   "lang": "ru"
+  },
+  {
+   "start": 311.08,
+   "end": 313.1,
+   "text": "Я еду на следующей неделе.",
+   "lang": "ru"
+  },
+  {
+   "start": 313.1,
+   "end": 316.66,
+   "text": "Я уезжаю в следующую неделю.",
+   "lang": "ru"
+  },
+  {
+   "start": 320.08,
+   "end": 320.9,
+   "text": "Next",
+   "lang": "en"
+  },
+  {
+   "start": 320.9,
+   "end": 324.56,
+   "text": "Next week",
+   "lang": "en"
+  },
+  {
+   "start": 327.08,
+   "end": 328.96,
+   "text": "I'm leaving next week",
+   "lang": "en"
+  },
+  {
+   "start": 337.5,
+   "end": 339.4,
+   "text": "I'm leaving next week",
+   "lang": "en"
+  },
+  {
+   "start": 342.6,
+   "end": 344.0,
+   "text": "Now try to see",
+   "lang": "en"
+  },
+  {
+   "start": 344.08,
+   "end": 346.92,
+   "text": "Я уезжаю в следующий четверг.",
+   "lang": "ru"
+  },
+  {
+   "start": 351.0,
+   "end": 352.9,
+   "text": "I'm leaving next Thursday.",
+   "lang": "ru"
+  },
+  {
+   "start": 352.9,
+   "end": 353.08,
+   "text": "day.",
+   "lang": "en"
+  },
+  {
+   "start": 356.76,
+   "end": 358.08,
+   "text": "Next Thursday.",
+   "lang": "ru"
+  },
+  {
+   "start": 358.08,
+   "end": 358.34,
+   "text": "Thursday.",
+   "lang": "en"
+  },
+  {
+   "start": 361.76,
+   "end": 364.46,
+   "text": "В Колумбии много чего можно посмотреть.",
+   "lang": "ru"
+  },
+  {
+   "start": 368.8,
+   "end": 370.72,
+   "text": "There's a lot to see in Colombia.",
+   "lang": "ru"
+  },
+  {
+   "start": 374.82,
+   "end": 378.42,
+   "text": "На этой неделе один мой знакомый",
+   "lang": "ru"
+  },
+  {
+   "start": 382.94,
+   "end": 384.8,
+   "text": "This week, a friend of mine",
+   "lang": "en"
+  },
+  {
+   "start": 389.2,
+   "end": 392.02,
+   "text": "Один мой знакомый собирается в гости.",
+   "lang": "ru"
+  },
+  {
+   "start": 396.74,
+   "end": 398.88,
+   "text": "A friend of mine is coming to visit.",
+   "lang": "en"
+  },
+  {
+   "start": 402.9,
+   "end": 405.08,
+   "text": "Здесь письмо от него.",
+   "lang": "ru"
+  },
+  {
+   "start": 405.08,
+   "end": 405.98,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 408.72,
+   "end": 410.64,
+   "text": "Here's a letter from him.",
+   "lang": "ru"
+  },
+  {
+   "start": 413.76,
+   "end": 414.98,
+   "text": "From him.",
+   "lang": "ru"
+  },
+  {
+   "start": 417.8,
+   "end": 418.92,
+   "text": "Он приезжает сегодня.",
+   "lang": "ru"
+  },
+  {
+   "start": 422.34,
+   "end": 423.98,
+   "text": "He's arriving today.",
+   "lang": "ru"
+  },
+  {
+   "start": 423.98,
+   "end": 424.24,
+   "text": "day.",
+   "lang": "en"
+  },
+  {
+   "start": 427.02,
+   "end": 430.32,
+   "text": "И останется до четверга или пятницы.",
+   "lang": "ru"
+  },
+  {
+   "start": 435.6,
+   "end": 438.5,
+   "text": "And he's staying until Thursday or Friday.",
+   "lang": "en"
+  },
+  {
+   "start": 443.18,
+   "end": 446.82,
+   "text": "Но его жена не может приехать с ним.",
+   "lang": "ru"
+  },
+  {
+   "start": 450.88,
+   "end": 452.8,
+   "text": "But his wife can't come with him.",
+   "lang": "en"
+  },
+  {
+   "start": 456.26,
+   "end": 457.98,
+   "text": "Как жаль.",
+   "lang": "ru"
+  },
+  {
+   "start": 461.08,
+   "end": 462.2,
+   "text": "That's too bad",
+   "lang": "en"
+  },
+  {
+   "start": 465.52,
+   "end": 468.06,
+   "text": "Ему очень нравится Нью-Йорк.",
+   "lang": "ru"
+  },
+  {
+   "start": 472.26,
+   "end": 474.44,
+   "text": "He likes New York very much.",
+   "lang": "en"
+  },
+  {
+   "start": 477.6,
+   "end": 480.54,
+   "text": "Я хочу ему подарить...",
+   "lang": "ru"
+  },
+  {
+   "start": 483.9,
+   "end": 485.34,
+   "text": "I want to give him",
+   "lang": "en"
+  },
+  {
+   "start": 488.44,
+   "end": 491.52,
+   "text": "Я хочу подарить ему футболку из Нью-Йорка.",
+   "lang": "ru"
+  },
+  {
+   "start": 497.18,
+   "end": 499.8,
+   "text": "I want to give him a T-shirt from New York.",
+   "lang": "en"
+  },
+  {
+   "start": 505.6,
+   "end": 506.6,
+   "text": "Here's how to ask.",
+   "lang": "en"
+  },
+  {
+   "start": 506.76,
+   "end": 508.04,
+   "text": "Какая погода?",
+   "lang": "ru"
+  },
+  {
+   "start": 508.44,
+   "end": 509.44,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 510.54,
+   "end": 511.7,
+   "text": "Какое погода?",
+   "lang": "ru"
+  },
+  {
+   "start": 514.66,
+   "end": 518.18,
+   "text": "the weather",
+   "lang": "en"
+  },
+  {
+   "start": 521.3,
+   "end": 521.34,
+   "text": "how",
+   "lang": "en"
+  },
+  {
+   "start": 524.3,
+   "end": 524.4,
+   "text": "how's",
+   "lang": "en"
+  },
+  {
+   "start": 527.3,
+   "end": 527.74,
+   "text": "how's the weather",
+   "lang": "en"
+  },
+  {
+   "start": 529.56,
+   "end": 531.36,
+   "text": "say in English",
+   "lang": "en"
+  },
+  {
+   "start": 531.38,
+   "end": 535.44,
+   "text": "Погода. Будьте внимательны к произношению.",
+   "lang": "ru"
+  },
+  {
+   "start": 537.02,
+   "end": 538.42,
+   "text": "Weather",
+   "lang": "en"
+  },
+  {
+   "start": 540.0,
+   "end": 541.4,
+   "text": "Weather",
+   "lang": "en"
+  },
+  {
+   "start": 548.5,
+   "end": 550.44,
+   "text": "Какая сейчас погода?",
+   "lang": "ru"
+  },
+  {
+   "start": 553.58,
+   "end": 554.48,
+   "text": "How's the weather?",
+   "lang": "en"
+  },
+  {
+   "start": 556.92,
+   "end": 559.16,
+   "text": "Какая сейчас погода в Колумбии?",
+   "lang": "ru"
+  },
+  {
+   "start": 563.92,
+   "end": 566.06,
+   "text": "How's the weather in Colombia now?",
+   "lang": "en"
+  },
+  {
+   "start": 571.08,
+   "end": 574.16,
+   "text": "Я поеду в Колумбию на следующей неделе.",
+   "lang": "ru"
+  },
+  {
+   "start": 578.7,
+   "end": 581.14,
+   "text": "I'm going to Colombia next week.",
+   "lang": "ru"
+  },
+  {
+   "start": 585.72,
+   "end": 586.92,
+   "text": "Next week.",
+   "lang": "ru"
+  },
+  {
+   "start": 589.58,
+   "end": 591.28,
+   "text": "Какая сейчас там погода?",
+   "lang": "ru"
+  },
+  {
+   "start": 594.98,
+   "end": 596.78,
+   "text": "How's the weather there now?",
+   "lang": "ru"
+  },
+  {
+   "start": 600.36,
+   "end": 601.56,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 601.84,
+   "end": 603.22,
+   "text": "Погода прекрасная.",
+   "lang": "ru"
+  },
+  {
+   "start": 606.68,
+   "end": 608.3,
+   "text": "The weather is beautiful.",
+   "lang": "en"
+  },
+  {
+   "start": 616.2,
+   "end": 620.62,
+   "text": "Вы также можете сказать, что она очень приятная.",
+   "lang": "ru"
+  },
+  {
+   "start": 620.78,
+   "end": 621.44,
+   "text": "Продолжайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 622.44,
+   "end": 624.0,
+   "text": "It's very nice.",
+   "lang": "ru"
+  },
+  {
+   "start": 627.68,
+   "end": 627.86,
+   "text": "Nice.",
+   "lang": "ru"
+  },
+  {
+   "start": 630.18,
+   "end": 631.44,
+   "text": "Very nice.",
+   "lang": "ru"
+  },
+  {
+   "start": 633.66,
+   "end": 635.64,
+   "text": "The weather's very nice.",
+   "lang": "en"
+  },
+  {
+   "start": 637.82,
+   "end": 640.82,
+   "text": "В Колумбии погода.",
+   "lang": "ru"
+  },
+  {
+   "start": 644.62,
+   "end": 646.62,
+   "text": "In Colombia, the weather...",
+   "lang": "en"
+  },
+  {
+   "start": 649.66,
+   "end": 652.3,
+   "text": "Погода сейчас очень хорошая.",
+   "lang": "ru"
+  },
+  {
+   "start": 656.0,
+   "end": 657.96,
+   "text": "The weather's very nice now.",
+   "lang": "en"
+  },
+  {
+   "start": 661.58,
+   "end": 663.7,
+   "text": "И в данный момент",
+   "lang": "ru"
+  },
+  {
+   "start": 666.3,
+   "end": 668.02,
+   "text": "And at the moment...",
+   "lang": "en"
+  },
+  {
+   "start": 669.58,
+   "end": 673.14,
+   "text": "в Нью-Йорке не очень хорошая погода.",
+   "lang": "ru"
+  },
+  {
+   "start": 678.24,
+   "end": 680.8,
+   "text": "The weather isn't very nice in New York.",
+   "lang": "en"
+  },
+  {
+   "start": 684.74,
+   "end": 687.74,
+   "text": "В Колумбии погода прекрасная.",
+   "lang": "ru"
+  },
+  {
+   "start": 692.3,
+   "end": 694.58,
+   "text": "In Colombia the weather's beautiful.",
+   "lang": "en"
+  },
+  {
+   "start": 698.64,
+   "end": 700.74,
+   "text": "Не слишком жарко.",
+   "lang": "ru"
+  },
+  {
+   "start": 700.88,
+   "end": 702.02,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 703.3,
+   "end": 704.32,
+   "text": "It's not too hot.",
+   "lang": "ru"
+  },
+  {
+   "start": 707.86,
+   "end": 708.58,
+   "text": "Hot.",
+   "lang": "ru"
+  },
+  {
+   "start": 710.64,
+   "end": 712.14,
+   "text": "It's not too hot.",
+   "lang": "ru"
+  },
+  {
+   "start": 715.32,
+   "end": 716.48,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 716.48,
+   "end": 717.82,
+   "text": "И не холодно.",
+   "lang": "ru"
+  },
+  {
+   "start": 720.88,
+   "end": 722.34,
+   "text": "and it's not cold.",
+   "lang": "en"
+  },
+  {
+   "start": 725.2,
+   "end": 728.12,
+   "text": "Не слишком жарко и не холодно.",
+   "lang": "ru"
+  },
+  {
+   "start": 733.8,
+   "end": 736.5,
+   "text": "It's not too hot, and it's not cold.",
+   "lang": "en"
+  },
+  {
+   "start": 741.82,
+   "end": 744.34,
+   "text": "She asks, Какая погода?",
+   "lang": "ru"
+  },
+  {
+   "start": 747.34,
+   "end": 748.14,
+   "text": "How's the weather?",
+   "lang": "en"
+  },
+  {
+   "start": 749.56,
+   "end": 752.6,
+   "text": "Она очень приятная сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 756.04,
+   "end": 757.48,
+   "text": "It's very nice now.",
+   "lang": "en"
+  },
+  {
+   "start": 759.98,
+   "end": 763.2,
+   "text": "Я поеду в Колумбию на следующей неделе.",
+   "lang": "ru"
+  },
+  {
+   "start": 767.74,
+   "end": 770.06,
+   "text": "I'm going to Columbia next week.",
+   "lang": "en"
+  },
+  {
+   "start": 774.34,
+   "end": 775.16,
+   "text": "А вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 777.7,
+   "end": 778.6,
+   "text": "And you?",
+   "lang": "en"
+  },
+  {
+   "start": 780.64,
+   "end": 782.58,
+   "text": "Когда вы поедете в отпуск?",
+   "lang": "ru"
+  },
+  {
+   "start": 786.68,
+   "end": 788.44,
+   "text": "When are you going on vacation?",
+   "lang": "en"
+  },
+  {
+   "start": 792.56,
+   "end": 794.88,
+   "text": "Не знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 797.54,
+   "end": 798.44,
+   "text": "I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 800.54,
+   "end": 802.7,
+   "text": "Я предпочитаю подождать.",
+   "lang": "ru"
+  },
+  {
+   "start": 805.42,
+   "end": 806.62,
+   "text": "I'd rather wait.",
+   "lang": "en"
+  },
+  {
+   "start": 809.2,
+   "end": 810.36,
+   "text": "I'd rather wait.",
+   "lang": "en"
+  },
+  {
+   "start": 812.52,
+   "end": 815.5,
+   "text": "До января или февраля.",
+   "lang": "ru"
+  },
+  {
+   "start": 819.8,
+   "end": 822.12,
+   "text": "until January or February.",
+   "lang": "en"
+  },
+  {
+   "start": 825.56,
+   "end": 829.28,
+   "text": "У меня сейчас слишком много работы.",
+   "lang": "ru"
+  },
+  {
+   "start": 833.12,
+   "end": 835.78,
+   "text": "Я слишком много работаю в этот момент.",
+   "lang": "ru"
+  },
+  {
+   "start": 840.38,
+   "end": 841.94,
+   "text": "Как жаль.",
+   "lang": "ru"
+  },
+  {
+   "start": 845.22,
+   "end": 846.28,
+   "text": "That's too bad",
+   "lang": "en"
+  },
+  {
+   "start": 849.2,
+   "end": 851.18,
+   "text": "Куда вы хотите поехать?",
+   "lang": "ru"
+  },
+  {
+   "start": 854.52,
+   "end": 855.64,
+   "text": "Where do you want to go?",
+   "lang": "en"
+  },
+  {
+   "start": 857.0,
+   "end": 859.8,
+   "text": "В Колумбию?",
+   "lang": "ru"
+  },
+  {
+   "start": 862.44,
+   "end": 863.64,
+   "text": "To Colombia?",
+   "lang": "en"
+  },
+  {
+   "start": 865.74,
+   "end": 868.16,
+   "text": "Колумбия очень красива.",
+   "lang": "ru"
+  },
+  {
+   "start": 872.48,
+   "end": 873.82,
+   "text": "Columbia's very beautiful.",
+   "lang": "en"
+  },
+  {
+   "start": 877.9,
+   "end": 881.12,
+   "text": "Нет, я хорошо знаю Колумбию.",
+   "lang": "ru"
+  },
+  {
+   "start": 886.22,
+   "end": 888.66,
+   "text": "No, I know Colombia very well.",
+   "lang": "en"
+  },
+  {
+   "start": 892.46,
+   "end": 895.88,
+   "text": "Мне бы хотелось поехать в Мексику.",
+   "lang": "ru"
+  },
+  {
+   "start": 895.88,
+   "end": 896.0,
+   "text": "cool.",
+   "lang": "en"
+  },
+  {
+   "start": 899.76,
+   "end": 901.62,
+   "text": "I'd like to go to Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 905.36,
+   "end": 907.76,
+   "text": "Try to say В МЕХИКО.",
+   "lang": "ru"
+  },
+  {
+   "start": 907.82,
+   "end": 908.74,
+   "text": "Mexico City.",
+   "lang": "ru"
+  },
+  {
+   "start": 911.6,
+   "end": 913.28,
+   "text": "To Mexico City.",
+   "lang": "ru"
+  },
+  {
+   "start": 913.28,
+   "end": 913.46,
+   "text": "City.",
+   "lang": "en"
+  },
+  {
+   "start": 916.82,
+   "end": 918.72,
+   "text": "Я все еще не видел Мехико.",
+   "lang": "ru"
+  },
+  {
+   "start": 923.54,
+   "end": 926.06,
+   "text": "I haven't seen Mexico City yet.",
+   "lang": "ru"
+  },
+  {
+   "start": 930.62,
+   "end": 933.06,
+   "text": "И у меня там есть несколько знакомых.",
+   "lang": "ru"
+  },
+  {
+   "start": 936.8,
+   "end": 938.56,
+   "text": "And I have a few friends there",
+   "lang": "en"
+  },
+  {
+   "start": 942.5,
+   "end": 945.46,
+   "text": "Это на самом деле красивый город.",
+   "lang": "ru"
+  },
+  {
+   "start": 949.46,
+   "end": 951.7,
+   "text": "It's really a beautiful city.",
+   "lang": "ru"
+  },
+  {
+   "start": 956.18,
+   "end": 956.44,
+   "text": "Ask",
+   "lang": "ru"
+  },
+  {
+   "start": 956.44,
+   "end": 958.8,
+   "text": "Но какая погода в Мехико?",
+   "lang": "ru"
+  },
+  {
+   "start": 963.28,
+   "end": 965.76,
+   "text": "But how's the weather in Mexico City?",
+   "lang": "ru"
+  },
+  {
+   "start": 970.32,
+   "end": 972.6,
+   "text": "В январе и феврале.",
+   "lang": "ru"
+  },
+  {
+   "start": 976.78,
+   "end": 978.78,
+   "text": "In January and February?",
+   "lang": "en"
+  },
+  {
+   "start": 981.08,
+   "end": 984.66,
+   "text": "Она очень приятная.",
+   "lang": "ru"
+  },
+  {
+   "start": 987.3,
+   "end": 988.46,
+   "text": "It's very nice.",
+   "lang": "en"
+  },
+  {
+   "start": 990.74,
+   "end": 992.4,
+   "text": "Не холодно.",
+   "lang": "ru"
+  },
+  {
+   "start": 994.84,
+   "end": 995.9,
+   "text": "It's not cold.",
+   "lang": "en"
+  },
+  {
+   "start": 996.36,
+   "end": 1000.04,
+   "text": "И не слишком жарко.",
+   "lang": "ru"
+  },
+  {
+   "start": 1003.68,
+   "end": 1005.06,
+   "text": "And it's not too hot.",
+   "lang": "en"
+  },
+  {
+   "start": 1007.94,
+   "end": 1010.72,
+   "text": "И там много того, на что можно посмотреть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1014.26,
+   "end": 1015.36,
+   "text": "There's a lot to see.",
+   "lang": "en"
+  },
+  {
+   "start": 1017.72,
+   "end": 1024.82,
+   "text": "И много чем можно заняться.",
+   "lang": "ru"
+  },
+  {
+   "start": 1028.4,
+   "end": 1029.7,
+   "text": "And a lot to do.",
+   "lang": "en"
+  },
+  {
+   "start": 1032.84,
+   "end": 1036.02,
+   "text": "You have to leave. Ask her to please excuse you.",
+   "lang": "en"
+  },
+  {
+   "start": 1039.7,
+   "end": 1040.78,
+   "text": "Простите меня.",
+   "lang": "ru"
+  },
+  {
+   "start": 1040.78,
+   "end": 1041.04,
+   "text": "Excuse me.",
+   "lang": "en"
+  },
+  {
+   "start": 1044.0,
+   "end": 1045.18,
+   "text": "Простите меня, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1045.18,
+   "end": 1045.44,
+   "text": "Please.",
+   "lang": "en"
+  },
+  {
+   "start": 1048.46,
+   "end": 1050.56,
+   "text": "Говори, что ты действительно должен уйти сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1055.02,
+   "end": 1057.02,
+   "text": "Я действительно должен уйти сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1060.78,
+   "end": 1061.98,
+   "text": "Она говорит, что...",
+   "lang": "ru"
+  },
+  {
+   "start": 1061.98,
+   "end": 1063.26,
+   "text": "Подождите минутку.",
+   "lang": "ru"
+  },
+  {
+   "start": 1066.12,
+   "end": 1066.76,
+   "text": "Wait a minute.",
+   "lang": "en"
+  },
+  {
+   "start": 1068.0,
+   "end": 1071.0,
+   "text": "У меня есть письмо для Питера.",
+   "lang": "ru"
+  },
+  {
+   "start": 1074.6,
+   "end": 1076.16,
+   "text": "I have a letter for Peter.",
+   "lang": "en"
+  },
+  {
+   "start": 1078.56,
+   "end": 1081.32,
+   "text": "Вы можете передать ему письмо?",
+   "lang": "ru"
+  },
+  {
+   "start": 1084.12,
+   "end": 1085.88,
+   "text": "Can you give him the letter?",
+   "lang": "ru"
+  },
+  {
+   "start": 1088.98,
+   "end": 1089.62,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 1089.62,
+   "end": 1090.56,
+   "text": "Конечно",
+   "lang": "ru"
+  },
+  {
+   "start": 1093.28,
+   "end": 1094.38,
+   "text": "Of course",
+   "lang": "ru"
+  },
+  {
+   "start": 1094.38,
+   "end": 1098.12,
+   "text": "Of course I can",
+   "lang": "ru"
+  },
+  {
+   "start": 1100.54,
+   "end": 1102.18,
+   "text": "Ну, тогда до свидания",
+   "lang": "ru"
+  },
+  {
+   "start": 1105.96,
+   "end": 1107.24,
+   "text": "Well then, goodbye",
+   "lang": "ru"
+  },
+  {
+   "start": 1107.24,
+   "end": 1107.44,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 1110.28,
+   "end": 1113.06,
+   "text": "И счастливого пути на следующей неделе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1117.58,
+   "end": 1119.56,
+   "text": "and have a good trip next week",
+   "lang": "en"
+  },
+  {
+   "start": 1123.76,
+   "end": 1126.44,
+   "text": "Сейчас вы идете в кино с подругой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1126.44,
+   "end": 1130.48,
+   "text": "Но сначала вы зашли в закусочную, чтобы съесть по бутерброду.",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.66,
+   "end": 1133.08,
+   "text": "Ответьте на приветствие официантке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1133.94,
+   "end": 1135.1,
+   "text": "Hi, how are you?",
+   "lang": "en"
+  },
+  {
+   "start": 1138.78,
+   "end": 1139.66,
+   "text": "Fine, thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 1142.36,
+   "end": 1148.32,
+   "text": "Было очень холодно и дождливо уже много дней. Она говорит, какая плохая погода.",
+   "lang": "ru"
+  },
+  {
+   "start": 1148.32,
+   "end": 1149.62,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 1151.16,
+   "end": 1152.04,
+   "text": "What bad weather?",
+   "lang": "en"
+  },
+  {
+   "start": 1152.52,
+   "end": 1154.68,
+   "text": "Say that it's really not very nice.",
+   "lang": "en"
+  },
+  {
+   "start": 1159.68,
+   "end": 1161.68,
+   "text": "It's really not very nice.",
+   "lang": "en"
+  },
+  {
+   "start": 1165.44,
+   "end": 1167.22,
+   "text": "Say that it's cold too.",
+   "lang": "en"
+  },
+  {
+   "start": 1170.7,
+   "end": 1172.1,
+   "text": "It's cold, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1175.06,
+   "end": 1176.72,
+   "text": "Well, what would you like?",
+   "lang": "ru"
+  },
+  {
+   "start": 1177.06,
+   "end": 1179.52,
+   "text": "Here's how to say мороженое.",
+   "lang": "ru"
+  },
+  {
+   "start": 1180.02,
+   "end": 1181.26,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1182.18,
+   "end": 1183.12,
+   "text": "Ice cream.",
+   "lang": "ru"
+  },
+  {
+   "start": 1185.78,
+   "end": 1186.42,
+   "text": "Cream.",
+   "lang": "ru"
+  },
+  {
+   "start": 1188.8,
+   "end": 1189.44,
+   "text": "Cream.",
+   "lang": "ru"
+  },
+  {
+   "start": 1191.94,
+   "end": 1192.58,
+   "text": "Ice.",
+   "lang": "ru"
+  },
+  {
+   "start": 1195.18,
+   "end": 1196.18,
+   "text": "Ice cream.",
+   "lang": "ru"
+  },
+  {
+   "start": 1198.42,
+   "end": 1200.12,
+   "text": "Одно мороженое.",
+   "lang": "ru"
+  },
+  {
+   "start": 1200.12,
+   "end": 1201.92,
+   "text": "Listen and repeat again.",
+   "lang": "en"
+  },
+  {
+   "start": 1216.12,
+   "end": 1225.0,
+   "text": "Обратите внимание, что в английском языке часто уточняют один кусок торта или одна чашка кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1225.0,
+   "end": 1230.66,
+   "text": "Здесь вы заказываете буквально одно блюдо с мороженым.",
+   "lang": "ru"
+  },
+  {
+   "start": 1231.78,
+   "end": 1234.2,
+   "text": "Скажите еще раз. Одно мороженое.",
+   "lang": "ru"
+  },
+  {
+   "start": 1237.64,
+   "end": 1239.26,
+   "text": "A dish of ice cream.",
+   "lang": "en"
+  },
+  {
+   "start": 1242.84,
+   "end": 1243.56,
+   "text": "Now try.",
+   "lang": "en"
+  },
+  {
+   "start": 1243.74,
+   "end": 1246.2,
+   "text": "Одно шоколадное мороженое, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1250.96,
+   "end": 1253.74,
+   "text": "A dish of chocolate ice cream, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1258.58,
+   "end": 1260.38,
+   "text": "и чашку кофе,",
+   "lang": "ru"
+  },
+  {
+   "start": 1263.92,
+   "end": 1265.12,
+   "text": "and a cup of coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1268.54,
+   "end": 1269.8,
+   "text": "горячий кофе,",
+   "lang": "ru"
+  },
+  {
+   "start": 1273.24,
+   "end": 1273.84,
+   "text": "горячий кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1276.58,
+   "end": 1278.6,
+   "text": "Окей, и для вас, мэм?",
+   "lang": "ru"
+  },
+  {
+   "start": 1287.52,
+   "end": 1289.96,
+   "text": "Do you want ice cream or cake?",
+   "lang": "en"
+  },
+  {
+   "start": 1293.62,
+   "end": 1295.02,
+   "text": "She says,",
+   "lang": "ru"
+  },
+  {
+   "start": 1295.26,
+   "end": 1296.84,
+   "text": "Один кусок торта.",
+   "lang": "ru"
+  },
+  {
+   "start": 1299.54,
+   "end": 1300.94,
+   "text": "A piece of cake.",
+   "lang": "ru"
+  },
+  {
+   "start": 1303.74,
+   "end": 1305.74,
+   "text": "И кофе с сахаром, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1309.88,
+   "end": 1311.92,
+   "text": "And coffee with sugar, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1315.92,
+   "end": 1317.36,
+   "text": "Tell the waitress.",
+   "lang": "en"
+  },
+  {
+   "start": 1317.68,
+   "end": 1319.04,
+   "text": "Tell the waitress.",
+   "lang": "en"
+  },
+  {
+   "start": 1319.18,
+   "end": 1321.74,
+   "text": "Одно шоколадное мороженое для меня.",
+   "lang": "ru"
+  },
+  {
+   "start": 1326.64,
+   "end": 1329.34,
+   "text": "A dish of chocolate ice cream for me.",
+   "lang": "en"
+  },
+  {
+   "start": 1333.28,
+   "end": 1337.24,
+   "text": "И кусок шоколадного торта для моей подруги.",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.48,
+   "end": 1345.1,
+   "text": "and a piece of chocolate cake for my friend.",
+   "lang": "en"
+  },
+  {
+   "start": 1350.2,
+   "end": 1351.94,
+   "text": "И две чашки кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1355.7,
+   "end": 1357.52,
+   "text": "and two cups of coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1361.02,
+   "end": 1364.68,
+   "text": "Вас обслужили, и сейчас вы разговариваете.",
+   "lang": "ru"
+  },
+  {
+   "start": 1364.96,
+   "end": 1368.16,
+   "text": "Скажите, фильм начинается без двадцати четыре.",
+   "lang": "ru"
+  },
+  {
+   "start": 1372.84,
+   "end": 1375.2,
+   "text": "The movie starts at 20 to 4.",
+   "lang": "en"
+  },
+  {
+   "start": 1379.38,
+   "end": 1380.78,
+   "text": "После фильма.",
+   "lang": "ru"
+  },
+  {
+   "start": 1383.94,
+   "end": 1384.98,
+   "text": "After the movie",
+   "lang": "en"
+  },
+  {
+   "start": 1388.12,
+   "end": 1390.14,
+   "text": "Давайте выпьем по бокалу вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1394.14,
+   "end": 1395.64,
+   "text": "Let's have a glass of wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1399.34,
+   "end": 1402.26,
+   "text": "Yes, I'd like to. I'd like to very much.",
+   "lang": "ru"
+  },
+  {
+   "start": 1403.46,
+   "end": 1405.72,
+   "text": "Сейчас давайте перейдем к чтению.",
+   "lang": "ru"
+  },
+  {
+   "start": 1406.16,
+   "end": 1413.7,
+   "text": "Если вы хотите этим заняться прямо сейчас, достаньте свою книжку для чтения и откройте ее на странице с пятнадцатым уроком.",
+   "lang": "ru"
+  },
+  {
+   "start": 1413.7,
+   "end": 1420.14,
+   "text": "Мы уже повторили самые важные сочетания букв и звуков, которые вы изучали на первом уровне.",
+   "lang": "ru"
+  },
+  {
+   "start": 1420.74,
+   "end": 1422.9,
+   "text": "Время от времени мы будем возвращаться к ним.",
+   "lang": "ru"
+  },
+  {
+   "start": 1423.02,
+   "end": 1428.36,
+   "text": "Но перед тем, как перейти к новым сочетаниям, давайте почитаем слова по буквам.",
+   "lang": "ru"
+  },
+  {
+   "start": 1428.74,
+   "end": 1435.94,
+   "text": "Сначала вы прочитаете группы букв, а потом вы прочитаете несколько слов по буквам на английском языке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1436.7,
+   "end": 1440.36,
+   "text": "Прочитайте первую группу букв вслух за диктором.",
+   "lang": "ru"
+  },
+  {
+   "start": 1440.9,
+   "end": 1441.66,
+   "text": "A",
+   "lang": "ru"
+  },
+  {
+   "start": 1442.66,
+   "end": 1444.32,
+   "text": "A",
+   "lang": "ru"
+  },
+  {
+   "start": 1445.92,
+   "end": 1447.32,
+   "text": "B",
+   "lang": "ru"
+  },
+  {
+   "start": 1448.98,
+   "end": 1450.38,
+   "text": "B",
+   "lang": "ru"
+  },
+  {
+   "start": 1451.86,
+   "end": 1453.26,
+   "text": "C",
+   "lang": "ru"
+  },
+  {
+   "start": 1454.82,
+   "end": 1456.22,
+   "text": "C",
+   "lang": "ru"
+  },
+  {
+   "start": 1457.68,
+   "end": 1459.08,
+   "text": "D",
+   "lang": "ru"
+  },
+  {
+   "start": 1459.08,
+   "end": 1461.8,
+   "text": "D",
+   "lang": "ru"
+  },
+  {
+   "start": 1461.8,
+   "end": 1464.56,
+   "text": "E",
+   "lang": "ru"
+  },
+  {
+   "start": 1464.56,
+   "end": 1467.32,
+   "text": "E",
+   "lang": "ru"
+  },
+  {
+   "start": 1469.68,
+   "end": 1475.62,
+   "text": "Сейчас прочитайте по буквам слово номер два, а потом скажите его вслух.",
+   "lang": "ru"
+  },
+  {
+   "start": 1479.18,
+   "end": 1482.14,
+   "text": "B.A.D.",
+   "lang": "en"
+  },
+  {
+   "start": 1486.56,
+   "end": 1487.96,
+   "text": "Bad",
+   "lang": "en"
+  },
+  {
+   "start": 1490.44,
+   "end": 1494.9,
+   "text": "Сейчас произнесите буквы в номере три после диктора.",
+   "lang": "ru"
+  },
+  {
+   "start": 1494.9,
+   "end": 1496.08,
+   "text": "F",
+   "lang": "en"
+  },
+  {
+   "start": 1497.98,
+   "end": 1499.02,
+   "text": "F",
+   "lang": "ru"
+  },
+  {
+   "start": 1500.84,
+   "end": 1501.88,
+   "text": "G",
+   "lang": "ru"
+  },
+  {
+   "start": 1503.82,
+   "end": 1504.86,
+   "text": "G",
+   "lang": "ru"
+  },
+  {
+   "start": 1506.62,
+   "end": 1507.66,
+   "text": "H",
+   "lang": "ru"
+  },
+  {
+   "start": 1509.08,
+   "end": 1510.12,
+   "text": "H",
+   "lang": "ru"
+  },
+  {
+   "start": 1511.88,
+   "end": 1512.92,
+   "text": "I",
+   "lang": "ru"
+  },
+  {
+   "start": 1514.5,
+   "end": 1515.54,
+   "text": "I",
+   "lang": "ru"
+  },
+  {
+   "start": 1518.34,
+   "end": 1523.42,
+   "text": "Прочитайте по буквам слово номер 4, а потом произнесите его.",
+   "lang": "ru"
+  },
+  {
+   "start": 1525.86,
+   "end": 1528.2,
+   "text": "H-E",
+   "lang": "ru"
+  },
+  {
+   "start": 1535.2,
+   "end": 1536.58,
+   "text": "Слово номер пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1539.12,
+   "end": 1542.26,
+   "text": "B-I-G",
+   "lang": "en"
+  },
+  {
+   "start": 1550.3,
+   "end": 1553.4,
+   "text": "Повторите буквы в номере шесть за диктором.",
+   "lang": "ru"
+  },
+  {
+   "start": 1553.4,
+   "end": 1574.38,
+   "text": "J, J, K, K, L, L, M, M.",
+   "lang": "en"
+  },
+  {
+   "start": 1576.54,
+   "end": 1580.92,
+   "text": "Сейчас прочитайте по буквам и произнесите слово номер 7.",
+   "lang": "ru"
+  },
+  {
+   "start": 1586.96,
+   "end": 1590.8,
+   "text": "М-И-Л-К",
+   "lang": "ru"
+  },
+  {
+   "start": 1590.8,
+   "end": 1590.92,
+   "text": "K.",
+   "lang": "en"
+  },
+  {
+   "start": 1597.0,
+   "end": 1598.4,
+   "text": "Милк",
+   "lang": "ru"
+  },
+  {
+   "start": 1599.88,
+   "end": 1603.5,
+   "text": "Повторите буквы в номере 8 за диктором.",
+   "lang": "ru"
+  },
+  {
+   "start": 1604.48,
+   "end": 1604.64,
+   "text": "Н",
+   "lang": "ru"
+  },
+  {
+   "start": 1604.64,
+   "end": 1607.36,
+   "text": "Н",
+   "lang": "ru"
+  },
+  {
+   "start": 1608.78,
+   "end": 1610.18,
+   "text": "О",
+   "lang": "ru"
+  },
+  {
+   "start": 1612.26,
+   "end": 1613.14,
+   "text": "О.",
+   "lang": "ru"
+  },
+  {
+   "start": 1615.14,
+   "end": 1616.02,
+   "text": "П.",
+   "lang": "ru"
+  },
+  {
+   "start": 1617.86,
+   "end": 1618.74,
+   "text": "П.",
+   "lang": "ru"
+  },
+  {
+   "start": 1620.66,
+   "end": 1621.54,
+   "text": "К.",
+   "lang": "ru"
+  },
+  {
+   "start": 1623.76,
+   "end": 1624.64,
+   "text": "К.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.16,
+   "end": 1630.68,
+   "text": "Прочитайте по буквам и произнесите слово номер 9.",
+   "lang": "ru"
+  },
+  {
+   "start": 1638.42,
+   "end": 1643.84,
+   "text": "П-Л-Е-А-С-Е",
+   "lang": "ru"
+  },
+  {
+   "start": 1643.84,
+   "end": 1644.04,
+   "text": "E.",
+   "lang": "en"
+  },
+  {
+   "start": 1652.16,
+   "end": 1653.56,
+   "text": "Пожалуйста",
+   "lang": "ru"
+  },
+  {
+   "start": 1655.54,
+   "end": 1659.14,
+   "text": "Сейчас повторите буквы в номере 10.",
+   "lang": "ru"
+  },
+  {
+   "start": 1659.14,
+   "end": 1660.04,
+   "text": "are",
+   "lang": "en"
+  },
+  {
+   "start": 1662.58,
+   "end": 1663.5,
+   "text": "Р.",
+   "lang": "ru"
+  },
+  {
+   "start": 1665.56,
+   "end": 1666.48,
+   "text": "С.",
+   "lang": "ru"
+  },
+  {
+   "start": 1669.28,
+   "end": 1669.48,
+   "text": "С.",
+   "lang": "ru"
+  },
+  {
+   "start": 1671.8,
+   "end": 1672.2,
+   "text": "Т.",
+   "lang": "ru"
+  },
+  {
+   "start": 1674.06,
+   "end": 1674.98,
+   "text": "Т.",
+   "lang": "ru"
+  },
+  {
+   "start": 1676.78,
+   "end": 1677.7,
+   "text": "Ю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1679.74,
+   "end": 1680.66,
+   "text": "Ю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1683.46,
+   "end": 1687.06,
+   "text": "Прочитайте по буквам и произнесите слово номер 11.",
+   "lang": "ru"
+  },
+  {
+   "start": 1696.94,
+   "end": 1703.18,
+   "text": "F-O-U-R-T-E-E-N",
+   "lang": "en"
+  },
+  {
+   "start": 1707.82,
+   "end": 1709.22,
+   "text": "14.",
+   "lang": "ru"
+  },
+  {
+   "start": 1717.32,
+   "end": 1721.44,
+   "text": "Сейчас прочитайте последнюю группу букв за диктором.",
+   "lang": "ru"
+  },
+  {
+   "start": 1724.08,
+   "end": 1725.48,
+   "text": "V",
+   "lang": "ru"
+  },
+  {
+   "start": 1725.48,
+   "end": 1727.78,
+   "text": "W",
+   "lang": "ru"
+  },
+  {
+   "start": 1729.86,
+   "end": 1731.26,
+   "text": "W",
+   "lang": "ru"
+  },
+  {
+   "start": 1732.86,
+   "end": 1734.26,
+   "text": "X",
+   "lang": "ru"
+  },
+  {
+   "start": 1734.26,
+   "end": 1737.06,
+   "text": "X",
+   "lang": "ru"
+  },
+  {
+   "start": 1738.48,
+   "end": 1739.88,
+   "text": "Y",
+   "lang": "ru"
+  },
+  {
+   "start": 1741.54,
+   "end": 1742.94,
+   "text": "Y",
+   "lang": "ru"
+  },
+  {
+   "start": 1744.8,
+   "end": 1746.2,
+   "text": "Z",
+   "lang": "ru"
+  },
+  {
+   "start": 1747.74,
+   "end": 1749.14,
+   "text": "Z",
+   "lang": "ru"
+  },
+  {
+   "start": 1751.36,
+   "end": 1755.3,
+   "text": "Прочитайте по буквам и произнесите слово номер 13.",
+   "lang": "ru"
+  },
+  {
+   "start": 1755.3,
+   "end": 1756.36,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1764.42,
+   "end": 1769.52,
+   "text": "j-a-n-u-a-r-y",
+   "lang": "ru"
+  },
+  {
+   "start": 1769.52,
+   "end": 1769.66,
+   "text": "Why?",
+   "lang": "en"
+  },
+  {
+   "start": 1779.36,
+   "end": 1779.92,
+   "text": "January",
+   "lang": "en"
+  },
+  {
+   "start": 1782.32,
+   "end": 1784.78,
+   "text": "Слово номер четырнадцать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1790.72,
+   "end": 1794.86,
+   "text": "W-H-I-T-E",
+   "lang": "en"
+  },
+  {
+   "start": 1801.42,
+   "end": 1802.3,
+   "text": "Байт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1804.96,
+   "end": 1806.82,
+   "text": "Слово номер пятнадцать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1814.82,
+   "end": 1819.3,
+   "text": "М-е-к-с-и-с-и-о.",
+   "lang": "ru"
+  },
+  {
+   "start": 1819.3,
+   "end": 1819.48,
+   "text": "Oh.",
+   "lang": "en"
+  },
+  {
+   "start": 1827.48,
+   "end": 1828.36,
+   "text": "Мексика.",
+   "lang": "ru"
+  },
+  {
+   "start": 1830.6,
+   "end": 1833.24,
+   "text": "Это конец пятнадцатого урока.",
+   "lang": "ru"
+  },
+  {
+   "start": 1833.34,
+   "end": 1834.56,
+   "text": "На сегодня это все.",
+   "lang": "ru"
+  },
+  {
+   "start": 1834.92,
+   "end": 1840.1,
+   "text": "Завтра, когда вы будете готовы к новому уроку, мы начнем шестнадцатый урок.",
+   "lang": "ru"
+  }
+ ]
+}

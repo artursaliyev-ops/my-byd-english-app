@@ -1,0 +1,2127 @@
+{
+ "id": "II_20",
+ "source": "Pimsleur_II_20.mp3",
+ "duration": 1836.28,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 135,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.5,
+   "text": "I've been a wild rover for many years. I've spent all my young with C&B.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.22,
+   "end": 19.14,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 22.44,
+   "end": 27.0,
+   "text": "Двадцатый урок английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 27.0,
+   "end": 31.7,
+   "text": "Один мексиканец находится в небольшом магазинчике в Нью-Йорке.",
+   "lang": "ru"
+  },
+  {
+   "start": 31.84,
+   "end": 38.5,
+   "text": "Вы слышите, что он спрашивает, что означает, вы продаете почтовые марки.",
+   "lang": "ru"
+  },
+  {
+   "start": 38.5,
+   "end": 39.9,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 41.18,
+   "end": 43.12,
+   "text": "Excuse me, do you sell stamps?",
+   "lang": "en"
+  },
+  {
+   "start": 43.62,
+   "end": 46.32,
+   "text": "No, we don't. You have to go to the post office.",
+   "lang": "en"
+  },
+  {
+   "start": 46.74,
+   "end": 49.32,
+   "text": "Today's Saturday. Is the post office open today?",
+   "lang": "en"
+  },
+  {
+   "start": 49.66,
+   "end": 51.3,
+   "text": "Yes, until 2 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 51.52,
+   "end": 52.94,
+   "text": "Where is the post office?",
+   "lang": "en"
+  },
+  {
+   "start": 53.4,
+   "end": 56.98,
+   "text": "Just across the street. Do you see it? It's over there.",
+   "lang": "en"
+  },
+  {
+   "start": 57.0,
+   "end": 62.86,
+   "text": "В этом разговоре вы услышали",
+   "lang": "ru"
+  },
+  {
+   "start": 62.86,
+   "end": 66.06,
+   "text": "что означает",
+   "lang": "ru"
+  },
+  {
+   "start": 66.06,
+   "end": 67.44,
+   "text": "прямо напротив.",
+   "lang": "ru"
+  },
+  {
+   "start": 68.1,
+   "end": 68.48,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 69.66,
+   "end": 71.56,
+   "text": "Excuse me. Do you sell stamps?",
+   "lang": "en"
+  },
+  {
+   "start": 72.08,
+   "end": 74.8,
+   "text": "No, we don't. You have to go to the post office.",
+   "lang": "en"
+  },
+  {
+   "start": 75.24,
+   "end": 77.78,
+   "text": "Today's Saturday. Is the post office open today?",
+   "lang": "en"
+  },
+  {
+   "start": 78.18,
+   "end": 79.74,
+   "text": "Yes, until 2 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 79.96,
+   "end": 81.4,
+   "text": "Where is the post office?",
+   "lang": "en"
+  },
+  {
+   "start": 81.88,
+   "end": 84.28,
+   "text": "Just across the street. Do you see it?",
+   "lang": "en"
+  },
+  {
+   "start": 84.66,
+   "end": 86.08,
+   "text": "It's over there on the right.",
+   "lang": "en"
+  },
+  {
+   "start": 86.32,
+   "end": 87.88,
+   "text": "Oh, yes. Thanks a lot.",
+   "lang": "en"
+  },
+  {
+   "start": 88.62,
+   "end": 92.14,
+   "text": "Вы хотите купить несколько почтовых марок.",
+   "lang": "ru"
+  },
+  {
+   "start": 92.76,
+   "end": 94.46,
+   "text": "Как бы вы спросили в переходе?",
+   "lang": "ru"
+  },
+  {
+   "start": 94.56,
+   "end": 97.4,
+   "text": "Извините, вы знаете, где находится почта?",
+   "lang": "ru"
+  },
+  {
+   "start": 103.5,
+   "end": 105.96,
+   "text": "Excuse me, do you know where the post office is?",
+   "lang": "en"
+  },
+  {
+   "start": 111.88,
+   "end": 112.8,
+   "text": "Post office",
+   "lang": "en"
+  },
+  {
+   "start": 115.98,
+   "end": 118.86,
+   "text": "Вы видите улицу вон там?",
+   "lang": "ru"
+  },
+  {
+   "start": 122.94,
+   "end": 124.64,
+   "text": "Do you see the street over there?",
+   "lang": "en"
+  },
+  {
+   "start": 128.22,
+   "end": 129.26,
+   "text": "Слева?",
+   "lang": "ru"
+  },
+  {
+   "start": 132.12,
+   "end": 133.04,
+   "text": "On the left.",
+   "lang": "en"
+  },
+  {
+   "start": 133.2,
+   "end": 138.3,
+   "text": "Да, я ее вижу.",
+   "lang": "ru"
+  },
+  {
+   "start": 141.54,
+   "end": 143.02,
+   "text": "Yes, I see it.",
+   "lang": "en"
+  },
+  {
+   "start": 146.12,
+   "end": 149.9,
+   "text": "Это 52-я Восточная улица.",
+   "lang": "ru"
+  },
+  {
+   "start": 154.38,
+   "end": 156.04,
+   "text": "That's East 52nd Street.",
+   "lang": "en"
+  },
+  {
+   "start": 159.8,
+   "end": 163.46,
+   "text": "Почта находится на 52-й Восточной улице.",
+   "lang": "ru"
+  },
+  {
+   "start": 169.64,
+   "end": 172.5,
+   "text": "The post office is on East 52nd Street.",
+   "lang": "en"
+  },
+  {
+   "start": 177.0,
+   "end": 181.04,
+   "text": "Вы хотите спросить, знает ли она адрес.",
+   "lang": "ru"
+  },
+  {
+   "start": 181.18,
+   "end": 181.98,
+   "text": "Адрес.",
+   "lang": "ru"
+  },
+  {
+   "start": 181.98,
+   "end": 183.24,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 184.16,
+   "end": 185.04,
+   "text": "Address.",
+   "lang": "en"
+  },
+  {
+   "start": 187.78,
+   "end": 188.66,
+   "text": "Address.",
+   "lang": "en"
+  },
+  {
+   "start": 191.34,
+   "end": 191.96,
+   "text": "The address.",
+   "lang": "en"
+  },
+  {
+   "start": 195.18,
+   "end": 198.1,
+   "text": "Вы знаете адрес?",
+   "lang": "ru"
+  },
+  {
+   "start": 201.9,
+   "end": 203.1,
+   "text": "Do you know the address?",
+   "lang": "en"
+  },
+  {
+   "start": 205.62,
+   "end": 209.42,
+   "text": "Как она кратко ответит, что нет?",
+   "lang": "ru"
+  },
+  {
+   "start": 211.64,
+   "end": 218.12,
+   "text": "Нет, я не знаю адреса.",
+   "lang": "ru"
+  },
+  {
+   "start": 221.0,
+   "end": 222.46,
+   "text": "I don't know the address.",
+   "lang": "en"
+  },
+  {
+   "start": 223.94,
+   "end": 227.38,
+   "text": "Но это недалеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 230.16,
+   "end": 231.44,
+   "text": "But it's not far.",
+   "lang": "ru"
+  },
+  {
+   "start": 234.54,
+   "end": 235.06,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 235.36,
+   "end": 237.12,
+   "text": "Также я должен позвонить.",
+   "lang": "ru"
+  },
+  {
+   "start": 237.12,
+   "end": 237.24,
+   "text": "Peace.",
+   "lang": "en"
+  },
+  {
+   "start": 241.72,
+   "end": 243.8,
+   "text": "I have to make a phone call, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 248.12,
+   "end": 250.42,
+   "text": "Ask if there's a telephone in the post office.",
+   "lang": "ru"
+  },
+  {
+   "start": 255.9,
+   "end": 258.22,
+   "text": "Is there a telephone in the post office?",
+   "lang": "en"
+  },
+  {
+   "start": 262.86,
+   "end": 263.84,
+   "text": "She answers.",
+   "lang": "en"
+  },
+  {
+   "start": 264.46,
+   "end": 265.32,
+   "text": "Думаю, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 267.74,
+   "end": 268.76,
+   "text": "I think so.",
+   "lang": "en"
+  },
+  {
+   "start": 271.26,
+   "end": 273.38,
+   "text": "Ask how late the post office is open.",
+   "lang": "en"
+  },
+  {
+   "start": 278.94,
+   "end": 281.02,
+   "text": "How late is the post office open?",
+   "lang": "en"
+  },
+  {
+   "start": 285.06,
+   "end": 287.58,
+   "text": "До пяти.",
+   "lang": "ru"
+  },
+  {
+   "start": 291.34,
+   "end": 292.82,
+   "text": "Until 5 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 294.38,
+   "end": 297.18,
+   "text": "До пяти.",
+   "lang": "ru"
+  },
+  {
+   "start": 300.22,
+   "end": 302.02,
+   "text": "Большое спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 304.86,
+   "end": 305.76,
+   "text": "Спасибо большое.",
+   "lang": "ru"
+  },
+  {
+   "start": 307.66,
+   "end": 318.72,
+   "text": "На почте, после того, как вы купили марки, вы пытаетесь позвонить, но нет справочника. Вы говорите, черт возьми, мне нужен телефонный справочник.",
+   "lang": "ru"
+  },
+  {
+   "start": 323.12,
+   "end": 325.02,
+   "text": "Shoot, I need a phone book.",
+   "lang": "en"
+  },
+  {
+   "start": 329.28,
+   "end": 332.2,
+   "text": "Я попытаюсь позвонить еще раз позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 336.54,
+   "end": 338.22,
+   "text": "I'm going to try again later.",
+   "lang": "en"
+  },
+  {
+   "start": 341.26,
+   "end": 345.74,
+   "text": "Сейчас вы вернулись с почты и разговариваете с коллегой.",
+   "lang": "ru"
+  },
+  {
+   "start": 345.8,
+   "end": 349.64,
+   "text": "Вы хотите сказать, моя жена пишет много писем.",
+   "lang": "ru"
+  },
+  {
+   "start": 349.64,
+   "end": 350.82,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 351.56,
+   "end": 353.68,
+   "text": "My wife writes a lot of letters.",
+   "lang": "en"
+  },
+  {
+   "start": 358.64,
+   "end": 359.2,
+   "text": "Writes.",
+   "lang": "en"
+  },
+  {
+   "start": 361.64,
+   "end": 362.2,
+   "text": "Writes.",
+   "lang": "en"
+  },
+  {
+   "start": 364.52,
+   "end": 366.7,
+   "text": "My wife writes a lot of letters.",
+   "lang": "en"
+  },
+  {
+   "start": 371.12,
+   "end": 374.14,
+   "text": "Скажите, что ваша жена пишет много писем.",
+   "lang": "ru"
+  },
+  {
+   "start": 379.42,
+   "end": 381.76,
+   "text": "My wife writes a lot of letters.",
+   "lang": "en"
+  },
+  {
+   "start": 385.94,
+   "end": 388.18,
+   "text": "Она всегда пишет письма.",
+   "lang": "ru"
+  },
+  {
+   "start": 391.62,
+   "end": 393.74,
+   "text": "She always writes letters.",
+   "lang": "en"
+  },
+  {
+   "start": 397.56,
+   "end": 402.16,
+   "text": "А вы? Вы пишете много писем?",
+   "lang": "ru"
+  },
+  {
+   "start": 407.32,
+   "end": 409.72,
+   "text": "And you? Do you write a lot of letters?",
+   "lang": "en"
+  },
+  {
+   "start": 414.7,
+   "end": 416.56,
+   "text": "Ответьте кратко, что нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 419.94,
+   "end": 421.4,
+   "text": "Нет, I don't.",
+   "lang": "ru"
+  },
+  {
+   "start": 424.04,
+   "end": 430.32,
+   "text": "Обратите внимание, что right звучит так же, как в словосочетании right number.",
+   "lang": "ru"
+  },
+  {
+   "start": 431.36,
+   "end": 431.92,
+   "text": "On the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 432.0,
+   "end": 435.52,
+   "text": "Однако это другое слово, полностью отличающееся.",
+   "lang": "ru"
+  },
+  {
+   "start": 435.66,
+   "end": 438.78,
+   "text": "Сейчас скажите, я никогда не пишу писем.",
+   "lang": "ru"
+  },
+  {
+   "start": 442.1,
+   "end": 443.94,
+   "text": "I never write letters.",
+   "lang": "ru"
+  },
+  {
+   "start": 447.0,
+   "end": 449.0,
+   "text": "I never write letters.",
+   "lang": "ru"
+  },
+  {
+   "start": 452.56,
+   "end": 455.12,
+   "text": "Предпочитаю отправлять электронную почту.",
+   "lang": "ru"
+  },
+  {
+   "start": 455.22,
+   "end": 456.36,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 457.86,
+   "end": 458.62,
+   "text": "I'd rather email.",
+   "lang": "ru"
+  },
+  {
+   "start": 458.62,
+   "end": 458.82,
+   "text": "mail.",
+   "lang": "en"
+  },
+  {
+   "start": 462.74,
+   "end": 462.94,
+   "text": "Mail.",
+   "lang": "ru"
+  },
+  {
+   "start": 465.46,
+   "end": 465.7,
+   "text": "Mail.",
+   "lang": "ru"
+  },
+  {
+   "start": 468.34,
+   "end": 468.52,
+   "text": "Email.",
+   "lang": "ru"
+  },
+  {
+   "start": 471.26,
+   "end": 471.46,
+   "text": "Email.",
+   "lang": "ru"
+  },
+  {
+   "start": 473.58,
+   "end": 475.06,
+   "text": "I'd rather email.",
+   "lang": "ru"
+  },
+  {
+   "start": 477.64,
+   "end": 486.86,
+   "text": "В английском языке «отправлять» часто опускается. Скажите, я предпочитаю отправлять электронную почту.",
+   "lang": "ru"
+  },
+  {
+   "start": 490.36,
+   "end": 491.62,
+   "text": "I'd rather email.",
+   "lang": "en"
+  },
+  {
+   "start": 494.2,
+   "end": 496.72,
+   "text": "Также мне нравится звонить.",
+   "lang": "ru"
+  },
+  {
+   "start": 499.98,
+   "end": 501.6,
+   "text": "I like to call too.",
+   "lang": "en"
+  },
+  {
+   "start": 504.48,
+   "end": 507.52,
+   "text": "Но моя жена пишет много писем.",
+   "lang": "ru"
+  },
+  {
+   "start": 511.86,
+   "end": 514.16,
+   "text": "But my wife writes a lot of letters",
+   "lang": "en"
+  },
+  {
+   "start": 518.84,
+   "end": 520.58,
+   "text": "Наши дети не живут дома.",
+   "lang": "ru"
+  },
+  {
+   "start": 524.72,
+   "end": 526.96,
+   "text": "Our children don't live at home.",
+   "lang": "en"
+  },
+  {
+   "start": 531.16,
+   "end": 532.32,
+   "text": "She asks.",
+   "lang": "en"
+  },
+  {
+   "start": 532.7,
+   "end": 534.64,
+   "text": "Неужели? Сколько им лет?",
+   "lang": "ru"
+  },
+  {
+   "start": 539.48,
+   "end": 541.24,
+   "text": "Really? How old are they?",
+   "lang": "en"
+  },
+  {
+   "start": 545.66,
+   "end": 546.64,
+   "text": "Ask what they do.",
+   "lang": "en"
+  },
+  {
+   "start": 550.02,
+   "end": 550.94,
+   "text": "What do they do?",
+   "lang": "en"
+  },
+  {
+   "start": 552.12,
+   "end": 557.58,
+   "text": "У нас есть сын, которому 22 года.",
+   "lang": "ru"
+  },
+  {
+   "start": 562.28,
+   "end": 564.6,
+   "text": "We have a 22 year old son.",
+   "lang": "en"
+  },
+  {
+   "start": 568.72,
+   "end": 571.54,
+   "text": "и дочь, которой 25 лет.",
+   "lang": "ru"
+  },
+  {
+   "start": 575.34,
+   "end": 577.6,
+   "text": "and a 25-year-old daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 581.38,
+   "end": 584.06,
+   "text": "Наш сын учится в институте.",
+   "lang": "ru"
+  },
+  {
+   "start": 587.14,
+   "end": 589.14,
+   "text": "Our son is in college.",
+   "lang": "en"
+  },
+  {
+   "start": 592.22,
+   "end": 594.44,
+   "text": "Our son's in college.",
+   "lang": "en"
+  },
+  {
+   "start": 597.74,
+   "end": 599.48,
+   "text": "University of Florida",
+   "lang": "en"
+  },
+  {
+   "start": 602.62,
+   "end": 605.62,
+   "text": "At the University of Florida",
+   "lang": "en"
+  },
+  {
+   "start": 607.6,
+   "end": 614.4,
+   "text": "У него там девушка.",
+   "lang": "ru"
+  },
+  {
+   "start": 617.66,
+   "end": 619.36,
+   "text": "He has a girlfriend there.",
+   "lang": "en"
+  },
+  {
+   "start": 622.58,
+   "end": 624.92,
+   "text": "Наша дочь работает в IBM.",
+   "lang": "ru"
+  },
+  {
+   "start": 629.32,
+   "end": 631.68,
+   "text": "Our daughter works for IBM.",
+   "lang": "en"
+  },
+  {
+   "start": 635.68,
+   "end": 638.1,
+   "text": "У нее интересная работа.",
+   "lang": "ru"
+  },
+  {
+   "start": 641.62,
+   "end": 643.66,
+   "text": "She has an interesting job.",
+   "lang": "en"
+  },
+  {
+   "start": 647.42,
+   "end": 648.96,
+   "text": "Your colleague says",
+   "lang": "en"
+  },
+  {
+   "start": 649.26,
+   "end": 652.14,
+   "text": "Правда? Я раньше работал в IBM.",
+   "lang": "ru"
+  },
+  {
+   "start": 657.64,
+   "end": 660.06,
+   "text": "Really? I used to work for IBM.",
+   "lang": "en"
+  },
+  {
+   "start": 664.04,
+   "end": 668.16,
+   "text": "Но моя работа не была очень интересной.",
+   "lang": "ru"
+  },
+  {
+   "start": 672.62,
+   "end": 674.98,
+   "text": "But my job wasn't very interesting",
+   "lang": "en"
+  },
+  {
+   "start": 680.28,
+   "end": 682.78,
+   "text": "Моя жена пишет много писем",
+   "lang": "ru"
+  },
+  {
+   "start": 687.22,
+   "end": 689.4,
+   "text": "My wife writes a lot of letters.",
+   "lang": "en"
+  },
+  {
+   "start": 693.84,
+   "end": 695.34,
+   "text": "нашим детям",
+   "lang": "ru"
+  },
+  {
+   "start": 697.12,
+   "end": 699.26,
+   "text": "to our children",
+   "lang": "en"
+  },
+  {
+   "start": 699.26,
+   "end": 703.06,
+   "text": "to our children",
+   "lang": "en"
+  },
+  {
+   "start": 704.26,
+   "end": 709.1,
+   "text": "Но я предпочитаю отправлять электронную почту.",
+   "lang": "ru"
+  },
+  {
+   "start": 711.9,
+   "end": 713.3,
+   "text": "But I'd rather email",
+   "lang": "en"
+  },
+  {
+   "start": 715.3,
+   "end": 719.98,
+   "text": "А у вас есть дети?",
+   "lang": "ru"
+  },
+  {
+   "start": 725.34,
+   "end": 727.06,
+   "text": "И вы, у вас есть дети?",
+   "lang": "ru"
+  },
+  {
+   "start": 727.06,
+   "end": 727.32,
+   "text": "children?",
+   "lang": "en"
+  },
+  {
+   "start": 731.7,
+   "end": 732.62,
+   "text": "Есть дети?",
+   "lang": "ru"
+  },
+  {
+   "start": 735.36,
+   "end": 738.64,
+   "text": "Она отвечает, да, у меня два ребенка.",
+   "lang": "ru"
+  },
+  {
+   "start": 742.54,
+   "end": 744.56,
+   "text": "Да, у меня есть два ребенка.",
+   "lang": "ru"
+  },
+  {
+   "start": 748.14,
+   "end": 750.38,
+   "text": "Они оба учатся в институте.",
+   "lang": "ru"
+  },
+  {
+   "start": 753.4,
+   "end": 755.12,
+   "text": "Они оба учатся в институте.",
+   "lang": "ru"
+  },
+  {
+   "start": 758.04,
+   "end": 761.56,
+   "text": "Мой сын учится в Бостон-колледже.",
+   "lang": "ru"
+  },
+  {
+   "start": 766.08,
+   "end": 768.26,
+   "text": "My son is at Boston College.",
+   "lang": "en"
+  },
+  {
+   "start": 771.18,
+   "end": 774.46,
+   "text": "А моя дочь в",
+   "lang": "ru"
+  },
+  {
+   "start": 774.46,
+   "end": 775.68,
+   "text": "Washington State",
+   "lang": "ru"
+  },
+  {
+   "start": 780.9,
+   "end": 783.54,
+   "text": "And my daughter's at Washington State.",
+   "lang": "en"
+  },
+  {
+   "start": 788.48,
+   "end": 789.46,
+   "text": "Washington State.",
+   "lang": "en"
+  },
+  {
+   "start": 789.48,
+   "end": 793.4,
+   "text": "Это университет, который расположен в штате Вашингтон.",
+   "lang": "ru"
+  },
+  {
+   "start": 793.4,
+   "end": 795.72,
+   "text": "Ask if her daughter likes Washington.",
+   "lang": "en"
+  },
+  {
+   "start": 800.68,
+   "end": 802.66,
+   "text": "Does your daughter like Washington?",
+   "lang": "en"
+  },
+  {
+   "start": 805.96,
+   "end": 807.64,
+   "text": "Кто знает?",
+   "lang": "ru"
+  },
+  {
+   "start": 809.54,
+   "end": 811.22,
+   "text": "Who knows?",
+   "lang": "en"
+  },
+  {
+   "start": 816.56,
+   "end": 819.06,
+   "text": "Она никогда не пишет.",
+   "lang": "ru"
+  },
+  {
+   "start": 821.18,
+   "end": 822.82,
+   "text": "She never writes.",
+   "lang": "en"
+  },
+  {
+   "start": 829.02,
+   "end": 833.0,
+   "text": "И у меня нет электронной почты.",
+   "lang": "ru"
+  },
+  {
+   "start": 836.46,
+   "end": 837.86,
+   "text": "And I don't have email.",
+   "lang": "en"
+  },
+  {
+   "start": 840.54,
+   "end": 843.28,
+   "text": "У меня всё ещё её нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 846.34,
+   "end": 847.56,
+   "text": "I don't have it yet.",
+   "lang": "en"
+  },
+  {
+   "start": 853.8,
+   "end": 856.1,
+   "text": "Иногда я звоню.",
+   "lang": "ru"
+  },
+  {
+   "start": 859.02,
+   "end": 860.38,
+   "text": "Sometimes I call.",
+   "lang": "en"
+  },
+  {
+   "start": 863.78,
+   "end": 866.86,
+   "text": "Но телефонные звонки дорогие.",
+   "lang": "ru"
+  },
+  {
+   "start": 870.82,
+   "end": 872.8,
+   "text": "But phone calls are expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 877.14,
+   "end": 878.82,
+   "text": "Telephone calls are expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 882.52,
+   "end": 885.92,
+   "text": "Вы помните, как сказать «Мы приехали вчера»?",
+   "lang": "ru"
+  },
+  {
+   "start": 889.36,
+   "end": 891.18,
+   "text": "We arrived yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 895.04,
+   "end": 895.88,
+   "text": "Arrived.",
+   "lang": "ru"
+  },
+  {
+   "start": 898.28,
+   "end": 899.12,
+   "text": "Arrived.",
+   "lang": "ru"
+  },
+  {
+   "start": 901.18,
+   "end": 903.92,
+   "text": "Сейчас таким же образом попробуйте сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 903.92,
+   "end": 906.0,
+   "text": "Мы пытались вчера.",
+   "lang": "ru"
+  },
+  {
+   "start": 909.08,
+   "end": 910.68,
+   "text": "We tried yesterday.",
+   "lang": "ru"
+  },
+  {
+   "start": 913.92,
+   "end": 914.76,
+   "text": "Tried.",
+   "lang": "ru"
+  },
+  {
+   "start": 916.36,
+   "end": 917.76,
+   "text": "Tried",
+   "lang": "en"
+  },
+  {
+   "start": 917.76,
+   "end": 921.02,
+   "text": "We tried.",
+   "lang": "en"
+  },
+  {
+   "start": 921.98,
+   "end": 927.4,
+   "text": "Мы пытались дозвониться ей вчера.",
+   "lang": "ru"
+  },
+  {
+   "start": 931.26,
+   "end": 933.5,
+   "text": "Мы пытались позвонить ей вчера.",
+   "lang": "ru"
+  },
+  {
+   "start": 937.56,
+   "end": 939.54,
+   "text": "We tried to call her yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 943.6,
+   "end": 945.96,
+   "text": "Но ее там не было.",
+   "lang": "ru"
+  },
+  {
+   "start": 948.84,
+   "end": 950.54,
+   "text": "But she wasn't there.",
+   "lang": "en"
+  },
+  {
+   "start": 953.32,
+   "end": 955.26,
+   "text": "Мы пытались позвонить ей.",
+   "lang": "ru"
+  },
+  {
+   "start": 958.54,
+   "end": 960.02,
+   "text": "We tried to call her",
+   "lang": "en"
+  },
+  {
+   "start": 962.2,
+   "end": 964.98,
+   "text": "Но ее там не было.",
+   "lang": "ru"
+  },
+  {
+   "start": 968.1,
+   "end": 969.4,
+   "text": "But she wasn't there.",
+   "lang": "en"
+  },
+  {
+   "start": 971.82,
+   "end": 975.14,
+   "text": "А вашему сыну нравится Бостон?",
+   "lang": "ru"
+  },
+  {
+   "start": 978.92,
+   "end": 981.34,
+   "text": "И ваш сын любит Бостон?",
+   "lang": "ru"
+  },
+  {
+   "start": 984.86,
+   "end": 986.84,
+   "text": "Да, это интересный город.",
+   "lang": "ru"
+  },
+  {
+   "start": 991.7,
+   "end": 994.28,
+   "text": "Yes, it's an interesting city.",
+   "lang": "en"
+  },
+  {
+   "start": 997.6,
+   "end": 1000.88,
+   "text": "И его девушка живет там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1004.78,
+   "end": 1006.68,
+   "text": "And his girlfriend lives there.",
+   "lang": "en"
+  },
+  {
+   "start": 1008.94,
+   "end": 1011.82,
+   "text": "Он часто ездит домой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1013.96,
+   "end": 1017.18,
+   "text": "Он часто приходит домой",
+   "lang": "ru"
+  },
+  {
+   "start": 1020.4,
+   "end": 1022.22,
+   "text": "He often comes home.",
+   "lang": "en"
+  },
+  {
+   "start": 1023.72,
+   "end": 1027.86,
+   "text": "потому что Бостон недалеко",
+   "lang": "ru"
+  },
+  {
+   "start": 1031.46,
+   "end": 1033.32,
+   "text": "Because Boston isn't far.",
+   "lang": "en"
+  },
+  {
+   "start": 1035.58,
+   "end": 1038.28,
+   "text": "на следующей неделе",
+   "lang": "ru"
+  },
+  {
+   "start": 1041.14,
+   "end": 1041.94,
+   "text": "Next week.",
+   "lang": "en"
+  },
+  {
+   "start": 1044.46,
+   "end": 1045.34,
+   "text": "Next week.",
+   "lang": "en"
+  },
+  {
+   "start": 1046.78,
+   "end": 1050.22,
+   "text": "мы собираемся навестить нашу дочь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1053.92,
+   "end": 1055.52,
+   "text": "We're going to visit our daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 1058.76,
+   "end": 1061.44,
+   "text": "Мы пытались дозвониться до нее вчера,",
+   "lang": "ru"
+  },
+  {
+   "start": 1065.32,
+   "end": 1067.06,
+   "text": "We tried to call her yesterday",
+   "lang": "en"
+  },
+  {
+   "start": 1076.42,
+   "end": 1078.74,
+   "text": "Потому что нам нужен ее адрес.",
+   "lang": "ru"
+  },
+  {
+   "start": 1082.42,
+   "end": 1083.98,
+   "text": "Because we need her address.",
+   "lang": "en"
+  },
+  {
+   "start": 1088.0,
+   "end": 1090.4,
+   "text": "Ask how the weather is in Washington now.",
+   "lang": "en"
+  },
+  {
+   "start": 1094.92,
+   "end": 1097.2,
+   "text": "How's the weather in Washington now?",
+   "lang": "en"
+  },
+  {
+   "start": 1100.26,
+   "end": 1103.06,
+   "text": "Очень холодно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1106.14,
+   "end": 1107.54,
+   "text": "It's very cold.",
+   "lang": "en"
+  },
+  {
+   "start": 1110.22,
+   "end": 1114.48,
+   "text": "Как жаль, но счастливого пути!",
+   "lang": "ru"
+  },
+  {
+   "start": 1120.32,
+   "end": 1122.58,
+   "text": "That's too bad, but have a good trip.",
+   "lang": "en"
+  },
+  {
+   "start": 1126.4,
+   "end": 1130.3,
+   "text": "Сейчас вы дома у одной знакомой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.32,
+   "end": 1134.3,
+   "text": "Скажите хозяйке, извините, могу я сделать один звонок?",
+   "lang": "ru"
+  },
+  {
+   "start": 1139.6,
+   "end": 1141.86,
+   "text": "Excuse me, can I make a phone call?",
+   "lang": "en"
+  },
+  {
+   "start": 1147.42,
+   "end": 1148.1,
+   "text": "Конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1148.52,
+   "end": 1148.96,
+   "text": "Of course.",
+   "lang": "en"
+  },
+  {
+   "start": 1155.1,
+   "end": 1156.7,
+   "text": "Попросите, у нее есть телефонный книжек.",
+   "lang": "ru"
+  },
+  {
+   "start": 1159.96,
+   "end": 1161.66,
+   "text": "У вас есть телефонный книжек?",
+   "lang": "ru"
+  },
+  {
+   "start": 1164.44,
+   "end": 1170.94,
+   "text": "Она приносит телефонный справочник, и вы пытаетесь дозвониться, но номер набран неправильно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1171.08,
+   "end": 1172.88,
+   "text": "Говорите, что это был не правильный номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1176.32,
+   "end": 1178.4,
+   "text": "It was the wrong number.",
+   "lang": "ru"
+  },
+  {
+   "start": 1181.32,
+   "end": 1183.06,
+   "text": "Say that you're going to try again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1183.06,
+   "end": 1183.32,
+   "text": "again.",
+   "lang": "en"
+  },
+  {
+   "start": 1187.16,
+   "end": 1188.72,
+   "text": "I'm going to try again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1192.44,
+   "end": 1197.66,
+   "text": "Вы еще раз сверяетесь со справочником. Скажите, сейчас у меня есть правильный номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1201.82,
+   "end": 1203.72,
+   "text": "Now I have the right number.",
+   "lang": "ru"
+  },
+  {
+   "start": 1207.48,
+   "end": 1218.3,
+   "text": "Сейчас вы путешествуете по Соединенным Штатам, но ваша жена заболела.",
+   "lang": "ru"
+  },
+  {
+   "start": 1218.38,
+   "end": 1222.82,
+   "text": "Вы позвонили в приемную отеля, чтобы спросить, есть ли там врач.",
+   "lang": "ru"
+  },
+  {
+   "start": 1223.16,
+   "end": 1226.2,
+   "text": "Попробуйте сказать, мне нужен доктор.",
+   "lang": "ru"
+  },
+  {
+   "start": 1226.2,
+   "end": 1227.16,
+   "text": "Doctor.",
+   "lang": "en"
+  },
+  {
+   "start": 1230.64,
+   "end": 1232.06,
+   "text": "I need a doctor.",
+   "lang": "en"
+  },
+  {
+   "start": 1235.32,
+   "end": 1235.9,
+   "text": "Doctor.",
+   "lang": "en"
+  },
+  {
+   "start": 1238.34,
+   "end": 1239.7,
+   "text": "I need a doctor.",
+   "lang": "en"
+  },
+  {
+   "start": 1242.9,
+   "end": 1245.76,
+   "text": "Девушка называет вам номер одного врача.",
+   "lang": "ru"
+  },
+  {
+   "start": 1245.9,
+   "end": 1246.76,
+   "text": "Спросите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1247.8,
+   "end": 1248.78,
+   "text": "Можете вы мне дать",
+   "lang": "ru"
+  },
+  {
+   "start": 1251.5,
+   "end": 1252.68,
+   "text": "Can you give me",
+   "lang": "en"
+  },
+  {
+   "start": 1255.04,
+   "end": 1256.98,
+   "text": "номер телефона доктора?",
+   "lang": "ru"
+  },
+  {
+   "start": 1257.14,
+   "end": 1258.26,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1259.58,
+   "end": 1260.84,
+   "text": "Номер телефона доктора?",
+   "lang": "ru"
+  },
+  {
+   "start": 1264.44,
+   "end": 1265.3,
+   "text": "Доктор.",
+   "lang": "ru"
+  },
+  {
+   "start": 1267.74,
+   "end": 1269.44,
+   "text": "The doctor's phone number?",
+   "lang": "en"
+  },
+  {
+   "start": 1272.86,
+   "end": 1276.42,
+   "text": "Вы можете мне дать номер телефона доктора?",
+   "lang": "ru"
+  },
+  {
+   "start": 1281.78,
+   "end": 1284.06,
+   "text": "Can you give me the doctor's phone number?",
+   "lang": "en"
+  },
+  {
+   "start": 1288.5,
+   "end": 1290.36,
+   "text": "Моей жене нужен врач.",
+   "lang": "ru"
+  },
+  {
+   "start": 1294.28,
+   "end": 1296.2,
+   "text": "My wife needs a doctor.",
+   "lang": "en"
+  },
+  {
+   "start": 1299.18,
+   "end": 1304.52,
+   "text": "Она называет вам номер, и вы звоните врачу, который немедленно приезжает.",
+   "lang": "ru"
+  },
+  {
+   "start": 1304.64,
+   "end": 1308.08,
+   "text": "Как он спросит, что делала ваша жена сегодня?",
+   "lang": "ru"
+  },
+  {
+   "start": 1311.88,
+   "end": 1313.6,
+   "text": "What did your wife do today?",
+   "lang": "en"
+  },
+  {
+   "start": 1322.32,
+   "end": 1324.26,
+   "text": "Что она ела?",
+   "lang": "ru"
+  },
+  {
+   "start": 1327.54,
+   "end": 1328.74,
+   "text": "What did she eat?",
+   "lang": "en"
+  },
+  {
+   "start": 1330.86,
+   "end": 1334.36,
+   "text": "Она ничего не делала.",
+   "lang": "ru"
+  },
+  {
+   "start": 1337.5,
+   "end": 1339.28,
+   "text": "She didn't do anything.",
+   "lang": "en"
+  },
+  {
+   "start": 1342.12,
+   "end": 1343.82,
+   "text": "She didn't do anything.",
+   "lang": "en"
+  },
+  {
+   "start": 1346.5,
+   "end": 1348.4,
+   "text": "И ничего не ела.",
+   "lang": "ru"
+  },
+  {
+   "start": 1352.14,
+   "end": 1354.36,
+   "text": "And she didn't eat anything.",
+   "lang": "en"
+  },
+  {
+   "start": 1358.28,
+   "end": 1363.52,
+   "text": "Врач осматривает вашу жену и выписывает рецепт. Послушайте, что он говорит.",
+   "lang": "ru"
+  },
+  {
+   "start": 1364.36,
+   "end": 1366.7,
+   "text": "There is a drug store on East 51st Street.",
+   "lang": "ru"
+  },
+  {
+   "start": 1367.5,
+   "end": 1370.78,
+   "text": "Аптека находится на 51-й восточной улице.",
+   "lang": "ru"
+  },
+  {
+   "start": 1371.02,
+   "end": 1373.48,
+   "text": "Затем он говорит, это недалеко отсюда.",
+   "lang": "ru"
+  },
+  {
+   "start": 1376.96,
+   "end": 1378.5,
+   "text": "It's not far from here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1381.56,
+   "end": 1384.94,
+   "text": "Он показал в окно и сказал, видите ее?",
+   "lang": "ru"
+  },
+  {
+   "start": 1387.56,
+   "end": 1388.68,
+   "text": "Do you see it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1391.44,
+   "end": 1393.06,
+   "text": "Она вон там, направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1397.6,
+   "end": 1399.52,
+   "text": "It's over there, on the right",
+   "lang": "en"
+  },
+  {
+   "start": 1403.3,
+   "end": 1404.76,
+   "text": "On the right",
+   "lang": "en"
+  },
+  {
+   "start": 1407.04,
+   "end": 1410.18,
+   "text": "Спасибо, доктор, и до свидания.",
+   "lang": "ru"
+  },
+  {
+   "start": 1410.18,
+   "end": 1410.3,
+   "text": "Yeah.",
+   "lang": "en"
+  },
+  {
+   "start": 1415.34,
+   "end": 1417.32,
+   "text": "Спасибо, доктор, и до свидания.",
+   "lang": "ru"
+  },
+  {
+   "start": 1421.96,
+   "end": 1428.62,
+   "text": "A few days later, your wife has become much better, and you plan to visit one of your friends.",
+   "lang": "en"
+  },
+  {
+   "start": 1428.9,
+   "end": 1430.16,
+   "text": "How does she ask you to come?",
+   "lang": "en"
+  },
+  {
+   "start": 1430.18,
+   "end": 1431.7,
+   "text": "Мы идем по метро?",
+   "lang": "ru"
+  },
+  {
+   "start": 1435.5,
+   "end": 1437.22,
+   "text": "Are we going by subway?",
+   "lang": "en"
+  },
+  {
+   "start": 1440.92,
+   "end": 1443.52,
+   "text": "Нет, давай поедем на такси.",
+   "lang": "ru"
+  },
+  {
+   "start": 1448.42,
+   "end": 1450.16,
+   "text": "No, let's go by taxi.",
+   "lang": "en"
+  },
+  {
+   "start": 1454.82,
+   "end": 1460.58,
+   "text": "Адрес — Парк-авеню, 18. Название улицы поставьте в конец предложения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1465.62,
+   "end": 1468.36,
+   "text": "The address is 18 Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1473.5,
+   "end": 1475.94,
+   "text": "Нет, подожди, улица правильная.",
+   "lang": "ru"
+  },
+  {
+   "start": 1480.6,
+   "end": 1483.06,
+   "text": "No wait, that's the right street",
+   "lang": "en"
+  },
+  {
+   "start": 1487.88,
+   "end": 1489.5,
+   "text": "Но номер не тот.",
+   "lang": "ru"
+  },
+  {
+   "start": 1493.06,
+   "end": 1494.6,
+   "text": "But the wrong number.",
+   "lang": "en"
+  },
+  {
+   "start": 1497.68,
+   "end": 1499.18,
+   "text": "Правильный адрес такой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1499.38,
+   "end": 1500.86,
+   "text": "Парк Авеню 28.",
+   "lang": "ru"
+  },
+  {
+   "start": 1500.86,
+   "end": 1501.16,
+   "text": "28.",
+   "lang": "ru"
+  },
+  {
+   "start": 1507.7,
+   "end": 1511.4,
+   "text": "The right address is 28 Park Avenue.",
+   "lang": "ru"
+  },
+  {
+   "start": 1517.3,
+   "end": 1520.94,
+   "text": "The right address is 28 Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1526.86,
+   "end": 1527.92,
+   "text": "Your wife?",
+   "lang": "en"
+  },
+  {
+   "start": 1528.0,
+   "end": 1529.52,
+   "text": "Это недалеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 1532.16,
+   "end": 1533.44,
+   "text": "It's not far.",
+   "lang": "ru"
+  },
+  {
+   "start": 1536.36,
+   "end": 1537.22,
+   "text": "Давай прогуляемся.",
+   "lang": "ru"
+  },
+  {
+   "start": 1539.76,
+   "end": 1540.72,
+   "text": "Let's walk.",
+   "lang": "ru"
+  },
+  {
+   "start": 1543.38,
+   "end": 1543.9,
+   "text": "Let's walk.",
+   "lang": "en"
+  },
+  {
+   "start": 1546.78,
+   "end": 1550.24,
+   "text": "Ладно, хорошо. Буквально, это хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1554.0,
+   "end": 1555.78,
+   "text": "OK, that's fine.",
+   "lang": "en"
+  },
+  {
+   "start": 1559.72,
+   "end": 1565.14,
+   "text": "Сейчас вы дома у вашей знакомой. Во время разговора вы спрашиваете о ее сыне.",
+   "lang": "ru"
+  },
+  {
+   "start": 1565.14,
+   "end": 1566.9,
+   "text": "Ask how old he is now.",
+   "lang": "en"
+  },
+  {
+   "start": 1570.46,
+   "end": 1571.8,
+   "text": "How old is he now?",
+   "lang": "en"
+  },
+  {
+   "start": 1574.68,
+   "end": 1577.1,
+   "text": "Ему 23.",
+   "lang": "ru"
+  },
+  {
+   "start": 1580.34,
+   "end": 1581.2,
+   "text": "He's 23.",
+   "lang": "en"
+  },
+  {
+   "start": 1584.62,
+   "end": 1585.44,
+   "text": "He's 23.",
+   "lang": "en"
+  },
+  {
+   "start": 1585.44,
+   "end": 1586.32,
+   "text": "He's 23 years old.",
+   "lang": "en"
+  },
+  {
+   "start": 1589.42,
+   "end": 1591.74,
+   "text": "Он учится в институте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1594.62,
+   "end": 1596.28,
+   "text": "And he's in college",
+   "lang": "en"
+  },
+  {
+   "start": 1597.24,
+   "end": 1601.4,
+   "text": "Он в Вашингтон-Стейте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1605.3,
+   "end": 1607.08,
+   "text": "He's at Washington State.",
+   "lang": "en"
+  },
+  {
+   "start": 1609.62,
+   "end": 1613.94,
+   "text": "У вас есть 23-летний сын?",
+   "lang": "ru"
+  },
+  {
+   "start": 1618.44,
+   "end": 1620.94,
+   "text": "You have a 23-year-old son?",
+   "lang": "en"
+  },
+  {
+   "start": 1625.88,
+   "end": 1628.46,
+   "text": "Да, а его девушке 25.",
+   "lang": "ru"
+  },
+  {
+   "start": 1634.1,
+   "end": 1636.86,
+   "text": "Yes, and his girlfriend is 25.",
+   "lang": "en"
+  },
+  {
+   "start": 1642.02,
+   "end": 1644.38,
+   "text": "Сейчас давайте перейдем к чтению.",
+   "lang": "ru"
+  },
+  {
+   "start": 1644.46,
+   "end": 1652.06,
+   "text": "Если вы хотите заняться этим прямо сейчас, достаньте свою книжку для чтения и откройте ее на странице с двадцатым уроком.",
+   "lang": "ru"
+  },
+  {
+   "start": 1652.36,
+   "end": 1654.4,
+   "text": "Прочитайте номер один вслух.",
+   "lang": "ru"
+  },
+  {
+   "start": 1657.22,
+   "end": 1658.7,
+   "text": "The weather's nice.",
+   "lang": "en"
+  },
+  {
+   "start": 1661.46,
+   "end": 1670.06,
+   "text": "В упражнениях 2 и 3 слова, которые появляются на втором месте, имеют одинаковое произношение «е-эй».",
+   "lang": "ru"
+  },
+  {
+   "start": 1670.06,
+   "end": 1671.78,
+   "text": "Прочитайте номер 2.",
+   "lang": "ru"
+  },
+  {
+   "start": 1675.14,
+   "end": 1676.72,
+   "text": "He sweats a lot.",
+   "lang": "en"
+  },
+  {
+   "start": 1679.8,
+   "end": 1680.92,
+   "text": "Номер 3.",
+   "lang": "ru"
+  },
+  {
+   "start": 1684.9,
+   "end": 1685.98,
+   "text": "Don't tread on me.",
+   "lang": "en"
+  },
+  {
+   "start": 1688.98,
+   "end": 1691.48,
+   "text": "Сейчас прочитайте номер четыре.",
+   "lang": "ru"
+  },
+  {
+   "start": 1694.48,
+   "end": 1696.14,
+   "text": "That girl is small.",
+   "lang": "en"
+  },
+  {
+   "start": 1699.66,
+   "end": 1700.36,
+   "text": "Small",
+   "lang": "en"
+  },
+  {
+   "start": 1703.04,
+   "end": 1705.16,
+   "text": "Попробуйте прочитать номер пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1705.98,
+   "end": 1709.24,
+   "text": "Помните, что буква L в последнем слове немая.",
+   "lang": "ru"
+  },
+  {
+   "start": 1709.24,
+   "end": 1709.36,
+   "text": "it.",
+   "lang": "en"
+  },
+  {
+   "start": 1712.3,
+   "end": 1714.26,
+   "text": "We always walk.",
+   "lang": "ru"
+  },
+  {
+   "start": 1717.4,
+   "end": 1725.9,
+   "text": "In exercises 4 and 5, you correctly pronounced the letter A after W and before LL.",
+   "lang": "en"
+  },
+  {
+   "start": 1727.44,
+   "end": 1735.5,
+   "text": "Often the letter A has the same pronunciation in other two combinations, AW and AU.",
+   "lang": "en"
+  },
+  {
+   "start": 1737.72,
+   "end": 1738.9,
+   "text": "Read number 6.",
+   "lang": "en"
+  },
+  {
+   "start": 1741.24,
+   "end": 1743.44,
+   "text": "We saw the city.",
+   "lang": "ru"
+  },
+  {
+   "start": 1747.02,
+   "end": 1747.18,
+   "text": "7",
+   "lang": "ru"
+  },
+  {
+   "start": 1747.18,
+   "end": 1751.82,
+   "text": "He broke his jaw.",
+   "lang": "ru"
+  },
+  {
+   "start": 1755.48,
+   "end": 1755.6,
+   "text": "Jaw",
+   "lang": "ru"
+  },
+  {
+   "start": 1757.4,
+   "end": 1758.64,
+   "text": "8",
+   "lang": "ru"
+  },
+  {
+   "start": 1758.64,
+   "end": 1759.54,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1762.46,
+   "end": 1764.6,
+   "text": "Why? Because?",
+   "lang": "ru"
+  },
+  {
+   "start": 1764.6,
+   "end": 1765.02,
+   "text": "cause.",
+   "lang": "en"
+  },
+  {
+   "start": 1769.5,
+   "end": 1774.4,
+   "text": "Комбинация GH немая, хотя она и не стоит в конце слова.",
+   "lang": "ru"
+  },
+  {
+   "start": 1778.12,
+   "end": 1779.92,
+   "text": "I want to call my daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 1783.84,
+   "end": 1794.8,
+   "text": "Когда комбинация OU стоит перед немым сочетанием GH, она часто произносится как сочетание AW или AU.",
+   "lang": "ru"
+  },
+  {
+   "start": 1795.54,
+   "end": 1797.8,
+   "text": "Попробуйте прочитать номер 10.",
+   "lang": "ru"
+  },
+  {
+   "start": 1800.64,
+   "end": 1801.94,
+   "text": "He bought a book.",
+   "lang": "en"
+  },
+  {
+   "start": 1804.64,
+   "end": 1806.04,
+   "text": "одиннадцать",
+   "lang": "ru"
+  },
+  {
+   "start": 1808.54,
+   "end": 1809.7,
+   "text": "I thought so.",
+   "lang": "en"
+  },
+  {
+   "start": 1812.3,
+   "end": 1813.7,
+   "text": "двенадцать",
+   "lang": "ru"
+  },
+  {
+   "start": 1815.84,
+   "end": 1816.6,
+   "text": "All right.",
+   "lang": "en"
+  },
+  {
+   "start": 1818.24,
+   "end": 1821.56,
+   "text": "Это конец двадцатого урока.",
+   "lang": "ru"
+  },
+  {
+   "start": 1833.42,
+   "end": 1835.28,
+   "text": "Продолжение следует...",
+   "lang": "ru"
+  }
+ ]
+}

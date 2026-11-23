@@ -1,0 +1,2289 @@
+{
+ "id": "II_22",
+ "source": "Pimsleur_II_22.mp3",
+ "duration": 1829.9,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 132,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.36,
+   "text": "I'd be the world rover for many years. I'd spend all my money on the CMV.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.16,
+   "end": 19.14,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 23.24,
+   "end": 28.34,
+   "text": "22-й урок английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.0,
+   "end": 34.48,
+   "text": "едет на машине по Бостону и останавливается, чтобы спросить дорогу.",
+   "lang": "ru"
+  },
+  {
+   "start": 34.5,
+   "end": 39.4,
+   "text": "Вы услышите «looking for» и это означает «искать».",
+   "lang": "ru"
+  },
+  {
+   "start": 39.4,
+   "end": 40.76,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 41.92,
+   "end": 44.18,
+   "text": "Excuse me, please. Can you help me?",
+   "lang": "en"
+  },
+  {
+   "start": 44.56,
+   "end": 46.66,
+   "text": "Of course. What can I do for you?",
+   "lang": "en"
+  },
+  {
+   "start": 46.92,
+   "end": 49.06,
+   "text": "Do you know where Huntington Avenue is?",
+   "lang": "en"
+  },
+  {
+   "start": 49.58,
+   "end": 53.22,
+   "text": "Yes, it's over there on the left. What are you looking for?",
+   "lang": "en"
+  },
+  {
+   "start": 53.4,
+   "end": 58.16,
+   "text": "The Copley Square Hotel. The address is 47 Huntington Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 59.1,
+   "end": 59.76,
+   "text": "Go to the left.",
+   "lang": "en"
+  },
+  {
+   "start": 60.0,
+   "end": 61.66,
+   "text": "then straight ahead. It's not far.",
+   "lang": "ru"
+  },
+  {
+   "start": 62.08,
+   "end": 62.96,
+   "text": "Thanks a lot.",
+   "lang": "ru"
+  },
+  {
+   "start": 63.32,
+   "end": 64.18,
+   "text": "You're welcome.",
+   "lang": "ru"
+  },
+  {
+   "start": 65.46,
+   "end": 67.88,
+   "text": "Название отеля, который ищет мужчина.",
+   "lang": "ru"
+  },
+  {
+   "start": 67.92,
+   "end": 69.08,
+   "text": "Copley Square Hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 70.3,
+   "end": 72.22,
+   "text": "Square означает площадь.",
+   "lang": "ru"
+  },
+  {
+   "start": 72.22,
+   "end": 72.88,
+   "text": "Listen again.",
+   "lang": "ru"
+  },
+  {
+   "start": 74.12,
+   "end": 76.36,
+   "text": "Excuse me, please. Can you help me?",
+   "lang": "ru"
+  },
+  {
+   "start": 76.76,
+   "end": 78.82,
+   "text": "Of course. What can I do for you?",
+   "lang": "ru"
+  },
+  {
+   "start": 79.06,
+   "end": 81.14,
+   "text": "Do you know where Huntington Avenue is?",
+   "lang": "ru"
+  },
+  {
+   "start": 81.6,
+   "end": 83.76,
+   "text": "Yes, it's over there on the left.",
+   "lang": "ru"
+  },
+  {
+   "start": 83.96,
+   "end": 85.24,
+   "text": "What are you looking for?",
+   "lang": "ru"
+  },
+  {
+   "start": 85.52,
+   "end": 87.04,
+   "text": "The Copley Square Hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 87.04,
+   "end": 90.26,
+   "text": "The address is 47 Huntington Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 91.36,
+   "end": 94.04,
+   "text": "Go to the left, then straight ahead. It's not far.",
+   "lang": "en"
+  },
+  {
+   "start": 94.48,
+   "end": 95.36,
+   "text": "Thanks a lot.",
+   "lang": "en"
+  },
+  {
+   "start": 96.28,
+   "end": 99.72,
+   "text": "А сейчас у вас дела в городе.",
+   "lang": "ru"
+  },
+  {
+   "start": 99.74,
+   "end": 102.36,
+   "text": "Вы видите, что все магазины закрыты.",
+   "lang": "ru"
+  },
+  {
+   "start": 102.42,
+   "end": 105.74,
+   "text": "Вы останавливаетесь перед пешеходом и говорите,",
+   "lang": "ru"
+  },
+  {
+   "start": 105.76,
+   "end": 106.94,
+   "text": "«Извините, мэм».",
+   "lang": "ru"
+  },
+  {
+   "start": 110.0,
+   "end": 111.38,
+   "text": "Excuse me, ma'am.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.58,
+   "end": 116.32,
+   "text": "Ask why the stores are closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 120.0,
+   "end": 121.62,
+   "text": "Why are the stores closed?",
+   "lang": "ru"
+  },
+  {
+   "start": 121.62,
+   "end": 121.98,
+   "text": "Closed.",
+   "lang": "en"
+  },
+  {
+   "start": 125.48,
+   "end": 128.76,
+   "text": "She answers, потому что сегодня праздник.",
+   "lang": "ru"
+  },
+  {
+   "start": 132.62,
+   "end": 134.28,
+   "text": "Because today is a holiday.",
+   "lang": "ru"
+  },
+  {
+   "start": 137.24,
+   "end": 138.96,
+   "text": "A holiday",
+   "lang": "en"
+  },
+  {
+   "start": 141.8,
+   "end": 145.36,
+   "text": "Но мне нужно кое-что в аптеке.",
+   "lang": "ru"
+  },
+  {
+   "start": 150.08,
+   "end": 152.58,
+   "text": "Но я нуждаюсь в чем-то из лаборатории.",
+   "lang": "ru"
+  },
+  {
+   "start": 157.54,
+   "end": 159.18,
+   "text": "From the drug store.",
+   "lang": "en"
+  },
+  {
+   "start": 161.76,
+   "end": 164.92,
+   "text": "Она говорит, что сегодня праздник.",
+   "lang": "ru"
+  },
+  {
+   "start": 167.02,
+   "end": 168.1,
+   "text": "It's a holiday.",
+   "lang": "en"
+  },
+  {
+   "start": 170.26,
+   "end": 173.96,
+   "text": "Но аптека на улице Чарльза сейчас открыта.",
+   "lang": "ru"
+  },
+  {
+   "start": 178.5,
+   "end": 181.18,
+   "text": "But the drugstore on Charles Street is open.",
+   "lang": "en"
+  },
+  {
+   "start": 185.84,
+   "end": 188.44,
+   "text": "The drugstore on Charles Street is open.",
+   "lang": "en"
+  },
+  {
+   "start": 192.38,
+   "end": 197.78,
+   "text": "Я напишу вам адрес. Дословно, я напишу адрес для вас.",
+   "lang": "ru"
+  },
+  {
+   "start": 202.18,
+   "end": 204.24,
+   "text": "I'm going to write the address for you.",
+   "lang": "en"
+  },
+  {
+   "start": 214.18,
+   "end": 219.3,
+   "text": "Она записывает адрес и дает его вам, говоря «Вот адрес».",
+   "lang": "ru"
+  },
+  {
+   "start": 221.7,
+   "end": 222.7,
+   "text": "Here's the address.",
+   "lang": "en"
+  },
+  {
+   "start": 225.38,
+   "end": 226.84,
+   "text": "Можете прочитать.",
+   "lang": "ru"
+  },
+  {
+   "start": 229.34,
+   "end": 230.28,
+   "text": "Can you read it?",
+   "lang": "en"
+  },
+  {
+   "start": 232.86,
+   "end": 233.22,
+   "text": "Read.",
+   "lang": "en"
+  },
+  {
+   "start": 235.36,
+   "end": 238.18,
+   "text": "Улица Чарльза находится вон там, направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 242.44,
+   "end": 244.36,
+   "text": "Charles Street is there on the right.",
+   "lang": "en"
+  },
+  {
+   "start": 249.46,
+   "end": 254.26,
+   "text": "А, да, я могу прочитать название, начиная с этого места.",
+   "lang": "ru"
+  },
+  {
+   "start": 254.48,
+   "end": 256.48,
+   "text": "Начиная с этого места.",
+   "lang": "ru"
+  },
+  {
+   "start": 256.48,
+   "end": 258.06,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 259.38,
+   "end": 259.88,
+   "text": "From here.",
+   "lang": "en"
+  },
+  {
+   "start": 262.22,
+   "end": 263.44,
+   "text": "From here.",
+   "lang": "en"
+  },
+  {
+   "start": 266.54,
+   "end": 270.98,
+   "text": "О, да, я могу прочитать название, начиная с этого места.",
+   "lang": "ru"
+  },
+  {
+   "start": 276.5,
+   "end": 279.38,
+   "text": "О, да, я могу читать имя оттуда.",
+   "lang": "ru"
+  },
+  {
+   "start": 302.52,
+   "end": 303.92,
+   "text": "It's a letter to my daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 307.22,
+   "end": 308.22,
+   "text": "To my daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 308.8,
+   "end": 312.3,
+   "text": "Она живёт во Флориде.",
+   "lang": "ru"
+  },
+  {
+   "start": 314.88,
+   "end": 316.4,
+   "text": "She lives in Florida.",
+   "lang": "en"
+  },
+  {
+   "start": 318.42,
+   "end": 322.02,
+   "text": "Я пыталась сходить на почту вчера",
+   "lang": "ru"
+  },
+  {
+   "start": 326.82,
+   "end": 329.4,
+   "text": "I tried to go to the post office yesterday.",
+   "lang": "en"
+  },
+  {
+   "start": 333.08,
+   "end": 335.88,
+   "text": "Но она была закрыта",
+   "lang": "ru"
+  },
+  {
+   "start": 338.12,
+   "end": 339.46,
+   "text": "But it was closed.",
+   "lang": "ru"
+  },
+  {
+   "start": 341.86,
+   "end": 342.9,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 342.9,
+   "end": 345.08,
+   "text": "Вчера был праздничный день.",
+   "lang": "ru"
+  },
+  {
+   "start": 348.96,
+   "end": 350.42,
+   "text": "Yesterday was a holiday.",
+   "lang": "ru"
+  },
+  {
+   "start": 350.42,
+   "end": 350.62,
+   "text": "day.",
+   "lang": "en"
+  },
+  {
+   "start": 354.06,
+   "end": 354.62,
+   "text": "Was",
+   "lang": "ru"
+  },
+  {
+   "start": 356.42,
+   "end": 358.0,
+   "text": "Yesterday was a holiday.",
+   "lang": "ru"
+  },
+  {
+   "start": 361.62,
+   "end": 363.56,
+   "text": "Ask if she writes a lot of letters.",
+   "lang": "ru"
+  },
+  {
+   "start": 367.32,
+   "end": 368.8,
+   "text": "Do you write a lot of letters?",
+   "lang": "en"
+  },
+  {
+   "start": 368.86,
+   "end": 376.0,
+   "text": "Нет, я предпочитаю отправлять электронную почту.",
+   "lang": "ru"
+  },
+  {
+   "start": 379.9,
+   "end": 381.42,
+   "text": "Нет, я бы хотел послать.",
+   "lang": "ru"
+  },
+  {
+   "start": 397.52,
+   "end": 398.36,
+   "text": "Excuse me, ma'am.",
+   "lang": "en"
+  },
+  {
+   "start": 406.0,
+   "end": 406.7,
+   "text": "Can you help me?",
+   "lang": "ru"
+  },
+  {
+   "start": 411.44,
+   "end": 412.3,
+   "text": "Can you help me?",
+   "lang": "ru"
+  },
+  {
+   "start": 415.24,
+   "end": 415.48,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 415.74,
+   "end": 420.08,
+   "text": "Я иду на Гарвардскую площадь. Будьте внимательны к произношению.",
+   "lang": "ru"
+  },
+  {
+   "start": 424.08,
+   "end": 426.14,
+   "text": "I'm going to Harvard Square.",
+   "lang": "ru"
+  },
+  {
+   "start": 430.4,
+   "end": 431.16,
+   "text": "Square.",
+   "lang": "ru"
+  },
+  {
+   "start": 433.3,
+   "end": 434.6,
+   "text": "Harvard Square.",
+   "lang": "ru"
+  },
+  {
+   "start": 437.78,
+   "end": 440.6,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 441.04,
+   "end": 442.94,
+   "text": "I'm looking for...",
+   "lang": "en"
+  },
+  {
+   "start": 446.0,
+   "end": 448.8,
+   "text": "Looking for...",
+   "lang": "en"
+  },
+  {
+   "start": 450.06,
+   "end": 450.54,
+   "text": "For...",
+   "lang": "en"
+  },
+  {
+   "start": 452.4,
+   "end": 453.74,
+   "text": "Looking for...",
+   "lang": "en"
+  },
+  {
+   "start": 455.26,
+   "end": 457.62,
+   "text": "I'm looking for...",
+   "lang": "en"
+  },
+  {
+   "start": 460.22,
+   "end": 463.02,
+   "text": "Я ищу...",
+   "lang": "ru"
+  },
+  {
+   "start": 467.56,
+   "end": 469.48,
+   "text": "I'm looking for Harvard Square.",
+   "lang": "ru"
+  },
+  {
+   "start": 469.48,
+   "end": 469.8,
+   "text": "square.",
+   "lang": "en"
+  },
+  {
+   "start": 474.4,
+   "end": 476.74,
+   "text": "Ask if she knows where Harvard Square is.",
+   "lang": "ru"
+  },
+  {
+   "start": 476.74,
+   "end": 476.96,
+   "text": "Cheers.",
+   "lang": "en"
+  },
+  {
+   "start": 481.22,
+   "end": 483.54,
+   "text": "Do you know where Harvard Square is?",
+   "lang": "ru"
+  },
+  {
+   "start": 488.18,
+   "end": 489.16,
+   "text": "She answers",
+   "lang": "ru"
+  },
+  {
+   "start": 489.16,
+   "end": 491.84,
+   "text": "Нет, сожалею, я не живу здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 496.4,
+   "end": 498.76,
+   "text": "No, I'm sorry, I don't live here.",
+   "lang": "en"
+  },
+  {
+   "start": 502.98,
+   "end": 506.44,
+   "text": "Вы останавливаетесь, чтобы спросить у другого человека.",
+   "lang": "ru"
+  },
+  {
+   "start": 507.4,
+   "end": 509.92,
+   "text": "Она спрашивает, могу ли я вам чем-нибудь помочь?",
+   "lang": "ru"
+  },
+  {
+   "start": 512.38,
+   "end": 513.5,
+   "text": "Can I help you?",
+   "lang": "en"
+  },
+  {
+   "start": 516.06,
+   "end": 516.66,
+   "text": "Say again?",
+   "lang": "en"
+  },
+  {
+   "start": 516.78,
+   "end": 519.78,
+   "text": "Я ищу Гарвардскую площадь.",
+   "lang": "ru"
+  },
+  {
+   "start": 523.84,
+   "end": 525.8,
+   "text": "I'm looking for Harvard Square.",
+   "lang": "ru"
+  },
+  {
+   "start": 525.8,
+   "end": 526.06,
+   "text": "square.",
+   "lang": "en"
+  },
+  {
+   "start": 530.12,
+   "end": 531.26,
+   "text": "She says,",
+   "lang": "ru"
+  },
+  {
+   "start": 532.32,
+   "end": 533.28,
+   "text": "идите все время прямо.",
+   "lang": "ru"
+  },
+  {
+   "start": 535.78,
+   "end": 537.14,
+   "text": "Go straight ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 539.98,
+   "end": 542.9,
+   "text": "Затем на первом повороте сверните налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 542.94,
+   "end": 544.16,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 545.36,
+   "end": 546.74,
+   "text": "Then take the first left.",
+   "lang": "ru"
+  },
+  {
+   "start": 550.0,
+   "end": 551.4,
+   "text": "The first left.",
+   "lang": "ru"
+  },
+  {
+   "start": 554.02,
+   "end": 555.56,
+   "text": "The first left.",
+   "lang": "ru"
+  },
+  {
+   "start": 555.56,
+   "end": 555.76,
+   "text": "Left.",
+   "lang": "en"
+  },
+  {
+   "start": 558.78,
+   "end": 558.86,
+   "text": "Take.",
+   "lang": "ru"
+  },
+  {
+   "start": 561.1,
+   "end": 562.22,
+   "text": "Take the first left.",
+   "lang": "ru"
+  },
+  {
+   "start": 565.86,
+   "end": 567.6,
+   "text": "Сай, всего несколько миль.",
+   "lang": "ru"
+  },
+  {
+   "start": 567.6,
+   "end": 568.18,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 570.72,
+   "end": 572.32,
+   "text": "Only a few miles.",
+   "lang": "ru"
+  },
+  {
+   "start": 575.1,
+   "end": 575.88,
+   "text": "Only.",
+   "lang": "ru"
+  },
+  {
+   "start": 577.78,
+   "end": 580.88,
+   "text": "Гарвардская площадь всего в нескольких милях отсюда.",
+   "lang": "ru"
+  },
+  {
+   "start": 585.94,
+   "end": 588.76,
+   "text": "Harvard Square is only a few miles from here.",
+   "lang": "en"
+  },
+  {
+   "start": 594.1,
+   "end": 594.9,
+   "text": "From here.",
+   "lang": "en"
+  },
+  {
+   "start": 596.98,
+   "end": 599.52,
+   "text": "Harvard Square is only a few miles from here.",
+   "lang": "en"
+  },
+  {
+   "start": 603.82,
+   "end": 606.68,
+   "text": "Сверните на первом повороте налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 609.26,
+   "end": 610.62,
+   "text": "Take the first left.",
+   "lang": "en"
+  },
+  {
+   "start": 613.34,
+   "end": 620.58,
+   "text": "Сейчас вы и ваша коллега сравниваете, как быстро водят транспорт в Соединенных Штатах и в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 620.98,
+   "end": 625.08,
+   "text": "Естественно, что скорость движения зависит от каждого конкретного водителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 625.16,
+   "end": 628.8,
+   "text": "Но ваша коллега говорит, американцы ездят медленно.",
+   "lang": "ru"
+  },
+  {
+   "start": 629.34,
+   "end": 630.18,
+   "text": "Медленно.",
+   "lang": "ru"
+  },
+  {
+   "start": 631.96,
+   "end": 632.8,
+   "text": "Сложно.",
+   "lang": "ru"
+  },
+  {
+   "start": 634.96,
+   "end": 635.8,
+   "text": "Легко.",
+   "lang": "ru"
+  },
+  {
+   "start": 637.48,
+   "end": 638.32,
+   "text": "Медленно.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.24,
+   "end": 641.08,
+   "text": "Медленно.",
+   "lang": "ru"
+  },
+  {
+   "start": 643.02,
+   "end": 645.1,
+   "text": "Say. Медленно.",
+   "lang": "ru"
+  },
+  {
+   "start": 646.66,
+   "end": 647.72,
+   "text": "Slowly.",
+   "lang": "ru"
+  },
+  {
+   "start": 649.24,
+   "end": 653.0,
+   "text": "А сейчас ехать, вести машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 653.2,
+   "end": 654.36,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 655.68,
+   "end": 655.9,
+   "text": "Drive.",
+   "lang": "ru"
+  },
+  {
+   "start": 658.46,
+   "end": 658.66,
+   "text": "Drive.",
+   "lang": "ru"
+  },
+  {
+   "start": 661.22,
+   "end": 661.42,
+   "text": "Drive.",
+   "lang": "ru"
+  },
+  {
+   "start": 663.78,
+   "end": 664.7,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 665.32,
+   "end": 667.5,
+   "text": "Американцы ездят медленно.",
+   "lang": "ru"
+  },
+  {
+   "start": 671.42,
+   "end": 673.2,
+   "text": "Americans drive slowly.",
+   "lang": "en"
+  },
+  {
+   "start": 676.76,
+   "end": 678.84,
+   "text": "Americans drive slowly.",
+   "lang": "en"
+  },
+  {
+   "start": 681.96,
+   "end": 684.56,
+   "text": "Но мексиканцы ездят быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 688.0,
+   "end": 690.92,
+   "text": "But Mexicans drive fast.",
+   "lang": "en"
+  },
+  {
+   "start": 694.16,
+   "end": 696.72,
+   "text": "But Mexicans drive fast.",
+   "lang": "en"
+  },
+  {
+   "start": 700.22,
+   "end": 701.44,
+   "text": "Try to",
+   "lang": "en"
+  },
+  {
+   "start": 701.46,
+   "end": 704.44,
+   "text": "Мне не нравится водить машину в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 708.46,
+   "end": 710.52,
+   "text": "I don't like to drive in Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 714.5,
+   "end": 715.46,
+   "text": "To drive.",
+   "lang": "ru"
+  },
+  {
+   "start": 717.24,
+   "end": 719.26,
+   "text": "I don't like to drive in Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 719.26,
+   "end": 719.5,
+   "text": "Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 723.58,
+   "end": 724.7,
+   "text": "How do you say",
+   "lang": "ru"
+  },
+  {
+   "start": 725.44,
+   "end": 726.04,
+   "text": "Быстрее?",
+   "lang": "ru"
+  },
+  {
+   "start": 727.78,
+   "end": 729.18,
+   "text": "Faster",
+   "lang": "en"
+  },
+  {
+   "start": 729.18,
+   "end": 731.88,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 732.32,
+   "end": 734.4,
+   "text": "Мексиканцы ездят быстрее.",
+   "lang": "ru"
+  },
+  {
+   "start": 738.16,
+   "end": 740.08,
+   "text": "Mexicans drive faster.",
+   "lang": "en"
+  },
+  {
+   "start": 743.86,
+   "end": 745.82,
+   "text": "Mexicans drive faster.",
+   "lang": "en"
+  },
+  {
+   "start": 749.54,
+   "end": 750.8,
+   "text": "Быстрее чем.",
+   "lang": "ru"
+  },
+  {
+   "start": 750.8,
+   "end": 751.9,
+   "text": "быстрее чем",
+   "lang": "ru"
+  },
+  {
+   "start": 751.9,
+   "end": 759.68,
+   "text": "and repeat. Faster than. Than. Than.",
+   "lang": "en"
+  },
+  {
+   "start": 761.42,
+   "end": 763.2,
+   "text": "быстрее чем",
+   "lang": "ru"
+  },
+  {
+   "start": 765.22,
+   "end": 767.56,
+   "text": "быстрее чем американцы",
+   "lang": "ru"
+  },
+  {
+   "start": 771.06,
+   "end": 773.24,
+   "text": "Faster than Americans",
+   "lang": "en"
+  },
+  {
+   "start": 773.24,
+   "end": 778.86,
+   "text": "Faster than Americans",
+   "lang": "en"
+  },
+  {
+   "start": 783.1,
+   "end": 785.4,
+   "text": "Некоторые мексиканцы водят быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 789.18,
+   "end": 791.66,
+   "text": "Some Mexicans drive fast.",
+   "lang": "en"
+  },
+  {
+   "start": 795.66,
+   "end": 799.62,
+   "text": "Некоторые мексиканцы водят машину быстрее, чем американцы.",
+   "lang": "ru"
+  },
+  {
+   "start": 805.46,
+   "end": 808.72,
+   "text": "Some Mexicans drive faster than Americans.",
+   "lang": "en"
+  },
+  {
+   "start": 814.42,
+   "end": 817.6,
+   "text": "Some Mexicans drive faster than Americans.",
+   "lang": "en"
+  },
+  {
+   "start": 822.4,
+   "end": 825.82,
+   "text": "И в Мексике бензин дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 831.2,
+   "end": 833.68,
+   "text": "And in Mexico, gas is more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 837.5,
+   "end": 841.22,
+   "text": "чем в Соединенных Штатах.",
+   "lang": "ru"
+  },
+  {
+   "start": 845.16,
+   "end": 846.88,
+   "text": "than in the United States.",
+   "lang": "en"
+  },
+  {
+   "start": 850.88,
+   "end": 852.72,
+   "text": "than in the United States.",
+   "lang": "en"
+  },
+  {
+   "start": 856.44,
+   "end": 860.7,
+   "text": "Да, некоторые мексиканцы ездят быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 860.7,
+   "end": 868.14,
+   "text": "through. Yes, some Mexicans drive fast.",
+   "lang": "en"
+  },
+  {
+   "start": 871.22,
+   "end": 874.64,
+   "text": "How do you say...",
+   "lang": "ru"
+  },
+  {
+   "start": 875.34,
+   "end": 875.76,
+   "text": "Медленно.",
+   "lang": "ru"
+  },
+  {
+   "start": 878.3,
+   "end": 878.6,
+   "text": "Slowly.",
+   "lang": "ru"
+  },
+  {
+   "start": 878.6,
+   "end": 879.9,
+   "text": "slowly",
+   "lang": "en"
+  },
+  {
+   "start": 880.6,
+   "end": 881.44,
+   "text": "slowly",
+   "lang": "en"
+  },
+  {
+   "start": 882.6,
+   "end": 884.64,
+   "text": "Try to say it",
+   "lang": "en"
+  },
+  {
+   "start": 884.66,
+   "end": 887.62,
+   "text": "Американцы ездят медленнее.",
+   "lang": "ru"
+  },
+  {
+   "start": 892.18,
+   "end": 894.32,
+   "text": "Americans drive more slowly.",
+   "lang": "en"
+  },
+  {
+   "start": 898.44,
+   "end": 899.66,
+   "text": "More slowly.",
+   "lang": "en"
+  },
+  {
+   "start": 900.68,
+   "end": 903.48,
+   "text": "Чем мексиканцы.",
+   "lang": "ru"
+  },
+  {
+   "start": 903.48,
+   "end": 906.72,
+   "text": "Than Mexicans",
+   "lang": "en"
+  },
+  {
+   "start": 907.22,
+   "end": 911.32,
+   "text": "И бензин здесь менее дорогой.",
+   "lang": "ru"
+  },
+  {
+   "start": 915.64,
+   "end": 917.96,
+   "text": "and gas is less expensive here.",
+   "lang": "en"
+  },
+  {
+   "start": 920.36,
+   "end": 924.6,
+   "text": "Вы помните, как сказать «дорога»?",
+   "lang": "ru"
+  },
+  {
+   "start": 926.44,
+   "end": 927.56,
+   "text": "The road",
+   "lang": "ru"
+  },
+  {
+   "start": 927.56,
+   "end": 930.6,
+   "text": "The Road",
+   "lang": "en"
+  },
+  {
+   "start": 933.2,
+   "end": 936.58,
+   "text": "Скажите, что дороги в Соединенных Штатах очень хорошие.",
+   "lang": "ru"
+  },
+  {
+   "start": 941.9,
+   "end": 944.96,
+   "text": "The roads in the United States are very good.",
+   "lang": "ru"
+  },
+  {
+   "start": 950.12,
+   "end": 953.32,
+   "text": "The roads in the United States are very good.",
+   "lang": "ru"
+  },
+  {
+   "start": 953.32,
+   "end": 953.52,
+   "text": "Good.",
+   "lang": "en"
+  },
+  {
+   "start": 958.94,
+   "end": 961.54,
+   "text": "Кратко согласитесь с этим утверждением.",
+   "lang": "ru"
+  },
+  {
+   "start": 964.04,
+   "end": 965.0,
+   "text": "Yes, they are.",
+   "lang": "en"
+  },
+  {
+   "start": 967.3,
+   "end": 968.22,
+   "text": "Yes, they are.",
+   "lang": "en"
+  },
+  {
+   "start": 970.04,
+   "end": 972.3,
+   "text": "Но американцы не ездят быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 977.36,
+   "end": 980.12,
+   "text": "But Americans don't drive very fast.",
+   "lang": "en"
+  },
+  {
+   "start": 985.1,
+   "end": 987.38,
+   "text": "И бензин не очень дорогой.",
+   "lang": "ru"
+  },
+  {
+   "start": 991.8,
+   "end": 994.16,
+   "text": "And gas isn't very expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 998.48,
+   "end": 1000.12,
+   "text": "Ask how much it is.",
+   "lang": "ru"
+  },
+  {
+   "start": 1002.48,
+   "end": 1003.98,
+   "text": "How much is it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1006.22,
+   "end": 1007.06,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1007.36,
+   "end": 1009.66,
+   "text": "Возможно, доллар за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1013.0,
+   "end": 1014.9,
+   "text": "Maybe a dollar per gallon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1018.22,
+   "end": 1018.94,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1019.2,
+   "end": 1020.42,
+   "text": "Всего лишь доллар?",
+   "lang": "ru"
+  },
+  {
+   "start": 1022.72,
+   "end": 1023.94,
+   "text": "Only a dollar?",
+   "lang": "ru"
+  },
+  {
+   "start": 1025.84,
+   "end": 1028.02,
+   "text": "Ну, может быть, два доллара.",
+   "lang": "ru"
+  },
+  {
+   "start": 1030.96,
+   "end": 1032.96,
+   "text": "Well, maybe two dollars.",
+   "lang": "ru"
+  },
+  {
+   "start": 1036.56,
+   "end": 1037.28,
+   "text": "Используя",
+   "lang": "ru"
+  },
+  {
+   "start": 1037.28,
+   "end": 1037.88,
+   "text": "Then",
+   "lang": "ru"
+  },
+  {
+   "start": 1039.66,
+   "end": 1041.16,
+   "text": "Но меньше 3 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1044.2,
+   "end": 1046.18,
+   "text": "What less than $3?",
+   "lang": "en"
+  },
+  {
+   "start": 1049.14,
+   "end": 1050.84,
+   "text": "Less than $3?",
+   "lang": "en"
+  },
+  {
+   "start": 1053.98,
+   "end": 1055.44,
+   "text": "Меньше, чем в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 1057.88,
+   "end": 1059.66,
+   "text": "Less than in Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 1061.9,
+   "end": 1064.36,
+   "text": "В Мексике бензин дороже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1068.92,
+   "end": 1071.52,
+   "text": "In Mexico, gas is more expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 1075.68,
+   "end": 1078.42,
+   "text": "И мексиканцы ездят быстрее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1081.44,
+   "end": 1083.76,
+   "text": "And Mexicans drive faster.",
+   "lang": "en"
+  },
+  {
+   "start": 1086.98,
+   "end": 1091.72,
+   "text": "Сейчас вы и ваша подруга-американка едете в ресторан, чтобы пообедать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1091.84,
+   "end": 1096.42,
+   "text": "То, как она ведет машину, заставляет вас немного понервничать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1096.42,
+   "end": 1099.82,
+   "text": "Попробуйте сказать, вы едете слишком быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 1103.52,
+   "end": 1105.66,
+   "text": "You're driving too fast.",
+   "lang": "en"
+  },
+  {
+   "start": 1109.18,
+   "end": 1110.06,
+   "text": "Driving.",
+   "lang": "en"
+  },
+  {
+   "start": 1111.68,
+   "end": 1113.82,
+   "text": "You're driving too fast.",
+   "lang": "en"
+  },
+  {
+   "start": 1116.9,
+   "end": 1118.08,
+   "text": "She says.",
+   "lang": "en"
+  },
+  {
+   "start": 1118.46,
+   "end": 1119.42,
+   "text": "Неужели?",
+   "lang": "ru"
+  },
+  {
+   "start": 1119.42,
+   "end": 1121.22,
+   "text": "Really?",
+   "lang": "en"
+  },
+  {
+   "start": 1123.68,
+   "end": 1125.96,
+   "text": "Если вы едете быстро,",
+   "lang": "ru"
+  },
+  {
+   "start": 1129.1,
+   "end": 1130.8,
+   "text": "If you drive fast",
+   "lang": "en"
+  },
+  {
+   "start": 1133.32,
+   "end": 1136.04,
+   "text": "вам нужно больше бензина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1139.3,
+   "end": 1140.84,
+   "text": "You need more gas.",
+   "lang": "en"
+  },
+  {
+   "start": 1144.48,
+   "end": 1148.0,
+   "text": "Но он стоит меньше двух долларов за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1153.02,
+   "end": 1155.58,
+   "text": "But it's less than $2 per gallon.",
+   "lang": "en"
+  },
+  {
+   "start": 1160.22,
+   "end": 1162.5,
+   "text": "It's less than $2 per gallon.",
+   "lang": "en"
+  },
+  {
+   "start": 1167.24,
+   "end": 1169.12,
+   "text": "Это дешевле, чем в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 1169.12,
+   "end": 1169.26,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1173.58,
+   "end": 1175.48,
+   "text": "It's less expensive than in Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 1179.2,
+   "end": 1182.9,
+   "text": "Хорошо, если вы хотите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1185.64,
+   "end": 1187.88,
+   "text": "Alright, if you want.",
+   "lang": "en"
+  },
+  {
+   "start": 1190.0,
+   "end": 1192.84,
+   "text": "Я могу ехать медленнее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1195.9,
+   "end": 1197.48,
+   "text": "I can drive more slowly.",
+   "lang": "en"
+  },
+  {
+   "start": 1200.84,
+   "end": 1204.0,
+   "text": "Да, пожалуйста, немного помедленней.",
+   "lang": "ru"
+  },
+  {
+   "start": 1208.82,
+   "end": 1211.1,
+   "text": "Yes, please, a little more slowly.",
+   "lang": "en"
+  },
+  {
+   "start": 1215.7,
+   "end": 1217.96,
+   "text": "Yes, please, a little more slowly.",
+   "lang": "en"
+  },
+  {
+   "start": 1222.88,
+   "end": 1226.32,
+   "text": "Ладно, но у нас всего лишь час. Используйте число.",
+   "lang": "ru"
+  },
+  {
+   "start": 1231.78,
+   "end": 1234.16,
+   "text": "Окей, but we have only one hour.",
+   "lang": "ru"
+  },
+  {
+   "start": 1238.92,
+   "end": 1240.92,
+   "text": "We have only one hour.",
+   "lang": "en"
+  },
+  {
+   "start": 1244.02,
+   "end": 1246.12,
+   "text": "А ресторан всё ещё далеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 1249.96,
+   "end": 1252.18,
+   "text": "And the restaurant is still far.",
+   "lang": "ru"
+  },
+  {
+   "start": 1255.5,
+   "end": 1257.88,
+   "text": "The restaurant is still far.",
+   "lang": "en"
+  },
+  {
+   "start": 1261.6,
+   "end": 1265.46,
+   "text": "Некоторое время спустя ваша подруга поняла, что вы заблудились.",
+   "lang": "ru"
+  },
+  {
+   "start": 1265.6,
+   "end": 1271.02,
+   "text": "Она остановилась на одном посту рядом с дорогой, чтобы спросить, куда вам ехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1271.02,
+   "end": 1273.94,
+   "text": "Она говорит, извините, мы ищем...",
+   "lang": "ru"
+  },
+  {
+   "start": 1278.22,
+   "end": 1281.12,
+   "text": "Excuse me, we're looking for...",
+   "lang": "en"
+  },
+  {
+   "start": 1284.72,
+   "end": 1288.4,
+   "text": "Мы ищем ресторан Willow Pond.",
+   "lang": "ru"
+  },
+  {
+   "start": 1288.4,
+   "end": 1290.06,
+   "text": "The Willow Pond Restaurant",
+   "lang": "en"
+  },
+  {
+   "start": 1295.26,
+   "end": 1297.72,
+   "text": "We're looking for the Willow Pond Restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 1302.96,
+   "end": 1303.6,
+   "text": "Willow",
+   "lang": "en"
+  },
+  {
+   "start": 1303.7,
+   "end": 1306.88,
+   "text": "означает «Лагуна плакучей ивы».",
+   "lang": "ru"
+  },
+  {
+   "start": 1306.88,
+   "end": 1310.12,
+   "text": "Мужчина отвечает «Сначала поверните направо».",
+   "lang": "ru"
+  },
+  {
+   "start": 1310.12,
+   "end": 1312.52,
+   "text": "Дословно. Первое направо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1316.28,
+   "end": 1317.88,
+   "text": "Take the first right.",
+   "lang": "ru"
+  },
+  {
+   "start": 1321.52,
+   "end": 1324.44,
+   "text": "Then he says «Подождите минутку».",
+   "lang": "ru"
+  },
+  {
+   "start": 1329.0,
+   "end": 1331.68,
+   "text": "Wait a minute, the Willow Pond Restaurant?",
+   "lang": "en"
+  },
+  {
+   "start": 1337.36,
+   "end": 1338.76,
+   "text": "Ресторан.",
+   "lang": "ru"
+  },
+  {
+   "start": 1338.76,
+   "end": 1340.76,
+   "text": "Сейчас закрыт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1345.38,
+   "end": 1348.12,
+   "text": "The Willow Pond Restaurant is closed now.",
+   "lang": "en"
+  },
+  {
+   "start": 1353.04,
+   "end": 1356.04,
+   "text": "Ваша подруга разворачивает машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 1356.1,
+   "end": 1357.88,
+   "text": "Немного погодя, она говорит,",
+   "lang": "ru"
+  },
+  {
+   "start": 1358.62,
+   "end": 1360.1,
+   "text": "«Сейчас я не еду слишком быстро».",
+   "lang": "ru"
+  },
+  {
+   "start": 1360.1,
+   "end": 1360.28,
+   "text": "through.",
+   "lang": "en"
+  },
+  {
+   "start": 1365.2,
+   "end": 1367.76,
+   "text": "Well, now I'm not driving too fast.",
+   "lang": "en"
+  },
+  {
+   "start": 1371.64,
+   "end": 1374.4,
+   "text": "Сейчас я еду медленно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1377.76,
+   "end": 1379.82,
+   "text": "now I'm driving slowly",
+   "lang": "en"
+  },
+  {
+   "start": 1382.7,
+   "end": 1384.04,
+   "text": "В офис.",
+   "lang": "ru"
+  },
+  {
+   "start": 1386.12,
+   "end": 1387.22,
+   "text": "To the office.",
+   "lang": "en"
+  },
+  {
+   "start": 1389.88,
+   "end": 1391.6,
+   "text": "Наступил другой день.",
+   "lang": "ru"
+  },
+  {
+   "start": 1391.74,
+   "end": 1395.36,
+   "text": "Вы сейчас в офисе ищете справочник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1395.58,
+   "end": 1400.24,
+   "text": "Одна коллега это увидела и спросила, могу я вам чем-нибудь помочь?",
+   "lang": "ru"
+  },
+  {
+   "start": 1402.6,
+   "end": 1403.76,
+   "text": "Can I help you?",
+   "lang": "en"
+  },
+  {
+   "start": 1406.12,
+   "end": 1406.6,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 1406.98,
+   "end": 1409.48,
+   "text": "Я ищу номер телефона аптеки.",
+   "lang": "ru"
+  },
+  {
+   "start": 1414.62,
+   "end": 1417.02,
+   "text": "I'm looking for the number of a drugstore.",
+   "lang": "en"
+  },
+  {
+   "start": 1421.98,
+   "end": 1424.6,
+   "text": "Сейчас вы видите номер, который вы искали.",
+   "lang": "ru"
+  },
+  {
+   "start": 1425.68,
+   "end": 1428.34,
+   "text": "очень маленькие, а вы не надели свои линзы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1428.68,
+   "end": 1430.88,
+   "text": "Скажите, что вы не можете прочитать номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1434.54,
+   "end": 1436.3,
+   "text": "I can't read the number.",
+   "lang": "en"
+  },
+  {
+   "start": 1440.14,
+   "end": 1441.58,
+   "text": "Ask if she can help you.",
+   "lang": "en"
+  },
+  {
+   "start": 1443.8,
+   "end": 1444.96,
+   "text": "Can you help me?",
+   "lang": "en"
+  },
+  {
+   "start": 1447.32,
+   "end": 1449.38,
+   "text": "Ask if she can read the number for you.",
+   "lang": "en"
+  },
+  {
+   "start": 1453.02,
+   "end": 1455.12,
+   "text": "Can you read the number for me?",
+   "lang": "en"
+  },
+  {
+   "start": 1459.16,
+   "end": 1462.08,
+   "text": "Моей жене нужно кое-что в аптеке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1466.98,
+   "end": 1469.88,
+   "text": "My wife needs something from the drugstore.",
+   "lang": "en"
+  },
+  {
+   "start": 1474.66,
+   "end": 1483.22,
+   "text": "Хотя ваш офис сегодня и открыт, это праздничный день для некоторых коммерческих и государственных организаций.",
+   "lang": "ru"
+  },
+  {
+   "start": 1483.22,
+   "end": 1485.88,
+   "text": "Скажите, сегодня праздничный день?",
+   "lang": "ru"
+  },
+  {
+   "start": 1489.06,
+   "end": 1490.22,
+   "text": "today's a holiday",
+   "lang": "en"
+  },
+  {
+   "start": 1492.94,
+   "end": 1495.1,
+   "text": "Аптеки открыты сегодня?",
+   "lang": "ru"
+  },
+  {
+   "start": 1499.04,
+   "end": 1501.16,
+   "text": "Are the drugstores open today?",
+   "lang": "en"
+  },
+  {
+   "start": 1505.46,
+   "end": 1505.74,
+   "text": "Конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1506.24,
+   "end": 1506.74,
+   "text": "Of course.",
+   "lang": "en"
+  },
+  {
+   "start": 1511.4,
+   "end": 1512.68,
+   "text": "Of course they are.",
+   "lang": "en"
+  },
+  {
+   "start": 1514.8,
+   "end": 1516.9,
+   "text": "И есть хорошая аптека.",
+   "lang": "ru"
+  },
+  {
+   "start": 1520.4,
+   "end": 1522.5,
+   "text": "And there's a good drugstore.",
+   "lang": "en"
+  },
+  {
+   "start": 1525.76,
+   "end": 1527.82,
+   "text": "Всего в паре минут отсюда.",
+   "lang": "ru"
+  },
+  {
+   "start": 1531.86,
+   "end": 1533.78,
+   "text": "Only a few minutes from here.",
+   "lang": "en"
+  },
+  {
+   "start": 1537.32,
+   "end": 1538.16,
+   "text": "Now say,",
+   "lang": "en"
+  },
+  {
+   "start": 1538.94,
+   "end": 1542.04,
+   "text": "Думаю, что моей жене тоже нужен доктор.",
+   "lang": "ru"
+  },
+  {
+   "start": 1546.88,
+   "end": 1549.66,
+   "text": "I think my wife needs a doctor too",
+   "lang": "en"
+  },
+  {
+   "start": 1552.34,
+   "end": 1555.96,
+   "text": "Вы знаете имя?",
+   "lang": "ru"
+  },
+  {
+   "start": 1559.18,
+   "end": 1560.52,
+   "text": "Do you know the name?",
+   "lang": "en"
+  },
+  {
+   "start": 1563.62,
+   "end": 1564.82,
+   "text": "Хорошего доктора?",
+   "lang": "ru"
+  },
+  {
+   "start": 1567.76,
+   "end": 1568.96,
+   "text": "Of a good doctor?",
+   "lang": "en"
+  },
+  {
+   "start": 1570.82,
+   "end": 1578.6,
+   "text": "Сейчас вы собираетесь в аптеку и предлагаете зайти на почту, чтобы купить несколько марок для вашей коллеги.",
+   "lang": "ru"
+  },
+  {
+   "start": 1578.6,
+   "end": 1581.46,
+   "text": "У нее есть письмо, которое нужно отправить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1581.52,
+   "end": 1585.46,
+   "text": "Она говорит вам, спасибо, но сегодня праздничный день.",
+   "lang": "ru"
+  },
+  {
+   "start": 1589.92,
+   "end": 1592.06,
+   "text": "Thanks, but today's a holiday",
+   "lang": "en"
+  },
+  {
+   "start": 1596.3,
+   "end": 1598.26,
+   "text": "Почта сегодня закрыта.",
+   "lang": "ru"
+  },
+  {
+   "start": 1602.44,
+   "end": 1604.6,
+   "text": "The post office is closed today.",
+   "lang": "en"
+  },
+  {
+   "start": 1609.5,
+   "end": 1613.38,
+   "text": "Тогда почему бы вам не отправить электронную почту?",
+   "lang": "ru"
+  },
+  {
+   "start": 1616.84,
+   "end": 1618.8,
+   "text": "Then why don't you email?",
+   "lang": "ru"
+  },
+  {
+   "start": 1622.6,
+   "end": 1624.04,
+   "text": "Why don't you email?",
+   "lang": "en"
+  },
+  {
+   "start": 1627.12,
+   "end": 1629.86,
+   "text": "Сейчас давайте перейдем к чтению.",
+   "lang": "ru"
+  },
+  {
+   "start": 1630.06,
+   "end": 1633.18,
+   "text": "Прочитайте упражнение номер один вслух.",
+   "lang": "ru"
+  },
+  {
+   "start": 1636.22,
+   "end": 1637.98,
+   "text": "He dribbled the ball.",
+   "lang": "ru"
+  },
+  {
+   "start": 1641.32,
+   "end": 1642.36,
+   "text": "Номер два.",
+   "lang": "ru"
+  },
+  {
+   "start": 1645.86,
+   "end": 1648.12,
+   "text": "Did you see the purple beetle?",
+   "lang": "ru"
+  },
+  {
+   "start": 1651.5,
+   "end": 1652.38,
+   "text": "3",
+   "lang": "ru"
+  },
+  {
+   "start": 1654.68,
+   "end": 1655.88,
+   "text": "Don't jiggle.",
+   "lang": "ru"
+  },
+  {
+   "start": 1658.78,
+   "end": 1659.0,
+   "text": "Jiggle.",
+   "lang": "ru"
+  },
+  {
+   "start": 1660.48,
+   "end": 1667.96,
+   "text": "Вы обратили внимание на мягкое произношение буквы J и твердое произношение буквы G.",
+   "lang": "ru"
+  },
+  {
+   "start": 1668.8,
+   "end": 1670.4,
+   "text": "Сейчас прочитайте номер 4.",
+   "lang": "ru"
+  },
+  {
+   "start": 1673.54,
+   "end": 1675.1,
+   "text": "She's a big girl.",
+   "lang": "ru"
+  },
+  {
+   "start": 1678.48,
+   "end": 1678.54,
+   "text": "5.",
+   "lang": "ru"
+  },
+  {
+   "start": 1681.08,
+   "end": 1682.4,
+   "text": "Say goodbye.",
+   "lang": "ru"
+  },
+  {
+   "start": 1682.4,
+   "end": 1682.56,
+   "text": "Bye.",
+   "lang": "en"
+  },
+  {
+   "start": 1685.92,
+   "end": 1686.16,
+   "text": "6.",
+   "lang": "ru"
+  },
+  {
+   "start": 1689.14,
+   "end": 1690.86,
+   "text": "I need some gas.",
+   "lang": "ru"
+  },
+  {
+   "start": 1694.04,
+   "end": 1702.72,
+   "text": "В упражнениях с четвертого по шестое буква G имеет то же твердое произношение, что и в упражнении 3.",
+   "lang": "ru"
+  },
+  {
+   "start": 1703.38,
+   "end": 1712.92,
+   "text": "Буква G всегда имеет это произношение, когда она стоит после согласной или после букв A, O или U.",
+   "lang": "ru"
+  },
+  {
+   "start": 1714.1,
+   "end": 1721.58,
+   "text": "Однако она часто имеет мягкое звучание, когда идет после буквы I, E или Y.",
+   "lang": "ru"
+  },
+  {
+   "start": 1722.82,
+   "end": 1726.18,
+   "text": "Тогда она звучит так, как если бы она была рядом с буквой J.",
+   "lang": "ru"
+  },
+  {
+   "start": 1726.56,
+   "end": 1731.44,
+   "text": "В упражнениях с 7 по 9 она произносится как J.",
+   "lang": "ru"
+  },
+  {
+   "start": 1735.2,
+   "end": 1737.14,
+   "text": "This letter is urgent.",
+   "lang": "ru"
+  },
+  {
+   "start": 1741.04,
+   "end": 1741.8,
+   "text": "Urgent.",
+   "lang": "ru"
+  },
+  {
+   "start": 1744.48,
+   "end": 1744.6,
+   "text": "8.",
+   "lang": "ru"
+  },
+  {
+   "start": 1746.84,
+   "end": 1748.06,
+   "text": "Do you know Magic Johnson?",
+   "lang": "ru"
+  },
+  {
+   "start": 1752.02,
+   "end": 1753.22,
+   "text": "Magic Johnson.",
+   "lang": "ru"
+  },
+  {
+   "start": 1755.96,
+   "end": 1757.78,
+   "text": "Попробуйте прочитать номер 9.",
+   "lang": "ru"
+  },
+  {
+   "start": 1758.48,
+   "end": 1761.94,
+   "text": "Здесь буква Y произносится как краткое И.",
+   "lang": "ru"
+  },
+  {
+   "start": 1764.28,
+   "end": 1765.64,
+   "text": "Джим.",
+   "lang": "ru"
+  },
+  {
+   "start": 1765.64,
+   "end": 1766.2,
+   "text": "is fun.",
+   "lang": "en"
+  },
+  {
+   "start": 1769.24,
+   "end": 1769.96,
+   "text": "Jim",
+   "lang": "en"
+  },
+  {
+   "start": 1771.86,
+   "end": 1776.04,
+   "text": "Десять. Последнее слово название языка.",
+   "lang": "ru"
+  },
+  {
+   "start": 1777.88,
+   "end": 1780.0,
+   "text": "Do you speak German?",
+   "lang": "ru"
+  },
+  {
+   "start": 1782.88,
+   "end": 1783.66,
+   "text": "German.",
+   "lang": "ru"
+  },
+  {
+   "start": 1785.94,
+   "end": 1791.36,
+   "text": "Сочетание D-G-E также может произноситься как Дж.",
+   "lang": "ru"
+  },
+  {
+   "start": 1791.36,
+   "end": 1797.06,
+   "text": "Дж. Попробуйте прочитать номер 11. Буква Ю краткая.",
+   "lang": "ru"
+  },
+  {
+   "start": 1799.74,
+   "end": 1801.46,
+   "text": "You be the judge.",
+   "lang": "ru"
+  },
+  {
+   "start": 1804.36,
+   "end": 1805.26,
+   "text": "Judge.",
+   "lang": "ru"
+  },
+  {
+   "start": 1807.34,
+   "end": 1811.34,
+   "text": "12. Последнее слово название месяца.",
+   "lang": "ru"
+  },
+  {
+   "start": 1815.96,
+   "end": 1818.74,
+   "text": "We'll cross that bridge in January.",
+   "lang": "ru"
+  },
+  {
+   "start": 1818.74,
+   "end": 1819.06,
+   "text": "January.",
+   "lang": "en"
+  },
+  {
+   "start": 1823.54,
+   "end": 1826.84,
+   "text": "Это конец 22 урока.",
+   "lang": "ru"
+  },
+  {
+   "start": 1826.84,
+   "end": 1826.98,
+   "text": "Okay.",
+   "lang": "en"
+  }
+ ]
+}

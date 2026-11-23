@@ -1,0 +1,2265 @@
+{
+ "id": "II_18",
+ "source": "Pimsleur_II_18.mp3",
+ "duration": 1835.05,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 150,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.66,
+   "text": "I'd be the wild rover for many years. I'd spend all my money on whiskey and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.18,
+   "end": 19.14,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 23.56,
+   "end": 27.84,
+   "text": "18-й урок английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 27.84,
+   "end": 29.48,
+   "text": "Слушайте эту разговор.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.7,
+   "end": 32.9,
+   "text": "You live in Mexico City, don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 33.32,
+   "end": 39.52,
+   "text": "I used to live in Mexico City.",
+   "lang": "en"
+  },
+  {
+   "start": 39.72,
+   "end": 45.16,
+   "text": "Yes, I did. It's a beautiful city, and there's a lot to do there.",
+   "lang": "en"
+  },
+  {
+   "start": 46.12,
+   "end": 46.86,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 47.96,
+   "end": 50.06,
+   "text": "You live in Mexico City, don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 50.5,
+   "end": 54.64,
+   "text": "Yes, I do. I've lived there for two years. I work for Telmex there.",
+   "lang": "en"
+  },
+  {
+   "start": 54.88,
+   "end": 56.7,
+   "text": "I used to live in Mexico City.",
+   "lang": "en"
+  },
+  {
+   "start": 56.98,
+   "end": 58.64,
+   "text": "Oh, really? Did you like it?",
+   "lang": "en"
+  },
+  {
+   "start": 58.78,
+   "end": 62.26,
+   "text": "Yes, I did. It's a beautiful city, and there's a lot to do there.",
+   "lang": "en"
+  },
+  {
+   "start": 63.16,
+   "end": 67.04,
+   "text": "Представьте, что вы находитесь на одном международном конгрессе в Нью-Йорке",
+   "lang": "ru"
+  },
+  {
+   "start": 67.04,
+   "end": 70.56,
+   "text": "и разговариваете там с одним знакомым американцем.",
+   "lang": "ru"
+  },
+  {
+   "start": 70.56,
+   "end": 72.04,
+   "text": "Ask him where he lives now.",
+   "lang": "en"
+  },
+  {
+   "start": 75.12,
+   "end": 76.32,
+   "text": "Where do you live now?",
+   "lang": "en"
+  },
+  {
+   "start": 79.3,
+   "end": 80.1,
+   "text": "He answers.",
+   "lang": "en"
+  },
+  {
+   "start": 80.34,
+   "end": 82.3,
+   "text": "Я живу в Сан-Франциско.",
+   "lang": "ru"
+  },
+  {
+   "start": 85.96,
+   "end": 87.8,
+   "text": "I live in San Francisco.",
+   "lang": "en"
+  },
+  {
+   "start": 91.84,
+   "end": 92.68,
+   "text": "Try to see if you can hear me.",
+   "lang": "en"
+  },
+  {
+   "start": 92.7,
+   "end": 94.84,
+   "text": "Я живу там уже 3 года.",
+   "lang": "ru"
+  },
+  {
+   "start": 98.74,
+   "end": 100.84,
+   "text": "Я там жил три года.",
+   "lang": "ru"
+  },
+  {
+   "start": 104.84,
+   "end": 106.02,
+   "text": "Я там жил.",
+   "lang": "ru"
+  },
+  {
+   "start": 108.2,
+   "end": 110.4,
+   "text": "Я там жил три года.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.36,
+   "end": 116.64,
+   "text": "Попроси, если он еще работает для Citibank.",
+   "lang": "ru"
+  },
+  {
+   "start": 119.8,
+   "end": 121.82,
+   "text": "Ты еще работаешь для Citibank?",
+   "lang": "ru"
+  },
+  {
+   "start": 124.88,
+   "end": 128.6,
+   "text": "He says, Нет, раньше я работал в Ситибанке.",
+   "lang": "ru"
+  },
+  {
+   "start": 133.46,
+   "end": 136.22,
+   "text": "No, I used to work for Citibank.",
+   "lang": "ru"
+  },
+  {
+   "start": 140.86,
+   "end": 142.06,
+   "text": "В Сиэтле.",
+   "lang": "ru"
+  },
+  {
+   "start": 142.2,
+   "end": 142.88,
+   "text": "Seattle.",
+   "lang": "ru"
+  },
+  {
+   "start": 145.36,
+   "end": 146.46,
+   "text": "In Seattle.",
+   "lang": "ru"
+  },
+  {
+   "start": 148.88,
+   "end": 150.12,
+   "text": "In Seattle.",
+   "lang": "ru"
+  },
+  {
+   "start": 151.6,
+   "end": 157.86,
+   "text": "Сейчас он скажет «это было интересно». Сначала скажите «интересно».",
+   "lang": "ru"
+  },
+  {
+   "start": 157.86,
+   "end": 171.22,
+   "text": "Это было интересно.",
+   "lang": "ru"
+  },
+  {
+   "start": 171.22,
+   "end": 172.9,
+   "text": "Listen and repeat again.",
+   "lang": "en"
+  },
+  {
+   "start": 174.32,
+   "end": 175.14,
+   "text": "It was interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 177.7,
+   "end": 178.66,
+   "text": "Was.",
+   "lang": "en"
+  },
+  {
+   "start": 181.08,
+   "end": 185.3,
+   "text": "It was interesting.",
+   "lang": "ru"
+  },
+  {
+   "start": 185.3,
+   "end": 185.66,
+   "text": "Interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 188.72,
+   "end": 191.2,
+   "text": "Скажите еще раз, что это было интересно.",
+   "lang": "ru"
+  },
+  {
+   "start": 193.94,
+   "end": 195.52,
+   "text": "It was interesting.",
+   "lang": "ru"
+  },
+  {
+   "start": 197.74,
+   "end": 199.14,
+   "text": "say",
+   "lang": "en"
+  },
+  {
+   "start": 199.44,
+   "end": 201.78,
+   "text": "Моя работа была очень интересной.",
+   "lang": "ru"
+  },
+  {
+   "start": 205.46,
+   "end": 207.66,
+   "text": "My work was very interesting.",
+   "lang": "ru"
+  },
+  {
+   "start": 207.66,
+   "end": 207.96,
+   "text": "Interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 211.34,
+   "end": 213.84,
+   "text": "Сейчас она менее интересна.",
+   "lang": "ru"
+  },
+  {
+   "start": 217.02,
+   "end": 218.96,
+   "text": "Now it's less interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 222.92,
+   "end": 225.56,
+   "text": "Вам нравится Сан-Франциско?",
+   "lang": "ru"
+  },
+  {
+   "start": 229.24,
+   "end": 230.9,
+   "text": "Do you like San Francisco?",
+   "lang": "en"
+  },
+  {
+   "start": 234.2,
+   "end": 236.16,
+   "text": "Ответьте кратко, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 238.72,
+   "end": 239.76,
+   "text": "Yes, I do.",
+   "lang": "en"
+  },
+  {
+   "start": 241.9,
+   "end": 245.92,
+   "text": "Но Вашингтон очень красивый.",
+   "lang": "ru"
+  },
+  {
+   "start": 249.52,
+   "end": 251.84,
+   "text": "But Washington is very beautiful.",
+   "lang": "en"
+  },
+  {
+   "start": 254.06,
+   "end": 258.22,
+   "text": "И моя работа была интересной.",
+   "lang": "ru"
+  },
+  {
+   "start": 261.64,
+   "end": 263.6,
+   "text": "And my work was interesting.",
+   "lang": "ru"
+  },
+  {
+   "start": 263.6,
+   "end": 267.52,
+   "text": "Thank you for listening.",
+   "lang": "en"
+  },
+  {
+   "start": 267.56,
+   "end": 268.16,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 268.16,
+   "end": 271.34,
+   "text": "Мой сын раньше тоже работал в Ситибанке.",
+   "lang": "ru"
+  },
+  {
+   "start": 276.18,
+   "end": 278.86,
+   "text": "My son used to work for Citibank, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 283.92,
+   "end": 286.76,
+   "text": "Но его должность не была интересной.",
+   "lang": "ru"
+  },
+  {
+   "start": 286.9,
+   "end": 287.5,
+   "text": "Должность.",
+   "lang": "ru"
+  },
+  {
+   "start": 288.22,
+   "end": 288.92,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 289.86,
+   "end": 290.58,
+   "text": "Job.",
+   "lang": "ru"
+  },
+  {
+   "start": 292.64,
+   "end": 293.36,
+   "text": "Job.",
+   "lang": "ru"
+  },
+  {
+   "start": 295.48,
+   "end": 296.2,
+   "text": "Job.",
+   "lang": "ru"
+  },
+  {
+   "start": 298.44,
+   "end": 299.16,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 299.58,
+   "end": 302.2,
+   "text": "Его должность не была интересной.",
+   "lang": "ru"
+  },
+  {
+   "start": 306.68,
+   "end": 308.58,
+   "text": "His job was not very interesting.",
+   "lang": "ru"
+  },
+  {
+   "start": 312.68,
+   "end": 313.78,
+   "text": "His job.",
+   "lang": "ru"
+  },
+  {
+   "start": 315.78,
+   "end": 318.08,
+   "text": "His job wasn't very interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 321.48,
+   "end": 328.44,
+   "text": "Вы услышали сокращение? Скажите еще раз, что его должность не была очень интересной.",
+   "lang": "ru"
+  },
+  {
+   "start": 331.92,
+   "end": 334.46,
+   "text": "His job wasn't very interesting",
+   "lang": "en"
+  },
+  {
+   "start": 338.56,
+   "end": 341.28,
+   "text": "Раньше он работал на Ситибанк.",
+   "lang": "ru"
+  },
+  {
+   "start": 344.9,
+   "end": 347.0,
+   "text": "He used to work for Citibank.",
+   "lang": "en"
+  },
+  {
+   "start": 349.28,
+   "end": 353.78,
+   "text": "Но его должность не была очень интересной.",
+   "lang": "ru"
+  },
+  {
+   "start": 357.86,
+   "end": 360.2,
+   "text": "But his job wasn't very interesting",
+   "lang": "en"
+  },
+  {
+   "start": 363.22,
+   "end": 367.0,
+   "text": "Сейчас его работа более интересна.",
+   "lang": "ru"
+  },
+  {
+   "start": 370.96,
+   "end": 372.9,
+   "text": "Now his job is more interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 376.8,
+   "end": 378.5,
+   "text": "На данный момент.",
+   "lang": "ru"
+  },
+  {
+   "start": 380.32,
+   "end": 381.8,
+   "text": "At the moment.",
+   "lang": "ru"
+  },
+  {
+   "start": 384.66,
+   "end": 386.98,
+   "text": "У него по-настоящему интересная должность.",
+   "lang": "ru"
+  },
+  {
+   "start": 391.1,
+   "end": 393.7,
+   "text": "He has a really interesting job.",
+   "lang": "ru"
+  },
+  {
+   "start": 398.22,
+   "end": 402.08,
+   "text": "Ваш знакомый спрашивает, сколько лет вашему сыну?",
+   "lang": "ru"
+  },
+  {
+   "start": 405.1,
+   "end": 406.7,
+   "text": "How old is your son?",
+   "lang": "en"
+  },
+  {
+   "start": 410.68,
+   "end": 412.68,
+   "text": "Ему двадцать восемь.",
+   "lang": "ru"
+  },
+  {
+   "start": 415.2,
+   "end": 416.26,
+   "text": "He's 28.",
+   "lang": "en"
+  },
+  {
+   "start": 417.98,
+   "end": 421.32,
+   "text": "У него два маленьких сына.",
+   "lang": "ru"
+  },
+  {
+   "start": 424.68,
+   "end": 426.6,
+   "text": "He has two little boys.",
+   "lang": "ru"
+  },
+  {
+   "start": 430.12,
+   "end": 432.02,
+   "text": "He has two little boys.",
+   "lang": "en"
+  },
+  {
+   "start": 435.46,
+   "end": 438.08,
+   "text": "Как бы он спросил, сколько им лет?",
+   "lang": "ru"
+  },
+  {
+   "start": 440.68,
+   "end": 441.98,
+   "text": "How old are they?",
+   "lang": "en"
+  },
+  {
+   "start": 448.86,
+   "end": 451.42,
+   "text": "Скажите, что им 4 и 2 года.",
+   "lang": "ru"
+  },
+  {
+   "start": 454.62,
+   "end": 456.42,
+   "text": "They are four and two.",
+   "lang": "en"
+  },
+  {
+   "start": 459.82,
+   "end": 460.5,
+   "text": "Try",
+   "lang": "en"
+  },
+  {
+   "start": 460.68,
+   "end": 463.0,
+   "text": "Он всегда покупает.",
+   "lang": "ru"
+  },
+  {
+   "start": 465.66,
+   "end": 467.42,
+   "text": "He always buys.",
+   "lang": "en"
+  },
+  {
+   "start": 470.54,
+   "end": 471.42,
+   "text": "Buys.",
+   "lang": "en"
+  },
+  {
+   "start": 472.54,
+   "end": 474.88,
+   "text": "He always buys.",
+   "lang": "ru"
+  },
+  {
+   "start": 474.88,
+   "end": 475.2,
+   "text": "Otherwise...",
+   "lang": "en"
+  },
+  {
+   "start": 478.9,
+   "end": 479.86,
+   "text": "Много вещей.",
+   "lang": "ru"
+  },
+  {
+   "start": 482.2,
+   "end": 484.04,
+   "text": "A lot of things.",
+   "lang": "ru"
+  },
+  {
+   "start": 486.68,
+   "end": 487.88,
+   "text": "Для них.",
+   "lang": "ru"
+  },
+  {
+   "start": 489.88,
+   "end": 491.06,
+   "text": "For them.",
+   "lang": "ru"
+  },
+  {
+   "start": 491.06,
+   "end": 494.08,
+   "text": "for them",
+   "lang": "en"
+  },
+  {
+   "start": 495.94,
+   "end": 499.1,
+   "text": "Он всегда покупает много вещей для них.",
+   "lang": "ru"
+  },
+  {
+   "start": 504.02,
+   "end": 506.92,
+   "text": "He always buys a lot of things for them.",
+   "lang": "en"
+  },
+  {
+   "start": 511.74,
+   "end": 513.56,
+   "text": "Now try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 513.78,
+   "end": 515.12,
+   "text": "У вас есть дети?",
+   "lang": "ru"
+  },
+  {
+   "start": 518.34,
+   "end": 519.98,
+   "text": "Do you have any children?",
+   "lang": "ru"
+  },
+  {
+   "start": 523.16,
+   "end": 523.92,
+   "text": "Any children?",
+   "lang": "en"
+  },
+  {
+   "start": 523.92,
+   "end": 524.22,
+   "text": "Any children?",
+   "lang": "en"
+  },
+  {
+   "start": 526.64,
+   "end": 528.3,
+   "text": "Do you have any children?",
+   "lang": "en"
+  },
+  {
+   "start": 530.46,
+   "end": 534.32,
+   "text": "У меня две дочки.",
+   "lang": "ru"
+  },
+  {
+   "start": 536.94,
+   "end": 538.76,
+   "text": "I have two daughters.",
+   "lang": "en"
+  },
+  {
+   "start": 541.04,
+   "end": 546.94,
+   "text": "Он показывает вам фотографию. Скажите, они очень красивые, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 551.76,
+   "end": 553.84,
+   "text": "They're very beautiful, aren't they?",
+   "lang": "en"
+  },
+  {
+   "start": 557.82,
+   "end": 561.12,
+   "text": "Как утвердительно ответить в краткой форме?",
+   "lang": "ru"
+  },
+  {
+   "start": 562.54,
+   "end": 564.44,
+   "text": "Yes they are",
+   "lang": "en"
+  },
+  {
+   "start": 565.12,
+   "end": 568.34,
+   "text": "Yes they are",
+   "lang": "en"
+  },
+  {
+   "start": 570.0,
+   "end": 571.4,
+   "text": "S",
+   "lang": "en"
+  },
+  {
+   "start": 571.62,
+   "end": 572.9,
+   "text": "Сколько им лет?",
+   "lang": "ru"
+  },
+  {
+   "start": 575.7,
+   "end": 577.04,
+   "text": "How old are they?",
+   "lang": "en"
+  },
+  {
+   "start": 579.3,
+   "end": 580.94,
+   "text": "Старший 25",
+   "lang": "ru"
+  },
+  {
+   "start": 580.94,
+   "end": 581.3,
+   "text": "What's its bit?",
+   "lang": "en"
+  },
+  {
+   "start": 585.86,
+   "end": 587.52,
+   "text": "The older one is 25.",
+   "lang": "en"
+  },
+  {
+   "start": 590.62,
+   "end": 593.64,
+   "text": "А младший 23",
+   "lang": "ru"
+  },
+  {
+   "start": 598.22,
+   "end": 600.24,
+   "text": "And the younger one is 23",
+   "lang": "en"
+  },
+  {
+   "start": 605.5,
+   "end": 607.64,
+   "text": "Они живут в Сан-Франциско?",
+   "lang": "ru"
+  },
+  {
+   "start": 611.88,
+   "end": 613.68,
+   "text": "Do they live in San Francisco?",
+   "lang": "en"
+  },
+  {
+   "start": 618.02,
+   "end": 621.34,
+   "text": "Нет, они все еще живут в Сиэтле.",
+   "lang": "ru"
+  },
+  {
+   "start": 625.26,
+   "end": 627.24,
+   "text": "No, they still live in Seattle.",
+   "lang": "en"
+  },
+  {
+   "start": 631.28,
+   "end": 633.78,
+   "text": "Но они часто приезжают в Сан-Франциско.",
+   "lang": "ru"
+  },
+  {
+   "start": 638.16,
+   "end": 640.54,
+   "text": "But they often come to San Francisco",
+   "lang": "en"
+  },
+  {
+   "start": 645.12,
+   "end": 647.46,
+   "text": "Потому что их друзья живут здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 651.36,
+   "end": 653.48,
+   "text": "Because their friends live there.",
+   "lang": "en"
+  },
+  {
+   "start": 658.08,
+   "end": 659.4,
+   "text": "Иногда они приезжают",
+   "lang": "ru"
+  },
+  {
+   "start": 662.06,
+   "end": 663.62,
+   "text": "Sometimes they come",
+   "lang": "en"
+  },
+  {
+   "start": 664.54,
+   "end": 668.02,
+   "text": "со своими мужьями,",
+   "lang": "ru"
+  },
+  {
+   "start": 670.28,
+   "end": 671.4,
+   "text": "with their husbands.",
+   "lang": "en"
+  },
+  {
+   "start": 672.28,
+   "end": 675.74,
+   "text": "а иногда без них.",
+   "lang": "ru"
+  },
+  {
+   "start": 678.78,
+   "end": 680.68,
+   "text": "and sometimes without them.",
+   "lang": "en"
+  },
+  {
+   "start": 682.32,
+   "end": 685.12,
+   "text": "У старшей",
+   "lang": "ru"
+  },
+  {
+   "start": 687.48,
+   "end": 688.64,
+   "text": "The older one",
+   "lang": "en"
+  },
+  {
+   "start": 690.78,
+   "end": 693.42,
+   "text": "Очень интересная работа.",
+   "lang": "ru"
+  },
+  {
+   "start": 696.38,
+   "end": 698.38,
+   "text": "Has an interesting job.",
+   "lang": "en"
+  },
+  {
+   "start": 701.58,
+   "end": 703.36,
+   "text": "An interesting job.",
+   "lang": "en"
+  },
+  {
+   "start": 705.74,
+   "end": 709.24,
+   "text": "На следующей неделе она едет в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 712.88,
+   "end": 715.04,
+   "text": "next week she's going to Boston",
+   "lang": "en"
+  },
+  {
+   "start": 719.06,
+   "end": 721.42,
+   "text": "Но ее муж не может поехать с ней.",
+   "lang": "ru"
+  },
+  {
+   "start": 725.0,
+   "end": 727.12,
+   "text": "But her husband can't go with her",
+   "lang": "en"
+  },
+  {
+   "start": 730.48,
+   "end": 732.66,
+   "text": "Она едет в Бостон без него.",
+   "lang": "ru"
+  },
+  {
+   "start": 736.92,
+   "end": 738.94,
+   "text": "She's going to Boston without him.",
+   "lang": "en"
+  },
+  {
+   "start": 743.02,
+   "end": 744.06,
+   "text": "Try to say.",
+   "lang": "en"
+  },
+  {
+   "start": 744.76,
+   "end": 746.94,
+   "text": "Наша младшая дочь была в Бостоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 751.1,
+   "end": 753.52,
+   "text": "Our younger daughter was in Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 757.96,
+   "end": 758.68,
+   "text": "Was.",
+   "lang": "en"
+  },
+  {
+   "start": 758.94,
+   "end": 761.74,
+   "text": "В январе.",
+   "lang": "ru"
+  },
+  {
+   "start": 763.6,
+   "end": 765.48,
+   "text": "In January",
+   "lang": "en"
+  },
+  {
+   "start": 768.94,
+   "end": 771.34,
+   "text": "Было очень холодно.",
+   "lang": "ru"
+  },
+  {
+   "start": 774.3,
+   "end": 775.94,
+   "text": "It was very cold.",
+   "lang": "en"
+  },
+  {
+   "start": 778.66,
+   "end": 781.3,
+   "text": "It was very cold.",
+   "lang": "ru"
+  },
+  {
+   "start": 785.24,
+   "end": 785.38,
+   "text": "Say?",
+   "lang": "ru"
+  },
+  {
+   "start": 785.64,
+   "end": 787.42,
+   "text": "Да, в январе и феврале.",
+   "lang": "ru"
+  },
+  {
+   "start": 792.96,
+   "end": 795.82,
+   "text": "Yes, in January and February.",
+   "lang": "ru"
+  },
+  {
+   "start": 795.82,
+   "end": 796.1,
+   "text": "Be wary.",
+   "lang": "en"
+  },
+  {
+   "start": 801.74,
+   "end": 803.68,
+   "text": "Погода не очень приятная.",
+   "lang": "ru"
+  },
+  {
+   "start": 806.68,
+   "end": 808.94,
+   "text": "The weather isn't very nice.",
+   "lang": "en"
+  },
+  {
+   "start": 812.26,
+   "end": 814.56,
+   "text": "The weather's not very nice.",
+   "lang": "en"
+  },
+  {
+   "start": 818.08,
+   "end": 818.96,
+   "text": "Ask",
+   "lang": "en"
+  },
+  {
+   "start": 819.08,
+   "end": 821.82,
+   "text": "Сколько лет вашей младшей дочери?",
+   "lang": "ru"
+  },
+  {
+   "start": 825.52,
+   "end": 827.44,
+   "text": "How old is your younger daughter?",
+   "lang": "en"
+  },
+  {
+   "start": 830.96,
+   "end": 831.96,
+   "text": "Ей 23.",
+   "lang": "ru"
+  },
+  {
+   "start": 835.28,
+   "end": 836.56,
+   "text": "She's 23.",
+   "lang": "en"
+  },
+  {
+   "start": 839.84,
+   "end": 840.96,
+   "text": "Now sit.",
+   "lang": "en"
+  },
+  {
+   "start": 840.98,
+   "end": 842.78,
+   "text": "У меня есть два сына.",
+   "lang": "ru"
+  },
+  {
+   "start": 845.72,
+   "end": 847.14,
+   "text": "I have two sons.",
+   "lang": "en"
+  },
+  {
+   "start": 850.48,
+   "end": 852.1,
+   "text": "Я не видела их с января.",
+   "lang": "ru"
+  },
+  {
+   "start": 855.78,
+   "end": 858.08,
+   "text": "I haven't seen them since January.",
+   "lang": "en"
+  },
+  {
+   "start": 860.82,
+   "end": 864.42,
+   "text": "Они оба живут в Колумбии.",
+   "lang": "ru"
+  },
+  {
+   "start": 867.6,
+   "end": 869.22,
+   "text": "They both live in Colombia.",
+   "lang": "en"
+  },
+  {
+   "start": 872.44,
+   "end": 874.42,
+   "text": "Со своими семьями.",
+   "lang": "ru"
+  },
+  {
+   "start": 876.78,
+   "end": 878.2,
+   "text": "with their families.",
+   "lang": "en"
+  },
+  {
+   "start": 879.62,
+   "end": 885.34,
+   "text": "Я не часто вижу их. Поставьте «часто» в конец предложения.",
+   "lang": "ru"
+  },
+  {
+   "start": 888.42,
+   "end": 890.0,
+   "text": "I don't see them often.",
+   "lang": "en"
+  },
+  {
+   "start": 893.24,
+   "end": 896.22,
+   "text": "Потому что путешествовать очень дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 900.54,
+   "end": 903.02,
+   "text": "Because traveling is very expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 908.04,
+   "end": 908.88,
+   "text": "Traveling.",
+   "lang": "en"
+  },
+  {
+   "start": 909.96,
+   "end": 913.52,
+   "text": "Да, путешествовать интересно.",
+   "lang": "ru"
+  },
+  {
+   "start": 918.02,
+   "end": 920.06,
+   "text": "Yes, traveling is interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 922.34,
+   "end": 925.86,
+   "text": "Но так же и дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 929.46,
+   "end": 931.34,
+   "text": "But it's expensive too.",
+   "lang": "en"
+  },
+  {
+   "start": 934.8,
+   "end": 940.7,
+   "text": "Раньше путешествовать было не так дорого. Поставьте «путешествовать» в начало предложения.",
+   "lang": "ru"
+  },
+  {
+   "start": 945.78,
+   "end": 947.6,
+   "text": "Traveling used to be less expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 952.76,
+   "end": 954.58,
+   "text": "Traveling used to be less expensive.",
+   "lang": "en"
+  },
+  {
+   "start": 958.2,
+   "end": 963.4,
+   "text": "Сейчас вы хотите позвонить. Как бы вы извинились?",
+   "lang": "ru"
+  },
+  {
+   "start": 965.16,
+   "end": 966.34,
+   "text": "Excuse me.",
+   "lang": "ru"
+  },
+  {
+   "start": 968.48,
+   "end": 969.96,
+   "text": "Excuse me, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 972.78,
+   "end": 975.16,
+   "text": "Мне нужно сделать один звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 975.42,
+   "end": 977.28,
+   "text": "Сначала звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 977.34,
+   "end": 978.48,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 979.9,
+   "end": 980.42,
+   "text": "Phone call.",
+   "lang": "ru"
+  },
+  {
+   "start": 982.94,
+   "end": 983.74,
+   "text": "Call.",
+   "lang": "ru"
+  },
+  {
+   "start": 985.6,
+   "end": 986.4,
+   "text": "Call.",
+   "lang": "ru"
+  },
+  {
+   "start": 988.46,
+   "end": 989.26,
+   "text": "Phone.",
+   "lang": "ru"
+  },
+  {
+   "start": 991.3,
+   "end": 992.1,
+   "text": "Phone.",
+   "lang": "ru"
+  },
+  {
+   "start": 992.16,
+   "end": 992.36,
+   "text": "Phone call.",
+   "lang": "ru"
+  },
+  {
+   "start": 996.2,
+   "end": 997.98,
+   "text": "Это сокращение от",
+   "lang": "ru"
+  },
+  {
+   "start": 999.2,
+   "end": 1001.34,
+   "text": "дословно «телефонный звонок».",
+   "lang": "ru"
+  },
+  {
+   "start": 1001.34,
+   "end": 1003.28,
+   "text": "Один звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 1005.52,
+   "end": 1006.86,
+   "text": "A phone call",
+   "lang": "en"
+  },
+  {
+   "start": 1009.78,
+   "end": 1011.52,
+   "text": "Сделать один звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 1011.64,
+   "end": 1012.86,
+   "text": "Слушайте и повторите снова.",
+   "lang": "ru"
+  },
+  {
+   "start": 1013.42,
+   "end": 1015.18,
+   "text": "To make a phone call.",
+   "lang": "ru"
+  },
+  {
+   "start": 1019.14,
+   "end": 1019.28,
+   "text": "Make.",
+   "lang": "ru"
+  },
+  {
+   "start": 1021.64,
+   "end": 1022.08,
+   "text": "To make.",
+   "lang": "ru"
+  },
+  {
+   "start": 1024.42,
+   "end": 1025.92,
+   "text": "To make a phone call.",
+   "lang": "ru"
+  },
+  {
+   "start": 1029.24,
+   "end": 1030.46,
+   "text": "Now try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1030.62,
+   "end": 1032.58,
+   "text": "Я должна сделать один звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 1036.74,
+   "end": 1038.66,
+   "text": "I have to make a phone call.",
+   "lang": "ru"
+  },
+  {
+   "start": 1043.0,
+   "end": 1045.08,
+   "text": "Now listen and repeat the word.",
+   "lang": "ru"
+  },
+  {
+   "start": 1045.76,
+   "end": 1046.28,
+   "text": "Телефон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1047.52,
+   "end": 1048.04,
+   "text": "Телефон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1050.96,
+   "end": 1051.48,
+   "text": "Телефон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1053.28,
+   "end": 1056.62,
+   "text": "Где находится телефон?",
+   "lang": "ru"
+  },
+  {
+   "start": 1059.38,
+   "end": 1060.96,
+   "text": "Where is a telephone?",
+   "lang": "en"
+  },
+  {
+   "start": 1064.02,
+   "end": 1065.42,
+   "text": "Where is a telephone?",
+   "lang": "en"
+  },
+  {
+   "start": 1065.42,
+   "end": 1065.8,
+   "text": "telephone?",
+   "lang": "en"
+  },
+  {
+   "start": 1069.32,
+   "end": 1071.08,
+   "text": "Телефон вон там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1075.42,
+   "end": 1077.5,
+   "text": "There's a telephone over there.",
+   "lang": "en"
+  },
+  {
+   "start": 1081.9,
+   "end": 1083.68,
+   "text": "There's a phone over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1087.48,
+   "end": 1088.58,
+   "text": "Ах, да, спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1088.58,
+   "end": 1088.84,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1091.98,
+   "end": 1093.36,
+   "text": "Oh, yes, thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 1096.54,
+   "end": 1098.88,
+   "text": "Но мне нужен телефонный справочник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1099.02,
+   "end": 1099.92,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1100.68,
+   "end": 1102.3,
+   "text": "But I need a phone book.",
+   "lang": "ru"
+  },
+  {
+   "start": 1105.62,
+   "end": 1106.26,
+   "text": "Book.",
+   "lang": "ru"
+  },
+  {
+   "start": 1108.36,
+   "end": 1109.34,
+   "text": "Phone book.",
+   "lang": "ru"
+  },
+  {
+   "start": 1111.62,
+   "end": 1115.24,
+   "text": "Мне нужен телефонный справочник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1117.98,
+   "end": 1119.62,
+   "text": "I need a phone book.",
+   "lang": "en"
+  },
+  {
+   "start": 1122.4,
+   "end": 1124.16,
+   "text": "I need a telephone book.",
+   "lang": "en"
+  },
+  {
+   "start": 1127.3,
+   "end": 1129.4,
+   "text": "Теперь послушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1129.66,
+   "end": 1131.04,
+   "text": "Номер телефона.",
+   "lang": "ru"
+  },
+  {
+   "start": 1131.04,
+   "end": 1133.18,
+   "text": "The phone number.",
+   "lang": "en"
+  },
+  {
+   "start": 1135.84,
+   "end": 1136.8,
+   "text": "Number.",
+   "lang": "en"
+  },
+  {
+   "start": 1138.56,
+   "end": 1140.0,
+   "text": "Phone number.",
+   "lang": "en"
+  },
+  {
+   "start": 1143.02,
+   "end": 1145.42,
+   "text": "Скажите, что у вас нет номера телефона.",
+   "lang": "ru"
+  },
+  {
+   "start": 1148.96,
+   "end": 1150.94,
+   "text": "I don't have the phone number.",
+   "lang": "ru"
+  },
+  {
+   "start": 1154.66,
+   "end": 1156.8,
+   "text": "I don't have the telephone number.",
+   "lang": "ru"
+  },
+  {
+   "start": 1160.84,
+   "end": 1162.96,
+   "text": "Мне нужен телефонный справочник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1165.88,
+   "end": 1167.36,
+   "text": "I need a phone book.",
+   "lang": "ru"
+  },
+  {
+   "start": 1170.18,
+   "end": 1171.96,
+   "text": "I need a telephone book.",
+   "lang": "ru"
+  },
+  {
+   "start": 1175.42,
+   "end": 1181.28,
+   "text": "Ваш знакомый нашел один справочник. Скажите, здесь есть тот номер, который я хотела.",
+   "lang": "ru"
+  },
+  {
+   "start": 1184.86,
+   "end": 1186.28,
+   "text": "Here's the number I want.",
+   "lang": "en"
+  },
+  {
+   "start": 1188.86,
+   "end": 1191.76,
+   "text": "Сейчас я могу сделать звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 1195.34,
+   "end": 1197.08,
+   "text": "Now I can make the phone call.",
+   "lang": "en"
+  },
+  {
+   "start": 1200.64,
+   "end": 1205.2,
+   "text": "Вы набираете номер телефона, но он оказался неправильным.",
+   "lang": "ru"
+  },
+  {
+   "start": 1205.42,
+   "end": 1206.52,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1206.88,
+   "end": 1208.74,
+   "text": "Это был неправильный номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1211.64,
+   "end": 1212.56,
+   "text": "Wrong",
+   "lang": "en"
+  },
+  {
+   "start": 1217.66,
+   "end": 1219.4,
+   "text": "The wrong number",
+   "lang": "en"
+  },
+  {
+   "start": 1221.86,
+   "end": 1224.02,
+   "text": "It was the wrong number",
+   "lang": "en"
+  },
+  {
+   "start": 1227.7,
+   "end": 1231.1,
+   "text": "Скажите своему знакомому, что это был неправильный номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1234.32,
+   "end": 1235.92,
+   "text": "It was the wrong number.",
+   "lang": "en"
+  },
+  {
+   "start": 1238.68,
+   "end": 1242.4,
+   "text": "Где находится телефонный справочник?",
+   "lang": "ru"
+  },
+  {
+   "start": 1245.48,
+   "end": 1246.52,
+   "text": "Where's the phone book?",
+   "lang": "en"
+  },
+  {
+   "start": 1249.64,
+   "end": 1250.96,
+   "text": "Where's the telephone book?",
+   "lang": "en"
+  },
+  {
+   "start": 1254.36,
+   "end": 1257.06,
+   "text": "Это был неправильный номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1259.52,
+   "end": 1260.94,
+   "text": "It was the wrong number.",
+   "lang": "en"
+  },
+  {
+   "start": 1264.12,
+   "end": 1267.82,
+   "text": "Вам нужно сказать, что вы позвоните еще раз попозже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1267.92,
+   "end": 1269.86,
+   "text": "Сначала еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1270.12,
+   "end": 1271.22,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1272.02,
+   "end": 1272.66,
+   "text": "Again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1274.9,
+   "end": 1275.54,
+   "text": "Again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1277.72,
+   "end": 1278.36,
+   "text": "Again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.6,
+   "end": 1281.24,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1281.58,
+   "end": 1282.54,
+   "text": "Еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1284.6,
+   "end": 1285.24,
+   "text": "Again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1287.26,
+   "end": 1288.4,
+   "text": "Here's how to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1288.82,
+   "end": 1289.46,
+   "text": "Позвонить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1289.52,
+   "end": 1290.54,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1291.16,
+   "end": 1292.2,
+   "text": "To call.",
+   "lang": "ru"
+  },
+  {
+   "start": 1294.4,
+   "end": 1294.98,
+   "text": "Call.",
+   "lang": "ru"
+  },
+  {
+   "start": 1297.02,
+   "end": 1297.88,
+   "text": "To call.",
+   "lang": "ru"
+  },
+  {
+   "start": 1300.24,
+   "end": 1301.48,
+   "text": "Now try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1301.64,
+   "end": 1303.64,
+   "text": "Я должна позвонить еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1307.12,
+   "end": 1308.62,
+   "text": "I have to call again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1308.62,
+   "end": 1308.86,
+   "text": "end.",
+   "lang": "en"
+  },
+  {
+   "start": 1312.18,
+   "end": 1314.82,
+   "text": "Я должна позвонить еще раз попозже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1319.22,
+   "end": 1321.22,
+   "text": "I have to call again later.",
+   "lang": "en"
+  },
+  {
+   "start": 1324.3,
+   "end": 1327.46,
+   "text": "Это был неправильный номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1330.46,
+   "end": 1331.88,
+   "text": "It was the wrong number.",
+   "lang": "en"
+  },
+  {
+   "start": 1333.56,
+   "end": 1337.58,
+   "text": "Я должна позвонить еще раз позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1340.7,
+   "end": 1343.18,
+   "text": "I have to call again later.",
+   "lang": "en"
+  },
+  {
+   "start": 1347.08,
+   "end": 1348.3,
+   "text": "Now he asks.",
+   "lang": "en"
+  },
+  {
+   "start": 1348.46,
+   "end": 1350.3,
+   "text": "Почему бы нам не пойти",
+   "lang": "ru"
+  },
+  {
+   "start": 1353.24,
+   "end": 1354.4,
+   "text": "Why don't we go?",
+   "lang": "en"
+  },
+  {
+   "start": 1356.8,
+   "end": 1359.1,
+   "text": "в кафе на Парк Авеню?",
+   "lang": "ru"
+  },
+  {
+   "start": 1363.54,
+   "end": 1365.58,
+   "text": "to the cafe on Park Avenue.",
+   "lang": "en"
+  },
+  {
+   "start": 1370.28,
+   "end": 1372.18,
+   "text": "Мы могли бы выпить кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1375.5,
+   "end": 1377.2,
+   "text": "We can have some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1380.72,
+   "end": 1381.68,
+   "text": "Some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1383.8,
+   "end": 1385.88,
+   "text": "или по бокалу вина,",
+   "lang": "ru"
+  },
+  {
+   "start": 1389.68,
+   "end": 1391.06,
+   "text": "or a glass of wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1395.14,
+   "end": 1401.46,
+   "text": "Представьте, что вы уже в кафе. Скажите официанту, один бокал белого вина для моего друга.",
+   "lang": "ru"
+  },
+  {
+   "start": 1406.78,
+   "end": 1409.32,
+   "text": "A glass of white wine for my friend.",
+   "lang": "en"
+  },
+  {
+   "start": 1414.44,
+   "end": 1416.5,
+   "text": "И чашку кофе для меня, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1421.52,
+   "end": 1423.74,
+   "text": "And a cup of coffee for me, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1428.62,
+   "end": 1430.5,
+   "text": "С молоком и сахаром.",
+   "lang": "ru"
+  },
+  {
+   "start": 1433.34,
+   "end": 1434.6,
+   "text": "with milk and sugar",
+   "lang": "en"
+  },
+  {
+   "start": 1437.58,
+   "end": 1440.46,
+   "text": "Сейчас скажите официанту, что вам нужно позвонить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1444.6,
+   "end": 1446.58,
+   "text": "I have to make a phone call.",
+   "lang": "ru"
+  },
+  {
+   "start": 1450.84,
+   "end": 1453.82,
+   "text": "Of course. There's a telephone over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1454.14,
+   "end": 1462.44,
+   "text": "Вы пытаетесь позвонить с общественного телефона, который вам показали, но вы не уверены в номере телефона, а поблизости нет справочника.",
+   "lang": "ru"
+  },
+  {
+   "start": 1462.44,
+   "end": 1466.26,
+   "text": "Вы возвращаетесь к столику и говорите своему знакомому.",
+   "lang": "ru"
+  },
+  {
+   "start": 1466.3,
+   "end": 1468.3,
+   "text": "Это был неправильный номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1471.9,
+   "end": 1473.62,
+   "text": "It was the wrong number.",
+   "lang": "en"
+  },
+  {
+   "start": 1481.08,
+   "end": 1486.62,
+   "text": "Мне нужен справочник. Скажите, телефонный справочник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1489.4,
+   "end": 1490.72,
+   "text": "I need a phone book.",
+   "lang": "en"
+  },
+  {
+   "start": 1493.72,
+   "end": 1495.24,
+   "text": "I need a telephone book.",
+   "lang": "en"
+  },
+  {
+   "start": 1498.48,
+   "end": 1500.9,
+   "text": "Я позвоню еще раз попозже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1505.38,
+   "end": 1507.2,
+   "text": "I'm going to call again later.",
+   "lang": "en"
+  },
+  {
+   "start": 1511.66,
+   "end": 1518.3,
+   "text": "Сейчас вы говорите о своих профессиях. Скажите, многие работы неинтересны.",
+   "lang": "ru"
+  },
+  {
+   "start": 1522.86,
+   "end": 1524.86,
+   "text": "A lot of jobs aren't interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 1527.9,
+   "end": 1532.12,
+   "text": "Но моя работа очень интересная.",
+   "lang": "ru"
+  },
+  {
+   "start": 1536.48,
+   "end": 1538.58,
+   "text": "But my job is very interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 1543.34,
+   "end": 1546.02,
+   "text": "Say that you often go to Boston and Philadelphia.",
+   "lang": "en"
+  },
+  {
+   "start": 1552.44,
+   "end": 1554.56,
+   "text": "I often go to Boston and Philadelphia.",
+   "lang": "ru"
+  },
+  {
+   "start": 1560.44,
+   "end": 1562.6,
+   "text": "Say that traveling is interesting too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1566.98,
+   "end": 1568.64,
+   "text": "Traveling is interesting too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1572.88,
+   "end": 1574.48,
+   "text": "Скажите кратко, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1577.5,
+   "end": 1578.72,
+   "text": "Yes, it is.",
+   "lang": "ru"
+  },
+  {
+   "start": 1581.3,
+   "end": 1584.88,
+   "text": "Сейчас ваш знакомый говорит, это хорошее кафе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1588.48,
+   "end": 1589.84,
+   "text": "This is a nice cafe.",
+   "lang": "en"
+  },
+  {
+   "start": 1593.82,
+   "end": 1597.4,
+   "text": "Да, я часто хожу сюда с моими друзьями.",
+   "lang": "ru"
+  },
+  {
+   "start": 1603.08,
+   "end": 1605.58,
+   "text": "Yes, I often come here with my friends.",
+   "lang": "en"
+  },
+  {
+   "start": 1611.18,
+   "end": 1613.56,
+   "text": "Сейчас давайте перейдем к чтению.",
+   "lang": "ru"
+  },
+  {
+   "start": 1613.72,
+   "end": 1621.08,
+   "text": "Если вы хотите этим заняться прямо сейчас, достаньте свою книгу для чтения и откройте ее на странице с 18 уроком.",
+   "lang": "ru"
+  },
+  {
+   "start": 1621.52,
+   "end": 1624.82,
+   "text": "Прочитайте упражнение номер один вслух.",
+   "lang": "ru"
+  },
+  {
+   "start": 1628.6,
+   "end": 1630.04,
+   "text": "Номер два.",
+   "lang": "ru"
+  },
+  {
+   "start": 1636.88,
+   "end": 1637.34,
+   "text": "Number 2.",
+   "lang": "en"
+  },
+  {
+   "start": 1640.98,
+   "end": 1642.38,
+   "text": "Let's go by train.",
+   "lang": "en"
+  },
+  {
+   "start": 1646.0,
+   "end": 1652.2,
+   "text": "Попробуйте прочитать номер 3. В очередной раз комбинация G-H немая.",
+   "lang": "ru"
+  },
+  {
+   "start": 1654.68,
+   "end": 1658.86,
+   "text": "Freight train? Freight train.",
+   "lang": "en"
+  },
+  {
+   "start": 1660.86,
+   "end": 1666.72,
+   "text": "4. В английском языке все названия улиц пишутся с заглавной буквы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1669.68,
+   "end": 1671.04,
+   "text": "Where is Main Street?",
+   "lang": "ru"
+  },
+  {
+   "start": 1674.56,
+   "end": 1681.14,
+   "text": "Обратите внимание, что в упражнениях 3 и 4 комбинация букв G-H немая.",
+   "lang": "ru"
+  },
+  {
+   "start": 1681.76,
+   "end": 1687.2,
+   "text": "Эти две буквы часто не произносятся, когда они стоят перед буквой T в конце слова.",
+   "lang": "ru"
+  },
+  {
+   "start": 1687.62,
+   "end": 1688.86,
+   "text": "Прочитайте номер 5.",
+   "lang": "ru"
+  },
+  {
+   "start": 1691.82,
+   "end": 1692.52,
+   "text": "Straight.",
+   "lang": "ru"
+  },
+  {
+   "start": 1695.3,
+   "end": 1697.8,
+   "text": "Сейчас попробуйте прочитать номер 6.",
+   "lang": "ru"
+  },
+  {
+   "start": 1698.72,
+   "end": 1700.84,
+   "text": "Вы уже использовали последнее слово.",
+   "lang": "ru"
+  },
+  {
+   "start": 1704.26,
+   "end": 1705.74,
+   "text": "Go straight ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1709.38,
+   "end": 1713.22,
+   "text": "Прочитайте номер 7. Там другое сочетание букв.",
+   "lang": "ru"
+  },
+  {
+   "start": 1717.98,
+   "end": 1720.38,
+   "text": "Wait. Go to the right.",
+   "lang": "ru"
+  },
+  {
+   "start": 1724.86,
+   "end": 1733.14,
+   "text": "Когда буквы I, G, H, T образуют комбинацию, буква I обычно звучит так.",
+   "lang": "ru"
+  },
+  {
+   "start": 1734.56,
+   "end": 1736.38,
+   "text": "Сейчас прочитайте номер восемь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1738.38,
+   "end": 1739.58,
+   "text": "Last night.",
+   "lang": "ru"
+  },
+  {
+   "start": 1743.22,
+   "end": 1744.2,
+   "text": "Last night.",
+   "lang": "ru"
+  },
+  {
+   "start": 1747.76,
+   "end": 1749.3,
+   "text": "Прочитайте номер девять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1749.6,
+   "end": 1754.4,
+   "text": "Сочетание OU звучит почти так же, как AW.",
+   "lang": "ru"
+  },
+  {
+   "start": 1758.34,
+   "end": 1760.2,
+   "text": "We bought some wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1764.82,
+   "end": 1765.44,
+   "text": "Номер десять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1769.2,
+   "end": 1771.2,
+   "text": "Our flight is late.",
+   "lang": "ru"
+  },
+  {
+   "start": 1775.62,
+   "end": 1781.36,
+   "text": "Прочитайте номер 11. Там будет еще одна немая буква, которую вы раньше не встречали.",
+   "lang": "ru"
+  },
+  {
+   "start": 1784.44,
+   "end": 1785.7,
+   "text": "Yes, I know.",
+   "lang": "ru"
+  },
+  {
+   "start": 1788.84,
+   "end": 1789.52,
+   "text": "No.",
+   "lang": "ru"
+  },
+  {
+   "start": 1791.72,
+   "end": 1798.72,
+   "text": "В сочетании K-N, которое стоит в начале слова, буква K очень часто немая.",
+   "lang": "ru"
+  },
+  {
+   "start": 1799.22,
+   "end": 1800.7,
+   "text": "Прочитайте номер 12.",
+   "lang": "ru"
+  },
+  {
+   "start": 1804.04,
+   "end": 1806.22,
+   "text": "He cut his knee.",
+   "lang": "ru"
+  },
+  {
+   "start": 1810.56,
+   "end": 1811.14,
+   "text": "Тринадцать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1814.92,
+   "end": 1817.56,
+   "text": "The knight might fight.",
+   "lang": "ru"
+  },
+  {
+   "start": 1821.54,
+   "end": 1824.12,
+   "text": "The knight might fight.",
+   "lang": "ru"
+  },
+  {
+   "start": 1828.1,
+   "end": 1831.48,
+   "text": "Это конец восемнадцатого урока.",
+   "lang": "ru"
+  },
+  {
+   "start": 1833.62,
+   "end": 1835.02,
+   "text": "Продолжение следует...",
+   "lang": "ru"
+  }
+ ]
+}
