@@ -1,0 +1,2337 @@
+{
+ "id": "III_10",
+ "source": "Pimsleur_III_10.mp3",
+ "duration": 1825.28,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 152,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.82,
+   "text": "I've been a wild rover for many years.",
+   "lang": "ru"
+  },
+  {
+   "start": 5.84,
+   "end": 10.4,
+   "text": "I've spent all my young with the envy that you missed.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.18,
+   "end": 19.14,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 22.54,
+   "end": 29.38,
+   "text": "Десятый урок третьего уровня американского английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.0,
+   "end": 31.28,
+   "text": "Слушайте эту разговор.",
+   "lang": "ru"
+  },
+  {
+   "start": 32.42,
+   "end": 34.6,
+   "text": "Peter, can we discuss our trip again?",
+   "lang": "en"
+  },
+  {
+   "start": 34.88,
+   "end": 35.92,
+   "text": "Of course. Why?",
+   "lang": "en"
+  },
+  {
+   "start": 36.16,
+   "end": 38.16,
+   "text": "Do you really want to go to New York?",
+   "lang": "en"
+  },
+  {
+   "start": 38.38,
+   "end": 41.24,
+   "text": "Yes, I do. And I thought you wanted to go there, too.",
+   "lang": "en"
+  },
+  {
+   "start": 41.52,
+   "end": 43.16,
+   "text": "You don't think it's too expensive?",
+   "lang": "en"
+  },
+  {
+   "start": 43.76,
+   "end": 46.52,
+   "text": "No, I don't. And I'd really like to see the city.",
+   "lang": "en"
+  },
+  {
+   "start": 46.82,
+   "end": 50.94,
+   "text": "All right. Then why don't you make our hotel reservations, and I can buy the plane tickets.",
+   "lang": "en"
+  },
+  {
+   "start": 51.52,
+   "end": 52.46,
+   "text": "Слушайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 52.46,
+   "end": 59.36,
+   "text": "again. Peter, can we discuss our trip again? Of course. Why? Do you really want to go to New York?",
+   "lang": "en"
+  },
+  {
+   "start": 59.52,
+   "end": 59.86,
+   "text": "Yes.",
+   "lang": "en"
+  },
+  {
+   "start": 60.0,
+   "end": 61.9,
+   "text": "Да, я так и думаю. И я думал, что ты тоже хочешь туда.",
+   "lang": "ru"
+  },
+  {
+   "start": 62.72,
+   "end": 64.46,
+   "text": "Ты не думаешь, что это слишком дорого?",
+   "lang": "ru"
+  },
+  {
+   "start": 64.98,
+   "end": 67.5,
+   "text": "Нет, я не думаю. И я бы очень хотел видеть город.",
+   "lang": "ru"
+  },
+  {
+   "start": 67.94,
+   "end": 71.88,
+   "text": "Хорошо, тогда почему бы ты не сделал наши резервуары, и я могу купить путь.",
+   "lang": "ru"
+  },
+  {
+   "start": 74.26,
+   "end": 79.62,
+   "text": "Представьте, что вы говорите с подругой о путешествии, которое вы планируете совершить вместе.",
+   "lang": "ru"
+  },
+  {
+   "start": 80.2,
+   "end": 83.8,
+   "text": "Скажите, мне бы хотелось обсудить нашу поездку.",
+   "lang": "ru"
+  },
+  {
+   "start": 87.68,
+   "end": 89.44,
+   "text": "I'd like to discuss our trip.",
+   "lang": "en"
+  },
+  {
+   "start": 92.86,
+   "end": 93.94,
+   "text": "How do you say?",
+   "lang": "en"
+  },
+  {
+   "start": 94.18,
+   "end": 95.86,
+   "text": "Билеты на самолет.",
+   "lang": "ru"
+  },
+  {
+   "start": 97.98,
+   "end": 99.78,
+   "text": "plane tickets",
+   "lang": "en"
+  },
+  {
+   "start": 102.14,
+   "end": 103.54,
+   "text": "tickets",
+   "lang": "en"
+  },
+  {
+   "start": 106.88,
+   "end": 110.34,
+   "text": "plane tickets",
+   "lang": "en"
+  },
+  {
+   "start": 113.54,
+   "end": 117.12,
+   "text": "Я могу купить наши билеты на самолет.",
+   "lang": "ru"
+  },
+  {
+   "start": 120.82,
+   "end": 129.3,
+   "text": "Я могу заплатить за билеты.",
+   "lang": "ru"
+  },
+  {
+   "start": 129.56,
+   "end": 130.86,
+   "text": "Заплатить за.",
+   "lang": "ru"
+  },
+  {
+   "start": 130.86,
+   "end": 132.5,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 133.6,
+   "end": 133.94,
+   "text": "Pay for.",
+   "lang": "en"
+  },
+  {
+   "start": 136.6,
+   "end": 137.24,
+   "text": "For.",
+   "lang": "en"
+  },
+  {
+   "start": 142.76,
+   "end": 143.32,
+   "text": "Пей.",
+   "lang": "ru"
+  },
+  {
+   "start": 145.74,
+   "end": 146.54,
+   "text": "Пей for.",
+   "lang": "ru"
+  },
+  {
+   "start": 149.14,
+   "end": 150.36,
+   "text": "Пей for the tickets.",
+   "lang": "ru"
+  },
+  {
+   "start": 153.9,
+   "end": 154.9,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 155.24,
+   "end": 160.06,
+   "text": "Я могу заплатить за билеты. Дословно, заплатить для билетов.",
+   "lang": "ru"
+  },
+  {
+   "start": 163.38,
+   "end": 165.1,
+   "text": "I can pay for the tickets.",
+   "lang": "ru"
+  },
+  {
+   "start": 168.52,
+   "end": 170.18,
+   "text": "I can pay for the tickets.",
+   "lang": "ru"
+  },
+  {
+   "start": 174.46,
+   "end": 176.22,
+   "text": "кредитная карта",
+   "lang": "ru"
+  },
+  {
+   "start": 176.22,
+   "end": 179.38,
+   "text": "Credit card",
+   "lang": "en"
+  },
+  {
+   "start": 181.2,
+   "end": 182.6,
+   "text": "Card",
+   "lang": "en"
+  },
+  {
+   "start": 182.6,
+   "end": 185.92,
+   "text": "Credit card",
+   "lang": "en"
+  },
+  {
+   "start": 188.52,
+   "end": 191.6,
+   "text": "Я могу заплатить за билеты.",
+   "lang": "ru"
+  },
+  {
+   "start": 195.36,
+   "end": 197.16,
+   "text": "I can pay for the tickets.",
+   "lang": "ru"
+  },
+  {
+   "start": 201.06,
+   "end": 203.7,
+   "text": "Если я буду оплачивать кредитной картой.",
+   "lang": "ru"
+  },
+  {
+   "start": 203.88,
+   "end": 205.04,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 205.48,
+   "end": 207.3,
+   "text": "If I pay by credit card.",
+   "lang": "ru"
+  },
+  {
+   "start": 210.84,
+   "end": 211.46,
+   "text": "Buy.",
+   "lang": "ru"
+  },
+  {
+   "start": 213.64,
+   "end": 214.94,
+   "text": "Buy credit card.",
+   "lang": "ru"
+  },
+  {
+   "start": 217.8,
+   "end": 219.4,
+   "text": "Pay by credit card.",
+   "lang": "ru"
+  },
+  {
+   "start": 222.64,
+   "end": 226.48,
+   "text": "Я могу купить наши билеты на самолет.",
+   "lang": "ru"
+  },
+  {
+   "start": 230.44,
+   "end": 232.4,
+   "text": "I can buy our plane tickets.",
+   "lang": "en"
+  },
+  {
+   "start": 236.2,
+   "end": 239.28,
+   "text": "Если буду расплачиваться кредитной картой.",
+   "lang": "ru"
+  },
+  {
+   "start": 242.7,
+   "end": 244.86,
+   "text": "If I pay by credit card",
+   "lang": "ru"
+  },
+  {
+   "start": 248.38,
+   "end": 250.36,
+   "text": "Pay by credit card",
+   "lang": "ru"
+  },
+  {
+   "start": 253.5,
+   "end": 255.16,
+   "text": "You want to ask",
+   "lang": "ru"
+  },
+  {
+   "start": 255.16,
+   "end": 257.72,
+   "text": "Они принимают American Express",
+   "lang": "ru"
+  },
+  {
+   "start": 257.72,
+   "end": 259.86,
+   "text": "Они принимают",
+   "lang": "ru"
+  },
+  {
+   "start": 259.86,
+   "end": 261.12,
+   "text": "Listen and repeat",
+   "lang": "ru"
+  },
+  {
+   "start": 261.12,
+   "end": 262.9,
+   "text": "Do they accept?",
+   "lang": "ru"
+  },
+  {
+   "start": 265.58,
+   "end": 266.38,
+   "text": "Accept",
+   "lang": "ru"
+  },
+  {
+   "start": 269.42,
+   "end": 270.8,
+   "text": "They accept.",
+   "lang": "en"
+  },
+  {
+   "start": 273.34,
+   "end": 274.82,
+   "text": "Do they accept?",
+   "lang": "en"
+  },
+  {
+   "start": 278.02,
+   "end": 280.88,
+   "text": "Они принимают American Express.",
+   "lang": "ru"
+  },
+  {
+   "start": 285.2,
+   "end": 287.48,
+   "text": "Do they accept American Express?",
+   "lang": "en"
+  },
+  {
+   "start": 291.86,
+   "end": 293.22,
+   "text": "American Express.",
+   "lang": "en"
+  },
+  {
+   "start": 296.0,
+   "end": 297.54,
+   "text": "Your friend says...",
+   "lang": "en"
+  },
+  {
+   "start": 297.58,
+   "end": 298.8,
+   "text": "Думаю, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 301.6,
+   "end": 302.74,
+   "text": "I think so.",
+   "lang": "en"
+  },
+  {
+   "start": 305.5,
+   "end": 306.1,
+   "text": "Say.",
+   "lang": "en"
+  },
+  {
+   "start": 306.6,
+   "end": 310.04,
+   "text": "Замечательно. Если они принимают American Express,",
+   "lang": "ru"
+  },
+  {
+   "start": 314.92,
+   "end": 317.68,
+   "text": "Great, if they accept American Express.",
+   "lang": "en"
+  },
+  {
+   "start": 322.78,
+   "end": 325.6,
+   "text": "тогда я могу заплатить за наши билеты.",
+   "lang": "ru"
+  },
+  {
+   "start": 329.24,
+   "end": 331.22,
+   "text": "Then I can pay for our tickets.",
+   "lang": "ru"
+  },
+  {
+   "start": 335.26,
+   "end": 336.94,
+   "text": "I can pay for our tickets.",
+   "lang": "en"
+  },
+  {
+   "start": 340.28,
+   "end": 344.02,
+   "text": "Your friend asks, Почему бы мне не купить билеты?",
+   "lang": "ru"
+  },
+  {
+   "start": 347.6,
+   "end": 349.3,
+   "text": "Why don't I buy the tickets?",
+   "lang": "en"
+  },
+  {
+   "start": 352.98,
+   "end": 354.04,
+   "text": "Why don't I?",
+   "lang": "en"
+  },
+  {
+   "start": 356.28,
+   "end": 357.92,
+   "text": "Why don't I buy the tickets?",
+   "lang": "en"
+  },
+  {
+   "start": 360.32,
+   "end": 363.4,
+   "text": "Вы можете заплатить за отель.",
+   "lang": "ru"
+  },
+  {
+   "start": 367.12,
+   "end": 368.06,
+   "text": "you can pay",
+   "lang": "en"
+  },
+  {
+   "start": 368.3,
+   "end": 374.5,
+   "text": "Вы уже забронировали номер?",
+   "lang": "ru"
+  },
+  {
+   "start": 378.3,
+   "end": 380.16,
+   "text": "Have you made the reservations yet?",
+   "lang": "en"
+  },
+  {
+   "start": 383.16,
+   "end": 386.42,
+   "text": "Нам следует сделать это как можно скорее.",
+   "lang": "ru"
+  },
+  {
+   "start": 386.66,
+   "end": 388.16,
+   "text": "Нам следует.",
+   "lang": "ru"
+  },
+  {
+   "start": 388.38,
+   "end": 389.74,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 390.86,
+   "end": 391.44,
+   "text": "Мы должны...",
+   "lang": "ru"
+  },
+  {
+   "start": 394.4,
+   "end": 394.86,
+   "text": "Should.",
+   "lang": "ru"
+  },
+  {
+   "start": 397.32,
+   "end": 397.92,
+   "text": "Should.",
+   "lang": "ru"
+  },
+  {
+   "start": 400.78,
+   "end": 401.28,
+   "text": "We should.",
+   "lang": "ru"
+  },
+  {
+   "start": 403.94,
+   "end": 406.34,
+   "text": "Say. Нам следует.",
+   "lang": "ru"
+  },
+  {
+   "start": 408.8,
+   "end": 409.72,
+   "text": "We should.",
+   "lang": "ru"
+  },
+  {
+   "start": 412.32,
+   "end": 416.26,
+   "text": "Try to say. Нам следует сделать это как можно скорее.",
+   "lang": "ru"
+  },
+  {
+   "start": 419.58,
+   "end": 421.14,
+   "text": "We should make them soon.",
+   "lang": "ru"
+  },
+  {
+   "start": 424.52,
+   "end": 426.04,
+   "text": "We should make them soon.",
+   "lang": "en"
+  },
+  {
+   "start": 428.74,
+   "end": 430.3,
+   "text": "Но сначала",
+   "lang": "ru"
+  },
+  {
+   "start": 432.22,
+   "end": 434.38,
+   "text": "But first...",
+   "lang": "en"
+  },
+  {
+   "start": 436.44,
+   "end": 439.58,
+   "text": "нам следует купить наши билеты на самолет.",
+   "lang": "ru"
+  },
+  {
+   "start": 443.56,
+   "end": 445.44,
+   "text": "We should buy our plane tickets.",
+   "lang": "en"
+  },
+  {
+   "start": 449.34,
+   "end": 451.82,
+   "text": "Tell her that you can buy the plane tickets.",
+   "lang": "en"
+  },
+  {
+   "start": 455.76,
+   "end": 457.58,
+   "text": "I can buy the plane tickets.",
+   "lang": "en"
+  },
+  {
+   "start": 461.0,
+   "end": 463.4,
+   "text": "Ask. Вы знаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 466.44,
+   "end": 467.22,
+   "text": "Do you know?",
+   "lang": "en"
+  },
+  {
+   "start": 469.94,
+   "end": 472.16,
+   "text": "Принимают ли они American Express?",
+   "lang": "ru"
+  },
+  {
+   "start": 476.32,
+   "end": 478.64,
+   "text": "If they accept American Express?",
+   "lang": "en"
+  },
+  {
+   "start": 482.66,
+   "end": 485.34,
+   "text": "Do you know if they accept American Express?",
+   "lang": "en"
+  },
+  {
+   "start": 491.0,
+   "end": 494.26,
+   "text": "Вы были в Сан-Франциско прошлой зимой?",
+   "lang": "ru"
+  },
+  {
+   "start": 498.5,
+   "end": 501.32,
+   "text": "Were you in San Francisco last winter?",
+   "lang": "en"
+  },
+  {
+   "start": 505.78,
+   "end": 508.48,
+   "text": "Were you in San Francisco last winter?",
+   "lang": "en"
+  },
+  {
+   "start": 513.08,
+   "end": 515.96,
+   "text": "Вы были в Сан-Франциско прошлой зимой, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 521.56,
+   "end": 524.36,
+   "text": "You were in San Francisco last winter, weren't you?",
+   "lang": "en"
+  },
+  {
+   "start": 530.28,
+   "end": 530.82,
+   "text": "Weren't you?",
+   "lang": "en"
+  },
+  {
+   "start": 532.9,
+   "end": 537.88,
+   "text": "Ответьте кратко, что да, и спросите, а что, дословно, почему?",
+   "lang": "ru"
+  },
+  {
+   "start": 542.4,
+   "end": 544.32,
+   "text": "Yes, I was. Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 544.32,
+   "end": 544.56,
+   "text": "Why?",
+   "lang": "en"
+  },
+  {
+   "start": 548.2,
+   "end": 550.12,
+   "text": "Yes, I was. Why?",
+   "lang": "ru"
+  },
+  {
+   "start": 550.12,
+   "end": 550.3,
+   "text": "Bye.",
+   "lang": "en"
+  },
+  {
+   "start": 553.98,
+   "end": 556.58,
+   "text": "Вы помните название вашего отеля?",
+   "lang": "ru"
+  },
+  {
+   "start": 560.26,
+   "end": 562.54,
+   "text": "Do you remember the name of your hotel?",
+   "lang": "en"
+  },
+  {
+   "start": 572.32,
+   "end": 575.28,
+   "text": "Да, это был Серано.",
+   "lang": "ru"
+  },
+  {
+   "start": 579.04,
+   "end": 580.66,
+   "text": "Yes, it was the Serrano.",
+   "lang": "en"
+  },
+  {
+   "start": 583.08,
+   "end": 586.9,
+   "text": "Он находился недалеко от",
+   "lang": "ru"
+  },
+  {
+   "start": 588.56,
+   "end": 590.48,
+   "text": "It was near",
+   "lang": "en"
+  },
+  {
+   "start": 590.48,
+   "end": 594.1,
+   "text": "It was near",
+   "lang": "en"
+  },
+  {
+   "start": 596.28,
+   "end": 599.2,
+   "text": "Хорошего мексиканского ресторана.",
+   "lang": "ru"
+  },
+  {
+   "start": 602.8,
+   "end": 604.76,
+   "text": "A good Mexican restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 608.48,
+   "end": 609.68,
+   "text": "She says,",
+   "lang": "en"
+  },
+  {
+   "start": 613.82,
+   "end": 614.96,
+   "text": "I thought.",
+   "lang": "en"
+  },
+  {
+   "start": 617.92,
+   "end": 618.42,
+   "text": "I thought.",
+   "lang": "en"
+  },
+  {
+   "start": 621.12,
+   "end": 625.9,
+   "text": "Я думала, что вы останавливались в Хайет.",
+   "lang": "ru"
+  },
+  {
+   "start": 625.9,
+   "end": 631.32,
+   "text": "I thought you stayed at the Hyatt.",
+   "lang": "ru"
+  },
+  {
+   "start": 634.4,
+   "end": 635.4,
+   "text": "You stayed.",
+   "lang": "ru"
+  },
+  {
+   "start": 638.18,
+   "end": 640.22,
+   "text": "I thought you stayed at the Hyatt.",
+   "lang": "ru"
+  },
+  {
+   "start": 643.54,
+   "end": 646.06,
+   "text": "Ask. Нет, разве вы не помните?",
+   "lang": "ru"
+  },
+  {
+   "start": 650.34,
+   "end": 652.0,
+   "text": "No, don't you remember?",
+   "lang": "ru"
+  },
+  {
+   "start": 656.16,
+   "end": 657.06,
+   "text": "Don't you remember?",
+   "lang": "en"
+  },
+  {
+   "start": 659.44,
+   "end": 662.76,
+   "text": "Я останавливался в Сирано.",
+   "lang": "ru"
+  },
+  {
+   "start": 665.28,
+   "end": 667.32,
+   "text": "I stayed at the Serrano.",
+   "lang": "en"
+  },
+  {
+   "start": 670.14,
+   "end": 675.0,
+   "text": "В таком случае вы можете забронировать номер в Сирано.",
+   "lang": "ru"
+  },
+  {
+   "start": 678.72,
+   "end": 682.36,
+   "text": "Then can you make reservations at the Serrano?",
+   "lang": "en"
+  },
+  {
+   "start": 687.54,
+   "end": 689.02,
+   "text": "в Сирано?",
+   "lang": "ru"
+  },
+  {
+   "start": 691.94,
+   "end": 693.26,
+   "text": "At the Serrano?",
+   "lang": "en"
+  },
+  {
+   "start": 695.7,
+   "end": 698.78,
+   "text": "Я думал, что вы хотели поехать в Сиэтл.",
+   "lang": "ru"
+  },
+  {
+   "start": 702.6,
+   "end": 704.7,
+   "text": "I thought you wanted to go to Seattle.",
+   "lang": "ru"
+  },
+  {
+   "start": 708.7,
+   "end": 709.62,
+   "text": "You wanted.",
+   "lang": "ru"
+  },
+  {
+   "start": 712.04,
+   "end": 714.14,
+   "text": "I thought you wanted to go to Seattle.",
+   "lang": "ru"
+  },
+  {
+   "start": 714.14,
+   "end": 714.3,
+   "text": "cattle.",
+   "lang": "en"
+  },
+  {
+   "start": 718.22,
+   "end": 719.1,
+   "text": "She says,",
+   "lang": "ru"
+  },
+  {
+   "start": 719.36,
+   "end": 722.52,
+   "text": "А я думала, что вы хотели поехать в Сан-Франциско.",
+   "lang": "ru"
+  },
+  {
+   "start": 728.0,
+   "end": 731.44,
+   "text": "И я думала, что ты хочешь поехать в Сан-Франциско.",
+   "lang": "ru"
+  },
+  {
+   "start": 731.44,
+   "end": 731.6,
+   "text": "Go.",
+   "lang": "en"
+  },
+  {
+   "start": 736.84,
+   "end": 740.14,
+   "text": "Нам нужно обсудить наше путешествие еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 743.54,
+   "end": 745.38,
+   "text": "Мы должны снова поговорить о нашем путешествии.",
+   "lang": "ru"
+  },
+  {
+   "start": 745.38,
+   "end": 745.56,
+   "text": "again.",
+   "lang": "en"
+  },
+  {
+   "start": 748.6,
+   "end": 754.06,
+   "text": "Вы решили поехать в Сан-Франциско, и ваша подруга купила билеты на самолет.",
+   "lang": "ru"
+  },
+  {
+   "start": 754.22,
+   "end": 758.26,
+   "text": "Она показывает их вам и говорит, вот наши билеты.",
+   "lang": "ru"
+  },
+  {
+   "start": 761.14,
+   "end": 762.5,
+   "text": "Here are our tickets.",
+   "lang": "en"
+  },
+  {
+   "start": 765.52,
+   "end": 767.6,
+   "text": "Here are our...",
+   "lang": "en"
+  },
+  {
+   "start": 771.24,
+   "end": 772.54,
+   "text": "Here are our tickets.",
+   "lang": "en"
+  },
+  {
+   "start": 775.38,
+   "end": 777.86,
+   "text": "Я купила их несколько дней назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 781.08,
+   "end": 783.08,
+   "text": "I bought them a few days ago.",
+   "lang": "en"
+  },
+  {
+   "start": 786.4,
+   "end": 789.1,
+   "text": "Вы уже забронировали нам номер в отеле?",
+   "lang": "ru"
+  },
+  {
+   "start": 793.04,
+   "end": 795.5,
+   "text": "Have you made our hotel reservations yet?",
+   "lang": "en"
+  },
+  {
+   "start": 799.94,
+   "end": 802.32,
+   "text": "Попробуйте кратко ответить, что нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 805.42,
+   "end": 806.64,
+   "text": "Нет, я не сделал.",
+   "lang": "ru"
+  },
+  {
+   "start": 809.54,
+   "end": 810.88,
+   "text": "Нет, я не сделал.",
+   "lang": "ru"
+  },
+  {
+   "start": 813.74,
+   "end": 814.74,
+   "text": "Она говорит,",
+   "lang": "ru"
+  },
+  {
+   "start": 814.9,
+   "end": 817.62,
+   "text": "Нам следует сделать это как можно скорее.",
+   "lang": "ru"
+  },
+  {
+   "start": 820.44,
+   "end": 822.1,
+   "text": "Мы должны сделать это скоро.",
+   "lang": "ru"
+  },
+  {
+   "start": 824.86,
+   "end": 825.96,
+   "text": "Ты хочешь сказать,",
+   "lang": "ru"
+  },
+  {
+   "start": 826.4,
+   "end": 829.12,
+   "text": "Я не смог найти номер телефона отеля.",
+   "lang": "ru"
+  },
+  {
+   "start": 829.24,
+   "end": 830.5,
+   "text": "Сначала найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 830.84,
+   "end": 831.96,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 832.56,
+   "end": 833.2,
+   "text": "Найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 836.06,
+   "end": 836.62,
+   "text": "Find",
+   "lang": "en"
+  },
+  {
+   "start": 839.94,
+   "end": 843.38,
+   "text": "Я не смог найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 844.64,
+   "end": 847.38,
+   "text": "Я не смог найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 849.82,
+   "end": 851.22,
+   "text": "couldn't",
+   "lang": "en"
+  },
+  {
+   "start": 855.72,
+   "end": 858.52,
+   "text": "couldn't find",
+   "lang": "en"
+  },
+  {
+   "start": 868.66,
+   "end": 872.34,
+   "text": "Это сокращенная форма от could not.",
+   "lang": "ru"
+  },
+  {
+   "start": 873.24,
+   "end": 877.08,
+   "text": "Теперь попробуйте сказать, я не смог найти номер телефона.",
+   "lang": "ru"
+  },
+  {
+   "start": 880.78,
+   "end": 882.96,
+   "text": "I couldn't find the phone number.",
+   "lang": "ru"
+  },
+  {
+   "start": 886.6,
+   "end": 888.72,
+   "text": "I couldn't find the phone number.",
+   "lang": "en"
+  },
+  {
+   "start": 892.14,
+   "end": 895.34,
+   "text": "Say that you couldn't find the phone number of the hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 895.34,
+   "end": 895.54,
+   "text": "tell.",
+   "lang": "en"
+  },
+  {
+   "start": 901.38,
+   "end": 903.9,
+   "text": "I couldn't find the phone number of the hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 903.9,
+   "end": 904.18,
+   "text": "tell.",
+   "lang": "en"
+  },
+  {
+   "start": 908.42,
+   "end": 911.52,
+   "text": "несколько дней назад",
+   "lang": "ru"
+  },
+  {
+   "start": 911.52,
+   "end": 915.96,
+   "text": "up. A few days ago.",
+   "lang": "en"
+  },
+  {
+   "start": 916.92,
+   "end": 920.86,
+   "text": "он был на этом столе",
+   "lang": "ru"
+  },
+  {
+   "start": 924.28,
+   "end": 925.82,
+   "text": "It was on this table.",
+   "lang": "en"
+  },
+  {
+   "start": 928.58,
+   "end": 930.76,
+   "text": "рядом с телефоном",
+   "lang": "ru"
+  },
+  {
+   "start": 933.52,
+   "end": 934.52,
+   "text": "Near the telephone.",
+   "lang": "en"
+  },
+  {
+   "start": 936.66,
+   "end": 941.84,
+   "text": "пока вы разговариваете, вы снова ищете номер и находите его.",
+   "lang": "ru"
+  },
+  {
+   "start": 941.94,
+   "end": 943.82,
+   "text": "Что вы скажете, найдя его?",
+   "lang": "ru"
+  },
+  {
+   "start": 946.06,
+   "end": 947.42,
+   "text": "Here it is.",
+   "lang": "ru"
+  },
+  {
+   "start": 950.16,
+   "end": 951.08,
+   "text": "Here it is.",
+   "lang": "en"
+  },
+  {
+   "start": 954.06,
+   "end": 956.0,
+   "text": "Сегодня утром я не мог его найти.",
+   "lang": "ru"
+  },
+  {
+   "start": 959.24,
+   "end": 961.28,
+   "text": "This morning I couldn't find it.",
+   "lang": "en"
+  },
+  {
+   "start": 964.38,
+   "end": 965.9,
+   "text": "I couldn't find it.",
+   "lang": "en"
+  },
+  {
+   "start": 967.88,
+   "end": 969.84,
+   "text": "Но он здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 972.72,
+   "end": 974.14,
+   "text": "But here it is.",
+   "lang": "en"
+  },
+  {
+   "start": 977.08,
+   "end": 979.14,
+   "text": "Теперь я могу позвонить в отель.",
+   "lang": "ru"
+  },
+  {
+   "start": 982.56,
+   "end": 984.18,
+   "text": "Now I can call the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 987.2,
+   "end": 990.22,
+   "text": "Я могу заплатить кредитной картой.",
+   "lang": "ru"
+  },
+  {
+   "start": 993.46,
+   "end": 995.62,
+   "text": "I can pay by credit card.",
+   "lang": "ru"
+  },
+  {
+   "start": 999.34,
+   "end": 1001.2,
+   "text": "I can pay by credit card",
+   "lang": "en"
+  },
+  {
+   "start": 1004.76,
+   "end": 1007.7,
+   "text": "Если они принимают American Express.",
+   "lang": "ru"
+  },
+  {
+   "start": 1007.7,
+   "end": 1007.94,
+   "text": "Express.",
+   "lang": "en"
+  },
+  {
+   "start": 1011.82,
+   "end": 1014.08,
+   "text": "If they accept American Express.",
+   "lang": "ru"
+  },
+  {
+   "start": 1018.28,
+   "end": 1021.08,
+   "text": "Now your friend is ready to leave, she says.",
+   "lang": "en"
+  },
+  {
+   "start": 1021.3,
+   "end": 1023.44,
+   "text": "Подождите, где наши билеты?",
+   "lang": "ru"
+  },
+  {
+   "start": 1027.62,
+   "end": 1029.4,
+   "text": "Wait, where are the tickets?",
+   "lang": "en"
+  },
+  {
+   "start": 1033.84,
+   "end": 1037.28,
+   "text": "Что вы скажете, подавая их?",
+   "lang": "ru"
+  },
+  {
+   "start": 1039.52,
+   "end": 1040.48,
+   "text": "Here they are.",
+   "lang": "en"
+  },
+  {
+   "start": 1043.1,
+   "end": 1043.98,
+   "text": "Here they are.",
+   "lang": "en"
+  },
+  {
+   "start": 1046.66,
+   "end": 1048.74,
+   "text": "A few days later you call your friend.",
+   "lang": "en"
+  },
+  {
+   "start": 1049.28,
+   "end": 1052.24,
+   "text": "Я забронировал наш номер в отеле.",
+   "lang": "ru"
+  },
+  {
+   "start": 1056.0,
+   "end": 1057.68,
+   "text": "I made our reservations.",
+   "lang": "en"
+  },
+  {
+   "start": 1060.98,
+   "end": 1064.04,
+   "text": "Мы остановимся в Хайед.",
+   "lang": "ru"
+  },
+  {
+   "start": 1067.42,
+   "end": 1069.02,
+   "text": "We're staying at the Hyatt.",
+   "lang": "en"
+  },
+  {
+   "start": 1072.32,
+   "end": 1073.94,
+   "text": "We're staying at the Hyatt.",
+   "lang": "en"
+  },
+  {
+   "start": 1077.2,
+   "end": 1079.6,
+   "text": "в Хайед?",
+   "lang": "ru"
+  },
+  {
+   "start": 1081.86,
+   "end": 1083.3,
+   "text": "at the Hyatt.",
+   "lang": "en"
+  },
+  {
+   "start": 1085.32,
+   "end": 1089.78,
+   "text": "Она спрашивает с удивлением, мы остановимся в Хайед?",
+   "lang": "ru"
+  },
+  {
+   "start": 1093.32,
+   "end": 1095.12,
+   "text": "We're staying at the Hyatt?",
+   "lang": "en"
+  },
+  {
+   "start": 1097.98,
+   "end": 1101.36,
+   "text": "Я думала, что вы предпочитаете Серано.",
+   "lang": "ru"
+  },
+  {
+   "start": 1104.98,
+   "end": 1107.04,
+   "text": "I thought you preferred the Serrano.",
+   "lang": "ru"
+  },
+  {
+   "start": 1111.22,
+   "end": 1113.4,
+   "text": "Now you're speaking with an acquaintance.",
+   "lang": "ru"
+  },
+  {
+   "start": 1113.56,
+   "end": 1116.22,
+   "text": "Ask her if she would like to go to the movies tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 1116.22,
+   "end": 1116.4,
+   "text": "night.",
+   "lang": "en"
+  },
+  {
+   "start": 1120.38,
+   "end": 1122.38,
+   "text": "Would you like to go to the movies tonight?",
+   "lang": "ru"
+  },
+  {
+   "start": 1122.38,
+   "end": 1122.56,
+   "text": "night?",
+   "lang": "en"
+  },
+  {
+   "start": 1126.58,
+   "end": 1128.94,
+   "text": "She asks, Разве вы не помните?",
+   "lang": "ru"
+  },
+  {
+   "start": 1131.78,
+   "end": 1132.68,
+   "text": "Don't you remember?",
+   "lang": "ru"
+  },
+  {
+   "start": 1135.52,
+   "end": 1138.28,
+   "text": "Сегодня вечером мы идем на концерт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1141.8,
+   "end": 1143.36,
+   "text": "Tonight we're going to the concert.",
+   "lang": "en"
+  },
+  {
+   "start": 1146.46,
+   "end": 1150.7,
+   "text": "Сейчас вы на концерте. Вы смотрите в свой бумажник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1150.7,
+   "end": 1152.7,
+   "text": "Say that you can't find the tickets.",
+   "lang": "ru"
+  },
+  {
+   "start": 1156.72,
+   "end": 1158.0,
+   "text": "I can't find the tickets.",
+   "lang": "ru"
+  },
+  {
+   "start": 1161.6,
+   "end": 1162.28,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1162.8,
+   "end": 1164.9,
+   "text": "Сегодня во второй половине дня.",
+   "lang": "ru"
+  },
+  {
+   "start": 1167.5,
+   "end": 1168.62,
+   "text": "This afternoon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1171.48,
+   "end": 1172.6,
+   "text": "This afternoon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1175.58,
+   "end": 1178.02,
+   "text": "Я не мог найти свои записи.",
+   "lang": "ru"
+  },
+  {
+   "start": 1181.28,
+   "end": 1182.72,
+   "text": "Я ура!",
+   "lang": "ru"
+  },
+  {
+   "start": 1185.06,
+   "end": 1186.86,
+   "text": "And now...",
+   "lang": "en"
+  },
+  {
+   "start": 1186.96,
+   "end": 1189.58,
+   "text": "А сейчас я не могу найти наши билеты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1193.62,
+   "end": 1195.8,
+   "text": "And now I can't find our tickets.",
+   "lang": "en"
+  },
+  {
+   "start": 1199.6,
+   "end": 1202.84,
+   "text": "Вдруг вы находите их в сумке. Что вы скажете?",
+   "lang": "ru"
+  },
+  {
+   "start": 1205.92,
+   "end": 1206.5,
+   "text": "Here they are.",
+   "lang": "ru"
+  },
+  {
+   "start": 1209.52,
+   "end": 1210.08,
+   "text": "Here they are.",
+   "lang": "ru"
+  },
+  {
+   "start": 1212.46,
+   "end": 1217.1,
+   "text": "Сейчас вы в гостях у знакомой в ее новой квартире.",
+   "lang": "ru"
+  },
+  {
+   "start": 1218.12,
+   "end": 1221.3,
+   "text": "Вот как будет у вас красивая квартира.",
+   "lang": "ru"
+  },
+  {
+   "start": 1221.54,
+   "end": 1222.66,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1222.94,
+   "end": 1225.18,
+   "text": "У вас красивая квартира.",
+   "lang": "ru"
+  },
+  {
+   "start": 1228.16,
+   "end": 1229.12,
+   "text": "Компания.",
+   "lang": "ru"
+  },
+  {
+   "start": 1231.1,
+   "end": 1232.06,
+   "text": "Компания.",
+   "lang": "ru"
+  },
+  {
+   "start": 1234.86,
+   "end": 1235.82,
+   "text": "Компания.",
+   "lang": "ru"
+  },
+  {
+   "start": 1235.82,
+   "end": 1240.7,
+   "text": "A beautiful apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 1243.1,
+   "end": 1245.18,
+   "text": "You have a beautiful apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 1248.46,
+   "end": 1251.08,
+   "text": "Say, красивая квартира.",
+   "lang": "ru"
+  },
+  {
+   "start": 1253.44,
+   "end": 1255.3,
+   "text": "A beautiful apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 1258.38,
+   "end": 1260.36,
+   "text": "Ask, как долго?",
+   "lang": "ru"
+  },
+  {
+   "start": 1263.28,
+   "end": 1263.84,
+   "text": "How long?",
+   "lang": "ru"
+  },
+  {
+   "start": 1266.64,
+   "end": 1269.98,
+   "text": "Как долго вы живете в этой квартире?",
+   "lang": "ru"
+  },
+  {
+   "start": 1274.42,
+   "end": 1276.96,
+   "text": "How long have you lived in this apartment?",
+   "lang": "ru"
+  },
+  {
+   "start": 1281.54,
+   "end": 1282.74,
+   "text": "In this apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 1285.74,
+   "end": 1287.88,
+   "text": "How long have you lived in this apartment?",
+   "lang": "ru"
+  },
+  {
+   "start": 1292.62,
+   "end": 1293.62,
+   "text": "She answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 1293.92,
+   "end": 1296.6,
+   "text": "Всего лишь месяц. Используйте число.",
+   "lang": "ru"
+  },
+  {
+   "start": 1299.4,
+   "end": 1300.9,
+   "text": "Only one month.",
+   "lang": "ru"
+  },
+  {
+   "start": 1303.6,
+   "end": 1306.98,
+   "text": "Now she says, там небольшой дворик позади.",
+   "lang": "ru"
+  },
+  {
+   "start": 1307.16,
+   "end": 1307.82,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1308.2,
+   "end": 1310.18,
+   "text": "There's a small yard in the back.",
+   "lang": "ru"
+  },
+  {
+   "start": 1310.74,
+   "end": 1312.58,
+   "text": "There's a small yard in the back.",
+   "lang": "en"
+  },
+  {
+   "start": 1313.38,
+   "end": 1314.7,
+   "text": "Сначала позади.",
+   "lang": "ru"
+  },
+  {
+   "start": 1315.02,
+   "end": 1316.24,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1317.1,
+   "end": 1317.64,
+   "text": "In the back.",
+   "lang": "ru"
+  },
+  {
+   "start": 1320.16,
+   "end": 1320.82,
+   "text": "Back.",
+   "lang": "ru"
+  },
+  {
+   "start": 1322.9,
+   "end": 1323.56,
+   "text": "Back.",
+   "lang": "ru"
+  },
+  {
+   "start": 1326.02,
+   "end": 1326.96,
+   "text": "In the back.",
+   "lang": "en"
+  },
+  {
+   "start": 1330.12,
+   "end": 1330.98,
+   "text": "Позади.",
+   "lang": "ru"
+  },
+  {
+   "start": 1333.82,
+   "end": 1334.92,
+   "text": "In the back",
+   "lang": "en"
+  },
+  {
+   "start": 1336.28,
+   "end": 1339.9,
+   "text": "А сейчас как будет дворик?",
+   "lang": "ru"
+  },
+  {
+   "start": 1340.04,
+   "end": 1341.16,
+   "text": "Послушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.3,
+   "end": 1342.64,
+   "text": "Ярд.",
+   "lang": "ru"
+  },
+  {
+   "start": 1344.14,
+   "end": 1345.54,
+   "text": "Yard",
+   "lang": "en"
+  },
+  {
+   "start": 1347.72,
+   "end": 1348.76,
+   "text": "Попробуйте сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1349.5,
+   "end": 1350.84,
+   "text": "Тут есть небольшой дворик.",
+   "lang": "ru"
+  },
+  {
+   "start": 1354.56,
+   "end": 1355.64,
+   "text": "There's a small yard.",
+   "lang": "ru"
+  },
+  {
+   "start": 1358.94,
+   "end": 1360.42,
+   "text": "There's a small yard.",
+   "lang": "ru"
+  },
+  {
+   "start": 1363.62,
+   "end": 1367.12,
+   "text": "Now say, там позади небольшой дворик.",
+   "lang": "ru"
+  },
+  {
+   "start": 1370.62,
+   "end": 1372.66,
+   "text": "There's a small yard in the back.",
+   "lang": "ru"
+  },
+  {
+   "start": 1376.34,
+   "end": 1379.58,
+   "text": "Say, это действительно красивая квартира.",
+   "lang": "ru"
+  },
+  {
+   "start": 1383.28,
+   "end": 1385.02,
+   "text": "It's really a beautiful apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 1388.84,
+   "end": 1390.62,
+   "text": "Где вы паркуете машину?",
+   "lang": "ru"
+  },
+  {
+   "start": 1390.68,
+   "end": 1391.6,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1392.08,
+   "end": 1393.58,
+   "text": "Where do you park your car?",
+   "lang": "ru"
+  },
+  {
+   "start": 1397.28,
+   "end": 1397.84,
+   "text": "Park",
+   "lang": "ru"
+  },
+  {
+   "start": 1399.68,
+   "end": 1400.24,
+   "text": "Park",
+   "lang": "ru"
+  },
+  {
+   "start": 1402.48,
+   "end": 1403.62,
+   "text": "Park your car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1406.32,
+   "end": 1407.82,
+   "text": "Where do you park your car?",
+   "lang": "ru"
+  },
+  {
+   "start": 1410.22,
+   "end": 1411.62,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 1411.92,
+   "end": 1413.36,
+   "text": "Вы паркуете.",
+   "lang": "ru"
+  },
+  {
+   "start": 1415.44,
+   "end": 1416.64,
+   "text": "You park.",
+   "lang": "en"
+  },
+  {
+   "start": 1418.98,
+   "end": 1419.78,
+   "text": "Park.",
+   "lang": "en"
+  },
+  {
+   "start": 1421.98,
+   "end": 1424.7,
+   "text": "Спросите ее, где она паркует машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 1427.86,
+   "end": 1429.3,
+   "text": "Where do you park your car?",
+   "lang": "en"
+  },
+  {
+   "start": 1433.02,
+   "end": 1434.46,
+   "text": "Напротив квартиры.",
+   "lang": "ru"
+  },
+  {
+   "start": 1435.02,
+   "end": 1435.74,
+   "text": "Напротив.",
+   "lang": "ru"
+  },
+  {
+   "start": 1435.92,
+   "end": 1436.92,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1437.92,
+   "end": 1438.62,
+   "text": "In front of.",
+   "lang": "ru"
+  },
+  {
+   "start": 1440.66,
+   "end": 1442.06,
+   "text": "Front",
+   "lang": "en"
+  },
+  {
+   "start": 1442.9,
+   "end": 1448.06,
+   "text": "front In front",
+   "lang": "ru"
+  },
+  {
+   "start": 1449.72,
+   "end": 1455.02,
+   "text": "in front of",
+   "lang": "ru"
+  },
+  {
+   "start": 1457.92,
+   "end": 1458.78,
+   "text": "Try to say",
+   "lang": "en"
+  },
+  {
+   "start": 1459.06,
+   "end": 1460.76,
+   "text": "напротив квартиры.",
+   "lang": "ru"
+  },
+  {
+   "start": 1463.9,
+   "end": 1465.34,
+   "text": "in front of the apartment.",
+   "lang": "en"
+  },
+  {
+   "start": 1468.46,
+   "end": 1476.5,
+   "text": "Ask, где вы паркуете свою машину?",
+   "lang": "ru"
+  },
+  {
+   "start": 1478.84,
+   "end": 1480.72,
+   "text": "Where do you park your car?",
+   "lang": "ru"
+  },
+  {
+   "start": 1483.36,
+   "end": 1486.52,
+   "text": "Пробуйте ответить напротив.",
+   "lang": "ru"
+  },
+  {
+   "start": 1486.52,
+   "end": 1489.64,
+   "text": "In front",
+   "lang": "en"
+  },
+  {
+   "start": 1489.64,
+   "end": 1492.96,
+   "text": "In front",
+   "lang": "en"
+  },
+  {
+   "start": 1494.64,
+   "end": 1497.12,
+   "text": "Напротив квартиры.",
+   "lang": "ru"
+  },
+  {
+   "start": 1500.3,
+   "end": 1501.62,
+   "text": "In front of the apartment.",
+   "lang": "en"
+  },
+  {
+   "start": 1504.28,
+   "end": 1507.02,
+   "text": "Имеется небольшой садик позади.",
+   "lang": "ru"
+  },
+  {
+   "start": 1510.76,
+   "end": 1512.52,
+   "text": "There's a small yard in the back.",
+   "lang": "en"
+  },
+  {
+   "start": 1514.12,
+   "end": 1518.5,
+   "text": "Я не могу парковать машину сзади.",
+   "lang": "ru"
+  },
+  {
+   "start": 1521.84,
+   "end": 1523.82,
+   "text": "I can't park my car in the back.",
+   "lang": "en"
+  },
+  {
+   "start": 1526.76,
+   "end": 1528.92,
+   "text": "Там небольшой дворик.",
+   "lang": "ru"
+  },
+  {
+   "start": 1531.48,
+   "end": 1533.08,
+   "text": "There's a small yard there.",
+   "lang": "en"
+  },
+  {
+   "start": 1535.94,
+   "end": 1539.24,
+   "text": "Я всегда паркую свою машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 1542.22,
+   "end": 1543.88,
+   "text": "I always park my car.",
+   "lang": "en"
+  },
+  {
+   "start": 1547.1,
+   "end": 1549.0,
+   "text": "напротив моей квартиры.",
+   "lang": "ru"
+  },
+  {
+   "start": 1552.06,
+   "end": 1553.66,
+   "text": "In front of my apartment.",
+   "lang": "en"
+  },
+  {
+   "start": 1557.26,
+   "end": 1563.46,
+   "text": "Later you're having dinner together at a restaurant. You order a glass of red wine. Your friend says,",
+   "lang": "en"
+  },
+  {
+   "start": 1563.64,
+   "end": 1566.66,
+   "text": "Я думала, что вы предпочитаете белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 1570.72,
+   "end": 1572.5,
+   "text": "I thought you preferred white wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1576.14,
+   "end": 1580.7,
+   "text": "Now she asks, Вы были в отпуске на прошлой неделе, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1585.58,
+   "end": 1588.16,
+   "text": "You were on vacation last week, weren't you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1592.62,
+   "end": 1595.26,
+   "text": "You were on vacation last week, weren't you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1599.98,
+   "end": 1601.58,
+   "text": "Ответьте кратко, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1604.88,
+   "end": 1606.06,
+   "text": "Yes I was.",
+   "lang": "en"
+  },
+  {
+   "start": 1609.08,
+   "end": 1612.16,
+   "text": "Say that you were in Tacoma. Tacoma.",
+   "lang": "en"
+  },
+  {
+   "start": 1615.72,
+   "end": 1617.18,
+   "text": "I was in Tacoma.",
+   "lang": "en"
+  },
+  {
+   "start": 1620.16,
+   "end": 1621.58,
+   "text": "I was in Tacoma.",
+   "lang": "en"
+  },
+  {
+   "start": 1624.64,
+   "end": 1625.24,
+   "text": "Say that you were in Tacoma.",
+   "lang": "en"
+  },
+  {
+   "start": 1625.26,
+   "end": 1628.32,
+   "text": "Это небольшой город недалеко от Сиэтла.",
+   "lang": "ru"
+  },
+  {
+   "start": 1632.5,
+   "end": 1634.48,
+   "text": "It's a small city near Seattle.",
+   "lang": "en"
+  },
+  {
+   "start": 1638.54,
+   "end": 1640.84,
+   "text": "Она спрашивает с удивлением.",
+   "lang": "ru"
+  },
+  {
+   "start": 1641.5,
+   "end": 1642.44,
+   "text": "Вы были в Такоме?",
+   "lang": "ru"
+  },
+  {
+   "start": 1643.9,
+   "end": 1646.68,
+   "text": "You were in Tacoma?",
+   "lang": "en"
+  },
+  {
+   "start": 1649.32,
+   "end": 1652.58,
+   "text": "Я думала, что вы хотели поехать в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1657.0,
+   "end": 1658.9,
+   "text": "I thought you wanted to go to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 1663.48,
+   "end": 1666.58,
+   "text": "Нет, моя сестра живет в Такоме.",
+   "lang": "ru"
+  },
+  {
+   "start": 1670.82,
+   "end": 1673.14,
+   "text": "No, my sister lives in Tacoma.",
+   "lang": "ru"
+  },
+  {
+   "start": 1677.24,
+   "end": 1679.6,
+   "text": "Say that she has a nice apartment there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1679.6,
+   "end": 1679.72,
+   "text": "there.",
+   "lang": "en"
+  },
+  {
+   "start": 1684.22,
+   "end": 1686.36,
+   "text": "She has a nice apartment there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1690.08,
+   "end": 1691.36,
+   "text": "A nice apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 1694.3,
+   "end": 1697.3,
+   "text": "Это недалеко от ее офиса.",
+   "lang": "ru"
+  },
+  {
+   "start": 1700.9,
+   "end": 1702.1,
+   "text": "It's near her office.",
+   "lang": "en"
+  },
+  {
+   "start": 1705.36,
+   "end": 1708.46,
+   "text": "А позади дома имеется небольшой дворик.",
+   "lang": "ru"
+  },
+  {
+   "start": 1712.6,
+   "end": 1714.98,
+   "text": "And it has a small yard in the back.",
+   "lang": "ru"
+  },
+  {
+   "start": 1719.36,
+   "end": 1724.04,
+   "text": "После того, как вы поели, вы говорите, я должен скоро уйти.",
+   "lang": "ru"
+  },
+  {
+   "start": 1727.16,
+   "end": 1728.68,
+   "text": "I should leave soon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1728.68,
+   "end": 1728.9,
+   "text": "soon.",
+   "lang": "en"
+  },
+  {
+   "start": 1731.7,
+   "end": 1733.16,
+   "text": "I should leave soon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1736.36,
+   "end": 1737.44,
+   "text": "Ask the waiter.",
+   "lang": "ru"
+  },
+  {
+   "start": 1738.46,
+   "end": 1739.82,
+   "text": "Принимаете кредитные карты?",
+   "lang": "ru"
+  },
+  {
+   "start": 1742.9,
+   "end": 1745.0,
+   "text": "Do you accept credit cards?",
+   "lang": "en"
+  },
+  {
+   "start": 1754.0,
+   "end": 1758.86,
+   "text": "Так как речь идет о небольшом заведении, то они не принимают карты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1758.92,
+   "end": 1762.84,
+   "text": "Тогда ваша знакомая говорит, почему бы мне не заплатить?",
+   "lang": "ru"
+  },
+  {
+   "start": 1762.94,
+   "end": 1765.68,
+   "text": "Здесь не нужно говорить предлог for.",
+   "lang": "ru"
+  },
+  {
+   "start": 1768.64,
+   "end": 1770.18,
+   "text": "Why don't I pay?",
+   "lang": "ru"
+  },
+  {
+   "start": 1773.1,
+   "end": 1774.36,
+   "text": "Why don't I pay?",
+   "lang": "en"
+  },
+  {
+   "start": 1776.68,
+   "end": 1781.38,
+   "text": "Try to say, я не могла заплатить на прошлой неделе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1784.56,
+   "end": 1786.66,
+   "text": "I couldn't pay last week.",
+   "lang": "ru"
+  },
+  {
+   "start": 1789.98,
+   "end": 1792.02,
+   "text": "I couldn't pay last week",
+   "lang": "en"
+  },
+  {
+   "start": 1795.04,
+   "end": 1798.16,
+   "text": "Потому что не могла найти свои кредитки.",
+   "lang": "ru"
+  },
+  {
+   "start": 1802.08,
+   "end": 1804.26,
+   "text": "Because I couldn't find my credit cards.",
+   "lang": "en"
+  },
+  {
+   "start": 1808.36,
+   "end": 1808.84,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 1809.32,
+   "end": 1810.36,
+   "text": "You can pay again.",
+   "lang": "en"
+  },
+  {
+   "start": 1810.38,
+   "end": 1814.92,
+   "text": "Она говорит, вы можете заплатить в следующий раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1815.84,
+   "end": 1817.78,
+   "text": "Это конец десятого урока.",
+   "lang": "ru"
+  }
+ ]
+}

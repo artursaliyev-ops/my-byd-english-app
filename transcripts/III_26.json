@@ -1,0 +1,2175 @@
+{
+ "id": "III_26",
+ "source": "Pimsleur_III_26.mp3",
+ "duration": 1817.5,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 141,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.56,
+   "text": "I'd be the wild rover for many years. I'd spend all my money on whiskey and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.2,
+   "end": 19.06,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем",
+   "lang": "ru"
+  },
+  {
+   "start": 20.74,
+   "end": 27.68,
+   "text": "26-й урок третьего уровня американского английского языка по методу доктора Пимстера.",
+   "lang": "ru"
+  },
+  {
+   "start": 27.68,
+   "end": 29.32,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 30.22,
+   "end": 32.76,
+   "text": "Well, Ann, what are your children doing now?",
+   "lang": "en"
+  },
+  {
+   "start": 33.14,
+   "end": 35.82,
+   "text": "My daughter has a job as a computer programmer.",
+   "lang": "en"
+  },
+  {
+   "start": 36.02,
+   "end": 37.58,
+   "text": "She lives in San Francisco.",
+   "lang": "en"
+  },
+  {
+   "start": 37.78,
+   "end": 40.7,
+   "text": "And my son is in college at Boston University.",
+   "lang": "en"
+  },
+  {
+   "start": 41.26,
+   "end": 42.14,
+   "text": "What's he studying?",
+   "lang": "en"
+  },
+  {
+   "start": 42.56,
+   "end": 44.98,
+   "text": "History. He'd like to be a history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 45.38,
+   "end": 47.2,
+   "text": "Really? I didn't know that.",
+   "lang": "en"
+  },
+  {
+   "start": 47.52,
+   "end": 49.84,
+   "text": "Oh, yes. He's always wanted to be a teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 51.04,
+   "end": 51.84,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 52.84,
+   "end": 55.48,
+   "text": "Well, Ann, what are your children doing now?",
+   "lang": "en"
+  },
+  {
+   "start": 55.48,
+   "end": 63.18,
+   "text": "My daughter has a job as a computer programmer. She lives in San Francisco, and my son is in college at Boston University.",
+   "lang": "en"
+  },
+  {
+   "start": 63.78,
+   "end": 64.7,
+   "text": "What's he studying?",
+   "lang": "en"
+  },
+  {
+   "start": 65.3,
+   "end": 67.62,
+   "text": "History. He'd like to be a history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 68.06,
+   "end": 69.94,
+   "text": "Really? I didn't know that.",
+   "lang": "en"
+  },
+  {
+   "start": 70.28,
+   "end": 72.52,
+   "text": "Oh, yes. He's always wanted to be a teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 72.62,
+   "end": 76.64,
+   "text": "Вы спрашиваете вашу знакомую о ее детях.",
+   "lang": "ru"
+  },
+  {
+   "start": 76.66,
+   "end": 79.66,
+   "text": "Она говорит, моя дочь ищет работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 83.22,
+   "end": 85.32,
+   "text": "My daughter's looking for a job.",
+   "lang": "en"
+  },
+  {
+   "start": 88.72,
+   "end": 90.12,
+   "text": "Аккуратно.",
+   "lang": "ru"
+  },
+  {
+   "start": 92.22,
+   "end": 94.2,
+   "text": "My daughter's looking for a job.",
+   "lang": "en"
+  },
+  {
+   "start": 97.06,
+   "end": 99.86,
+   "text": "Какую работу?",
+   "lang": "ru"
+  },
+  {
+   "start": 102.88,
+   "end": 104.24,
+   "text": "What kind of job?",
+   "lang": "en"
+  },
+  {
+   "start": 107.22,
+   "end": 108.52,
+   "text": "What kind of job?",
+   "lang": "en"
+  },
+  {
+   "start": 111.42,
+   "end": 113.08,
+   "text": "Do you remember how to say?",
+   "lang": "en"
+  },
+  {
+   "start": 113.48,
+   "end": 114.98,
+   "text": "Работа учителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 114.98,
+   "end": 119.12,
+   "text": "A job as a teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 121.92,
+   "end": 123.44,
+   "text": "A job as a teacher",
+   "lang": "en"
+  },
+  {
+   "start": 126.54,
+   "end": 129.42,
+   "text": "Ask. Какую работу она ищет?",
+   "lang": "ru"
+  },
+  {
+   "start": 133.92,
+   "end": 136.36,
+   "text": "What kind of job is she looking for?",
+   "lang": "ru"
+  },
+  {
+   "start": 141.0,
+   "end": 144.82,
+   "text": "She says. Она ищет работу учителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 148.7,
+   "end": 150.36,
+   "text": "She's looking for a job as a",
+   "lang": "en"
+  },
+  {
+   "start": 150.46,
+   "end": 157.38,
+   "text": "Ask. Учителя средней школы.",
+   "lang": "ru"
+  },
+  {
+   "start": 159.88,
+   "end": 161.26,
+   "text": "A high school teacher?",
+   "lang": "en"
+  },
+  {
+   "start": 168.22,
+   "end": 169.5,
+   "text": "Совершенно верно.",
+   "lang": "ru"
+  },
+  {
+   "start": 169.5,
+   "end": 176.38,
+   "text": "Она ищет работу учителя средней школы.",
+   "lang": "ru"
+  },
+  {
+   "start": 180.72,
+   "end": 183.04,
+   "text": "She's looking for a job as a high school teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 187.74,
+   "end": 190.22,
+   "text": "Она хочет быть учителем.",
+   "lang": "ru"
+  },
+  {
+   "start": 193.58,
+   "end": 195.14,
+   "text": "She wants to be a teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 196.7,
+   "end": 200.22,
+   "text": "И ей нравится история.",
+   "lang": "ru"
+  },
+  {
+   "start": 203.44,
+   "end": 205.06,
+   "text": "And she likes history.",
+   "lang": "en"
+  },
+  {
+   "start": 210.2,
+   "end": 214.52,
+   "text": "Она всегда хотела стать учителем.",
+   "lang": "ru"
+  },
+  {
+   "start": 218.62,
+   "end": 220.42,
+   "text": "She's always wanted to be a teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 224.48,
+   "end": 226.0,
+   "text": "She has always wanted.",
+   "lang": "en"
+  },
+  {
+   "start": 229.58,
+   "end": 231.5,
+   "text": "She's always wanted to be a teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 235.24,
+   "end": 238.66,
+   "text": "Она хочет быть учителем истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 242.4,
+   "end": 244.58,
+   "text": "She wants to be a history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 248.6,
+   "end": 250.0,
+   "text": "A history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 251.6,
+   "end": 257.54,
+   "text": "Она хочет быть учителем истории в средней школе. Помните о порядке слов.",
+   "lang": "ru"
+  },
+  {
+   "start": 263.04,
+   "end": 265.76,
+   "text": "She wants to be a high school history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 270.96,
+   "end": 272.9,
+   "text": "A high school history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 275.2,
+   "end": 279.12,
+   "text": "А ваш сын?",
+   "lang": "ru"
+  },
+  {
+   "start": 281.9,
+   "end": 282.86,
+   "text": "And your son?",
+   "lang": "en"
+  },
+  {
+   "start": 286.14,
+   "end": 289.46,
+   "text": "Он все еще учится в институте.",
+   "lang": "ru"
+  },
+  {
+   "start": 292.86,
+   "end": 294.06,
+   "text": "He's still in college.",
+   "lang": "en"
+  },
+  {
+   "start": 295.22,
+   "end": 300.46,
+   "text": "Он хочет стать программистом.",
+   "lang": "ru"
+  },
+  {
+   "start": 305.04,
+   "end": 307.64,
+   "text": "He wants to be a computer programmer.",
+   "lang": "ru"
+  },
+  {
+   "start": 312.52,
+   "end": 314.22,
+   "text": "A computer programmer.",
+   "lang": "ru"
+  },
+  {
+   "start": 314.22,
+   "end": 314.4,
+   "text": "BAMMER",
+   "lang": "en"
+  },
+  {
+   "start": 317.42,
+   "end": 321.12,
+   "text": "Она хочет знать, чем сейчас занимаются ваши дети.",
+   "lang": "ru"
+  },
+  {
+   "start": 321.32,
+   "end": 324.66,
+   "text": "What are your children doing now?",
+   "lang": "ru"
+  },
+  {
+   "start": 325.96,
+   "end": 328.02,
+   "text": "And your children, what are they doing now?",
+   "lang": "ru"
+  },
+  {
+   "start": 328.02,
+   "end": 332.88,
+   "text": "Она спрашивает дословно, что ваши дети делают?",
+   "lang": "ru"
+  },
+  {
+   "start": 335.26,
+   "end": 336.82,
+   "text": "What are your children doing?",
+   "lang": "en"
+  },
+  {
+   "start": 339.36,
+   "end": 343.28,
+   "text": "А сейчас она хочет узнать, кем они работают.",
+   "lang": "ru"
+  },
+  {
+   "start": 343.72,
+   "end": 345.46,
+   "text": "How does she ask what they do?",
+   "lang": "ru"
+  },
+  {
+   "start": 348.36,
+   "end": 349.16,
+   "text": "What do they do?",
+   "lang": "ru"
+  },
+  {
+   "start": 351.36,
+   "end": 352.76,
+   "text": "What do they do?",
+   "lang": "ru"
+  },
+  {
+   "start": 355.24,
+   "end": 356.26,
+   "text": "What do they do?",
+   "lang": "en"
+  },
+  {
+   "start": 356.94,
+   "end": 361.96,
+   "text": "Используется, когда говорят о работе или о типичном времяпрепровождении.",
+   "lang": "ru"
+  },
+  {
+   "start": 363.44,
+   "end": 371.78,
+   "text": "Может относиться к действию, происходящему непосредственно в данный момент или к более длительному процессу, растянутому во времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 372.5,
+   "end": 377.72,
+   "text": "Подразумевая длительный период времени, спросите, чем занимаются сейчас ваши дети?",
+   "lang": "ru"
+  },
+  {
+   "start": 381.38,
+   "end": 383.6,
+   "text": "What are your children doing now?",
+   "lang": "ru"
+  },
+  {
+   "start": 383.6,
+   "end": 383.76,
+   "text": "now.",
+   "lang": "en"
+  },
+  {
+   "start": 387.44,
+   "end": 390.34,
+   "text": "Say, мой сын тоже в университете.",
+   "lang": "ru"
+  },
+  {
+   "start": 394.18,
+   "end": 396.34,
+   "text": "My son's in college too.",
+   "lang": "ru"
+  },
+  {
+   "start": 400.5,
+   "end": 402.4,
+   "text": "Ему нравятся компьютеры.",
+   "lang": "ru"
+  },
+  {
+   "start": 405.12,
+   "end": 406.52,
+   "text": "He likes computers.",
+   "lang": "ru"
+  },
+  {
+   "start": 406.52,
+   "end": 406.84,
+   "text": "computers.",
+   "lang": "en"
+  },
+  {
+   "start": 409.78,
+   "end": 412.42,
+   "text": "Но он не хочет быть программистом.",
+   "lang": "ru"
+  },
+  {
+   "start": 416.66,
+   "end": 418.64,
+   "text": "But he doesn't want to be a programmer.",
+   "lang": "en"
+  },
+  {
+   "start": 423.12,
+   "end": 425.42,
+   "text": "Он хочет стать инженером.",
+   "lang": "ru"
+  },
+  {
+   "start": 429.52,
+   "end": 431.12,
+   "text": "He wants to be an engineer",
+   "lang": "en"
+  },
+  {
+   "start": 433.88,
+   "end": 437.52,
+   "text": "Он всегда хотел стать инженером.",
+   "lang": "ru"
+  },
+  {
+   "start": 442.26,
+   "end": 444.42,
+   "text": "He's always wanted to be an engineer",
+   "lang": "en"
+  },
+  {
+   "start": 448.72,
+   "end": 453.44,
+   "text": "Моей дочери всего 16 лет. Слово «лет» опускается.",
+   "lang": "ru"
+  },
+  {
+   "start": 456.86,
+   "end": 459.0,
+   "text": "My daughter's only 16.",
+   "lang": "en"
+  },
+  {
+   "start": 461.88,
+   "end": 464.4,
+   "text": "Я не знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 466.34,
+   "end": 467.4,
+   "text": "I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 469.8,
+   "end": 473.5,
+   "text": "Я не знаю, чем она хочет заниматься.",
+   "lang": "ru"
+  },
+  {
+   "start": 477.8,
+   "end": 479.96,
+   "text": "I don't know what she wants to do",
+   "lang": "en"
+  },
+  {
+   "start": 483.82,
+   "end": 486.4,
+   "text": "Ей по-настоящему нравится спорт.",
+   "lang": "ru"
+  },
+  {
+   "start": 489.46,
+   "end": 491.22,
+   "text": "She really likes sports.",
+   "lang": "en"
+  },
+  {
+   "start": 493.7,
+   "end": 496.94,
+   "text": "На выходных в свободное время.",
+   "lang": "ru"
+  },
+  {
+   "start": 502.06,
+   "end": 504.66,
+   "text": "On weekends in my spare time.",
+   "lang": "en"
+  },
+  {
+   "start": 508.94,
+   "end": 512.76,
+   "text": "Я часто играю в теннис с дочерью.",
+   "lang": "ru"
+  },
+  {
+   "start": 517.6,
+   "end": 520.28,
+   "text": "I often play tennis with my daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 524.2,
+   "end": 526.92,
+   "text": "Она играет довольно хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 530.28,
+   "end": 532.02,
+   "text": "She plays pretty well.",
+   "lang": "en"
+  },
+  {
+   "start": 534.5,
+   "end": 537.24,
+   "text": "И поблизости есть корты.",
+   "lang": "ru"
+  },
+  {
+   "start": 542.18,
+   "end": 544.18,
+   "text": "И есть несколько коров рядом.",
+   "lang": "ru"
+  },
+  {
+   "start": 544.18,
+   "end": 544.52,
+   "text": "nearby.",
+   "lang": "en"
+  },
+  {
+   "start": 549.28,
+   "end": 550.16,
+   "text": "Некоторые коров.",
+   "lang": "ru"
+  },
+  {
+   "start": 552.86,
+   "end": 555.48,
+   "text": "Теперь спроси вашей знакомой, если она играет в теннис.",
+   "lang": "ru"
+  },
+  {
+   "start": 558.34,
+   "end": 559.74,
+   "text": "Ты играешь в теннис?",
+   "lang": "ru"
+  },
+  {
+   "start": 562.74,
+   "end": 565.46,
+   "text": "Она говорит, что нет, но я играю в гольф.",
+   "lang": "ru"
+  },
+  {
+   "start": 569.0,
+   "end": 571.26,
+   "text": "No, but I play golf.",
+   "lang": "ru"
+  },
+  {
+   "start": 574.7,
+   "end": 577.12,
+   "text": "Say, Мне нравится гольф.",
+   "lang": "ru"
+  },
+  {
+   "start": 579.52,
+   "end": 581.02,
+   "text": "I like golf.",
+   "lang": "ru"
+  },
+  {
+   "start": 583.62,
+   "end": 586.04,
+   "text": "Но в Мексике это слишком дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 590.24,
+   "end": 592.58,
+   "text": "But in Mexico it's too expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 592.58,
+   "end": 592.9,
+   "text": "Offensive.",
+   "lang": "en"
+  },
+  {
+   "start": 597.84,
+   "end": 601.4,
+   "text": "Another day you're talking with someone else, she asks.",
+   "lang": "ru"
+  },
+  {
+   "start": 601.62,
+   "end": 603.68,
+   "text": "Что делает ваш сын этим летом?",
+   "lang": "ru"
+  },
+  {
+   "start": 607.74,
+   "end": 609.66,
+   "text": "What's your son doing this summer?",
+   "lang": "ru"
+  },
+  {
+   "start": 613.78,
+   "end": 615.0,
+   "text": "What is he doing?",
+   "lang": "ru"
+  },
+  {
+   "start": 617.08,
+   "end": 620.1,
+   "text": "Как бы она спросила, кем он работает?",
+   "lang": "ru"
+  },
+  {
+   "start": 622.98,
+   "end": 623.98,
+   "text": "What does he do?",
+   "lang": "en"
+  },
+  {
+   "start": 627.02,
+   "end": 629.66,
+   "text": "Представьте, что вы Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 630.32,
+   "end": 632.26,
+   "text": "Вы приехали в Бостон навстречу.",
+   "lang": "ru"
+  },
+  {
+   "start": 632.94,
+   "end": 635.04,
+   "text": "Вы сейчас регистрируетесь в отеле.",
+   "lang": "ru"
+  },
+  {
+   "start": 635.3,
+   "end": 639.8,
+   "text": "Поздоровайтесь с девушкой на ресепшн и скажите ей свое имя.",
+   "lang": "ru"
+  },
+  {
+   "start": 644.86,
+   "end": 647.02,
+   "text": "Hello, my name is Jorge Centeno.",
+   "lang": "en"
+  },
+  {
+   "start": 650.78,
+   "end": 654.1,
+   "text": "Я делал бронирование.",
+   "lang": "ru"
+  },
+  {
+   "start": 658.44,
+   "end": 661.86,
+   "text": "Я забронировал комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 661.86,
+   "end": 664.5,
+   "text": "Сначала скажите «комната».",
+   "lang": "ru"
+  },
+  {
+   "start": 666.7,
+   "end": 668.5,
+   "text": "I made reservations.",
+   "lang": "en"
+  },
+  {
+   "start": 672.9,
+   "end": 675.62,
+   "text": "Я забронировал комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 677.18,
+   "end": 678.22,
+   "text": "Рум.",
+   "lang": "ru"
+  },
+  {
+   "start": 681.36,
+   "end": 681.62,
+   "text": "Room",
+   "lang": "en"
+  },
+  {
+   "start": 684.12,
+   "end": 686.74,
+   "text": "Скажите, что вы забронировали комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 686.74,
+   "end": 693.34,
+   "text": "Я забронировал комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 694.34,
+   "end": 695.08,
+   "text": "Reserved.",
+   "lang": "en"
+  },
+  {
+   "start": 697.88,
+   "end": 699.26,
+   "text": "I reserved.",
+   "lang": "en"
+  },
+  {
+   "start": 702.06,
+   "end": 703.94,
+   "text": "I reserved a room.",
+   "lang": "en"
+  },
+  {
+   "start": 712.06,
+   "end": 713.94,
+   "text": "I reserved a room.",
+   "lang": "en"
+  },
+  {
+   "start": 717.34,
+   "end": 720.02,
+   "text": "Now say that you reserved a room for tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 720.02,
+   "end": 720.26,
+   "text": "night.",
+   "lang": "en"
+  },
+  {
+   "start": 724.86,
+   "end": 727.08,
+   "text": "I reserved a room for tonight.",
+   "lang": "ru"
+  },
+  {
+   "start": 727.08,
+   "end": 727.32,
+   "text": "night.",
+   "lang": "en"
+  },
+  {
+   "start": 732.66,
+   "end": 734.86,
+   "text": "Послушайте ответ девушки на ресепшн.",
+   "lang": "ru"
+  },
+  {
+   "start": 735.4,
+   "end": 737.88,
+   "text": "Yes, sir. A room for one night.",
+   "lang": "ru"
+  },
+  {
+   "start": 738.58,
+   "end": 741.72,
+   "text": "Yes, sir. A room for one night.",
+   "lang": "ru"
+  },
+  {
+   "start": 741.72,
+   "end": 750.86,
+   "text": "Пока она регистрирует вас, упомяните о церкви, которую вы видели. Скажите, я видел неподалеку интересную церковь.",
+   "lang": "ru"
+  },
+  {
+   "start": 755.78,
+   "end": 758.68,
+   "text": "I saw an interesting church nearby.",
+   "lang": "en"
+  },
+  {
+   "start": 764.22,
+   "end": 766.06,
+   "text": "Она прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 770.26,
+   "end": 771.9,
+   "text": "It's just around the corner.",
+   "lang": "en"
+  },
+  {
+   "start": 775.78,
+   "end": 780.18,
+   "text": "Используя one, скажите, да, она интересная.",
+   "lang": "ru"
+  },
+  {
+   "start": 784.96,
+   "end": 787.42,
+   "text": "Yes, that one is interesting.",
+   "lang": "ru"
+  },
+  {
+   "start": 787.42,
+   "end": 792.56,
+   "text": "Thank you for listening.",
+   "lang": "en"
+  },
+  {
+   "start": 792.68,
+   "end": 793.66,
+   "text": "That one.",
+   "lang": "ru"
+  },
+  {
+   "start": 795.62,
+   "end": 797.26,
+   "text": "That one is interesting.",
+   "lang": "ru"
+  },
+  {
+   "start": 797.26,
+   "end": 797.6,
+   "text": "interesting.",
+   "lang": "en"
+  },
+  {
+   "start": 800.74,
+   "end": 804.46,
+   "text": "Try to say, может быть я пойду посмотреть ее позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 808.08,
+   "end": 809.9,
+   "text": "Maybe I'll go see it later.",
+   "lang": "ru"
+  },
+  {
+   "start": 809.9,
+   "end": 810.06,
+   "text": "Later.",
+   "lang": "en"
+  },
+  {
+   "start": 813.5,
+   "end": 815.48,
+   "text": "Maybe I'll go see it later.",
+   "lang": "ru"
+  },
+  {
+   "start": 819.14,
+   "end": 820.54,
+   "text": "Now she says,",
+   "lang": "ru"
+  },
+  {
+   "start": 820.68,
+   "end": 822.18,
+   "text": "У вас комната 35.",
+   "lang": "ru"
+  },
+  {
+   "start": 825.92,
+   "end": 827.54,
+   "text": "You have room 35.",
+   "lang": "ru"
+  },
+  {
+   "start": 831.6,
+   "end": 832.88,
+   "text": "Room 35.",
+   "lang": "ru"
+  },
+  {
+   "start": 835.78,
+   "end": 836.9,
+   "text": "Try to say,",
+   "lang": "ru"
+  },
+  {
+   "start": 837.12,
+   "end": 839.58,
+   "text": "Вы забронировали комнату на одну ночь.",
+   "lang": "ru"
+  },
+  {
+   "start": 840.18,
+   "end": 841.0,
+   "text": "Используйте число.",
+   "lang": "ru"
+  },
+  {
+   "start": 845.08,
+   "end": 847.38,
+   "text": "You reserved a room for one night.",
+   "lang": "ru"
+  },
+  {
+   "start": 851.7,
+   "end": 852.72,
+   "text": "You reserved",
+   "lang": "en"
+  },
+  {
+   "start": 852.72,
+   "end": 857.74,
+   "text": "You reserved a room for one night.",
+   "lang": "en"
+  },
+  {
+   "start": 860.84,
+   "end": 863.94,
+   "text": "У вас комната 35.",
+   "lang": "ru"
+  },
+  {
+   "start": 867.62,
+   "end": 869.26,
+   "text": "You have room 35.",
+   "lang": "en"
+  },
+  {
+   "start": 872.24,
+   "end": 876.84,
+   "text": "У вас есть багаж? Сначала скажите «багаж».",
+   "lang": "ru"
+  },
+  {
+   "start": 878.82,
+   "end": 879.66,
+   "text": "Лагерь.",
+   "lang": "ru"
+  },
+  {
+   "start": 881.98,
+   "end": 882.82,
+   "text": "Лагерь.",
+   "lang": "ru"
+  },
+  {
+   "start": 885.28,
+   "end": 886.12,
+   "text": "Лагерь.",
+   "lang": "ru"
+  },
+  {
+   "start": 887.8,
+   "end": 889.18,
+   "text": "Какой-нибудь лагерь.",
+   "lang": "ru"
+  },
+  {
+   "start": 892.06,
+   "end": 893.4,
+   "text": "Попробуйте спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 893.52,
+   "end": 894.98,
+   "text": "У вас есть багаж?",
+   "lang": "ru"
+  },
+  {
+   "start": 897.24,
+   "end": 899.78,
+   "text": "У вас есть багаж?",
+   "lang": "ru"
+  },
+  {
+   "start": 899.96,
+   "end": 901.42,
+   "text": "У вас есть багаж?",
+   "lang": "ru"
+  },
+  {
+   "start": 901.42,
+   "end": 904.78,
+   "text": "У вас есть багаж, сэр?",
+   "lang": "ru"
+  },
+  {
+   "start": 908.2,
+   "end": 911.08,
+   "text": "Да, он в моей машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 915.76,
+   "end": 917.18,
+   "text": "Yes, it's in my car.",
+   "lang": "en"
+  },
+  {
+   "start": 921.3,
+   "end": 924.36,
+   "text": "Где я могу припарковаться?",
+   "lang": "ru"
+  },
+  {
+   "start": 927.36,
+   "end": 928.64,
+   "text": "Where can I park?",
+   "lang": "en"
+  },
+  {
+   "start": 931.48,
+   "end": 933.62,
+   "text": "В отеле есть парковка.",
+   "lang": "ru"
+  },
+  {
+   "start": 933.72,
+   "end": 934.76,
+   "text": "Парковка.",
+   "lang": "ru"
+  },
+  {
+   "start": 936.84,
+   "end": 938.08,
+   "text": "паркинг гараж",
+   "lang": "ru"
+  },
+  {
+   "start": 940.84,
+   "end": 941.62,
+   "text": "гараж",
+   "lang": "ru"
+  },
+  {
+   "start": 943.84,
+   "end": 945.42,
+   "text": "га-радж",
+   "lang": "ru"
+  },
+  {
+   "start": 948.38,
+   "end": 949.78,
+   "text": "паркинг",
+   "lang": "ru"
+  },
+  {
+   "start": 951.84,
+   "end": 952.6,
+   "text": "паркинг",
+   "lang": "ru"
+  },
+  {
+   "start": 954.84,
+   "end": 956.12,
+   "text": "паркинг гараж",
+   "lang": "ru"
+  },
+  {
+   "start": 958.36,
+   "end": 961.2,
+   "text": "Say again. Парковка.",
+   "lang": "ru"
+  },
+  {
+   "start": 963.8,
+   "end": 965.48,
+   "text": "Parking Garage",
+   "lang": "en"
+  },
+  {
+   "start": 967.88,
+   "end": 972.14,
+   "text": "Вы можете припарковать вашу машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 974.9,
+   "end": 976.26,
+   "text": "You can park your car.",
+   "lang": "en"
+  },
+  {
+   "start": 978.2,
+   "end": 980.8,
+   "text": "На нашей парковке.",
+   "lang": "ru"
+  },
+  {
+   "start": 984.06,
+   "end": 985.66,
+   "text": "in our parking garage.",
+   "lang": "en"
+  },
+  {
+   "start": 989.58,
+   "end": 992.74,
+   "text": "Почему бы вам не принести ваш багаж?",
+   "lang": "ru"
+  },
+  {
+   "start": 996.14,
+   "end": 997.7,
+   "text": "Why don't you get your luggage?",
+   "lang": "en"
+  },
+  {
+   "start": 1006.02,
+   "end": 1008.98,
+   "text": "Потом вы сможете припарковать вашу машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 1012.82,
+   "end": 1014.5,
+   "text": "Then you can park your car.",
+   "lang": "en"
+  },
+  {
+   "start": 1017.36,
+   "end": 1019.38,
+   "text": "на нашей парковке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1022.32,
+   "end": 1023.86,
+   "text": "in our parking garage.",
+   "lang": "en"
+  },
+  {
+   "start": 1026.4,
+   "end": 1028.92,
+   "text": "А вот ваш электронный ключ.",
+   "lang": "ru"
+  },
+  {
+   "start": 1029.18,
+   "end": 1030.3,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1031.18,
+   "end": 1032.5,
+   "text": "Here's your key card.",
+   "lang": "ru"
+  },
+  {
+   "start": 1035.5,
+   "end": 1036.14,
+   "text": "Card.",
+   "lang": "ru"
+  },
+  {
+   "start": 1038.16,
+   "end": 1038.8,
+   "text": "Key.",
+   "lang": "ru"
+  },
+  {
+   "start": 1040.82,
+   "end": 1047.98,
+   "text": "Key. Key card. Here's your key card.",
+   "lang": "ru"
+  },
+  {
+   "start": 1050.74,
+   "end": 1054.78,
+   "text": "Дословно ключ карта. Скажите, электронный ключ.",
+   "lang": "ru"
+  },
+  {
+   "start": 1057.02,
+   "end": 1062.3,
+   "text": "Key card. Вот ваш электронный ключ.",
+   "lang": "ru"
+  },
+  {
+   "start": 1065.2,
+   "end": 1066.48,
+   "text": "Here's your keycard.",
+   "lang": "en"
+  },
+  {
+   "start": 1067.84,
+   "end": 1071.14,
+   "text": "У вас 35-я комната.",
+   "lang": "ru"
+  },
+  {
+   "start": 1074.4,
+   "end": 1075.88,
+   "text": "You have room 35.",
+   "lang": "en"
+  },
+  {
+   "start": 1079.74,
+   "end": 1082.88,
+   "text": "Но она все еще не готова.",
+   "lang": "ru"
+  },
+  {
+   "start": 1085.88,
+   "end": 1087.62,
+   "text": "But it's not ready yet.",
+   "lang": "en"
+  },
+  {
+   "start": 1090.94,
+   "end": 1092.42,
+   "text": "It's not ready yet.",
+   "lang": "en"
+  },
+  {
+   "start": 1095.32,
+   "end": 1098.46,
+   "text": "Вы хотите спросить, когда она будет готова?",
+   "lang": "ru"
+  },
+  {
+   "start": 1098.58,
+   "end": 1099.7,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1101.02,
+   "end": 1102.04,
+   "text": "Когда она будет готова?",
+   "lang": "ru"
+  },
+  {
+   "start": 1105.06,
+   "end": 1108.54,
+   "text": "Когда она будет готова?",
+   "lang": "ru"
+  },
+  {
+   "start": 1108.54,
+   "end": 1109.92,
+   "text": "When will it be ready?",
+   "lang": "en"
+  },
+  {
+   "start": 1113.54,
+   "end": 1114.56,
+   "text": "Спросите это снова.",
+   "lang": "ru"
+  },
+  {
+   "start": 1114.56,
+   "end": 1114.78,
+   "text": "again.",
+   "lang": "en"
+  },
+  {
+   "start": 1117.62,
+   "end": 1119.14,
+   "text": "Когда она будет готова?",
+   "lang": "ru"
+  },
+  {
+   "start": 1122.54,
+   "end": 1122.78,
+   "text": "See you.",
+   "lang": "en"
+  },
+  {
+   "start": 1122.86,
+   "end": 1127.74,
+   "text": "Примерно через полчаса. Употребите предлог в начале предложения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.52,
+   "end": 1132.1,
+   "text": "In about half an hour.",
+   "lang": "en"
+  },
+  {
+   "start": 1135.46,
+   "end": 1136.78,
+   "text": "About half an hour.",
+   "lang": "en"
+  },
+  {
+   "start": 1139.86,
+   "end": 1140.94,
+   "text": "In about.",
+   "lang": "en"
+  },
+  {
+   "start": 1144.32,
+   "end": 1145.84,
+   "text": "In about half an hour.",
+   "lang": "en"
+  },
+  {
+   "start": 1147.24,
+   "end": 1151.04,
+   "text": "Вы можете сходить за багажом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1153.92,
+   "end": 1155.44,
+   "text": "You can get your luggage.",
+   "lang": "en"
+  },
+  {
+   "start": 1162.04,
+   "end": 1165.58,
+   "text": "и припарковать свою машину",
+   "lang": "ru"
+  },
+  {
+   "start": 1168.54,
+   "end": 1169.84,
+   "text": "and park your car.",
+   "lang": "en"
+  },
+  {
+   "start": 1171.32,
+   "end": 1174.84,
+   "text": "на нашей парковке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1177.78,
+   "end": 1179.28,
+   "text": "in our parking garage.",
+   "lang": "en"
+  },
+  {
+   "start": 1181.34,
+   "end": 1185.06,
+   "text": "Ваша комната будет готова",
+   "lang": "ru"
+  },
+  {
+   "start": 1188.22,
+   "end": 1189.42,
+   "text": "Your room will be ready.",
+   "lang": "en"
+  },
+  {
+   "start": 1190.7,
+   "end": 1194.34,
+   "text": "примерно через полчаса.",
+   "lang": "ru"
+  },
+  {
+   "start": 1197.0,
+   "end": 1198.6,
+   "text": "In about half an hour.",
+   "lang": "en"
+  },
+  {
+   "start": 1204.26,
+   "end": 1207.46,
+   "text": "А вот ваш электронный ключ.",
+   "lang": "ru"
+  },
+  {
+   "start": 1210.26,
+   "end": 1211.52,
+   "text": "Here's your key card.",
+   "lang": "ru"
+  },
+  {
+   "start": 1214.38,
+   "end": 1215.66,
+   "text": "Here's your key card.",
+   "lang": "ru"
+  },
+  {
+   "start": 1218.28,
+   "end": 1220.72,
+   "text": "You get your luggage and park your car.",
+   "lang": "ru"
+  },
+  {
+   "start": 1221.3,
+   "end": 1223.98,
+   "text": "Девушка на ресепшн очень рассеяна.",
+   "lang": "ru"
+  },
+  {
+   "start": 1224.08,
+   "end": 1226.56,
+   "text": "Она перепутала вас с другим человеком.",
+   "lang": "ru"
+  },
+  {
+   "start": 1226.6,
+   "end": 1230.52,
+   "text": "Она говорит, мистер Робледо, вы зарегистрировали комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 1235.6,
+   "end": 1237.98,
+   "text": "Mr. Robledo, you reserved a room.",
+   "lang": "en"
+  },
+  {
+   "start": 1242.94,
+   "end": 1245.96,
+   "text": "Вы зарегистрировали комнату на две ночи, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1251.84,
+   "end": 1254.58,
+   "text": "You reserved a room for two nights, didn't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1260.6,
+   "end": 1264.14,
+   "text": "Мистер Роблэйдо, вы зарегистрировали комнату на два дня, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1271.86,
+   "end": 1272.34,
+   "text": "Скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1272.58,
+   "end": 1274.22,
+   "text": "Нет, я Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 1278.7,
+   "end": 1280.62,
+   "text": "Нет, я Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.62,
+   "end": 1280.78,
+   "text": "channel.",
+   "lang": "en"
+  },
+  {
+   "start": 1285.4,
+   "end": 1287.56,
+   "text": "Скажите, что вы зарегистрировали комнату на один день.",
+   "lang": "ru"
+  },
+  {
+   "start": 1287.56,
+   "end": 1287.76,
+   "text": "night.",
+   "lang": "en"
+  },
+  {
+   "start": 1291.8,
+   "end": 1294.6,
+   "text": "I reserved a room for one night.",
+   "lang": "ru"
+  },
+  {
+   "start": 1299.2,
+   "end": 1301.22,
+   "text": "Say that you have room 35.",
+   "lang": "ru"
+  },
+  {
+   "start": 1305.6,
+   "end": 1307.26,
+   "text": "I have room 35.",
+   "lang": "ru"
+  },
+  {
+   "start": 1311.76,
+   "end": 1313.2,
+   "text": "She says...",
+   "lang": "ru"
+  },
+  {
+   "start": 1313.2,
+   "end": 1315.94,
+   "text": "Ох, прошу прощения, господин Сентена.",
+   "lang": "ru"
+  },
+  {
+   "start": 1319.2,
+   "end": 1320.62,
+   "text": "Oh, I'm sorry.",
+   "lang": "en"
+  },
+  {
+   "start": 1324.3,
+   "end": 1325.92,
+   "text": "I'm sorry, Mr. Centeno.",
+   "lang": "en"
+  },
+  {
+   "start": 1329.9,
+   "end": 1331.88,
+   "text": "Ваша комната почти готова.",
+   "lang": "ru"
+  },
+  {
+   "start": 1335.68,
+   "end": 1337.54,
+   "text": "Your room is almost ready.",
+   "lang": "en"
+  },
+  {
+   "start": 1341.68,
+   "end": 1344.54,
+   "text": "Спросите с удивлением, она все еще не готова?",
+   "lang": "ru"
+  },
+  {
+   "start": 1348.14,
+   "end": 1349.58,
+   "text": "It's not ready yet?",
+   "lang": "en"
+  },
+  {
+   "start": 1353.1,
+   "end": 1354.58,
+   "text": "It isn't ready yet?",
+   "lang": "en"
+  },
+  {
+   "start": 1357.4,
+   "end": 1359.9,
+   "text": "Когда она будет готова?",
+   "lang": "ru"
+  },
+  {
+   "start": 1362.34,
+   "end": 1363.36,
+   "text": "When will it be ready?",
+   "lang": "en"
+  },
+  {
+   "start": 1366.22,
+   "end": 1367.24,
+   "text": "When will it be ready?",
+   "lang": "en"
+  },
+  {
+   "start": 1369.94,
+   "end": 1372.28,
+   "text": "She says, минут через пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1374.9,
+   "end": 1376.62,
+   "text": "In about five minutes.",
+   "lang": "en"
+  },
+  {
+   "start": 1379.22,
+   "end": 1381.76,
+   "text": "У вас есть электронный ключ, да?",
+   "lang": "ru"
+  },
+  {
+   "start": 1385.88,
+   "end": 1388.08,
+   "text": "You have your keycard, don't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1392.44,
+   "end": 1395.2,
+   "text": "Да, и багаж у меня тоже с собой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1400.44,
+   "end": 1402.66,
+   "text": "Yes, and I have my luggage too.",
+   "lang": "en"
+  },
+  {
+   "start": 1408.2,
+   "end": 1411.06,
+   "text": "Ваша знакомая присутствовала на собрании.",
+   "lang": "ru"
+  },
+  {
+   "start": 1411.24,
+   "end": 1414.02,
+   "text": "После собрания вы пошли в ресторан.",
+   "lang": "ru"
+  },
+  {
+   "start": 1414.9,
+   "end": 1417.68,
+   "text": "На открытом воздухе есть столики, но она говорит,",
+   "lang": "ru"
+  },
+  {
+   "start": 1417.84,
+   "end": 1420.6,
+   "text": "давайте сядем внутри, если вы не возражаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 1425.76,
+   "end": 1428.04,
+   "text": "Let's sit inside, if you don't mind.",
+   "lang": "en"
+  },
+  {
+   "start": 1432.58,
+   "end": 1434.44,
+   "text": "You order, then your friends will order.",
+   "lang": "en"
+  },
+  {
+   "start": 1434.46,
+   "end": 1437.46,
+   "text": "Я только что купила новую машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 1441.0,
+   "end": 1442.9,
+   "text": "I just bought a new car.",
+   "lang": "en"
+  },
+  {
+   "start": 1451.88,
+   "end": 1453.62,
+   "text": "Спросите, какую именно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1456.5,
+   "end": 1457.3,
+   "text": "What kind?",
+   "lang": "en"
+  },
+  {
+   "start": 1459.92,
+   "end": 1461.62,
+   "text": "What kind of car did you buy?",
+   "lang": "en"
+  },
+  {
+   "start": 1464.96,
+   "end": 1467.6,
+   "text": "Я купил акадиллак.",
+   "lang": "ru"
+  },
+  {
+   "start": 1467.6,
+   "end": 1473.8,
+   "text": "I bought a Cadillac.",
+   "lang": "ru"
+  },
+  {
+   "start": 1476.52,
+   "end": 1477.92,
+   "text": "Cat",
+   "lang": "en"
+  },
+  {
+   "start": 1478.4,
+   "end": 1479.24,
+   "text": "Cadillac.",
+   "lang": "ru"
+  },
+  {
+   "start": 1484.02,
+   "end": 1484.86,
+   "text": "Cadillac.",
+   "lang": "ru"
+  },
+  {
+   "start": 1486.86,
+   "end": 1488.62,
+   "text": "I bought a Cadillac.",
+   "lang": "ru"
+  },
+  {
+   "start": 1491.98,
+   "end": 1494.74,
+   "text": "Say that you've always wanted a Cadillac.",
+   "lang": "ru"
+  },
+  {
+   "start": 1498.98,
+   "end": 1501.38,
+   "text": "I've always wanted a Cadillac.",
+   "lang": "ru"
+  },
+  {
+   "start": 1505.2,
+   "end": 1520.74,
+   "text": "I have wanted. I've wanted. I've always wanted. I've always wanted a Cadillac.",
+   "lang": "ru"
+  },
+  {
+   "start": 1525.44,
+   "end": 1528.22,
+   "text": "Он на парковке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1532.48,
+   "end": 1533.84,
+   "text": "It's in the parking garage.",
+   "lang": "en"
+  },
+  {
+   "start": 1535.78,
+   "end": 1539.68,
+   "text": "Я могу показать его вам позже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1543.32,
+   "end": 1545.28,
+   "text": "I can show it to you later.",
+   "lang": "en"
+  },
+  {
+   "start": 1554.48,
+   "end": 1555.78,
+   "text": "Now she asks about",
+   "lang": "en"
+  },
+  {
+   "start": 1555.88,
+   "end": 1561.42,
+   "text": "Она хочет выяснить, где он работает. Она спрашивает, чем он занимается.",
+   "lang": "ru"
+  },
+  {
+   "start": 1564.14,
+   "end": 1565.3,
+   "text": "What does he do?",
+   "lang": "en"
+  },
+  {
+   "start": 1568.24,
+   "end": 1569.58,
+   "text": "What does your son do?",
+   "lang": "en"
+  },
+  {
+   "start": 1572.7,
+   "end": 1574.38,
+   "text": "Скажите, что он ищет работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1577.9,
+   "end": 1579.54,
+   "text": "He's looking for a job.",
+   "lang": "en"
+  },
+  {
+   "start": 1582.8,
+   "end": 1583.84,
+   "text": "She asks.",
+   "lang": "en"
+  },
+  {
+   "start": 1584.22,
+   "end": 1585.3,
+   "text": "Какую работу?",
+   "lang": "ru"
+  },
+  {
+   "start": 1588.32,
+   "end": 1589.74,
+   "text": "What kind of job?",
+   "lang": "en"
+  },
+  {
+   "start": 1592.94,
+   "end": 1593.56,
+   "text": "Answer",
+   "lang": "en"
+  },
+  {
+   "start": 1593.78,
+   "end": 1595.06,
+   "text": "Работу учителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 1598.44,
+   "end": 1599.92,
+   "text": "A job as a teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 1603.4,
+   "end": 1606.64,
+   "text": "Он хочет стать учителем истории в средней школе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1612.4,
+   "end": 1615.18,
+   "text": "He wants to be a high school history teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1615.18,
+   "end": 1615.34,
+   "text": "future.",
+   "lang": "en"
+  },
+  {
+   "start": 1621.06,
+   "end": 1624.28,
+   "text": "Try to say Ему всегда нравилась история.",
+   "lang": "ru"
+  },
+  {
+   "start": 1628.04,
+   "end": 1629.82,
+   "text": "He's always liked history.",
+   "lang": "ru"
+  },
+  {
+   "start": 1632.98,
+   "end": 1634.3,
+   "text": "Liked",
+   "lang": "en"
+  },
+  {
+   "start": 1636.0,
+   "end": 1637.98,
+   "text": "Always liked",
+   "lang": "en"
+  },
+  {
+   "start": 1640.58,
+   "end": 1643.06,
+   "text": "He's always liked history",
+   "lang": "en"
+  },
+  {
+   "start": 1645.92,
+   "end": 1652.4,
+   "text": "В свое свободное время он много занимается спортом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1658.54,
+   "end": 1661.86,
+   "text": "В своем spare time он играет в много спортивных игр.",
+   "lang": "ru"
+  },
+  {
+   "start": 1668.08,
+   "end": 1669.3,
+   "text": "Теперь спросите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1669.34,
+   "end": 1670.38,
+   "text": "А ваши дети?",
+   "lang": "ru"
+  },
+  {
+   "start": 1673.84,
+   "end": 1675.04,
+   "text": "И ваши дети?",
+   "lang": "ru"
+  },
+  {
+   "start": 1675.04,
+   "end": 1675.26,
+   "text": "children?",
+   "lang": "en"
+  },
+  {
+   "start": 1678.76,
+   "end": 1680.72,
+   "text": "Спросите, чем они занимаются сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1684.68,
+   "end": 1686.32,
+   "text": "What are they doing now?",
+   "lang": "ru"
+  },
+  {
+   "start": 1686.32,
+   "end": 1686.5,
+   "text": "Ciao.",
+   "lang": "en"
+  },
+  {
+   "start": 1690.04,
+   "end": 1691.84,
+   "text": "Что они делают сейчас?",
+   "lang": "ru"
+  },
+  {
+   "start": 1695.68,
+   "end": 1696.98,
+   "text": "Она отвечает.",
+   "lang": "ru"
+  },
+  {
+   "start": 1697.18,
+   "end": 1699.9,
+   "text": "Моя старшая дочь – менеджер в банке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1704.72,
+   "end": 1707.38,
+   "text": "Моя старшая дочь – банк-менеджер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1712.32,
+   "end": 1713.82,
+   "text": "Банк-менеджер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1716.92,
+   "end": 1718.74,
+   "text": "Младшая все еще в колледже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1722.78,
+   "end": 1724.86,
+   "text": "The younger one is still in college",
+   "lang": "en"
+  },
+  {
+   "start": 1728.0,
+   "end": 1730.96,
+   "text": "Она хочет стать программистом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1735.16,
+   "end": 1737.62,
+   "text": "She wants to be a computer programmer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1737.62,
+   "end": 1737.8,
+   "text": "grammar.",
+   "lang": "en"
+  },
+  {
+   "start": 1742.66,
+   "end": 1747.72,
+   "text": "Вы собираетесь уходить. Вам хочется сходить в церковь, которую вы видели раньше.",
+   "lang": "ru"
+  },
+  {
+   "start": 1748.4,
+   "end": 1751.76,
+   "text": "Скажите, неподалеку есть интересная церковь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1756.22,
+   "end": 1758.42,
+   "text": "There's an interesting church nearby.",
+   "lang": "ru"
+  },
+  {
+   "start": 1758.42,
+   "end": 1758.66,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 1763.08,
+   "end": 1765.78,
+   "text": "Мне бы хотелось пойти посмотреть ее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1768.84,
+   "end": 1770.22,
+   "text": "I'd like to go see it.",
+   "lang": "en"
+  },
+  {
+   "start": 1773.68,
+   "end": 1775.1,
+   "text": "I'd like to go see it.",
+   "lang": "en"
+  },
+  {
+   "start": 1777.18,
+   "end": 1779.72,
+   "text": "Если вы не возражаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 1781.94,
+   "end": 1783.16,
+   "text": "If you don't mind.",
+   "lang": "en"
+  },
+  {
+   "start": 1786.1,
+   "end": 1791.06,
+   "text": "Она согласна, но сначала она хочет взять что-то из своей комнаты.",
+   "lang": "ru"
+  },
+  {
+   "start": 1791.1,
+   "end": 1795.6,
+   "text": "Она ищет в своей сумке и спрашивает, где мой электронный ключ?",
+   "lang": "ru"
+  },
+  {
+   "start": 1795.6,
+   "end": 1795.74,
+   "text": "Ключ.",
+   "lang": "ru"
+  },
+  {
+   "start": 1799.16,
+   "end": 1800.4,
+   "text": "Where's my key card?",
+   "lang": "en"
+  },
+  {
+   "start": 1803.9,
+   "end": 1805.08,
+   "text": "Where's my key card?",
+   "lang": "en"
+  },
+  {
+   "start": 1808.28,
+   "end": 1811.56,
+   "text": "Она находит его, а потом вы уходите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1812.32,
+   "end": 1814.98,
+   "text": "Это конец двадцать шестого урока.",
+   "lang": "ru"
+  }
+ ]
+}

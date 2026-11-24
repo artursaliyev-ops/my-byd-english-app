@@ -1,0 +1,2373 @@
+{
+ "id": "III_14",
+ "source": "Pimsleur_III_14.mp3",
+ "duration": 1797.02,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 147,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.56,
+   "text": "I'd be the world rover for many years. I'd spend all my money on whiskey and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.18,
+   "end": 19.14,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 22.36,
+   "end": 29.02,
+   "text": "...четырнадцатый урок третьего уровня американского английского языка по методу доктора Пимслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 29.02,
+   "end": 30.8,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 32.24,
+   "end": 34.12,
+   "text": "Excuse me, may I use your phone?",
+   "lang": "en"
+  },
+  {
+   "start": 34.38,
+   "end": 37.26,
+   "text": "Of course, go right ahead. It's on the table over there.",
+   "lang": "en"
+  },
+  {
+   "start": 37.48,
+   "end": 39.8,
+   "text": "Thanks. Do you know the area code for...",
+   "lang": "en"
+  },
+  {
+   "start": 39.9,
+   "end": 42.7,
+   "text": "Продолжение следует...",
+   "lang": "ru"
+  },
+  {
+   "start": 43.3,
+   "end": 44.88,
+   "text": "No, wait. It's 617.",
+   "lang": "en"
+  },
+  {
+   "start": 45.52,
+   "end": 46.34,
+   "text": "Thanks a lot.",
+   "lang": "en"
+  },
+  {
+   "start": 47.24,
+   "end": 47.96,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 49.34,
+   "end": 51.24,
+   "text": "Excuse me. May I use your phone?",
+   "lang": "en"
+  },
+  {
+   "start": 51.48,
+   "end": 54.38,
+   "text": "Of course. Go right ahead. It's on the table over there.",
+   "lang": "en"
+  },
+  {
+   "start": 54.6,
+   "end": 57.2,
+   "text": "Thanks. Do you know the area code for Boston?",
+   "lang": "en"
+  },
+  {
+   "start": 57.58,
+   "end": 59.5,
+   "text": "I think it's 607.",
+   "lang": "en"
+  },
+  {
+   "start": 60.02,
+   "end": 61.92,
+   "text": "No, wait. It's 617.",
+   "lang": "en"
+  },
+  {
+   "start": 62.54,
+   "end": 67.86,
+   "text": "Вы в гостях у своей знакомой недалеко от Нью-Йорка.",
+   "lang": "ru"
+  },
+  {
+   "start": 68.3,
+   "end": 72.02,
+   "text": "Спросите, можно мне воспользоваться вашим телефоном?",
+   "lang": "ru"
+  },
+  {
+   "start": 75.36,
+   "end": 76.82,
+   "text": "May I use your telephone?",
+   "lang": "en"
+  },
+  {
+   "start": 80.2,
+   "end": 81.96,
+   "text": "May I use your phone, please?",
+   "lang": "en"
+  },
+  {
+   "start": 84.6,
+   "end": 87.22,
+   "text": "Она говорит, конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 90.7,
+   "end": 92.46,
+   "text": "Конечно, идите вперед.",
+   "lang": "ru"
+  },
+  {
+   "start": 92.46,
+   "end": 97.08,
+   "text": "ahead go right ahead",
+   "lang": "en"
+  },
+  {
+   "start": 98.7,
+   "end": 105.16,
+   "text": "Вы звоните кому-то в Бостон. Скажите, я воспользуюсь кредитной картой.",
+   "lang": "ru"
+  },
+  {
+   "start": 108.28,
+   "end": 110.12,
+   "text": "I'll use my credit card.",
+   "lang": "ru"
+  },
+  {
+   "start": 113.42,
+   "end": 114.18,
+   "text": "I'll",
+   "lang": "ru"
+  },
+  {
+   "start": 116.24,
+   "end": 117.42,
+   "text": "I'll use",
+   "lang": "ru"
+  },
+  {
+   "start": 119.78,
+   "end": 121.66,
+   "text": "I'll use my credit card.",
+   "lang": "ru"
+  },
+  {
+   "start": 124.92,
+   "end": 130.32,
+   "text": "Ask. Какой код района? Дословно. Что за код района?",
+   "lang": "ru"
+  },
+  {
+   "start": 133.24,
+   "end": 134.68,
+   "text": "What's the area code?",
+   "lang": "ru"
+  },
+  {
+   "start": 137.44,
+   "end": 138.86,
+   "text": "The area code.",
+   "lang": "en"
+  },
+  {
+   "start": 141.16,
+   "end": 142.6,
+   "text": "What's the area code?",
+   "lang": "en"
+  },
+  {
+   "start": 143.82,
+   "end": 147.12,
+   "text": "Какой код Бостона?",
+   "lang": "ru"
+  },
+  {
+   "start": 150.0,
+   "end": 152.34,
+   "text": "What's the area code for Boston?",
+   "lang": "ru"
+  },
+  {
+   "start": 155.46,
+   "end": 156.62,
+   "text": "For Boston",
+   "lang": "en"
+  },
+  {
+   "start": 159.16,
+   "end": 161.04,
+   "text": "What's the area code for Boston?",
+   "lang": "en"
+  },
+  {
+   "start": 164.56,
+   "end": 169.62,
+   "text": "Используя полное слово, спросите. Это 607?",
+   "lang": "ru"
+  },
+  {
+   "start": 172.44,
+   "end": 174.9,
+   "text": "Is it 607?",
+   "lang": "ru"
+  },
+  {
+   "start": 178.58,
+   "end": 179.58,
+   "text": "Zero.",
+   "lang": "ru"
+  },
+  {
+   "start": 181.26,
+   "end": 183.76,
+   "text": "Is it six-zero-seven?",
+   "lang": "ru"
+  },
+  {
+   "start": 187.56,
+   "end": 191.18,
+   "text": "Используя сокращенную форму, она спрашивает.",
+   "lang": "ru"
+  },
+  {
+   "start": 191.32,
+   "end": 192.64,
+   "text": "Шесть-ноль-семь?",
+   "lang": "ru"
+  },
+  {
+   "start": 196.2,
+   "end": 197.28,
+   "text": "Six-oh-seven?",
+   "lang": "ru"
+  },
+  {
+   "start": 200.14,
+   "end": 202.02,
+   "text": "Six-oh-seven?",
+   "lang": "ru"
+  },
+  {
+   "start": 204.66,
+   "end": 209.62,
+   "text": "Нет, код города 617.",
+   "lang": "ru"
+  },
+  {
+   "start": 209.62,
+   "end": 209.9,
+   "text": "scene.",
+   "lang": "en"
+  },
+  {
+   "start": 214.22,
+   "end": 217.28,
+   "text": "Нет, код города 617.",
+   "lang": "ru"
+  },
+  {
+   "start": 217.9,
+   "end": 224.94,
+   "text": "Нет, код города 617.",
+   "lang": "ru"
+  },
+  {
+   "start": 230.14,
+   "end": 233.88,
+   "text": "После того, как вы позвонили, вы разговариваете со знакомым.",
+   "lang": "ru"
+  },
+  {
+   "start": 233.88,
+   "end": 236.46,
+   "text": "Say that this weekend you're going into the city.",
+   "lang": "en"
+  },
+  {
+   "start": 240.54,
+   "end": 242.76,
+   "text": "This weekend I'm going into the city.",
+   "lang": "en"
+  },
+  {
+   "start": 246.86,
+   "end": 249.08,
+   "text": "Say that you'd like to go to some museums.",
+   "lang": "ru"
+  },
+  {
+   "start": 252.56,
+   "end": 254.72,
+   "text": "Я хочу пойти в некоторые музеи.",
+   "lang": "ru"
+  },
+  {
+   "start": 258.54,
+   "end": 259.3,
+   "text": "Слышите.",
+   "lang": "ru"
+  },
+  {
+   "start": 259.7,
+   "end": 262.46,
+   "text": "Метрополитен Музей артистов находится близ Кентрального парка.",
+   "lang": "ru"
+  },
+  {
+   "start": 263.02,
+   "end": 264.72,
+   "text": "Метрополитен Музей артистов.",
+   "lang": "ru"
+  },
+  {
+   "start": 264.74,
+   "end": 269.16,
+   "text": "Вы хотите сказать, художественный музей Метрополитен.",
+   "lang": "ru"
+  },
+  {
+   "start": 269.64,
+   "end": 270.4,
+   "text": "Спросите.",
+   "lang": "ru"
+  },
+  {
+   "start": 271.0,
+   "end": 272.02,
+   "text": "О, неужели?",
+   "lang": "ru"
+  },
+  {
+   "start": 274.5,
+   "end": 275.0,
+   "text": "О, реально?",
+   "lang": "ru"
+  },
+  {
+   "start": 276.98,
+   "end": 279.42,
+   "text": "Тогда по дороге в музей.",
+   "lang": "ru"
+  },
+  {
+   "start": 282.46,
+   "end": 284.06,
+   "text": "Then on the way to the museum",
+   "lang": "en"
+  },
+  {
+   "start": 287.06,
+   "end": 288.76,
+   "text": "On the way to the museum",
+   "lang": "en"
+  },
+  {
+   "start": 290.96,
+   "end": 294.5,
+   "text": "Я могу пойти погулять в парк.",
+   "lang": "ru"
+  },
+  {
+   "start": 298.1,
+   "end": 300.06,
+   "text": "I can go for a walk in the park.",
+   "lang": "en"
+  },
+  {
+   "start": 303.26,
+   "end": 307.64,
+   "text": "Также мне бы хотелось увидеть ботанический сад Нью-Йорка.",
+   "lang": "ru"
+  },
+  {
+   "start": 310.16,
+   "end": 312.2,
+   "text": "Скажите, что это красивый сад.",
+   "lang": "ru"
+  },
+  {
+   "start": 315.1,
+   "end": 316.74,
+   "text": "It's a beautiful garden.",
+   "lang": "ru"
+  },
+  {
+   "start": 319.98,
+   "end": 320.76,
+   "text": "Garden",
+   "lang": "ru"
+  },
+  {
+   "start": 323.74,
+   "end": 325.14,
+   "text": "It's a beautiful garden.",
+   "lang": "en"
+  },
+  {
+   "start": 328.86,
+   "end": 330.68,
+   "text": "Ваша знакомая предлагает.",
+   "lang": "ru"
+  },
+  {
+   "start": 330.72,
+   "end": 331.9,
+   "text": "Я пойду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 334.6,
+   "end": 335.98,
+   "text": "I'll go with you.",
+   "lang": "en"
+  },
+  {
+   "start": 338.84,
+   "end": 339.84,
+   "text": "I'll go with you.",
+   "lang": "en"
+  },
+  {
+   "start": 342.28,
+   "end": 343.82,
+   "text": "Now try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 344.14,
+   "end": 345.92,
+   "text": "Может, я пойду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 348.82,
+   "end": 350.18,
+   "text": "Maybe I'll go with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 353.14,
+   "end": 354.44,
+   "text": "Maybe I'll go with you.",
+   "lang": "en"
+  },
+  {
+   "start": 356.9,
+   "end": 359.74,
+   "text": "Мне бы тоже хотелось увидеть сад.",
+   "lang": "ru"
+  },
+  {
+   "start": 363.52,
+   "end": 365.16,
+   "text": "I'd like to see the garden too.",
+   "lang": "en"
+  },
+  {
+   "start": 368.78,
+   "end": 370.98,
+   "text": "Большинство людей его не знают.",
+   "lang": "ru"
+  },
+  {
+   "start": 373.88,
+   "end": 375.16,
+   "text": "Многие люди не знают.",
+   "lang": "ru"
+  },
+  {
+   "start": 375.16,
+   "end": 383.28,
+   "text": "A few days later you're in Boston. You're visiting a friend and you want to go to Newberry Street.",
+   "lang": "en"
+  },
+  {
+   "start": 389.52,
+   "end": 391.46,
+   "text": "On the way to Newberry Street.",
+   "lang": "en"
+  },
+  {
+   "start": 402.3,
+   "end": 404.68,
+   "text": "I'd like to see the Boston Public Garden.",
+   "lang": "ru"
+  },
+  {
+   "start": 408.68,
+   "end": 410.42,
+   "text": "The Boston Public Garden.",
+   "lang": "ru"
+  },
+  {
+   "start": 410.42,
+   "end": 410.58,
+   "text": "garden.",
+   "lang": "en"
+  },
+  {
+   "start": 413.76,
+   "end": 416.02,
+   "text": "Ask her if she knows how far it is.",
+   "lang": "ru"
+  },
+  {
+   "start": 420.5,
+   "end": 422.42,
+   "text": "Do you know how far it is?",
+   "lang": "ru"
+  },
+  {
+   "start": 426.18,
+   "end": 427.1,
+   "text": "She answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 427.36,
+   "end": 428.84,
+   "text": "Он прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 428.84,
+   "end": 428.98,
+   "text": "Boom.",
+   "lang": "en"
+  },
+  {
+   "start": 432.02,
+   "end": 433.7,
+   "text": "It's just around the corner.",
+   "lang": "ru"
+  },
+  {
+   "start": 436.96,
+   "end": 437.88,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 438.18,
+   "end": 439.64,
+   "text": "По пути к улице.",
+   "lang": "ru"
+  },
+  {
+   "start": 439.68,
+   "end": 440.64,
+   "text": "Newberry Street.",
+   "lang": "ru"
+  },
+  {
+   "start": 440.64,
+   "end": 440.8,
+   "text": "Street.",
+   "lang": "en"
+  },
+  {
+   "start": 443.8,
+   "end": 445.58,
+   "text": "On the way to Newberry Street.",
+   "lang": "ru"
+  },
+  {
+   "start": 448.68,
+   "end": 451.62,
+   "text": "Мне бы хотелось увидеть общественный сад.",
+   "lang": "ru"
+  },
+  {
+   "start": 455.4,
+   "end": 457.46,
+   "text": "I'd like to see the public garden.",
+   "lang": "ru"
+  },
+  {
+   "start": 461.36,
+   "end": 464.4,
+   "text": "Your friend says, уже почти полдень.",
+   "lang": "ru"
+  },
+  {
+   "start": 467.08,
+   "end": 468.52,
+   "text": "It's almost noon.",
+   "lang": "ru"
+  },
+  {
+   "start": 471.5,
+   "end": 472.78,
+   "text": "It's almost noon.",
+   "lang": "ru"
+  },
+  {
+   "start": 475.64,
+   "end": 478.1,
+   "text": "Она предлагает, я пойду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 480.28,
+   "end": 481.54,
+   "text": "I'll go with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 484.02,
+   "end": 485.28,
+   "text": "I'll go with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 487.78,
+   "end": 489.96,
+   "text": "Мы можем вместе пообедать.",
+   "lang": "ru"
+  },
+  {
+   "start": 492.82,
+   "end": 494.46,
+   "text": "We can have lunch together.",
+   "lang": "ru"
+  },
+  {
+   "start": 497.86,
+   "end": 501.46,
+   "text": "Say Хорошо, если вы позволите мне заплатить.",
+   "lang": "ru"
+  },
+  {
+   "start": 505.32,
+   "end": 507.28,
+   "text": "Alright, if you let me pay.",
+   "lang": "ru"
+  },
+  {
+   "start": 511.48,
+   "end": 514.08,
+   "text": "Now you're at a restaurant on Newberry Street.",
+   "lang": "ru"
+  },
+  {
+   "start": 514.32,
+   "end": 517.68,
+   "text": "Ask your friend if she'd rather sit inside or outside.",
+   "lang": "ru"
+  },
+  {
+   "start": 517.68,
+   "end": 517.98,
+   "text": "side.",
+   "lang": "en"
+  },
+  {
+   "start": 523.96,
+   "end": 526.64,
+   "text": "Would you rather sit inside or outside?",
+   "lang": "ru"
+  },
+  {
+   "start": 526.64,
+   "end": 526.94,
+   "text": "side.",
+   "lang": "en"
+  },
+  {
+   "start": 531.72,
+   "end": 532.9,
+   "text": "She answers",
+   "lang": "ru"
+  },
+  {
+   "start": 532.9,
+   "end": 534.9,
+   "text": "Сегодня большинство людей внутри",
+   "lang": "ru"
+  },
+  {
+   "start": 534.9,
+   "end": 535.14,
+   "text": "three",
+   "lang": "en"
+  },
+  {
+   "start": 539.18,
+   "end": 541.3,
+   "text": "Today most people are inside",
+   "lang": "ru"
+  },
+  {
+   "start": 541.3,
+   "end": 541.52,
+   "text": "side.",
+   "lang": "en"
+  },
+  {
+   "start": 545.44,
+   "end": 548.18,
+   "text": "Но я бы предпочла сесть снаружи",
+   "lang": "ru"
+  },
+  {
+   "start": 551.66,
+   "end": 553.58,
+   "text": "Но я бы хотел сидеть за окном.",
+   "lang": "ru"
+  },
+  {
+   "start": 557.28,
+   "end": 558.6,
+   "text": "I'd rather sit outside.",
+   "lang": "en"
+  },
+  {
+   "start": 562.26,
+   "end": 564.92,
+   "text": "Давайте сядем за тот столик вон там.",
+   "lang": "ru"
+  },
+  {
+   "start": 569.32,
+   "end": 571.38,
+   "text": "Давайте сядем за тот столик вон там.",
+   "lang": "ru"
+  },
+  {
+   "start": 575.64,
+   "end": 582.02,
+   "text": "The waiter arrives at your table. He asks if you would like something to drink. Say that you'll have a beer.",
+   "lang": "en"
+  },
+  {
+   "start": 585.1,
+   "end": 586.12,
+   "text": "I'll have a beer.",
+   "lang": "en"
+  },
+  {
+   "start": 589.18,
+   "end": 590.14,
+   "text": "I'll have a beer.",
+   "lang": "en"
+  },
+  {
+   "start": 592.28,
+   "end": 597.24,
+   "text": "После того, как вы оба сделали заказ, вы говорите знакомой.",
+   "lang": "ru"
+  },
+  {
+   "start": 597.26,
+   "end": 598.32,
+   "text": "Извините, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 601.54,
+   "end": 602.76,
+   "text": "Excuse me, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 605.64,
+   "end": 607.9,
+   "text": "Мне нужно сделать один звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 611.0,
+   "end": 612.72,
+   "text": "I have to make a phone call.",
+   "lang": "ru"
+  },
+  {
+   "start": 615.84,
+   "end": 617.68,
+   "text": "Your friend says, конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 621.78,
+   "end": 623.62,
+   "text": "Of course, go right ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 623.62,
+   "end": 623.8,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 627.58,
+   "end": 630.76,
+   "text": "You go inside and ask if there's a phone you can use.",
+   "lang": "ru"
+  },
+  {
+   "start": 631.38,
+   "end": 635.46,
+   "text": "Одна девушка сообщает, что общественный телефон находится снаружи.",
+   "lang": "ru"
+  },
+  {
+   "start": 636.18,
+   "end": 638.34,
+   "text": "Она говорит, он прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 642.16,
+   "end": 643.82,
+   "text": "It's just around the corner.",
+   "lang": "en"
+  },
+  {
+   "start": 647.56,
+   "end": 651.78,
+   "text": "Вместо того, чтобы позвонить, вы возвращаетесь к своему столику.",
+   "lang": "ru"
+  },
+  {
+   "start": 652.46,
+   "end": 656.3,
+   "text": "Ваша знакомая говорит, вы можете воспользоваться моим мобильным телефоном.",
+   "lang": "ru"
+  },
+  {
+   "start": 656.3,
+   "end": 657.08,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 661.38,
+   "end": 662.48,
+   "text": "Поблагодарить ее.",
+   "lang": "ru"
+  },
+  {
+   "start": 662.48,
+   "end": 665.78,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 667.98,
+   "end": 668.64,
+   "text": "Thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 671.16,
+   "end": 674.96,
+   "text": "Номер телефона 863.",
+   "lang": "ru"
+  },
+  {
+   "start": 680.44,
+   "end": 683.56,
+   "text": "The phone number is 863-",
+   "lang": "en"
+  },
+  {
+   "start": 687.56,
+   "end": 691.28,
+   "text": "0-9-2-2",
+   "lang": "ru"
+  },
+  {
+   "start": 691.28,
+   "end": 694.96,
+   "text": "Используйте полную форму слова 0.",
+   "lang": "ru"
+  },
+  {
+   "start": 694.96,
+   "end": 695.1,
+   "text": "hole.",
+   "lang": "en"
+  },
+  {
+   "start": 699.14,
+   "end": 700.98,
+   "text": "0-9-2-2",
+   "lang": "ru"
+  },
+  {
+   "start": 705.22,
+   "end": 708.26,
+   "text": "Ask. Какой телефонный код Нью-Йорка?",
+   "lang": "ru"
+  },
+  {
+   "start": 712.38,
+   "end": 714.74,
+   "text": "What's the area code for New York?",
+   "lang": "ru"
+  },
+  {
+   "start": 718.62,
+   "end": 720.94,
+   "text": "What's the area code for New York?",
+   "lang": "ru"
+  },
+  {
+   "start": 724.7,
+   "end": 733.82,
+   "text": "Это 2-0-2? С этого момента используйте сокращенную форму от слова 0. Спросите, это 2-0-2?",
+   "lang": "ru"
+  },
+  {
+   "start": 737.58,
+   "end": 739.42,
+   "text": "Is it 2-0-2?",
+   "lang": "en"
+  },
+  {
+   "start": 739.64,
+   "end": 746.66,
+   "text": "Нет, телефонный код Нью-Йорка.",
+   "lang": "ru"
+  },
+  {
+   "start": 751.28,
+   "end": 753.7,
+   "text": "No, the area code for New York.",
+   "lang": "en"
+  },
+  {
+   "start": 758.34,
+   "end": 759.42,
+   "text": "212.",
+   "lang": "ru"
+  },
+  {
+   "start": 764.06,
+   "end": 765.14,
+   "text": "212.",
+   "lang": "ru"
+  },
+  {
+   "start": 765.14,
+   "end": 765.64,
+   "text": "One, two.",
+   "lang": "en"
+  },
+  {
+   "start": 769.08,
+   "end": 772.18,
+   "text": "Человек, которому вы звоните, отвечает.",
+   "lang": "ru"
+  },
+  {
+   "start": 772.2,
+   "end": 775.46,
+   "text": "Представьте, что вас зовут Мануэль Торрес.",
+   "lang": "ru"
+  },
+  {
+   "start": 776.16,
+   "end": 777.0,
+   "text": "Как вы представитесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 780.22,
+   "end": 781.76,
+   "text": "This is Manuel Torres.",
+   "lang": "en"
+  },
+  {
+   "start": 785.0,
+   "end": 786.74,
+   "text": "Hi, this is Manuel Torres.",
+   "lang": "en"
+  },
+  {
+   "start": 789.16,
+   "end": 795.32,
+   "text": "Когда вы закончили разговаривать, скажите, позвольте мне заплатить за звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 798.88,
+   "end": 800.38,
+   "text": "Let me pay for the call.",
+   "lang": "en"
+  },
+  {
+   "start": 802.78,
+   "end": 807.94,
+   "text": "Как сказать в неформальной форме? Нет, все в порядке.",
+   "lang": "ru"
+  },
+  {
+   "start": 811.36,
+   "end": 812.72,
+   "text": "No, that's okay.",
+   "lang": "ru"
+  },
+  {
+   "start": 816.26,
+   "end": 817.56,
+   "text": "No, that's okay.",
+   "lang": "en"
+  },
+  {
+   "start": 820.76,
+   "end": 822.78,
+   "text": "Now you're both ready to leave.",
+   "lang": "ru"
+  },
+  {
+   "start": 823.1,
+   "end": 825.5,
+   "text": "Say, сейчас я поеду на почту.",
+   "lang": "ru"
+  },
+  {
+   "start": 829.54,
+   "end": 831.5,
+   "text": "Now I'm going to the post office.",
+   "lang": "ru"
+  },
+  {
+   "start": 835.68,
+   "end": 837.7,
+   "text": "Now I'm going to the post office.",
+   "lang": "ru"
+  },
+  {
+   "start": 841.7,
+   "end": 842.9,
+   "text": "А по пути?",
+   "lang": "ru"
+  },
+  {
+   "start": 845.92,
+   "end": 846.86,
+   "text": "and on the way",
+   "lang": "en"
+  },
+  {
+   "start": 849.88,
+   "end": 852.54,
+   "text": "Я хочу купить что-нибудь для моей жены.",
+   "lang": "ru"
+  },
+  {
+   "start": 856.4,
+   "end": 858.92,
+   "text": "I want to buy something for my wife.",
+   "lang": "ru"
+  },
+  {
+   "start": 863.08,
+   "end": 867.98,
+   "text": "Сейчас вы в своем офисе, но вы не установили автоответчик.",
+   "lang": "ru"
+  },
+  {
+   "start": 868.1,
+   "end": 870.72,
+   "text": "Вы хотите спросить, кто-нибудь звонил?",
+   "lang": "ru"
+  },
+  {
+   "start": 871.02,
+   "end": 872.1,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 872.98,
+   "end": 873.9,
+   "text": "Did anyone call?",
+   "lang": "ru"
+  },
+  {
+   "start": 876.88,
+   "end": 877.56,
+   "text": "Anyone?",
+   "lang": "ru"
+  },
+  {
+   "start": 879.92,
+   "end": 880.6,
+   "text": "One.",
+   "lang": "ru"
+  },
+  {
+   "start": 882.76,
+   "end": 883.66,
+   "text": "One.",
+   "lang": "ru"
+  },
+  {
+   "start": 886.46,
+   "end": 886.62,
+   "text": "Any.",
+   "lang": "ru"
+  },
+  {
+   "start": 889.14,
+   "end": 889.88,
+   "text": "Any one.",
+   "lang": "ru"
+  },
+  {
+   "start": 892.82,
+   "end": 893.8,
+   "text": "Did anyone call?",
+   "lang": "ru"
+  },
+  {
+   "start": 897.18,
+   "end": 898.54,
+   "text": "Say, кто-нибудь.",
+   "lang": "ru"
+  },
+  {
+   "start": 900.34,
+   "end": 901.24,
+   "text": "Anyone.",
+   "lang": "ru"
+  },
+  {
+   "start": 903.28,
+   "end": 905.68,
+   "text": "Ask, кто-нибудь звонил?",
+   "lang": "ru"
+  },
+  {
+   "start": 907.86,
+   "end": 909.6,
+   "text": "Did anyone call?",
+   "lang": "ru"
+  },
+  {
+   "start": 912.54,
+   "end": 913.8,
+   "text": "Did call.",
+   "lang": "ru"
+  },
+  {
+   "start": 916.64,
+   "end": 918.24,
+   "text": "Did anyone call?",
+   "lang": "ru"
+  },
+  {
+   "start": 921.02,
+   "end": 925.44,
+   "text": "Ваша помощница говорит, что кто-то звонил несколько минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 925.8,
+   "end": 926.24,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 927.08,
+   "end": 928.6,
+   "text": "Someone called a few minutes ago.",
+   "lang": "ru"
+  },
+  {
+   "start": 929.46,
+   "end": 930.92,
+   "text": "Someone called a few minutes ago.",
+   "lang": "ru"
+  },
+  {
+   "start": 931.16,
+   "end": 934.0,
+   "text": "Сейчас послушайте и повторите первую часть.",
+   "lang": "ru"
+  },
+  {
+   "start": 934.32,
+   "end": 935.58,
+   "text": "Someone called.",
+   "lang": "ru"
+  },
+  {
+   "start": 938.06,
+   "end": 938.82,
+   "text": "Called.",
+   "lang": "ru"
+  },
+  {
+   "start": 941.42,
+   "end": 941.6,
+   "text": "Called.",
+   "lang": "ru"
+  },
+  {
+   "start": 944.38,
+   "end": 947.18,
+   "text": "someone, one",
+   "lang": "ru"
+  },
+  {
+   "start": 947.18,
+   "end": 949.86,
+   "text": "Sum",
+   "lang": "en"
+  },
+  {
+   "start": 951.22,
+   "end": 954.02,
+   "text": "Someone called.",
+   "lang": "ru"
+  },
+  {
+   "start": 956.02,
+   "end": 957.16,
+   "text": "Someone called.",
+   "lang": "en"
+  },
+  {
+   "start": 960.16,
+   "end": 960.58,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 960.92,
+   "end": 962.18,
+   "text": "Кто-то звонил.",
+   "lang": "ru"
+  },
+  {
+   "start": 964.22,
+   "end": 965.7,
+   "text": "Someone called.",
+   "lang": "ru"
+  },
+  {
+   "start": 968.04,
+   "end": 969.3,
+   "text": "Someone called.",
+   "lang": "en"
+  },
+  {
+   "start": 971.76,
+   "end": 981.34,
+   "text": "Обратите внимание, что обычно используют anyone в вопросительных предложениях, а someone в утвердительных предложениях.",
+   "lang": "ru"
+  },
+  {
+   "start": 981.36,
+   "end": 984.58,
+   "text": "Сейчас спросите еще раз. Кто-нибудь звонил?",
+   "lang": "ru"
+  },
+  {
+   "start": 987.54,
+   "end": 988.5,
+   "text": "Did anyone call?",
+   "lang": "ru"
+  },
+  {
+   "start": 988.5,
+   "end": 992.6,
+   "text": "Did anyone call?",
+   "lang": "ru"
+  },
+  {
+   "start": 995.12,
+   "end": 996.58,
+   "text": "She answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 996.86,
+   "end": 998.02,
+   "text": "Кто-то звонил.",
+   "lang": "ru"
+  },
+  {
+   "start": 1000.0,
+   "end": 1001.58,
+   "text": "Someone called.",
+   "lang": "ru"
+  },
+  {
+   "start": 1003.78,
+   "end": 1005.16,
+   "text": "Someone called.",
+   "lang": "en"
+  },
+  {
+   "start": 1007.36,
+   "end": 1009.32,
+   "text": "Послушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1009.5,
+   "end": 1011.0,
+   "text": "Anyone. Someone.",
+   "lang": "ru"
+  },
+  {
+   "start": 1011.0,
+   "end": 1011.16,
+   "text": "one.",
+   "lang": "en"
+  },
+  {
+   "start": 1014.86,
+   "end": 1016.98,
+   "text": "Anyone. Someone.",
+   "lang": "ru"
+  },
+  {
+   "start": 1020.96,
+   "end": 1022.62,
+   "text": "Did anyone call?",
+   "lang": "en"
+  },
+  {
+   "start": 1025.72,
+   "end": 1026.92,
+   "text": "Someone called.",
+   "lang": "en"
+  },
+  {
+   "start": 1029.84,
+   "end": 1033.4,
+   "text": "Кто-то звонил несколько минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1037.12,
+   "end": 1039.04,
+   "text": "Someone called a few minutes ago.",
+   "lang": "en"
+  },
+  {
+   "start": 1053.14,
+   "end": 1054.86,
+   "text": "10 минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1057.68,
+   "end": 1059.0,
+   "text": "10 minutes ago.",
+   "lang": "en"
+  },
+  {
+   "start": 1061.94,
+   "end": 1063.76,
+   "text": "Около 10 минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1064.14,
+   "end": 1065.42,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1065.42,
+   "end": 1067.36,
+   "text": "About ten minutes ago.",
+   "lang": "en"
+  },
+  {
+   "start": 1070.7,
+   "end": 1071.42,
+   "text": "About.",
+   "lang": "en"
+  },
+  {
+   "start": 1073.92,
+   "end": 1075.42,
+   "text": "About ten minutes.",
+   "lang": "en"
+  },
+  {
+   "start": 1078.5,
+   "end": 1080.12,
+   "text": "About ten minutes ago.",
+   "lang": "ru"
+  },
+  {
+   "start": 1083.28,
+   "end": 1088.44,
+   "text": "Сейчас вы использовали слово about для того, чтобы сказать около.",
+   "lang": "ru"
+  },
+  {
+   "start": 1088.78,
+   "end": 1092.46,
+   "text": "В данном случае вы говорите приблизительно, примерно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1093.4,
+   "end": 1095.82,
+   "text": "Скажите, примерно десять минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1098.94,
+   "end": 1100.58,
+   "text": "About ten minutes ago.",
+   "lang": "ru"
+  },
+  {
+   "start": 1100.58,
+   "end": 1100.74,
+   "text": "go.",
+   "lang": "en"
+  },
+  {
+   "start": 1104.02,
+   "end": 1105.94,
+   "text": "Спросите, звонил ли кто-нибудь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1108.74,
+   "end": 1110.38,
+   "text": "Did anyone call?",
+   "lang": "ru"
+  },
+  {
+   "start": 1113.32,
+   "end": 1114.72,
+   "text": "Did anyone call?",
+   "lang": "en"
+  },
+  {
+   "start": 1117.26,
+   "end": 1118.86,
+   "text": "She answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 1119.16,
+   "end": 1120.28,
+   "text": "Кто-то звонил.",
+   "lang": "ru"
+  },
+  {
+   "start": 1122.92,
+   "end": 1124.24,
+   "text": "Someone called.",
+   "lang": "ru"
+  },
+  {
+   "start": 1127.3,
+   "end": 1128.04,
+   "text": "Someone called.",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.78,
+   "end": 1132.56,
+   "text": "Около десяти минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1135.86,
+   "end": 1137.58,
+   "text": "About ten minutes ago.",
+   "lang": "ru"
+  },
+  {
+   "start": 1141.1,
+   "end": 1143.08,
+   "text": "Someone called about 10 minutes ago.",
+   "lang": "en"
+  },
+  {
+   "start": 1147.4,
+   "end": 1149.72,
+   "text": "Кто звонил?",
+   "lang": "ru"
+  },
+  {
+   "start": 1151.68,
+   "end": 1153.38,
+   "text": "Кто звонил?",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.36,
+   "end": 1156.88,
+   "text": "Кто звонил?",
+   "lang": "ru"
+  },
+  {
+   "start": 1158.54,
+   "end": 1160.68,
+   "text": "Это была женщина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1160.94,
+   "end": 1162.2,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1163.14,
+   "end": 1163.86,
+   "text": "Это была женщина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1166.4,
+   "end": 1166.46,
+   "text": "Женщина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1166.46,
+   "end": 1167.26,
+   "text": "woman",
+   "lang": "en"
+  },
+  {
+   "start": 1169.46,
+   "end": 1170.9,
+   "text": "wo-man",
+   "lang": "en"
+  },
+  {
+   "start": 1171.78,
+   "end": 1174.58,
+   "text": "a woman",
+   "lang": "ru"
+  },
+  {
+   "start": 1176.08,
+   "end": 1177.88,
+   "text": "Was it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1179.84,
+   "end": 1181.86,
+   "text": "Was it a woman?",
+   "lang": "ru"
+  },
+  {
+   "start": 1185.12,
+   "end": 1186.52,
+   "text": "женщина",
+   "lang": "ru"
+  },
+  {
+   "start": 1188.22,
+   "end": 1189.62,
+   "text": "woman",
+   "lang": "ru"
+  },
+  {
+   "start": 1192.34,
+   "end": 1194.38,
+   "text": "Спросите, была ли это женщина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1196.98,
+   "end": 1197.88,
+   "text": "Was it a woman?",
+   "lang": "en"
+  },
+  {
+   "start": 1200.44,
+   "end": 1203.62,
+   "text": "Нет, это был мужчина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1203.62,
+   "end": 1204.74,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1205.4,
+   "end": 1206.66,
+   "text": "No, it was a man.",
+   "lang": "en"
+  },
+  {
+   "start": 1209.94,
+   "end": 1210.42,
+   "text": "Man.",
+   "lang": "en"
+  },
+  {
+   "start": 1212.64,
+   "end": 1213.12,
+   "text": "Man.",
+   "lang": "en"
+  },
+  {
+   "start": 1215.36,
+   "end": 1216.42,
+   "text": "It was a man.",
+   "lang": "en"
+  },
+  {
+   "start": 1219.62,
+   "end": 1221.58,
+   "text": "Это была женщина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1224.18,
+   "end": 1224.72,
+   "text": "Was it a",
+   "lang": "en"
+  },
+  {
+   "start": 1224.78,
+   "end": 1229.34,
+   "text": "Нет, это был мужчина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1232.32,
+   "end": 1233.56,
+   "text": "No, it was a man.",
+   "lang": "en"
+  },
+  {
+   "start": 1234.66,
+   "end": 1238.96,
+   "text": "Он не оставил никакого сообщения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1238.96,
+   "end": 1239.52,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 1239.72,
+   "end": 1241.26,
+   "text": "He didn't leave a message.",
+   "lang": "en"
+  },
+  {
+   "start": 1241.72,
+   "end": 1243.2,
+   "text": "He didn't leave a message.",
+   "lang": "en"
+  },
+  {
+   "start": 1243.5,
+   "end": 1246.96,
+   "text": "Дословно, он не оставил сообщения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1246.96,
+   "end": 1250.1,
+   "text": "Сначала скажите сообщение.",
+   "lang": "ru"
+  },
+  {
+   "start": 1250.1,
+   "end": 1252.0,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1253.1,
+   "end": 1253.42,
+   "text": "Message",
+   "lang": "en"
+  },
+  {
+   "start": 1254.98,
+   "end": 1256.38,
+   "text": "Message",
+   "lang": "en"
+  },
+  {
+   "start": 1256.38,
+   "end": 1257.54,
+   "text": "Message",
+   "lang": "en"
+  },
+  {
+   "start": 1262.24,
+   "end": 1265.08,
+   "text": "Он не оставил сообщения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1265.08,
+   "end": 1266.62,
+   "text": "Listen and repeat again.",
+   "lang": "en"
+  },
+  {
+   "start": 1267.92,
+   "end": 1268.9,
+   "text": "He didn't leave a message.",
+   "lang": "en"
+  },
+  {
+   "start": 1272.34,
+   "end": 1272.94,
+   "text": "Leave.",
+   "lang": "en"
+  },
+  {
+   "start": 1275.32,
+   "end": 1276.16,
+   "text": "Didn't leave.",
+   "lang": "en"
+  },
+  {
+   "start": 1278.26,
+   "end": 1279.8,
+   "text": "He didn't leave a message.",
+   "lang": "en"
+  },
+  {
+   "start": 1282.72,
+   "end": 1295.82,
+   "text": "Вы использовали слово leave раньше, чтобы сказать уходить. В данном случае вы говорите оставлять. Спросите с удивлением, он не оставил сообщение?",
+   "lang": "ru"
+  },
+  {
+   "start": 1298.86,
+   "end": 1300.36,
+   "text": "He didn't leave a message?",
+   "lang": "en"
+  },
+  {
+   "start": 1303.74,
+   "end": 1305.12,
+   "text": "Совершенно верно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1307.44,
+   "end": 1308.28,
+   "text": "That's right.",
+   "lang": "ru"
+  },
+  {
+   "start": 1310.72,
+   "end": 1311.58,
+   "text": "That's right.",
+   "lang": "ru"
+  },
+  {
+   "start": 1313.9,
+   "end": 1315.0,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1315.3,
+   "end": 1316.58,
+   "text": "Звонил мужчина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1318.96,
+   "end": 1320.34,
+   "text": "A man called.",
+   "lang": "ru"
+  },
+  {
+   "start": 1322.9,
+   "end": 1324.24,
+   "text": "A man called.",
+   "lang": "ru"
+  },
+  {
+   "start": 1327.48,
+   "end": 1329.22,
+   "text": "Примерно 15 минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1332.5,
+   "end": 1334.32,
+   "text": "About 15 minutes ago.",
+   "lang": "ru"
+  },
+  {
+   "start": 1337.4,
+   "end": 1339.58,
+   "text": "About 15 minutes ago.",
+   "lang": "en"
+  },
+  {
+   "start": 1342.08,
+   "end": 1345.04,
+   "text": "Но он не оставил сообщения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1347.84,
+   "end": 1349.58,
+   "text": "But he didn't leave a message.",
+   "lang": "en"
+  },
+  {
+   "start": 1352.06,
+   "end": 1355.86,
+   "text": "Вот еще один способ сказать то же самое.",
+   "lang": "ru"
+  },
+  {
+   "start": 1355.86,
+   "end": 1357.22,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1358.26,
+   "end": 1359.1,
+   "text": "There was no message.",
+   "lang": "en"
+  },
+  {
+   "start": 1362.0,
+   "end": 1363.02,
+   "text": "No message.",
+   "lang": "en"
+  },
+  {
+   "start": 1365.54,
+   "end": 1366.16,
+   "text": "No.",
+   "lang": "en"
+  },
+  {
+   "start": 1368.18,
+   "end": 1369.06,
+   "text": "There was.",
+   "lang": "en"
+  },
+  {
+   "start": 1371.56,
+   "end": 1372.96,
+   "text": "There was no message.",
+   "lang": "en"
+  },
+  {
+   "start": 1376.34,
+   "end": 1378.72,
+   "text": "Дословно, не было сообщения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1378.82,
+   "end": 1379.86,
+   "text": "Say this again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1383.44,
+   "end": 1384.26,
+   "text": "There was no message.",
+   "lang": "ru"
+  },
+  {
+   "start": 1387.16,
+   "end": 1390.6,
+   "text": "Now she says, мужчина не оставил сообщения.",
+   "lang": "ru"
+  },
+  {
+   "start": 1390.6,
+   "end": 1390.7,
+   "text": "Yeah.",
+   "lang": "en"
+  },
+  {
+   "start": 1394.0,
+   "end": 1395.84,
+   "text": "The man didn't leave a message.",
+   "lang": "ru"
+  },
+  {
+   "start": 1399.46,
+   "end": 1407.84,
+   "text": "После этого вы опять вышли из своего кабинета. Когда вы вернулись, вы спрашиваете свою помощницу. Кто-нибудь звонил?",
+   "lang": "ru"
+  },
+  {
+   "start": 1410.32,
+   "end": 1412.04,
+   "text": "Did anyone call?",
+   "lang": "en"
+  },
+  {
+   "start": 1414.8,
+   "end": 1422.1,
+   "text": "Да, кто-то звонил.",
+   "lang": "ru"
+  },
+  {
+   "start": 1426.0,
+   "end": 1426.94,
+   "text": "Yes, some people do.",
+   "lang": "en"
+  },
+  {
+   "start": 1426.96,
+   "end": 1427.44,
+   "text": "Someone called.",
+   "lang": "ru"
+  },
+  {
+   "start": 1429.96,
+   "end": 1431.76,
+   "text": "Someone called",
+   "lang": "en"
+  },
+  {
+   "start": 1434.82,
+   "end": 1436.32,
+   "text": "Примерно пять минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1439.24,
+   "end": 1440.82,
+   "text": "About five minutes ago.",
+   "lang": "ru"
+  },
+  {
+   "start": 1444.0,
+   "end": 1446.34,
+   "text": "Ask. Мужчина или женщина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1449.58,
+   "end": 1451.2,
+   "text": "A man or a woman?",
+   "lang": "ru"
+  },
+  {
+   "start": 1454.54,
+   "end": 1456.24,
+   "text": "A man or a woman?",
+   "lang": "ru"
+  },
+  {
+   "start": 1459.16,
+   "end": 1462.16,
+   "text": "Это была женщина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1465.2,
+   "end": 1466.16,
+   "text": "It was a woman.",
+   "lang": "en"
+  },
+  {
+   "start": 1469.44,
+   "end": 1471.76,
+   "text": "Женщина? Это была...",
+   "lang": "ru"
+  },
+  {
+   "start": 1471.76,
+   "end": 1472.9,
+   "text": "Нэнси Джонсон?",
+   "lang": "ru"
+  },
+  {
+   "start": 1477.36,
+   "end": 1479.74,
+   "text": "A woman? Was it Nancy Johnson?",
+   "lang": "en"
+  },
+  {
+   "start": 1484.0,
+   "end": 1485.88,
+   "text": "Нэнси Джонсон?",
+   "lang": "ru"
+  },
+  {
+   "start": 1488.42,
+   "end": 1490.0,
+   "text": "Думаю, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1492.3,
+   "end": 1493.14,
+   "text": "I think so.",
+   "lang": "en"
+  },
+  {
+   "start": 1494.02,
+   "end": 1496.84,
+   "text": "Когда она звонила?",
+   "lang": "ru"
+  },
+  {
+   "start": 1500.14,
+   "end": 1501.3,
+   "text": "When did she call?",
+   "lang": "en"
+  },
+  {
+   "start": 1504.06,
+   "end": 1506.04,
+   "text": "Примерно пять минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1509.2,
+   "end": 1511.1,
+   "text": "About five minutes ago.",
+   "lang": "en"
+  },
+  {
+   "start": 1514.26,
+   "end": 1516.22,
+   "text": "Она оставила сообщение.",
+   "lang": "ru"
+  },
+  {
+   "start": 1518.84,
+   "end": 1520.42,
+   "text": "Did she leave a message?",
+   "lang": "en"
+  },
+  {
+   "start": 1523.66,
+   "end": 1525.08,
+   "text": "Did she leave a message?",
+   "lang": "en"
+  },
+  {
+   "start": 1526.48,
+   "end": 1531.86,
+   "text": "Она говорит дословно, нет, сообщения не было.",
+   "lang": "ru"
+  },
+  {
+   "start": 1535.5,
+   "end": 1537.22,
+   "text": "No, there was no message.",
+   "lang": "en"
+  },
+  {
+   "start": 1540.86,
+   "end": 1542.1,
+   "text": "There was no message.",
+   "lang": "en"
+  },
+  {
+   "start": 1544.38,
+   "end": 1547.82,
+   "text": "И после этого",
+   "lang": "ru"
+  },
+  {
+   "start": 1550.58,
+   "end": 1552.36,
+   "text": "И после этого",
+   "lang": "ru"
+  },
+  {
+   "start": 1555.42,
+   "end": 1556.9,
+   "text": "звонила ваша жена.",
+   "lang": "ru"
+  },
+  {
+   "start": 1559.54,
+   "end": 1560.66,
+   "text": "Your wife called.",
+   "lang": "en"
+  },
+  {
+   "start": 1563.2,
+   "end": 1564.34,
+   "text": "Your wife called.",
+   "lang": "en"
+  },
+  {
+   "start": 1566.34,
+   "end": 1569.16,
+   "text": "Она звонила несколько минут назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1572.86,
+   "end": 1574.88,
+   "text": "She called a few minutes ago.",
+   "lang": "en"
+  },
+  {
+   "start": 1578.52,
+   "end": 1579.82,
+   "text": "A few minutes ago.",
+   "lang": "en"
+  },
+  {
+   "start": 1582.5,
+   "end": 1586.42,
+   "text": "Как она повторяет, что не было сообщения?",
+   "lang": "ru"
+  },
+  {
+   "start": 1589.44,
+   "end": 1590.6,
+   "text": "There was no message.",
+   "lang": "en"
+  },
+  {
+   "start": 1593.34,
+   "end": 1594.4,
+   "text": "Пробуйте сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1594.8,
+   "end": 1597.06,
+   "text": "Сначала я позвоню Нэнси Джонсон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1599.96,
+   "end": 1602.28,
+   "text": "First I'll call Nancy Johnson",
+   "lang": "en"
+  },
+  {
+   "start": 1605.68,
+   "end": 1606.76,
+   "text": "I'll call",
+   "lang": "en"
+  },
+  {
+   "start": 1609.5,
+   "end": 1611.82,
+   "text": "First I'll call Nancy Johnson.",
+   "lang": "ru"
+  },
+  {
+   "start": 1614.98,
+   "end": 1617.72,
+   "text": "Мы должны обсудить нашу встречу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1620.78,
+   "end": 1623.0,
+   "text": "We have to discuss our meeting.",
+   "lang": "ru"
+  },
+  {
+   "start": 1626.52,
+   "end": 1629.76,
+   "text": "Ask. Могу я воспользоваться вашим телефоном?",
+   "lang": "ru"
+  },
+  {
+   "start": 1633.14,
+   "end": 1635.0,
+   "text": "May I use your telephone?",
+   "lang": "ru"
+  },
+  {
+   "start": 1635.0,
+   "end": 1640.06,
+   "text": "She says, конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1644.34,
+   "end": 1646.16,
+   "text": "Of course, go right ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1646.16,
+   "end": 1646.34,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 1650.28,
+   "end": 1653.84,
+   "text": "Say, думаю, что код 607.",
+   "lang": "ru"
+  },
+  {
+   "start": 1659.28,
+   "end": 1662.38,
+   "text": "I think the area code is 607.",
+   "lang": "ru"
+  },
+  {
+   "start": 1672.76,
+   "end": 1677.22,
+   "text": "Нэнси Джонсон работает дома. Ее дочь подходит к телефону.",
+   "lang": "ru"
+  },
+  {
+   "start": 1677.96,
+   "end": 1683.86,
+   "text": "Что говорят, отвечая на телефонный звонок в Соединенных Штатах?",
+   "lang": "ru"
+  },
+  {
+   "start": 1685.96,
+   "end": 1687.36,
+   "text": "Hello?",
+   "lang": "en"
+  },
+  {
+   "start": 1689.52,
+   "end": 1694.54,
+   "text": "Вас зовут Мануэль Торрес. Поздоровайтесь в ответ и представьтесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1699.36,
+   "end": 1701.14,
+   "text": "Здравствуйте, это Мануэль Торрес.",
+   "lang": "ru"
+  },
+  {
+   "start": 1705.16,
+   "end": 1713.1,
+   "text": "Пожалуйста, если можно, поговорите с Нанси Джонсон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1715.5,
+   "end": 1720.92,
+   "text": "Пожалуйста, если можно, поговорите с Нанси Джонсон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1725.0,
+   "end": 1725.76,
+   "text": "May I?",
+   "lang": "ru"
+  },
+  {
+   "start": 1727.98,
+   "end": 1730.16,
+   "text": "May I speak with Nancy Johnson?",
+   "lang": "ru"
+  },
+  {
+   "start": 1734.8,
+   "end": 1739.02,
+   "text": "Спросите еще раз вежливо, могу ли я поговорить с Нэнси Джонсон?",
+   "lang": "ru"
+  },
+  {
+   "start": 1743.08,
+   "end": 1745.26,
+   "text": "May I speak with Nancy Johnson?",
+   "lang": "ru"
+  },
+  {
+   "start": 1749.14,
+   "end": 1752.1,
+   "text": "Вот еще один способ сказать то же самое.",
+   "lang": "ru"
+  },
+  {
+   "start": 1752.1,
+   "end": 1756.58,
+   "text": "Listen, is Nancy Johnson there? Is Nancy there?",
+   "lang": "en"
+  },
+  {
+   "start": 1756.88,
+   "end": 1760.54,
+   "text": "Нет, ее здесь сейчас нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1764.82,
+   "end": 1766.48,
+   "text": "No, she's not here at the moment.",
+   "lang": "en"
+  },
+  {
+   "start": 1770.14,
+   "end": 1773.02,
+   "text": "Вы бы хотели оставить сообщение?",
+   "lang": "ru"
+  },
+  {
+   "start": 1776.46,
+   "end": 1777.92,
+   "text": "Would you like to leave a message?",
+   "lang": "en"
+  },
+  {
+   "start": 1781.62,
+   "end": 1783.06,
+   "text": "Would you like to leave a message?",
+   "lang": "en"
+  },
+  {
+   "start": 1787.0,
+   "end": 1787.4,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 1788.1,
+   "end": 1790.1,
+   "text": "No, but please tell her I called.",
+   "lang": "en"
+  },
+  {
+   "start": 1790.74,
+   "end": 1795.14,
+   "text": "Это конец четырнадцатого урока.",
+   "lang": "ru"
+  }
+ ]
+}

@@ -1,0 +1,2271 @@
+{
+ "id": "III_19",
+ "source": "Pimsleur_III_19.mp3",
+ "duration": 1876.74,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 147,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.8,
+   "text": "I've been a wild rover for many years.",
+   "lang": "ru"
+  },
+  {
+   "start": 5.82,
+   "end": 9.52,
+   "text": "I've spent all my money on whiskey and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.26,
+   "end": 19.16,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 23.48,
+   "end": 30.0,
+   "text": "Девятнадцатый урок третьего уровня американского английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.08,
+   "end": 34.16,
+   "text": "Вы услышите, как женщина говорит.",
+   "lang": "ru"
+  },
+  {
+   "start": 35.5,
+   "end": 39.38,
+   "text": "Это сокращенная форма от Соединенные Штаты.",
+   "lang": "ru"
+  },
+  {
+   "start": 39.38,
+   "end": 40.14,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 62.36,
+   "end": 63.96,
+   "text": "Слушайте еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 65.02,
+   "end": 67.74,
+   "text": "Manuel, your niece is coming soon, isn't she?",
+   "lang": "en"
+  },
+  {
+   "start": 68.28,
+   "end": 70.26,
+   "text": "Yes, she's arriving on Saturday.",
+   "lang": "en"
+  },
+  {
+   "start": 70.44,
+   "end": 73.88,
+   "text": "I don't remember. Why is she coming to the U.S.?",
+   "lang": "en"
+  },
+  {
+   "start": 73.88,
+   "end": 77.8,
+   "text": "She wants to visit some colleges. She'd like to study English here.",
+   "lang": "en"
+  },
+  {
+   "start": 78.12,
+   "end": 78.72,
+   "text": "Oh, really?",
+   "lang": "en"
+  },
+  {
+   "start": 78.98,
+   "end": 85.1,
+   "text": "Yes, and she wants to travel, too. From here she'll go to Boston, and then maybe to Canada, to...",
+   "lang": "en"
+  },
+  {
+   "start": 85.16,
+   "end": 89.74,
+   "text": "Что вы скажете, если отрываете кого-то от работы?",
+   "lang": "ru"
+  },
+  {
+   "start": 92.56,
+   "end": 93.98,
+   "text": "Sorry to bother you.",
+   "lang": "en"
+  },
+  {
+   "start": 96.76,
+   "end": 102.14,
+   "text": "Вы находитесь в ресторане. Как вы скажете, вот наша официантка.",
+   "lang": "ru"
+  },
+  {
+   "start": 104.8,
+   "end": 106.24,
+   "text": "Here's our waitress.",
+   "lang": "en"
+  },
+  {
+   "start": 109.18,
+   "end": 109.86,
+   "text": "Waitress.",
+   "lang": "en"
+  },
+  {
+   "start": 112.18,
+   "end": 113.96,
+   "text": "You're speaking with an acquaint...",
+   "lang": "en"
+  },
+  {
+   "start": 114.04,
+   "end": 117.8,
+   "text": "Вот фотография моей племянницы.",
+   "lang": "ru"
+  },
+  {
+   "start": 121.28,
+   "end": 122.9,
+   "text": "Here's a picture of my niece.",
+   "lang": "en"
+  },
+  {
+   "start": 126.14,
+   "end": 127.04,
+   "text": "My niece.",
+   "lang": "en"
+  },
+  {
+   "start": 129.52,
+   "end": 131.2,
+   "text": "A picture of my niece.",
+   "lang": "en"
+  },
+  {
+   "start": 134.26,
+   "end": 135.82,
+   "text": "Here's a picture of my niece.",
+   "lang": "en"
+  },
+  {
+   "start": 139.16,
+   "end": 141.98,
+   "text": "Она только что окончила университет.",
+   "lang": "ru"
+  },
+  {
+   "start": 144.52,
+   "end": 147.14,
+   "text": "She just graduated from college.",
+   "lang": "en"
+  },
+  {
+   "start": 150.46,
+   "end": 151.54,
+   "text": "Graduated",
+   "lang": "en"
+  },
+  {
+   "start": 153.22,
+   "end": 154.96,
+   "text": "Just graduated",
+   "lang": "en"
+  },
+  {
+   "start": 157.78,
+   "end": 165.86,
+   "text": "Ask. Что она изучала?",
+   "lang": "ru"
+  },
+  {
+   "start": 169.16,
+   "end": 170.18,
+   "text": "What did she study?",
+   "lang": "ru"
+  },
+  {
+   "start": 173.28,
+   "end": 174.2,
+   "text": "What did she study?",
+   "lang": "ru"
+  },
+  {
+   "start": 176.62,
+   "end": 177.84,
+   "text": "She answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 178.22,
+   "end": 181.74,
+   "text": "Английский язык. Она изучала английский язык.",
+   "lang": "ru"
+  },
+  {
+   "start": 186.02,
+   "end": 188.42,
+   "text": "English. She studied English.",
+   "lang": "ru"
+  },
+  {
+   "start": 192.64,
+   "end": 194.24,
+   "text": "She studied English.",
+   "lang": "ru"
+  },
+  {
+   "start": 196.62,
+   "end": 199.58,
+   "text": "Она и ее лучшая подруга",
+   "lang": "ru"
+  },
+  {
+   "start": 201.94,
+   "end": 203.84,
+   "text": "She and her best friend?",
+   "lang": "en"
+  },
+  {
+   "start": 206.68,
+   "end": 207.96,
+   "text": "Her best friend?",
+   "lang": "en"
+  },
+  {
+   "start": 210.76,
+   "end": 212.52,
+   "text": "приезжают в Нью-Йорк.",
+   "lang": "ru"
+  },
+  {
+   "start": 215.06,
+   "end": 216.86,
+   "text": "Are coming to New York.",
+   "lang": "ru"
+  },
+  {
+   "start": 219.52,
+   "end": 221.44,
+   "text": "Do you remember how to say",
+   "lang": "ru"
+  },
+  {
+   "start": 221.44,
+   "end": 223.44,
+   "text": "номер телефона доктора?",
+   "lang": "ru"
+  },
+  {
+   "start": 226.36,
+   "end": 228.22,
+   "text": "The doctor's phone number?",
+   "lang": "ru"
+  },
+  {
+   "start": 231.4,
+   "end": 232.08,
+   "text": "Doctors.",
+   "lang": "ru"
+  },
+  {
+   "start": 234.44,
+   "end": 235.12,
+   "text": "Doctors.",
+   "lang": "ru"
+  },
+  {
+   "start": 237.54,
+   "end": 240.06,
+   "text": "Сейчас таким же образом попробуйте сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 245.62,
+   "end": 248.34,
+   "text": "Моя лучшая подруга.",
+   "lang": "ru"
+  },
+  {
+   "start": 250.92,
+   "end": 253.72,
+   "text": "Моя лучшая подруга.",
+   "lang": "ru"
+  },
+  {
+   "start": 253.72,
+   "end": 259.26,
+   "text": "Из Канады, из Монреаля.",
+   "lang": "ru"
+  },
+  {
+   "start": 263.44,
+   "end": 265.94,
+   "text": "Из Канады, из Монреаля.",
+   "lang": "ru"
+  },
+  {
+   "start": 270.06,
+   "end": 272.86,
+   "text": "Она только что купила новую машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 272.86,
+   "end": 274.06,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 275.02,
+   "end": 276.26,
+   "text": "She just bought a new car.",
+   "lang": "en"
+  },
+  {
+   "start": 279.66,
+   "end": 280.66,
+   "text": "Just bought.",
+   "lang": "en"
+  },
+  {
+   "start": 283.46,
+   "end": 285.28,
+   "text": "She just bought a new car.",
+   "lang": "en"
+  },
+  {
+   "start": 288.92,
+   "end": 291.98,
+   "text": "Лучшая подруга моей племянницы.",
+   "lang": "ru"
+  },
+  {
+   "start": 294.88,
+   "end": 297.06,
+   "text": "Моя лучшая подруга.",
+   "lang": "ru"
+  },
+  {
+   "start": 299.6,
+   "end": 301.66,
+   "text": "My niece's best friend",
+   "lang": "en"
+  },
+  {
+   "start": 304.76,
+   "end": 307.48,
+   "text": "Только что купила новую машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 310.38,
+   "end": 311.84,
+   "text": "Just bought a new car.",
+   "lang": "en"
+  },
+  {
+   "start": 314.76,
+   "end": 317.66,
+   "text": "My niece's best friend just bought a new car.",
+   "lang": "en"
+  },
+  {
+   "start": 322.44,
+   "end": 323.34,
+   "text": "Попробуй сказать,",
+   "lang": "ru"
+  },
+  {
+   "start": 323.66,
+   "end": 325.38,
+   "text": "Они будут у меня дома.",
+   "lang": "ru"
+  },
+  {
+   "start": 329.12,
+   "end": 330.44,
+   "text": "They'll be at my place.",
+   "lang": "en"
+  },
+  {
+   "start": 333.46,
+   "end": 334.34,
+   "text": "They'll",
+   "lang": "ru"
+  },
+  {
+   "start": 334.34,
+   "end": 337.52,
+   "text": "They will",
+   "lang": "ru"
+  },
+  {
+   "start": 340.2,
+   "end": 341.36,
+   "text": "They'll be",
+   "lang": "ru"
+  },
+  {
+   "start": 343.8,
+   "end": 345.64,
+   "text": "They'll be at my place",
+   "lang": "ru"
+  },
+  {
+   "start": 348.36,
+   "end": 350.16,
+   "text": "в эти выходные",
+   "lang": "ru"
+  },
+  {
+   "start": 352.22,
+   "end": 353.56,
+   "text": "this weekend",
+   "lang": "ru"
+  },
+  {
+   "start": 355.56,
+   "end": 358.66,
+   "text": "Вы можете прийти на ужин в эту субботу.",
+   "lang": "ru"
+  },
+  {
+   "start": 361.7,
+   "end": 363.8,
+   "text": "Can you come for dinner on Saturday?",
+   "lang": "ru"
+  },
+  {
+   "start": 363.8,
+   "end": 363.96,
+   "text": "day.",
+   "lang": "en"
+  },
+  {
+   "start": 367.2,
+   "end": 368.16,
+   "text": "For dinner.",
+   "lang": "ru"
+  },
+  {
+   "start": 370.22,
+   "end": 371.76,
+   "text": "Can you come for dinner?",
+   "lang": "ru"
+  },
+  {
+   "start": 374.66,
+   "end": 377.34,
+   "text": "Моя племянница с лучшей подругой будут там.",
+   "lang": "ru"
+  },
+  {
+   "start": 381.4,
+   "end": 383.82,
+   "text": "My niece and her best friend will be there.",
+   "lang": "ru"
+  },
+  {
+   "start": 387.84,
+   "end": 390.3,
+   "text": "Они будут там на этих выходных.",
+   "lang": "ru"
+  },
+  {
+   "start": 393.6,
+   "end": 395.12,
+   "text": "They'll be there this weekend",
+   "lang": "en"
+  },
+  {
+   "start": 398.4,
+   "end": 402.06,
+   "text": "Спасибо, но меня не будет здесь в субботу.",
+   "lang": "ru"
+  },
+  {
+   "start": 406.76,
+   "end": 408.94,
+   "text": "Thanks, but I won't be here on Saturday.",
+   "lang": "en"
+  },
+  {
+   "start": 413.82,
+   "end": 415.92,
+   "text": "В эти выходные я буду в Монреале.",
+   "lang": "ru"
+  },
+  {
+   "start": 419.94,
+   "end": 422.2,
+   "text": "This weekend I'll be in Montreal.",
+   "lang": "en"
+  },
+  {
+   "start": 426.74,
+   "end": 428.14,
+   "text": "I'll be in Montreal.",
+   "lang": "en"
+  },
+  {
+   "start": 431.6,
+   "end": 433.16,
+   "text": "Один знакомый пригласил меня.",
+   "lang": "ru"
+  },
+  {
+   "start": 435.86,
+   "end": 438.26,
+   "text": "A friend has invited me.",
+   "lang": "en"
+  },
+  {
+   "start": 441.58,
+   "end": 443.02,
+   "text": "Поехать в Монреаль с ним.",
+   "lang": "ru"
+  },
+  {
+   "start": 446.34,
+   "end": 448.32,
+   "text": "to go to Montreal with him.",
+   "lang": "en"
+  },
+  {
+   "start": 451.76,
+   "end": 453.76,
+   "text": "Наступил другой день.",
+   "lang": "ru"
+  },
+  {
+   "start": 454.72,
+   "end": 457.58,
+   "text": "Одна коллега останавливается у вашего офиса.",
+   "lang": "ru"
+  },
+  {
+   "start": 457.72,
+   "end": 460.6,
+   "text": "Она говорит, извините за беспокойство.",
+   "lang": "ru"
+  },
+  {
+   "start": 463.66,
+   "end": 464.96,
+   "text": "Sorry to bother you.",
+   "lang": "en"
+  },
+  {
+   "start": 467.46,
+   "end": 469.12,
+   "text": "Do you remember how to say",
+   "lang": "en"
+  },
+  {
+   "start": 469.24,
+   "end": 470.28,
+   "text": "Заходите.",
+   "lang": "ru"
+  },
+  {
+   "start": 473.14,
+   "end": 473.62,
+   "text": "Come in.",
+   "lang": "en"
+  },
+  {
+   "start": 475.9,
+   "end": 477.12,
+   "text": "Come in, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 479.98,
+   "end": 481.46,
+   "text": "Now you want to say",
+   "lang": "ru"
+  },
+  {
+   "start": 481.46,
+   "end": 482.48,
+   "text": "Садитесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 482.74,
+   "end": 483.88,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 484.94,
+   "end": 485.38,
+   "text": "Sit down.",
+   "lang": "ru"
+  },
+  {
+   "start": 487.78,
+   "end": 488.46,
+   "text": "Down.",
+   "lang": "ru"
+  },
+  {
+   "start": 490.8,
+   "end": 491.48,
+   "text": "Down.",
+   "lang": "ru"
+  },
+  {
+   "start": 493.68,
+   "end": 494.7,
+   "text": "Sit down.",
+   "lang": "ru"
+  },
+  {
+   "start": 497.14,
+   "end": 498.84,
+   "text": "Вы уже слышали слово",
+   "lang": "ru"
+  },
+  {
+   "start": 498.84,
+   "end": 499.8,
+   "text": "down",
+   "lang": "ru"
+  },
+  {
+   "start": 499.8,
+   "end": 501.94,
+   "text": "раньше в выражении",
+   "lang": "ru"
+  },
+  {
+   "start": 501.94,
+   "end": 502.72,
+   "text": "slow down",
+   "lang": "ru"
+  },
+  {
+   "start": 504.92,
+   "end": 506.32,
+   "text": "Садитесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 510.3,
+   "end": 511.36,
+   "text": "Sit down.",
+   "lang": "en"
+  },
+  {
+   "start": 513.88,
+   "end": 515.34,
+   "text": "Please sit down.",
+   "lang": "en"
+  },
+  {
+   "start": 518.48,
+   "end": 520.46,
+   "text": "Заходите и садитесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 523.78,
+   "end": 525.48,
+   "text": "Come in and sit down.",
+   "lang": "en"
+  },
+  {
+   "start": 528.36,
+   "end": 530.32,
+   "text": "Она села и говорит.",
+   "lang": "ru"
+  },
+  {
+   "start": 530.56,
+   "end": 533.34,
+   "text": "Мы с мужем хотели бы пригласить вас",
+   "lang": "ru"
+  },
+  {
+   "start": 537.62,
+   "end": 540.24,
+   "text": "My husband and I would like to invite you.",
+   "lang": "en"
+  },
+  {
+   "start": 544.8,
+   "end": 547.88,
+   "text": "поужинать в субботу, дословно на ужин.",
+   "lang": "ru"
+  },
+  {
+   "start": 550.64,
+   "end": 552.08,
+   "text": "to dinner on Saturday.",
+   "lang": "en"
+  },
+  {
+   "start": 555.04,
+   "end": 557.3,
+   "text": "We'd like to invite you to dinner.",
+   "lang": "en"
+  },
+  {
+   "start": 559.58,
+   "end": 562.8,
+   "text": "Вы сможете прийти?",
+   "lang": "ru"
+  },
+  {
+   "start": 564.7,
+   "end": 569.74,
+   "text": "Can you come? Can you come for dinner?",
+   "lang": "ru"
+  },
+  {
+   "start": 574.0,
+   "end": 577.06,
+   "text": "Say, спасибо, я бы хотел прийти.",
+   "lang": "ru"
+  },
+  {
+   "start": 581.36,
+   "end": 583.14,
+   "text": "Thanks, I'd like to come.",
+   "lang": "ru"
+  },
+  {
+   "start": 587.06,
+   "end": 588.04,
+   "text": "I'd like to.",
+   "lang": "ru"
+  },
+  {
+   "start": 590.38,
+   "end": 593.42,
+   "text": "Но меня не будет здесь в эти выходные.",
+   "lang": "ru"
+  },
+  {
+   "start": 597.28,
+   "end": 599.3,
+   "text": "But I won't be here this weekend.",
+   "lang": "en"
+  },
+  {
+   "start": 603.04,
+   "end": 604.54,
+   "text": "Я буду в Бостоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 607.84,
+   "end": 608.9,
+   "text": "I'll be in Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 612.16,
+   "end": 615.26,
+   "text": "Моя племянница пригласила меня навестить ее.",
+   "lang": "ru"
+  },
+  {
+   "start": 615.26,
+   "end": 622.12,
+   "text": "you. My niece has invited me to visit her.",
+   "lang": "en"
+  },
+  {
+   "start": 624.92,
+   "end": 629.86,
+   "text": "Она только закончила институт.",
+   "lang": "ru"
+  },
+  {
+   "start": 633.8,
+   "end": 636.34,
+   "text": "Она только что из школы.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.32,
+   "end": 641.98,
+   "text": "Она спрашивает.",
+   "lang": "ru"
+  },
+  {
+   "start": 642.16,
+   "end": 644.76,
+   "text": "О, неужели? Что она изучала?",
+   "lang": "ru"
+  },
+  {
+   "start": 649.0,
+   "end": 650.2,
+   "text": "Oh really?",
+   "lang": "en"
+  },
+  {
+   "start": 650.54,
+   "end": 651.58,
+   "text": "Ответ.",
+   "lang": "ru"
+  },
+  {
+   "start": 654.98,
+   "end": 656.38,
+   "text": "Answer",
+   "lang": "en"
+  },
+  {
+   "start": 656.5,
+   "end": 658.92,
+   "text": "Она изучала испанский язык.",
+   "lang": "ru"
+  },
+  {
+   "start": 661.74,
+   "end": 663.1,
+   "text": "She studied Spanish.",
+   "lang": "ru"
+  },
+  {
+   "start": 663.1,
+   "end": 663.46,
+   "text": "Spanish.",
+   "lang": "en"
+  },
+  {
+   "start": 666.28,
+   "end": 672.74,
+   "text": "An acquaintance has invited you to her place. You just arrived. How does she ask you to come in?",
+   "lang": "ru"
+  },
+  {
+   "start": 674.78,
+   "end": 675.64,
+   "text": "Come in.",
+   "lang": "ru"
+  },
+  {
+   "start": 677.62,
+   "end": 678.7,
+   "text": "Come in, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 681.5,
+   "end": 683.8,
+   "text": "She says, Пожалуйста, садитесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 686.44,
+   "end": 687.58,
+   "text": "Please sit down.",
+   "lang": "ru"
+  },
+  {
+   "start": 689.88,
+   "end": 691.72,
+   "text": "Come in and sit down, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 694.96,
+   "end": 696.18,
+   "text": "Now she says,",
+   "lang": "ru"
+  },
+  {
+   "start": 696.36,
+   "end": 699.14,
+   "text": "Как раз сейчас мы говорили о Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 699.3,
+   "end": 699.74,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 699.92,
+   "end": 702.34,
+   "text": "We were just talking about Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 702.34,
+   "end": 705.02,
+   "text": "We were just talking about Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 706.3,
+   "end": 707.58,
+   "text": "Сначала говорили.",
+   "lang": "ru"
+  },
+  {
+   "start": 707.98,
+   "end": 709.16,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 710.02,
+   "end": 710.64,
+   "text": "We were talking.",
+   "lang": "ru"
+  },
+  {
+   "start": 713.54,
+   "end": 714.18,
+   "text": "Talking.",
+   "lang": "ru"
+  },
+  {
+   "start": 716.68,
+   "end": 717.32,
+   "text": "Talking.",
+   "lang": "ru"
+  },
+  {
+   "start": 720.32,
+   "end": 721.12,
+   "text": "were",
+   "lang": "ru"
+  },
+  {
+   "start": 723.3,
+   "end": 724.58,
+   "text": "we were",
+   "lang": "ru"
+  },
+  {
+   "start": 726.5,
+   "end": 728.08,
+   "text": "we were talking",
+   "lang": "ru"
+  },
+  {
+   "start": 730.76,
+   "end": 739.3,
+   "text": "talking – это синоним от speaking, но более распространенный, когда имеется в виду неформальный разговор.",
+   "lang": "ru"
+  },
+  {
+   "start": 739.48,
+   "end": 742.08,
+   "text": "Скажите еще раз – мы говорили.",
+   "lang": "ru"
+  },
+  {
+   "start": 744.94,
+   "end": 745.64,
+   "text": "we were talking",
+   "lang": "ru"
+  },
+  {
+   "start": 748.58,
+   "end": 752.16,
+   "text": "Обратите внимание, что используется форма in.",
+   "lang": "ru"
+  },
+  {
+   "start": 752.3,
+   "end": 759.62,
+   "text": "Здесь она используется с were для того, чтобы показать, что действие произошло в прошлом.",
+   "lang": "ru"
+  },
+  {
+   "start": 759.7,
+   "end": 763.14,
+   "text": "Скажите еще раз, что вы разговаривали.",
+   "lang": "ru"
+  },
+  {
+   "start": 766.16,
+   "end": 767.4,
+   "text": "We were talking.",
+   "lang": "en"
+  },
+  {
+   "start": 768.94,
+   "end": 773.48,
+   "text": "А теперь, как раз сейчас мы говорили.",
+   "lang": "ru"
+  },
+  {
+   "start": 775.64,
+   "end": 776.82,
+   "text": "We were just talking.",
+   "lang": "ru"
+  },
+  {
+   "start": 779.82,
+   "end": 780.38,
+   "text": "Just.",
+   "lang": "ru"
+  },
+  {
+   "start": 782.88,
+   "end": 783.98,
+   "text": "Just talking.",
+   "lang": "ru"
+  },
+  {
+   "start": 786.68,
+   "end": 788.2,
+   "text": "We were just talking.",
+   "lang": "ru"
+  },
+  {
+   "start": 791.24,
+   "end": 791.8,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 792.0,
+   "end": 793.92,
+   "text": "Как раз сейчас мы говорили.",
+   "lang": "ru"
+  },
+  {
+   "start": 797.24,
+   "end": 798.72,
+   "text": "We were just talking.",
+   "lang": "ru"
+  },
+  {
+   "start": 801.76,
+   "end": 804.24,
+   "text": "Say that you were just talking about Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 808.32,
+   "end": 810.82,
+   "text": "We were just talking about Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 815.46,
+   "end": 816.24,
+   "text": "Mexico",
+   "lang": "en"
+  },
+  {
+   "start": 816.24,
+   "end": 820.88,
+   "text": "We were just talking about Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 825.2,
+   "end": 830.66,
+   "text": "Продолжайте использовать talking about в значении говорить о чем-либо.",
+   "lang": "ru"
+  },
+  {
+   "start": 830.8,
+   "end": 833.42,
+   "text": "Если вас не попросят, говорите по-другому.",
+   "lang": "ru"
+  },
+  {
+   "start": 833.42,
+   "end": 837.32,
+   "text": "А сейчас, как вы попросите, чтобы кто-то сел?",
+   "lang": "ru"
+  },
+  {
+   "start": 839.72,
+   "end": 841.0,
+   "text": "Please sit down.",
+   "lang": "en"
+  },
+  {
+   "start": 843.62,
+   "end": 844.94,
+   "text": "Sit down, please.",
+   "lang": "en"
+  },
+  {
+   "start": 847.82,
+   "end": 850.16,
+   "text": "Только что мы говорили о Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 853.92,
+   "end": 856.64,
+   "text": "Мы только что говорили о Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 860.44,
+   "end": 863.66,
+   "text": "Спросите с удивлением, вы говорили о Мексике?",
+   "lang": "ru"
+  },
+  {
+   "start": 866.52,
+   "end": 868.76,
+   "text": "Вы говорили о Мексике?",
+   "lang": "ru"
+  },
+  {
+   "start": 871.78,
+   "end": 875.1,
+   "text": "Она говорит, да, пожалуйста, садитесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 878.86,
+   "end": 880.66,
+   "text": "Yes, please sit down.",
+   "lang": "en"
+  },
+  {
+   "start": 882.98,
+   "end": 888.92,
+   "text": "Вы сели. Попробуйте спросить, почему вы говорили о Мексике?",
+   "lang": "ru"
+  },
+  {
+   "start": 893.36,
+   "end": 894.94,
+   "text": "Why were you talking about Mexico?",
+   "lang": "en"
+  },
+  {
+   "start": 898.14,
+   "end": 900.74,
+   "text": "Why were you talking about Mexico?",
+   "lang": "en"
+  },
+  {
+   "start": 904.46,
+   "end": 905.38,
+   "text": "She is a woman",
+   "lang": "en"
+  },
+  {
+   "start": 905.4,
+   "end": 908.08,
+   "text": "Потому что мой брат скоро поедет туда.",
+   "lang": "ru"
+  },
+  {
+   "start": 912.52,
+   "end": 914.84,
+   "text": "Because my brother is going there soon.",
+   "lang": "en"
+  },
+  {
+   "start": 918.76,
+   "end": 920.72,
+   "text": "Ask for how long.",
+   "lang": "ru"
+  },
+  {
+   "start": 923.82,
+   "end": 924.58,
+   "text": "For how long.",
+   "lang": "ru"
+  },
+  {
+   "start": 927.02,
+   "end": 928.8,
+   "text": "How long is he going for?",
+   "lang": "ru"
+  },
+  {
+   "start": 932.18,
+   "end": 933.2,
+   "text": "Две недели.",
+   "lang": "ru"
+  },
+  {
+   "start": 935.28,
+   "end": 936.66,
+   "text": "Two weeks",
+   "lang": "en"
+  },
+  {
+   "start": 938.6,
+   "end": 940.22,
+   "text": "For two weeks",
+   "lang": "en"
+  },
+  {
+   "start": 942.78,
+   "end": 945.52,
+   "text": "Мой брат и его семья едут туда.",
+   "lang": "ru"
+  },
+  {
+   "start": 949.4,
+   "end": 951.96,
+   "text": "My brother and his family are going there.",
+   "lang": "en"
+  },
+  {
+   "start": 956.14,
+   "end": 957.62,
+   "text": "На две недели.",
+   "lang": "ru"
+  },
+  {
+   "start": 959.84,
+   "end": 961.32,
+   "text": "For two weeks.",
+   "lang": "en"
+  },
+  {
+   "start": 962.38,
+   "end": 966.22,
+   "text": "У моего брата новый клиент в Пуэбло.",
+   "lang": "ru"
+  },
+  {
+   "start": 970.32,
+   "end": 972.92,
+   "text": "My brother has a new client in Puebla.",
+   "lang": "en"
+  },
+  {
+   "start": 976.7,
+   "end": 979.54,
+   "text": "Мой брат едет увидеться с клиентом.",
+   "lang": "ru"
+  },
+  {
+   "start": 983.0,
+   "end": 985.02,
+   "text": "My brother is going to see his client.",
+   "lang": "en"
+  },
+  {
+   "start": 988.36,
+   "end": 991.04,
+   "text": "А его жена хочет увидеть Мехико.",
+   "lang": "ru"
+  },
+  {
+   "start": 995.76,
+   "end": 998.68,
+   "text": "And his wife wants to see Mexico City",
+   "lang": "en"
+  },
+  {
+   "start": 1002.76,
+   "end": 1010.0,
+   "text": "Сейчас она хочет спросить, достаточно ли будет двух недель, чтобы увидеть Пуэбло и Мехико.",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.0,
+   "end": 1010.76,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 1020.26,
+   "end": 1022.86,
+   "text": "Послушайте и повторите первую часть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1023.16,
+   "end": 1024.4,
+   "text": "Две недели достаточно?",
+   "lang": "ru"
+  },
+  {
+   "start": 1024.4,
+   "end": 1024.68,
+   "text": "Достаточно?",
+   "lang": "ru"
+  },
+  {
+   "start": 1024.68,
+   "end": 1027.16,
+   "text": "Is two weeks enough time?",
+   "lang": "en"
+  },
+  {
+   "start": 1047.38,
+   "end": 1050.08,
+   "text": "Дословно, две недели – достаточное время.",
+   "lang": "ru"
+  },
+  {
+   "start": 1050.72,
+   "end": 1053.78,
+   "text": "Спросите еще раз, достаточно ли двух недель?",
+   "lang": "ru"
+  },
+  {
+   "start": 1058.28,
+   "end": 1060.4,
+   "text": "Is two weeks enough time?",
+   "lang": "ru"
+  },
+  {
+   "start": 1063.8,
+   "end": 1067.84,
+   "text": "Now try to ask, достаточно ли двух недель, чтобы увидеть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1072.22,
+   "end": 1074.72,
+   "text": "Is two weeks enough time to see?",
+   "lang": "ru"
+  },
+  {
+   "start": 1079.48,
+   "end": 1079.9,
+   "text": "To see",
+   "lang": "ru"
+  },
+  {
+   "start": 1081.96,
+   "end": 1083.56,
+   "text": "Enough time to see",
+   "lang": "ru"
+  },
+  {
+   "start": 1086.58,
+   "end": 1088.9,
+   "text": "Is two weeks enough time to see?",
+   "lang": "ru"
+  },
+  {
+   "start": 1093.14,
+   "end": 1098.32,
+   "text": "Ask. Достаточно ли двух недель, чтобы посмотреть Пуэбло и Мехико?",
+   "lang": "ru"
+  },
+  {
+   "start": 1108.82,
+   "end": 1113.04,
+   "text": "Is two weeks enough time to see Puebla and Mexico City?",
+   "lang": "ru"
+  },
+  {
+   "start": 1119.72,
+   "end": 1126.98,
+   "text": "Enough time to see. Enough time to see Puebla and Mexico City.",
+   "lang": "ru"
+  },
+  {
+   "start": 1126.98,
+   "end": 1127.18,
+   "text": "City.",
+   "lang": "en"
+  },
+  {
+   "start": 1132.02,
+   "end": 1141.18,
+   "text": "Is two weeks enough? Is two weeks enough time to see Puebla and Mexico City?",
+   "lang": "ru"
+  },
+  {
+   "start": 1141.18,
+   "end": 1141.38,
+   "text": "City?",
+   "lang": "en"
+  },
+  {
+   "start": 1147.52,
+   "end": 1150.86,
+   "text": "Да, две недели достаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.34,
+   "end": 1157.84,
+   "text": "Yes, two weeks is enough time?",
+   "lang": "en"
+  },
+  {
+   "start": 1162.28,
+   "end": 1163.34,
+   "text": "Enough time.",
+   "lang": "en"
+  },
+  {
+   "start": 1165.8,
+   "end": 1167.62,
+   "text": "Two weeks is enough time?",
+   "lang": "en"
+  },
+  {
+   "start": 1171.18,
+   "end": 1173.94,
+   "text": "Чтобы посмотреть Пуэбло и Мехико.",
+   "lang": "ru"
+  },
+  {
+   "start": 1177.58,
+   "end": 1180.18,
+   "text": "to see Puebla and Mexico City.",
+   "lang": "en"
+  },
+  {
+   "start": 1184.58,
+   "end": 1187.32,
+   "text": "Пуэбло не такой большой город, как Мехико.",
+   "lang": "ru"
+  },
+  {
+   "start": 1192.8,
+   "end": 1195.36,
+   "text": "Puebla isn't as big as Mexico City.",
+   "lang": "ru"
+  },
+  {
+   "start": 1200.54,
+   "end": 1203.14,
+   "text": "Puebla isn't as big as Mexico City.",
+   "lang": "en"
+  },
+  {
+   "start": 1208.52,
+   "end": 1211.64,
+   "text": "Say that two weeks is enough time to see both cities.",
+   "lang": "ru"
+  },
+  {
+   "start": 1218.26,
+   "end": 1221.08,
+   "text": "Two weeks is enough time to see both cities.",
+   "lang": "ru"
+  },
+  {
+   "start": 1225.7,
+   "end": 1226.96,
+   "text": "Both cities",
+   "lang": "en"
+  },
+  {
+   "start": 1226.96,
+   "end": 1232.52,
+   "text": "Two weeks is enough time to see both cities.",
+   "lang": "en"
+  },
+  {
+   "start": 1236.78,
+   "end": 1240.54,
+   "text": "Но моя племянница...",
+   "lang": "ru"
+  },
+  {
+   "start": 1243.0,
+   "end": 1244.56,
+   "text": "But my niece",
+   "lang": "ru"
+  },
+  {
+   "start": 1247.06,
+   "end": 1250.12,
+   "text": "Моей племяннице хочется поехать в Канкан",
+   "lang": "ru"
+  },
+  {
+   "start": 1250.12,
+   "end": 1256.26,
+   "text": "My niece would like to go to Cancun",
+   "lang": "ru"
+  },
+  {
+   "start": 1259.9,
+   "end": 1261.3,
+   "text": "Here's how to say",
+   "lang": "ru"
+  },
+  {
+   "start": 1261.3,
+   "end": 1262.84,
+   "text": "мой племянник",
+   "lang": "ru"
+  },
+  {
+   "start": 1262.84,
+   "end": 1264.16,
+   "text": "Listen and repeat",
+   "lang": "ru"
+  },
+  {
+   "start": 1264.16,
+   "end": 1265.76,
+   "text": "My nephew",
+   "lang": "ru"
+  },
+  {
+   "start": 1268.46,
+   "end": 1269.34,
+   "text": "Nephew",
+   "lang": "ru"
+  },
+  {
+   "start": 1270.96,
+   "end": 1272.24,
+   "text": "Фью.",
+   "lang": "ru"
+  },
+  {
+   "start": 1274.86,
+   "end": 1275.22,
+   "text": "Неф.",
+   "lang": "ru"
+  },
+  {
+   "start": 1277.8,
+   "end": 1278.7,
+   "text": "Не-фью.",
+   "lang": "ru"
+  },
+  {
+   "start": 1282.06,
+   "end": 1282.62,
+   "text": "Мой нефью.",
+   "lang": "ru"
+  },
+  {
+   "start": 1285.72,
+   "end": 1285.98,
+   "text": "Сэй.",
+   "lang": "ru"
+  },
+  {
+   "start": 1286.62,
+   "end": 1287.72,
+   "text": "Мой племянник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1289.88,
+   "end": 1291.56,
+   "text": "Мой нефью.",
+   "lang": "ru"
+  },
+  {
+   "start": 1293.68,
+   "end": 1297.2,
+   "text": "Мой племянник хочет поехать в Акапулько.",
+   "lang": "ru"
+  },
+  {
+   "start": 1300.72,
+   "end": 1303.42,
+   "text": "My nephew wants to go to Acapulco.",
+   "lang": "ru"
+  },
+  {
+   "start": 1307.34,
+   "end": 1309.18,
+   "text": "Двух недель будет достаточно?",
+   "lang": "ru"
+  },
+  {
+   "start": 1309.18,
+   "end": 1309.36,
+   "text": "That's enough.",
+   "lang": "en"
+  },
+  {
+   "start": 1312.4,
+   "end": 1314.5,
+   "text": "Is two weeks enough time?",
+   "lang": "ru"
+  },
+  {
+   "start": 1318.04,
+   "end": 1321.26,
+   "text": "Чтобы также увидеть Канкан и Акапулько?",
+   "lang": "ru"
+  },
+  {
+   "start": 1325.26,
+   "end": 1328.54,
+   "text": "To see Cancun and Acapulco too?",
+   "lang": "ru"
+  },
+  {
+   "start": 1333.04,
+   "end": 1334.94,
+   "text": "Мы говорили о Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 1338.1,
+   "end": 1340.18,
+   "text": "We were talking about Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 1343.46,
+   "end": 1346.14,
+   "text": "Потому что мой брат и его жена",
+   "lang": "ru"
+  },
+  {
+   "start": 1349.44,
+   "end": 1352.02,
+   "text": "Because my brother and his wife...",
+   "lang": "en"
+  },
+  {
+   "start": 1355.12,
+   "end": 1356.34,
+   "text": "едут туда скоро.",
+   "lang": "ru"
+  },
+  {
+   "start": 1358.96,
+   "end": 1360.6,
+   "text": "are going there soon.",
+   "lang": "en"
+  },
+  {
+   "start": 1363.02,
+   "end": 1366.12,
+   "text": "Моя племянница и мой племянник",
+   "lang": "ru"
+  },
+  {
+   "start": 1369.0,
+   "end": 1370.8,
+   "text": "My niece and my nephew",
+   "lang": "en"
+  },
+  {
+   "start": 1374.12,
+   "end": 1375.58,
+   "text": "едут с ними.",
+   "lang": "ru"
+  },
+  {
+   "start": 1378.16,
+   "end": 1379.9,
+   "text": "Are going with them.",
+   "lang": "en"
+  },
+  {
+   "start": 1381.64,
+   "end": 1384.22,
+   "text": "Они будут там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1387.7,
+   "end": 1388.64,
+   "text": "They'll be there.",
+   "lang": "en"
+  },
+  {
+   "start": 1391.62,
+   "end": 1392.5,
+   "text": "They'll be there.",
+   "lang": "en"
+  },
+  {
+   "start": 1394.2,
+   "end": 1397.3,
+   "text": "В течение двух недель.",
+   "lang": "ru"
+  },
+  {
+   "start": 1400.14,
+   "end": 1401.36,
+   "text": "for two weeks.",
+   "lang": "en"
+  },
+  {
+   "start": 1404.4,
+   "end": 1406.1,
+   "text": "They'll be there for two weeks.",
+   "lang": "en"
+  },
+  {
+   "start": 1409.08,
+   "end": 1411.28,
+   "text": "У них достаточно времени?",
+   "lang": "ru"
+  },
+  {
+   "start": 1411.28,
+   "end": 1415.82,
+   "text": "Do they have enough time?",
+   "lang": "en"
+  },
+  {
+   "start": 1418.98,
+   "end": 1423.36,
+   "text": "У них достаточно времени, чтобы посмотреть 4 города?",
+   "lang": "ru"
+  },
+  {
+   "start": 1428.32,
+   "end": 1431.54,
+   "text": "Do they have enough time to see four cities?",
+   "lang": "en"
+  },
+  {
+   "start": 1436.68,
+   "end": 1437.3,
+   "text": "Cities.",
+   "lang": "en"
+  },
+  {
+   "start": 1439.78,
+   "end": 1442.98,
+   "text": "Do they have enough time to see four cities?",
+   "lang": "en"
+  },
+  {
+   "start": 1446.62,
+   "end": 1452.26,
+   "text": "Вы хотите начать с выражения «по моему мнению»?",
+   "lang": "ru"
+  },
+  {
+   "start": 1452.26,
+   "end": 1453.52,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1453.52,
+   "end": 1455.26,
+   "text": "In my opinion.",
+   "lang": "en"
+  },
+  {
+   "start": 1458.66,
+   "end": 1459.26,
+   "text": "Opinion.",
+   "lang": "en"
+  },
+  {
+   "start": 1461.86,
+   "end": 1462.56,
+   "text": "Opinion.",
+   "lang": "en"
+  },
+  {
+   "start": 1468.08,
+   "end": 1469.48,
+   "text": "Opinion.",
+   "lang": "en"
+  },
+  {
+   "start": 1471.54,
+   "end": 1473.44,
+   "text": "My opinion.",
+   "lang": "en"
+  },
+  {
+   "start": 1475.54,
+   "end": 1477.58,
+   "text": "In my opinion.",
+   "lang": "en"
+  },
+  {
+   "start": 1481.08,
+   "end": 1482.34,
+   "text": "Say, pomuyamu.",
+   "lang": "en"
+  },
+  {
+   "start": 1484.42,
+   "end": 1486.26,
+   "text": "В моей мнении,",
+   "lang": "ru"
+  },
+  {
+   "start": 1488.32,
+   "end": 1491.26,
+   "text": "сначала им нужно поехать в Пуэбло,",
+   "lang": "ru"
+  },
+  {
+   "start": 1495.16,
+   "end": 1496.8,
+   "text": "First they should go to Puebla.",
+   "lang": "en"
+  },
+  {
+   "start": 1499.78,
+   "end": 1503.52,
+   "text": "чтобы увидеться с клиентом вашего брата.",
+   "lang": "ru"
+  },
+  {
+   "start": 1506.9,
+   "end": 1508.6,
+   "text": "To see your brother's client.",
+   "lang": "en"
+  },
+  {
+   "start": 1512.3,
+   "end": 1513.74,
+   "text": "Your brother's client.",
+   "lang": "ru"
+  },
+  {
+   "start": 1517.34,
+   "end": 1520.04,
+   "text": "Потом им следует поехать в Мехико.",
+   "lang": "ru"
+  },
+  {
+   "start": 1524.1,
+   "end": 1526.42,
+   "text": "Then they should go to Mexico City.",
+   "lang": "ru"
+  },
+  {
+   "start": 1530.38,
+   "end": 1533.16,
+   "text": "После этого, если у них будет время,",
+   "lang": "ru"
+  },
+  {
+   "start": 1536.96,
+   "end": 1538.84,
+   "text": "after that, if they have time,",
+   "lang": "ru"
+  },
+  {
+   "start": 1542.32,
+   "end": 1544.78,
+   "text": "Им следует поехать в Канкан.",
+   "lang": "ru"
+  },
+  {
+   "start": 1548.36,
+   "end": 1549.98,
+   "text": "They should go to Cancun.",
+   "lang": "en"
+  },
+  {
+   "start": 1552.1,
+   "end": 1555.8,
+   "text": "Но две недели недостаточно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1559.54,
+   "end": 1561.86,
+   "text": "Но два недели не достаточно,",
+   "lang": "ru"
+  },
+  {
+   "start": 1566.2,
+   "end": 1568.32,
+   "text": "Two weeks isn't enough time.",
+   "lang": "en"
+  },
+  {
+   "start": 1571.32,
+   "end": 1574.9,
+   "text": "чтобы также увидеть и Акапулько.",
+   "lang": "ru"
+  },
+  {
+   "start": 1578.84,
+   "end": 1580.78,
+   "text": "to see Acapulco 2.",
+   "lang": "en"
+  },
+  {
+   "start": 1584.48,
+   "end": 1586.48,
+   "text": "Акапулько прекрасный город.",
+   "lang": "ru"
+  },
+  {
+   "start": 1590.96,
+   "end": 1592.18,
+   "text": "Acapulco is a nice city.",
+   "lang": "en"
+  },
+  {
+   "start": 1595.06,
+   "end": 1597.12,
+   "text": "Но, по-моему,",
+   "lang": "ru"
+  },
+  {
+   "start": 1597.12,
+   "end": 1601.3,
+   "text": "But in my opinion...",
+   "lang": "en"
+  },
+  {
+   "start": 1602.72,
+   "end": 1605.04,
+   "text": "In my opinion...",
+   "lang": "en"
+  },
+  {
+   "start": 1606.26,
+   "end": 1609.68,
+   "text": "он не такой интересный, как Канкан.",
+   "lang": "ru"
+  },
+  {
+   "start": 1613.92,
+   "end": 1616.52,
+   "text": "It's not as interesting as Cancun.",
+   "lang": "ru"
+  },
+  {
+   "start": 1620.14,
+   "end": 1622.98,
+   "text": "It isn't as interesting as Cancun.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.24,
+   "end": 1629.1,
+   "text": "Наступил другой день.",
+   "lang": "ru"
+  },
+  {
+   "start": 1629.34,
+   "end": 1632.02,
+   "text": "Вы встретились с друзьями в кафе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1632.58,
+   "end": 1634.14,
+   "text": "Вас зовут Манвел.",
+   "lang": "ru"
+  },
+  {
+   "start": 1634.82,
+   "end": 1639.7,
+   "text": "Как вас поприветствует подруга в неформальной форме, называя вас по имени?",
+   "lang": "ru"
+  },
+  {
+   "start": 1641.76,
+   "end": 1643.7,
+   "text": "Hi Manuel",
+   "lang": "en"
+  },
+  {
+   "start": 1643.7,
+   "end": 1647.74,
+   "text": "Hi Manuel",
+   "lang": "en"
+  },
+  {
+   "start": 1649.6,
+   "end": 1652.36,
+   "text": "Почему бы тебе не присесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1655.1,
+   "end": 1656.38,
+   "text": "Why don't you sit down?",
+   "lang": "en"
+  },
+  {
+   "start": 1659.06,
+   "end": 1660.88,
+   "text": "Хорошо, спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1660.88,
+   "end": 1661.1,
+   "text": "Спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1664.72,
+   "end": 1665.64,
+   "text": "Окей, спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1665.64,
+   "end": 1665.88,
+   "text": "Thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 1668.92,
+   "end": 1671.62,
+   "text": "Она говорит, что мы только что говорили о Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 1675.78,
+   "end": 1678.02,
+   "text": "Мы только что говорили о Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 1682.62,
+   "end": 1684.78,
+   "text": "Моя сестра и мой племянник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1687.76,
+   "end": 1689.52,
+   "text": "Моя сестра и мой племянник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1691.98,
+   "end": 1694.0,
+   "text": "Скоро поедут туда.",
+   "lang": "ru"
+  },
+  {
+   "start": 1697.1,
+   "end": 1698.72,
+   "text": "Are going there soon.",
+   "lang": "en"
+  },
+  {
+   "start": 1700.88,
+   "end": 1705.06,
+   "text": "У моей сестры новый клиент в Веракрусе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1705.06,
+   "end": 1706.12,
+   "text": "Вера Круз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1710.68,
+   "end": 1713.56,
+   "text": "My sister has a new client in Veracruz.",
+   "lang": "en"
+  },
+  {
+   "start": 1718.52,
+   "end": 1719.14,
+   "text": "Veracruz",
+   "lang": "en"
+  },
+  {
+   "start": 1719.62,
+   "end": 1724.3,
+   "text": "А мой племянник только что окончил институт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1728.28,
+   "end": 1731.62,
+   "text": "И мой отец только что отучился из колледжа.",
+   "lang": "ru"
+  },
+  {
+   "start": 1735.68,
+   "end": 1737.2,
+   "text": "Попробуйте спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1737.32,
+   "end": 1738.74,
+   "text": "По вашему мнению,",
+   "lang": "ru"
+  },
+  {
+   "start": 1742.16,
+   "end": 1743.12,
+   "text": "в вашей мнении,",
+   "lang": "ru"
+  },
+  {
+   "start": 1743.26,
+   "end": 1747.5,
+   "text": "в вашей мнении,",
+   "lang": "ru"
+  },
+  {
+   "start": 1747.58,
+   "end": 1752.42,
+   "text": "куда им следует поехать?",
+   "lang": "ru"
+  },
+  {
+   "start": 1755.0,
+   "end": 1756.02,
+   "text": "Where should they go?",
+   "lang": "en"
+  },
+  {
+   "start": 1758.68,
+   "end": 1761.72,
+   "text": "По вашему мнению, куда им стоит поехать?",
+   "lang": "ru"
+  },
+  {
+   "start": 1765.76,
+   "end": 1767.98,
+   "text": "In your opinion, where should they go?",
+   "lang": "en"
+  },
+  {
+   "start": 1772.02,
+   "end": 1773.72,
+   "text": "Where should they go in Mexico?",
+   "lang": "en"
+  },
+  {
+   "start": 1776.84,
+   "end": 1779.06,
+   "text": "Ask how much time they have.",
+   "lang": "ru"
+  },
+  {
+   "start": 1782.34,
+   "end": 1784.0,
+   "text": "How much time do they have?",
+   "lang": "ru"
+  },
+  {
+   "start": 1787.1,
+   "end": 1788.86,
+   "text": "около 10 дней",
+   "lang": "ru"
+  },
+  {
+   "start": 1791.76,
+   "end": 1793.02,
+   "text": "About ten days later.",
+   "lang": "en"
+  },
+  {
+   "start": 1793.04,
+   "end": 1793.96,
+   "text": "say",
+   "lang": "ru"
+  },
+  {
+   "start": 1796.84,
+   "end": 1799.66,
+   "text": "в таком случае, по моему мнению",
+   "lang": "ru"
+  },
+  {
+   "start": 1802.7,
+   "end": 1804.6,
+   "text": "then, in my opinion",
+   "lang": "ru"
+  },
+  {
+   "start": 1807.44,
+   "end": 1811.4,
+   "text": "после Веракруса им следует ехать в Казумель",
+   "lang": "ru"
+  },
+  {
+   "start": 1811.4,
+   "end": 1812.48,
+   "text": "Kazimel",
+   "lang": "en"
+  },
+  {
+   "start": 1816.88,
+   "end": 1820.14,
+   "text": "После Веракруза они должны идти в Казумель.",
+   "lang": "ru"
+  },
+  {
+   "start": 1824.86,
+   "end": 1827.8,
+   "text": "Большинству людей очень нравится Казумель.",
+   "lang": "ru"
+  },
+  {
+   "start": 1832.48,
+   "end": 1834.5,
+   "text": "Большинство людей очень любят Казумель.",
+   "lang": "ru"
+  },
+  {
+   "start": 1834.5,
+   "end": 1835.14,
+   "text": "very much.",
+   "lang": "en"
+  },
+  {
+   "start": 1839.34,
+   "end": 1841.34,
+   "text": "Большинство людей очень любят Казумель.",
+   "lang": "ru"
+  },
+  {
+   "start": 1841.34,
+   "end": 1841.94,
+   "text": "very much.",
+   "lang": "en"
+  },
+  {
+   "start": 1846.82,
+   "end": 1849.0,
+   "text": "Потом им следует ехать в Мехико.",
+   "lang": "ru"
+  },
+  {
+   "start": 1853.02,
+   "end": 1855.08,
+   "text": "Then they should go to Mexico City.",
+   "lang": "ru"
+  },
+  {
+   "start": 1859.02,
+   "end": 1862.56,
+   "text": "Now you want to order. Ask which one is your waitress.",
+   "lang": "ru"
+  },
+  {
+   "start": 1862.94,
+   "end": 1864.7,
+   "text": "Используйте слово «наша».",
+   "lang": "ru"
+  },
+  {
+   "start": 1867.88,
+   "end": 1869.66,
+   "text": "Which one is our waitress?",
+   "lang": "ru"
+  },
+  {
+   "start": 1872.4,
+   "end": 1875.42,
+   "text": "Это конец девятнадцатого урока.",
+   "lang": "ru"
+  }
+ ]
+}

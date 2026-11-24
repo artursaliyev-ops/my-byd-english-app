@@ -1,0 +1,2187 @@
+{
+ "id": "III_28",
+ "source": "Pimsleur_III_28.mp3",
+ "duration": 1829.17,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 138,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.96,
+   "text": "I've been a wild rover for many, many years.",
+   "lang": "ru"
+  },
+  {
+   "start": 5.84,
+   "end": 9.52,
+   "text": "I've spent all my money on whiskey and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.14,
+   "end": 19.16,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 22.5,
+   "end": 29.4,
+   "text": "28-й урок третьего уровня американского английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.0,
+   "end": 32.84,
+   "text": "Вы услышите?",
+   "lang": "ru"
+  },
+  {
+   "start": 32.96,
+   "end": 39.16,
+   "text": "Это название банка, который имеет большое количество филиалов в Бостоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 39.66,
+   "end": 42.54,
+   "text": "Ann, do you know where I can open a checking account?",
+   "lang": "en"
+  },
+  {
+   "start": 42.9,
+   "end": 45.34,
+   "text": "You can go to my bank. It's U.S. Trust.",
+   "lang": "en"
+  },
+  {
+   "start": 45.94,
+   "end": 48.38,
+   "text": "There's one just around the corner in Harvard Square.",
+   "lang": "en"
+  },
+  {
+   "start": 48.84,
+   "end": 50.16,
+   "text": "How late are they open?",
+   "lang": "en"
+  },
+  {
+   "start": 50.42,
+   "end": 54.62,
+   "text": "Most days they close at 4, but on Thursdays they're open until 6 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 54.9,
+   "end": 57.3,
+   "text": "Then maybe I can go after work today.",
+   "lang": "en"
+  },
+  {
+   "start": 57.56,
+   "end": 59.1,
+   "text": "I think you'll need some identification.",
+   "lang": "en"
+  },
+  {
+   "start": 60.0,
+   "end": 61.9,
+   "text": "Maybe you should take your passport with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 62.92,
+   "end": 63.68,
+   "text": "Listen again.",
+   "lang": "ru"
+  },
+  {
+   "start": 64.8,
+   "end": 67.38,
+   "text": "Anne, do you know where I can open a checking account?",
+   "lang": "ru"
+  },
+  {
+   "start": 67.76,
+   "end": 70.26,
+   "text": "You can go to my bank. It's U.S. Trust.",
+   "lang": "ru"
+  },
+  {
+   "start": 70.8,
+   "end": 73.2,
+   "text": "There's one just around the corner in Harvard Square.",
+   "lang": "ru"
+  },
+  {
+   "start": 73.74,
+   "end": 75.02,
+   "text": "How late are they open?",
+   "lang": "ru"
+  },
+  {
+   "start": 75.32,
+   "end": 79.46,
+   "text": "Most days they close at 4, but on Thursdays they're open until 6 o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 79.78,
+   "end": 82.16,
+   "text": "Then maybe I can go after work today.",
+   "lang": "ru"
+  },
+  {
+   "start": 82.44,
+   "end": 84.16,
+   "text": "I think you'll need some identification.",
+   "lang": "ru"
+  },
+  {
+   "start": 84.66,
+   "end": 86.72,
+   "text": "Maybe you should take your passport with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 87.62,
+   "end": 98.86,
+   "text": "Сейчас вы находитесь в своем офисе, и к вам заходит коллега. В офисе находится женщина, которая с ним не знакома. Как он скажет? Простите за беспокойство.",
+   "lang": "ru"
+  },
+  {
+   "start": 101.54,
+   "end": 102.84,
+   "text": "Sorry to bother you.",
+   "lang": "en"
+  },
+  {
+   "start": 105.68,
+   "end": 108.72,
+   "text": "Я хочу познакомить вас с нашим новым клиентом.",
+   "lang": "ru"
+  },
+  {
+   "start": 112.22,
+   "end": 114.16,
+   "text": "I'd like you to meet our new client.",
+   "lang": "en"
+  },
+  {
+   "start": 118.04,
+   "end": 119.58,
+   "text": "To meet our new client.",
+   "lang": "en"
+  },
+  {
+   "start": 122.36,
+   "end": 128.28,
+   "text": "I'd like you to meet our new client.",
+   "lang": "ru"
+  },
+  {
+   "start": 131.96,
+   "end": 137.3,
+   "text": "Вы представляете ему Нэнси Мартин, дословно. Это Нэнси Мартин.",
+   "lang": "ru"
+  },
+  {
+   "start": 139.88,
+   "end": 141.88,
+   "text": "This is Nancy Martin.",
+   "lang": "ru"
+  },
+  {
+   "start": 144.96,
+   "end": 146.36,
+   "text": "This is Nancy Martin.",
+   "lang": "en"
+  },
+  {
+   "start": 148.54,
+   "end": 150.84,
+   "text": "Она из Сиэтла.",
+   "lang": "ru"
+  },
+  {
+   "start": 154.02,
+   "end": 155.26,
+   "text": "She's from Seattle.",
+   "lang": "en"
+  },
+  {
+   "start": 158.28,
+   "end": 161.06,
+   "text": "Нэнси, это Хулио Фернандес.",
+   "lang": "ru"
+  },
+  {
+   "start": 165.42,
+   "end": 167.52,
+   "text": "Nancy, this is Julio Fernandez.",
+   "lang": "en"
+  },
+  {
+   "start": 171.16,
+   "end": 174.04,
+   "text": "Что они оба скажут?",
+   "lang": "ru"
+  },
+  {
+   "start": 175.96,
+   "end": 177.68,
+   "text": "Пожалуйста, поздоровайтесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 180.78,
+   "end": 181.8,
+   "text": "Pleased to meet you.",
+   "lang": "en"
+  },
+  {
+   "start": 197.98,
+   "end": 200.66,
+   "text": "I reserved a room for two nights.",
+   "lang": "en"
+  },
+  {
+   "start": 204.62,
+   "end": 211.58,
+   "text": "Она проверяет информацию, затем дает вам бланк. Она просит, распишитесь здесь, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 215.0,
+   "end": 216.46,
+   "text": "Sign here please.",
+   "lang": "en"
+  },
+  {
+   "start": 219.68,
+   "end": 221.1,
+   "text": "Sign here please.",
+   "lang": "en"
+  },
+  {
+   "start": 223.26,
+   "end": 228.96,
+   "text": "У вас комната номер 320. Скажите это в краткой форме.",
+   "lang": "ru"
+  },
+  {
+   "start": 231.88,
+   "end": 233.54,
+   "text": "You have room 320.",
+   "lang": "en"
+  },
+  {
+   "start": 236.82,
+   "end": 238.1,
+   "text": "Room 320.",
+   "lang": "en"
+  },
+  {
+   "start": 240.46,
+   "end": 244.12,
+   "text": "Она будет готова примерно через 10 минут.",
+   "lang": "ru"
+  },
+  {
+   "start": 247.96,
+   "end": 250.34,
+   "text": "It will be ready in about 10 minutes.",
+   "lang": "ru"
+  },
+  {
+   "start": 254.38,
+   "end": 256.0,
+   "text": "In about 10 minutes.",
+   "lang": "ru"
+  },
+  {
+   "start": 259.34,
+   "end": 261.5,
+   "text": "Вы не расслышали, что она сказала.",
+   "lang": "ru"
+  },
+  {
+   "start": 262.28,
+   "end": 263.96,
+   "text": "Послушайте, что вы можете сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 264.5,
+   "end": 265.4,
+   "text": "I'm sorry.",
+   "lang": "ru"
+  },
+  {
+   "start": 265.92,
+   "end": 266.9,
+   "text": "I'm sorry.",
+   "lang": "ru"
+  },
+  {
+   "start": 267.78,
+   "end": 268.56,
+   "text": "Вы можете сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 268.56,
+   "end": 270.0,
+   "text": "I'm sorry.",
+   "lang": "ru"
+  },
+  {
+   "start": 270.0,
+   "end": 274.62,
+   "text": "Чтобы попросить другого человека повторить то, что он только что сказал.",
+   "lang": "ru"
+  },
+  {
+   "start": 274.86,
+   "end": 280.0,
+   "text": "Таким образом, скажите «Извините, когда она будет готова?»",
+   "lang": "ru"
+  },
+  {
+   "start": 283.64,
+   "end": 285.8,
+   "text": "I'm sorry, when will it be ready?",
+   "lang": "ru"
+  },
+  {
+   "start": 290.16,
+   "end": 292.32,
+   "text": "I'm sorry, when will it be ready?",
+   "lang": "ru"
+  },
+  {
+   "start": 297.08,
+   "end": 298.42,
+   "text": "Примерно через 10 минут.",
+   "lang": "ru"
+  },
+  {
+   "start": 301.58,
+   "end": 303.28,
+   "text": "In about 10 minutes.",
+   "lang": "en"
+  },
+  {
+   "start": 306.34,
+   "end": 307.94,
+   "text": "In about 10 minutes.",
+   "lang": "en"
+  },
+  {
+   "start": 310.88,
+   "end": 313.78,
+   "text": "Но я могу дать вам электронный ключ сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 317.74,
+   "end": 319.78,
+   "text": "Но я могу тебе дать ключевой карту сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 323.56,
+   "end": 325.4,
+   "text": "I can give you the keycard now.",
+   "lang": "en"
+  },
+  {
+   "start": 329.42,
+   "end": 331.6,
+   "text": "Говори, что твоя лагерь в машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 337.08,
+   "end": 339.04,
+   "text": "Моя лагерь в машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 343.24,
+   "end": 344.66,
+   "text": "Ask where you can park.",
+   "lang": "en"
+  },
+  {
+   "start": 348.12,
+   "end": 349.3,
+   "text": "Where can I park?",
+   "lang": "en"
+  },
+  {
+   "start": 350.68,
+   "end": 355.68,
+   "text": "У нас есть скрытая парковка.",
+   "lang": "ru"
+  },
+  {
+   "start": 359.28,
+   "end": 360.8,
+   "text": "We have a parking garage.",
+   "lang": "en"
+  },
+  {
+   "start": 362.6,
+   "end": 366.0,
+   "text": "Вот ваш электронный ключ.",
+   "lang": "ru"
+  },
+  {
+   "start": 369.12,
+   "end": 370.34,
+   "text": "Here's your keycard.",
+   "lang": "en"
+  },
+  {
+   "start": 372.38,
+   "end": 375.42,
+   "text": "Вы можете принести свой багаж.",
+   "lang": "ru"
+  },
+  {
+   "start": 378.5,
+   "end": 379.96,
+   "text": "You can get your luggage?",
+   "lang": "en"
+  },
+  {
+   "start": 387.48,
+   "end": 390.04,
+   "text": "И припарковать свою машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 393.28,
+   "end": 394.74,
+   "text": "and park your car",
+   "lang": "en"
+  },
+  {
+   "start": 395.96,
+   "end": 399.48,
+   "text": "на нашей парковке.",
+   "lang": "ru"
+  },
+  {
+   "start": 402.34,
+   "end": 403.76,
+   "text": "in our parking garage.",
+   "lang": "en"
+  },
+  {
+   "start": 405.5,
+   "end": 409.44,
+   "text": "Ваша комната скоро будет готова.",
+   "lang": "ru"
+  },
+  {
+   "start": 412.72,
+   "end": 414.28,
+   "text": "Your room will be ready soon.",
+   "lang": "en"
+  },
+  {
+   "start": 417.38,
+   "end": 423.58,
+   "text": "Она дает вам квитанцию от вашей кредитной карты и говорит, распишитесь здесь, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 426.68,
+   "end": 428.0,
+   "text": "Sign here please.",
+   "lang": "en"
+  },
+  {
+   "start": 431.2,
+   "end": 433.26,
+   "text": "Now you're in a bank, say hello to your bank account.",
+   "lang": "en"
+  },
+  {
+   "start": 433.28,
+   "end": 435.42,
+   "text": "Мне бы хотелось открыть счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 438.92,
+   "end": 440.74,
+   "text": "I'd like to open an account.",
+   "lang": "ru"
+  },
+  {
+   "start": 444.56,
+   "end": 446.28,
+   "text": "I'd like to open an account.",
+   "lang": "en"
+  },
+  {
+   "start": 450.38,
+   "end": 453.06,
+   "text": "Менеджер спрашивает вас, какой вид счета?",
+   "lang": "ru"
+  },
+  {
+   "start": 455.9,
+   "end": 457.32,
+   "text": "What kind of account?",
+   "lang": "ru"
+  },
+  {
+   "start": 457.32,
+   "end": 457.54,
+   "text": "out.",
+   "lang": "en"
+  },
+  {
+   "start": 460.84,
+   "end": 462.48,
+   "text": "Say, чековый счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 465.42,
+   "end": 466.88,
+   "text": "A checking account.",
+   "lang": "ru"
+  },
+  {
+   "start": 470.0,
+   "end": 471.42,
+   "text": "A checking account",
+   "lang": "en"
+  },
+  {
+   "start": 474.3,
+   "end": 475.94,
+   "text": "She asks,",
+   "lang": "ru"
+  },
+  {
+   "start": 476.14,
+   "end": 479.22,
+   "text": "У вас есть какой-нибудь документ, удостоверяющий личность?",
+   "lang": "ru"
+  },
+  {
+   "start": 482.28,
+   "end": 484.26,
+   "text": "Do you have some identification?",
+   "lang": "ru"
+  },
+  {
+   "start": 487.86,
+   "end": 489.22,
+   "text": "Some identification?",
+   "lang": "ru"
+  },
+  {
+   "start": 492.28,
+   "end": 494.52,
+   "text": "Вы не расслышали, что она сказала.",
+   "lang": "ru"
+  },
+  {
+   "start": 495.42,
+   "end": 496.6,
+   "text": "Скажите, простите?",
+   "lang": "ru"
+  },
+  {
+   "start": 499.38,
+   "end": 500.1,
+   "text": "I'm sorry?",
+   "lang": "en"
+  },
+  {
+   "start": 502.88,
+   "end": 503.6,
+   "text": "I'm sorry?",
+   "lang": "en"
+  },
+  {
+   "start": 505.3,
+   "end": 511.32,
+   "text": "Чтобы было более понятно, что вы хотите сказать, можно добавить, что вы сказали.",
+   "lang": "ru"
+  },
+  {
+   "start": 511.6,
+   "end": 512.0,
+   "text": "Продолжайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 512.9,
+   "end": 514.5,
+   "text": "Что вы сказали?",
+   "lang": "ru"
+  },
+  {
+   "start": 517.58,
+   "end": 518.46,
+   "text": "Скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 520.86,
+   "end": 521.74,
+   "text": "Скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 524.2,
+   "end": 525.52,
+   "text": "Did say",
+   "lang": "ru"
+  },
+  {
+   "start": 528.08,
+   "end": 529.72,
+   "text": "Did you say",
+   "lang": "ru"
+  },
+  {
+   "start": 532.06,
+   "end": 532.72,
+   "text": "What?",
+   "lang": "ru"
+  },
+  {
+   "start": 535.04,
+   "end": 536.34,
+   "text": "What did you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 539.44,
+   "end": 540.1,
+   "text": "Ask",
+   "lang": "ru"
+  },
+  {
+   "start": 540.1,
+   "end": 541.86,
+   "text": "Извините, что вы сказали?",
+   "lang": "ru"
+  },
+  {
+   "start": 545.7,
+   "end": 547.72,
+   "text": "I'm sorry, what did you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 547.72,
+   "end": 547.9,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 551.74,
+   "end": 553.56,
+   "text": "I'm sorry, what did you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 553.56,
+   "end": 553.72,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 557.4,
+   "end": 561.18,
+   "text": "She asks, Вы хотите открыть чековый счет, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 566.08,
+   "end": 568.92,
+   "text": "You want to open a checking account, don't you?",
+   "lang": "ru"
+  },
+  {
+   "start": 572.88,
+   "end": 574.28,
+   "text": "And",
+   "lang": "en"
+  },
+  {
+   "start": 574.34,
+   "end": 576.0,
+   "text": "Answer, Совершенно верно.",
+   "lang": "ru"
+  },
+  {
+   "start": 579.0,
+   "end": 579.8,
+   "text": "That's right.",
+   "lang": "ru"
+  },
+  {
+   "start": 582.34,
+   "end": 585.44,
+   "text": "Тогда вам нужно какое-нибудь удостоверение личности.",
+   "lang": "ru"
+  },
+  {
+   "start": 589.2,
+   "end": 591.46,
+   "text": "Then you need some identification.",
+   "lang": "ru"
+  },
+  {
+   "start": 595.64,
+   "end": 597.5,
+   "text": "You need some identification.",
+   "lang": "ru"
+  },
+  {
+   "start": 597.5,
+   "end": 597.88,
+   "text": "notification",
+   "lang": "en"
+  },
+  {
+   "start": 601.52,
+   "end": 604.22,
+   "text": "Что вы скажете, подавая свой паспорт?",
+   "lang": "ru"
+  },
+  {
+   "start": 606.6,
+   "end": 608.14,
+   "text": "Here's my passport.",
+   "lang": "ru"
+  },
+  {
+   "start": 611.34,
+   "end": 612.22,
+   "text": "Паспорт.",
+   "lang": "ru"
+  },
+  {
+   "start": 614.56,
+   "end": 620.76,
+   "text": "После того, как она посмотрела ваш паспорт, она просит. Сейчас распишитесь здесь, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 623.88,
+   "end": 625.64,
+   "text": "Now sign here please.",
+   "lang": "en"
+  },
+  {
+   "start": 634.46,
+   "end": 636.34,
+   "text": "Спросите, есть ли у нее ручка.",
+   "lang": "ru"
+  },
+  {
+   "start": 639.16,
+   "end": 640.22,
+   "text": "Do you have a pen?",
+   "lang": "en"
+  },
+  {
+   "start": 643.26,
+   "end": 644.3,
+   "text": "Do you have a pen?",
+   "lang": "en"
+  },
+  {
+   "start": 646.44,
+   "end": 651.6,
+   "text": "Она дает вам ручку. Сейчас спросите, где расписаться?",
+   "lang": "ru"
+  },
+  {
+   "start": 654.64,
+   "end": 656.04,
+   "text": "Where do I sign?",
+   "lang": "en"
+  },
+  {
+   "start": 659.0,
+   "end": 660.24,
+   "text": "Where do I sign?",
+   "lang": "en"
+  },
+  {
+   "start": 663.32,
+   "end": 669.74,
+   "text": "Она показывает вам, а потом указывает на номер. Как она скажет? Вот ваш номер счета.",
+   "lang": "ru"
+  },
+  {
+   "start": 673.06,
+   "end": 674.46,
+   "text": "Here's your account number.",
+   "lang": "ru"
+  },
+  {
+   "start": 677.68,
+   "end": 678.74,
+   "text": "Account number.",
+   "lang": "ru"
+  },
+  {
+   "start": 681.7,
+   "end": 683.88,
+   "text": "Ask. Простите, что вы сказали?",
+   "lang": "ru"
+  },
+  {
+   "start": 688.18,
+   "end": 690.1,
+   "text": "I'm sorry, what did you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 690.1,
+   "end": 690.24,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 694.3,
+   "end": 696.22,
+   "text": "I'm sorry, what did you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 696.22,
+   "end": 696.42,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 699.9,
+   "end": 704.2,
+   "text": "Вот номер вашего чекового счета.",
+   "lang": "ru"
+  },
+  {
+   "start": 708.5,
+   "end": 710.58,
+   "text": "Here's your checking account number.",
+   "lang": "ru"
+  },
+  {
+   "start": 714.18,
+   "end": 716.46,
+   "text": "Your checking account number",
+   "lang": "en"
+  },
+  {
+   "start": 719.44,
+   "end": 724.02,
+   "text": "Теперь она хочет знать, хотите ли вы получить карточку для банкомата.",
+   "lang": "ru"
+  },
+  {
+   "start": 724.3,
+   "end": 726.1,
+   "text": "Карточка для банкомата.",
+   "lang": "ru"
+  },
+  {
+   "start": 726.82,
+   "end": 728.08,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 728.82,
+   "end": 730.06,
+   "text": "ATM card.",
+   "lang": "ru"
+  },
+  {
+   "start": 738.66,
+   "end": 740.06,
+   "text": "ATM",
+   "lang": "ru"
+  },
+  {
+   "start": 740.06,
+   "end": 740.14,
+   "text": "ATM",
+   "lang": "ru"
+  },
+  {
+   "start": 741.98,
+   "end": 743.38,
+   "text": "ATM",
+   "lang": "ru"
+  },
+  {
+   "start": 746.78,
+   "end": 749.42,
+   "text": "ATM card",
+   "lang": "en"
+  },
+  {
+   "start": 751.24,
+   "end": 758.26,
+   "text": "По-английски ATM означает автоматический кассовый аппарат.",
+   "lang": "ru"
+  },
+  {
+   "start": 760.06,
+   "end": 761.7,
+   "text": "Карточка для банкомата.",
+   "lang": "ru"
+  },
+  {
+   "start": 764.7,
+   "end": 766.14,
+   "text": "ATM card.",
+   "lang": "ru"
+  },
+  {
+   "start": 769.76,
+   "end": 771.0,
+   "text": "An ATM card.",
+   "lang": "ru"
+  },
+  {
+   "start": 773.76,
+   "end": 775.44,
+   "text": "How does she ask?",
+   "lang": "ru"
+  },
+  {
+   "start": 775.64,
+   "end": 777.62,
+   "text": "Вы хотите карточку для банкомата?",
+   "lang": "ru"
+  },
+  {
+   "start": 780.68,
+   "end": 782.96,
+   "text": "Do you want an ATM card?",
+   "lang": "ru"
+  },
+  {
+   "start": 786.1,
+   "end": 788.36,
+   "text": "Do you want an ATM card?",
+   "lang": "ru"
+  },
+  {
+   "start": 792.02,
+   "end": 793.52,
+   "text": "Ответьте кратко, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 796.42,
+   "end": 797.6,
+   "text": "Yes I do",
+   "lang": "en"
+  },
+  {
+   "start": 800.96,
+   "end": 805.66,
+   "text": "Скажите эмоционально, что да, вы действительно хотите карточку для банкомата.",
+   "lang": "ru"
+  },
+  {
+   "start": 810.86,
+   "end": 813.32,
+   "text": "Yes, I do want an ATM card.",
+   "lang": "en"
+  },
+  {
+   "start": 818.54,
+   "end": 822.58,
+   "text": "Выходя из банка, вы встречаете друга американца, Билла.",
+   "lang": "ru"
+  },
+  {
+   "start": 822.9,
+   "end": 825.5,
+   "text": "После того, как вы поздоровались, он говорит,",
+   "lang": "ru"
+  },
+  {
+   "start": 825.74,
+   "end": 829.2,
+   "text": "«Хулио, я хочу познакомить тебя с моей племянницей».",
+   "lang": "ru"
+  },
+  {
+   "start": 833.88,
+   "end": 835.78,
+   "text": "Julio, I'd like you to meet my niece.",
+   "lang": "en"
+  },
+  {
+   "start": 840.4,
+   "end": 843.42,
+   "text": "Это Энн Дэвис, она из Майами.",
+   "lang": "ru"
+  },
+  {
+   "start": 848.54,
+   "end": 851.12,
+   "text": "This is Ann Davis. She's from Miami.",
+   "lang": "en"
+  },
+  {
+   "start": 856.56,
+   "end": 858.88,
+   "text": "Энн, это Хулио Фернандес.",
+   "lang": "ru"
+  },
+  {
+   "start": 863.72,
+   "end": 865.78,
+   "text": "Ан, this is Julio Fernandez.",
+   "lang": "ru"
+  },
+  {
+   "start": 870.52,
+   "end": 873.8,
+   "text": "You talk for a minute. Now ask her where she is staying.",
+   "lang": "ru"
+  },
+  {
+   "start": 877.8,
+   "end": 878.88,
+   "text": "Where are you staying?",
+   "lang": "ru"
+  },
+  {
+   "start": 882.58,
+   "end": 883.54,
+   "text": "She answers...",
+   "lang": "ru"
+  },
+  {
+   "start": 883.54,
+   "end": 884.72,
+   "text": "В Хайед.",
+   "lang": "ru"
+  },
+  {
+   "start": 887.46,
+   "end": 888.44,
+   "text": "At the Hyatt.",
+   "lang": "ru"
+  },
+  {
+   "start": 890.46,
+   "end": 896.54,
+   "text": "Вы не поняли название. Скажите «Простите» и спросите, что она сказала.",
+   "lang": "ru"
+  },
+  {
+   "start": 902.32,
+   "end": 904.24,
+   "text": "I'm sorry, what did you say?",
+   "lang": "en"
+  },
+  {
+   "start": 908.34,
+   "end": 910.24,
+   "text": "I'm sorry, what did you say?",
+   "lang": "en"
+  },
+  {
+   "start": 914.3,
+   "end": 915.22,
+   "text": "She says it.",
+   "lang": "en"
+  },
+  {
+   "start": 915.26,
+   "end": 919.34,
+   "text": "Я забронировала комнату в ХАЕД.",
+   "lang": "ru"
+  },
+  {
+   "start": 925.86,
+   "end": 929.2,
+   "text": "At the Hyatt. I reserved a room at the Hyatt.",
+   "lang": "en"
+  },
+  {
+   "start": 935.56,
+   "end": 936.58,
+   "text": "Then your friend",
+   "lang": "en"
+  },
+  {
+   "start": 936.7,
+   "end": 939.54,
+   "text": "Но у нее есть ключ от моей квартиры.",
+   "lang": "ru"
+  },
+  {
+   "start": 944.02,
+   "end": 945.88,
+   "text": "But she has a key to my apartment",
+   "lang": "en"
+  },
+  {
+   "start": 950.0,
+   "end": 952.12,
+   "text": "She has a key to my apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 956.42,
+   "end": 964.64,
+   "text": "Племянница ищет банкомат и вдруг понимает, что вы находитесь прямо напротив банка. Как она скажет? Вот банкомат.",
+   "lang": "ru"
+  },
+  {
+   "start": 967.5,
+   "end": 968.66,
+   "text": "Here's an ATM.",
+   "lang": "ru"
+  },
+  {
+   "start": 972.1,
+   "end": 973.26,
+   "text": "Here's an ATM.",
+   "lang": "ru"
+  },
+  {
+   "start": 977.18,
+   "end": 984.66,
+   "text": "Наступил другой день. Вы с коллегой обсуждаете собрание. Она говорит, собрание будет в следующую среду.",
+   "lang": "ru"
+  },
+  {
+   "start": 988.46,
+   "end": 990.7,
+   "text": "The meeting will be next Wednesday.",
+   "lang": "en"
+  },
+  {
+   "start": 994.84,
+   "end": 998.04,
+   "text": "В следующую среду? Но меня здесь не будет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1002.94,
+   "end": 1005.36,
+   "text": "Next Wednesday? But I won't be here.",
+   "lang": "en"
+  },
+  {
+   "start": 1010.12,
+   "end": 1012.78,
+   "text": "На следующей неделе я буду в Канаде.",
+   "lang": "ru"
+  },
+  {
+   "start": 1016.88,
+   "end": 1019.04,
+   "text": "В следующей неделе я буду в Канаде.",
+   "lang": "ru"
+  },
+  {
+   "start": 1020.16,
+   "end": 1024.52,
+   "text": "You want to say?",
+   "lang": "ru"
+  },
+  {
+   "start": 1024.7,
+   "end": 1027.2,
+   "text": "В Монреале будет важная конференция.",
+   "lang": "ru"
+  },
+  {
+   "start": 1027.58,
+   "end": 1028.2,
+   "text": "Конференция.",
+   "lang": "ru"
+  },
+  {
+   "start": 1028.34,
+   "end": 1029.58,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1030.16,
+   "end": 1030.78,
+   "text": "Conference.",
+   "lang": "ru"
+  },
+  {
+   "start": 1033.66,
+   "end": 1035.06,
+   "text": "конференция",
+   "lang": "ru"
+  },
+  {
+   "start": 1037.06,
+   "end": 1038.46,
+   "text": "Conference",
+   "lang": "en"
+  },
+  {
+   "start": 1038.46,
+   "end": 1038.76,
+   "text": "Conference",
+   "lang": "en"
+  },
+  {
+   "start": 1041.82,
+   "end": 1044.02,
+   "text": "важная конференция",
+   "lang": "ru"
+  },
+  {
+   "start": 1047.06,
+   "end": 1049.62,
+   "text": "в Монреале",
+   "lang": "ru"
+  },
+  {
+   "start": 1053.44,
+   "end": 1055.16,
+   "text": "There's an important conference.",
+   "lang": "en"
+  },
+  {
+   "start": 1058.8,
+   "end": 1060.32,
+   "text": "В Монреале.",
+   "lang": "ru"
+  },
+  {
+   "start": 1060.38,
+   "end": 1064.0,
+   "text": "В Монреале.",
+   "lang": "ru"
+  },
+  {
+   "start": 1066.52,
+   "end": 1069.2,
+   "text": "Меня не будет здесь на следующей неделе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1072.36,
+   "end": 1074.46,
+   "text": "I won't be here next week.",
+   "lang": "ru"
+  },
+  {
+   "start": 1078.14,
+   "end": 1080.66,
+   "text": "Скажи, что ты будешь в конференции в Монтреале.",
+   "lang": "ru"
+  },
+  {
+   "start": 1085.94,
+   "end": 1088.32,
+   "text": "Я буду в конференции в Монтреале.",
+   "lang": "ru"
+  },
+  {
+   "start": 1092.98,
+   "end": 1093.86,
+   "text": "В конференции.",
+   "lang": "ru"
+  },
+  {
+   "start": 1096.84,
+   "end": 1099.18,
+   "text": "Я буду в конференции в Монтреале.",
+   "lang": "ru"
+  },
+  {
+   "start": 1103.34,
+   "end": 1107.56,
+   "text": "Мы не можем изменить дату собрания.",
+   "lang": "ru"
+  },
+  {
+   "start": 1108.68,
+   "end": 1110.08,
+   "text": "Дата.",
+   "lang": "ru"
+  },
+  {
+   "start": 1110.86,
+   "end": 1111.22,
+   "text": "Дата.",
+   "lang": "ru"
+  },
+  {
+   "start": 1113.12,
+   "end": 1114.1,
+   "text": "Дата.",
+   "lang": "ru"
+  },
+  {
+   "start": 1114.86,
+   "end": 1115.42,
+   "text": "Дата.",
+   "lang": "ru"
+  },
+  {
+   "start": 1115.42,
+   "end": 1116.78,
+   "text": "say",
+   "lang": "en"
+  },
+  {
+   "start": 1118.58,
+   "end": 1119.98,
+   "text": "date",
+   "lang": "en"
+  },
+  {
+   "start": 1122.0,
+   "end": 1124.62,
+   "text": "Теперь скажите «изменить».",
+   "lang": "ru"
+  },
+  {
+   "start": 1124.62,
+   "end": 1125.18,
+   "text": "Дата.",
+   "lang": "ru"
+  },
+  {
+   "start": 1125.18,
+   "end": 1126.7,
+   "text": "and repeat. Change.",
+   "lang": "en"
+  },
+  {
+   "start": 1129.18,
+   "end": 1130.12,
+   "text": "Change.",
+   "lang": "ru"
+  },
+  {
+   "start": 1132.06,
+   "end": 1133.02,
+   "text": "Change.",
+   "lang": "ru"
+  },
+  {
+   "start": 1135.08,
+   "end": 1137.14,
+   "text": "Do you remember how to say",
+   "lang": "ru"
+  },
+  {
+   "start": 1137.14,
+   "end": 1138.6,
+   "text": "обменять деньги?",
+   "lang": "ru"
+  },
+  {
+   "start": 1141.3,
+   "end": 1142.76,
+   "text": "Exchange money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1145.32,
+   "end": 1146.28,
+   "text": "Exchange.",
+   "lang": "ru"
+  },
+  {
+   "start": 1149.18,
+   "end": 1153.08,
+   "text": "Обратите внимание, что в английском языке употребляют",
+   "lang": "ru"
+  },
+  {
+   "start": 1153.08,
+   "end": 1156.6,
+   "text": "exchange, говоря о деньгах, и",
+   "lang": "ru"
+  },
+  {
+   "start": 1156.6,
+   "end": 1164.44,
+   "text": "И change, говоря о дате, используя change, попробуйте сказать, мы не можем изменить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1166.92,
+   "end": 1168.66,
+   "text": "We can't change.",
+   "lang": "en"
+  },
+  {
+   "start": 1171.22,
+   "end": 1172.86,
+   "text": "We can't change.",
+   "lang": "en"
+  },
+  {
+   "start": 1175.36,
+   "end": 1179.6,
+   "text": "Now try to say, мы не можем изменить дату.",
+   "lang": "ru"
+  },
+  {
+   "start": 1182.66,
+   "end": 1184.78,
+   "text": "We can't change the date.",
+   "lang": "en"
+  },
+  {
+   "start": 1192.62,
+   "end": 1195.3,
+   "text": "Мы не можем поменять дату собрания.",
+   "lang": "ru"
+  },
+  {
+   "start": 1195.3,
+   "end": 1196.42,
+   "text": "Of the meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 1201.02,
+   "end": 1203.32,
+   "text": "We can't change the date of the meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 1207.9,
+   "end": 1209.3,
+   "text": "The date of the meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 1212.28,
+   "end": 1214.54,
+   "text": "We can't change the date of the meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 1218.7,
+   "end": 1220.08,
+   "text": "К сожалению,",
+   "lang": "ru"
+  },
+  {
+   "start": 1222.14,
+   "end": 1223.54,
+   "text": "Unfortunately?",
+   "lang": "en"
+  },
+  {
+   "start": 1225.2,
+   "end": 1229.18,
+   "text": "мы не можем поменять дату нашего собрания.",
+   "lang": "ru"
+  },
+  {
+   "start": 1233.28,
+   "end": 1235.6,
+   "text": "We can't change the date of our meeting",
+   "lang": "en"
+  },
+  {
+   "start": 1239.1,
+   "end": 1242.0,
+   "text": "Но это важная встреча.",
+   "lang": "ru"
+  },
+  {
+   "start": 1245.26,
+   "end": 1247.26,
+   "text": "But it's an important meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 1250.52,
+   "end": 1253.96,
+   "text": "А вы будете на конференции.",
+   "lang": "ru"
+  },
+  {
+   "start": 1257.68,
+   "end": 1259.64,
+   "text": "And you'll be at a conference.",
+   "lang": "en"
+  },
+  {
+   "start": 1263.44,
+   "end": 1264.54,
+   "text": "At a conference.",
+   "lang": "en"
+  },
+  {
+   "start": 1267.54,
+   "end": 1268.6,
+   "text": "You will be.",
+   "lang": "en"
+  },
+  {
+   "start": 1271.48,
+   "end": 1272.36,
+   "text": "You will be.",
+   "lang": "en"
+  },
+  {
+   "start": 1275.24,
+   "end": 1276.64,
+   "text": "You'll be at a conference.",
+   "lang": "en"
+  },
+  {
+   "start": 1280.06,
+   "end": 1281.68,
+   "text": "В Монреале.",
+   "lang": "ru"
+  },
+  {
+   "start": 1283.1,
+   "end": 1284.72,
+   "text": "In Montreal",
+   "lang": "en"
+  },
+  {
+   "start": 1284.86,
+   "end": 1291.42,
+   "text": "Ну, если вы не можете изменить дату...",
+   "lang": "ru"
+  },
+  {
+   "start": 1294.82,
+   "end": 1309.38,
+   "text": "Well if you can't change the date of the meeting, I'll call you.",
+   "lang": "en"
+  },
+  {
+   "start": 1309.4,
+   "end": 1315.0,
+   "text": "Тогда, может быть, мы сможем устроить телефонную конференцию.",
+   "lang": "ru"
+  },
+  {
+   "start": 1315.12,
+   "end": 1318.56,
+   "text": "Сначала скажите «телефонная конференция».",
+   "lang": "ru"
+  },
+  {
+   "start": 1318.56,
+   "end": 1319.16,
+   "text": "Продолжайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1319.96,
+   "end": 1321.24,
+   "text": "Конференция.",
+   "lang": "ru"
+  },
+  {
+   "start": 1321.62,
+   "end": 1321.76,
+   "text": "Звоните.",
+   "lang": "ru"
+  },
+  {
+   "start": 1323.44,
+   "end": 1324.84,
+   "text": "Call",
+   "lang": "en"
+  },
+  {
+   "start": 1327.14,
+   "end": 1328.42,
+   "text": "Конференция.",
+   "lang": "ru"
+  },
+  {
+   "start": 1330.76,
+   "end": 1332.04,
+   "text": "Конференция.",
+   "lang": "ru"
+  },
+  {
+   "start": 1332.04,
+   "end": 1335.92,
+   "text": "call. Try to say",
+   "lang": "en"
+  },
+  {
+   "start": 1340.54,
+   "end": 1342.02,
+   "text": "A conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 1343.66,
+   "end": 1348.08,
+   "text": "Мы можем устроить телефонную конференцию.",
+   "lang": "ru"
+  },
+  {
+   "start": 1348.16,
+   "end": 1351.74,
+   "text": "We can have a conference call.",
+   "lang": "ru"
+  },
+  {
+   "start": 1355.72,
+   "end": 1356.5,
+   "text": "Have",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.94,
+   "end": 1360.3,
+   "text": "Have a conference call",
+   "lang": "ru"
+  },
+  {
+   "start": 1363.66,
+   "end": 1365.98,
+   "text": "We can have a conference call",
+   "lang": "ru"
+  },
+  {
+   "start": 1370.04,
+   "end": 1372.44,
+   "text": "Обратите внимание, что обычно говорят",
+   "lang": "ru"
+  },
+  {
+   "start": 1372.44,
+   "end": 1373.76,
+   "text": "Make a phone call",
+   "lang": "ru"
+  },
+  {
+   "start": 1373.76,
+   "end": 1377.9,
+   "text": "Но когда речь идет о телефонной конференции, используют слово",
+   "lang": "ru"
+  },
+  {
+   "start": 1377.9,
+   "end": 1378.64,
+   "text": "Have",
+   "lang": "ru"
+  },
+  {
+   "start": 1378.64,
+   "end": 1383.14,
+   "text": "Скажите еще раз, мы можем устроить телефонную конференцию?",
+   "lang": "ru"
+  },
+  {
+   "start": 1387.24,
+   "end": 1389.26,
+   "text": "We can have a conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 1392.06,
+   "end": 1396.58,
+   "text": "Может быть мы сможем устроить телефонную конференцию?",
+   "lang": "ru"
+  },
+  {
+   "start": 1401.72,
+   "end": 1403.98,
+   "text": "Maybe we can have a conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 1409.08,
+   "end": 1414.2,
+   "text": "Прямо в этот момент раздался сильный грохот, и она вас не расслышала.",
+   "lang": "ru"
+  },
+  {
+   "start": 1414.26,
+   "end": 1420.06,
+   "text": "Как она скажет, «Извините, что вы сказали?»",
+   "lang": "ru"
+  },
+  {
+   "start": 1421.8,
+   "end": 1423.52,
+   "text": "I'm sorry, what did you say?",
+   "lang": "en"
+  },
+  {
+   "start": 1427.88,
+   "end": 1430.74,
+   "text": "Если вы не можете изменить дату,",
+   "lang": "ru"
+  },
+  {
+   "start": 1434.92,
+   "end": 1436.9,
+   "text": "If you can't change the date",
+   "lang": "en"
+  },
+  {
+   "start": 1440.72,
+   "end": 1444.46,
+   "text": "Тогда, может быть, мы сможем устроить конференцию по телефону.",
+   "lang": "ru"
+  },
+  {
+   "start": 1448.96,
+   "end": 1451.56,
+   "text": "Then maybe we can have a conference call",
+   "lang": "en"
+  },
+  {
+   "start": 1455.92,
+   "end": 1457.28,
+   "text": "She says",
+   "lang": "en"
+  },
+  {
+   "start": 1457.66,
+   "end": 1459.06,
+   "text": "Отличная идея!",
+   "lang": "ru"
+  },
+  {
+   "start": 1462.18,
+   "end": 1463.36,
+   "text": "That's a good idea.",
+   "lang": "en"
+  },
+  {
+   "start": 1470.78,
+   "end": 1476.3,
+   "text": "Теперь представьте, что вы Консуэла Вега. Вы находитесь в командировке в Нью-Йорке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1476.78,
+   "end": 1479.9,
+   "text": "You're in a bank. Say that you'd like to open a checking account.",
+   "lang": "ru"
+  },
+  {
+   "start": 1479.9,
+   "end": 1480.12,
+   "text": "count.",
+   "lang": "en"
+  },
+  {
+   "start": 1484.5,
+   "end": 1486.34,
+   "text": "I'd like to open a checking account.",
+   "lang": "ru"
+  },
+  {
+   "start": 1486.34,
+   "end": 1486.54,
+   "text": "out.",
+   "lang": "en"
+  },
+  {
+   "start": 1490.86,
+   "end": 1495.24,
+   "text": "Служащий спрашивает, у вас есть какое-нибудь удостоверение личности?",
+   "lang": "ru"
+  },
+  {
+   "start": 1498.66,
+   "end": 1500.42,
+   "text": "Do you have some identification?",
+   "lang": "en"
+  },
+  {
+   "start": 1503.32,
+   "end": 1507.48,
+   "text": "Что вы скажете, показывая свой паспорт?",
+   "lang": "ru"
+  },
+  {
+   "start": 1511.0,
+   "end": 1512.18,
+   "text": "Here's my passport.",
+   "lang": "en"
+  },
+  {
+   "start": 1515.3,
+   "end": 1516.24,
+   "text": "A few minutes.",
+   "lang": "en"
+  },
+  {
+   "start": 1516.32,
+   "end": 1519.74,
+   "text": "Вам нужна карточка для банкомата?",
+   "lang": "ru"
+  },
+  {
+   "start": 1523.26,
+   "end": 1525.58,
+   "text": "Do you want an ATM card?",
+   "lang": "en"
+  },
+  {
+   "start": 1529.48,
+   "end": 1531.3,
+   "text": "An ATM card.",
+   "lang": "en"
+  },
+  {
+   "start": 1533.26,
+   "end": 1539.48,
+   "text": "Вы на секунду отвлеклись. Вежливо уточните, что он сказал.",
+   "lang": "ru"
+  },
+  {
+   "start": 1543.26,
+   "end": 1545.08,
+   "text": "I'm sorry, what did you say?",
+   "lang": "en"
+  },
+  {
+   "start": 1548.04,
+   "end": 1552.16,
+   "text": "Карточка для банкомата. Вам нужна карточка для банкомата?",
+   "lang": "ru"
+  },
+  {
+   "start": 1558.94,
+   "end": 1562.8,
+   "text": "An ATM card. Do you want an ATM card?",
+   "lang": "ru"
+  },
+  {
+   "start": 1569.96,
+   "end": 1570.56,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1570.8,
+   "end": 1571.78,
+   "text": "О, да, конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1575.64,
+   "end": 1577.36,
+   "text": "Oh, yes, of course.",
+   "lang": "ru"
+  },
+  {
+   "start": 1580.9,
+   "end": 1582.16,
+   "text": "Of course I do.",
+   "lang": "ru"
+  },
+  {
+   "start": 1585.22,
+   "end": 1588.44,
+   "text": "Выходя из банка, вы видите своего коллегу Чарльза.",
+   "lang": "ru"
+  },
+  {
+   "start": 1588.64,
+   "end": 1592.14,
+   "text": "Скажите ему «Доброе утро», называя его по имени.",
+   "lang": "ru"
+  },
+  {
+   "start": 1594.7,
+   "end": 1596.02,
+   "text": "Good morning, Charles.",
+   "lang": "en"
+  },
+  {
+   "start": 1599.18,
+   "end": 1605.18,
+   "text": "Он тоже с вами здоровается, а затем знакомит вас с человеком, который находится рядом с ним.",
+   "lang": "ru"
+  },
+  {
+   "start": 1605.86,
+   "end": 1606.7,
+   "text": "Как он вам скажет?",
+   "lang": "ru"
+  },
+  {
+   "start": 1606.7,
+   "end": 1609.34,
+   "text": "Я хочу познакомить вас с моей знакомой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1613.5,
+   "end": 1615.42,
+   "text": "I'd like you to meet a friend of mine.",
+   "lang": "en"
+  },
+  {
+   "start": 1619.96,
+   "end": 1622.28,
+   "text": "Консуэла, это Сьюзан Мартин.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.08,
+   "end": 1628.96,
+   "text": "Consuelo, this is Susan Martin.",
+   "lang": "en"
+  },
+  {
+   "start": 1633.74,
+   "end": 1636.76,
+   "text": "Сьюзан, это моя коллега Консуэла Вега.",
+   "lang": "ru"
+  },
+  {
+   "start": 1642.1,
+   "end": 1644.74,
+   "text": "Susan, this is my colleague Consuela Vega.",
+   "lang": "en"
+  },
+  {
+   "start": 1649.64,
+   "end": 1652.48,
+   "text": "Что они обе скажут, пожимая руки?",
+   "lang": "ru"
+  },
+  {
+   "start": 1655.18,
+   "end": 1656.62,
+   "text": "Пожалуйста, поздравляю вас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1658.78,
+   "end": 1665.84,
+   "text": "Вы решили выпить кофе в ближайшем ресторане. Скажите официантке, мне бы хотелось чашечку кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1668.66,
+   "end": 1670.72,
+   "text": "Я хочу чашечку кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1673.52,
+   "end": 1675.82,
+   "text": "С молоком, но без сахара.",
+   "lang": "ru"
+  },
+  {
+   "start": 1679.3,
+   "end": 1681.26,
+   "text": "With milk but no sugar.",
+   "lang": "ru"
+  },
+  {
+   "start": 1684.96,
+   "end": 1687.02,
+   "text": "with milk but no sugar",
+   "lang": "en"
+  },
+  {
+   "start": 1690.6,
+   "end": 1698.08,
+   "text": "Вы немного поговорили, а затем ваш коллега упоминает ежегодную конференцию, на которую вы хотите поехать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1698.38,
+   "end": 1700.18,
+   "text": "Ask where it will be next year.",
+   "lang": "ru"
+  },
+  {
+   "start": 1703.46,
+   "end": 1705.18,
+   "text": "Where will it be next year?",
+   "lang": "ru"
+  },
+  {
+   "start": 1708.52,
+   "end": 1709.24,
+   "text": "He says,",
+   "lang": "en"
+  },
+  {
+   "start": 1709.58,
+   "end": 1710.78,
+   "text": "В следующем году.",
+   "lang": "ru"
+  },
+  {
+   "start": 1712.8,
+   "end": 1714.54,
+   "text": "Next year",
+   "lang": "en"
+  },
+  {
+   "start": 1717.5,
+   "end": 1720.0,
+   "text": "Думаю, что конференция будет в Сан-Франциско.",
+   "lang": "ru"
+  },
+  {
+   "start": 1725.08,
+   "end": 1728.06,
+   "text": "I think the conference will be in San Francisco.",
+   "lang": "ru"
+  },
+  {
+   "start": 1728.06,
+   "end": 1728.22,
+   "text": "go.",
+   "lang": "en"
+  },
+  {
+   "start": 1733.58,
+   "end": 1735.38,
+   "text": "Ask him if he knows the date.",
+   "lang": "ru"
+  },
+  {
+   "start": 1738.14,
+   "end": 1739.46,
+   "text": "Do you know the date?",
+   "lang": "ru"
+  },
+  {
+   "start": 1742.2,
+   "end": 1743.08,
+   "text": "He answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 1743.4,
+   "end": 1744.94,
+   "text": "Нет, пока еще нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1748.0,
+   "end": 1749.28,
+   "text": "No, not yet.",
+   "lang": "ru"
+  },
+  {
+   "start": 1752.36,
+   "end": 1755.12,
+   "text": "Tell him that your brother lives in San Francisco.",
+   "lang": "en"
+  },
+  {
+   "start": 1760.36,
+   "end": 1762.62,
+   "text": "My brother lives in San Francisco.",
+   "lang": "en"
+  },
+  {
+   "start": 1766.68,
+   "end": 1767.66,
+   "text": "Try to say it in Spanish.",
+   "lang": "en"
+  },
+  {
+   "start": 1767.68,
+   "end": 1769.82,
+   "text": "Я хочу вас с ним познакомить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1772.7,
+   "end": 1774.18,
+   "text": "I'd like you to meet him.",
+   "lang": "en"
+  },
+  {
+   "start": 1781.84,
+   "end": 1784.4,
+   "text": "You're ready to leave, your colleague says.",
+   "lang": "en"
+  },
+  {
+   "start": 1784.84,
+   "end": 1786.28,
+   "text": "Позвольте мне заплатить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1789.02,
+   "end": 1790.06,
+   "text": "Let me pay.",
+   "lang": "en"
+  },
+  {
+   "start": 1793.06,
+   "end": 1794.94,
+   "text": "Let me pay for our coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 1798.18,
+   "end": 1803.12,
+   "text": "Когда вы вышли из ресторана, вы поняли, что забыли свои ключи.",
+   "lang": "ru"
+  },
+  {
+   "start": 1803.42,
+   "end": 1807.26,
+   "text": "Скажите, подождите, мои ключи все еще на столе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1811.9,
+   "end": 1814.14,
+   "text": "Wait, my keys are still on the table.",
+   "lang": "en"
+  },
+  {
+   "start": 1818.18,
+   "end": 1819.86,
+   "text": "I left my keys on the table.",
+   "lang": "en"
+  },
+  {
+   "start": 1822.04,
+   "end": 1824.66,
+   "text": "Вы идете за ними.",
+   "lang": "ru"
+  },
+  {
+   "start": 1824.84,
+   "end": 1828.16,
+   "text": "Это конец 28 урока.",
+   "lang": "ru"
+  }
+ ]
+}

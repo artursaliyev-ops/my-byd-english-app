@@ -1,0 +1,2133 @@
+{
+ "id": "III_17",
+ "source": "Pimsleur_III_17.mp3",
+ "duration": 1712.85,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 131,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.58,
+   "text": "I've been a wild rover for many years. I've spent all my young with me and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.18,
+   "end": 19.04,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем",
+   "lang": "ru"
+  },
+  {
+   "start": 21.7,
+   "end": 29.7,
+   "text": "17-й урок третьего уровня американского английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.0,
+   "end": 32.66,
+   "text": "Слушайте эту разговор в офисе.",
+   "lang": "ru"
+  },
+  {
+   "start": 33.52,
+   "end": 51.06,
+   "text": "Слушайте снова.",
+   "lang": "ru"
+  },
+  {
+   "start": 51.06,
+   "end": 52.06,
+   "text": "I'll call right now.",
+   "lang": "en"
+  },
+  {
+   "start": 53.24,
+   "end": 53.96,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 55.18,
+   "end": 57.14,
+   "text": "Susan, can you do something for me?",
+   "lang": "en"
+  },
+  {
+   "start": 57.38,
+   "end": 58.32,
+   "text": "Yes, what is it?",
+   "lang": "en"
+  },
+  {
+   "start": 58.46,
+   "end": 60.64,
+   "text": "Can you make a reservation at the Parker house?",
+   "lang": "en"
+  },
+  {
+   "start": 61.44,
+   "end": 65.1,
+   "text": "Tomorrow, our Mexican client, Mr. Torres, will be here for a meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 65.2,
+   "end": 69.2,
+   "text": "It will be a long meeting, and I'd like to have dinner with him after that.",
+   "lang": "en"
+  },
+  {
+   "start": 69.44,
+   "end": 70.28,
+   "text": "At what time?",
+   "lang": "en"
+  },
+  {
+   "start": 70.62,
+   "end": 71.4,
+   "text": "Seven o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 71.68,
+   "end": 73.56,
+   "text": "Of course. I'll call right now.",
+   "lang": "en"
+  },
+  {
+   "start": 74.96,
+   "end": 77.3,
+   "text": "Представьте, что вы в Соединенных Штатах.",
+   "lang": "ru"
+  },
+  {
+   "start": 77.32,
+   "end": 79.42,
+   "text": "Вы отвечаете на звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 79.72,
+   "end": 82.12,
+   "text": "Спрашивают вас, что вы можете сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 84.04,
+   "end": 84.64,
+   "text": "Speaking",
+   "lang": "ru"
+  },
+  {
+   "start": 87.7,
+   "end": 87.94,
+   "text": "Speaking",
+   "lang": "en"
+  },
+  {
+   "start": 90.46,
+   "end": 94.04,
+   "text": "You and a colleague are going to have lunch together, say.",
+   "lang": "en"
+  },
+  {
+   "start": 94.58,
+   "end": 95.86,
+   "text": "Я голоден.",
+   "lang": "ru"
+  },
+  {
+   "start": 98.7,
+   "end": 99.48,
+   "text": "I'm hungry.",
+   "lang": "en"
+  },
+  {
+   "start": 102.14,
+   "end": 103.42,
+   "text": "Я голоден.",
+   "lang": "ru"
+  },
+  {
+   "start": 103.46,
+   "end": 108.12,
+   "text": "When do you want to have lunch?",
+   "lang": "ru"
+  },
+  {
+   "start": 111.62,
+   "end": 113.06,
+   "text": "When do you want to have lunch?",
+   "lang": "en"
+  },
+  {
+   "start": 116.4,
+   "end": 118.7,
+   "text": "Я тоже хочу есть.",
+   "lang": "ru"
+  },
+  {
+   "start": 121.8,
+   "end": 123.0,
+   "text": "I'm hungry too.",
+   "lang": "en"
+  },
+  {
+   "start": 125.36,
+   "end": 128.34,
+   "text": "Почему бы нам не пойти прямо сейчас?",
+   "lang": "ru"
+  },
+  {
+   "start": 132.0,
+   "end": 133.62,
+   "text": "Why don't we go right now?",
+   "lang": "en"
+  },
+  {
+   "start": 137.12,
+   "end": 137.86,
+   "text": "Right now.",
+   "lang": "en"
+  },
+  {
+   "start": 139.92,
+   "end": 144.2,
+   "text": "После обеда вы заходите в офис к другой коллеге.",
+   "lang": "ru"
+  },
+  {
+   "start": 144.64,
+   "end": 148.6,
+   "text": "Так как вы отвлекаете ее, вы говорите «Извините».",
+   "lang": "ru"
+  },
+  {
+   "start": 150.44,
+   "end": 151.66,
+   "text": "Excuse me.",
+   "lang": "en"
+  },
+  {
+   "start": 154.32,
+   "end": 154.94,
+   "text": "Excuse me.",
+   "lang": "en"
+  },
+  {
+   "start": 156.64,
+   "end": 161.6,
+   "text": "Вы также можете сказать «Сожалею, что побеспокоил вас».",
+   "lang": "ru"
+  },
+  {
+   "start": 161.6,
+   "end": 162.54,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 163.02,
+   "end": 164.4,
+   "text": "Sorry to bother you.",
+   "lang": "en"
+  },
+  {
+   "start": 167.22,
+   "end": 167.78,
+   "text": "Bother.",
+   "lang": "en"
+  },
+  {
+   "start": 170.8,
+   "end": 171.36,
+   "text": "Bother.",
+   "lang": "en"
+  },
+  {
+   "start": 174.8,
+   "end": 179.52,
+   "text": "To bother. To bother you.",
+   "lang": "ru"
+  },
+  {
+   "start": 181.3,
+   "end": 182.7,
+   "text": "Sorry.",
+   "lang": "en"
+  },
+  {
+   "start": 184.26,
+   "end": 186.54,
+   "text": "Sorry. Sorry to bother you.",
+   "lang": "ru"
+  },
+  {
+   "start": 189.1,
+   "end": 190.66,
+   "text": "Sorry to bother you.",
+   "lang": "ru"
+  },
+  {
+   "start": 193.2,
+   "end": 196.26,
+   "text": "Say again. Извините за беспокойство.",
+   "lang": "ru"
+  },
+  {
+   "start": 198.9,
+   "end": 200.46,
+   "text": "Sorry to bother you.",
+   "lang": "ru"
+  },
+  {
+   "start": 202.9,
+   "end": 205.42,
+   "text": "В котором часу?",
+   "lang": "ru"
+  },
+  {
+   "start": 207.78,
+   "end": 215.36,
+   "text": "Во сколько будет наше собрание сегодня днем?",
+   "lang": "ru"
+  },
+  {
+   "start": 219.32,
+   "end": 221.9,
+   "text": "At what time is our meeting this afternoon?",
+   "lang": "en"
+  },
+  {
+   "start": 225.94,
+   "end": 228.26,
+   "text": "What time is our meeting this afternoon?",
+   "lang": "en"
+  },
+  {
+   "start": 232.06,
+   "end": 233.02,
+   "text": "What time?",
+   "lang": "en"
+  },
+  {
+   "start": 235.46,
+   "end": 236.36,
+   "text": "Your call is now open.",
+   "lang": "en"
+  },
+  {
+   "start": 236.38,
+   "end": 239.22,
+   "text": "Оно начинается в 3 часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 242.78,
+   "end": 244.54,
+   "text": "It starts at 3 o'clock",
+   "lang": "en"
+  },
+  {
+   "start": 247.94,
+   "end": 251.16,
+   "text": "Это будет долгое собрание.",
+   "lang": "ru"
+  },
+  {
+   "start": 251.16,
+   "end": 251.28,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 254.36,
+   "end": 256.16,
+   "text": "It will be a long meeting.",
+   "lang": "ru"
+  },
+  {
+   "start": 261.5,
+   "end": 262.84,
+   "text": "B Will be",
+   "lang": "en"
+  },
+  {
+   "start": 264.74,
+   "end": 266.52,
+   "text": "It will be a long meeting",
+   "lang": "en"
+  },
+  {
+   "start": 269.26,
+   "end": 272.64,
+   "text": "Оно будет длиться примерно 2 часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 276.1,
+   "end": 278.42,
+   "text": "It's going to last about two hours.",
+   "lang": "en"
+  },
+  {
+   "start": 280.92,
+   "end": 284.3,
+   "text": "Но это важное собрание.",
+   "lang": "ru"
+  },
+  {
+   "start": 287.44,
+   "end": 289.16,
+   "text": "But it's an important meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 291.94,
+   "end": 293.94,
+   "text": "И все должны там быть.",
+   "lang": "ru"
+  },
+  {
+   "start": 296.56,
+   "end": 299.3,
+   "text": "И все должны быть там.",
+   "lang": "ru"
+  },
+  {
+   "start": 305.68,
+   "end": 307.76,
+   "text": "Everyone should be there.",
+   "lang": "en"
+  },
+  {
+   "start": 311.06,
+   "end": 313.72,
+   "text": "Вы возвращаетесь в свой офис.",
+   "lang": "ru"
+  },
+  {
+   "start": 314.02,
+   "end": 317.26,
+   "text": "Ваша секретарша подходит к двери и говорит.",
+   "lang": "ru"
+  },
+  {
+   "start": 317.94,
+   "end": 319.92,
+   "text": "Сожалею, что побеспокоила вас.",
+   "lang": "ru"
+  },
+  {
+   "start": 322.56,
+   "end": 323.9,
+   "text": "Sorry to bother you.",
+   "lang": "en"
+  },
+  {
+   "start": 326.0,
+   "end": 328.46,
+   "text": "Господин Мартин позвонил.",
+   "lang": "ru"
+  },
+  {
+   "start": 331.6,
+   "end": 332.76,
+   "text": "Mr. Martin called.",
+   "lang": "en"
+  },
+  {
+   "start": 334.1,
+   "end": 337.5,
+   "text": "Он оставил сообщение.",
+   "lang": "ru"
+  },
+  {
+   "start": 340.14,
+   "end": 341.38,
+   "text": "He left a message.",
+   "lang": "en"
+  },
+  {
+   "start": 343.46,
+   "end": 353.1,
+   "text": "Он хочет, чтобы вы перезвонили ему.",
+   "lang": "ru"
+  },
+  {
+   "start": 356.2,
+   "end": 358.08,
+   "text": "He wants you to call him back.",
+   "lang": "en"
+  },
+  {
+   "start": 361.32,
+   "end": 362.46,
+   "text": "To call him back.",
+   "lang": "en"
+  },
+  {
+   "start": 364.68,
+   "end": 376.88,
+   "text": "Он хочет, чтобы вы перезвонили ему сегодня днем.",
+   "lang": "ru"
+  },
+  {
+   "start": 376.88,
+   "end": 377.0,
+   "text": "Boom.",
+   "lang": "en"
+  },
+  {
+   "start": 381.54,
+   "end": 383.94,
+   "text": "He wants you to call him back this afternoon.",
+   "lang": "ru"
+  },
+  {
+   "start": 383.94,
+   "end": 384.16,
+   "text": "noon.",
+   "lang": "en"
+  },
+  {
+   "start": 389.24,
+   "end": 392.04,
+   "text": "Say, спасибо, я перезвоню ему прямо сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 392.04,
+   "end": 392.22,
+   "text": "Cheers.",
+   "lang": "en"
+  },
+  {
+   "start": 396.9,
+   "end": 399.38,
+   "text": "Thanks, I'll call him back right now.",
+   "lang": "ru"
+  },
+  {
+   "start": 403.96,
+   "end": 405.82,
+   "text": "I'll call him back right now.",
+   "lang": "ru"
+  },
+  {
+   "start": 408.34,
+   "end": 409.74,
+   "text": "Ask.",
+   "lang": "en"
+  },
+  {
+   "start": 410.06,
+   "end": 411.62,
+   "text": "Звонил кто-нибудь еще?",
+   "lang": "ru"
+  },
+  {
+   "start": 411.62,
+   "end": 421.58,
+   "text": "sure. Did anyone else call? Did anyone else call?",
+   "lang": "en"
+  },
+  {
+   "start": 424.94,
+   "end": 428.06,
+   "text": "Нет, больше никто не звонил.",
+   "lang": "ru"
+  },
+  {
+   "start": 431.4,
+   "end": 433.16,
+   "text": "No, no one else called.",
+   "lang": "en"
+  },
+  {
+   "start": 436.46,
+   "end": 437.46,
+   "text": "Now she said,",
+   "lang": "en"
+  },
+  {
+   "start": 437.56,
+   "end": 440.38,
+   "text": "Погодите, одна женщина звонила.",
+   "lang": "ru"
+  },
+  {
+   "start": 443.9,
+   "end": 445.48,
+   "text": "Wait, a woman called?",
+   "lang": "en"
+  },
+  {
+   "start": 448.7,
+   "end": 450.72,
+   "text": "Примерно полчаса назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 454.04,
+   "end": 455.64,
+   "text": "About half an hour ago.",
+   "lang": "en"
+  },
+  {
+   "start": 458.62,
+   "end": 461.08,
+   "text": "Она перезвонит часа в три.",
+   "lang": "ru"
+  },
+  {
+   "start": 464.8,
+   "end": 466.84,
+   "text": "She'll call back about 3 o'clock",
+   "lang": "en"
+  },
+  {
+   "start": 470.2,
+   "end": 472.54,
+   "text": "Но в три часа",
+   "lang": "ru"
+  },
+  {
+   "start": 475.84,
+   "end": 477.18,
+   "text": "But at 3 o'clock",
+   "lang": "en"
+  },
+  {
+   "start": 479.66,
+   "end": 482.26,
+   "text": "будет важное собрание.",
+   "lang": "ru"
+  },
+  {
+   "start": 485.6,
+   "end": 487.22,
+   "text": "There's an important meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 489.3,
+   "end": 492.08,
+   "text": "Все должны быть там.",
+   "lang": "ru"
+  },
+  {
+   "start": 495.46,
+   "end": 497.06,
+   "text": "Everyone should be there.",
+   "lang": "en"
+  },
+  {
+   "start": 500.38,
+   "end": 502.74,
+   "text": "Кроме того, это будет долгое собрание.",
+   "lang": "ru"
+  },
+  {
+   "start": 506.56,
+   "end": 508.84,
+   "text": "It will be a long meeting too.",
+   "lang": "en"
+  },
+  {
+   "start": 512.62,
+   "end": 515.08,
+   "text": "Я думаю, что оно продлится.",
+   "lang": "ru"
+  },
+  {
+   "start": 518.68,
+   "end": 520.54,
+   "text": "I think it's going to last.",
+   "lang": "en"
+  },
+  {
+   "start": 523.74,
+   "end": 526.12,
+   "text": "Один или два часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 529.44,
+   "end": 530.58,
+   "text": "One or two hours.",
+   "lang": "en"
+  },
+  {
+   "start": 532.44,
+   "end": 535.74,
+   "text": "Все должны быть там.",
+   "lang": "ru"
+  },
+  {
+   "start": 538.84,
+   "end": 540.8,
+   "text": "Everyone should be there.",
+   "lang": "ru"
+  },
+  {
+   "start": 543.62,
+   "end": 555.44,
+   "text": "Сейчас вы перезваниваете господину Мартину. Он отвечает, но вы не узнаете его голос. Спросите вежливо, могу ли я поговорить с Чарльзом Мартином, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 555.44,
+   "end": 555.6,
+   "text": "Пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 560.14,
+   "end": 563.04,
+   "text": "May I speak with Charles Martin, please?",
+   "lang": "ru"
+  },
+  {
+   "start": 567.52,
+   "end": 569.94,
+   "text": "Как он может кратко ответить?",
+   "lang": "ru"
+  },
+  {
+   "start": 571.86,
+   "end": 572.74,
+   "text": "Speaking.",
+   "lang": "ru"
+  },
+  {
+   "start": 574.94,
+   "end": 575.82,
+   "text": "Speaking.",
+   "lang": "ru"
+  },
+  {
+   "start": 578.22,
+   "end": 581.64,
+   "text": "Позже одна коллега заходит в ваш офис.",
+   "lang": "ru"
+  },
+  {
+   "start": 581.7,
+   "end": 584.64,
+   "text": "Как она скажет, извините за беспокойство.",
+   "lang": "ru"
+  },
+  {
+   "start": 587.14,
+   "end": 589.2,
+   "text": "Sorry to bother you.",
+   "lang": "ru"
+  },
+  {
+   "start": 592.34,
+   "end": 593.62,
+   "text": "Sorry to bother you.",
+   "lang": "en"
+  },
+  {
+   "start": 596.48,
+   "end": 599.9,
+   "text": "Вы знаете нашего клиента?",
+   "lang": "ru"
+  },
+  {
+   "start": 602.46,
+   "end": 604.3,
+   "text": "Do you know our client?",
+   "lang": "ru"
+  },
+  {
+   "start": 607.72,
+   "end": 609.3,
+   "text": "Ask. Какого клиента?",
+   "lang": "ru"
+  },
+  {
+   "start": 611.96,
+   "end": 613.12,
+   "text": "Which client?",
+   "lang": "ru"
+  },
+  {
+   "start": 616.26,
+   "end": 618.86,
+   "text": "Мигель Рамирес, наш новый клиент.",
+   "lang": "ru"
+  },
+  {
+   "start": 618.94,
+   "end": 620.98,
+   "text": "Наш новый клиент.",
+   "lang": "ru"
+  },
+  {
+   "start": 621.14,
+   "end": 622.2,
+   "text": "Our new client.",
+   "lang": "ru"
+  },
+  {
+   "start": 625.26,
+   "end": 625.38,
+   "text": "New.",
+   "lang": "ru"
+  },
+  {
+   "start": 627.32,
+   "end": 628.12,
+   "text": "New.",
+   "lang": "ru"
+  },
+  {
+   "start": 628.26,
+   "end": 628.54,
+   "text": "New.",
+   "lang": "ru"
+  },
+  {
+   "start": 630.1,
+   "end": 631.48,
+   "text": "Our new client.",
+   "lang": "ru"
+  },
+  {
+   "start": 633.92,
+   "end": 636.18,
+   "text": "Miguel Ramirez, our new client.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.02,
+   "end": 641.34,
+   "text": "Say, новый.",
+   "lang": "ru"
+  },
+  {
+   "start": 643.4,
+   "end": 644.04,
+   "text": "New.",
+   "lang": "ru"
+  },
+  {
+   "start": 645.96,
+   "end": 649.94,
+   "text": "She says, наш новый клиент будет на собрании.",
+   "lang": "ru"
+  },
+  {
+   "start": 650.12,
+   "end": 650.98,
+   "text": "At the meeting.",
+   "lang": "ru"
+  },
+  {
+   "start": 650.98,
+   "end": 651.1,
+   "text": "reading.",
+   "lang": "en"
+  },
+  {
+   "start": 654.24,
+   "end": 656.4,
+   "text": "Our new client will be at the meeting.",
+   "lang": "ru"
+  },
+  {
+   "start": 659.84,
+   "end": 660.76,
+   "text": "At the meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 662.78,
+   "end": 664.76,
+   "text": "Our new client will be at the meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 666.68,
+   "end": 669.48,
+   "text": "Он мексиканец.",
+   "lang": "ru"
+  },
+  {
+   "start": 671.58,
+   "end": 672.72,
+   "text": "He's Mexican.",
+   "lang": "en"
+  },
+  {
+   "start": 674.3,
+   "end": 677.22,
+   "text": "Но его английский очень хороший.",
+   "lang": "ru"
+  },
+  {
+   "start": 680.6,
+   "end": 682.46,
+   "text": "But his English is very good.",
+   "lang": "en"
+  },
+  {
+   "start": 686.14,
+   "end": 688.66,
+   "text": "Да, наш новый клиент.",
+   "lang": "ru"
+  },
+  {
+   "start": 692.16,
+   "end": 694.04,
+   "text": "Yes, our new client.",
+   "lang": "en"
+  },
+  {
+   "start": 697.62,
+   "end": 699.02,
+   "text": "Our new client.",
+   "lang": "en"
+  },
+  {
+   "start": 700.66,
+   "end": 704.1,
+   "text": "говорит по-английски очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 707.84,
+   "end": 709.44,
+   "text": "Он говорит на английском очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 712.92,
+   "end": 715.84,
+   "text": "Она говорит, что он будет на собрании сегодня.",
+   "lang": "ru"
+  },
+  {
+   "start": 719.56,
+   "end": 720.8,
+   "text": "He'll be at the meeting today.",
+   "lang": "en"
+  },
+  {
+   "start": 723.92,
+   "end": 727.66,
+   "text": "Теперь она говорит, о, я только что вспомнила.",
+   "lang": "ru"
+  },
+  {
+   "start": 727.66,
+   "end": 735.18,
+   "text": "Он звонил примерно полчаса назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 738.82,
+   "end": 740.96,
+   "text": "He called about half an hour ago.",
+   "lang": "en"
+  },
+  {
+   "start": 744.3,
+   "end": 746.38,
+   "text": "Он оставил сообщение.",
+   "lang": "ru"
+  },
+  {
+   "start": 748.94,
+   "end": 750.34,
+   "text": "He left a message.",
+   "lang": "en"
+  },
+  {
+   "start": 752.8,
+   "end": 755.58,
+   "text": "Он хочет, чтобы вы ему перезвонили.",
+   "lang": "ru"
+  },
+  {
+   "start": 758.5,
+   "end": 760.66,
+   "text": "He wants you to call him back.",
+   "lang": "ru"
+  },
+  {
+   "start": 763.76,
+   "end": 765.34,
+   "text": "He wants you to call him back.",
+   "lang": "en"
+  },
+  {
+   "start": 767.78,
+   "end": 776.68,
+   "text": "Сейчас вы опять ненадолго оставили свой кабинет. Когда вы вернулись, ваша секретарша говорит вам. Звонил мужчина.",
+   "lang": "ru"
+  },
+  {
+   "start": 779.48,
+   "end": 780.6,
+   "text": "A man called.",
+   "lang": "en"
+  },
+  {
+   "start": 783.22,
+   "end": 784.82,
+   "text": "Ask if it was Peter Johnson.",
+   "lang": "en"
+  },
+  {
+   "start": 788.18,
+   "end": 789.5,
+   "text": "Was it Peter Johnson?",
+   "lang": "en"
+  },
+  {
+   "start": 792.64,
+   "end": 796.56,
+   "text": "Да, он звонил примерно в 2 часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 801.24,
+   "end": 803.54,
+   "text": "Yes, he called about 2 o'clock",
+   "lang": "en"
+  },
+  {
+   "start": 808.16,
+   "end": 811.48,
+   "text": "Он хотел, чтобы вы ему перезвонили как можно скорее.",
+   "lang": "ru"
+  },
+  {
+   "start": 815.16,
+   "end": 817.44,
+   "text": "He wants you to call him back soon.",
+   "lang": "en"
+  },
+  {
+   "start": 821.9,
+   "end": 824.06,
+   "text": "Я перезвоню ему прямо сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 828.12,
+   "end": 829.92,
+   "text": "I'll call him back right now.",
+   "lang": "en"
+  },
+  {
+   "start": 831.44,
+   "end": 834.52,
+   "text": "Кто-нибудь еще?",
+   "lang": "ru"
+  },
+  {
+   "start": 834.52,
+   "end": 834.74,
+   "text": "you sure?",
+   "lang": "en"
+  },
+  {
+   "start": 837.56,
+   "end": 842.14,
+   "text": "Нет, больше никто.",
+   "lang": "ru"
+  },
+  {
+   "start": 845.44,
+   "end": 846.66,
+   "text": "Нет, никто.",
+   "lang": "ru"
+  },
+  {
+   "start": 846.66,
+   "end": 847.02,
+   "text": "No one else.",
+   "lang": "en"
+  },
+  {
+   "start": 850.52,
+   "end": 857.68,
+   "text": "Другой день. Другая ваша коллега заходит к вам в офис. Как она извинится за беспокойство?",
+   "lang": "ru"
+  },
+  {
+   "start": 860.48,
+   "end": 862.02,
+   "text": "Sorry to bother you.",
+   "lang": "ru"
+  },
+  {
+   "start": 865.42,
+   "end": 868.96,
+   "text": "Они с мужем хотят пригласить вас к себе домой в субботу.",
+   "lang": "ru"
+  },
+  {
+   "start": 869.02,
+   "end": 869.66,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 872.06,
+   "end": 875.7,
+   "text": "А так будет пригласить.",
+   "lang": "ru"
+  },
+  {
+   "start": 875.7,
+   "end": 877.22,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 877.82,
+   "end": 878.58,
+   "text": "Invite.",
+   "lang": "en"
+  },
+  {
+   "start": 880.96,
+   "end": 881.72,
+   "text": "Invite.",
+   "lang": "en"
+  },
+  {
+   "start": 885.06,
+   "end": 885.82,
+   "text": "Invite.",
+   "lang": "en"
+  },
+  {
+   "start": 888.1,
+   "end": 888.62,
+   "text": "To invite.",
+   "lang": "en"
+  },
+  {
+   "start": 889.46,
+   "end": 894.2,
+   "text": "Try to say Нам бы хотелось пригласить вас.",
+   "lang": "ru"
+  },
+  {
+   "start": 897.46,
+   "end": 898.84,
+   "text": "We'd like to invite you.",
+   "lang": "en"
+  },
+  {
+   "start": 901.8,
+   "end": 903.12,
+   "text": "We'd like to invite you.",
+   "lang": "en"
+  },
+  {
+   "start": 905.84,
+   "end": 909.64,
+   "text": "Мы бы хотели пригласить вас к себе домой.",
+   "lang": "ru"
+  },
+  {
+   "start": 913.02,
+   "end": 915.5,
+   "text": "Мы бы хотели пригласить вас к себе домой.",
+   "lang": "ru"
+  },
+  {
+   "start": 915.5,
+   "end": 920.68,
+   "text": "В субботу.",
+   "lang": "ru"
+  },
+  {
+   "start": 923.42,
+   "end": 924.56,
+   "text": "on Saturday.",
+   "lang": "en"
+  },
+  {
+   "start": 926.64,
+   "end": 928.88,
+   "text": "Мы с мужем.",
+   "lang": "ru"
+  },
+  {
+   "start": 931.4,
+   "end": 938.7,
+   "text": "Мы бы хотели пригласить вас к себе домой.",
+   "lang": "ru"
+  },
+  {
+   "start": 943.68,
+   "end": 945.86,
+   "text": "I would like to invite you to our place.",
+   "lang": "en"
+  },
+  {
+   "start": 949.96,
+   "end": 953.0,
+   "text": "My husband and I would like to invite you to our place.",
+   "lang": "en"
+  },
+  {
+   "start": 956.38,
+   "end": 960.6,
+   "text": "Она говорит, в субботу вечером.",
+   "lang": "ru"
+  },
+  {
+   "start": 963.12,
+   "end": 964.8,
+   "text": "Saturday evening",
+   "lang": "ru"
+  },
+  {
+   "start": 966.98,
+   "end": 968.98,
+   "text": "Saturday evening",
+   "lang": "en"
+  },
+  {
+   "start": 970.72,
+   "end": 973.6,
+   "text": "Все из офиса",
+   "lang": "ru"
+  },
+  {
+   "start": 973.6,
+   "end": 975.18,
+   "text": "Listen and repeat",
+   "lang": "ru"
+  },
+  {
+   "start": 975.18,
+   "end": 977.66,
+   "text": "Everyone from the office",
+   "lang": "ru"
+  },
+  {
+   "start": 980.36,
+   "end": 982.54,
+   "text": "Everyone from the office",
+   "lang": "ru"
+  },
+  {
+   "start": 985.22,
+   "end": 986.32,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 986.32,
+   "end": 988.02,
+   "text": "Все из офиса",
+   "lang": "ru"
+  },
+  {
+   "start": 991.34,
+   "end": 992.8,
+   "text": "Everyone from the office.",
+   "lang": "en"
+  },
+  {
+   "start": 995.66,
+   "end": 997.1,
+   "text": "будут там.",
+   "lang": "ru"
+  },
+  {
+   "start": 999.42,
+   "end": 1000.22,
+   "text": "We'll be there.",
+   "lang": "en"
+  },
+  {
+   "start": 1002.66,
+   "end": 1003.6,
+   "text": "Почти все.",
+   "lang": "ru"
+  },
+  {
+   "start": 1005.62,
+   "end": 1007.78,
+   "text": "Almost everyone.",
+   "lang": "en"
+  },
+  {
+   "start": 1010.8,
+   "end": 1013.34,
+   "text": "Наш новый клиент тоже там будет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1017.1,
+   "end": 1019.08,
+   "text": "Our new client will be there too.",
+   "lang": "en"
+  },
+  {
+   "start": 1023.0,
+   "end": 1024.18,
+   "text": "Our new client.",
+   "lang": "en"
+  },
+  {
+   "start": 1026.52,
+   "end": 1029.0,
+   "text": "Я думаю, что он там будет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1031.94,
+   "end": 1033.28,
+   "text": "I think he'll be there.",
+   "lang": "en"
+  },
+  {
+   "start": 1035.46,
+   "end": 1037.82,
+   "text": "Вы можете прийти в субботу?",
+   "lang": "ru"
+  },
+  {
+   "start": 1040.88,
+   "end": 1042.24,
+   "text": "Can you come on Saturday?",
+   "lang": "en"
+  },
+  {
+   "start": 1045.54,
+   "end": 1047.6,
+   "text": "Почти все из офиса будут там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1052.44,
+   "end": 1055.0,
+   "text": "Almost everyone from the office will be there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1059.92,
+   "end": 1061.7,
+   "text": "Say, большое спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1064.6,
+   "end": 1065.9,
+   "text": "Thank you very much.",
+   "lang": "ru"
+  },
+  {
+   "start": 1068.76,
+   "end": 1071.08,
+   "text": "Мне бы хотелось, но я не могу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1075.2,
+   "end": 1077.18,
+   "text": "I'd like to, but I can't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1081.26,
+   "end": 1083.06,
+   "text": "I'd like to but I can't.",
+   "lang": "en"
+  },
+  {
+   "start": 1086.48,
+   "end": 1089.94,
+   "text": "Вы хотите сказать, что вас здесь не будет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1090.22,
+   "end": 1092.16,
+   "text": "I won't be here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1094.7,
+   "end": 1098.5,
+   "text": "Won't – это сокращенная форма от will not.",
+   "lang": "ru"
+  },
+  {
+   "start": 1098.94,
+   "end": 1100.14,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1101.24,
+   "end": 1102.1,
+   "text": "I won't be here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1104.94,
+   "end": 1105.6,
+   "text": "Won't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1107.98,
+   "end": 1118.6,
+   "text": "Won't. Won't be. I won't. I won't be here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1121.22,
+   "end": 1124.24,
+   "text": "Try to say, меня не будет здесь в субботу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1128.5,
+   "end": 1130.62,
+   "text": "I won't be here on Saturday.",
+   "lang": "ru"
+  },
+  {
+   "start": 1134.78,
+   "end": 1136.98,
+   "text": "I won't be here on Saturday.",
+   "lang": "en"
+  },
+  {
+   "start": 1140.76,
+   "end": 1142.9,
+   "text": "Вы также можете сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 1144.96,
+   "end": 1147.84,
+   "text": "Обе формы правильные. Используйте",
+   "lang": "ru"
+  },
+  {
+   "start": 1147.84,
+   "end": 1151.8,
+   "text": "Если вас не попросят сказать иначе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1151.8,
+   "end": 1155.22,
+   "text": "Скажите еще раз, что вас не будет здесь в субботу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1159.08,
+   "end": 1161.24,
+   "text": "I won't be here on Saturday.",
+   "lang": "en"
+  },
+  {
+   "start": 1165.28,
+   "end": 1170.1,
+   "text": "Вы хотите сказать, что одна знакомая пригласила вас к ней в гости.",
+   "lang": "ru"
+  },
+  {
+   "start": 1170.1,
+   "end": 1170.7,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 1171.06,
+   "end": 1173.78,
+   "text": "A friend has invited me to visit her.",
+   "lang": "en"
+  },
+  {
+   "start": 1174.02,
+   "end": 1176.82,
+   "text": "A friend has invited me to visit her.",
+   "lang": "en"
+  },
+  {
+   "start": 1176.98,
+   "end": 1177.62,
+   "text": "Snitch.",
+   "lang": "en"
+  },
+  {
+   "start": 1177.72,
+   "end": 1178.92,
+   "text": "Сначала пригласила.",
+   "lang": "ru"
+  },
+  {
+   "start": 1178.92,
+   "end": 1180.08,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1181.06,
+   "end": 1181.58,
+   "text": "Has invited.",
+   "lang": "en"
+  },
+  {
+   "start": 1185.04,
+   "end": 1185.82,
+   "text": "Invited.",
+   "lang": "en"
+  },
+  {
+   "start": 1190.62,
+   "end": 1191.1,
+   "text": "Invited.",
+   "lang": "ru"
+  },
+  {
+   "start": 1193.8,
+   "end": 1194.34,
+   "text": "Has invited.",
+   "lang": "ru"
+  },
+  {
+   "start": 1197.56,
+   "end": 1201.26,
+   "text": "Теперь, обращая внимание на порядок слов, попробуйте сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1201.62,
+   "end": 1204.7,
+   "text": "Одна знакомая пригласила меня в гости.",
+   "lang": "ru"
+  },
+  {
+   "start": 1208.12,
+   "end": 1210.3,
+   "text": "A friend has invited me.",
+   "lang": "ru"
+  },
+  {
+   "start": 1214.08,
+   "end": 1215.12,
+   "text": "Invited me.",
+   "lang": "ru"
+  },
+  {
+   "start": 1217.72,
+   "end": 1219.38,
+   "text": "Has invited me.",
+   "lang": "ru"
+  },
+  {
+   "start": 1222.24,
+   "end": 1224.3,
+   "text": "A friend has invited me.",
+   "lang": "en"
+  },
+  {
+   "start": 1227.94,
+   "end": 1228.94,
+   "text": "Now say it.",
+   "lang": "en"
+  },
+  {
+   "start": 1228.96,
+   "end": 1232.2,
+   "text": "Одна знакомая пригласила меня в гости.",
+   "lang": "ru"
+  },
+  {
+   "start": 1235.7,
+   "end": 1238.7,
+   "text": "A friend has invited me to visit.",
+   "lang": "en"
+  },
+  {
+   "start": 1242.66,
+   "end": 1243.64,
+   "text": "To visit.",
+   "lang": "en"
+  },
+  {
+   "start": 1245.52,
+   "end": 1248.02,
+   "text": "A friend has invited me to visit.",
+   "lang": "en"
+  },
+  {
+   "start": 1252.06,
+   "end": 1253.4,
+   "text": "Now try to say",
+   "lang": "en"
+  },
+  {
+   "start": 1253.62,
+   "end": 1256.8,
+   "text": "Одна знакомая пригласила меня в гости.",
+   "lang": "ru"
+  },
+  {
+   "start": 1256.8,
+   "end": 1263.66,
+   "text": "A friend has invited me to visit her.",
+   "lang": "ru"
+  },
+  {
+   "start": 1267.84,
+   "end": 1270.5,
+   "text": "A friend has invited me to visit her.",
+   "lang": "en"
+  },
+  {
+   "start": 1273.88,
+   "end": 1277.0,
+   "text": "Say, на эти выходные я еду в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.82,
+   "end": 1283.18,
+   "text": "This weekend I'm going to Boston.",
+   "lang": "ru"
+  },
+  {
+   "start": 1287.34,
+   "end": 1290.16,
+   "text": "чтобы навестить одну мою знакомую.",
+   "lang": "ru"
+  },
+  {
+   "start": 1293.1,
+   "end": 1294.94,
+   "text": "To visit a friend of mine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1298.1,
+   "end": 1299.78,
+   "text": "To visit a friend of mine",
+   "lang": "en"
+  },
+  {
+   "start": 1302.6,
+   "end": 1304.06,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 1304.06,
+   "end": 1306.62,
+   "text": "Она пригласила меня навестить ее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1311.08,
+   "end": 1313.04,
+   "text": "She's invited me to visit her.",
+   "lang": "ru"
+  },
+  {
+   "start": 1317.26,
+   "end": 1318.48,
+   "text": "She has invited.",
+   "lang": "ru"
+  },
+  {
+   "start": 1321.26,
+   "end": 1322.36,
+   "text": "She's invited.",
+   "lang": "ru"
+  },
+  {
+   "start": 1325.06,
+   "end": 1326.5,
+   "text": "She's invited me.",
+   "lang": "ru"
+  },
+  {
+   "start": 1329.08,
+   "end": 1331.28,
+   "text": "She's invited me to visit her.",
+   "lang": "ru"
+  },
+  {
+   "start": 1334.82,
+   "end": 1336.44,
+   "text": "в эти выходные",
+   "lang": "ru"
+  },
+  {
+   "start": 1336.44,
+   "end": 1339.98,
+   "text": "this weekend",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.56,
+   "end": 1344.08,
+   "text": "Она мексиканка.",
+   "lang": "ru"
+  },
+  {
+   "start": 1346.74,
+   "end": 1347.92,
+   "text": "She's Mexican.",
+   "lang": "ru"
+  },
+  {
+   "start": 1351.16,
+   "end": 1353.02,
+   "text": "Но она замужем за американцем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1356.74,
+   "end": 1358.84,
+   "text": "But she's married to an American.",
+   "lang": "ru"
+  },
+  {
+   "start": 1358.84,
+   "end": 1359.02,
+   "text": "American.",
+   "lang": "en"
+  },
+  {
+   "start": 1362.54,
+   "end": 1363.66,
+   "text": "She is married.",
+   "lang": "ru"
+  },
+  {
+   "start": 1366.24,
+   "end": 1368.02,
+   "text": "She is married to an American.",
+   "lang": "ru"
+  },
+  {
+   "start": 1368.02,
+   "end": 1368.28,
+   "text": "American.",
+   "lang": "en"
+  },
+  {
+   "start": 1371.58,
+   "end": 1372.56,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1372.8,
+   "end": 1374.82,
+   "text": "Она пригласила меня в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1378.56,
+   "end": 1380.18,
+   "text": "She's invited me to Boston.",
+   "lang": "ru"
+  },
+  {
+   "start": 1383.76,
+   "end": 1385.62,
+   "text": "She's invited me to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 1387.26,
+   "end": 1390.74,
+   "text": "на этих выходных.",
+   "lang": "ru"
+  },
+  {
+   "start": 1392.44,
+   "end": 1394.18,
+   "text": "This weekend",
+   "lang": "en"
+  },
+  {
+   "start": 1395.04,
+   "end": 1398.44,
+   "text": "Меня не будет здесь",
+   "lang": "ru"
+  },
+  {
+   "start": 1401.38,
+   "end": 1402.78,
+   "text": "I won't be here.",
+   "lang": "en"
+  },
+  {
+   "start": 1405.62,
+   "end": 1406.94,
+   "text": "I won't be here.",
+   "lang": "en"
+  },
+  {
+   "start": 1408.18,
+   "end": 1410.98,
+   "text": "в субботу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1413.52,
+   "end": 1414.78,
+   "text": "on Saturday.",
+   "lang": "en"
+  },
+  {
+   "start": 1417.46,
+   "end": 1420.76,
+   "text": "Наш новый клиент тоже живет в Бостоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 1424.76,
+   "end": 1427.32,
+   "text": "our new client lives in boston too",
+   "lang": "en"
+  },
+  {
+   "start": 1431.46,
+   "end": 1434.02,
+   "text": "У нас встреча в понедельник.",
+   "lang": "ru"
+  },
+  {
+   "start": 1437.12,
+   "end": 1438.94,
+   "text": "We have a meeting on Monday.",
+   "lang": "en"
+  },
+  {
+   "start": 1442.64,
+   "end": 1445.82,
+   "text": "Но это не будет долгая встреча.",
+   "lang": "ru"
+  },
+  {
+   "start": 1452.06,
+   "end": 1454.36,
+   "text": "Но это не будет длительным встречей.",
+   "lang": "ru"
+  },
+  {
+   "start": 1457.62,
+   "end": 1459.36,
+   "text": "It won't be a long meeting",
+   "lang": "en"
+  },
+  {
+   "start": 1462.44,
+   "end": 1466.62,
+   "text": "Другой коллега, Чарльз, предлагает вместе посмотреть фильм.",
+   "lang": "ru"
+  },
+  {
+   "start": 1467.6,
+   "end": 1470.16,
+   "text": "Вы заходите в его офис. Скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1470.54,
+   "end": 1472.66,
+   "text": "Извините за беспокойство, Чарльз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1476.24,
+   "end": 1477.96,
+   "text": "Sorry to bother you, Charles.",
+   "lang": "ru"
+  },
+  {
+   "start": 1482.2,
+   "end": 1484.4,
+   "text": "Все в порядке. Вы можете пойти в кино?",
+   "lang": "ru"
+  },
+  {
+   "start": 1489.06,
+   "end": 1491.5,
+   "text": "That's okay. Can you go to the movies?",
+   "lang": "ru"
+  },
+  {
+   "start": 1496.24,
+   "end": 1497.44,
+   "text": "В воскресенье.",
+   "lang": "ru"
+  },
+  {
+   "start": 1499.54,
+   "end": 1500.62,
+   "text": "On Sunday?",
+   "lang": "ru"
+  },
+  {
+   "start": 1503.02,
+   "end": 1503.62,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1503.62,
+   "end": 1505.9,
+   "text": "Нет, к сожалению, я не могу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1510.14,
+   "end": 1512.24,
+   "text": "No, I'm sorry, I can't.",
+   "lang": "en"
+  },
+  {
+   "start": 1516.02,
+   "end": 1518.2,
+   "text": "Меня не будет здесь на выходных.",
+   "lang": "ru"
+  },
+  {
+   "start": 1522.04,
+   "end": 1524.02,
+   "text": "I won't be here this weekend.",
+   "lang": "en"
+  },
+  {
+   "start": 1528.06,
+   "end": 1530.6,
+   "text": "Одна знакомая пригласила меня в Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1535.0,
+   "end": 1537.46,
+   "text": "A friend has invited me to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 1542.06,
+   "end": 1544.46,
+   "text": "A friend has invited me to Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 1549.06,
+   "end": 1551.68,
+   "text": "Мне бы хотелось посмотреть Бостон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1555.2,
+   "end": 1556.56,
+   "text": "I'd like to see Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 1558.86,
+   "end": 1562.78,
+   "text": "и мне бы хотелось навестить мою знакомую.",
+   "lang": "ru"
+  },
+  {
+   "start": 1567.12,
+   "end": 1569.0,
+   "text": "and I'd like to visit my friend.",
+   "lang": "en"
+  },
+  {
+   "start": 1573.12,
+   "end": 1576.8,
+   "text": "Несколько минут спустя вы вернулись в свой офис.",
+   "lang": "ru"
+  },
+  {
+   "start": 1577.42,
+   "end": 1580.26,
+   "text": "Ваша секретарша говорит, Линда Грин звонила.",
+   "lang": "ru"
+  },
+  {
+   "start": 1583.3,
+   "end": 1584.84,
+   "text": "Linda Green called.",
+   "lang": "en"
+  },
+  {
+   "start": 1587.7,
+   "end": 1588.46,
+   "text": "Green.",
+   "lang": "en"
+  },
+  {
+   "start": 1590.84,
+   "end": 1591.98,
+   "text": "Linda Green.",
+   "lang": "en"
+  },
+  {
+   "start": 1593.8,
+   "end": 1597.12,
+   "text": "Она хотела, чтобы вы перезвонили ей сегодня.",
+   "lang": "ru"
+  },
+  {
+   "start": 1597.12,
+   "end": 1602.78,
+   "text": "She wants you to call her back today.",
+   "lang": "ru"
+  },
+  {
+   "start": 1606.54,
+   "end": 1608.48,
+   "text": "She wants you to call her back today",
+   "lang": "en"
+  },
+  {
+   "start": 1612.12,
+   "end": 1616.1,
+   "text": "Try to say Её не будет в офисе завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 1620.24,
+   "end": 1622.42,
+   "text": "She won't be in her office tomorrow.",
+   "lang": "ru"
+  },
+  {
+   "start": 1626.52,
+   "end": 1628.56,
+   "text": "She won't be in her office tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 1628.94,
+   "end": 1635.88,
+   "text": "Ask. Она наша новая клиентка, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1640.26,
+   "end": 1642.38,
+   "text": "She's our new client, isn't she?",
+   "lang": "ru"
+  },
+  {
+   "start": 1646.54,
+   "end": 1648.5,
+   "text": "Я перезвоню ей прямо сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1652.66,
+   "end": 1654.54,
+   "text": "I'll call her back right now.",
+   "lang": "ru"
+  },
+  {
+   "start": 1654.54,
+   "end": 1654.72,
+   "text": "now.",
+   "lang": "en"
+  },
+  {
+   "start": 1658.38,
+   "end": 1663.32,
+   "text": "Now it's Saturday. You're at a restaurant in Boston with your friend and her husband.",
+   "lang": "ru"
+  },
+  {
+   "start": 1663.66,
+   "end": 1665.4,
+   "text": "Say that you're really hungry.",
+   "lang": "ru"
+  },
+  {
+   "start": 1665.4,
+   "end": 1665.54,
+   "text": "hungry.",
+   "lang": "en"
+  },
+  {
+   "start": 1668.76,
+   "end": 1670.02,
+   "text": "I'm really hungry.",
+   "lang": "ru"
+  },
+  {
+   "start": 1670.02,
+   "end": 1670.18,
+   "text": "angry.",
+   "lang": "en"
+  },
+  {
+   "start": 1673.24,
+   "end": 1675.26,
+   "text": "Say that you're going to have the steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1679.0,
+   "end": 1680.44,
+   "text": "I'm going to have the steak",
+   "lang": "en"
+  },
+  {
+   "start": 1683.54,
+   "end": 1686.84,
+   "text": "Я не очень голодна.",
+   "lang": "ru"
+  },
+  {
+   "start": 1690.0,
+   "end": 1691.3,
+   "text": "I'm not very hungry.",
+   "lang": "en"
+  },
+  {
+   "start": 1694.08,
+   "end": 1700.72,
+   "text": "Они решают заказать салат, и каждый по бокалу вина. Что вы скажете, поднимая свой бокал?",
+   "lang": "ru"
+  },
+  {
+   "start": 1702.46,
+   "end": 1703.86,
+   "text": "Cheers!",
+   "lang": "en"
+  },
+  {
+   "start": 1706.1,
+   "end": 1707.08,
+   "text": "Cheers!",
+   "lang": "ru"
+  },
+  {
+   "start": 1709.9,
+   "end": 1712.14,
+   "text": "Это конец семнадцатого урока.",
+   "lang": "ru"
+  }
+ ]
+}

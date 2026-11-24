@@ -1,0 +1,2121 @@
+{
+ "id": "III_29",
+ "source": "Pimsleur_III_29.mp3",
+ "duration": 1856.73,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 141,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.52,
+   "text": "I'd be the wild rover for many years. I'd spend all my money on whiskey and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.2,
+   "end": 19.14,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 21.6,
+   "end": 28.48,
+   "text": "29-й урок третьего уровня американского английского языка по методу доктора Пимслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.0,
+   "end": 31.04,
+   "text": "Listen to this conversation.",
+   "lang": "ru"
+  },
+  {
+   "start": 32.36,
+   "end": 37.0,
+   "text": "Sorry to bother you, Nancy. Have you seen my notes? Did I leave them in your office?",
+   "lang": "ru"
+  },
+  {
+   "start": 37.3,
+   "end": 38.9,
+   "text": "I'm sorry, what did you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 39.14,
+   "end": 44.26,
+   "text": "My notes. My notes from the conference. Have you seen them? Did I leave them here?",
+   "lang": "ru"
+  },
+  {
+   "start": 44.58,
+   "end": 45.66,
+   "text": "Yes, here they are.",
+   "lang": "ru"
+  },
+  {
+   "start": 45.88,
+   "end": 46.84,
+   "text": "Great, thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 48.06,
+   "end": 48.8,
+   "text": "Listen again.",
+   "lang": "ru"
+  },
+  {
+   "start": 50.1,
+   "end": 54.72,
+   "text": "Sorry to bother you, Nancy. Have you seen my notes? Did I leave them in your office?",
+   "lang": "ru"
+  },
+  {
+   "start": 55.0,
+   "end": 56.64,
+   "text": "I'm sorry, what did you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 56.64,
+   "end": 61.96,
+   "text": "My notes. My notes from the conference. Have you seen them? Did I leave them here?",
+   "lang": "ru"
+  },
+  {
+   "start": 62.3,
+   "end": 63.36,
+   "text": "Yes, here they are.",
+   "lang": "ru"
+  },
+  {
+   "start": 63.56,
+   "end": 64.46,
+   "text": "Great, thanks.",
+   "lang": "ru"
+  },
+  {
+   "start": 66.02,
+   "end": 75.02,
+   "text": "Сейчас представьте, что вас зовут Хорхе. Вы в банке. Скажите банковской служащей, что вам бы хотелось открыть чековый счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 78.94,
+   "end": 80.92,
+   "text": "I'd like to open a checking account.",
+   "lang": "ru"
+  },
+  {
+   "start": 80.92,
+   "end": 81.08,
+   "text": "out.",
+   "lang": "en"
+  },
+  {
+   "start": 84.64,
+   "end": 89.56,
+   "text": "У вас есть какой-нибудь документ, удостоверяющий личность?",
+   "lang": "ru"
+  },
+  {
+   "start": 93.82,
+   "end": 95.62,
+   "text": "Do you have some identification?",
+   "lang": "en"
+  },
+  {
+   "start": 99.48,
+   "end": 102.16,
+   "text": "Простите, что вы сказали?",
+   "lang": "ru"
+  },
+  {
+   "start": 106.34,
+   "end": 108.16,
+   "text": "I'm sorry, what did you say?",
+   "lang": "en"
+  },
+  {
+   "start": 112.16,
+   "end": 113.18,
+   "text": "What did you say?",
+   "lang": "en"
+  },
+  {
+   "start": 115.08,
+   "end": 120.72,
+   "text": "Она спрашивает вас еще раз, есть ли у вас документ, удостоверяющий личность.",
+   "lang": "ru"
+  },
+  {
+   "start": 124.2,
+   "end": 126.02,
+   "text": "Do you have some identification?",
+   "lang": "en"
+  },
+  {
+   "start": 130.2,
+   "end": 133.22,
+   "text": "Что вы скажете ей, подавая свой паспорт?",
+   "lang": "ru"
+  },
+  {
+   "start": 135.68,
+   "end": 136.9,
+   "text": "Here's my passport.",
+   "lang": "en"
+  },
+  {
+   "start": 138.94,
+   "end": 142.0,
+   "text": "Она дает вам бланк, говоря",
+   "lang": "ru"
+  },
+  {
+   "start": 142.0,
+   "end": 144.18,
+   "text": "Распишитесь здесь, пожалуйста",
+   "lang": "ru"
+  },
+  {
+   "start": 146.54,
+   "end": 148.1,
+   "text": "Sign here please.",
+   "lang": "en"
+  },
+  {
+   "start": 151.1,
+   "end": 153.1,
+   "text": "Показывая на номер, она говорит",
+   "lang": "ru"
+  },
+  {
+   "start": 153.1,
+   "end": 155.26,
+   "text": "Это номер вашего счета",
+   "lang": "ru"
+  },
+  {
+   "start": 155.26,
+   "end": 155.44,
+   "text": "it.",
+   "lang": "en"
+  },
+  {
+   "start": 158.28,
+   "end": 159.8,
+   "text": "This is your account number.",
+   "lang": "en"
+  },
+  {
+   "start": 163.22,
+   "end": 166.36,
+   "text": "Вам нужна карта для банкомата?",
+   "lang": "ru"
+  },
+  {
+   "start": 169.58,
+   "end": 171.44,
+   "text": "Do you want an ATM card?",
+   "lang": "en"
+  },
+  {
+   "start": 174.74,
+   "end": 176.12,
+   "text": "An ATM card.",
+   "lang": "en"
+  },
+  {
+   "start": 178.7,
+   "end": 180.56,
+   "text": "Да, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 182.06,
+   "end": 184.02,
+   "text": "Да, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 186.56,
+   "end": 187.54,
+   "text": "Yes, please.",
+   "lang": "en"
+  },
+  {
+   "start": 196.18,
+   "end": 208.74,
+   "text": "Jorge, I'd like you to meet my brother, Peter.",
+   "lang": "en"
+  },
+  {
+   "start": 213.86,
+   "end": 216.16,
+   "text": "Питер, это Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 220.02,
+   "end": 222.34,
+   "text": "Питер, это Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 225.86,
+   "end": 227.88,
+   "text": "Это Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 230.72,
+   "end": 234.06,
+   "text": "Теперь ты и коллега говоришь о конференции.",
+   "lang": "ru"
+  },
+  {
+   "start": 234.26,
+   "end": 237.56,
+   "text": "Она хочет знать, все ли готово. Все.",
+   "lang": "ru"
+  },
+  {
+   "start": 237.74,
+   "end": 238.96,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 238.96,
+   "end": 240.08,
+   "text": "Everything.",
+   "lang": "en"
+  },
+  {
+   "start": 242.3,
+   "end": 243.7,
+   "text": "thing",
+   "lang": "ru"
+  },
+  {
+   "start": 245.5,
+   "end": 246.9,
+   "text": "every",
+   "lang": "ru"
+  },
+  {
+   "start": 248.48,
+   "end": 250.58,
+   "text": "ev-ry",
+   "lang": "ru"
+  },
+  {
+   "start": 253.56,
+   "end": 255.7,
+   "text": "ev-ry thing",
+   "lang": "ru"
+  },
+  {
+   "start": 255.7,
+   "end": 259.76,
+   "text": "Thank you for listening.",
+   "lang": "en"
+  },
+  {
+   "start": 259.82,
+   "end": 261.22,
+   "text": "everything",
+   "lang": "ru"
+  },
+  {
+   "start": 263.56,
+   "end": 265.12,
+   "text": "Все. Все.",
+   "lang": "ru"
+  },
+  {
+   "start": 265.12,
+   "end": 265.22,
+   "text": "Все.",
+   "lang": "ru"
+  },
+  {
+   "start": 267.76,
+   "end": 268.6,
+   "text": "Everything.",
+   "lang": "ru"
+  },
+  {
+   "start": 270.78,
+   "end": 272.24,
+   "text": "Try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 272.42,
+   "end": 273.42,
+   "text": "Все готово?",
+   "lang": "ru"
+  },
+  {
+   "start": 276.38,
+   "end": 278.0,
+   "text": "Is everything ready?",
+   "lang": "ru"
+  },
+  {
+   "start": 280.76,
+   "end": 282.34,
+   "text": "Is everything ready?",
+   "lang": "ru"
+  },
+  {
+   "start": 285.06,
+   "end": 286.24,
+   "text": "Now say.",
+   "lang": "ru"
+  },
+  {
+   "start": 286.66,
+   "end": 287.5,
+   "text": "Конференция.",
+   "lang": "ru"
+  },
+  {
+   "start": 289.56,
+   "end": 290.4,
+   "text": "Conference.",
+   "lang": "ru"
+  },
+  {
+   "start": 292.82,
+   "end": 293.66,
+   "text": "Conference.",
+   "lang": "ru"
+  },
+  {
+   "start": 293.8,
+   "end": 294.2,
+   "text": "Conference.",
+   "lang": "ru"
+  },
+  {
+   "start": 295.98,
+   "end": 298.5,
+   "text": "Да, все готово.",
+   "lang": "ru"
+  },
+  {
+   "start": 301.98,
+   "end": 304.04,
+   "text": "Yes, everything is ready.",
+   "lang": "ru"
+  },
+  {
+   "start": 308.16,
+   "end": 308.88,
+   "text": "Everything's ready.",
+   "lang": "en"
+  },
+  {
+   "start": 312.3,
+   "end": 314.92,
+   "text": "Скажите, что все готово для конференции.",
+   "lang": "ru"
+  },
+  {
+   "start": 319.44,
+   "end": 321.6,
+   "text": "Everything is ready for the conference.",
+   "lang": "ru"
+  },
+  {
+   "start": 321.6,
+   "end": 324.3,
+   "text": "Transcription by CastingWords",
+   "lang": "en"
+  },
+  {
+   "start": 325.9,
+   "end": 334.5,
+   "text": "Сейчас муж вашей коллеги заходит в офис. Ваша коллега говорит, Хорхе, я хочу вас познакомить с моим мужем, Биллом.",
+   "lang": "ru"
+  },
+  {
+   "start": 339.6,
+   "end": 342.62,
+   "text": "Хорхе, я хочу познакомиться с моим мужем, Биллом.",
+   "lang": "ru"
+  },
+  {
+   "start": 347.3,
+   "end": 349.8,
+   "text": "Билл, это мой коллега Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 354.58,
+   "end": 357.54,
+   "text": "Билл, это мой коллега Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 362.04,
+   "end": 363.76,
+   "text": "Что вы оба говорите?",
+   "lang": "ru"
+  },
+  {
+   "start": 363.76,
+   "end": 365.38,
+   "text": "What do you both say?",
+   "lang": "en"
+  },
+  {
+   "start": 368.64,
+   "end": 369.54,
+   "text": "Pleased to meet you.",
+   "lang": "en"
+  },
+  {
+   "start": 371.44,
+   "end": 377.1,
+   "text": "После этого вы разговариваете с другим коллегой о предстоящем собрании.",
+   "lang": "ru"
+  },
+  {
+   "start": 377.22,
+   "end": 379.96,
+   "text": "Скажите, я думаю, что все готово.",
+   "lang": "ru"
+  },
+  {
+   "start": 383.16,
+   "end": 385.18,
+   "text": "I think everything is ready.",
+   "lang": "en"
+  },
+  {
+   "start": 388.36,
+   "end": 391.0,
+   "text": "I think everything's ready for our meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 395.2,
+   "end": 402.82,
+   "text": "Ваша коллега упоминает, что она уезжает в отпуск. Спросите с удивлением, вы будете в отпуске?",
+   "lang": "ru"
+  },
+  {
+   "start": 405.68,
+   "end": 406.98,
+   "text": "You'll be on vacation?",
+   "lang": "en"
+  },
+  {
+   "start": 409.96,
+   "end": 410.86,
+   "text": "You'll be",
+   "lang": "en"
+  },
+  {
+   "start": 413.12,
+   "end": 414.36,
+   "text": "You'll be on vacation?",
+   "lang": "en"
+  },
+  {
+   "start": 417.58,
+   "end": 420.2,
+   "text": "Мы не можем изменить дату.",
+   "lang": "ru"
+  },
+  {
+   "start": 423.26,
+   "end": 425.12,
+   "text": "We can't change the date.",
+   "lang": "en"
+  },
+  {
+   "start": 428.18,
+   "end": 429.06,
+   "text": "The date.",
+   "lang": "en"
+  },
+  {
+   "start": 431.04,
+   "end": 432.48,
+   "text": "We can't change.",
+   "lang": "en"
+  },
+  {
+   "start": 435.34,
+   "end": 437.12,
+   "text": "We can't change the date.",
+   "lang": "en"
+  },
+  {
+   "start": 440.14,
+   "end": 442.58,
+   "text": "Мы не можем поменять дату собрания.",
+   "lang": "ru"
+  },
+  {
+   "start": 446.12,
+   "end": 449.12,
+   "text": "Мы не можем изменить дату встречи.",
+   "lang": "ru"
+  },
+  {
+   "start": 453.46,
+   "end": 454.82,
+   "text": "Дату встречи.",
+   "lang": "ru"
+  },
+  {
+   "start": 457.38,
+   "end": 459.78,
+   "text": "Я знаю, что вы будете в отпуске.",
+   "lang": "ru"
+  },
+  {
+   "start": 463.18,
+   "end": 465.02,
+   "text": "Я знаю, что вы будете в отпуске.",
+   "lang": "ru"
+  },
+  {
+   "start": 468.14,
+   "end": 471.72,
+   "text": "А вот еще один способ сказать то же самое.",
+   "lang": "ru"
+  },
+  {
+   "start": 472.18,
+   "end": 486.82,
+   "text": "В английском языке союз «что» необязателен после таких фраз как «I know», «I think» и так далее.",
+   "lang": "ru"
+  },
+  {
+   "start": 487.0,
+   "end": 492.68,
+   "text": "Используя слово «that», скажите «Я знаю, что вы будете в отпуске».",
+   "lang": "ru"
+  },
+  {
+   "start": 496.2,
+   "end": 498.16,
+   "text": "I know that you'll be on vacation.",
+   "lang": "en"
+  },
+  {
+   "start": 510.94,
+   "end": 514.32,
+   "text": "Но мы не можем сейчас поменять дату.",
+   "lang": "ru"
+  },
+  {
+   "start": 517.84,
+   "end": 519.88,
+   "text": "But we can't change the date now",
+   "lang": "en"
+  },
+  {
+   "start": 523.2,
+   "end": 525.46,
+   "text": "Уже слишком поздно.",
+   "lang": "ru"
+  },
+  {
+   "start": 527.36,
+   "end": 537.38,
+   "text": "It's too late to change it now.",
+   "lang": "ru"
+  },
+  {
+   "start": 541.58,
+   "end": 543.42,
+   "text": "It's too late to change it now.",
+   "lang": "en"
+  },
+  {
+   "start": 547.44,
+   "end": 549.04,
+   "text": "Too late to change it.",
+   "lang": "en"
+  },
+  {
+   "start": 552.42,
+   "end": 557.24,
+   "text": "Скажите еще раз, что уже слишком поздно, чтобы изменить ее сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 561.34,
+   "end": 563.26,
+   "text": "It's too late to change it now.",
+   "lang": "en"
+  },
+  {
+   "start": 567.04,
+   "end": 570.34,
+   "text": "Your colleague says, тогда может быть...",
+   "lang": "ru"
+  },
+  {
+   "start": 572.2,
+   "end": 573.94,
+   "text": "Then maybe",
+   "lang": "en"
+  },
+  {
+   "start": 574.9,
+   "end": 579.58,
+   "text": "Мы сможем устроить телефонную конференцию.",
+   "lang": "ru"
+  },
+  {
+   "start": 582.98,
+   "end": 585.0,
+   "text": "We can have a conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 588.4,
+   "end": 589.82,
+   "text": "A conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 593.6,
+   "end": 595.24,
+   "text": "Have a conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 598.74,
+   "end": 601.2,
+   "text": "Then maybe we can have a conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 604.7,
+   "end": 607.88,
+   "text": "Она говорит очень быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 609.58,
+   "end": 610.58,
+   "text": "Простите, что вы сказали?",
+   "lang": "ru"
+  },
+  {
+   "start": 614.56,
+   "end": 616.54,
+   "text": "I'm sorry, what did you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 616.54,
+   "end": 616.7,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 620.78,
+   "end": 625.14,
+   "text": "She says, если уже слишком поздно менять дату собрания,",
+   "lang": "ru"
+  },
+  {
+   "start": 629.48,
+   "end": 638.8,
+   "text": "if it's too late to change the date of the meeting,",
+   "lang": "ru"
+  },
+  {
+   "start": 643.06,
+   "end": 647.12,
+   "text": "Тогда, может быть, мы можем организовать телефонную конференцию?",
+   "lang": "ru"
+  },
+  {
+   "start": 651.16,
+   "end": 653.58,
+   "text": "Then maybe we can have a conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 657.68,
+   "end": 660.72,
+   "text": "Она могла бы ответить следующим образом.",
+   "lang": "ru"
+  },
+  {
+   "start": 661.54,
+   "end": 666.74,
+   "text": "Я сказала, что, может быть, мы могли бы организовать телефонную конференцию.",
+   "lang": "ru"
+  },
+  {
+   "start": 666.94,
+   "end": 669.58,
+   "text": "Я сказала.",
+   "lang": "ru"
+  },
+  {
+   "start": 670.58,
+   "end": 671.12,
+   "text": "I said.",
+   "lang": "ru"
+  },
+  {
+   "start": 673.72,
+   "end": 674.52,
+   "text": "Said.",
+   "lang": "ru"
+  },
+  {
+   "start": 676.7,
+   "end": 677.5,
+   "text": "Said.",
+   "lang": "ru"
+  },
+  {
+   "start": 679.86,
+   "end": 681.06,
+   "text": "I said.",
+   "lang": "ru"
+  },
+  {
+   "start": 683.72,
+   "end": 684.52,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 685.68,
+   "end": 686.48,
+   "text": "Что вы сказали?",
+   "lang": "ru"
+  },
+  {
+   "start": 689.72,
+   "end": 691.04,
+   "text": "What did you say?",
+   "lang": "ru"
+  },
+  {
+   "start": 693.76,
+   "end": 695.76,
+   "text": "Как она начнет свой ответ?",
+   "lang": "ru"
+  },
+  {
+   "start": 699.12,
+   "end": 699.62,
+   "text": "I said.",
+   "lang": "ru"
+  },
+  {
+   "start": 701.48,
+   "end": 710.56,
+   "text": "Я сказала, может быть мы сможем организовать телефонную конференцию.",
+   "lang": "ru"
+  },
+  {
+   "start": 715.42,
+   "end": 718.64,
+   "text": "I said, maybe we can have a conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 734.96,
+   "end": 742.36,
+   "text": "Вместо того, чтобы повторять свою реплику, она может начать фразу со слов «Я сказала, что...»",
+   "lang": "ru"
+  },
+  {
+   "start": 742.36,
+   "end": 743.48,
+   "text": "Try to say this.",
+   "lang": "en"
+  },
+  {
+   "start": 746.04,
+   "end": 747.48,
+   "text": "I said that.",
+   "lang": "ru"
+  },
+  {
+   "start": 750.04,
+   "end": 751.52,
+   "text": "I said that.",
+   "lang": "en"
+  },
+  {
+   "start": 753.5,
+   "end": 757.5,
+   "text": "Я сказала, что мы можем сделать телефонную конференцию.",
+   "lang": "ru"
+  },
+  {
+   "start": 762.42,
+   "end": 765.08,
+   "text": "I said that we can have a conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 769.7,
+   "end": 770.88,
+   "text": "I said that.",
+   "lang": "en"
+  },
+  {
+   "start": 773.78,
+   "end": 776.2,
+   "text": "I said that we can have a conference call.",
+   "lang": "en"
+  },
+  {
+   "start": 780.24,
+   "end": 783.48,
+   "text": "Если уже слишком поздно менять дату,",
+   "lang": "ru"
+  },
+  {
+   "start": 786.94,
+   "end": 796.14,
+   "text": "Если мы можем сделать телефонную конференцию,",
+   "lang": "ru"
+  },
+  {
+   "start": 799.02,
+   "end": 801.18,
+   "text": "тогда мы можем сделать телефонную конференцию.",
+   "lang": "ru"
+  },
+  {
+   "start": 803.98,
+   "end": 809.1,
+   "text": "Сейчас вы собираетесь выйти из офиса, но у вас нет наличных денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 809.56,
+   "end": 812.82,
+   "text": "Спросите коллегу, поблизости есть банкомат?",
+   "lang": "ru"
+  },
+  {
+   "start": 816.88,
+   "end": 818.52,
+   "text": "Is there an ATM nearby?",
+   "lang": "ru"
+  },
+  {
+   "start": 822.38,
+   "end": 824.72,
+   "text": "Is there an ATM nearby?",
+   "lang": "en"
+  },
+  {
+   "start": 828.86,
+   "end": 832.74,
+   "text": "Да, есть один прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 837.16,
+   "end": 839.58,
+   "text": "Yes, there's one just around the corner.",
+   "lang": "en"
+  },
+  {
+   "start": 843.74,
+   "end": 845.58,
+   "text": "There's one just around the corner.",
+   "lang": "en"
+  },
+  {
+   "start": 849.3,
+   "end": 854.84,
+   "text": "You can't find your car keys. You can't find your car keys. Try to ask.",
+   "lang": "en"
+  },
+  {
+   "start": 854.86,
+   "end": 857.4,
+   "text": "Вы видели мои ключи от машины?",
+   "lang": "ru"
+  },
+  {
+   "start": 860.94,
+   "end": 862.96,
+   "text": "Have you seen my car keys?",
+   "lang": "ru"
+  },
+  {
+   "start": 866.7,
+   "end": 867.84,
+   "text": "Car keys",
+   "lang": "ru"
+  },
+  {
+   "start": 867.84,
+   "end": 872.72,
+   "text": "Have you seen my car keys?",
+   "lang": "ru"
+  },
+  {
+   "start": 876.46,
+   "end": 881.2,
+   "text": "Она видела их в офисе. Что она скажет, отдавая их вам?",
+   "lang": "ru"
+  },
+  {
+   "start": 884.06,
+   "end": 885.24,
+   "text": "Here they are.",
+   "lang": "ru"
+  },
+  {
+   "start": 887.7,
+   "end": 888.92,
+   "text": "Here are your keys.",
+   "lang": "en"
+  },
+  {
+   "start": 892.16,
+   "end": 895.54,
+   "text": "Now you're having dinner at the home of an American acquaintance.",
+   "lang": "en"
+  },
+  {
+   "start": 895.86,
+   "end": 897.78,
+   "text": "Скажите, что всё очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 901.08,
+   "end": 902.8,
+   "text": "Everything is very good.",
+   "lang": "ru"
+  },
+  {
+   "start": 906.2,
+   "end": 907.76,
+   "text": "Everything is very good.",
+   "lang": "en"
+  },
+  {
+   "start": 910.44,
+   "end": 912.76,
+   "text": "Now you want to say...",
+   "lang": "ru"
+  },
+  {
+   "start": 912.76,
+   "end": 916.56,
+   "text": "Мне бы хотелось спросить у вас кое-что. Спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 917.12,
+   "end": 918.38,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 918.98,
+   "end": 919.7,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 921.48,
+   "end": 922.7,
+   "text": "To ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 925.02,
+   "end": 925.74,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 927.74,
+   "end": 932.66,
+   "text": "Вы уже слышали это слово. Скажите еще раз. Спросить.",
+   "lang": "ru"
+  },
+  {
+   "start": 932.66,
+   "end": 934.98,
+   "text": "Ask",
+   "lang": "en"
+  },
+  {
+   "start": 934.98,
+   "end": 937.98,
+   "text": "To ask",
+   "lang": "en"
+  },
+  {
+   "start": 939.86,
+   "end": 941.44,
+   "text": "Try to",
+   "lang": "en"
+  },
+  {
+   "start": 941.54,
+   "end": 944.7,
+   "text": "Мне бы хотелось спросить у вас кое-что.",
+   "lang": "ru"
+  },
+  {
+   "start": 948.4,
+   "end": 950.16,
+   "text": "I'd like to ask you something.",
+   "lang": "en"
+  },
+  {
+   "start": 953.52,
+   "end": 955.06,
+   "text": "To ask you something.",
+   "lang": "en"
+  },
+  {
+   "start": 958.06,
+   "end": 959.88,
+   "text": "I'd like to ask you something.",
+   "lang": "en"
+  },
+  {
+   "start": 962.9,
+   "end": 965.52,
+   "text": "Мне бы хотелось задать вам вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 966.0,
+   "end": 974.16,
+   "text": "Мне бы хотелось задать вам вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 974.16,
+   "end": 975.44,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1003.92,
+   "end": 1004.12,
+   "text": "Прослушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1006.54,
+   "end": 1009.86,
+   "text": "Мне бы хотелось задать вам вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 1013.26,
+   "end": 1015.7,
+   "text": "Я хочу спросить тебя.",
+   "lang": "ru"
+  },
+  {
+   "start": 1015.7,
+   "end": 1016.12,
+   "text": "a question.",
+   "lang": "en"
+  },
+  {
+   "start": 1020.48,
+   "end": 1021.96,
+   "text": "Ask you a question.",
+   "lang": "ru"
+  },
+  {
+   "start": 1025.44,
+   "end": 1027.6,
+   "text": "I'd like to ask you a question.",
+   "lang": "ru"
+  },
+  {
+   "start": 1031.8,
+   "end": 1034.18,
+   "text": "She says, конечно, давайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1036.76,
+   "end": 1037.98,
+   "text": "Go right ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1040.38,
+   "end": 1042.22,
+   "text": "Of course, go right ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1045.66,
+   "end": 1047.94,
+   "text": "Ask, это очень дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 1051.42,
+   "end": 1052.92,
+   "text": "Is it very expensive?",
+   "lang": "ru"
+  },
+  {
+   "start": 1056.36,
+   "end": 1058.0,
+   "text": "Is it very expensive?",
+   "lang": "en"
+  },
+  {
+   "start": 1061.38,
+   "end": 1065.4,
+   "text": "Ask if it is very expensive to study in the United States.",
+   "lang": "ru"
+  },
+  {
+   "start": 1065.4,
+   "end": 1065.64,
+   "text": "States.",
+   "lang": "en"
+  },
+  {
+   "start": 1073.46,
+   "end": 1076.88,
+   "text": "Is it very expensive to study in the United States?",
+   "lang": "ru"
+  },
+  {
+   "start": 1083.04,
+   "end": 1084.06,
+   "text": "To study.",
+   "lang": "ru"
+  },
+  {
+   "start": 1086.44,
+   "end": 1089.74,
+   "text": "Is it very expensive to study in the United States?",
+   "lang": "ru"
+  },
+  {
+   "start": 1096.76,
+   "end": 1098.88,
+   "text": "Почему вы спрашиваете?",
+   "lang": "ru"
+  },
+  {
+   "start": 1101.1,
+   "end": 1101.58,
+   "text": "Why?",
+   "lang": "en"
+  },
+  {
+   "start": 1103.84,
+   "end": 1105.04,
+   "text": "Why do you ask?",
+   "lang": "en"
+  },
+  {
+   "start": 1107.3,
+   "end": 1111.08,
+   "text": "Потому что моя племянница хотела бы учиться здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1111.08,
+   "end": 1111.22,
+   "text": "Peace.",
+   "lang": "en"
+  },
+  {
+   "start": 1115.18,
+   "end": 1117.76,
+   "text": "Because my niece would like to study here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1121.84,
+   "end": 1124.14,
+   "text": "Ей хочется провести здесь год.",
+   "lang": "ru"
+  },
+  {
+   "start": 1124.7,
+   "end": 1126.2,
+   "text": "Провести год.",
+   "lang": "ru"
+  },
+  {
+   "start": 1126.52,
+   "end": 1127.42,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1128.14,
+   "end": 1129.24,
+   "text": "Spend a year.",
+   "lang": "ru"
+  },
+  {
+   "start": 1132.36,
+   "end": 1133.0,
+   "text": "Spend.",
+   "lang": "ru"
+  },
+  {
+   "start": 1134.96,
+   "end": 1136.02,
+   "text": "To spend.",
+   "lang": "ru"
+  },
+  {
+   "start": 1138.54,
+   "end": 1139.58,
+   "text": "Spend a year.",
+   "lang": "ru"
+  },
+  {
+   "start": 1142.76,
+   "end": 1149.14,
+   "text": "spend дословно означает тратить. Скажите еще раз провести год.",
+   "lang": "ru"
+  },
+  {
+   "start": 1151.5,
+   "end": 1152.92,
+   "text": "spend a year.",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.12,
+   "end": 1157.02,
+   "text": "to spend a year.",
+   "lang": "ru"
+  },
+  {
+   "start": 1159.3,
+   "end": 1163.36,
+   "text": "try to say Ей бы хотелось провести здесь год.",
+   "lang": "ru"
+  },
+  {
+   "start": 1167.46,
+   "end": 1169.64,
+   "text": "Она хочет провести год здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1173.58,
+   "end": 1174.7,
+   "text": "Year here.",
+   "lang": "en"
+  },
+  {
+   "start": 1177.74,
+   "end": 1179.72,
+   "text": "She'd like to spend a year here.",
+   "lang": "en"
+  },
+  {
+   "start": 1182.0,
+   "end": 1184.9,
+   "text": "Она вас не расслышала.",
+   "lang": "ru"
+  },
+  {
+   "start": 1184.92,
+   "end": 1186.2,
+   "text": "Как она спросит?",
+   "lang": "ru"
+  },
+  {
+   "start": 1186.24,
+   "end": 1188.02,
+   "text": "Простите, что вы сказали?",
+   "lang": "ru"
+  },
+  {
+   "start": 1190.7,
+   "end": 1191.62,
+   "text": "I'm sorry?",
+   "lang": "en"
+  },
+  {
+   "start": 1194.04,
+   "end": 1196.0,
+   "text": "I'm sorry? What did you say?",
+   "lang": "en"
+  },
+  {
+   "start": 1199.3,
+   "end": 1199.92,
+   "text": "Answer?",
+   "lang": "en"
+  },
+  {
+   "start": 1204.06,
+   "end": 1213.86,
+   "text": "Я сказал, ей бы хотелось провести здесь год.",
+   "lang": "ru"
+  },
+  {
+   "start": 1213.86,
+   "end": 1214.6,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1218.46,
+   "end": 1221.56,
+   "text": "I said she'd like to spend a year here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1226.36,
+   "end": 1229.9,
+   "text": "Сейчас, используя союз что, скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1229.98,
+   "end": 1233.38,
+   "text": "Я сказал, что она хочет провести здесь год.",
+   "lang": "ru"
+  },
+  {
+   "start": 1237.88,
+   "end": 1240.68,
+   "text": "I said that she'd like to spend a year here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1244.92,
+   "end": 1254.1,
+   "text": "Продолжайте использовать союз that, когда слышите «я сказал что» или «он сказал что» и так далее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1254.64,
+   "end": 1260.52,
+   "text": "Сейчас скажите «Мне бы хотелось спросить у вас кое-что».",
+   "lang": "ru"
+  },
+  {
+   "start": 1262.86,
+   "end": 1264.5,
+   "text": "I'd like to ask you something.",
+   "lang": "ru"
+  },
+  {
+   "start": 1264.5,
+   "end": 1264.68,
+   "text": "thing.",
+   "lang": "en"
+  },
+  {
+   "start": 1268.74,
+   "end": 1270.4,
+   "text": "Мне бы хотелось задать вам вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 1270.4,
+   "end": 1270.62,
+   "text": "Bruce.",
+   "lang": "en"
+  },
+  {
+   "start": 1274.04,
+   "end": 1276.26,
+   "text": "I'd like to ask you a question.",
+   "lang": "ru"
+  },
+  {
+   "start": 1279.86,
+   "end": 1281.64,
+   "text": "I'd like to ask you a question.",
+   "lang": "en"
+  },
+  {
+   "start": 1285.56,
+   "end": 1288.04,
+   "text": "Спросите, дорого ли здесь учиться?",
+   "lang": "ru"
+  },
+  {
+   "start": 1291.58,
+   "end": 1294.2,
+   "text": "Is it very expensive to study here?",
+   "lang": "ru"
+  },
+  {
+   "start": 1298.06,
+   "end": 1300.6,
+   "text": "Is it very expensive to study here?",
+   "lang": "en"
+  },
+  {
+   "start": 1304.94,
+   "end": 1308.48,
+   "text": "Моей племяннице хотелось бы провести год",
+   "lang": "ru"
+  },
+  {
+   "start": 1312.98,
+   "end": 1315.26,
+   "text": "My niece would like to spend a year.",
+   "lang": "en"
+  },
+  {
+   "start": 1317.66,
+   "end": 1320.82,
+   "text": "в Соединенных Штатах",
+   "lang": "ru"
+  },
+  {
+   "start": 1323.88,
+   "end": 1325.16,
+   "text": "in the United States.",
+   "lang": "en"
+  },
+  {
+   "start": 1327.18,
+   "end": 1330.02,
+   "text": "Но у нее немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1333.72,
+   "end": 1335.86,
+   "text": "But she doesn't have a lot of money.",
+   "lang": "en"
+  },
+  {
+   "start": 1339.68,
+   "end": 1341.46,
+   "text": "She doesn't have much money.",
+   "lang": "en"
+  },
+  {
+   "start": 1344.66,
+   "end": 1346.46,
+   "text": "Простите, что вы сказали?",
+   "lang": "ru"
+  },
+  {
+   "start": 1349.72,
+   "end": 1351.82,
+   "text": "Я извиняюсь, что вы сказали?",
+   "lang": "ru"
+  },
+  {
+   "start": 1355.98,
+   "end": 1361.42,
+   "text": "Используя much, скажите, я сказал, что у нее немного денег.",
+   "lang": "ru"
+  },
+  {
+   "start": 1365.0,
+   "end": 1367.64,
+   "text": "I said that she doesn't have much money.",
+   "lang": "ru"
+  },
+  {
+   "start": 1371.48,
+   "end": 1375.04,
+   "text": "Your acquaintance says, учиться здесь дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 1378.42,
+   "end": 1380.4,
+   "text": "It's expensive to study here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1383.48,
+   "end": 1386.46,
+   "text": "Yes, it is expensive to study here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1391.2,
+   "end": 1393.58,
+   "text": "Ваша племянница говорит по-английски?",
+   "lang": "ru"
+  },
+  {
+   "start": 1395.72,
+   "end": 1397.62,
+   "text": "Does your niece speak English?",
+   "lang": "ru"
+  },
+  {
+   "start": 1400.58,
+   "end": 1401.26,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1401.42,
+   "end": 1404.2,
+   "text": "Да, она говорит по-английски очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 1407.0,
+   "end": 1409.52,
+   "text": "Yes, she speaks English very well.",
+   "lang": "en"
+  },
+  {
+   "start": 1413.62,
+   "end": 1416.06,
+   "text": "Тогда, может быть, летом?",
+   "lang": "ru"
+  },
+  {
+   "start": 1419.08,
+   "end": 1420.86,
+   "text": "than maybe in the summer.",
+   "lang": "en"
+  },
+  {
+   "start": 1423.26,
+   "end": 1425.64,
+   "text": "Она сможет найти работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1425.64,
+   "end": 1430.02,
+   "text": "She can find a job.",
+   "lang": "ru"
+  },
+  {
+   "start": 1432.84,
+   "end": 1435.06,
+   "text": "Maybe she can find a summer job.",
+   "lang": "ru"
+  },
+  {
+   "start": 1438.22,
+   "end": 1439.64,
+   "text": "A summer job.",
+   "lang": "ru"
+  },
+  {
+   "start": 1442.54,
+   "end": 1445.02,
+   "text": "Ask. Это очень трудно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1447.44,
+   "end": 1449.02,
+   "text": "Is it very difficult?",
+   "lang": "ru"
+  },
+  {
+   "start": 1451.92,
+   "end": 1453.3,
+   "text": "Try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1453.3,
+   "end": 1455.5,
+   "text": "Это очень трудно найти работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1459.22,
+   "end": 1462.14,
+   "text": "Is it very difficult to find a job?",
+   "lang": "ru"
+  },
+  {
+   "start": 1466.0,
+   "end": 1468.88,
+   "text": "Is it very difficult to find a job?",
+   "lang": "ru"
+  },
+  {
+   "start": 1473.0,
+   "end": 1474.92,
+   "text": "В Соединенных Штатах.",
+   "lang": "ru"
+  },
+  {
+   "start": 1476.94,
+   "end": 1478.68,
+   "text": "In the United States?",
+   "lang": "ru"
+  },
+  {
+   "start": 1481.58,
+   "end": 1484.16,
+   "text": "Это хороший вопрос.",
+   "lang": "ru"
+  },
+  {
+   "start": 1487.78,
+   "end": 1488.94,
+   "text": "That's a good question.",
+   "lang": "en"
+  },
+  {
+   "start": 1492.12,
+   "end": 1493.24,
+   "text": "That's a good question.",
+   "lang": "en"
+  },
+  {
+   "start": 1496.28,
+   "end": 1499.26,
+   "text": "В данный момент нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1501.78,
+   "end": 1502.94,
+   "text": "Not at the moment.",
+   "lang": "en"
+  },
+  {
+   "start": 1505.48,
+   "end": 1507.98,
+   "text": "Однако иногда получить работу сложно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1508.68,
+   "end": 1509.56,
+   "text": "Ваша знакомая говорит.",
+   "lang": "ru"
+  },
+  {
+   "start": 1510.1,
+   "end": 1512.4,
+   "text": "Почему бы вам не спросить у Чарльза?",
+   "lang": "ru"
+  },
+  {
+   "start": 1515.84,
+   "end": 1517.84,
+   "text": "Why don't you ask Charles?",
+   "lang": "en"
+  },
+  {
+   "start": 1525.54,
+   "end": 1528.22,
+   "text": "Может быть, он сможет помочь?",
+   "lang": "ru"
+  },
+  {
+   "start": 1530.92,
+   "end": 1531.98,
+   "text": "Maybe he can help.",
+   "lang": "en"
+  },
+  {
+   "start": 1532.36,
+   "end": 1533.08,
+   "text": "Ask?",
+   "lang": "ru"
+  },
+  {
+   "start": 1535.4,
+   "end": 1537.88,
+   "text": "Сейчас не слишком поздно звонить ему?",
+   "lang": "ru"
+  },
+  {
+   "start": 1541.48,
+   "end": 1543.4,
+   "text": "Is it too late to call him now?",
+   "lang": "en"
+  },
+  {
+   "start": 1546.62,
+   "end": 1553.54,
+   "text": "Она говорит, что да, поздно. Позже, уходя, вы говорите, спасибо за все.",
+   "lang": "ru"
+  },
+  {
+   "start": 1556.92,
+   "end": 1558.02,
+   "text": "Спасибо за все.",
+   "lang": "ru"
+  },
+  {
+   "start": 1558.02,
+   "end": 1558.3,
+   "text": "everything.",
+   "lang": "en"
+  },
+  {
+   "start": 1561.34,
+   "end": 1562.5,
+   "text": "Спасибо за все.",
+   "lang": "ru"
+  },
+  {
+   "start": 1563.02,
+   "end": 1572.5,
+   "text": "The next day you talk with Charles. Say, Моей племяннице хотелось бы провести год.",
+   "lang": "ru"
+  },
+  {
+   "start": 1576.78,
+   "end": 1579.1,
+   "text": "My niece would like to spend a year.",
+   "lang": "ru"
+  },
+  {
+   "start": 1583.06,
+   "end": 1585.46,
+   "text": "My niece would like to spend a year.",
+   "lang": "en"
+  },
+  {
+   "start": 1588.96,
+   "end": 1591.58,
+   "text": "В Соединенных Штатах.",
+   "lang": "ru"
+  },
+  {
+   "start": 1594.78,
+   "end": 1596.02,
+   "text": "in the United States.",
+   "lang": "en"
+  },
+  {
+   "start": 1597.62,
+   "end": 1600.26,
+   "text": "How does he ask?",
+   "lang": "ru"
+  },
+  {
+   "start": 1600.46,
+   "end": 1602.24,
+   "text": "Где в Соединенных Штатах?",
+   "lang": "ru"
+  },
+  {
+   "start": 1605.02,
+   "end": 1606.74,
+   "text": "Where in the United States?",
+   "lang": "ru"
+  },
+  {
+   "start": 1609.88,
+   "end": 1610.4,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 1611.08,
+   "end": 1613.66,
+   "text": "Думаю, что ей хотелось бы учиться в Нью-Йорке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1618.36,
+   "end": 1620.76,
+   "text": "I think she'd like to study in New York.",
+   "lang": "ru"
+  },
+  {
+   "start": 1624.72,
+   "end": 1627.68,
+   "text": "I think that she'd like to study in New York.",
+   "lang": "ru"
+  },
+  {
+   "start": 1632.94,
+   "end": 1635.76,
+   "text": "Потом она хочет провести лето в Бостоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 1640.86,
+   "end": 1643.5,
+   "text": "Then she wants to spend the summer in Boston",
+   "lang": "en"
+  },
+  {
+   "start": 1648.1,
+   "end": 1650.92,
+   "text": "У нас есть друзья в Бостоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 1654.52,
+   "end": 1656.58,
+   "text": "Мы имеем друзей в Бостоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 1660.42,
+   "end": 1662.08,
+   "text": "Она может остановиться у них.",
+   "lang": "ru"
+  },
+  {
+   "start": 1665.84,
+   "end": 1667.42,
+   "text": "Она может остаться с ними.",
+   "lang": "ru"
+  },
+  {
+   "start": 1667.42,
+   "end": 1667.68,
+   "text": "them.",
+   "lang": "en"
+  },
+  {
+   "start": 1671.32,
+   "end": 1673.14,
+   "text": "Это слишком дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 1676.56,
+   "end": 1678.16,
+   "text": "Это слишком дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 1681.72,
+   "end": 1683.66,
+   "text": "провести лето в Нью-Йорке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1687.12,
+   "end": 1689.06,
+   "text": "To spend the summer in New York",
+   "lang": "en"
+  },
+  {
+   "start": 1692.96,
+   "end": 1699.28,
+   "text": "Чарльз вас не расслышал. Вы говорите. Я сказал, что это слишком дорого.",
+   "lang": "ru"
+  },
+  {
+   "start": 1703.58,
+   "end": 1705.8,
+   "text": "I said that it's too expensive",
+   "lang": "ru"
+  },
+  {
+   "start": 1710.48,
+   "end": 1712.04,
+   "text": "провести лето в Нью-Йорке",
+   "lang": "ru"
+  },
+  {
+   "start": 1715.52,
+   "end": 1717.5,
+   "text": "to spend the summer in New York",
+   "lang": "ru"
+  },
+  {
+   "start": 1720.68,
+   "end": 1724.14,
+   "text": "Now you're in Boston. You'll be there for a few months.",
+   "lang": "ru"
+  },
+  {
+   "start": 1724.56,
+   "end": 1727.56,
+   "text": "You'd like to open a checking account at a nearby bank.",
+   "lang": "ru"
+  },
+  {
+   "start": 1727.56,
+   "end": 1730.0,
+   "text": "You'd like to open a checking account.",
+   "lang": "en"
+  },
+  {
+   "start": 1730.92,
+   "end": 1736.36,
+   "text": "Ответьте на приветствие служащей, а потом расскажите, что вы хотели бы сделать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1736.94,
+   "end": 1739.26,
+   "text": "Good morning, sir. Can I help you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1746.12,
+   "end": 1749.0,
+   "text": "Good morning. I'd like to open a checking account.",
+   "lang": "ru"
+  },
+  {
+   "start": 1749.0,
+   "end": 1749.22,
+   "text": "out.",
+   "lang": "en"
+  },
+  {
+   "start": 1754.98,
+   "end": 1757.36,
+   "text": "Of course. Do you have some identification?",
+   "lang": "ru"
+  },
+  {
+   "start": 1758.28,
+   "end": 1761.12,
+   "text": "Что вы скажете, показывая свой паспорт?",
+   "lang": "ru"
+  },
+  {
+   "start": 1765.3,
+   "end": 1766.56,
+   "text": "Here's my passport.",
+   "lang": "ru"
+  },
+  {
+   "start": 1769.98,
+   "end": 1771.34,
+   "text": "Sign here, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1772.96,
+   "end": 1776.42,
+   "text": "Вы не увидели в каком месте? Спросите, где расписаться?",
+   "lang": "ru"
+  },
+  {
+   "start": 1780.22,
+   "end": 1781.62,
+   "text": "Where should I sign?",
+   "lang": "ru"
+  },
+  {
+   "start": 1784.54,
+   "end": 1785.96,
+   "text": "Where should I sign?",
+   "lang": "ru"
+  },
+  {
+   "start": 1788.92,
+   "end": 1789.88,
+   "text": "Right here.",
+   "lang": "ru"
+  },
+  {
+   "start": 1791.92,
+   "end": 1794.0,
+   "text": "Ask what today's date is.",
+   "lang": "ru"
+  },
+  {
+   "start": 1797.92,
+   "end": 1798.88,
+   "text": "What's today's date?",
+   "lang": "ru"
+  },
+  {
+   "start": 1802.1,
+   "end": 1803.18,
+   "text": "What is?",
+   "lang": "ru"
+  },
+  {
+   "start": 1806.1,
+   "end": 1806.88,
+   "text": "What's?",
+   "lang": "ru"
+  },
+  {
+   "start": 1809.02,
+   "end": 1810.6,
+   "text": "What's today's date?",
+   "lang": "ru"
+  },
+  {
+   "start": 1813.76,
+   "end": 1815.84,
+   "text": "It's February 1st.",
+   "lang": "ru"
+  },
+  {
+   "start": 1815.86,
+   "end": 1817.8,
+   "text": "It's February 1st.",
+   "lang": "ru"
+  },
+  {
+   "start": 1817.86,
+   "end": 1820.9,
+   "text": "Now say that you'd like an ATM card too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1826.74,
+   "end": 1829.0,
+   "text": "I'd like an ATM card, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1833.32,
+   "end": 1838.52,
+   "text": "Вы получили все, что хотели. Ответьте на вопрос служащий. Я думаю, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1839.54,
+   "end": 1840.78,
+   "text": "Do you have everything?",
+   "lang": "ru"
+  },
+  {
+   "start": 1843.26,
+   "end": 1844.26,
+   "text": "I think so.",
+   "lang": "ru"
+  },
+  {
+   "start": 1846.8,
+   "end": 1848.58,
+   "text": "Yes, I think I have everything.",
+   "lang": "ru"
+  },
+  {
+   "start": 1851.98,
+   "end": 1855.56,
+   "text": "Это конец двадцать девятого урока.",
+   "lang": "ru"
+  }
+ ]
+}

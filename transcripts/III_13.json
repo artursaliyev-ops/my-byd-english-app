@@ -1,0 +1,2481 @@
+{
+ "id": "III_13",
+ "source": "Pimsleur_III_13.mp3",
+ "duration": 1852.68,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 137,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.64,
+   "text": "I'd be the world rover for many years. I'd spend all my young with me and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.26,
+   "end": 19.14,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 23.96,
+   "end": 30.5,
+   "text": "Тринадцатый урок третьего уровня американского английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.5,
+   "end": 32.06,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 33.16,
+   "end": 36.36,
+   "text": "Excuse me, can you help me? How do I get to Central Park?",
+   "lang": "en"
+  },
+  {
+   "start": 36.66,
+   "end": 41.0,
+   "text": "Go straight ahead, then to the left. After that, take the first right.",
+   "lang": "en"
+  },
+  {
+   "start": 41.28,
+   "end": 45.62,
+   "text": "Wait a minute, please. I don't speak English very well. Can you speak more slowly?",
+   "lang": "en"
+  },
+  {
+   "start": 46.02,
+   "end": 49.34,
+   "text": "Central Park is pretty far. Maybe you should take a taxi.",
+   "lang": "en"
+  },
+  {
+   "start": 49.66,
+   "end": 51.36,
+   "text": "That's a good idea. Thanks.",
+   "lang": "en"
+  },
+  {
+   "start": 52.1,
+   "end": 52.8,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 53.76,
+   "end": 57.46,
+   "text": "Excuse me, can you help me? How do I get to Central Park?",
+   "lang": "en"
+  },
+  {
+   "start": 57.46,
+   "end": 61.54,
+   "text": "Go straight ahead then to the left. After that take the first right.",
+   "lang": "en"
+  },
+  {
+   "start": 61.78,
+   "end": 66.26,
+   "text": "Wait a minute please. I don't speak English very well. Can you speak more slowly?",
+   "lang": "en"
+  },
+  {
+   "start": 66.74,
+   "end": 70.04,
+   "text": "Central Park is pretty far. Maybe you should take a taxi.",
+   "lang": "en"
+  },
+  {
+   "start": 70.4,
+   "end": 71.4,
+   "text": "That's a good idea.",
+   "lang": "en"
+  },
+  {
+   "start": 71.62,
+   "end": 78.84,
+   "text": "Вы со своей знакомой совершаете прогулку по туристическим маршрутам Нью-Йорка.",
+   "lang": "ru"
+  },
+  {
+   "start": 79.14,
+   "end": 84.06,
+   "text": "Вы спрашиваете у прохожего, как добраться до художественного музея Метрополитен.",
+   "lang": "ru"
+  },
+  {
+   "start": 85.02,
+   "end": 88.46,
+   "text": "Как она скажет? На первом повороте сверните налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 91.18,
+   "end": 92.74,
+   "text": "Take the first left.",
+   "lang": "en"
+  },
+  {
+   "start": 95.52,
+   "end": 98.04,
+   "text": "Музей находится прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 102.36,
+   "end": 104.74,
+   "text": "The museum is just around the corner.",
+   "lang": "en"
+  },
+  {
+   "start": 109.16,
+   "end": 110.58,
+   "text": "Around the corner.",
+   "lang": "ru"
+  },
+  {
+   "start": 113.46,
+   "end": 114.18,
+   "text": "Just.",
+   "lang": "ru"
+  },
+  {
+   "start": 116.24,
+   "end": 117.94,
+   "text": "Just around the corner.",
+   "lang": "ru"
+  },
+  {
+   "start": 117.94,
+   "end": 118.1,
+   "text": "corner.",
+   "lang": "en"
+  },
+  {
+   "start": 121.4,
+   "end": 123.94,
+   "text": "The museum is just around the corner.",
+   "lang": "ru"
+  },
+  {
+   "start": 123.94,
+   "end": 124.1,
+   "text": "corner.",
+   "lang": "en"
+  },
+  {
+   "start": 128.68,
+   "end": 130.7,
+   "text": "Say, музей открыт.",
+   "lang": "ru"
+  },
+  {
+   "start": 133.42,
+   "end": 135.18,
+   "text": "The museum is open.",
+   "lang": "ru"
+  },
+  {
+   "start": 137.88,
+   "end": 138.96,
+   "text": "Now ask,",
+   "lang": "en"
+  },
+  {
+   "start": 139.4,
+   "end": 141.88,
+   "text": "Музей открыт до 6 часов, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 147.38,
+   "end": 150.48,
+   "text": "The museum is open until 6 o'clock, isn't it?",
+   "lang": "en"
+  },
+  {
+   "start": 156.12,
+   "end": 158.66,
+   "text": "She says, совершенно верно.",
+   "lang": "ru"
+  },
+  {
+   "start": 161.3,
+   "end": 161.94,
+   "text": "That's right.",
+   "lang": "ru"
+  },
+  {
+   "start": 164.52,
+   "end": 168.66,
+   "text": "Вы не торопитесь, а ваша знакомая голодна.",
+   "lang": "ru"
+  },
+  {
+   "start": 169.32,
+   "end": 172.16,
+   "text": "Она говорит, думаю, что там хороший ресторан.",
+   "lang": "ru"
+  },
+  {
+   "start": 175.7,
+   "end": 177.64,
+   "text": "I think there's a good restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 181.5,
+   "end": 182.74,
+   "text": "Прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 186.58,
+   "end": 187.92,
+   "text": "just around the corner",
+   "lang": "en"
+  },
+  {
+   "start": 191.14,
+   "end": 194.04,
+   "text": "Почему бы нам сначала не поесть чего-нибудь?",
+   "lang": "ru"
+  },
+  {
+   "start": 197.36,
+   "end": 199.24,
+   "text": "Why don't we have something to eat first?",
+   "lang": "en"
+  },
+  {
+   "start": 203.0,
+   "end": 206.38,
+   "text": "Хорошо, если вы позволите мне заплатить.",
+   "lang": "ru"
+  },
+  {
+   "start": 210.98,
+   "end": 212.88,
+   "text": "Alright, if you let me pay.",
+   "lang": "en"
+  },
+  {
+   "start": 217.6,
+   "end": 218.98,
+   "text": "If you let me pay.",
+   "lang": "en"
+  },
+  {
+   "start": 221.9,
+   "end": 225.58,
+   "text": "В ресторане есть столики на свежем воздухе.",
+   "lang": "ru"
+  },
+  {
+   "start": 225.66,
+   "end": 230.38,
+   "text": "Ваша знакомая хочет знать, вы предпочитаете сесть внутри или снаружи.",
+   "lang": "ru"
+  },
+  {
+   "start": 230.4,
+   "end": 233.7,
+   "text": "Тогда она спрашивает, вам бы хотелось сесть внутри?",
+   "lang": "ru"
+  },
+  {
+   "start": 237.44,
+   "end": 239.06,
+   "text": "Would you like to sit inside?",
+   "lang": "en"
+  },
+  {
+   "start": 242.74,
+   "end": 243.56,
+   "text": "Inside.",
+   "lang": "ru"
+  },
+  {
+   "start": 246.46,
+   "end": 247.18,
+   "text": "To sit inside.",
+   "lang": "ru"
+  },
+  {
+   "start": 249.86,
+   "end": 251.82,
+   "text": "Would you like to sit inside?",
+   "lang": "ru"
+  },
+  {
+   "start": 251.82,
+   "end": 252.14,
+   "text": "side.",
+   "lang": "en"
+  },
+  {
+   "start": 255.82,
+   "end": 256.82,
+   "text": "Или снаружи?",
+   "lang": "ru"
+  },
+  {
+   "start": 258.98,
+   "end": 260.34,
+   "text": "Or outside?",
+   "lang": "ru"
+  },
+  {
+   "start": 262.72,
+   "end": 263.64,
+   "text": "Outside.",
+   "lang": "ru"
+  },
+  {
+   "start": 266.32,
+   "end": 266.48,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 266.72,
+   "end": 268.32,
+   "text": "Давайте сядем снаружи.",
+   "lang": "ru"
+  },
+  {
+   "start": 271.5,
+   "end": 272.7,
+   "text": "Let's sit outside.",
+   "lang": "en"
+  },
+  {
+   "start": 275.88,
+   "end": 277.06,
+   "text": "Let's sit outside.",
+   "lang": "en"
+  },
+  {
+   "start": 280.3,
+   "end": 282.44,
+   "text": "Давайте сядем за тот столик.",
+   "lang": "ru"
+  },
+  {
+   "start": 285.66,
+   "end": 286.8,
+   "text": "Let's sit at that table",
+   "lang": "en"
+  },
+  {
+   "start": 290.42,
+   "end": 291.18,
+   "text": "Вон там.",
+   "lang": "ru"
+  },
+  {
+   "start": 293.78,
+   "end": 294.62,
+   "text": "Over there.",
+   "lang": "en"
+  },
+  {
+   "start": 297.26,
+   "end": 298.98,
+   "text": "Let's sit at that table over there.",
+   "lang": "en"
+  },
+  {
+   "start": 299.0,
+   "end": 306.86,
+   "text": "Ой, сегодня большинство людей сидит внутри.",
+   "lang": "ru"
+  },
+  {
+   "start": 310.94,
+   "end": 313.36,
+   "text": "Today most people are inside.",
+   "lang": "en"
+  },
+  {
+   "start": 317.76,
+   "end": 318.94,
+   "text": "Most people.",
+   "lang": "en"
+  },
+  {
+   "start": 322.18,
+   "end": 323.18,
+   "text": "Most people are.",
+   "lang": "ru"
+  },
+  {
+   "start": 326.04,
+   "end": 328.18,
+   "text": "Today most people are inside.",
+   "lang": "ru"
+  },
+  {
+   "start": 328.18,
+   "end": 328.52,
+   "text": "side.",
+   "lang": "en"
+  },
+  {
+   "start": 332.16,
+   "end": 334.16,
+   "text": "Say that you'd rather sit outside.",
+   "lang": "ru"
+  },
+  {
+   "start": 334.16,
+   "end": 334.46,
+   "text": "side.",
+   "lang": "en"
+  },
+  {
+   "start": 338.0,
+   "end": 339.58,
+   "text": "I'd rather sit outside.",
+   "lang": "ru"
+  },
+  {
+   "start": 339.58,
+   "end": 339.86,
+   "text": "side.",
+   "lang": "en"
+  },
+  {
+   "start": 343.42,
+   "end": 346.14,
+   "text": "Now say that you have a book about Central Park.",
+   "lang": "ru"
+  },
+  {
+   "start": 346.14,
+   "end": 352.82,
+   "text": "I have a book about Central Park.",
+   "lang": "ru"
+  },
+  {
+   "start": 357.58,
+   "end": 358.14,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 358.3,
+   "end": 360.1,
+   "text": "Он недалеко отсюда, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 363.38,
+   "end": 364.84,
+   "text": "It's near here, isn't it?",
+   "lang": "ru"
+  },
+  {
+   "start": 367.8,
+   "end": 368.88,
+   "text": "Your friend says.",
+   "lang": "ru"
+  },
+  {
+   "start": 369.48,
+   "end": 370.4,
+   "text": "Совершенно верно.",
+   "lang": "ru"
+  },
+  {
+   "start": 373.08,
+   "end": 373.84,
+   "text": "That's right.",
+   "lang": "ru"
+  },
+  {
+   "start": 376.14,
+   "end": 377.88,
+   "text": "Он прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 381.04,
+   "end": 382.54,
+   "text": "It's just around the corner.",
+   "lang": "en"
+  },
+  {
+   "start": 384.58,
+   "end": 387.64,
+   "text": "Мы можем что-нибудь поесть.",
+   "lang": "ru"
+  },
+  {
+   "start": 390.48,
+   "end": 392.08,
+   "text": "We can have something to eat.",
+   "lang": "en"
+  },
+  {
+   "start": 394.02,
+   "end": 396.46,
+   "text": "А после этого",
+   "lang": "ru"
+  },
+  {
+   "start": 399.04,
+   "end": 401.02,
+   "text": "И после этого",
+   "lang": "ru"
+  },
+  {
+   "start": 401.02,
+   "end": 406.52,
+   "text": "мы можем пойти гулять в парк.",
+   "lang": "ru"
+  },
+  {
+   "start": 410.78,
+   "end": 412.74,
+   "text": "We can go for a walk in the park.",
+   "lang": "en"
+  },
+  {
+   "start": 417.0,
+   "end": 419.46,
+   "text": "Потом мы можем пойти в музей.",
+   "lang": "ru"
+  },
+  {
+   "start": 423.36,
+   "end": 424.86,
+   "text": "Then we can go to the museum.",
+   "lang": "en"
+  },
+  {
+   "start": 428.28,
+   "end": 433.5,
+   "text": "Ваша знакомая заказывает мороженое, а вы заказываете только кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 433.5,
+   "end": 437.44,
+   "text": "Знакомая вас спрашивает, разве вы не любите мороженое?",
+   "lang": "ru"
+  },
+  {
+   "start": 441.0,
+   "end": 442.42,
+   "text": "Don't you like ice cream?",
+   "lang": "en"
+  },
+  {
+   "start": 445.98,
+   "end": 447.4,
+   "text": "Don't you like ice cream?",
+   "lang": "en"
+  },
+  {
+   "start": 451.02,
+   "end": 455.32,
+   "text": "Скажите более эмоционально, да, мне нравится мороженое.",
+   "lang": "ru"
+  },
+  {
+   "start": 459.08,
+   "end": 460.86,
+   "text": "Yes, I do like ice cream.",
+   "lang": "en"
+  },
+  {
+   "start": 464.74,
+   "end": 466.18,
+   "text": "I do like ice cream.",
+   "lang": "en"
+  },
+  {
+   "start": 467.64,
+   "end": 471.34,
+   "text": "Но сейчас я не хочу.",
+   "lang": "ru"
+  },
+  {
+   "start": 473.42,
+   "end": 476.58,
+   "text": "Но я не хочу никаких сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 479.76,
+   "end": 481.36,
+   "text": "I don't want any now.",
+   "lang": "en"
+  },
+  {
+   "start": 482.96,
+   "end": 488.88,
+   "text": "Когда вы закончили, скажите подруге, позвольте мне заплатить.",
+   "lang": "ru"
+  },
+  {
+   "start": 490.88,
+   "end": 492.32,
+   "text": "Let's go.",
+   "lang": "en"
+  },
+  {
+   "start": 492.34,
+   "end": 492.84,
+   "text": "Позвольте мне заплатить.",
+   "lang": "ru"
+  },
+  {
+   "start": 495.82,
+   "end": 497.04,
+   "text": "Позвольте мне заплатить.",
+   "lang": "ru"
+  },
+  {
+   "start": 499.82,
+   "end": 502.16,
+   "text": "Теперь вы в Бостоне, посетите друга.",
+   "lang": "ru"
+  },
+  {
+   "start": 502.56,
+   "end": 503.68,
+   "text": "Вы хотите спросить?",
+   "lang": "ru"
+  },
+  {
+   "start": 503.82,
+   "end": 506.52,
+   "text": "Где находится общественный сад Бостона?",
+   "lang": "ru"
+  },
+  {
+   "start": 506.64,
+   "end": 508.06,
+   "text": "Сначала сад.",
+   "lang": "ru"
+  },
+  {
+   "start": 508.44,
+   "end": 509.78,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 510.38,
+   "end": 511.18,
+   "text": "Гарден.",
+   "lang": "ru"
+  },
+  {
+   "start": 513.6,
+   "end": 514.4,
+   "text": "Гарден.",
+   "lang": "ru"
+  },
+  {
+   "start": 517.14,
+   "end": 517.94,
+   "text": "Гарден.",
+   "lang": "ru"
+  },
+  {
+   "start": 520.02,
+   "end": 520.82,
+   "text": "Гарден.",
+   "lang": "ru"
+  },
+  {
+   "start": 520.82,
+   "end": 528.92,
+   "text": "Это территория, на которой выращивают декоративные растения, деревья, фрукты, овощи и так далее.",
+   "lang": "ru"
+  },
+  {
+   "start": 529.64,
+   "end": 531.56,
+   "text": "Теперь скажите общественный.",
+   "lang": "ru"
+  },
+  {
+   "start": 531.76,
+   "end": 533.08,
+   "text": "Listen and repeat again.",
+   "lang": "ru"
+  },
+  {
+   "start": 534.26,
+   "end": 534.52,
+   "text": "Public.",
+   "lang": "ru"
+  },
+  {
+   "start": 536.6,
+   "end": 537.52,
+   "text": "Public.",
+   "lang": "ru"
+  },
+  {
+   "start": 537.52,
+   "end": 538.02,
+   "text": "Blink.",
+   "lang": "en"
+  },
+  {
+   "start": 540.68,
+   "end": 542.02,
+   "text": "Public garden.",
+   "lang": "ru"
+  },
+  {
+   "start": 542.02,
+   "end": 542.2,
+   "text": "garden.",
+   "lang": "en"
+  },
+  {
+   "start": 545.12,
+   "end": 545.28,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 545.68,
+   "end": 547.04,
+   "text": "Общественный сад.",
+   "lang": "ru"
+  },
+  {
+   "start": 549.64,
+   "end": 550.8,
+   "text": "Public garden.",
+   "lang": "ru"
+  },
+  {
+   "start": 550.8,
+   "end": 558.56,
+   "text": "garden the public garden the boss",
+   "lang": "en"
+  },
+  {
+   "start": 558.66,
+   "end": 563.62,
+   "text": "Это название самого известного сада в центре Бостона.",
+   "lang": "ru"
+  },
+  {
+   "start": 563.78,
+   "end": 566.4,
+   "text": "Спросите, где находится...",
+   "lang": "ru"
+  },
+  {
+   "start": 566.4,
+   "end": 567.8,
+   "text": "The Boston Public Garden.",
+   "lang": "ru"
+  },
+  {
+   "start": 571.52,
+   "end": 573.7,
+   "text": "Where is the Boston Public Garden?",
+   "lang": "ru"
+  },
+  {
+   "start": 577.44,
+   "end": 581.06,
+   "text": "Your friend answers. Он находится прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 583.92,
+   "end": 585.66,
+   "text": "It's just around the corner.",
+   "lang": "ru"
+  },
+  {
+   "start": 589.24,
+   "end": 591.5,
+   "text": "Say. Мне бы хотелось посмотреть сад.",
+   "lang": "ru"
+  },
+  {
+   "start": 594.84,
+   "end": 596.44,
+   "text": "I'd like to see the garden.",
+   "lang": "ru"
+  },
+  {
+   "start": 599.7,
+   "end": 602.24,
+   "text": "Your friend says, Я иду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 602.7,
+   "end": 603.26,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 603.64,
+   "end": 604.88,
+   "text": "I'll go with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 607.28,
+   "end": 609.24,
+   "text": "Дословно, Я пойду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 609.46,
+   "end": 610.78,
+   "text": "Now listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 611.28,
+   "end": 612.44,
+   "text": "I'll go with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 615.58,
+   "end": 616.14,
+   "text": "I'll.",
+   "lang": "ru"
+  },
+  {
+   "start": 618.62,
+   "end": 619.18,
+   "text": "I'll.",
+   "lang": "ru"
+  },
+  {
+   "start": 621.68,
+   "end": 630.42,
+   "text": "I'll go. I'll go with you. I'll go with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 633.4,
+   "end": 640.18,
+   "text": "I'll – это сокращенная форма от I will. Will – обозначает будущее время.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.96,
+   "end": 644.34,
+   "text": "Используя эту форму, скажите, я пойду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 646.7,
+   "end": 648.18,
+   "text": "Я пойду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 650.6,
+   "end": 651.58,
+   "text": "I will.",
+   "lang": "ru"
+  },
+  {
+   "start": 653.92,
+   "end": 654.6,
+   "text": "I'll.",
+   "lang": "ru"
+  },
+  {
+   "start": 656.36,
+   "end": 657.66,
+   "text": "I'll go with you.",
+   "lang": "ru"
+  },
+  {
+   "start": 659.62,
+   "end": 660.3,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 660.3,
+   "end": 662.48,
+   "text": "Хорошо, и после этого?",
+   "lang": "ru"
+  },
+  {
+   "start": 666.42,
+   "end": 668.46,
+   "text": "Okay, and after that?",
+   "lang": "ru"
+  },
+  {
+   "start": 672.04,
+   "end": 674.44,
+   "text": "Давайте выпьем по чашке кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 678.1,
+   "end": 679.34,
+   "text": "Let's have a cup of coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 682.2,
+   "end": 687.3,
+   "text": "Хорошо, там есть несколько приятных кафешек.",
+   "lang": "ru"
+  },
+  {
+   "start": 692.32,
+   "end": 695.0,
+   "text": "Alright, there are some nice cafes",
+   "lang": "en"
+  },
+  {
+   "start": 699.56,
+   "end": 702.84,
+   "text": "На улице Ньюберри-стрит.",
+   "lang": "ru"
+  },
+  {
+   "start": 705.5,
+   "end": 707.14,
+   "text": "On Newberry Street",
+   "lang": "en"
+  },
+  {
+   "start": 709.26,
+   "end": 712.88,
+   "text": "There are some nice cafes on Newberry Street.",
+   "lang": "en"
+  },
+  {
+   "start": 717.6,
+   "end": 718.94,
+   "text": "Летом.",
+   "lang": "ru"
+  },
+  {
+   "start": 721.42,
+   "end": 722.32,
+   "text": "in the summer.",
+   "lang": "en"
+  },
+  {
+   "start": 725.0,
+   "end": 727.14,
+   "text": "Большинство людей сидят снаружи.",
+   "lang": "ru"
+  },
+  {
+   "start": 730.54,
+   "end": 732.04,
+   "text": "Most people sit outside.",
+   "lang": "en"
+  },
+  {
+   "start": 732.58,
+   "end": 739.42,
+   "text": "Как она предложит, я пойду в общественный сад с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 744.06,
+   "end": 746.16,
+   "text": "I'll go to the public garden with you.",
+   "lang": "en"
+  },
+  {
+   "start": 750.6,
+   "end": 751.28,
+   "text": "I'll go.",
+   "lang": "en"
+  },
+  {
+   "start": 754.1,
+   "end": 756.14,
+   "text": "I'll go to the public garden with you.",
+   "lang": "en"
+  },
+  {
+   "start": 760.08,
+   "end": 763.28,
+   "text": "А после этого мы можем выпить немного кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 767.36,
+   "end": 769.48,
+   "text": "And after that, we can have some coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 774.56,
+   "end": 777.94,
+   "text": "Хорошо, но позвольте мне заплатить.",
+   "lang": "ru"
+  },
+  {
+   "start": 782.0,
+   "end": 783.72,
+   "text": "Okay, but let me pay.",
+   "lang": "en"
+  },
+  {
+   "start": 788.08,
+   "end": 789.74,
+   "text": "Let me pay for our coffee.",
+   "lang": "en"
+  },
+  {
+   "start": 792.64,
+   "end": 795.32,
+   "text": "На улице",
+   "lang": "ru"
+  },
+  {
+   "start": 795.32,
+   "end": 799.7,
+   "text": "есть не только кафе и рестораны,",
+   "lang": "ru"
+  },
+  {
+   "start": 799.76,
+   "end": 802.86,
+   "text": "но также художественная галерея и магазины.",
+   "lang": "ru"
+  },
+  {
+   "start": 803.52,
+   "end": 805.76,
+   "text": "Another day, you and your friend want to go there.",
+   "lang": "en"
+  },
+  {
+   "start": 805.88,
+   "end": 809.38,
+   "text": "По дороге на улицу",
+   "lang": "ru"
+  },
+  {
+   "start": 809.38,
+   "end": 811.74,
+   "text": "Newberry Street. Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 812.24,
+   "end": 813.28,
+   "text": "On the way.",
+   "lang": "en"
+  },
+  {
+   "start": 816.16,
+   "end": 816.76,
+   "text": "Way.",
+   "lang": "en"
+  },
+  {
+   "start": 819.0,
+   "end": 819.6,
+   "text": "Way.",
+   "lang": "en"
+  },
+  {
+   "start": 822.08,
+   "end": 822.88,
+   "text": "The way.",
+   "lang": "en"
+  },
+  {
+   "start": 825.3,
+   "end": 825.9,
+   "text": "On.",
+   "lang": "en"
+  },
+  {
+   "start": 828.14,
+   "end": 829.28,
+   "text": "On the way.",
+   "lang": "en"
+  },
+  {
+   "start": 831.54,
+   "end": 835.14,
+   "text": "По дороге на улицу.",
+   "lang": "ru"
+  },
+  {
+   "start": 835.14,
+   "end": 836.26,
+   "text": "Newberry Street.",
+   "lang": "en"
+  },
+  {
+   "start": 839.72,
+   "end": 841.72,
+   "text": "On the way to Newberry Street.",
+   "lang": "en"
+  },
+  {
+   "start": 843.44,
+   "end": 847.04,
+   "text": "Мы можем прогуляться.",
+   "lang": "ru"
+  },
+  {
+   "start": 850.24,
+   "end": 851.66,
+   "text": "We can go for a walk.",
+   "lang": "en"
+  },
+  {
+   "start": 854.0,
+   "end": 856.98,
+   "text": "В общественный сад Бостона.",
+   "lang": "ru"
+  },
+  {
+   "start": 860.14,
+   "end": 862.32,
+   "text": "In the Boston Public Garden",
+   "lang": "en"
+  },
+  {
+   "start": 865.48,
+   "end": 868.26,
+   "text": "Мы можем погулять в парке.",
+   "lang": "ru"
+  },
+  {
+   "start": 871.66,
+   "end": 873.18,
+   "text": "We can walk in the garden.",
+   "lang": "en"
+  },
+  {
+   "start": 876.02,
+   "end": 878.42,
+   "text": "По дороге на улицу",
+   "lang": "ru"
+  },
+  {
+   "start": 878.42,
+   "end": 879.86,
+   "text": "Newberry Street",
+   "lang": "ru"
+  },
+  {
+   "start": 883.54,
+   "end": 885.88,
+   "text": "On the way to Newberry Street",
+   "lang": "ru"
+  },
+  {
+   "start": 885.88,
+   "end": 891.62,
+   "text": "On the way to Newberry Street",
+   "lang": "ru"
+  },
+  {
+   "start": 895.22,
+   "end": 896.04,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 896.04,
+   "end": 898.32,
+   "text": "Хорошо, и после этого",
+   "lang": "ru"
+  },
+  {
+   "start": 902.58,
+   "end": 904.8,
+   "text": "All right, and after that...",
+   "lang": "en"
+  },
+  {
+   "start": 908.54,
+   "end": 911.92,
+   "text": "Мне бы хотелось купить книгу для моей дочери.",
+   "lang": "ru"
+  },
+  {
+   "start": 916.26,
+   "end": 918.16,
+   "text": "I'd like to buy a book for my daughter.",
+   "lang": "en"
+  },
+  {
+   "start": 922.42,
+   "end": 923.98,
+   "text": "книгу о Бостоне.",
+   "lang": "ru"
+  },
+  {
+   "start": 926.54,
+   "end": 928.04,
+   "text": "A book about Boston",
+   "lang": "en"
+  },
+  {
+   "start": 931.06,
+   "end": 934.1,
+   "text": "Ваша знакомая предлагает, я пойду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 936.96,
+   "end": 938.54,
+   "text": "Я пойду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 941.18,
+   "end": 942.74,
+   "text": "А по пути?",
+   "lang": "ru"
+  },
+  {
+   "start": 945.68,
+   "end": 946.84,
+   "text": "And on the way",
+   "lang": "en"
+  },
+  {
+   "start": 948.92,
+   "end": 952.3,
+   "text": "Мне бы хотелось зайти в банк.",
+   "lang": "ru"
+  },
+  {
+   "start": 955.42,
+   "end": 956.8,
+   "text": "I'd like to go to the bank.",
+   "lang": "en"
+  },
+  {
+   "start": 960.28,
+   "end": 960.68,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 960.86,
+   "end": 963.4,
+   "text": "Большинство банков сейчас закрыты, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 967.84,
+   "end": 970.34,
+   "text": "Most banks are closed now, aren't they?",
+   "lang": "ru"
+  },
+  {
+   "start": 974.9,
+   "end": 977.42,
+   "text": "Most banks are closed now, aren't they?",
+   "lang": "en"
+  },
+  {
+   "start": 981.86,
+   "end": 986.06,
+   "text": "Another day you're at the home of a colleague. Do you remember how to say?",
+   "lang": "ru"
+  },
+  {
+   "start": 986.34,
+   "end": 989.28,
+   "text": "Мне бы хотелось сделать телефонный звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 992.82,
+   "end": 994.34,
+   "text": "I'd like to make a phone call.",
+   "lang": "en"
+  },
+  {
+   "start": 997.3,
+   "end": 1000.32,
+   "text": "Можно ли мне воспользоваться вашим телефоном?",
+   "lang": "ru"
+  },
+  {
+   "start": 1000.42,
+   "end": 1002.4,
+   "text": "Сначала можно ли мне?",
+   "lang": "ru"
+  },
+  {
+   "start": 1002.84,
+   "end": 1004.04,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1005.02,
+   "end": 1005.54,
+   "text": "Можно ли я?",
+   "lang": "ru"
+  },
+  {
+   "start": 1007.78,
+   "end": 1008.5,
+   "text": "Можно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.66,
+   "end": 1011.38,
+   "text": "Можно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1013.36,
+   "end": 1014.44,
+   "text": "Можно ли я?",
+   "lang": "ru"
+  },
+  {
+   "start": 1016.66,
+   "end": 1027.34,
+   "text": "В английском языке may и can могут употребляться в одном и том же значении, но may более вежливая форма.",
+   "lang": "ru"
+  },
+  {
+   "start": 1028.22,
+   "end": 1031.98,
+   "text": "Сейчас скажите, можно ли мне воспользоваться вашим телефоном?",
+   "lang": "ru"
+  },
+  {
+   "start": 1032.18,
+   "end": 1033.1,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1034.02,
+   "end": 1035.2,
+   "text": "May I use your telephone?",
+   "lang": "ru"
+  },
+  {
+   "start": 1035.2,
+   "end": 1035.42,
+   "text": "phone.",
+   "lang": "en"
+  },
+  {
+   "start": 1038.42,
+   "end": 1039.32,
+   "text": "Use",
+   "lang": "ru"
+  },
+  {
+   "start": 1040.4,
+   "end": 1041.3,
+   "text": "Use",
+   "lang": "ru"
+  },
+  {
+   "start": 1041.3,
+   "end": 1042.22,
+   "text": "use",
+   "lang": "en"
+  },
+  {
+   "start": 1044.44,
+   "end": 1045.46,
+   "text": "I use.",
+   "lang": "ru"
+  },
+  {
+   "start": 1045.46,
+   "end": 1045.74,
+   "text": "news.",
+   "lang": "en"
+  },
+  {
+   "start": 1048.8,
+   "end": 1049.7,
+   "text": "May I use?",
+   "lang": "ru"
+  },
+  {
+   "start": 1052.04,
+   "end": 1053.88,
+   "text": "May I use your telephone?",
+   "lang": "ru"
+  },
+  {
+   "start": 1053.88,
+   "end": 1054.08,
+   "text": "phone.",
+   "lang": "en"
+  },
+  {
+   "start": 1057.4,
+   "end": 1061.42,
+   "text": "Спросите еще раз, можно ли мне воспользоваться вашим телефоном.",
+   "lang": "ru"
+  },
+  {
+   "start": 1064.34,
+   "end": 1066.1,
+   "text": "May I use your telephone?",
+   "lang": "ru"
+  },
+  {
+   "start": 1066.1,
+   "end": 1066.3,
+   "text": "phone?",
+   "lang": "en"
+  },
+  {
+   "start": 1069.34,
+   "end": 1070.94,
+   "text": "May I use your phone?",
+   "lang": "ru"
+  },
+  {
+   "start": 1074.22,
+   "end": 1079.02,
+   "text": "Послушайте и повторите ее ответ, который означает, что вы можете это сделать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1079.02,
+   "end": 1080.86,
+   "text": "Yes, go right ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1084.74,
+   "end": 1085.26,
+   "text": "Ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1087.56,
+   "end": 1088.08,
+   "text": "Ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1090.42,
+   "end": 1091.2,
+   "text": "Right ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1093.8,
+   "end": 1094.84,
+   "text": "Go right ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1097.8,
+   "end": 1099.1,
+   "text": "Yes, go right ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1102.58,
+   "end": 1115.96,
+   "text": "Эта фраза состоит из двух слов, которые вы уже знаете. Буквально она означает «идите все время прямо». Она используется, чтобы сказать, что вы должны идти прямо или, конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1116.68,
+   "end": 1117.5,
+   "text": "Say it again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1117.5,
+   "end": 1117.72,
+   "text": "again.",
+   "lang": "en"
+  },
+  {
+   "start": 1120.68,
+   "end": 1121.32,
+   "text": "Go right ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1123.92,
+   "end": 1125.32,
+   "text": "Yes, go right ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1125.32,
+   "end": 1125.54,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 1128.72,
+   "end": 1129.6,
+   "text": "Ask again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1130.94,
+   "end": 1132.46,
+   "text": "воспользоваться вашим телефоном.",
+   "lang": "ru"
+  },
+  {
+   "start": 1135.66,
+   "end": 1137.44,
+   "text": "May I use your telephone?",
+   "lang": "ru"
+  },
+  {
+   "start": 1137.44,
+   "end": 1137.66,
+   "text": "phone.",
+   "lang": "en"
+  },
+  {
+   "start": 1140.86,
+   "end": 1142.76,
+   "text": "She says, конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1145.3,
+   "end": 1146.48,
+   "text": "Go right ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1148.98,
+   "end": 1150.94,
+   "text": "Of course, go right ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.44,
+   "end": 1157.12,
+   "text": "Телефон находится вон там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1160.94,
+   "end": 1162.26,
+   "text": "The telephone is over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1165.44,
+   "end": 1167.1,
+   "text": "The phone's over there.",
+   "lang": "ru"
+  },
+  {
+   "start": 1170.2,
+   "end": 1175.84,
+   "text": "Используя may, она говорит вежливо, конечно, вы можете воспользоваться телефоном.",
+   "lang": "ru"
+  },
+  {
+   "start": 1175.84,
+   "end": 1175.92,
+   "text": "Boom.",
+   "lang": "en"
+  },
+  {
+   "start": 1179.38,
+   "end": 1181.54,
+   "text": "Of course you may use the telephone.",
+   "lang": "ru"
+  },
+  {
+   "start": 1181.54,
+   "end": 1181.78,
+   "text": "phone.",
+   "lang": "en"
+  },
+  {
+   "start": 1185.4,
+   "end": 1186.24,
+   "text": "You may.",
+   "lang": "ru"
+  },
+  {
+   "start": 1188.1,
+   "end": 1190.08,
+   "text": "Of course you may use the phone.",
+   "lang": "ru"
+  },
+  {
+   "start": 1193.78,
+   "end": 1194.5,
+   "text": "Конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1197.9,
+   "end": 1198.46,
+   "text": "Go right ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1198.46,
+   "end": 1198.66,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 1201.5,
+   "end": 1201.92,
+   "text": "Go ahead.",
+   "lang": "ru"
+  },
+  {
+   "start": 1201.92,
+   "end": 1202.14,
+   "text": "head.",
+   "lang": "en"
+  },
+  {
+   "start": 1205.1,
+   "end": 1206.26,
+   "text": "Вам нужен справочник?",
+   "lang": "ru"
+  },
+  {
+   "start": 1209.24,
+   "end": 1210.94,
+   "text": "Do you need the phone book?",
+   "lang": "ru"
+  },
+  {
+   "start": 1214.34,
+   "end": 1216.78,
+   "text": "Нет, спасибо. Я знаю номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1220.18,
+   "end": 1222.26,
+   "text": "No thanks, I know the number.",
+   "lang": "ru"
+  },
+  {
+   "start": 1225.98,
+   "end": 1226.62,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1227.62,
+   "end": 1232.62,
+   "text": "The number is 3697525.",
+   "lang": "ru"
+  },
+  {
+   "start": 1234.04,
+   "end": 1235.32,
+   "text": "Say номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1237.72,
+   "end": 1243.52,
+   "text": "The number is 369.",
+   "lang": "ru"
+  },
+  {
+   "start": 1247.0,
+   "end": 1249.62,
+   "text": "Три, шесть, девять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1252.86,
+   "end": 1256.24,
+   "text": "Номер три, шесть, девять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1260.38,
+   "end": 1263.76,
+   "text": "Семь, пять, два, пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1267.24,
+   "end": 1269.64,
+   "text": "Семь, пять, два, пять.",
+   "lang": "ru"
+  },
+  {
+   "start": 1272.92,
+   "end": 1275.28,
+   "text": "Repeat the words for",
+   "lang": "ru"
+  },
+  {
+   "start": 1275.28,
+   "end": 1277.0,
+   "text": "телефонный код.",
+   "lang": "ru"
+  },
+  {
+   "start": 1277.14,
+   "end": 1278.26,
+   "text": "Area code",
+   "lang": "ru"
+  },
+  {
+   "start": 1279.98,
+   "end": 1281.38,
+   "text": "Code",
+   "lang": "ru"
+  },
+  {
+   "start": 1281.38,
+   "end": 1284.16,
+   "text": "Code",
+   "lang": "ru"
+  },
+  {
+   "start": 1284.16,
+   "end": 1286.9,
+   "text": "Area",
+   "lang": "ru"
+  },
+  {
+   "start": 1286.9,
+   "end": 1289.58,
+   "text": "Air",
+   "lang": "ru"
+  },
+  {
+   "start": 1289.58,
+   "end": 1290.32,
+   "text": "Area",
+   "lang": "ru"
+  },
+  {
+   "start": 1295.64,
+   "end": 1298.44,
+   "text": "Area code",
+   "lang": "ru"
+  },
+  {
+   "start": 1300.98,
+   "end": 1306.4,
+   "text": "Дословно, код района. Скажите, телефонный код.",
+   "lang": "ru"
+  },
+  {
+   "start": 1308.18,
+   "end": 1313.06,
+   "text": "Area code. The area code.",
+   "lang": "ru"
+  },
+  {
+   "start": 1316.18,
+   "end": 1320.7,
+   "text": "Try to ask, какой код? Дословно, что за код?",
+   "lang": "ru"
+  },
+  {
+   "start": 1323.2,
+   "end": 1325.02,
+   "text": "What is the area code?",
+   "lang": "ru"
+  },
+  {
+   "start": 1327.28,
+   "end": 1329.82,
+   "text": "Что такое код area?",
+   "lang": "ru"
+  },
+  {
+   "start": 1332.52,
+   "end": 1334.52,
+   "text": "9-7-0",
+   "lang": "ru"
+  },
+  {
+   "start": 1334.52,
+   "end": 1337.08,
+   "text": "Слышите и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1337.8,
+   "end": 1337.98,
+   "text": "0",
+   "lang": "ru"
+  },
+  {
+   "start": 1339.64,
+   "end": 1341.04,
+   "text": "0",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.02,
+   "end": 1342.26,
+   "text": "0",
+   "lang": "ru"
+  },
+  {
+   "start": 1347.04,
+   "end": 1348.44,
+   "text": "Скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1348.48,
+   "end": 1350.32,
+   "text": "9-7-0",
+   "lang": "ru"
+  },
+  {
+   "start": 1350.32,
+   "end": 1355.0,
+   "text": "9-7-0",
+   "lang": "ru"
+  },
+  {
+   "start": 1358.2,
+   "end": 1359.6,
+   "text": "970",
+   "lang": "ru"
+  },
+  {
+   "start": 1359.6,
+   "end": 1360.34,
+   "text": "970",
+   "lang": "ru"
+  },
+  {
+   "start": 1363.6,
+   "end": 1366.14,
+   "text": "Часто в английском языке",
+   "lang": "ru"
+  },
+  {
+   "start": 1366.14,
+   "end": 1368.34,
+   "text": "сокращается до",
+   "lang": "ru"
+  },
+  {
+   "start": 1368.34,
+   "end": 1373.6,
+   "text": "Попробуйте сказать 970 в сокращенной форме.",
+   "lang": "ru"
+  },
+  {
+   "start": 1377.44,
+   "end": 1378.84,
+   "text": "970",
+   "lang": "ru"
+  },
+  {
+   "start": 1378.84,
+   "end": 1379.24,
+   "text": "O.",
+   "lang": "en"
+  },
+  {
+   "start": 1382.18,
+   "end": 1383.58,
+   "text": "970",
+   "lang": "ru"
+  },
+  {
+   "start": 1383.58,
+   "end": 1384.34,
+   "text": "970",
+   "lang": "ru"
+  },
+  {
+   "start": 1388.38,
+   "end": 1391.4,
+   "text": "Используя сокращение, попробуйте сказать",
+   "lang": "ru"
+  },
+  {
+   "start": 1391.4,
+   "end": 1394.14,
+   "text": "Телефонный код 970",
+   "lang": "ru"
+  },
+  {
+   "start": 1397.82,
+   "end": 1402.4,
+   "text": "The area code is 970",
+   "lang": "ru"
+  },
+  {
+   "start": 1407.42,
+   "end": 1410.24,
+   "text": "The area code is 970.",
+   "lang": "en"
+  },
+  {
+   "start": 1414.58,
+   "end": 1418.24,
+   "text": "Вы набираете номер, но ошибаетесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1418.24,
+   "end": 1419.38,
+   "text": "Попробуйте сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1420.26,
+   "end": 1421.92,
+   "text": "Возможно, это неправильный номер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1426.26,
+   "end": 1427.94,
+   "text": "Maybe it's not the right number.",
+   "lang": "en"
+  },
+  {
+   "start": 1432.4,
+   "end": 1433.84,
+   "text": "Maybe it's not the right number.",
+   "lang": "ru"
+  },
+  {
+   "start": 1438.28,
+   "end": 1438.88,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1439.08,
+   "end": 1441.02,
+   "text": "Я попробую еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1443.82,
+   "end": 1445.02,
+   "text": "I'll try again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1447.9,
+   "end": 1448.62,
+   "text": "I'll.",
+   "lang": "ru"
+  },
+  {
+   "start": 1450.5,
+   "end": 1451.74,
+   "text": "I'll try again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1454.48,
+   "end": 1458.78,
+   "text": "Все еще не получается. Вы проверяете номер. Скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1459.72,
+   "end": 1461.62,
+   "text": "Это был неправильный телефонный код.",
+   "lang": "ru"
+  },
+  {
+   "start": 1465.08,
+   "end": 1467.1,
+   "text": "It was the wrong area code.",
+   "lang": "en"
+  },
+  {
+   "start": 1471.02,
+   "end": 1472.64,
+   "text": "The wrong area code.",
+   "lang": "en"
+  },
+  {
+   "start": 1475.68,
+   "end": 1477.46,
+   "text": "Правильный код",
+   "lang": "ru"
+  },
+  {
+   "start": 1480.48,
+   "end": 1481.98,
+   "text": "The Right Area Code",
+   "lang": "en"
+  },
+  {
+   "start": 1483.9,
+   "end": 1486.7,
+   "text": "Не 970.",
+   "lang": "ru"
+  },
+  {
+   "start": 1486.94,
+   "end": 1489.42,
+   "text": "Используйте сокращенную форму.",
+   "lang": "ru"
+  },
+  {
+   "start": 1493.28,
+   "end": 1494.94,
+   "text": "Isn't 9-7-0?",
+   "lang": "en"
+  },
+  {
+   "start": 1498.3,
+   "end": 1501.66,
+   "text": "Правильный код 978.",
+   "lang": "ru"
+  },
+  {
+   "start": 1507.66,
+   "end": 1511.4,
+   "text": "The right area code is 978.",
+   "lang": "en"
+  },
+  {
+   "start": 1517.0,
+   "end": 1520.62,
+   "text": "На этот раз вы застали своего знакомого.",
+   "lang": "ru"
+  },
+  {
+   "start": 1520.8,
+   "end": 1522.88,
+   "text": "Послушайте, как нужно представиться.",
+   "lang": "ru"
+  },
+  {
+   "start": 1523.14,
+   "end": 1524.26,
+   "text": "Привет, это Педро.",
+   "lang": "ru"
+  },
+  {
+   "start": 1526.52,
+   "end": 1528.46,
+   "text": "Представьте, что вас зовут Педро.",
+   "lang": "ru"
+  },
+  {
+   "start": 1528.46,
+   "end": 1532.9,
+   "text": "Приветствуйте своего знакомого в неформальной форме и представьтесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1535.98,
+   "end": 1537.32,
+   "text": "Hi this is Pedro",
+   "lang": "en"
+  },
+  {
+   "start": 1540.3,
+   "end": 1541.8,
+   "text": "Разве вы не помните?",
+   "lang": "ru"
+  },
+  {
+   "start": 1542.0,
+   "end": 1543.84,
+   "text": "Педро из Гуадалахары.",
+   "lang": "ru"
+  },
+  {
+   "start": 1548.68,
+   "end": 1549.34,
+   "text": "Don't you remember?",
+   "lang": "en"
+  },
+  {
+   "start": 1549.46,
+   "end": 1551.38,
+   "text": "Петро из Гуадалахары.",
+   "lang": "ru"
+  },
+  {
+   "start": 1555.56,
+   "end": 1559.1,
+   "text": "Как ваш знакомый скажет более эмоционально.",
+   "lang": "ru"
+  },
+  {
+   "start": 1559.74,
+   "end": 1561.24,
+   "text": "Да, я помню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1563.74,
+   "end": 1565.56,
+   "text": "Да, я помню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1568.28,
+   "end": 1569.9,
+   "text": "Конечно, я помню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1572.6,
+   "end": 1579.58,
+   "text": "Позже, так как вы сделали междугородный звонок, скажите коллеге, позвольте мне заплатить за звонок.",
+   "lang": "ru"
+  },
+  {
+   "start": 1583.06,
+   "end": 1584.18,
+   "text": "Let me pay for the food.",
+   "lang": "en"
+  },
+  {
+   "start": 1584.2,
+   "end": 1591.46,
+   "text": "Как она ответит в неформальной форме, нет, все в порядке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1594.14,
+   "end": 1595.64,
+   "text": "No, that's okay.",
+   "lang": "en"
+  },
+  {
+   "start": 1599.02,
+   "end": 1603.0,
+   "text": "Мне бы хотелось прогуляться",
+   "lang": "ru"
+  },
+  {
+   "start": 1606.02,
+   "end": 1607.5,
+   "text": "I'd like to go for a walk.",
+   "lang": "en"
+  },
+  {
+   "start": 1608.64,
+   "end": 1612.56,
+   "text": "в общественный сад Бостона",
+   "lang": "ru"
+  },
+  {
+   "start": 1615.72,
+   "end": 1617.72,
+   "text": "in the Boston Public Garden.",
+   "lang": "en"
+  },
+  {
+   "start": 1620.56,
+   "end": 1624.46,
+   "text": "Ваша знакомая предлагает, я пойду с вами.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.06,
+   "end": 1628.14,
+   "text": "I'll go with you.",
+   "lang": "en"
+  },
+  {
+   "start": 1630.02,
+   "end": 1635.02,
+   "text": "И по пути?",
+   "lang": "ru"
+  },
+  {
+   "start": 1637.4,
+   "end": 1639.1,
+   "text": "И на пути?",
+   "lang": "ru"
+  },
+  {
+   "start": 1641.26,
+   "end": 1643.06,
+   "text": "На пути в кухню?",
+   "lang": "ru"
+  },
+  {
+   "start": 1646.38,
+   "end": 1649.1,
+   "text": "Мне нужно купить кое-что в аптеке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1652.5,
+   "end": 1654.82,
+   "text": "Мне нужно купить что-то в аптеке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1654.82,
+   "end": 1655.08,
+   "text": "store.",
+   "lang": "en"
+  },
+  {
+   "start": 1658.76,
+   "end": 1660.36,
+   "text": "Сегодня воскресенье.",
+   "lang": "ru"
+  },
+  {
+   "start": 1662.74,
+   "end": 1664.28,
+   "text": "Сегодня суббота.",
+   "lang": "ru"
+  },
+  {
+   "start": 1666.62,
+   "end": 1669.34,
+   "text": "Но большинство аптек открыто.",
+   "lang": "ru"
+  },
+  {
+   "start": 1672.24,
+   "end": 1674.32,
+   "text": "But most drugstores are open",
+   "lang": "en"
+  },
+  {
+   "start": 1676.36,
+   "end": 1685.26,
+   "text": "Перед тем, как пойти гулять, вам нужно позвонить. Как вы спросите вежливо, могу ли я воспользоваться вашим телефоном?",
+   "lang": "ru"
+  },
+  {
+   "start": 1685.26,
+   "end": 1695.38,
+   "text": "them. May I use your telephone? May I use your phone?",
+   "lang": "en"
+  },
+  {
+   "start": 1698.8,
+   "end": 1699.96,
+   "text": "Конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1700.78,
+   "end": 1701.86,
+   "text": "Конечно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1704.26,
+   "end": 1706.02,
+   "text": "Of course, go right ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1709.62,
+   "end": 1710.46,
+   "text": "Go ahead.",
+   "lang": "en"
+  },
+  {
+   "start": 1712.2,
+   "end": 1713.52,
+   "text": "Попробуй сказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1713.9,
+   "end": 1716.2,
+   "text": "Я воспользуюсь кредитной картой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1719.58,
+   "end": 1721.24,
+   "text": "I'll use my credit card.",
+   "lang": "en"
+  },
+  {
+   "start": 1725.02,
+   "end": 1726.14,
+   "text": "I'll use...",
+   "lang": "ru"
+  },
+  {
+   "start": 1728.18,
+   "end": 1730.02,
+   "text": "I'll use my credit card.",
+   "lang": "ru"
+  },
+  {
+   "start": 1733.48,
+   "end": 1737.98,
+   "text": "Ваш звонок не получился. Спросите, какой код?",
+   "lang": "ru"
+  },
+  {
+   "start": 1740.44,
+   "end": 1742.0,
+   "text": "What is the area code?",
+   "lang": "ru"
+  },
+  {
+   "start": 1744.4,
+   "end": 1745.14,
+   "text": "What?",
+   "lang": "ru"
+  },
+  {
+   "start": 1746.98,
+   "end": 1748.6,
+   "text": "What's the area code?",
+   "lang": "ru"
+  },
+  {
+   "start": 1751.04,
+   "end": 1753.8,
+   "text": "What's the area code for New York?",
+   "lang": "ru"
+  },
+  {
+   "start": 1757.36,
+   "end": 1758.52,
+   "text": "4. New York",
+   "lang": "en"
+  },
+  {
+   "start": 1760.96,
+   "end": 1765.42,
+   "text": "Используя полную форму, спросите, 202 не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1769.84,
+   "end": 1771.84,
+   "text": "It's 2-0-2.",
+   "lang": "en"
+  },
+  {
+   "start": 1772.16,
+   "end": 1778.48,
+   "text": "Нет, код Нью-Йорка.",
+   "lang": "ru"
+  },
+  {
+   "start": 1782.38,
+   "end": 1784.92,
+   "text": "No, the area code for New York.",
+   "lang": "en"
+  },
+  {
+   "start": 1788.56,
+   "end": 1790.88,
+   "text": "The area code for New York",
+   "lang": "ru"
+  },
+  {
+   "start": 1794.0,
+   "end": 1795.82,
+   "text": "2-1-2",
+   "lang": "ru"
+  },
+  {
+   "start": 1798.9,
+   "end": 1801.12,
+   "text": "is 2-1-2",
+   "lang": "ru"
+  },
+  {
+   "start": 1804.5,
+   "end": 1805.26,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 1805.26,
+   "end": 1807.86,
+   "text": "Спасибо, я попробую еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1811.08,
+   "end": 1812.78,
+   "text": "Thanks, I'll try again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1815.84,
+   "end": 1822.0,
+   "text": "Сейчас ваш друг отвечает на звонок. Вас зовут Педро, как вы представитесь?",
+   "lang": "ru"
+  },
+  {
+   "start": 1824.24,
+   "end": 1825.18,
+   "text": "This is Pedro.",
+   "lang": "en"
+  },
+  {
+   "start": 1827.6,
+   "end": 1828.84,
+   "text": "Hi, this is Pedro.",
+   "lang": "en"
+  },
+  {
+   "start": 1831.48,
+   "end": 1837.54,
+   "text": "После того, как разговор окончен, как вы предложите? Сейчас давайте прогуляемся.",
+   "lang": "ru"
+  },
+  {
+   "start": 1840.42,
+   "end": 1842.08,
+   "text": "Now let's go for a walk.",
+   "lang": "en"
+  },
+  {
+   "start": 1845.0,
+   "end": 1846.98,
+   "text": "Este es el final de la lección 13.",
+   "lang": "en"
+  },
+  {
+   "start": 1847.78,
+   "end": 1851.26,
+   "text": "Это конец тринадцатого урока.",
+   "lang": "ru"
+  }
+ ]
+}

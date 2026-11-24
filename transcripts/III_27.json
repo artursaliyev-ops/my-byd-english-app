@@ -1,0 +1,2103 @@
+{
+ "id": "III_27",
+ "source": "Pimsleur_III_27.mp3",
+ "duration": 1781.84,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 141,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 10.46,
+   "text": "I'd be the world rover for many years. I'd spend all my young with the young beer that's in the sea.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.22,
+   "end": 19.06,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем",
+   "lang": "ru"
+  },
+  {
+   "start": 20.54,
+   "end": 27.34,
+   "text": "27-й урок третьего уровня американского английского языка по методу доктора Пимслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 27.34,
+   "end": 29.34,
+   "text": "Слушайте эту разговор.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.14,
+   "end": 34.98,
+   "text": "Good afternoon. My name is Julia Vega. I reserved a room for two nights.",
+   "lang": "en"
+  },
+  {
+   "start": 35.3,
+   "end": 40.74,
+   "text": "Oh yes, Ms. Vega. You have room 278. It will be ready in just a few minutes.",
+   "lang": "en"
+  },
+  {
+   "start": 41.3,
+   "end": 43.52,
+   "text": "Fine. Where can I park my car?",
+   "lang": "en"
+  },
+  {
+   "start": 43.86,
+   "end": 49.82,
+   "text": "We have a parking garage. If you'd like, you can leave your luggage here and go park your car.",
+   "lang": "en"
+  },
+  {
+   "start": 50.04,
+   "end": 53.74,
+   "text": "The room will be ready when you come back. Here's your key card.",
+   "lang": "en"
+  },
+  {
+   "start": 54.2,
+   "end": 55.52,
+   "text": "Okay. Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 56.38,
+   "end": 57.12,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 57.92,
+   "end": 62.66,
+   "text": "Доброе утро. Меня зовут Джулия Вега. Я оставила комнату на два ночи.",
+   "lang": "ru"
+  },
+  {
+   "start": 62.86,
+   "end": 68.32,
+   "text": "О, да, мисс Вега. У вас комната 278. Она будет готова в только несколько минут.",
+   "lang": "ru"
+  },
+  {
+   "start": 68.76,
+   "end": 71.26,
+   "text": "Хорошо. Где я могу park мою машину?",
+   "lang": "ru"
+  },
+  {
+   "start": 71.46,
+   "end": 77.6,
+   "text": "У нас есть гараж для парки. Если вам нравится, вы можете оставить здесь вашу логистику и пойти парковать вашу машину.",
+   "lang": "ru"
+  },
+  {
+   "start": 77.94,
+   "end": 81.52,
+   "text": "Комната будет готова, когда вы вернётесь. Вот ваша ключевая карта.",
+   "lang": "ru"
+  },
+  {
+   "start": 81.72,
+   "end": 83.04,
+   "text": "Хорошо. Спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 84.0,
+   "end": 89.54,
+   "text": "You're visiting an acquaintance, and she asks about your family. Say that your son is in college.",
+   "lang": "ru"
+  },
+  {
+   "start": 93.58,
+   "end": 95.28,
+   "text": "My son is in college.",
+   "lang": "ru"
+  },
+  {
+   "start": 98.8,
+   "end": 100.0,
+   "text": "She asks...",
+   "lang": "ru"
+  },
+  {
+   "start": 100.0,
+   "end": 101.04,
+   "text": "А ваша дочь?",
+   "lang": "ru"
+  },
+  {
+   "start": 104.38,
+   "end": 105.52,
+   "text": "And your daughter?",
+   "lang": "ru"
+  },
+  {
+   "start": 108.32,
+   "end": 110.02,
+   "text": "Чем она сейчас занимается?",
+   "lang": "ru"
+  },
+  {
+   "start": 113.62,
+   "end": 115.28,
+   "text": "What is she doing now?",
+   "lang": "ru"
+  },
+  {
+   "start": 118.7,
+   "end": 120.18,
+   "text": "What's she doing now?",
+   "lang": "ru"
+  },
+  {
+   "start": 123.42,
+   "end": 126.5,
+   "text": "Попробуйте сказать, что она все еще в средней школе.",
+   "lang": "ru"
+  },
+  {
+   "start": 130.04,
+   "end": 131.56,
+   "text": "She's still in high school.",
+   "lang": "ru"
+  },
+  {
+   "start": 134.96,
+   "end": 136.2,
+   "text": "In high school.",
+   "lang": "ru"
+  },
+  {
+   "start": 138.88,
+   "end": 142.56,
+   "text": "Сейчас она упоминает, что ее племянник в Нью-Йорке.",
+   "lang": "ru"
+  },
+  {
+   "start": 142.62,
+   "end": 145.28,
+   "text": "Она говорит, он ищет квартиру.",
+   "lang": "ru"
+  },
+  {
+   "start": 148.64,
+   "end": 150.2,
+   "text": "He's looking for an apartment.",
+   "lang": "en"
+  },
+  {
+   "start": 153.82,
+   "end": 156.0,
+   "text": "Я забронировала комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 158.66,
+   "end": 160.32,
+   "text": "I reserved a room.",
+   "lang": "en"
+  },
+  {
+   "start": 167.16,
+   "end": 169.72,
+   "text": "в Holiday Inn",
+   "lang": "ru"
+  },
+  {
+   "start": 172.54,
+   "end": 174.22,
+   "text": "At the Holiday Inn",
+   "lang": "en"
+  },
+  {
+   "start": 177.66,
+   "end": 181.72,
+   "text": "At the Holiday Inn",
+   "lang": "en"
+  },
+  {
+   "start": 183.88,
+   "end": 185.5,
+   "text": "Try to",
+   "lang": "en"
+  },
+  {
+   "start": 185.6,
+   "end": 188.36,
+   "text": "Я забронировала для него комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 191.6,
+   "end": 193.72,
+   "text": "I reserved a room for him.",
+   "lang": "en"
+  },
+  {
+   "start": 196.88,
+   "end": 198.26,
+   "text": "A room for him.",
+   "lang": "en"
+  },
+  {
+   "start": 200.84,
+   "end": 202.68,
+   "text": "В Holiday Inn.",
+   "lang": "ru"
+  },
+  {
+   "start": 205.26,
+   "end": 206.9,
+   "text": "At the Holiday Inn.",
+   "lang": "ru"
+  },
+  {
+   "start": 209.42,
+   "end": 212.9,
+   "text": "Потому что наша квартира довольно-таки маленькая.",
+   "lang": "ru"
+  },
+  {
+   "start": 216.96,
+   "end": 219.28,
+   "text": "Because our apartment is pretty small.",
+   "lang": "ru"
+  },
+  {
+   "start": 219.28,
+   "end": 219.46,
+   "text": "all.",
+   "lang": "en"
+  },
+  {
+   "start": 223.2,
+   "end": 225.04,
+   "text": "Do you remember how to say",
+   "lang": "ru"
+  },
+  {
+   "start": 225.04,
+   "end": 226.52,
+   "text": "электронный ключ?",
+   "lang": "ru"
+  },
+  {
+   "start": 226.52,
+   "end": 226.72,
+   "text": "Huge!",
+   "lang": "en"
+  },
+  {
+   "start": 229.52,
+   "end": 230.02,
+   "text": "Keycard",
+   "lang": "en"
+  },
+  {
+   "start": 232.52,
+   "end": 233.2,
+   "text": "Keycard",
+   "lang": "en"
+  },
+  {
+   "start": 235.52,
+   "end": 235.96,
+   "text": "Key",
+   "lang": "en"
+  },
+  {
+   "start": 241.48,
+   "end": 244.82,
+   "text": "У него есть ключ от нашей квартиры.",
+   "lang": "ru"
+  },
+  {
+   "start": 244.86,
+   "end": 247.62,
+   "text": "Сначала скажите, у него есть ключ.",
+   "lang": "ru"
+  },
+  {
+   "start": 250.26,
+   "end": 251.62,
+   "text": "He has a key.",
+   "lang": "en"
+  },
+  {
+   "start": 254.14,
+   "end": 255.26,
+   "text": "He has a key.",
+   "lang": "en"
+  },
+  {
+   "start": 257.48,
+   "end": 259.98,
+   "text": "У него есть ключ от нашей квартиры.",
+   "lang": "ru"
+  },
+  {
+   "start": 259.98,
+   "end": 261.38,
+   "text": "to our apartment.",
+   "lang": "en"
+  },
+  {
+   "start": 264.34,
+   "end": 266.78,
+   "text": "He has a key to our apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 270.56,
+   "end": 270.6,
+   "text": "To",
+   "lang": "ru"
+  },
+  {
+   "start": 272.66,
+   "end": 274.32,
+   "text": "To our apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 276.8,
+   "end": 278.42,
+   "text": "A key to our apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 281.9,
+   "end": 284.04,
+   "text": "Я забронировала для него комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 287.54,
+   "end": 289.52,
+   "text": "I reserved a room for him.",
+   "lang": "ru"
+  },
+  {
+   "start": 292.88,
+   "end": 294.42,
+   "text": "В Holiday Inn.",
+   "lang": "ru"
+  },
+  {
+   "start": 297.24,
+   "end": 298.68,
+   "text": "At the Holiday Inn.",
+   "lang": "ru"
+  },
+  {
+   "start": 301.6,
+   "end": 304.04,
+   "text": "Но у него есть ключ от нашей квартиры.",
+   "lang": "ru"
+  },
+  {
+   "start": 308.18,
+   "end": 310.28,
+   "text": "But he has a key to our apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 314.5,
+   "end": 316.1,
+   "text": "A key to our apartment.",
+   "lang": "ru"
+  },
+  {
+   "start": 318.88,
+   "end": 323.38,
+   "text": "Сейчас она видит чемоданы и говорит, его багаж вон там.",
+   "lang": "ru"
+  },
+  {
+   "start": 326.32,
+   "end": 328.1,
+   "text": "His luggage is over there.",
+   "lang": "en"
+  },
+  {
+   "start": 335.62,
+   "end": 338.18,
+   "text": "Его комната будет готова.",
+   "lang": "ru"
+  },
+  {
+   "start": 340.84,
+   "end": 342.2,
+   "text": "His room will be ready.",
+   "lang": "en"
+  },
+  {
+   "start": 349.0,
+   "end": 350.44,
+   "text": "В три часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 353.34,
+   "end": 354.52,
+   "text": "At 3 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 356.3,
+   "end": 358.58,
+   "text": "Вы не расслышали время.",
+   "lang": "ru"
+  },
+  {
+   "start": 359.1,
+   "end": 363.06,
+   "text": "Используя will, скажите, когда она будет готова?",
+   "lang": "ru"
+  },
+  {
+   "start": 365.44,
+   "end": 366.94,
+   "text": "When will it be ready?",
+   "lang": "ru"
+  },
+  {
+   "start": 370.06,
+   "end": 370.92,
+   "text": "When will it be ready?",
+   "lang": "ru"
+  },
+  {
+   "start": 372.88,
+   "end": 376.08,
+   "text": "В 3 часа.",
+   "lang": "ru"
+  },
+  {
+   "start": 379.32,
+   "end": 380.42,
+   "text": "at 3 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 381.44,
+   "end": 390.18,
+   "text": "Так как у него много багажа, вы предлагаете помощь.",
+   "lang": "ru"
+  },
+  {
+   "start": 391.04,
+   "end": 392.4,
+   "text": "Нести.",
+   "lang": "ru"
+  },
+  {
+   "start": 395.2,
+   "end": 395.42,
+   "text": "Take.",
+   "lang": "ru"
+  },
+  {
+   "start": 397.56,
+   "end": 398.2,
+   "text": "Take.",
+   "lang": "ru"
+  },
+  {
+   "start": 400.28,
+   "end": 403.12,
+   "text": "Now she says, через несколько минут.",
+   "lang": "ru"
+  },
+  {
+   "start": 406.24,
+   "end": 407.62,
+   "text": "In a few minutes.",
+   "lang": "ru"
+  },
+  {
+   "start": 410.4,
+   "end": 412.58,
+   "text": "Мы можем отнести его багаж.",
+   "lang": "ru"
+  },
+  {
+   "start": 415.36,
+   "end": 417.04,
+   "text": "We can take his luggage.",
+   "lang": "ru"
+  },
+  {
+   "start": 420.14,
+   "end": 421.82,
+   "text": "We can take his luggage.",
+   "lang": "ru"
+  },
+  {
+   "start": 425.2,
+   "end": 425.94,
+   "text": "В отель.",
+   "lang": "ru"
+  },
+  {
+   "start": 428.08,
+   "end": 429.02,
+   "text": "to the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 431.34,
+   "end": 434.56,
+   "text": "Как она скажет, у него комната 140.",
+   "lang": "ru"
+  },
+  {
+   "start": 439.16,
+   "end": 441.54,
+   "text": "He has room 140.",
+   "lang": "en"
+  },
+  {
+   "start": 445.98,
+   "end": 447.92,
+   "text": "He has room 140.",
+   "lang": "en"
+  },
+  {
+   "start": 455.2,
+   "end": 462.26,
+   "text": "В дальнейшем продолжайте использовать краткую форму. Скажите еще раз, что у него комната 140.",
+   "lang": "ru"
+  },
+  {
+   "start": 465.38,
+   "end": 467.54,
+   "text": "He has room 140.",
+   "lang": "en"
+  },
+  {
+   "start": 470.5,
+   "end": 471.98,
+   "text": "Room 140.",
+   "lang": "en"
+  },
+  {
+   "start": 473.64,
+   "end": 477.12,
+   "text": "И у него уже есть электронный ключ.",
+   "lang": "ru"
+  },
+  {
+   "start": 480.68,
+   "end": 482.74,
+   "text": "He has his keycard already.",
+   "lang": "en"
+  },
+  {
+   "start": 486.26,
+   "end": 488.42,
+   "text": "He already has his keycard.",
+   "lang": "en"
+  },
+  {
+   "start": 491.9,
+   "end": 497.58,
+   "text": "Отель находится на улице, где много машин. Спросите, где мы можем припарковаться?",
+   "lang": "ru"
+  },
+  {
+   "start": 500.5,
+   "end": 501.7,
+   "text": "Where can we park?",
+   "lang": "en"
+  },
+  {
+   "start": 503.32,
+   "end": 507.88,
+   "text": "У них есть крытая парковка.",
+   "lang": "ru"
+  },
+  {
+   "start": 507.88,
+   "end": 512.86,
+   "text": "They have a parking garage.",
+   "lang": "ru"
+  },
+  {
+   "start": 515.84,
+   "end": 517.32,
+   "text": "A parking garage.",
+   "lang": "en"
+  },
+  {
+   "start": 519.94,
+   "end": 521.8,
+   "text": "They have a parking garage.",
+   "lang": "en"
+  },
+  {
+   "start": 522.02,
+   "end": 531.08,
+   "text": "Сейчас, имея в виду работу ее племянника, спросите, чем занимается ваш племянник?",
+   "lang": "ru"
+  },
+  {
+   "start": 534.44,
+   "end": 536.22,
+   "text": "What does your nephew do?",
+   "lang": "ru"
+  },
+  {
+   "start": 539.58,
+   "end": 541.24,
+   "text": "What does your nephew do?",
+   "lang": "en"
+  },
+  {
+   "start": 544.76,
+   "end": 547.96,
+   "text": "Он только что закончил колледж.",
+   "lang": "ru"
+  },
+  {
+   "start": 551.3,
+   "end": 553.66,
+   "text": "He just graduated from college.",
+   "lang": "en"
+  },
+  {
+   "start": 556.72,
+   "end": 558.94,
+   "text": "Он ищет работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 562.92,
+   "end": 564.34,
+   "text": "He's looking for a job.",
+   "lang": "en"
+  },
+  {
+   "start": 567.88,
+   "end": 568.92,
+   "text": "Программиста.",
+   "lang": "ru"
+  },
+  {
+   "start": 571.9,
+   "end": 573.54,
+   "text": "as a computer programmer.",
+   "lang": "en"
+  },
+  {
+   "start": 576.48,
+   "end": 581.1,
+   "text": "Скажите с вопросительной интонацией, он хочет стать программистом?",
+   "lang": "ru"
+  },
+  {
+   "start": 584.4,
+   "end": 586.14,
+   "text": "He wants to be a programmer?",
+   "lang": "en"
+  },
+  {
+   "start": 589.12,
+   "end": 593.12,
+   "text": "Да, ему всегда нравились компьютеры.",
+   "lang": "ru"
+  },
+  {
+   "start": 597.34,
+   "end": 599.4,
+   "text": "Yes, he's always liked computers.",
+   "lang": "ru"
+  },
+  {
+   "start": 603.54,
+   "end": 605.38,
+   "text": "He's always liked computers.",
+   "lang": "en"
+  },
+  {
+   "start": 608.6,
+   "end": 611.74,
+   "text": "Now say, У него много багажа.",
+   "lang": "ru"
+  },
+  {
+   "start": 614.94,
+   "end": 616.62,
+   "text": "He has a lot of luggage.",
+   "lang": "ru"
+  },
+  {
+   "start": 619.88,
+   "end": 621.62,
+   "text": "He has a lot of luggage.",
+   "lang": "ru"
+  },
+  {
+   "start": 624.56,
+   "end": 628.36,
+   "text": "Я знаю, отель недалеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 633.1,
+   "end": 635.94,
+   "text": "I know. The hotel isn't far.",
+   "lang": "ru"
+  },
+  {
+   "start": 640.12,
+   "end": 641.94,
+   "text": "The hotel's not far.",
+   "lang": "ru"
+  },
+  {
+   "start": 644.98,
+   "end": 648.48,
+   "text": "She wants to say, но я поеду туда на машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 651.72,
+   "end": 653.36,
+   "text": "But I'll drive there.",
+   "lang": "ru"
+  },
+  {
+   "start": 656.5,
+   "end": 657.92,
+   "text": "I'll drive there.",
+   "lang": "ru"
+  },
+  {
+   "start": 661.1,
+   "end": 663.54,
+   "text": "и припаркуюсь в гараже.",
+   "lang": "ru"
+  },
+  {
+   "start": 666.76,
+   "end": 668.5,
+   "text": "And I'll park in the garage.",
+   "lang": "en"
+  },
+  {
+   "start": 672.04,
+   "end": 674.48,
+   "text": "I'll drive there and park in the garage.",
+   "lang": "en"
+  },
+  {
+   "start": 677.92,
+   "end": 681.7,
+   "text": "У моего племянника комната номер 140.",
+   "lang": "ru"
+  },
+  {
+   "start": 681.7,
+   "end": 687.96,
+   "text": "My nephew has room 140.",
+   "lang": "en"
+  },
+  {
+   "start": 691.94,
+   "end": 693.84,
+   "text": "My nephew has room 140.",
+   "lang": "ru"
+  },
+  {
+   "start": 697.92,
+   "end": 700.14,
+   "text": "Ask again when the room will be ready.",
+   "lang": "ru"
+  },
+  {
+   "start": 704.0,
+   "end": 705.62,
+   "text": "When will the room be ready?",
+   "lang": "ru"
+  },
+  {
+   "start": 708.74,
+   "end": 711.44,
+   "text": "Сейчас ее племянник заходит в комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 711.5,
+   "end": 715.74,
+   "text": "Ваша знакомая говорит, я хочу познакомить вас с моим племянником.",
+   "lang": "ru"
+  },
+  {
+   "start": 715.98,
+   "end": 716.54,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 717.0,
+   "end": 718.58,
+   "text": "I'd like you to meet my nephew.",
+   "lang": "en"
+  },
+  {
+   "start": 719.42,
+   "end": 721.0,
+   "text": "I'd like you to meet my nephew.",
+   "lang": "en"
+  },
+  {
+   "start": 721.98,
+   "end": 722.54,
+   "text": "Дословно.",
+   "lang": "ru"
+  },
+  {
+   "start": 722.54,
+   "end": 726.36,
+   "text": "Мне бы хотелось, чтобы вы познакомились с моим племянником.",
+   "lang": "ru"
+  },
+  {
+   "start": 726.66,
+   "end": 728.88,
+   "text": "Слушайте и повторяйте первую часть.",
+   "lang": "ru"
+  },
+  {
+   "start": 729.38,
+   "end": 730.72,
+   "text": "I'd like you to meet.",
+   "lang": "ru"
+  },
+  {
+   "start": 733.92,
+   "end": 734.48,
+   "text": "Meet.",
+   "lang": "ru"
+  },
+  {
+   "start": 736.74,
+   "end": 737.66,
+   "text": "To meet.",
+   "lang": "ru"
+  },
+  {
+   "start": 740.1,
+   "end": 741.14,
+   "text": "I'd like you.",
+   "lang": "ru"
+  },
+  {
+   "start": 743.88,
+   "end": 745.22,
+   "text": "I'd like you to meet.",
+   "lang": "ru"
+  },
+  {
+   "start": 748.5,
+   "end": 749.7,
+   "text": "I'd like you to meet.",
+   "lang": "en"
+  },
+  {
+   "start": 752.68,
+   "end": 756.88,
+   "text": "Я хочу познакомить вас с моим племянником.",
+   "lang": "ru"
+  },
+  {
+   "start": 760.32,
+   "end": 761.82,
+   "text": "I'd like you to meet my nephew.",
+   "lang": "en"
+  },
+  {
+   "start": 765.6,
+   "end": 767.1,
+   "text": "I'd like you to meet my nephew.",
+   "lang": "en"
+  },
+  {
+   "start": 770.66,
+   "end": 773.16,
+   "text": "Ее племянника зовут Марк Браун.",
+   "lang": "ru"
+  },
+  {
+   "start": 773.16,
+   "end": 778.72,
+   "text": "Скажите, я хочу представить вам своего племянника Марка Брауна.",
+   "lang": "ru"
+  },
+  {
+   "start": 783.52,
+   "end": 786.04,
+   "text": "I'd like you to meet my nephew, Mark Brown.",
+   "lang": "en"
+  },
+  {
+   "start": 790.78,
+   "end": 792.22,
+   "text": "Марк из Бостона.",
+   "lang": "ru"
+  },
+  {
+   "start": 795.72,
+   "end": 796.82,
+   "text": "Marks from Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 799.94,
+   "end": 803.22,
+   "text": "Your name is Jorge Centeno. Now she says...",
+   "lang": "en"
+  },
+  {
+   "start": 803.24,
+   "end": 805.72,
+   "text": "Марк, это Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 805.72,
+   "end": 807.06,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 807.86,
+   "end": 809.94,
+   "text": "Mark, this is Jorge Centeno.",
+   "lang": "en"
+  },
+  {
+   "start": 815.06,
+   "end": 816.7,
+   "text": "This is Jorge Centeno.",
+   "lang": "en"
+  },
+  {
+   "start": 820.34,
+   "end": 823.52,
+   "text": "Скажите еще раз. Это Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 826.82,
+   "end": 828.44,
+   "text": "This is Jorge Centeno.",
+   "lang": "en"
+  },
+  {
+   "start": 830.22,
+   "end": 833.26,
+   "text": "Как ответит племянник?",
+   "lang": "ru"
+  },
+  {
+   "start": 836.28,
+   "end": 837.42,
+   "text": "Please to meet you.",
+   "lang": "en"
+  },
+  {
+   "start": 840.62,
+   "end": 842.48,
+   "text": "Please to meet you, Mr. Centeno.",
+   "lang": "en"
+  },
+  {
+   "start": 846.18,
+   "end": 849.82,
+   "text": "Давайте еще раз повторим формулы знакомства.",
+   "lang": "ru"
+  },
+  {
+   "start": 849.82,
+   "end": 852.8,
+   "text": "На этот раз ваша знакомая говорит племяннику.",
+   "lang": "ru"
+  },
+  {
+   "start": 853.52,
+   "end": 856.16,
+   "text": "Марк, я хочу познакомить тебя с Хорхе Сентено.",
+   "lang": "ru"
+  },
+  {
+   "start": 860.12,
+   "end": 862.68,
+   "text": "Mark, I'd like you to meet Jorge Centeno.",
+   "lang": "en"
+  },
+  {
+   "start": 867.28,
+   "end": 869.32,
+   "text": "I'd like you to meet Jorge Centeno.",
+   "lang": "en"
+  },
+  {
+   "start": 873.94,
+   "end": 875.96,
+   "text": "Хорхе, это мой племянник Марк.",
+   "lang": "ru"
+  },
+  {
+   "start": 880.5,
+   "end": 882.54,
+   "text": "Jorge, this is my nephew, Mark.",
+   "lang": "en"
+  },
+  {
+   "start": 887.44,
+   "end": 888.38,
+   "text": "This is Mark.",
+   "lang": "en"
+  },
+  {
+   "start": 889.44,
+   "end": 894.38,
+   "text": "Что вы скажете, используя имя ее племянника?",
+   "lang": "ru"
+  },
+  {
+   "start": 897.9,
+   "end": 899.02,
+   "text": "Pleased to meet you, Mark.",
+   "lang": "en"
+  },
+  {
+   "start": 902.42,
+   "end": 903.28,
+   "text": "You talk f***ing nonsense.",
+   "lang": "en"
+  },
+  {
+   "start": 903.3,
+   "end": 907.08,
+   "text": "Когда будет готова моя комната?",
+   "lang": "ru"
+  },
+  {
+   "start": 910.18,
+   "end": 911.86,
+   "text": "When will my room be ready?",
+   "lang": "en"
+  },
+  {
+   "start": 914.92,
+   "end": 916.8,
+   "text": "When will my room be ready?",
+   "lang": "ru"
+  },
+  {
+   "start": 919.92,
+   "end": 923.66,
+   "text": "Теперь представьте, что вы в Нью-Йорке в длительной командировке.",
+   "lang": "ru"
+  },
+  {
+   "start": 923.7,
+   "end": 926.0,
+   "text": "Вы хотите открыть чековый счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 926.72,
+   "end": 928.58,
+   "text": "Вот как будет слово счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 928.76,
+   "end": 929.94,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 930.82,
+   "end": 931.48,
+   "text": "Account",
+   "lang": "ru"
+  },
+  {
+   "start": 934.28,
+   "end": 935.6,
+   "text": "А-каунт",
+   "lang": "ru"
+  },
+  {
+   "start": 939.26,
+   "end": 939.92,
+   "text": "Аккаунт",
+   "lang": "ru"
+  },
+  {
+   "start": 941.38,
+   "end": 948.1,
+   "text": "А теперь открыть счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 948.1,
+   "end": 949.46,
+   "text": "Listen and repeat again.",
+   "lang": "en"
+  },
+  {
+   "start": 971.0,
+   "end": 974.2,
+   "text": "Мне бы хотелось открыть счёт.",
+   "lang": "ru"
+  },
+  {
+   "start": 978.18,
+   "end": 979.72,
+   "text": "I'd like to open an account.",
+   "lang": "en"
+  },
+  {
+   "start": 984.46,
+   "end": 986.24,
+   "text": "Какой вид счёта?",
+   "lang": "ru"
+  },
+  {
+   "start": 989.24,
+   "end": 990.7,
+   "text": "What kind of account?",
+   "lang": "en"
+  },
+  {
+   "start": 997.52,
+   "end": 1001.16,
+   "text": "Какой вид счета вы хотите открыть?",
+   "lang": "ru"
+  },
+  {
+   "start": 1005.66,
+   "end": 1011.42,
+   "text": "What kind of account do you want to open, sir?",
+   "lang": "ru"
+  },
+  {
+   "start": 1012.44,
+   "end": 1014.86,
+   "text": "What kind of account do you want to open, sir?",
+   "lang": "en"
+  },
+  {
+   "start": 1019.94,
+   "end": 1020.84,
+   "text": "Check a wish.",
+   "lang": "ru"
+  },
+  {
+   "start": 1021.12,
+   "end": 1022.3,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1023.16,
+   "end": 1023.84,
+   "text": "A checking account?",
+   "lang": "ru"
+  },
+  {
+   "start": 1027.12,
+   "end": 1027.7,
+   "text": "Checking.",
+   "lang": "ru"
+  },
+  {
+   "start": 1030.14,
+   "end": 1030.72,
+   "text": "Checking.",
+   "lang": "ru"
+  },
+  {
+   "start": 1032.6,
+   "end": 1033.94,
+   "text": "A checking account",
+   "lang": "en"
+  },
+  {
+   "start": 1036.82,
+   "end": 1039.3,
+   "text": "Да, чековый счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1043.38,
+   "end": 1045.02,
+   "text": "Yes, a checking account.",
+   "lang": "en"
+  },
+  {
+   "start": 1049.02,
+   "end": 1051.82,
+   "text": "Она дает вам бланк, чтобы вы подписали.",
+   "lang": "ru"
+  },
+  {
+   "start": 1051.94,
+   "end": 1054.18,
+   "text": "Она говорит, подпишитесь здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1056.32,
+   "end": 1057.16,
+   "text": "Сайм.",
+   "lang": "ru"
+  },
+  {
+   "start": 1057.16,
+   "end": 1057.44,
+   "text": "Sign here.",
+   "lang": "en"
+  },
+  {
+   "start": 1060.4,
+   "end": 1061.12,
+   "text": "Sign.",
+   "lang": "en"
+  },
+  {
+   "start": 1063.66,
+   "end": 1064.38,
+   "text": "Sign.",
+   "lang": "en"
+  },
+  {
+   "start": 1066.88,
+   "end": 1067.98,
+   "text": "Sign here.",
+   "lang": "en"
+  },
+  {
+   "start": 1070.68,
+   "end": 1072.12,
+   "text": "Please sign here.",
+   "lang": "en"
+  },
+  {
+   "start": 1074.98,
+   "end": 1076.36,
+   "text": "Sign here please.",
+   "lang": "en"
+  },
+  {
+   "start": 1079.14,
+   "end": 1080.48,
+   "text": "How does she say?",
+   "lang": "en"
+  },
+  {
+   "start": 1081.02,
+   "end": 1082.28,
+   "text": "Подпишитесь здесь, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1084.88,
+   "end": 1086.28,
+   "text": "Sign here please.",
+   "lang": "en"
+  },
+  {
+   "start": 1087.8,
+   "end": 1091.44,
+   "text": "Она говорит с вопросительной интонацией.",
+   "lang": "ru"
+  },
+  {
+   "start": 1091.48,
+   "end": 1093.46,
+   "text": "Вы хотите открыть чековый счет?",
+   "lang": "ru"
+  },
+  {
+   "start": 1096.64,
+   "end": 1098.94,
+   "text": "Do you want to open a checking account?",
+   "lang": "en"
+  },
+  {
+   "start": 1108.66,
+   "end": 1110.98,
+   "text": "Да, где расписаться?",
+   "lang": "ru"
+  },
+  {
+   "start": 1114.96,
+   "end": 1117.12,
+   "text": "Yes. Where do I sign?",
+   "lang": "ru"
+  },
+  {
+   "start": 1121.12,
+   "end": 1122.46,
+   "text": "Where do I sign?",
+   "lang": "ru"
+  },
+  {
+   "start": 1125.48,
+   "end": 1129.56,
+   "text": "Она показывает линию и просит. Подпишитесь здесь, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1132.74,
+   "end": 1134.28,
+   "text": "Sign here, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1137.12,
+   "end": 1140.98,
+   "text": "Теперь она хочет увидеть ваш документ, удостоверяющий личность.",
+   "lang": "ru"
+  },
+  {
+   "start": 1142.28,
+   "end": 1143.3,
+   "text": "Исследование личности.",
+   "lang": "ru"
+  },
+  {
+   "start": 1144.2,
+   "end": 1145.6,
+   "text": "Исследование.",
+   "lang": "ru"
+  },
+  {
+   "start": 1148.26,
+   "end": 1149.66,
+   "text": "Шен.",
+   "lang": "ru"
+  },
+  {
+   "start": 1152.16,
+   "end": 1152.98,
+   "text": "Кэйшен.",
+   "lang": "ru"
+  },
+  {
+   "start": 1156.34,
+   "end": 1159.16,
+   "text": "Ай-ден-ти-фэ-кэйшен.",
+   "lang": "ru"
+  },
+  {
+   "start": 1161.6,
+   "end": 1163.0,
+   "text": "Исследование.",
+   "lang": "ru"
+  },
+  {
+   "start": 1165.56,
+   "end": 1166.96,
+   "text": "Кэйшен.",
+   "lang": "ru"
+  },
+  {
+   "start": 1169.52,
+   "end": 1177.14,
+   "text": "Иногда вы будете слышать, как используют сокращение ID, но мы будем использовать полное слово.",
+   "lang": "ru"
+  },
+  {
+   "start": 1177.9,
+   "end": 1182.26,
+   "text": "Сейчас попробуйте сказать какое-нибудь удостоверение личности.",
+   "lang": "ru"
+  },
+  {
+   "start": 1184.3,
+   "end": 1186.28,
+   "text": "Some identification",
+   "lang": "en"
+  },
+  {
+   "start": 1189.58,
+   "end": 1194.38,
+   "text": "У вас есть какой-нибудь документ, удостоверяющий личность?",
+   "lang": "ru"
+  },
+  {
+   "start": 1198.34,
+   "end": 1200.46,
+   "text": "Do you have some identification?",
+   "lang": "ru"
+  },
+  {
+   "start": 1204.92,
+   "end": 1206.56,
+   "text": "Do you have some identification?",
+   "lang": "en"
+  },
+  {
+   "start": 1211.44,
+   "end": 1217.22,
+   "text": "Американцы в качестве документа, удостоверяющего личность, обычно используют водительские права.",
+   "lang": "ru"
+  },
+  {
+   "start": 1217.24,
+   "end": 1219.5,
+   "text": "Но также можно использовать паспорт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1219.62,
+   "end": 1223.34,
+   "text": "Вы даете его, говоря «Вот мой паспорт».",
+   "lang": "ru"
+  },
+  {
+   "start": 1223.88,
+   "end": 1224.58,
+   "text": "Passport",
+   "lang": "ru"
+  },
+  {
+   "start": 1227.84,
+   "end": 1229.24,
+   "text": "Here's my passport.",
+   "lang": "ru"
+  },
+  {
+   "start": 1233.22,
+   "end": 1233.98,
+   "text": "Passport.",
+   "lang": "ru"
+  },
+  {
+   "start": 1237.4,
+   "end": 1237.96,
+   "text": "She asks,",
+   "lang": "ru"
+  },
+  {
+   "start": 1238.12,
+   "end": 1240.92,
+   "text": "У вас есть какое-нибудь удостоверение личности?",
+   "lang": "ru"
+  },
+  {
+   "start": 1244.06,
+   "end": 1246.0,
+   "text": "Do you have some identification?",
+   "lang": "ru"
+  },
+  {
+   "start": 1246.0,
+   "end": 1248.5,
+   "text": "Transcription by CastingWords",
+   "lang": "en"
+  },
+  {
+   "start": 1250.46,
+   "end": 1250.62,
+   "text": "Say,",
+   "lang": "ru"
+  },
+  {
+   "start": 1251.34,
+   "end": 1252.52,
+   "text": "Да, вот мой паспорт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1256.96,
+   "end": 1258.56,
+   "text": "Yes, here's my passport.",
+   "lang": "ru"
+  },
+  {
+   "start": 1263.12,
+   "end": 1267.22,
+   "text": "Формальности почти улажены, и менеджер дает вам номер счета.",
+   "lang": "ru"
+  },
+  {
+   "start": 1268.04,
+   "end": 1270.56,
+   "text": "Вы помните, как сказать телефонный номер?",
+   "lang": "ru"
+  },
+  {
+   "start": 1273.1,
+   "end": 1274.3,
+   "text": "Phone number.",
+   "lang": "ru"
+  },
+  {
+   "start": 1276.6,
+   "end": 1277.76,
+   "text": "Phone number.",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.1,
+   "end": 1282.76,
+   "text": "Now try to say номер счета.",
+   "lang": "ru"
+  },
+  {
+   "start": 1284.7,
+   "end": 1286.68,
+   "text": "Account number",
+   "lang": "en"
+  },
+  {
+   "start": 1286.68,
+   "end": 1290.44,
+   "text": "Account number",
+   "lang": "en"
+  },
+  {
+   "start": 1293.14,
+   "end": 1295.84,
+   "text": "Вот ваш номер счета.",
+   "lang": "ru"
+  },
+  {
+   "start": 1299.16,
+   "end": 1300.86,
+   "text": "Here's your account number.",
+   "lang": "en"
+  },
+  {
+   "start": 1303.84,
+   "end": 1305.36,
+   "text": "Your account number.",
+   "lang": "en"
+  },
+  {
+   "start": 1307.94,
+   "end": 1309.86,
+   "text": "Your checking account number.",
+   "lang": "en"
+  },
+  {
+   "start": 1312.76,
+   "end": 1315.7,
+   "text": "Номер вашего чекового счета.",
+   "lang": "ru"
+  },
+  {
+   "start": 1318.5,
+   "end": 1320.82,
+   "text": "Your checking account number",
+   "lang": "en"
+  },
+  {
+   "start": 1323.82,
+   "end": 1325.64,
+   "text": "Checking account number",
+   "lang": "en"
+  },
+  {
+   "start": 1328.38,
+   "end": 1331.32,
+   "text": "Вот номер вашего чекового счета.",
+   "lang": "ru"
+  },
+  {
+   "start": 1335.46,
+   "end": 1337.32,
+   "text": "Here's your checking account number.",
+   "lang": "en"
+  },
+  {
+   "start": 1340.44,
+   "end": 1343.64,
+   "text": "Она дает вам еще один бланк и просит.",
+   "lang": "ru"
+  },
+  {
+   "start": 1344.04,
+   "end": 1345.24,
+   "text": "Распишитесь здесь, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1348.12,
+   "end": 1349.56,
+   "text": "Sign here please.",
+   "lang": "en"
+  },
+  {
+   "start": 1352.1,
+   "end": 1356.24,
+   "text": "Теперь она отдает вам паспорт, говоря, вот ваш паспорт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1358.88,
+   "end": 1360.16,
+   "text": "Here's your passport.",
+   "lang": "en"
+  },
+  {
+   "start": 1362.98,
+   "end": 1364.94,
+   "text": "и номер вашего счета.",
+   "lang": "ru"
+  },
+  {
+   "start": 1368.42,
+   "end": 1369.76,
+   "text": "and your account number.",
+   "lang": "en"
+  },
+  {
+   "start": 1373.32,
+   "end": 1382.4,
+   "text": "Выходя из банка, вы видите женщину, которая живет рядом с вашей квартирой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1382.48,
+   "end": 1385.08,
+   "text": "Она с юношей, которого вы не знаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 1385.94,
+   "end": 1390.44,
+   "text": "После того, как вы обменялись приветствиями, она представляет его вам, говоря",
+   "lang": "ru"
+  },
+  {
+   "start": 1391.32,
+   "end": 1394.88,
+   "text": "Хорхе, я хочу познакомить вас с моим племянником Питером.",
+   "lang": "ru"
+  },
+  {
+   "start": 1400.06,
+   "end": 1402.54,
+   "text": "Jorge, I'd like you to meet my nephew, Peter.",
+   "lang": "en"
+  },
+  {
+   "start": 1407.86,
+   "end": 1408.88,
+   "text": "I'd like you...",
+   "lang": "en"
+  },
+  {
+   "start": 1411.66,
+   "end": 1413.68,
+   "text": "I'd like you to meet my nephew, Peter.",
+   "lang": "en"
+  },
+  {
+   "start": 1418.1,
+   "end": 1420.12,
+   "text": "Питер – это Хорхе Сантено.",
+   "lang": "ru"
+  },
+  {
+   "start": 1423.66,
+   "end": 1426.62,
+   "text": "This is Jorge Centeno.",
+   "lang": "en"
+  },
+  {
+   "start": 1435.4,
+   "end": 1439.48,
+   "text": "Вы жмете ему руку, затем ваша соседка говорит.",
+   "lang": "ru"
+  },
+  {
+   "start": 1439.72,
+   "end": 1441.38,
+   "text": "Питер ищет здесь работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1445.56,
+   "end": 1447.48,
+   "text": "Peter's looking for a job here.",
+   "lang": "en"
+  },
+  {
+   "start": 1451.38,
+   "end": 1453.78,
+   "text": "Спросите Питера, какую именно работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1457.36,
+   "end": 1458.68,
+   "text": "What kind of job?",
+   "lang": "en"
+  },
+  {
+   "start": 1461.58,
+   "end": 1463.78,
+   "text": "What kind of job are you looking for?",
+   "lang": "en"
+  },
+  {
+   "start": 1467.64,
+   "end": 1469.96,
+   "text": "Он говорит, что я ищу работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1469.96,
+   "end": 1470.1,
+   "text": "Готу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1473.92,
+   "end": 1475.6,
+   "text": "I'm looking for a job.",
+   "lang": "ru"
+  },
+  {
+   "start": 1479.08,
+   "end": 1481.12,
+   "text": "Учитель истории в средней школе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1485.44,
+   "end": 1487.44,
+   "text": "As a high school history teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1487.44,
+   "end": 1487.64,
+   "text": "feature.",
+   "lang": "en"
+  },
+  {
+   "start": 1492.08,
+   "end": 1492.68,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1492.96,
+   "end": 1493.56,
+   "text": "Правда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1495.92,
+   "end": 1496.52,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 1498.26,
+   "end": 1500.46,
+   "text": "Мне всегда нравилась история.",
+   "lang": "ru"
+  },
+  {
+   "start": 1503.7,
+   "end": 1505.46,
+   "text": "I've always liked history.",
+   "lang": "en"
+  },
+  {
+   "start": 1509.14,
+   "end": 1512.16,
+   "text": "Послушайте, что сейчас скажет ваша знакомая.",
+   "lang": "ru"
+  },
+  {
+   "start": 1512.62,
+   "end": 1514.64,
+   "text": "We're on our way to the Holiday Inn.",
+   "lang": "en"
+  },
+  {
+   "start": 1515.52,
+   "end": 1517.3,
+   "text": "We're on our way to the Holiday Inn.",
+   "lang": "en"
+  },
+  {
+   "start": 1518.12,
+   "end": 1520.58,
+   "text": "Питер забронировал там комнату.",
+   "lang": "ru"
+  },
+  {
+   "start": 1525.16,
+   "end": 1526.88,
+   "text": "Peter reserved a room there.",
+   "lang": "en"
+  },
+  {
+   "start": 1530.8,
+   "end": 1533.28,
+   "text": "Но у него есть ключи от моей квартиры.",
+   "lang": "ru"
+  },
+  {
+   "start": 1537.42,
+   "end": 1539.5,
+   "text": "But he has a key to my apartment.",
+   "lang": "en"
+  },
+  {
+   "start": 1543.68,
+   "end": 1545.32,
+   "text": "A key to my apartment.",
+   "lang": "en"
+  },
+  {
+   "start": 1548.34,
+   "end": 1552.38,
+   "text": "Они несут чемоданы. Спросите, я могу вам помочь?",
+   "lang": "ru"
+  },
+  {
+   "start": 1555.52,
+   "end": 1556.58,
+   "text": "Can I help you?",
+   "lang": "en"
+  },
+  {
+   "start": 1559.22,
+   "end": 1560.52,
+   "text": "Can I help you?",
+   "lang": "ru"
+  },
+  {
+   "start": 1563.46,
+   "end": 1565.72,
+   "text": "Ask her if you can help her with the luggage.",
+   "lang": "ru"
+  },
+  {
+   "start": 1570.14,
+   "end": 1571.76,
+   "text": "Can I help you with the luggage?",
+   "lang": "ru"
+  },
+  {
+   "start": 1575.54,
+   "end": 1579.12,
+   "text": "She says, Спасибо, но моя машина прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1585.48,
+   "end": 1587.98,
+   "text": "Thanks, but my car is just around the corner.",
+   "lang": "en"
+  },
+  {
+   "start": 1593.52,
+   "end": 1595.88,
+   "text": "И в отеле есть крытая парковка.",
+   "lang": "ru"
+  },
+  {
+   "start": 1600.48,
+   "end": 1602.74,
+   "text": "And the hotel has a parking garage.",
+   "lang": "en"
+  },
+  {
+   "start": 1606.66,
+   "end": 1609.78,
+   "text": "Мы хотим отвезти багаж Питера в отель.",
+   "lang": "ru"
+  },
+  {
+   "start": 1614.16,
+   "end": 1617.02,
+   "text": "We want to take Peter's luggage to the hotel.",
+   "lang": "ru"
+  },
+  {
+   "start": 1621.9,
+   "end": 1622.8,
+   "text": "Peter's luggage",
+   "lang": "en"
+  },
+  {
+   "start": 1622.8,
+   "end": 1628.26,
+   "text": "We want to take Peter's luggage to the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 1632.26,
+   "end": 1634.76,
+   "text": "А потом пойдем обедать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1638.66,
+   "end": 1640.78,
+   "text": "И тогда мы пойдем есть лунч.",
+   "lang": "ru"
+  },
+  {
+   "start": 1651.98,
+   "end": 1655.66,
+   "text": "I'd like you to meet my colleague, Charles Johnson.",
+   "lang": "en"
+  },
+  {
+   "start": 1664.76,
+   "end": 1665.12,
+   "text": "Джонсон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1671.26,
+   "end": 1672.94,
+   "text": "Чарльз, это Линда Браун.",
+   "lang": "ru"
+  },
+  {
+   "start": 1676.96,
+   "end": 1678.76,
+   "text": "Чарльз, это Линда Браун.",
+   "lang": "ru"
+  },
+  {
+   "start": 1682.92,
+   "end": 1686.56,
+   "text": "После того, как вы представили их друг другу, что они скажут?",
+   "lang": "ru"
+  },
+  {
+   "start": 1689.3,
+   "end": 1690.44,
+   "text": "Пожалуйста, поздравляю вас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1693.32,
+   "end": 1694.42,
+   "text": "Пожалуйста, поздравляю вас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1697.8,
+   "end": 1701.8,
+   "text": "Теперь представьте, что вы – женщина, которая приехала в командировку.",
+   "lang": "ru"
+  },
+  {
+   "start": 1701.94,
+   "end": 1705.1,
+   "text": "You're in a bank. Say that you'd like to open a checking account.",
+   "lang": "ru"
+  },
+  {
+   "start": 1705.1,
+   "end": 1705.26,
+   "text": "out.",
+   "lang": "en"
+  },
+  {
+   "start": 1710.42,
+   "end": 1712.3,
+   "text": "I'd like to open a checking account.",
+   "lang": "ru"
+  },
+  {
+   "start": 1712.3,
+   "end": 1712.56,
+   "text": "count.",
+   "lang": "en"
+  },
+  {
+   "start": 1716.68,
+   "end": 1721.0,
+   "text": "Как вас спросят, есть ли у вас какое-нибудь удостоверение личности.",
+   "lang": "ru"
+  },
+  {
+   "start": 1725.06,
+   "end": 1726.72,
+   "text": "Do you have some identification?",
+   "lang": "ru"
+  },
+  {
+   "start": 1730.78,
+   "end": 1733.08,
+   "text": "Do you have some identification, miss?",
+   "lang": "ru"
+  },
+  {
+   "start": 1737.88,
+   "end": 1739.54,
+   "text": "Say that you have your passport.",
+   "lang": "ru"
+  },
+  {
+   "start": 1743.96,
+   "end": 1745.4,
+   "text": "I have my passport.",
+   "lang": "ru"
+  },
+  {
+   "start": 1749.04,
+   "end": 1753.86,
+   "text": "После того, как вы запомнили бумаги, он говорит, распишитесь здесь, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1757.34,
+   "end": 1758.66,
+   "text": "Sign here, please.",
+   "lang": "en"
+  },
+  {
+   "start": 1761.78,
+   "end": 1764.26,
+   "text": "Несколько минут спустя он говорит",
+   "lang": "ru"
+  },
+  {
+   "start": 1764.26,
+   "end": 1766.4,
+   "text": "Здесь номер вашего счета",
+   "lang": "ru"
+  },
+  {
+   "start": 1770.28,
+   "end": 1771.68,
+   "text": "Here's your account number.",
+   "lang": "en"
+  },
+  {
+   "start": 1773.68,
+   "end": 1780.44,
+   "text": "Это конец 27-го урока",
+   "lang": "ru"
+  }
+ ]
+}

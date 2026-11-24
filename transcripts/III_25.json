@@ -1,0 +1,2289 @@
+{
+ "id": "III_25",
+ "source": "Pimsleur_III_25.mp3",
+ "duration": 1844.24,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 148,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.56,
+   "text": "I'd be the world rover for many years. I'd spend all my money on whiskey and beer.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.18,
+   "end": 19.14,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 22.06,
+   "end": 28.82,
+   "text": "25-й урок третьего уровня американского английского языка по методу доктора Пимслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.2,
+   "end": 31.8,
+   "text": "Вы услышите?",
+   "lang": "ru"
+  },
+  {
+   "start": 33.76,
+   "end": 36.9,
+   "text": "Это означает, я не силен в спорте.",
+   "lang": "ru"
+  },
+  {
+   "start": 36.9,
+   "end": 43.58,
+   "text": "you. Ramon, what do you do in your spare time? Do you play any sports? No, I don't. I'm not very good",
+   "lang": "en"
+  },
+  {
+   "start": 43.58,
+   "end": 49.06,
+   "text": "at sports. You don't play tennis? That's too bad. I really like tennis, and there are some nice",
+   "lang": "en"
+  },
+  {
+   "start": 49.06,
+   "end": 54.68,
+   "text": "courts nearby. One of my colleagues plays pretty well, I think. Maybe you can play tennis with him",
+   "lang": "en"
+  },
+  {
+   "start": 54.68,
+   "end": 55.02,
+   "text": "sometime.",
+   "lang": "en"
+  },
+  {
+   "start": 56.5,
+   "end": 58.9,
+   "text": "Sometimes означает когда-нибудь.",
+   "lang": "ru"
+  },
+  {
+   "start": 59.64,
+   "end": 67.28,
+   "text": "again. Ramon, what do you do in your spare time? Do you play any sports? No, I don't. I'm not very good at",
+   "lang": "ru"
+  },
+  {
+   "start": 67.28,
+   "end": 73.34,
+   "text": "sports. You don't play tennis? That's too bad. I really like tennis, and there are some nice courts nearby.",
+   "lang": "ru"
+  },
+  {
+   "start": 73.84,
+   "end": 78.88,
+   "text": "One of my colleagues plays pretty well, I think. Maybe you can play tennis with him sometime.",
+   "lang": "ru"
+  },
+  {
+   "start": 79.72,
+   "end": 88.18,
+   "text": "Сейчас вы? Хорхе Сентено. Коллега пригласил вас к себе домой. Вы принесли цветы его жене. Она",
+   "lang": "ru"
+  },
+  {
+   "start": 91.0,
+   "end": 92.46,
+   "text": "Какие красивые цветы!",
+   "lang": "ru"
+  },
+  {
+   "start": 95.06,
+   "end": 96.86,
+   "text": "What beautiful flowers!",
+   "lang": "en"
+  },
+  {
+   "start": 100.0,
+   "end": 104.3,
+   "text": "Вы разговариваете, неожиданно она произносит.",
+   "lang": "ru"
+  },
+  {
+   "start": 104.3,
+   "end": 105.78,
+   "text": "Мой муж наверху.",
+   "lang": "ru"
+  },
+  {
+   "start": 109.32,
+   "end": 110.82,
+   "text": "My husband is upstairs.",
+   "lang": "en"
+  },
+  {
+   "start": 114.0,
+   "end": 115.64,
+   "text": "С детьми.",
+   "lang": "ru"
+  },
+  {
+   "start": 117.96,
+   "end": 119.28,
+   "text": "With the children",
+   "lang": "en"
+  },
+  {
+   "start": 121.52,
+   "end": 123.0,
+   "text": "Now she asks",
+   "lang": "en"
+  },
+  {
+   "start": 123.28,
+   "end": 125.36,
+   "text": "Могу я принести вам что-нибудь выпить?",
+   "lang": "ru"
+  },
+  {
+   "start": 129.06,
+   "end": 130.64,
+   "text": "Can I get you something to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 134.04,
+   "end": 138.9,
+   "text": "Говори, что бы вы хотели, пожалуйста, один чайник воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 140.3,
+   "end": 142.48,
+   "text": "Я хочу один чайник воды, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 146.56,
+   "end": 148.98,
+   "text": "Она говорит, я принесу вам воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 151.5,
+   "end": 152.68,
+   "text": "I'll get your water.",
+   "lang": "ru"
+  },
+  {
+   "start": 155.54,
+   "end": 156.56,
+   "text": "I'll get your water.",
+   "lang": "en"
+  },
+  {
+   "start": 159.18,
+   "end": 160.76,
+   "text": "Her husband asks,",
+   "lang": "ru"
+  },
+  {
+   "start": 161.36,
+   "end": 162.92,
+   "text": "Можешь принести мне пиво?",
+   "lang": "ru"
+  },
+  {
+   "start": 165.9,
+   "end": 167.4,
+   "text": "Can you get me a beer?",
+   "lang": "ru"
+  },
+  {
+   "start": 170.64,
+   "end": 172.48,
+   "text": "Can you get me a beer, please?",
+   "lang": "ru"
+  },
+  {
+   "start": 172.48,
+   "end": 172.76,
+   "text": "Peace.",
+   "lang": "en"
+  },
+  {
+   "start": 176.62,
+   "end": 179.54,
+   "text": "Затем он добавляет, если ты не возражаешь.",
+   "lang": "ru"
+  },
+  {
+   "start": 182.34,
+   "end": 183.82,
+   "text": "If you don't mind.",
+   "lang": "ru"
+  },
+  {
+   "start": 186.76,
+   "end": 188.12,
+   "text": "If you don't mind.",
+   "lang": "ru"
+  },
+  {
+   "start": 188.12,
+   "end": 188.4,
+   "text": "mind?",
+   "lang": "en"
+  },
+  {
+   "start": 191.28,
+   "end": 197.0,
+   "text": "Сейчас вы говорите о том, как вы проводите время. Скажите, в свободное время?",
+   "lang": "ru"
+  },
+  {
+   "start": 197.0,
+   "end": 197.1,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 200.3,
+   "end": 201.76,
+   "text": "In your spare time.",
+   "lang": "ru"
+  },
+  {
+   "start": 201.76,
+   "end": 202.0,
+   "text": "time.",
+   "lang": "en"
+  },
+  {
+   "start": 204.98,
+   "end": 205.86,
+   "text": "Spare time.",
+   "lang": "ru"
+  },
+  {
+   "start": 208.06,
+   "end": 209.58,
+   "text": "Your colleagues watch you.",
+   "lang": "en"
+  },
+  {
+   "start": 209.6,
+   "end": 212.52,
+   "text": "Чем вы занимаетесь в свободное время?",
+   "lang": "ru"
+  },
+  {
+   "start": 212.52,
+   "end": 212.62,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 216.54,
+   "end": 218.56,
+   "text": "What do you do in your spare time?",
+   "lang": "ru"
+  },
+  {
+   "start": 218.56,
+   "end": 218.76,
+   "text": "time.",
+   "lang": "en"
+  },
+  {
+   "start": 222.62,
+   "end": 225.54,
+   "text": "What do you do in your spare time, Mr. Santano?",
+   "lang": "ru"
+  },
+  {
+   "start": 231.3,
+   "end": 236.36,
+   "text": "Вы занимаетесь каким-нибудь спортом? Не забудьте сказать слово «играете».",
+   "lang": "ru"
+  },
+  {
+   "start": 239.0,
+   "end": 240.48,
+   "text": "Do you play any sports?",
+   "lang": "ru"
+  },
+  {
+   "start": 242.86,
+   "end": 244.64,
+   "text": "Any sports?",
+   "lang": "en"
+  },
+  {
+   "start": 246.76,
+   "end": 249.82,
+   "text": "Мне нравится гольф.",
+   "lang": "ru"
+  },
+  {
+   "start": 252.5,
+   "end": 253.7,
+   "text": "I like golf.",
+   "lang": "en"
+  },
+  {
+   "start": 256.48,
+   "end": 257.58,
+   "text": "I like golf.",
+   "lang": "en"
+  },
+  {
+   "start": 259.44,
+   "end": 262.32,
+   "text": "Но в Мексике гольф дорогой.",
+   "lang": "ru"
+  },
+  {
+   "start": 267.0,
+   "end": 269.46,
+   "text": "But in Mexico, golf is expensive.",
+   "lang": "ru"
+  },
+  {
+   "start": 274.7,
+   "end": 275.84,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 275.84,
+   "end": 278.36,
+   "text": "Когда у меня есть свободное время",
+   "lang": "ru"
+  },
+  {
+   "start": 281.96,
+   "end": 283.68,
+   "text": "When I have spare time",
+   "lang": "ru"
+  },
+  {
+   "start": 287.0,
+   "end": 288.7,
+   "text": "When I have spare time.",
+   "lang": "en"
+  },
+  {
+   "start": 292.52,
+   "end": 294.4,
+   "text": "Иногда я играю в теннис.",
+   "lang": "ru"
+  },
+  {
+   "start": 298.2,
+   "end": 300.18,
+   "text": "Sometimes I play tennis",
+   "lang": "ru"
+  },
+  {
+   "start": 303.46,
+   "end": 305.6,
+   "text": "Sometimes I play tennis",
+   "lang": "ru"
+  },
+  {
+   "start": 308.86,
+   "end": 311.02,
+   "text": "с одним из моих коллег",
+   "lang": "ru"
+  },
+  {
+   "start": 311.02,
+   "end": 316.38,
+   "text": "with one of my colleagues",
+   "lang": "ru"
+  },
+  {
+   "start": 319.92,
+   "end": 321.6,
+   "text": "Your colleague says",
+   "lang": "ru"
+  },
+  {
+   "start": 321.6,
+   "end": 324.12,
+   "text": "Неподалеку есть несколько кортов.",
+   "lang": "ru"
+  },
+  {
+   "start": 328.12,
+   "end": 330.2,
+   "text": "There are some courts nearby.",
+   "lang": "ru"
+  },
+  {
+   "start": 330.2,
+   "end": 330.38,
+   "text": "Bye.",
+   "lang": "en"
+  },
+  {
+   "start": 334.26,
+   "end": 335.2,
+   "text": "nearby",
+   "lang": "ru"
+  },
+  {
+   "start": 337.54,
+   "end": 338.48,
+   "text": "courts",
+   "lang": "ru"
+  },
+  {
+   "start": 338.48,
+   "end": 342.14,
+   "text": "some courts",
+   "lang": "ru"
+  },
+  {
+   "start": 344.28,
+   "end": 346.56,
+   "text": "There are some courts nearby.",
+   "lang": "ru"
+  },
+  {
+   "start": 346.56,
+   "end": 346.86,
+   "text": "Goodbye.",
+   "lang": "en"
+  },
+  {
+   "start": 350.86,
+   "end": 353.42,
+   "text": "Они находятся прямо за углом.",
+   "lang": "ru"
+  },
+  {
+   "start": 357.1,
+   "end": 358.8,
+   "text": "They're just around the corner.",
+   "lang": "en"
+  },
+  {
+   "start": 360.46,
+   "end": 363.9,
+   "text": "рядом с церковью",
+   "lang": "ru"
+  },
+  {
+   "start": 366.7,
+   "end": 368.08,
+   "text": "Next to the church",
+   "lang": "en"
+  },
+  {
+   "start": 370.96,
+   "end": 372.56,
+   "text": "Next to the church",
+   "lang": "en"
+  },
+  {
+   "start": 373.92,
+   "end": 377.72,
+   "text": "может быть на этих выходных",
+   "lang": "ru"
+  },
+  {
+   "start": 380.32,
+   "end": 381.78,
+   "text": "Maybe this weekend?",
+   "lang": "en"
+  },
+  {
+   "start": 384.78,
+   "end": 387.36,
+   "text": "Мы с вами сможем поиграть в теннис.",
+   "lang": "ru"
+  },
+  {
+   "start": 391.44,
+   "end": 393.42,
+   "text": "You and I can play tennis.",
+   "lang": "en"
+  },
+  {
+   "start": 397.02,
+   "end": 401.78,
+   "text": "Сейчас вы идете по туристическому маршруту с одной знакомой.",
+   "lang": "ru"
+  },
+  {
+   "start": 401.78,
+   "end": 404.68,
+   "text": "Она говорит, в той церкви вон там.",
+   "lang": "ru"
+  },
+  {
+   "start": 408.04,
+   "end": 409.76,
+   "text": "That church over there?",
+   "lang": "en"
+  },
+  {
+   "start": 413.42,
+   "end": 414.36,
+   "text": "200 лет.",
+   "lang": "ru"
+  },
+  {
+   "start": 417.68,
+   "end": 419.92,
+   "text": "is 200 years old.",
+   "lang": "en"
+  },
+  {
+   "start": 423.38,
+   "end": 424.5,
+   "text": "She asks.",
+   "lang": "ru"
+  },
+  {
+   "start": 424.96,
+   "end": 427.26,
+   "text": "Вам бы хотелось пойти посмотреть ее?",
+   "lang": "ru"
+  },
+  {
+   "start": 427.26,
+   "end": 427.38,
+   "text": "video.",
+   "lang": "en"
+  },
+  {
+   "start": 430.42,
+   "end": 432.08,
+   "text": "Would you like to go see it?",
+   "lang": "ru"
+  },
+  {
+   "start": 435.12,
+   "end": 436.04,
+   "text": "Go see.",
+   "lang": "ru"
+  },
+  {
+   "start": 438.04,
+   "end": 439.78,
+   "text": "Would you like to go see it?",
+   "lang": "ru"
+  },
+  {
+   "start": 442.44,
+   "end": 444.12,
+   "text": "Ответьте кратко, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 446.38,
+   "end": 447.54,
+   "text": "Yes I would",
+   "lang": "en"
+  },
+  {
+   "start": 450.04,
+   "end": 451.2,
+   "text": "Yes I would",
+   "lang": "en"
+  },
+  {
+   "start": 453.96,
+   "end": 456.34,
+   "text": "Добавьте, если вы не возражаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 458.86,
+   "end": 460.18,
+   "text": "If you don't mind.",
+   "lang": "en"
+  },
+  {
+   "start": 462.5,
+   "end": 465.4,
+   "text": "Мне бы хотелось пойти посмотреть ее.",
+   "lang": "ru"
+  },
+  {
+   "start": 469.62,
+   "end": 470.96,
+   "text": "I'd like to go see it.",
+   "lang": "en"
+  },
+  {
+   "start": 472.54,
+   "end": 475.64,
+   "text": "Если вы не возражаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 478.24,
+   "end": 479.66,
+   "text": "If you don't mind.",
+   "lang": "en"
+  },
+  {
+   "start": 483.06,
+   "end": 486.72,
+   "text": "Я слышала, что вы скоро уезжаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 490.74,
+   "end": 492.56,
+   "text": "Я слышала, что вы скоро уйдете.",
+   "lang": "ru"
+  },
+  {
+   "start": 492.56,
+   "end": 492.94,
+   "text": "soon.",
+   "lang": "en"
+  },
+  {
+   "start": 497.16,
+   "end": 501.08,
+   "text": "Да, я возвращаюсь в Мексику на следующей неделе.",
+   "lang": "ru"
+  },
+  {
+   "start": 506.5,
+   "end": 509.56,
+   "text": "Да, я возвращаюсь в Мексику на следующей неделе.",
+   "lang": "ru"
+  },
+  {
+   "start": 514.44,
+   "end": 517.5,
+   "text": "Трое из моих коллег тоже уезжают.",
+   "lang": "ru"
+  },
+  {
+   "start": 522.36,
+   "end": 524.74,
+   "text": "Three of my colleagues are leaving too.",
+   "lang": "en"
+  },
+  {
+   "start": 529.36,
+   "end": 531.44,
+   "text": "Я слышал, что один из них",
+   "lang": "ru"
+  },
+  {
+   "start": 534.86,
+   "end": 536.62,
+   "text": "I heard that one of them",
+   "lang": "en"
+  },
+  {
+   "start": 540.24,
+   "end": 541.38,
+   "text": "едет в Монреаль",
+   "lang": "ru"
+  },
+  {
+   "start": 545.12,
+   "end": 546.68,
+   "text": "He is going to Montreal.",
+   "lang": "en"
+  },
+  {
+   "start": 550.72,
+   "end": 551.8,
+   "text": "Двое из них",
+   "lang": "ru"
+  },
+  {
+   "start": 553.4,
+   "end": 554.24,
+   "text": "Two of them?",
+   "lang": "en"
+  },
+  {
+   "start": 556.6,
+   "end": 558.22,
+   "text": "возвращаются в Мексику со мной.",
+   "lang": "ru"
+  },
+  {
+   "start": 558.22,
+   "end": 564.86,
+   "text": "are going back to Mexico with me.",
+   "lang": "ru"
+  },
+  {
+   "start": 570.0,
+   "end": 578.32,
+   "text": "Теперь представьте, что вы мексиканка. Вы в гостях у одного знакомого. Он говорит, моя жена наверху с детьми.",
+   "lang": "ru"
+  },
+  {
+   "start": 583.72,
+   "end": 586.46,
+   "text": "My wife is upstairs with the children.",
+   "lang": "en"
+  },
+  {
+   "start": 591.04,
+   "end": 598.14,
+   "text": "Вы немного поболтали. Затем он спрашивает. Что вы делаете в свое свободное время?",
+   "lang": "ru"
+  },
+  {
+   "start": 602.36,
+   "end": 604.8,
+   "text": "What do you do in your spare time?",
+   "lang": "en"
+  },
+  {
+   "start": 609.08,
+   "end": 611.82,
+   "text": "Вы занимаетесь каким-нибудь спортом?",
+   "lang": "ru"
+  },
+  {
+   "start": 614.92,
+   "end": 616.44,
+   "text": "Do you play any sports?",
+   "lang": "en"
+  },
+  {
+   "start": 620.56,
+   "end": 621.44,
+   "text": "Any sports?",
+   "lang": "en"
+  },
+  {
+   "start": 623.8,
+   "end": 626.28,
+   "text": "Вы играете в гольф или теннис?",
+   "lang": "ru"
+  },
+  {
+   "start": 629.86,
+   "end": 632.0,
+   "text": "Do you play golf or tennis?",
+   "lang": "ru"
+  },
+  {
+   "start": 636.16,
+   "end": 636.92,
+   "text": "Answer",
+   "lang": "ru"
+  },
+  {
+   "start": 636.92,
+   "end": 638.44,
+   "text": "Мне нравится спорт.",
+   "lang": "ru"
+  },
+  {
+   "start": 641.02,
+   "end": 642.42,
+   "text": "I like sports.",
+   "lang": "ru"
+  },
+  {
+   "start": 645.1,
+   "end": 646.48,
+   "text": "I like sports.",
+   "lang": "ru"
+  },
+  {
+   "start": 649.28,
+   "end": 650.52,
+   "text": "Try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 650.52,
+   "end": 653.22,
+   "text": "Но гольф отнимает слишком много времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 657.6,
+   "end": 660.0,
+   "text": "But golf takes too much time.",
+   "lang": "en"
+  },
+  {
+   "start": 664.56,
+   "end": 666.24,
+   "text": "Golf takes too much time.",
+   "lang": "en"
+  },
+  {
+   "start": 668.4,
+   "end": 671.42,
+   "text": "Я немного играю в теннис.",
+   "lang": "ru"
+  },
+  {
+   "start": 674.34,
+   "end": 676.12,
+   "text": "I play a little tennis.",
+   "lang": "ru"
+  },
+  {
+   "start": 679.52,
+   "end": 681.1,
+   "text": "I play a little tennis.",
+   "lang": "en"
+  },
+  {
+   "start": 684.2,
+   "end": 687.9,
+   "text": "He says, неподалеку есть теннисные корты.",
+   "lang": "ru"
+  },
+  {
+   "start": 692.7,
+   "end": 694.78,
+   "text": "There are some tennis courts nearby.",
+   "lang": "ru"
+  },
+  {
+   "start": 700.0,
+   "end": 701.42,
+   "text": "Some tennis courts",
+   "lang": "en"
+  },
+  {
+   "start": 703.44,
+   "end": 707.2,
+   "text": "Вам бы хотелось поиграть сегодня днем?",
+   "lang": "ru"
+  },
+  {
+   "start": 711.96,
+   "end": 713.84,
+   "text": "Would you like to play this afternoon?",
+   "lang": "en"
+  },
+  {
+   "start": 718.32,
+   "end": 720.1,
+   "text": "Неподалеку есть корты.",
+   "lang": "ru"
+  },
+  {
+   "start": 724.78,
+   "end": 726.08,
+   "text": "There are some courts nearby.",
+   "lang": "ru"
+  },
+  {
+   "start": 726.08,
+   "end": 726.22,
+   "text": "bye",
+   "lang": "en"
+  },
+  {
+   "start": 730.72,
+   "end": 733.48,
+   "text": "Today you have a lot to do. Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 733.76,
+   "end": 735.86,
+   "text": "Я бы, пожалуй, поиграл завтра.",
+   "lang": "ru"
+  },
+  {
+   "start": 739.68,
+   "end": 741.16,
+   "text": "I'd rather play tomorrow.",
+   "lang": "ru"
+  },
+  {
+   "start": 741.16,
+   "end": 741.36,
+   "text": "tomorrow.",
+   "lang": "en"
+  },
+  {
+   "start": 745.2,
+   "end": 746.62,
+   "text": "Если вы не возражаете.",
+   "lang": "ru"
+  },
+  {
+   "start": 750.1,
+   "end": 751.38,
+   "text": "If you don't mind.",
+   "lang": "ru"
+  },
+  {
+   "start": 754.3,
+   "end": 760.88,
+   "text": "Сейчас он спрашивает о ваших детях. Скажите, что ваша дочь только что закончила колледж.",
+   "lang": "ru"
+  },
+  {
+   "start": 765.3,
+   "end": 767.74,
+   "text": "My daughter just graduated from college.",
+   "lang": "en"
+  },
+  {
+   "start": 772.82,
+   "end": 774.6,
+   "text": "Она ищет работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 778.62,
+   "end": 780.14,
+   "text": "She's looking for a job.",
+   "lang": "en"
+  },
+  {
+   "start": 784.04,
+   "end": 785.72,
+   "text": "She's looking for a job.",
+   "lang": "ru"
+  },
+  {
+   "start": 789.36,
+   "end": 791.64,
+   "text": "He asks, Какую работу?",
+   "lang": "ru"
+  },
+  {
+   "start": 791.94,
+   "end": 792.8,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 793.36,
+   "end": 794.86,
+   "text": "What kind of job?",
+   "lang": "ru"
+  },
+  {
+   "start": 798.26,
+   "end": 798.94,
+   "text": "Job",
+   "lang": "ru"
+  },
+  {
+   "start": 800.86,
+   "end": 801.54,
+   "text": "of",
+   "lang": "ru"
+  },
+  {
+   "start": 803.76,
+   "end": 804.44,
+   "text": "kind",
+   "lang": "ru"
+  },
+  {
+   "start": 806.92,
+   "end": 807.6,
+   "text": "kind",
+   "lang": "ru"
+  },
+  {
+   "start": 807.6,
+   "end": 808.46,
+   "text": "kind of",
+   "lang": "ru"
+  },
+  {
+   "start": 808.46,
+   "end": 811.14,
+   "text": "Kind of",
+   "lang": "en"
+  },
+  {
+   "start": 812.86,
+   "end": 814.26,
+   "text": "What?",
+   "lang": "en"
+  },
+  {
+   "start": 815.8,
+   "end": 822.38,
+   "text": "What kind of? What kind of job?",
+   "lang": "ru"
+  },
+  {
+   "start": 825.94,
+   "end": 828.64,
+   "text": "Ask again. Какую работу?",
+   "lang": "ru"
+  },
+  {
+   "start": 828.64,
+   "end": 828.82,
+   "text": "boot.",
+   "lang": "en"
+  },
+  {
+   "start": 831.94,
+   "end": 834.26,
+   "text": "Какое слово «работа»?",
+   "lang": "ru"
+  },
+  {
+   "start": 859.74,
+   "end": 862.48,
+   "text": "What kind of job is she looking for?",
+   "lang": "ru"
+  },
+  {
+   "start": 867.88,
+   "end": 869.42,
+   "text": "Is she looking for?",
+   "lang": "en"
+  },
+  {
+   "start": 873.02,
+   "end": 875.32,
+   "text": "What kind of job is she looking for?",
+   "lang": "en"
+  },
+  {
+   "start": 880.2,
+   "end": 883.86,
+   "text": "Она хочет преподавать.",
+   "lang": "ru"
+  },
+  {
+   "start": 887.4,
+   "end": 888.88,
+   "text": "She wants to teach.",
+   "lang": "ru"
+  },
+  {
+   "start": 891.86,
+   "end": 893.22,
+   "text": "She wants to teach.",
+   "lang": "en"
+  },
+  {
+   "start": 896.18,
+   "end": 898.52,
+   "text": "Она ищет работу учителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 899.0,
+   "end": 899.6,
+   "text": "Учителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 899.82,
+   "end": 900.8,
+   "text": "Lesson and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 901.54,
+   "end": 902.62,
+   "text": "As a teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 905.44,
+   "end": 906.04,
+   "text": "As.",
+   "lang": "ru"
+  },
+  {
+   "start": 908.3,
+   "end": 909.22,
+   "text": "As a.",
+   "lang": "ru"
+  },
+  {
+   "start": 911.3,
+   "end": 912.36,
+   "text": "As a teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 914.6,
+   "end": 916.26,
+   "text": "A job as a teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 919.66,
+   "end": 924.64,
+   "text": "Раньше вы использовали as для того, чтобы сравнить что-либо.",
+   "lang": "ru"
+  },
+  {
+   "start": 924.72,
+   "end": 928.5,
+   "text": "В данном случае это слово имеет значение в качестве.",
+   "lang": "ru"
+  },
+  {
+   "start": 929.16,
+   "end": 930.02,
+   "text": "Сейчас скажите.",
+   "lang": "ru"
+  },
+  {
+   "start": 930.46,
+   "end": 931.96,
+   "text": "Работа учителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 932.12,
+   "end": 932.8,
+   "text": "Дословно.",
+   "lang": "ru"
+  },
+  {
+   "start": 932.8,
+   "end": 934.96,
+   "text": "Работа в качестве учителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 938.06,
+   "end": 939.76,
+   "text": "A job as a teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 942.7,
+   "end": 945.32,
+   "text": "A job as a teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 949.76,
+   "end": 953.5,
+   "text": "Она ищет работу учителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 958.08,
+   "end": 960.26,
+   "text": "She's looking for a job as a teacher",
+   "lang": "en"
+  },
+  {
+   "start": 972.1,
+   "end": 973.04,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 973.58,
+   "end": 974.44,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 975.52,
+   "end": 976.26,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 976.26,
+   "end": 976.52,
+   "text": "teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 979.86,
+   "end": 980.6,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 982.48,
+   "end": 983.18,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 985.14,
+   "end": 985.88,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 985.88,
+   "end": 985.94,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 987.5,
+   "end": 988.52,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 990.52,
+   "end": 991.54,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 991.9,
+   "end": 992.08,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 993.74,
+   "end": 994.34,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 994.4,
+   "end": 995.0,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 995.0,
+   "end": 995.62,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 995.62,
+   "end": 995.82,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 996.6,
+   "end": 996.74,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 998.46,
+   "end": 999.38,
+   "text": "Учители истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 1000.94,
+   "end": 1002.4,
+   "text": "A History Teacher",
+   "lang": "en"
+  },
+  {
+   "start": 1004.88,
+   "end": 1006.94,
+   "text": "Она ищет работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.48,
+   "end": 1012.12,
+   "text": "She's looking for a job.",
+   "lang": "ru"
+  },
+  {
+   "start": 1015.58,
+   "end": 1017.08,
+   "text": "She's looking for a job.",
+   "lang": "en"
+  },
+  {
+   "start": 1019.96,
+   "end": 1021.74,
+   "text": "Учителя истории",
+   "lang": "ru"
+  },
+  {
+   "start": 1023.96,
+   "end": 1025.68,
+   "text": "Учителя истории",
+   "lang": "ru"
+  },
+  {
+   "start": 1029.18,
+   "end": 1031.54,
+   "text": "She's looking for a job as a history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 1034.84,
+   "end": 1039.42,
+   "text": "Вот как будет средняя школа.",
+   "lang": "ru"
+  },
+  {
+   "start": 1039.42,
+   "end": 1040.7,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1069.18,
+   "end": 1069.38,
+   "text": "Слушайте и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1069.42,
+   "end": 1070.9,
+   "text": "Учитель средней школы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1073.4,
+   "end": 1074.92,
+   "text": "High school teacher",
+   "lang": "en"
+  },
+  {
+   "start": 1077.5,
+   "end": 1079.18,
+   "text": "A high school teacher",
+   "lang": "en"
+  },
+  {
+   "start": 1082.54,
+   "end": 1085.5,
+   "text": "Ей бы хотелось преподавать историю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1088.8,
+   "end": 1090.34,
+   "text": "She'd like to teach history.",
+   "lang": "en"
+  },
+  {
+   "start": 1093.18,
+   "end": 1094.92,
+   "text": "Она ищет работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1098.52,
+   "end": 1100.0,
+   "text": "She's looking for a job.",
+   "lang": "en"
+  },
+  {
+   "start": 1102.96,
+   "end": 1104.92,
+   "text": "Учителя средней школы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1104.92,
+   "end": 1109.4,
+   "text": "As a high school teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1112.36,
+   "end": 1113.72,
+   "text": "A high school teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1116.92,
+   "end": 1119.36,
+   "text": "She's looking for a job as a high school teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1119.36,
+   "end": 1119.54,
+   "text": "teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 1123.7,
+   "end": 1125.64,
+   "text": "Say, она хочет быть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1128.58,
+   "end": 1129.92,
+   "text": "She wants to be.",
+   "lang": "ru"
+  },
+  {
+   "start": 1132.36,
+   "end": 1132.92,
+   "text": "Be.",
+   "lang": "ru"
+  },
+  {
+   "start": 1132.92,
+   "end": 1134.24,
+   "text": "to be",
+   "lang": "en"
+  },
+  {
+   "start": 1135.14,
+   "end": 1135.36,
+   "text": "to be",
+   "lang": "en"
+  },
+  {
+   "start": 1136.88,
+   "end": 1138.52,
+   "text": "She wants to be.",
+   "lang": "ru"
+  },
+  {
+   "start": 1141.0,
+   "end": 1142.12,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1142.94,
+   "end": 1145.3,
+   "text": "Она хочет быть учителем средней школы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1149.34,
+   "end": 1151.5,
+   "text": "She wants to be a high school teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.32,
+   "end": 1156.74,
+   "text": "A high school teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1159.64,
+   "end": 1160.52,
+   "text": "Now say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1160.7,
+   "end": 1162.72,
+   "text": "Она хочет быть учителем истории.",
+   "lang": "ru"
+  },
+  {
+   "start": 1166.96,
+   "end": 1169.0,
+   "text": "She wants to be a history teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1172.66,
+   "end": 1174.34,
+   "text": "A history teacher",
+   "lang": "en"
+  },
+  {
+   "start": 1177.0,
+   "end": 1180.34,
+   "text": "Say that she wants to be a high school history teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1185.62,
+   "end": 1188.46,
+   "text": "She wants to be a high school history teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1193.68,
+   "end": 1195.78,
+   "text": "A high school history teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1199.52,
+   "end": 1201.54,
+   "text": "Your acquaintance asks again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1202.22,
+   "end": 1204.14,
+   "text": "Какую работу она ищет?",
+   "lang": "ru"
+  },
+  {
+   "start": 1209.42,
+   "end": 1212.04,
+   "text": "What kind of job is she looking for?",
+   "lang": "ru"
+  },
+  {
+   "start": 1217.56,
+   "end": 1220.0,
+   "text": "What kind of job is she looking for?",
+   "lang": "en"
+  },
+  {
+   "start": 1225.94,
+   "end": 1228.34,
+   "text": "Она ищет работу учителя.",
+   "lang": "ru"
+  },
+  {
+   "start": 1232.96,
+   "end": 1234.94,
+   "text": "She's looking for a job as a teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 1239.5,
+   "end": 1241.6,
+   "text": "Учителя истории в средней школе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1245.58,
+   "end": 1247.7,
+   "text": "As a high school history teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1251.9,
+   "end": 1253.96,
+   "text": "A high school history teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1258.14,
+   "end": 1260.44,
+   "text": "Она всегда хотела быть учителем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1260.86,
+   "end": 1261.5,
+   "text": "Lesson.",
+   "lang": "ru"
+  },
+  {
+   "start": 1262.06,
+   "end": 1264.42,
+   "text": "She has always wanted to be a teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1265.2,
+   "end": 1267.26,
+   "text": "She's always wanted to be a teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1267.8,
+   "end": 1270.34,
+   "text": "Сначала скажите «Она хотела».",
+   "lang": "ru"
+  },
+  {
+   "start": 1270.34,
+   "end": 1271.4,
+   "text": "Lesson and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1272.34,
+   "end": 1273.24,
+   "text": "She has wanted.",
+   "lang": "ru"
+  },
+  {
+   "start": 1276.32,
+   "end": 1277.12,
+   "text": "Wanted.",
+   "lang": "ru"
+  },
+  {
+   "start": 1279.6,
+   "end": 1280.88,
+   "text": "Has wanted.",
+   "lang": "ru"
+  },
+  {
+   "start": 1282.96,
+   "end": 1284.42,
+   "text": "She has wanted.",
+   "lang": "ru"
+  },
+  {
+   "start": 1287.1,
+   "end": 1288.3,
+   "text": "She's wanted.",
+   "lang": "ru"
+  },
+  {
+   "start": 1290.74,
+   "end": 1292.72,
+   "text": "Она всегда хотела.",
+   "lang": "ru"
+  },
+  {
+   "start": 1292.78,
+   "end": 1294.04,
+   "text": "Listen and repeat again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1295.4,
+   "end": 1296.5,
+   "text": "She has always wanted.",
+   "lang": "ru"
+  },
+  {
+   "start": 1300.12,
+   "end": 1301.74,
+   "text": "She's always wanted.",
+   "lang": "ru"
+  },
+  {
+   "start": 1305.38,
+   "end": 1311.3,
+   "text": "Обратите внимание на порядок слов. Скажите еще раз. Она всегда хотела.",
+   "lang": "ru"
+  },
+  {
+   "start": 1314.72,
+   "end": 1316.24,
+   "text": "She's always wanted.",
+   "lang": "en"
+  },
+  {
+   "start": 1319.44,
+   "end": 1323.14,
+   "text": "Она всегда хотела стать учителем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1326.9,
+   "end": 1330.0,
+   "text": "Она всегда хотела быть учителем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1334.72,
+   "end": 1336.68,
+   "text": "She's always wanted to be a teacher",
+   "lang": "en"
+  },
+  {
+   "start": 1341.34,
+   "end": 1345.2,
+   "text": "Скажите еще раз, что она всегда хотела быть учителем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1349.34,
+   "end": 1351.52,
+   "text": "She's always wanted to be a teacher.",
+   "lang": "ru"
+  },
+  {
+   "start": 1355.76,
+   "end": 1357.64,
+   "text": "Your acquaintance says...",
+   "lang": "ru"
+  },
+  {
+   "start": 1358.28,
+   "end": 1359.7,
+   "text": "Одна из моих племянниц.",
+   "lang": "ru"
+  },
+  {
+   "start": 1362.94,
+   "end": 1364.44,
+   "text": "One of my nieces.",
+   "lang": "ru"
+  },
+  {
+   "start": 1368.12,
+   "end": 1368.84,
+   "text": "Nieces.",
+   "lang": "ru"
+  },
+  {
+   "start": 1369.34,
+   "end": 1373.54,
+   "text": "One of my nieces.",
+   "lang": "ru"
+  },
+  {
+   "start": 1376.3,
+   "end": 1378.1,
+   "text": "Учительница истории",
+   "lang": "ru"
+  },
+  {
+   "start": 1381.1,
+   "end": 1382.56,
+   "text": "is a history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 1385.02,
+   "end": 1388.94,
+   "text": "А в свое свободное время",
+   "lang": "ru"
+  },
+  {
+   "start": 1392.48,
+   "end": 1394.34,
+   "text": "И в ее spare time",
+   "lang": "ru"
+  },
+  {
+   "start": 1397.88,
+   "end": 1399.34,
+   "text": "In her spare time",
+   "lang": "en"
+  },
+  {
+   "start": 1401.54,
+   "end": 1405.24,
+   "text": "Она изучает испанский язык.",
+   "lang": "ru"
+  },
+  {
+   "start": 1408.14,
+   "end": 1410.28,
+   "text": "She's studying Spanish.",
+   "lang": "ru"
+  },
+  {
+   "start": 1413.54,
+   "end": 1415.16,
+   "text": "She's studying Spanish.",
+   "lang": "ru"
+  },
+  {
+   "start": 1415.16,
+   "end": 1415.5,
+   "text": "Spanish",
+   "lang": "en"
+  },
+  {
+   "start": 1418.48,
+   "end": 1421.44,
+   "text": "Now he asks, А ваш сын?",
+   "lang": "ru"
+  },
+  {
+   "start": 1424.06,
+   "end": 1425.48,
+   "text": "And your son?",
+   "lang": "ru"
+  },
+  {
+   "start": 1428.82,
+   "end": 1433.26,
+   "text": "Имея в виду работу вашего сына, он спрашивает, чем он занимается.",
+   "lang": "ru"
+  },
+  {
+   "start": 1435.68,
+   "end": 1437.08,
+   "text": "What does he do?",
+   "lang": "ru"
+  },
+  {
+   "start": 1437.08,
+   "end": 1440.86,
+   "text": "Что он делает?",
+   "lang": "ru"
+  },
+  {
+   "start": 1443.26,
+   "end": 1445.74,
+   "text": "Говори, что он в колледже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1448.16,
+   "end": 1455.74,
+   "text": "Он хочет стать программистом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1456.3,
+   "end": 1457.54,
+   "text": "Компьютерным программистом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1457.58,
+   "end": 1459.78,
+   "text": "Но слово компьютерный мы будем опускать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1459.8,
+   "end": 1461.84,
+   "text": "Сначала скажите программист.",
+   "lang": "ru"
+  },
+  {
+   "start": 1462.02,
+   "end": 1463.42,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1464.02,
+   "end": 1465.14,
+   "text": "Программер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1468.36,
+   "end": 1471.92,
+   "text": "грамм грамм мэр",
+   "lang": "ru"
+  },
+  {
+   "start": 1474.12,
+   "end": 1477.06,
+   "text": "про грам мэр",
+   "lang": "ru"
+  },
+  {
+   "start": 1480.74,
+   "end": 1482.14,
+   "text": "программэр",
+   "lang": "ru"
+  },
+  {
+   "start": 1483.64,
+   "end": 1486.0,
+   "text": "Теперь компьютер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1487.98,
+   "end": 1489.38,
+   "text": "компьютер",
+   "lang": "ru"
+  },
+  {
+   "start": 1491.36,
+   "end": 1493.74,
+   "text": "Ком-пью-тер",
+   "lang": "ru"
+  },
+  {
+   "start": 1498.26,
+   "end": 1499.54,
+   "text": "Компьютер",
+   "lang": "ru"
+  },
+  {
+   "start": 1501.32,
+   "end": 1503.24,
+   "text": "Компьютер-программер",
+   "lang": "ru"
+  },
+  {
+   "start": 1505.92,
+   "end": 1507.5,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1507.76,
+   "end": 1510.92,
+   "text": "Компьютерный программист или просто программист.",
+   "lang": "ru"
+  },
+  {
+   "start": 1510.92,
+   "end": 1512.84,
+   "text": "Будьте внимательны к произношению.",
+   "lang": "ru"
+  },
+  {
+   "start": 1515.9,
+   "end": 1517.82,
+   "text": "Компьютер-программер",
+   "lang": "ru"
+  },
+  {
+   "start": 1520.7,
+   "end": 1522.1,
+   "text": "программер",
+   "lang": "ru"
+  },
+  {
+   "start": 1522.1,
+   "end": 1532.46,
+   "text": "Он хочет быть программистом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1532.46,
+   "end": 1539.08,
+   "text": "He wants to be a computer programmer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1539.08,
+   "end": 1539.28,
+   "text": "grammar.",
+   "lang": "en"
+  },
+  {
+   "start": 1543.88,
+   "end": 1545.18,
+   "text": "Моя дочь",
+   "lang": "ru"
+  },
+  {
+   "start": 1545.18,
+   "end": 1548.76,
+   "text": "My daughter",
+   "lang": "ru"
+  },
+  {
+   "start": 1551.22,
+   "end": 1554.54,
+   "text": "хочет быть учителем истории в средней школе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1560.1,
+   "end": 1562.46,
+   "text": "wants to be a high school history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 1567.92,
+   "end": 1569.78,
+   "text": "A high school history teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 1572.04,
+   "end": 1576.3,
+   "text": "Она всегда хотела стать учителем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1580.72,
+   "end": 1582.52,
+   "text": "She's always wanted to be a teacher.",
+   "lang": "en"
+  },
+  {
+   "start": 1585.64,
+   "end": 1587.74,
+   "text": "А мой сын?",
+   "lang": "ru"
+  },
+  {
+   "start": 1590.52,
+   "end": 1591.56,
+   "text": "And my son?",
+   "lang": "en"
+  },
+  {
+   "start": 1593.72,
+   "end": 1596.14,
+   "text": "Хочет быть программистом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1600.08,
+   "end": 1602.14,
+   "text": "Wants to be a computer programmer.",
+   "lang": "en"
+  },
+  {
+   "start": 1606.3,
+   "end": 1608.64,
+   "text": "Say that he's always liked computers.",
+   "lang": "en"
+  },
+  {
+   "start": 1612.86,
+   "end": 1614.52,
+   "text": "He's always liked computers.",
+   "lang": "en"
+  },
+  {
+   "start": 1614.54,
+   "end": 1615.02,
+   "text": "Компьютеры.",
+   "lang": "ru"
+  },
+  {
+   "start": 1619.04,
+   "end": 1619.88,
+   "text": "Компьютеры.",
+   "lang": "ru"
+  },
+  {
+   "start": 1622.18,
+   "end": 1623.7,
+   "text": "Он любил.",
+   "lang": "ru"
+  },
+  {
+   "start": 1626.02,
+   "end": 1627.56,
+   "text": "Он любил.",
+   "lang": "ru"
+  },
+  {
+   "start": 1630.1,
+   "end": 1632.28,
+   "text": "Он всегда любил компьютеры.",
+   "lang": "ru"
+  },
+  {
+   "start": 1636.2,
+   "end": 1638.84,
+   "text": "Сэй, ему также нравится спорт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1642.3,
+   "end": 1644.26,
+   "text": "Он любит спорт, тоже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1647.58,
+   "end": 1652.14,
+   "text": "Ваша дочь занимается каким-нибудь спортом?",
+   "lang": "ru"
+  },
+  {
+   "start": 1656.42,
+   "end": 1658.58,
+   "text": "Does your daughter play any sports?",
+   "lang": "en"
+  },
+  {
+   "start": 1670.38,
+   "end": 1671.94,
+   "text": "Ответьте кратко, что нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1674.64,
+   "end": 1680.6,
+   "text": "Нет, она не играет в спорт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1680.6,
+   "end": 1680.92,
+   "text": "Sports.",
+   "lang": "en"
+  },
+  {
+   "start": 1684.18,
+   "end": 1688.64,
+   "text": "Теперь он говорит, что неподалеку есть интересная церковь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1693.0,
+   "end": 1695.24,
+   "text": "Небесная церковь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1695.24,
+   "end": 1695.66,
+   "text": "nearby",
+   "lang": "en"
+  },
+  {
+   "start": 1700.8,
+   "end": 1702.48,
+   "text": "Небесная церковь.",
+   "lang": "ru"
+  },
+  {
+   "start": 1705.36,
+   "end": 1708.14,
+   "text": "Мы можем сходить посмотреть ее попозже.",
+   "lang": "ru"
+  },
+  {
+   "start": 1711.58,
+   "end": 1713.3,
+   "text": "We can go see it later.",
+   "lang": "en"
+  },
+  {
+   "start": 1717.0,
+   "end": 1718.46,
+   "text": "On the way to the church.",
+   "lang": "en"
+  },
+  {
+   "start": 1718.78,
+   "end": 1720.98,
+   "text": "Какой замечательный день!",
+   "lang": "ru"
+  },
+  {
+   "start": 1723.96,
+   "end": 1725.22,
+   "text": "What a nice day!",
+   "lang": "en"
+  },
+  {
+   "start": 1728.08,
+   "end": 1731.52,
+   "text": "You see a garden. Ask what kind of flowers they are.",
+   "lang": "en"
+  },
+  {
+   "start": 1735.62,
+   "end": 1737.4,
+   "text": "What kind of flowers are they?",
+   "lang": "en"
+  },
+  {
+   "start": 1741.44,
+   "end": 1743.22,
+   "text": "What kind of flowers are they?",
+   "lang": "en"
+  },
+  {
+   "start": 1747.06,
+   "end": 1750.08,
+   "text": "Я не знаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1752.58,
+   "end": 1753.58,
+   "text": "I don't know.",
+   "lang": "en"
+  },
+  {
+   "start": 1755.46,
+   "end": 1761.34,
+   "text": "Мой сын ищет работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1761.34,
+   "end": 1761.52,
+   "text": "Boto.",
+   "lang": "en"
+  },
+  {
+   "start": 1765.54,
+   "end": 1768.04,
+   "text": "My son is looking for a job.",
+   "lang": "ru"
+  },
+  {
+   "start": 1772.4,
+   "end": 1774.1,
+   "text": "Ask. Какую работу?",
+   "lang": "ru"
+  },
+  {
+   "start": 1777.04,
+   "end": 1778.34,
+   "text": "What kind of job?",
+   "lang": "ru"
+  },
+  {
+   "start": 1780.92,
+   "end": 1783.08,
+   "text": "What kind of job is he looking for?",
+   "lang": "ru"
+  },
+  {
+   "start": 1787.5,
+   "end": 1789.68,
+   "text": "He says. Он ищет работу.",
+   "lang": "ru"
+  },
+  {
+   "start": 1792.2,
+   "end": 1795.24,
+   "text": "Он хочет работать",
+   "lang": "ru"
+  },
+  {
+   "start": 1795.24,
+   "end": 1795.6,
+   "text": "job.",
+   "lang": "en"
+  },
+  {
+   "start": 1799.68,
+   "end": 1801.18,
+   "text": "Учителя средней школы",
+   "lang": "ru"
+  },
+  {
+   "start": 1803.68,
+   "end": 1805.28,
+   "text": "As a high school teacher",
+   "lang": "en"
+  },
+  {
+   "start": 1810.7,
+   "end": 1814.92,
+   "text": "Он всегда хотел стать учителем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1819.28,
+   "end": 1821.2,
+   "text": "He's always wanted to be a teacher",
+   "lang": "en"
+  },
+  {
+   "start": 1823.62,
+   "end": 1828.54,
+   "text": "А моя дочь хочет стать программистом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1833.92,
+   "end": 1836.78,
+   "text": "And my daughter wants to be a computer programmer",
+   "lang": "en"
+  },
+  {
+   "start": 1839.46,
+   "end": 1843.2,
+   "text": "Это конец 25-го урока.",
+   "lang": "ru"
+  }
+ ]
+}

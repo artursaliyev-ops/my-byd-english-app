@@ -1,0 +1,2307 @@
+{
+ "id": "III_07",
+ "source": "Pimsleur_III_07.mp3",
+ "duration": 1768.67,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 151,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 10.44,
+   "text": "I'd be the world's rover for many years. I'd spend all my young with C&B and X-A-M-S-L.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.16,
+   "end": 19.06,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем",
+   "lang": "ru"
+  },
+  {
+   "start": 20.82,
+   "end": 27.64,
+   "text": "седьмой урок третьего уровня американского английского языка по методу доктора Пимслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 27.64,
+   "end": 30.24,
+   "text": "Слушайте эту разговор в ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 31.12,
+   "end": 34.2,
+   "text": "Good evening. Here's the menu and our wine list.",
+   "lang": "en"
+  },
+  {
+   "start": 34.46,
+   "end": 36.4,
+   "text": "Thank you. What do you recommend tonight?",
+   "lang": "en"
+  },
+  {
+   "start": 36.8,
+   "end": 38.4,
+   "text": "The steak is always very good.",
+   "lang": "en"
+  },
+  {
+   "start": 38.64,
+   "end": 40.56,
+   "text": "All right. Then I'd like to order the steak.",
+   "lang": "en"
+  },
+  {
+   "start": 40.8,
+   "end": 41.98,
+   "text": "And something to drink?",
+   "lang": "en"
+  },
+  {
+   "start": 42.3,
+   "end": 48.36,
+   "text": "Yes. I'd like a glass of red wine, maybe the Cabernet Sauvignon, and a glass of water, too, please.",
+   "lang": "en"
+  },
+  {
+   "start": 49.42,
+   "end": 50.18,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 51.34,
+   "end": 54.36,
+   "text": "Good evening. Here's the menu and our wine list.",
+   "lang": "en"
+  },
+  {
+   "start": 54.58,
+   "end": 56.6,
+   "text": "Thank you. What do you recommend tonight?",
+   "lang": "en"
+  },
+  {
+   "start": 56.92,
+   "end": 58.58,
+   "text": "The steak is always very good.",
+   "lang": "en"
+  },
+  {
+   "start": 60.24,
+   "end": 66.4,
+   "text": "order the steak. And something to drink? Yes, I'd like a glass of red wine, maybe the Cabernet Sauvignon,",
+   "lang": "en"
+  },
+  {
+   "start": 66.54,
+   "end": 68.48,
+   "text": "and a glass of water too, please.",
+   "lang": "en"
+  },
+  {
+   "start": 69.14,
+   "end": 73.7,
+   "text": "Представьте, что вы находитесь в ресторане с одной своей знакомой.",
+   "lang": "ru"
+  },
+  {
+   "start": 74.08,
+   "end": 76.36,
+   "text": "Официантка подходит к вашему столику.",
+   "lang": "ru"
+  },
+  {
+   "start": 77.02,
+   "end": 78.58,
+   "text": "Сейчас ранний вечер.",
+   "lang": "ru"
+  },
+  {
+   "start": 79.2,
+   "end": 80.38,
+   "text": "Как она вас поприветствует?",
+   "lang": "ru"
+  },
+  {
+   "start": 82.24,
+   "end": 83.12,
+   "text": "Good evening.",
+   "lang": "en"
+  },
+  {
+   "start": 85.26,
+   "end": 86.12,
+   "text": "Good evening.",
+   "lang": "en"
+  },
+  {
+   "start": 88.34,
+   "end": 90.9,
+   "text": "Вот меню.",
+   "lang": "ru"
+  },
+  {
+   "start": 93.98,
+   "end": 95.1,
+   "text": "Here's the menu.",
+   "lang": "en"
+  },
+  {
+   "start": 98.42,
+   "end": 101.76,
+   "text": "Вы готовы сделать заказ?",
+   "lang": "ru"
+  },
+  {
+   "start": 104.66,
+   "end": 105.98,
+   "text": "Are you ready to order?",
+   "lang": "en"
+  },
+  {
+   "start": 112.64,
+   "end": 114.7,
+   "text": "Ответьте кратко, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 117.2,
+   "end": 118.68,
+   "text": "Yes we are",
+   "lang": "en"
+  },
+  {
+   "start": 121.02,
+   "end": 122.58,
+   "text": "Yes we are",
+   "lang": "en"
+  },
+  {
+   "start": 124.58,
+   "end": 127.28,
+   "text": "Мы готовы сделать заказ.",
+   "lang": "ru"
+  },
+  {
+   "start": 130.04,
+   "end": 131.32,
+   "text": "We're ready to order.",
+   "lang": "en"
+  },
+  {
+   "start": 133.94,
+   "end": 137.52,
+   "text": "Для начала нам бы хотелось немного красного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 141.62,
+   "end": 143.48,
+   "text": "First we'd like some red wine.",
+   "lang": "en"
+  },
+  {
+   "start": 147.64,
+   "end": 149.38,
+   "text": "Ask her which one she recommends.",
+   "lang": "ru"
+  },
+  {
+   "start": 152.9,
+   "end": 154.38,
+   "text": "Which one do you recommend?",
+   "lang": "ru"
+  },
+  {
+   "start": 154.38,
+   "end": 154.62,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 157.86,
+   "end": 158.74,
+   "text": "Which one?",
+   "lang": "ru"
+  },
+  {
+   "start": 161.26,
+   "end": 162.84,
+   "text": "Which one do you recommend?",
+   "lang": "ru"
+  },
+  {
+   "start": 166.84,
+   "end": 170.8,
+   "text": "Показывая карту Вин, она говорит, это очень хорошее.",
+   "lang": "ru"
+  },
+  {
+   "start": 173.66,
+   "end": 175.18,
+   "text": "This one is very good.",
+   "lang": "ru"
+  },
+  {
+   "start": 178.18,
+   "end": 179.74,
+   "text": "This one is very good.",
+   "lang": "en"
+  },
+  {
+   "start": 181.74,
+   "end": 185.04,
+   "text": "Но я предпочитаю это.",
+   "lang": "ru"
+  },
+  {
+   "start": 188.12,
+   "end": 190.06,
+   "text": "But I prefer this one.",
+   "lang": "en"
+  },
+  {
+   "start": 193.42,
+   "end": 194.94,
+   "text": "I prefer this one.",
+   "lang": "en"
+  },
+  {
+   "start": 198.6,
+   "end": 202.22,
+   "text": "Хорошо, тогда давайте закажем это вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 206.54,
+   "end": 207.2,
+   "text": "All right.",
+   "lang": "en"
+  },
+  {
+   "start": 207.64,
+   "end": 208.92,
+   "text": "Then let's order this wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 213.4,
+   "end": 214.92,
+   "text": "Let's order this wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 218.72,
+   "end": 219.3,
+   "text": "И бифштекс.",
+   "lang": "ru"
+  },
+  {
+   "start": 221.7,
+   "end": 222.78,
+   "text": "And the steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 225.4,
+   "end": 226.5,
+   "text": "And the steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 229.32,
+   "end": 231.6,
+   "text": "Официантка спрашивает, бутылку вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 234.24,
+   "end": 235.68,
+   "text": "A bottle of wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 238.44,
+   "end": 239.84,
+   "text": "A bottle of wine?",
+   "lang": "en"
+  },
+  {
+   "start": 242.34,
+   "end": 245.12,
+   "text": "Нет, это слишком много.",
+   "lang": "ru"
+  },
+  {
+   "start": 248.46,
+   "end": 249.94,
+   "text": "No, that's too much.",
+   "lang": "en"
+  },
+  {
+   "start": 251.4,
+   "end": 255.26,
+   "text": "Мы можем заказать полбутылки.",
+   "lang": "ru"
+  },
+  {
+   "start": 255.46,
+   "end": 256.7,
+   "text": "Полбутылки.",
+   "lang": "ru"
+  },
+  {
+   "start": 256.7,
+   "end": 257.98,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 259.18,
+   "end": 259.86,
+   "text": "A half bottle.",
+   "lang": "en"
+  },
+  {
+   "start": 262.84,
+   "end": 263.5,
+   "text": "Half.",
+   "lang": "en"
+  },
+  {
+   "start": 265.96,
+   "end": 266.62,
+   "text": "Half.",
+   "lang": "en"
+  },
+  {
+   "start": 269.1,
+   "end": 270.46,
+   "text": "A half bottle.",
+   "lang": "en"
+  },
+  {
+   "start": 273.88,
+   "end": 275.58,
+   "text": "полбутылки вина",
+   "lang": "ru"
+  },
+  {
+   "start": 275.58,
+   "end": 277.36,
+   "text": "Дословно, половину.",
+   "lang": "ru"
+  },
+  {
+   "start": 280.64,
+   "end": 282.58,
+   "text": "A half bottle of wine",
+   "lang": "en"
+  },
+  {
+   "start": 285.4,
+   "end": 287.7,
+   "text": "A half bottle of wine",
+   "lang": "en"
+  },
+  {
+   "start": 291.34,
+   "end": 294.22,
+   "text": "Мы можем заказать полбутылки?",
+   "lang": "ru"
+  },
+  {
+   "start": 298.14,
+   "end": 299.86,
+   "text": "Can we order a half bottle?",
+   "lang": "en"
+  },
+  {
+   "start": 302.3,
+   "end": 305.52,
+   "text": "Как она кратко ответит, да.",
+   "lang": "ru"
+  },
+  {
+   "start": 308.56,
+   "end": 309.54,
+   "text": "Yes, you can.",
+   "lang": "en"
+  },
+  {
+   "start": 311.0,
+   "end": 314.42,
+   "text": "Вы можете заказать полбутылки.",
+   "lang": "ru"
+  },
+  {
+   "start": 317.6,
+   "end": 319.46,
+   "text": "You can order a half bottle.",
+   "lang": "en"
+  },
+  {
+   "start": 322.6,
+   "end": 324.2,
+   "text": "этого вина",
+   "lang": "ru"
+  },
+  {
+   "start": 326.96,
+   "end": 328.12,
+   "text": "of that wine,",
+   "lang": "en"
+  },
+  {
+   "start": 330.76,
+   "end": 332.76,
+   "text": "a half bottle of that wine,",
+   "lang": "en"
+  },
+  {
+   "start": 335.76,
+   "end": 339.0,
+   "text": "немного позже она приносит вам ваше вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 339.04,
+   "end": 342.38,
+   "text": "Что вы можете сказать, поднимая ваш бокал?",
+   "lang": "ru"
+  },
+  {
+   "start": 344.42,
+   "end": 345.18,
+   "text": "Cheers!",
+   "lang": "ru"
+  },
+  {
+   "start": 347.52,
+   "end": 348.28,
+   "text": "Cheers!",
+   "lang": "ru"
+  },
+  {
+   "start": 350.52,
+   "end": 352.5,
+   "text": "Now your acquaintance asks,",
+   "lang": "ru"
+  },
+  {
+   "start": 352.66,
+   "end": 354.84,
+   "text": "Где вы научились говорить по-английски?",
+   "lang": "ru"
+  },
+  {
+   "start": 358.52,
+   "end": 360.7,
+   "text": "Where did you learn to speak English?",
+   "lang": "ru"
+  },
+  {
+   "start": 360.7,
+   "end": 360.9,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 364.7,
+   "end": 366.82,
+   "text": "Where did you learn to speak English?",
+   "lang": "ru"
+  },
+  {
+   "start": 370.82,
+   "end": 371.58,
+   "text": "Say,",
+   "lang": "ru"
+  },
+  {
+   "start": 371.82,
+   "end": 374.28,
+   "text": "Я выучил английский язык в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 374.42,
+   "end": 379.54,
+   "text": "I learned English in Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 383.28,
+   "end": 385.96,
+   "text": "Tell her that you studied it for a long time.",
+   "lang": "ru"
+  },
+  {
+   "start": 385.96,
+   "end": 386.22,
+   "text": "time.",
+   "lang": "en"
+  },
+  {
+   "start": 390.06,
+   "end": 392.04,
+   "text": "I studied it for a long time.",
+   "lang": "ru"
+  },
+  {
+   "start": 396.12,
+   "end": 397.08,
+   "text": "She says,",
+   "lang": "ru"
+  },
+  {
+   "start": 397.26,
+   "end": 399.12,
+   "text": "Ну, ваш английский очень хорош.",
+   "lang": "ru"
+  },
+  {
+   "start": 402.96,
+   "end": 405.44,
+   "text": "Ну, твоё английское очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 405.44,
+   "end": 405.64,
+   "text": "Good.",
+   "lang": "en"
+  },
+  {
+   "start": 409.46,
+   "end": 410.34,
+   "text": "Скажи.",
+   "lang": "ru"
+  },
+  {
+   "start": 410.52,
+   "end": 413.48,
+   "text": "Благодарю. Но английский непростой.",
+   "lang": "ru"
+  },
+  {
+   "start": 417.98,
+   "end": 420.7,
+   "text": "Спасибо. Но английский не простой.",
+   "lang": "ru"
+  },
+  {
+   "start": 424.68,
+   "end": 428.56,
+   "text": "Я немного говорю по-испански.",
+   "lang": "ru"
+  },
+  {
+   "start": 431.86,
+   "end": 433.7,
+   "text": "I speak a little Spanish.",
+   "lang": "en"
+  },
+  {
+   "start": 435.8,
+   "end": 439.56,
+   "text": "Я изучала его в университете.",
+   "lang": "ru"
+  },
+  {
+   "start": 442.3,
+   "end": 444.06,
+   "text": "I learned it in college.",
+   "lang": "ru"
+  },
+  {
+   "start": 447.26,
+   "end": 448.86,
+   "text": "I learned it in college.",
+   "lang": "en"
+  },
+  {
+   "start": 452.58,
+   "end": 454.98,
+   "text": "Испанский такой же сложный, как и английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 459.26,
+   "end": 461.36,
+   "text": "Spanish is as difficult as English.",
+   "lang": "ru"
+  },
+  {
+   "start": 461.36,
+   "end": 461.52,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 465.92,
+   "end": 467.68,
+   "text": "Ask. Вы так думаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 469.56,
+   "end": 471.52,
+   "text": "Do you think so?",
+   "lang": "ru"
+  },
+  {
+   "start": 471.52,
+   "end": 471.7,
+   "text": "So?",
+   "lang": "en"
+  },
+  {
+   "start": 474.6,
+   "end": 477.32,
+   "text": "Say. Я думаю, что испанский язык легче.",
+   "lang": "ru"
+  },
+  {
+   "start": 480.78,
+   "end": 483.0,
+   "text": "I think Spanish is easier.",
+   "lang": "ru"
+  },
+  {
+   "start": 483.0,
+   "end": 483.18,
+   "text": "easier.",
+   "lang": "en"
+  },
+  {
+   "start": 486.68,
+   "end": 487.48,
+   "text": "Easier.",
+   "lang": "ru"
+  },
+  {
+   "start": 489.32,
+   "end": 494.58,
+   "text": "Теперь вы разговариваете о ваших семьях. Она говорит, мой брат инженер.",
+   "lang": "ru"
+  },
+  {
+   "start": 497.9,
+   "end": 499.8,
+   "text": "My brother's an engineer.",
+   "lang": "en"
+  },
+  {
+   "start": 502.9,
+   "end": 506.26,
+   "text": "Он работает в одной большой компании в Сиэтле.",
+   "lang": "ru"
+  },
+  {
+   "start": 510.38,
+   "end": 513.3,
+   "text": "He works for a big company in Seattle.",
+   "lang": "en"
+  },
+  {
+   "start": 517.8,
+   "end": 520.06,
+   "text": "Я его не видела уже очень давно.",
+   "lang": "ru"
+  },
+  {
+   "start": 524.58,
+   "end": 527.0,
+   "text": "I haven't seen him for a long time.",
+   "lang": "ru"
+  },
+  {
+   "start": 531.38,
+   "end": 532.7,
+   "text": "Later you say,",
+   "lang": "ru"
+  },
+  {
+   "start": 532.86,
+   "end": 534.96,
+   "text": "Мне бы хотелось кусочек торта.",
+   "lang": "ru"
+  },
+  {
+   "start": 538.02,
+   "end": 539.74,
+   "text": "I'd like a piece of cake.",
+   "lang": "ru"
+  },
+  {
+   "start": 543.0,
+   "end": 544.68,
+   "text": "Ask your acquaintance,",
+   "lang": "ru"
+  },
+  {
+   "start": 544.68,
+   "end": 545.3,
+   "text": "А вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 547.44,
+   "end": 548.34,
+   "text": "And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 551.1,
+   "end": 551.62,
+   "text": "She says,",
+   "lang": "ru"
+  },
+  {
+   "start": 551.84,
+   "end": 553.62,
+   "text": "Я предпочитаю мороженое.",
+   "lang": "ru"
+  },
+  {
+   "start": 556.8,
+   "end": 558.32,
+   "text": "I prefer ice cream.",
+   "lang": "en"
+  },
+  {
+   "start": 560.56,
+   "end": 563.74,
+   "text": "Мне бы хотелось шоколадное мороженое.",
+   "lang": "ru"
+  },
+  {
+   "start": 567.96,
+   "end": 570.18,
+   "text": "I'd like a dish of chocolate ice cream.",
+   "lang": "ru"
+  },
+  {
+   "start": 574.52,
+   "end": 576.52,
+   "text": "A dish of chocolate ice cream.",
+   "lang": "ru"
+  },
+  {
+   "start": 580.2,
+   "end": 584.74,
+   "text": "Вы делаете свой заказ, а потом говорите. И два кофе, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 588.78,
+   "end": 590.56,
+   "text": "And two coffees, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 593.6,
+   "end": 595.82,
+   "text": "Two coffees",
+   "lang": "en"
+  },
+  {
+   "start": 597.6,
+   "end": 602.12,
+   "text": "Сейчас вы услышите, как попросить счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 603.18,
+   "end": 605.24,
+   "text": "Попросите счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 608.24,
+   "end": 608.98,
+   "text": "Check",
+   "lang": "en"
+  },
+  {
+   "start": 613.52,
+   "end": 614.98,
+   "text": "The check, please",
+   "lang": "en"
+  },
+  {
+   "start": 622.6,
+   "end": 624.08,
+   "text": "The check, please",
+   "lang": "en"
+  },
+  {
+   "start": 627.5,
+   "end": 631.32,
+   "text": "Официантка дала вам счет. Скажите, 60 долларов?",
+   "lang": "ru"
+  },
+  {
+   "start": 634.18,
+   "end": 635.92,
+   "text": "It's $60.",
+   "lang": "en"
+  },
+  {
+   "start": 638.8,
+   "end": 640.6,
+   "text": "It's $60.",
+   "lang": "en"
+  },
+  {
+   "start": 643.32,
+   "end": 650.98,
+   "text": "В Соединенных Штатах обычно к счету добавляют чаевые в размере 15% от суммы счета.",
+   "lang": "ru"
+  },
+  {
+   "start": 651.02,
+   "end": 654.86,
+   "text": "На этот раз вы оставляете 70 долларов.",
+   "lang": "ru"
+  },
+  {
+   "start": 655.12,
+   "end": 658.94,
+   "text": "Как только вы собрались уходить, официантка говорит, большое спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 658.94,
+   "end": 663.48,
+   "text": "Thank you very much.",
+   "lang": "en"
+  },
+  {
+   "start": 668.52,
+   "end": 675.62,
+   "text": "Вы не можете найти свои записи для встречи. Вы хотите спросить у коллеги, не видела ли она их.",
+   "lang": "ru"
+  },
+  {
+   "start": 675.62,
+   "end": 677.02,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 678.2,
+   "end": 679.18,
+   "text": "Have you seen my notes?",
+   "lang": "en"
+  },
+  {
+   "start": 682.6,
+   "end": 683.24,
+   "text": "Notes.",
+   "lang": "en"
+  },
+  {
+   "start": 685.72,
+   "end": 686.36,
+   "text": "Notes.",
+   "lang": "en"
+  },
+  {
+   "start": 688.86,
+   "end": 689.86,
+   "text": "My notes.",
+   "lang": "en"
+  },
+  {
+   "start": 692.1,
+   "end": 693.74,
+   "text": "Have you seen my notes?",
+   "lang": "en"
+  },
+  {
+   "start": 696.42,
+   "end": 698.8,
+   "text": "Сэй, записи.",
+   "lang": "ru"
+  },
+  {
+   "start": 698.8,
+   "end": 701.58,
+   "text": "Notes",
+   "lang": "en"
+  },
+  {
+   "start": 701.58,
+   "end": 703.64,
+   "text": "Notes",
+   "lang": "en"
+  },
+  {
+   "start": 704.92,
+   "end": 708.66,
+   "text": "Я ищу свои записи.",
+   "lang": "ru"
+  },
+  {
+   "start": 712.16,
+   "end": 713.84,
+   "text": "I'm looking for my notes.",
+   "lang": "ru"
+  },
+  {
+   "start": 717.32,
+   "end": 718.76,
+   "text": "I'm looking for my notes.",
+   "lang": "en"
+  },
+  {
+   "start": 721.94,
+   "end": 723.4,
+   "text": "Вы видели их?",
+   "lang": "ru"
+  },
+  {
+   "start": 725.86,
+   "end": 727.04,
+   "text": "Have you seen them?",
+   "lang": "ru"
+  },
+  {
+   "start": 729.72,
+   "end": 733.34,
+   "text": "Your colleague says, Да, я видел их сегодня утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 737.04,
+   "end": 738.96,
+   "text": "Yes, I saw them this morning.",
+   "lang": "ru"
+  },
+  {
+   "start": 738.96,
+   "end": 742.7,
+   "text": "Thank you for listening.",
+   "lang": "en"
+  },
+  {
+   "start": 742.84,
+   "end": 744.48,
+   "text": "I saw them this morning.",
+   "lang": "ru"
+  },
+  {
+   "start": 747.62,
+   "end": 751.84,
+   "text": "She wants to say, они были на столе в моем офисе.",
+   "lang": "ru"
+  },
+  {
+   "start": 752.04,
+   "end": 753.18,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 753.88,
+   "end": 754.68,
+   "text": "They were.",
+   "lang": "ru"
+  },
+  {
+   "start": 756.86,
+   "end": 757.44,
+   "text": "Were.",
+   "lang": "ru"
+  },
+  {
+   "start": 759.54,
+   "end": 760.12,
+   "text": "Were.",
+   "lang": "ru"
+  },
+  {
+   "start": 762.28,
+   "end": 763.06,
+   "text": "They were.",
+   "lang": "en"
+  },
+  {
+   "start": 763.86,
+   "end": 767.58,
+   "text": "Сейчас скажите на столе.",
+   "lang": "ru"
+  },
+  {
+   "start": 767.58,
+   "end": 768.84,
+   "text": "Слышите и повторяйте.",
+   "lang": "ru"
+  },
+  {
+   "start": 768.84,
+   "end": 780.46,
+   "text": "again on the table table table the table",
+   "lang": "en"
+  },
+  {
+   "start": 783.76,
+   "end": 790.16,
+   "text": "on on on the table",
+   "lang": "en"
+  },
+  {
+   "start": 793.42,
+   "end": 794.44,
+   "text": "say, stool",
+   "lang": "en"
+  },
+  {
+   "start": 795.96,
+   "end": 797.32,
+   "text": "table",
+   "lang": "en"
+  },
+  {
+   "start": 798.64,
+   "end": 802.0,
+   "text": "Они были на столе.",
+   "lang": "ru"
+  },
+  {
+   "start": 805.02,
+   "end": 806.7,
+   "text": "They were on the table.",
+   "lang": "ru"
+  },
+  {
+   "start": 809.84,
+   "end": 811.16,
+   "text": "They were on the table.",
+   "lang": "en"
+  },
+  {
+   "start": 814.46,
+   "end": 816.42,
+   "text": "Ваши записи были на столе.",
+   "lang": "ru"
+  },
+  {
+   "start": 819.22,
+   "end": 821.08,
+   "text": "Your notes were on the table.",
+   "lang": "ru"
+  },
+  {
+   "start": 824.14,
+   "end": 825.78,
+   "text": "Your notes were on the table.",
+   "lang": "en"
+  },
+  {
+   "start": 828.46,
+   "end": 830.44,
+   "text": "В моем офисе.",
+   "lang": "ru"
+  },
+  {
+   "start": 832.84,
+   "end": 833.84,
+   "text": "in my office.",
+   "lang": "en"
+  },
+  {
+   "start": 836.24,
+   "end": 841.12,
+   "text": "Она сходила за ними и отдала вам, говоря, вот ваши записи.",
+   "lang": "ru"
+  },
+  {
+   "start": 844.32,
+   "end": 845.54,
+   "text": "Here are your notes.",
+   "lang": "en"
+  },
+  {
+   "start": 849.02,
+   "end": 849.84,
+   "text": "Here they are.",
+   "lang": "en"
+  },
+  {
+   "start": 852.34,
+   "end": 854.96,
+   "text": "Я знаю, что это ваши записи.",
+   "lang": "ru"
+  },
+  {
+   "start": 857.92,
+   "end": 859.84,
+   "text": "I know they're your notes.",
+   "lang": "en"
+  },
+  {
+   "start": 866.82,
+   "end": 870.14,
+   "text": "Потому что они на испанском.",
+   "lang": "ru"
+  },
+  {
+   "start": 873.32,
+   "end": 874.82,
+   "text": "because they're in Spanish.",
+   "lang": "en"
+  },
+  {
+   "start": 877.96,
+   "end": 881.58,
+   "text": "Да, я всегда пишу на испанском.",
+   "lang": "ru"
+  },
+  {
+   "start": 886.28,
+   "end": 888.72,
+   "text": "Yes, I always write in Spanish.",
+   "lang": "en"
+  },
+  {
+   "start": 891.86,
+   "end": 895.94,
+   "text": "потому что английский непростой.",
+   "lang": "ru"
+  },
+  {
+   "start": 899.7,
+   "end": 901.64,
+   "text": "Because English isn't easy.",
+   "lang": "ru"
+  },
+  {
+   "start": 905.64,
+   "end": 907.22,
+   "text": "Английский язык сложный.",
+   "lang": "ru"
+  },
+  {
+   "start": 910.2,
+   "end": 911.58,
+   "text": "English is difficult.",
+   "lang": "ru"
+  },
+  {
+   "start": 914.78,
+   "end": 915.86,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 916.42,
+   "end": 918.12,
+   "text": "Испанский язык легче для меня.",
+   "lang": "ru"
+  },
+  {
+   "start": 922.16,
+   "end": 924.02,
+   "text": "Spanish is easier for me.",
+   "lang": "ru"
+  },
+  {
+   "start": 928.12,
+   "end": 929.88,
+   "text": "Spanish is easier for me.",
+   "lang": "en"
+  },
+  {
+   "start": 934.08,
+   "end": 937.68,
+   "text": "Просматривая свои записи, вы спрашиваете, где они были?",
+   "lang": "ru"
+  },
+  {
+   "start": 940.76,
+   "end": 941.8,
+   "text": "Where were they?",
+   "lang": "en"
+  },
+  {
+   "start": 947.82,
+   "end": 950.92,
+   "text": "Они были на столе в моем офисе.",
+   "lang": "ru"
+  },
+  {
+   "start": 955.14,
+   "end": 955.84,
+   "text": "They were on",
+   "lang": "en"
+  },
+  {
+   "start": 955.94,
+   "end": 957.16,
+   "text": "On the table in my office.",
+   "lang": "ru"
+  },
+  {
+   "start": 961.44,
+   "end": 963.34,
+   "text": "On the table in my office",
+   "lang": "en"
+  },
+  {
+   "start": 966.56,
+   "end": 969.04,
+   "text": "What can you do? Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 969.94,
+   "end": 970.88,
+   "text": "Under a book.",
+   "lang": "ru"
+  },
+  {
+   "start": 973.8,
+   "end": 974.28,
+   "text": "Under.",
+   "lang": "ru"
+  },
+  {
+   "start": 976.82,
+   "end": 977.3,
+   "text": "Der.",
+   "lang": "ru"
+  },
+  {
+   "start": 979.94,
+   "end": 980.42,
+   "text": "Under.",
+   "lang": "ru"
+  },
+  {
+   "start": 983.72,
+   "end": 984.2,
+   "text": "Under.",
+   "lang": "ru"
+  },
+  {
+   "start": 984.24,
+   "end": 984.58,
+   "text": "Under a book.",
+   "lang": "ru"
+  },
+  {
+   "start": 987.76,
+   "end": 994.86,
+   "text": "say, pod, under, under a book",
+   "lang": "en"
+  },
+  {
+   "start": 997.5,
+   "end": 999.86,
+   "text": "Ваши записи были под книгой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1003.36,
+   "end": 1005.1,
+   "text": "Your notes were under a book.",
+   "lang": "en"
+  },
+  {
+   "start": 1008.86,
+   "end": 1011.16,
+   "text": "Это ваша ручка.",
+   "lang": "ru"
+  },
+  {
+   "start": 1011.22,
+   "end": 1012.38,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1013.36,
+   "end": 1014.36,
+   "text": "Это ваша ручка?",
+   "lang": "ru"
+  },
+  {
+   "start": 1017.02,
+   "end": 1017.98,
+   "text": "Ручка.",
+   "lang": "ru"
+  },
+  {
+   "start": 1020.16,
+   "end": 1020.72,
+   "text": "Пен.",
+   "lang": "ru"
+  },
+  {
+   "start": 1022.96,
+   "end": 1023.82,
+   "text": "Your pen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1025.96,
+   "end": 1027.24,
+   "text": "Is this your pen?",
+   "lang": "ru"
+  },
+  {
+   "start": 1030.36,
+   "end": 1032.78,
+   "text": "Ask again. Это ваша ручка?",
+   "lang": "ru"
+  },
+  {
+   "start": 1032.78,
+   "end": 1032.9,
+   "text": "Good.",
+   "lang": "en"
+  },
+  {
+   "start": 1036.08,
+   "end": 1037.32,
+   "text": "Is this your pen?",
+   "lang": "ru"
+  },
+  {
+   "start": 1037.32,
+   "end": 1037.5,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 1040.4,
+   "end": 1042.76,
+   "text": "Try to say, да, где она была?",
+   "lang": "ru"
+  },
+  {
+   "start": 1046.06,
+   "end": 1047.5,
+   "text": "Yes, where was it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1050.66,
+   "end": 1051.62,
+   "text": "Where was it?",
+   "lang": "en"
+  },
+  {
+   "start": 1053.88,
+   "end": 1055.62,
+   "text": "Рядом с вашими записями.",
+   "lang": "ru"
+  },
+  {
+   "start": 1055.62,
+   "end": 1056.66,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1057.46,
+   "end": 1058.6,
+   "text": "Next to your notes.",
+   "lang": "en"
+  },
+  {
+   "start": 1061.6,
+   "end": 1062.42,
+   "text": "Next to.",
+   "lang": "en"
+  },
+  {
+   "start": 1064.9,
+   "end": 1065.46,
+   "text": "Next.",
+   "lang": "en"
+  },
+  {
+   "start": 1068.1,
+   "end": 1068.66,
+   "text": "Next.",
+   "lang": "en"
+  },
+  {
+   "start": 1071.2,
+   "end": 1071.92,
+   "text": "Next to.",
+   "lang": "en"
+  },
+  {
+   "start": 1074.54,
+   "end": 1075.76,
+   "text": "Next to your notes.",
+   "lang": "en"
+  },
+  {
+   "start": 1078.8,
+   "end": 1080.44,
+   "text": "Рядом с.",
+   "lang": "ru"
+  },
+  {
+   "start": 1082.7,
+   "end": 1084.38,
+   "text": "Next to.",
+   "lang": "ru"
+  },
+  {
+   "start": 1087.36,
+   "end": 1087.74,
+   "text": "Next to.",
+   "lang": "ru"
+  },
+  {
+   "start": 1090.74,
+   "end": 1091.68,
+   "text": "Now say на.",
+   "lang": "ru"
+  },
+  {
+   "start": 1094.2,
+   "end": 1094.58,
+   "text": "On.",
+   "lang": "ru"
+  },
+  {
+   "start": 1097.02,
+   "end": 1097.16,
+   "text": "On.",
+   "lang": "ru"
+  },
+  {
+   "start": 1099.68,
+   "end": 1099.78,
+   "text": "Под.",
+   "lang": "ru"
+  },
+  {
+   "start": 1101.38,
+   "end": 1102.78,
+   "text": "Under.",
+   "lang": "ru"
+  },
+  {
+   "start": 1105.28,
+   "end": 1105.54,
+   "text": "Under.",
+   "lang": "ru"
+  },
+  {
+   "start": 1106.86,
+   "end": 1107.7,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1108.7,
+   "end": 1110.06,
+   "text": "Где была моя ручка?",
+   "lang": "ru"
+  },
+  {
+   "start": 1112.9,
+   "end": 1114.2,
+   "text": "Where was my pen?",
+   "lang": "en"
+  },
+  {
+   "start": 1117.36,
+   "end": 1118.6,
+   "text": "Where was my pen?",
+   "lang": "en"
+  },
+  {
+   "start": 1121.7,
+   "end": 1122.76,
+   "text": "На столе",
+   "lang": "ru"
+  },
+  {
+   "start": 1124.5,
+   "end": 1126.46,
+   "text": "On the table",
+   "lang": "en"
+  },
+  {
+   "start": 1126.46,
+   "end": 1130.26,
+   "text": "On the table",
+   "lang": "en"
+  },
+  {
+   "start": 1131.64,
+   "end": 1135.04,
+   "text": "рядом с вашими записями.",
+   "lang": "ru"
+  },
+  {
+   "start": 1137.7,
+   "end": 1138.92,
+   "text": "Next to your notes",
+   "lang": "en"
+  },
+  {
+   "start": 1141.64,
+   "end": 1143.26,
+   "text": "Next to your notes",
+   "lang": "en"
+  },
+  {
+   "start": 1144.76,
+   "end": 1148.78,
+   "text": "А ваши записи были под книгой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1152.76,
+   "end": 1154.68,
+   "text": "И твои книги были под книгой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1158.5,
+   "end": 1160.32,
+   "text": "Твои книги были под книгой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1163.72,
+   "end": 1164.96,
+   "text": "Теперь скажи ей,",
+   "lang": "ru"
+  },
+  {
+   "start": 1164.96,
+   "end": 1167.12,
+   "text": "Извините, я сейчас должен идти.",
+   "lang": "ru"
+  },
+  {
+   "start": 1172.52,
+   "end": 1174.38,
+   "text": "Извините, я должен уйти сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 1179.14,
+   "end": 1180.88,
+   "text": "У меня скоро встреча.",
+   "lang": "ru"
+  },
+  {
+   "start": 1183.96,
+   "end": 1185.56,
+   "text": "I have a meeting soon.",
+   "lang": "en"
+  },
+  {
+   "start": 1189.12,
+   "end": 1189.82,
+   "text": "Try to",
+   "lang": "en"
+  },
+  {
+   "start": 1189.94,
+   "end": 1191.82,
+   "text": "А я все еще не готов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1195.26,
+   "end": 1197.18,
+   "text": "And I'm not ready yet.",
+   "lang": "ru"
+  },
+  {
+   "start": 1200.56,
+   "end": 1202.04,
+   "text": "I'm not ready yet.",
+   "lang": "ru"
+  },
+  {
+   "start": 1205.6,
+   "end": 1211.6,
+   "text": "Как вы скажете официантке в ресторане, что вам бы хотелось полбутылки белого вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 1215.44,
+   "end": 1217.82,
+   "text": "I'd like a half bottle of white wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1221.82,
+   "end": 1223.94,
+   "text": "А как вы попросите счет?",
+   "lang": "ru"
+  },
+  {
+   "start": 1226.16,
+   "end": 1227.24,
+   "text": "The check please",
+   "lang": "en"
+  },
+  {
+   "start": 1229.82,
+   "end": 1230.94,
+   "text": "I'd like the check",
+   "lang": "en"
+  },
+  {
+   "start": 1233.78,
+   "end": 1237.0,
+   "text": "Сейчас вы с коллегой собираетесь поужинать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1237.0,
+   "end": 1240.88,
+   "text": "Она вспомнила об одном ресторане, где ей нравится обедать.",
+   "lang": "ru"
+  },
+  {
+   "start": 1241.04,
+   "end": 1245.76,
+   "text": "Она говорит, там не так дорого, как в Parker House.",
+   "lang": "ru"
+  },
+  {
+   "start": 1251.14,
+   "end": 1253.8,
+   "text": "It's not as expensive as the Parker House.",
+   "lang": "ru"
+  },
+  {
+   "start": 1258.94,
+   "end": 1261.76,
+   "text": "It isn't as expensive as the Parker House.",
+   "lang": "ru"
+  },
+  {
+   "start": 1266.98,
+   "end": 1268.1,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1268.34,
+   "end": 1270.86,
+   "text": "Но у них очень хорошая винная карта.",
+   "lang": "ru"
+  },
+  {
+   "start": 1274.46,
+   "end": 1276.42,
+   "text": "But they have a good wine list.",
+   "lang": "ru"
+  },
+  {
+   "start": 1280.34,
+   "end": 1281.98,
+   "text": "They have a good wine list.",
+   "lang": "en"
+  },
+  {
+   "start": 1285.46,
+   "end": 1288.84,
+   "text": "Try to say, и мне нравится их меню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1291.88,
+   "end": 1293.64,
+   "text": "And I like their menu too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1296.84,
+   "end": 1298.14,
+   "text": "I like their menu.",
+   "lang": "ru"
+  },
+  {
+   "start": 1301.1,
+   "end": 1302.98,
+   "text": "Ask where the restaurant is.",
+   "lang": "ru"
+  },
+  {
+   "start": 1305.9,
+   "end": 1307.48,
+   "text": "Where is the restaurant?",
+   "lang": "ru"
+  },
+  {
+   "start": 1310.4,
+   "end": 1311.58,
+   "text": "She answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 1311.86,
+   "end": 1314.78,
+   "text": "Он на площади Копли, рядом с отелем.",
+   "lang": "ru"
+  },
+  {
+   "start": 1319.46,
+   "end": 1321.98,
+   "text": "It's in Copley Square next to the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 1326.86,
+   "end": 1328.06,
+   "text": "Next to the hotel.",
+   "lang": "en"
+  },
+  {
+   "start": 1331.38,
+   "end": 1334.48,
+   "text": "А, да, он очень хороший.",
+   "lang": "ru"
+  },
+  {
+   "start": 1338.88,
+   "end": 1341.36,
+   "text": "Oh yes, that one is very good.",
+   "lang": "en"
+  },
+  {
+   "start": 1345.82,
+   "end": 1346.78,
+   "text": "That one.",
+   "lang": "en"
+  },
+  {
+   "start": 1348.94,
+   "end": 1350.6,
+   "text": "That one's very good.",
+   "lang": "en"
+  },
+  {
+   "start": 1353.54,
+   "end": 1354.54,
+   "text": "Now you're in.",
+   "lang": "en"
+  },
+  {
+   "start": 1354.62,
+   "end": 1360.4,
+   "text": "После того, как вы расположились, что говорит официант, подавая вам меню?",
+   "lang": "ru"
+  },
+  {
+   "start": 1363.34,
+   "end": 1364.3,
+   "text": "Here's the menu.",
+   "lang": "en"
+  },
+  {
+   "start": 1371.06,
+   "end": 1378.32,
+   "text": "Ваше коллега немного говорит по-испански, тогда вы спрашиваете. Вам бы хотелось говорить по-испански?",
+   "lang": "ru"
+  },
+  {
+   "start": 1378.32,
+   "end": 1378.4,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1382.1,
+   "end": 1384.02,
+   "text": "Would you like to speak Spanish?",
+   "lang": "ru"
+  },
+  {
+   "start": 1387.96,
+   "end": 1389.72,
+   "text": "Would you like to speak Spanish?",
+   "lang": "en"
+  },
+  {
+   "start": 1394.22,
+   "end": 1399.66,
+   "text": "Используя rather, она отвечает, нет, я предпочитаю говорить по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 1403.88,
+   "end": 1406.06,
+   "text": "No, I'd rather speak English.",
+   "lang": "ru"
+  },
+  {
+   "start": 1410.3,
+   "end": 1412.08,
+   "text": "I'd rather speak English.",
+   "lang": "en"
+  },
+  {
+   "start": 1415.42,
+   "end": 1417.34,
+   "text": "Это легче для меня.",
+   "lang": "ru"
+  },
+  {
+   "start": 1419.66,
+   "end": 1420.62,
+   "text": "It's easier.",
+   "lang": "en"
+  },
+  {
+   "start": 1423.38,
+   "end": 1424.82,
+   "text": "It's easier for me.",
+   "lang": "en"
+  },
+  {
+   "start": 1426.76,
+   "end": 1434.78,
+   "text": "Пока вы просматриваете меню, вы говорите с коллегой о семье. Скажите, мой сын инженер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1438.16,
+   "end": 1439.88,
+   "text": "My son is an engineer.",
+   "lang": "en"
+  },
+  {
+   "start": 1442.58,
+   "end": 1446.78,
+   "text": "Он работает в одной небольшой компании в Монтерее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1451.42,
+   "end": 1454.1,
+   "text": "He works for a small company in Monterey.",
+   "lang": "en"
+  },
+  {
+   "start": 1458.84,
+   "end": 1462.78,
+   "text": "Теперь вы спрашиваете коллегу, что бы она порекомендовала.",
+   "lang": "ru"
+  },
+  {
+   "start": 1466.0,
+   "end": 1467.28,
+   "text": "What do you recommend?",
+   "lang": "en"
+  },
+  {
+   "start": 1469.68,
+   "end": 1473.4,
+   "text": "Она говорит, что бифштекс всегда очень хорош.",
+   "lang": "ru"
+  },
+  {
+   "start": 1476.78,
+   "end": 1479.04,
+   "text": "The steak is always very good.",
+   "lang": "en"
+  },
+  {
+   "start": 1482.04,
+   "end": 1490.44,
+   "text": "Вы оба заказываете бифштекс. Затем вы изучаете карту ВИН. Она говорит, я предпочитаю белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 1493.32,
+   "end": 1495.24,
+   "text": "I prefer white wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1498.3,
+   "end": 1501.94,
+   "text": "Но с бифштексом красное вино лучше.",
+   "lang": "ru"
+  },
+  {
+   "start": 1506.32,
+   "end": 1508.8,
+   "text": "But with steak, red wine is better.",
+   "lang": "en"
+  },
+  {
+   "start": 1513.26,
+   "end": 1516.4,
+   "text": "Тогда почему бы нам не заказать?",
+   "lang": "ru"
+  },
+  {
+   "start": 1519.62,
+   "end": 1521.5,
+   "text": "Then why don't we order...",
+   "lang": "en"
+  },
+  {
+   "start": 1524.78,
+   "end": 1525.94,
+   "text": "Why don't we order?",
+   "lang": "ru"
+  },
+  {
+   "start": 1528.68,
+   "end": 1530.7,
+   "text": "Пол бутылки красного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1534.2,
+   "end": 1536.08,
+   "text": "A half bottle of red wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1539.68,
+   "end": 1541.32,
+   "text": "Now the waiter comes back.",
+   "lang": "ru"
+  },
+  {
+   "start": 1541.64,
+   "end": 1544.2,
+   "text": "How does he ask you if you're ready to order?",
+   "lang": "ru"
+  },
+  {
+   "start": 1544.2,
+   "end": 1544.32,
+   "text": "Order.",
+   "lang": "en"
+  },
+  {
+   "start": 1547.5,
+   "end": 1548.94,
+   "text": "Are you ready to order?",
+   "lang": "ru"
+  },
+  {
+   "start": 1552.32,
+   "end": 1552.92,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1554.78,
+   "end": 1555.96,
+   "text": "Хотелось бы бифштекс.",
+   "lang": "ru"
+  },
+  {
+   "start": 1559.52,
+   "end": 1561.76,
+   "text": "Yes, we'd both like the steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1565.68,
+   "end": 1566.92,
+   "text": "We would both.",
+   "lang": "ru"
+  },
+  {
+   "start": 1569.38,
+   "end": 1570.42,
+   "text": "We'd both.",
+   "lang": "ru"
+  },
+  {
+   "start": 1572.86,
+   "end": 1574.58,
+   "text": "We'd both like the steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1578.1,
+   "end": 1581.16,
+   "text": "И нам бы хотелось полбутылки красного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1585.5,
+   "end": 1587.9,
+   "text": "And we'd like a half bottle of red wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1592.62,
+   "end": 1594.2,
+   "text": "Какое вы порекомендуете?",
+   "lang": "ru"
+  },
+  {
+   "start": 1597.06,
+   "end": 1598.02,
+   "text": "Which one?",
+   "lang": "ru"
+  },
+  {
+   "start": 1601.96,
+   "end": 1602.74,
+   "text": "Which one?",
+   "lang": "en"
+  },
+  {
+   "start": 1604.84,
+   "end": 1607.72,
+   "text": "Listen. Our house wine is very good.",
+   "lang": "ru"
+  },
+  {
+   "start": 1610.3,
+   "end": 1612.56,
+   "text": "Сейчас вы закончили есть.",
+   "lang": "ru"
+  },
+  {
+   "start": 1612.86,
+   "end": 1613.96,
+   "text": "Ask for the check.",
+   "lang": "ru"
+  },
+  {
+   "start": 1616.76,
+   "end": 1617.96,
+   "text": "The check please.",
+   "lang": "en"
+  },
+  {
+   "start": 1620.9,
+   "end": 1622.1,
+   "text": "The check please.",
+   "lang": "en"
+  },
+  {
+   "start": 1624.0,
+   "end": 1630.26,
+   "text": "Вы проверяете его и находите ошибку. Скажите официанту, извините.",
+   "lang": "ru"
+  },
+  {
+   "start": 1632.92,
+   "end": 1634.12,
+   "text": "Excuse me?",
+   "lang": "en"
+  },
+  {
+   "start": 1635.18,
+   "end": 1638.26,
+   "text": "Но счет неправильный.",
+   "lang": "ru"
+  },
+  {
+   "start": 1640.9,
+   "end": 1642.88,
+   "text": "But the check isn't right",
+   "lang": "en"
+  },
+  {
+   "start": 1645.32,
+   "end": 1647.66,
+   "text": "The check isn't right",
+   "lang": "en"
+  },
+  {
+   "start": 1650.54,
+   "end": 1653.76,
+   "text": "Он извиняется и исправляет счет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1653.82,
+   "end": 1657.16,
+   "text": "Сейчас вам нужно подписать чек из чековой книжки.",
+   "lang": "ru"
+  },
+  {
+   "start": 1657.16,
+   "end": 1659.18,
+   "text": "Ask your colleague if she has a pen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1663.08,
+   "end": 1664.3,
+   "text": "Do you have a pen?",
+   "lang": "ru"
+  },
+  {
+   "start": 1667.56,
+   "end": 1668.72,
+   "text": "Do you have a pen?",
+   "lang": "ru"
+  },
+  {
+   "start": 1668.72,
+   "end": 1668.9,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 1672.08,
+   "end": 1674.94,
+   "text": "Now it's another day, and you have another meeting.",
+   "lang": "ru"
+  },
+  {
+   "start": 1675.44,
+   "end": 1677.86,
+   "text": "Ask a colleague if she has seen your notes.",
+   "lang": "ru"
+  },
+  {
+   "start": 1681.86,
+   "end": 1683.28,
+   "text": "Have you seen my notes?",
+   "lang": "ru"
+  },
+  {
+   "start": 1687.16,
+   "end": 1689.72,
+   "text": "Ask her if she's seen your notes for today's meeting.",
+   "lang": "ru"
+  },
+  {
+   "start": 1695.18,
+   "end": 1697.66,
+   "text": "Have you seen my notes for today's meeting?",
+   "lang": "ru"
+  },
+  {
+   "start": 1702.12,
+   "end": 1703.44,
+   "text": "For today's meeting?",
+   "lang": "ru"
+  },
+  {
+   "start": 1706.58,
+   "end": 1707.1,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1707.3,
+   "end": 1708.44,
+   "text": "Yes, here they are.",
+   "lang": "ru"
+  },
+  {
+   "start": 1708.92,
+   "end": 1710.06,
+   "text": "Ask where they were.",
+   "lang": "ru"
+  },
+  {
+   "start": 1710.06,
+   "end": 1710.18,
+   "text": "were.",
+   "lang": "en"
+  },
+  {
+   "start": 1713.26,
+   "end": 1714.26,
+   "text": "Where were they?",
+   "lang": "ru"
+  },
+  {
+   "start": 1716.76,
+   "end": 1717.72,
+   "text": "Where were they?",
+   "lang": "en"
+  },
+  {
+   "start": 1719.36,
+   "end": 1722.78,
+   "text": "Они были на столе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1726.26,
+   "end": 1727.76,
+   "text": "They were on the table.",
+   "lang": "en"
+  },
+  {
+   "start": 1734.22,
+   "end": 1737.02,
+   "text": "Под книгой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1738.44,
+   "end": 1740.2,
+   "text": "Under a book",
+   "lang": "en"
+  },
+  {
+   "start": 1740.2,
+   "end": 1743.82,
+   "text": "Under a book",
+   "lang": "en"
+  },
+  {
+   "start": 1744.58,
+   "end": 1748.0,
+   "text": "и рядом с вашей ручкой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1750.48,
+   "end": 1751.82,
+   "text": "And next to your pen.",
+   "lang": "en"
+  },
+  {
+   "start": 1755.1,
+   "end": 1755.78,
+   "text": "Thank her.",
+   "lang": "en"
+  },
+  {
+   "start": 1757.86,
+   "end": 1758.54,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1760.12,
+   "end": 1761.42,
+   "text": "Thank you very much.",
+   "lang": "en"
+  },
+  {
+   "start": 1763.66,
+   "end": 1766.44,
+   "text": "Это конец седьмого урока.",
+   "lang": "ru"
+  },
+  {
+   "start": 1767.02,
+   "end": 1768.64,
+   "text": "Продолжение следует...",
+   "lang": "ru"
+  }
+ ]
+}

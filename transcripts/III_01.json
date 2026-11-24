@@ -1,0 +1,2325 @@
+{
+ "id": "III_01",
+ "source": "Pimsleur_III_01.mp3",
+ "duration": 1740.33,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 151,
+ "segments": [
+  {
+   "start": 1.7,
+   "end": 8.9,
+   "text": "Первый урок американского английского языка по методу доктора Пимслера. Часть третья.",
+   "lang": "ru"
+  },
+  {
+   "start": 11.34,
+   "end": 18.48,
+   "text": "Даниэль Мендес находится в Нью-Йорке и только что приехал домой к одной знакомой американке.",
+   "lang": "ru"
+  },
+  {
+   "start": 18.48,
+   "end": 19.18,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 20.16,
+   "end": 23.2,
+   "text": "Oh, hi, Daniel. Come in, please. How are you?",
+   "lang": "en"
+  },
+  {
+   "start": 23.52,
+   "end": 24.66,
+   "text": "Fine, thanks. And you?",
+   "lang": "en"
+  },
+  {
+   "start": 25.12,
+   "end": 29.62,
+   "text": "Not bad. Would you like something to drink? Something cold? Maybe a beer?",
+   "lang": "en"
+  },
+  {
+   "start": 30.0,
+   "end": 31.16,
+   "text": "It's pretty hot today.",
+   "lang": "ru"
+  },
+  {
+   "start": 31.38,
+   "end": 33.6,
+   "text": "I'd like some mineral water if you have some.",
+   "lang": "ru"
+  },
+  {
+   "start": 33.82,
+   "end": 34.58,
+   "text": "Of course.",
+   "lang": "ru"
+  },
+  {
+   "start": 35.4,
+   "end": 36.14,
+   "text": "Listen again.",
+   "lang": "ru"
+  },
+  {
+   "start": 37.4,
+   "end": 40.62,
+   "text": "Oh, hi, Daniel. Come in, please. How are you?",
+   "lang": "ru"
+  },
+  {
+   "start": 40.86,
+   "end": 42.1,
+   "text": "Fine, thanks. And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 42.3,
+   "end": 48.24,
+   "text": "Not bad. Would you like something to drink? Something cold? Maybe a beer? It's pretty hot today.",
+   "lang": "ru"
+  },
+  {
+   "start": 48.48,
+   "end": 50.74,
+   "text": "I'd like some mineral water if you have some.",
+   "lang": "ru"
+  },
+  {
+   "start": 50.98,
+   "end": 51.68,
+   "text": "Of course.",
+   "lang": "ru"
+  },
+  {
+   "start": 52.66,
+   "end": 55.9,
+   "text": "Вы помните, как поприветствовать кого-нибудь вечером?",
+   "lang": "ru"
+  },
+  {
+   "start": 57.6,
+   "end": 58.4,
+   "text": "Good evening.",
+   "lang": "ru"
+  },
+  {
+   "start": 60.8,
+   "end": 61.64,
+   "text": "Good evening.",
+   "lang": "en"
+  },
+  {
+   "start": 63.1,
+   "end": 68.16,
+   "text": "А что бы вы сказали, чтобы попрощаться с кем-нибудь вечером?",
+   "lang": "ru"
+  },
+  {
+   "start": 70.22,
+   "end": 71.0,
+   "text": "Good night.",
+   "lang": "en"
+  },
+  {
+   "start": 73.32,
+   "end": 74.16,
+   "text": "Good night.",
+   "lang": "en"
+  },
+  {
+   "start": 76.96,
+   "end": 86.24,
+   "text": "Представьте, что вы в Бостоне, ищите почту. Вы обращаетесь к девушке, которая вас обгоняет, и говорите «Прошу прощения, мисс».",
+   "lang": "ru"
+  },
+  {
+   "start": 89.1,
+   "end": 90.18,
+   "text": "Excuse me, miss.",
+   "lang": "ru"
+  },
+  {
+   "start": 92.96,
+   "end": 95.48,
+   "text": "Ask her if she knows where the post office is.",
+   "lang": "ru"
+  },
+  {
+   "start": 95.48,
+   "end": 95.68,
+   "text": "is.",
+   "lang": "en"
+  },
+  {
+   "start": 98.92,
+   "end": 100.96,
+   "text": "Do you know where the post office is?",
+   "lang": "ru"
+  },
+  {
+   "start": 104.46,
+   "end": 104.94,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 105.26,
+   "end": 106.86,
+   "text": "У меня есть карта.",
+   "lang": "ru"
+  },
+  {
+   "start": 109.7,
+   "end": 110.76,
+   "text": "I have a map.",
+   "lang": "ru"
+  },
+  {
+   "start": 113.42,
+   "end": 113.9,
+   "text": "Map.",
+   "lang": "ru"
+  },
+  {
+   "start": 115.96,
+   "end": 117.16,
+   "text": "I have a map",
+   "lang": "en"
+  },
+  {
+   "start": 118.42,
+   "end": 121.98,
+   "text": "У меня есть карта Бостона.",
+   "lang": "ru"
+  },
+  {
+   "start": 124.84,
+   "end": 126.52,
+   "text": "I have a map of Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 130.16,
+   "end": 131.52,
+   "text": "A map of Boston.",
+   "lang": "en"
+  },
+  {
+   "start": 134.24,
+   "end": 137.94,
+   "text": "Вы можете показать мне на карте?",
+   "lang": "ru"
+  },
+  {
+   "start": 141.12,
+   "end": 142.76,
+   "text": "Can you show me on the map?",
+   "lang": "en"
+  },
+  {
+   "start": 146.24,
+   "end": 147.2,
+   "text": "On the map.",
+   "lang": "ru"
+  },
+  {
+   "start": 149.66,
+   "end": 150.14,
+   "text": "Show.",
+   "lang": "ru"
+  },
+  {
+   "start": 152.48,
+   "end": 153.18,
+   "text": "Show me.",
+   "lang": "ru"
+  },
+  {
+   "start": 155.34,
+   "end": 156.94,
+   "text": "Can you show me on the map?",
+   "lang": "ru"
+  },
+  {
+   "start": 160.66,
+   "end": 164.18,
+   "text": "Вы можете показать мне на карте, где находится почта?",
+   "lang": "ru"
+  },
+  {
+   "start": 169.2,
+   "end": 172.08,
+   "text": "Can you show me on the map where the post office is?",
+   "lang": "ru"
+  },
+  {
+   "start": 177.12,
+   "end": 180.18,
+   "text": "Can you show me on the map where the post office is?",
+   "lang": "ru"
+  },
+  {
+   "start": 185.28,
+   "end": 188.0,
+   "text": "She says, вам не нужна карта.",
+   "lang": "ru"
+  },
+  {
+   "start": 190.82,
+   "end": 192.28,
+   "text": "You don't need the map.",
+   "lang": "ru"
+  },
+  {
+   "start": 195.5,
+   "end": 196.1,
+   "text": "Смотрите.",
+   "lang": "ru"
+  },
+  {
+   "start": 198.2,
+   "end": 198.8,
+   "text": "Look.",
+   "lang": "ru"
+  },
+  {
+   "start": 200.8,
+   "end": 201.4,
+   "text": "Look.",
+   "lang": "ru"
+  },
+  {
+   "start": 203.34,
+   "end": 205.38,
+   "text": "Вы видите универмаг вон там?",
+   "lang": "ru"
+  },
+  {
+   "start": 209.5,
+   "end": 211.9,
+   "text": "Do you see the department store over there?",
+   "lang": "en"
+  },
+  {
+   "start": 214.4,
+   "end": 221.18,
+   "text": "Чтобы дойти до почты, дословно, чтобы достичь почты.",
+   "lang": "ru"
+  },
+  {
+   "start": 224.38,
+   "end": 226.34,
+   "text": "To get to the post office",
+   "lang": "ru"
+  },
+  {
+   "start": 226.34,
+   "end": 231.78,
+   "text": "To get to the post office",
+   "lang": "ru"
+  },
+  {
+   "start": 235.46,
+   "end": 237.04,
+   "text": "Идите к универмагу",
+   "lang": "ru"
+  },
+  {
+   "start": 239.94,
+   "end": 241.86,
+   "text": "Go to the department store",
+   "lang": "ru"
+  },
+  {
+   "start": 241.86,
+   "end": 242.06,
+   "text": "door?",
+   "lang": "en"
+  },
+  {
+   "start": 245.08,
+   "end": 247.38,
+   "text": "А потом идите направо",
+   "lang": "ru"
+  },
+  {
+   "start": 250.44,
+   "end": 252.0,
+   "text": "and then go to the right.",
+   "lang": "en"
+  },
+  {
+   "start": 254.74,
+   "end": 256.44,
+   "text": "Почта недалеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 259.46,
+   "end": 261.56,
+   "text": "The post office isn't far",
+   "lang": "en"
+  },
+  {
+   "start": 265.42,
+   "end": 266.78,
+   "text": "Огромное спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 266.78,
+   "end": 267.06,
+   "text": "Спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 269.96,
+   "end": 270.7,
+   "text": "Thanks a lot.",
+   "lang": "en"
+  },
+  {
+   "start": 273.18,
+   "end": 279.36,
+   "text": "Сейчас вы в Нью-Йорке. Одна знакомая спрашивает, что вы делаете на этих выходных?",
+   "lang": "ru"
+  },
+  {
+   "start": 282.7,
+   "end": 284.68,
+   "text": "What are you doing this weekend?",
+   "lang": "en"
+  },
+  {
+   "start": 288.18,
+   "end": 288.94,
+   "text": "Doing",
+   "lang": "en"
+  },
+  {
+   "start": 288.94,
+   "end": 292.72,
+   "text": "What are you doing this weekend?",
+   "lang": "en"
+  },
+  {
+   "start": 296.78,
+   "end": 298.94,
+   "text": "Вам бы хотелось поужинать у нас дома?",
+   "lang": "ru"
+  },
+  {
+   "start": 302.64,
+   "end": 304.42,
+   "text": "Would you like to have dinner at our place?",
+   "lang": "en"
+  },
+  {
+   "start": 307.9,
+   "end": 309.98,
+   "text": "Вы можете приехать в пятницу?",
+   "lang": "ru"
+  },
+  {
+   "start": 312.28,
+   "end": 314.12,
+   "text": "Can you come on Friday?",
+   "lang": "en"
+  },
+  {
+   "start": 317.16,
+   "end": 318.02,
+   "text": "On F-",
+   "lang": "en"
+  },
+  {
+   "start": 318.04,
+   "end": 324.46,
+   "text": "Нет, прошу прощения, но я не могу.",
+   "lang": "ru"
+  },
+  {
+   "start": 328.22,
+   "end": 330.28,
+   "text": "No, I'm sorry, I can't.",
+   "lang": "en"
+  },
+  {
+   "start": 333.62,
+   "end": 335.66,
+   "text": "В пятницу у меня нет времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 335.66,
+   "end": 341.86,
+   "text": "On Friday I don't have much time.",
+   "lang": "en"
+  },
+  {
+   "start": 345.88,
+   "end": 347.9,
+   "text": "Один наш друг приезжает в гости.",
+   "lang": "ru"
+  },
+  {
+   "start": 351.48,
+   "end": 353.64,
+   "text": "A friend of ours is coming to visit.",
+   "lang": "en"
+  },
+  {
+   "start": 356.7,
+   "end": 358.54,
+   "text": "В субботу.",
+   "lang": "ru"
+  },
+  {
+   "start": 360.48,
+   "end": 361.68,
+   "text": "on Saturday.",
+   "lang": "en"
+  },
+  {
+   "start": 363.56,
+   "end": 365.7,
+   "text": "Он приезжает в час.",
+   "lang": "ru"
+  },
+  {
+   "start": 369.5,
+   "end": 371.46,
+   "text": "is arriving at 1 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 374.12,
+   "end": 377.52,
+   "text": "Или в два часа после полудня.",
+   "lang": "ru"
+  },
+  {
+   "start": 381.66,
+   "end": 383.86,
+   "text": "Or at 2 o'clock in the afternoon.",
+   "lang": "ru"
+  },
+  {
+   "start": 388.3,
+   "end": 389.36,
+   "text": "In the afternoon.",
+   "lang": "ru"
+  },
+  {
+   "start": 389.36,
+   "end": 389.6,
+   "text": "noon.",
+   "lang": "en"
+  },
+  {
+   "start": 392.46,
+   "end": 395.3,
+   "text": "He's arriving at 1 or 2 o'clock in the afternoon.",
+   "lang": "ru"
+  },
+  {
+   "start": 395.3,
+   "end": 395.52,
+   "text": "noon.",
+   "lang": "en"
+  },
+  {
+   "start": 400.16,
+   "end": 401.96,
+   "text": "И мне нужно многое сделать.",
+   "lang": "ru"
+  },
+  {
+   "start": 405.34,
+   "end": 406.8,
+   "text": "And I have a lot to do.",
+   "lang": "ru"
+  },
+  {
+   "start": 409.72,
+   "end": 411.3,
+   "text": "До выходных.",
+   "lang": "ru"
+  },
+  {
+   "start": 414.62,
+   "end": 415.8,
+   "text": "Before the weekend",
+   "lang": "en"
+  },
+  {
+   "start": 419.66,
+   "end": 423.4,
+   "text": "Тогда, может быть, на следующих выходных?",
+   "lang": "ru"
+  },
+  {
+   "start": 426.42,
+   "end": 428.0,
+   "text": "Then maybe next weekend?",
+   "lang": "en"
+  },
+  {
+   "start": 431.02,
+   "end": 435.2,
+   "text": "Вы помните, как спросить, вы можете прийти на кофе?",
+   "lang": "ru"
+  },
+  {
+   "start": 437.92,
+   "end": 439.46,
+   "text": "Can you come for coffee?",
+   "lang": "ru"
+  },
+  {
+   "start": 441.44,
+   "end": 443.58,
+   "text": "Come for coffee?",
+   "lang": "en"
+  },
+  {
+   "start": 446.7,
+   "end": 449.4,
+   "text": "Сейчас попробуйте спросить таким же образом.",
+   "lang": "ru"
+  },
+  {
+   "start": 450.08,
+   "end": 451.88,
+   "text": "Вы можете прийти поужинать?",
+   "lang": "ru"
+  },
+  {
+   "start": 452.04,
+   "end": 453.62,
+   "text": "Дословно, для ужина.",
+   "lang": "ru"
+  },
+  {
+   "start": 457.02,
+   "end": 458.5,
+   "text": "Can you come for dinner?",
+   "lang": "ru"
+  },
+  {
+   "start": 461.84,
+   "end": 462.76,
+   "text": "For dinner.",
+   "lang": "ru"
+  },
+  {
+   "start": 465.12,
+   "end": 466.56,
+   "text": "Can you come for dinner?",
+   "lang": "ru"
+  },
+  {
+   "start": 469.72,
+   "end": 472.68,
+   "text": "Вы можете прийти на ужин?",
+   "lang": "ru"
+  },
+  {
+   "start": 475.64,
+   "end": 477.0,
+   "text": "Can you come for dinner?",
+   "lang": "en"
+  },
+  {
+   "start": 479.24,
+   "end": 481.7,
+   "text": "В следующую пятницу.",
+   "lang": "ru"
+  },
+  {
+   "start": 483.76,
+   "end": 485.3,
+   "text": "Next Friday",
+   "lang": "ru"
+  },
+  {
+   "start": 485.3,
+   "end": 490.04,
+   "text": "Can you come for dinner next Friday?",
+   "lang": "ru"
+  },
+  {
+   "start": 490.04,
+   "end": 490.2,
+   "text": "day?",
+   "lang": "en"
+  },
+  {
+   "start": 494.36,
+   "end": 494.5,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 494.5,
+   "end": 497.78,
+   "text": "На следующих выходных я еду в Филадельфию",
+   "lang": "ru"
+  },
+  {
+   "start": 497.78,
+   "end": 504.58,
+   "text": "Next weekend I'm going to Philadelphia",
+   "lang": "ru"
+  },
+  {
+   "start": 509.0,
+   "end": 510.98,
+   "text": "Повидаться с друзьями",
+   "lang": "ru"
+  },
+  {
+   "start": 513.52,
+   "end": 514.96,
+   "text": "To see some friends.",
+   "lang": "ru"
+  },
+  {
+   "start": 517.74,
+   "end": 519.06,
+   "text": "Now try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 519.06,
+   "end": 520.72,
+   "text": "Тогда приходите на обед.",
+   "lang": "ru"
+  },
+  {
+   "start": 523.58,
+   "end": 525.06,
+   "text": "Then come for lunch.",
+   "lang": "ru"
+  },
+  {
+   "start": 528.0,
+   "end": 528.6,
+   "text": "Lunch.",
+   "lang": "ru"
+  },
+  {
+   "start": 530.86,
+   "end": 531.84,
+   "text": "For lunch.",
+   "lang": "ru"
+  },
+  {
+   "start": 534.42,
+   "end": 535.02,
+   "text": "Come.",
+   "lang": "ru"
+  },
+  {
+   "start": 537.22,
+   "end": 538.32,
+   "text": "Come for lunch.",
+   "lang": "ru"
+  },
+  {
+   "start": 538.32,
+   "end": 547.36,
+   "text": "В Соединенных Штатах lunch обычно означает легкий обед около полудня или в час дня.",
+   "lang": "ru"
+  },
+  {
+   "start": 548.58,
+   "end": 551.54,
+   "text": "Прием пищи вечером, но более обильный.",
+   "lang": "ru"
+  },
+  {
+   "start": 551.7,
+   "end": 553.48,
+   "text": "Say that you can't come for dinner.",
+   "lang": "ru"
+  },
+  {
+   "start": 557.32,
+   "end": 559.02,
+   "text": "I can't come for dinner.",
+   "lang": "ru"
+  },
+  {
+   "start": 562.3,
+   "end": 564.5,
+   "text": "Say that you're leaving Friday afternoon.",
+   "lang": "ru"
+  },
+  {
+   "start": 564.5,
+   "end": 564.76,
+   "text": "Afternoon.",
+   "lang": "en"
+  },
+  {
+   "start": 569.34,
+   "end": 571.5,
+   "text": "I'm leaving Friday afternoon.",
+   "lang": "ru"
+  },
+  {
+   "start": 571.5,
+   "end": 571.7,
+   "text": "noon.",
+   "lang": "en"
+  },
+  {
+   "start": 576.04,
+   "end": 576.16,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 576.16,
+   "end": 577.68,
+   "text": "До выходных.",
+   "lang": "ru"
+  },
+  {
+   "start": 579.98,
+   "end": 581.52,
+   "text": "Before the weekend.",
+   "lang": "ru"
+  },
+  {
+   "start": 584.0,
+   "end": 585.64,
+   "text": "How does she say",
+   "lang": "ru"
+  },
+  {
+   "start": 585.64,
+   "end": 587.7,
+   "text": "Тогда приходите на обед.",
+   "lang": "ru"
+  },
+  {
+   "start": 590.08,
+   "end": 591.86,
+   "text": "Then come for lunch.",
+   "lang": "ru"
+  },
+  {
+   "start": 595.06,
+   "end": 597.68,
+   "text": "Вы принимаете приглашение и спрашиваете",
+   "lang": "ru"
+  },
+  {
+   "start": 598.32,
+   "end": 599.88,
+   "text": "Как я доберусь до вашего дома?",
+   "lang": "ru"
+  },
+  {
+   "start": 603.48,
+   "end": 605.24,
+   "text": "How do I get to your place?",
+   "lang": "ru"
+  },
+  {
+   "start": 605.24,
+   "end": 605.42,
+   "text": "Peace.",
+   "lang": "en"
+  },
+  {
+   "start": 608.98,
+   "end": 609.5,
+   "text": "Get.",
+   "lang": "ru"
+  },
+  {
+   "start": 611.76,
+   "end": 613.06,
+   "text": "Get to your place.",
+   "lang": "ru"
+  },
+  {
+   "start": 616.42,
+   "end": 618.12,
+   "text": "How do I get to your place?",
+   "lang": "ru"
+  },
+  {
+   "start": 618.12,
+   "end": 618.3,
+   "text": "Peace.",
+   "lang": "en"
+  },
+  {
+   "start": 621.86,
+   "end": 623.86,
+   "text": "Я могу доехать на автобусе?",
+   "lang": "ru"
+  },
+  {
+   "start": 624.1,
+   "end": 625.24,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 625.92,
+   "end": 627.32,
+   "text": "Can I come by bus?",
+   "lang": "ru"
+  },
+  {
+   "start": 630.1,
+   "end": 631.5,
+   "text": "Бас.",
+   "lang": "ru"
+  },
+  {
+   "start": 631.5,
+   "end": 634.0,
+   "text": "Bus",
+   "lang": "en"
+  },
+  {
+   "start": 634.0,
+   "end": 635.56,
+   "text": "By Bus",
+   "lang": "en"
+  },
+  {
+   "start": 637.74,
+   "end": 641.2,
+   "text": "Can I come by bus?",
+   "lang": "ru"
+  },
+  {
+   "start": 644.96,
+   "end": 647.48,
+   "text": "Я могу доехать на автобусе?",
+   "lang": "ru"
+  },
+  {
+   "start": 650.18,
+   "end": 651.58,
+   "text": "Can I come by bus?",
+   "lang": "en"
+  },
+  {
+   "start": 654.48,
+   "end": 658.54,
+   "text": "Да, вы можете доехать на автобусе.",
+   "lang": "ru"
+  },
+  {
+   "start": 662.86,
+   "end": 664.52,
+   "text": "Yes, you can come by bus.",
+   "lang": "en"
+  },
+  {
+   "start": 668.3,
+   "end": 670.58,
+   "text": "Но это не очень далеко.",
+   "lang": "ru"
+  },
+  {
+   "start": 673.68,
+   "end": 675.38,
+   "text": "But it's not very far.",
+   "lang": "en"
+  },
+  {
+   "start": 678.54,
+   "end": 680.98,
+   "text": "Вы можете дойти пешком, если хотите.",
+   "lang": "ru"
+  },
+  {
+   "start": 680.98,
+   "end": 687.02,
+   "text": "You can walk if you'd rather.",
+   "lang": "en"
+  },
+  {
+   "start": 690.76,
+   "end": 692.64,
+   "text": "You can walk if you'd rather.",
+   "lang": "en"
+  },
+  {
+   "start": 696.62,
+   "end": 698.64,
+   "text": "Смотрите, вот здесь на карте.",
+   "lang": "ru"
+  },
+  {
+   "start": 702.14,
+   "end": 703.68,
+   "text": "Look, here's a map.",
+   "lang": "en"
+  },
+  {
+   "start": 707.46,
+   "end": 708.92,
+   "text": "Look, here's a map.",
+   "lang": "ru"
+  },
+  {
+   "start": 712.72,
+   "end": 714.0,
+   "text": "Вот карта города.",
+   "lang": "ru"
+  },
+  {
+   "start": 717.16,
+   "end": 718.6,
+   "text": "Here's a map of the city.",
+   "lang": "ru"
+  },
+  {
+   "start": 721.66,
+   "end": 722.2,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 722.94,
+   "end": 725.58,
+   "text": "Замечательно. Можете показать мне на карте?",
+   "lang": "ru"
+  },
+  {
+   "start": 730.72,
+   "end": 732.96,
+   "text": "Great. Can you show me on the map?",
+   "lang": "ru"
+  },
+  {
+   "start": 737.78,
+   "end": 741.18,
+   "text": "Вы можете показать мне на карте, где находится ваш дом?",
+   "lang": "ru"
+  },
+  {
+   "start": 745.58,
+   "end": 748.36,
+   "text": "Can you show me on the map where your place is?",
+   "lang": "en"
+  },
+  {
+   "start": 752.6,
+   "end": 755.58,
+   "text": "Can you show me on the map where your place is?",
+   "lang": "en"
+  },
+  {
+   "start": 760.2,
+   "end": 760.98,
+   "text": "She said.",
+   "lang": "en"
+  },
+  {
+   "start": 761.16,
+   "end": 763.5,
+   "text": "Смотрите, наша улица здесь.",
+   "lang": "ru"
+  },
+  {
+   "start": 768.34,
+   "end": 770.36,
+   "text": "Look, our street is here.",
+   "lang": "ru"
+  },
+  {
+   "start": 774.86,
+   "end": 776.22,
+   "text": "Say that you see it.",
+   "lang": "ru"
+  },
+  {
+   "start": 778.98,
+   "end": 779.94,
+   "text": "I see it.",
+   "lang": "ru"
+  },
+  {
+   "start": 782.64,
+   "end": 784.38,
+   "text": "Oh, yes, I see it.",
+   "lang": "ru"
+  },
+  {
+   "start": 788.6,
+   "end": 790.78,
+   "text": "Ask her at what time she has lunch.",
+   "lang": "ru"
+  },
+  {
+   "start": 795.28,
+   "end": 797.1,
+   "text": "At what time do you have lunch?",
+   "lang": "ru"
+  },
+  {
+   "start": 800.8,
+   "end": 802.54,
+   "text": "What time do you have lunch?",
+   "lang": "ru"
+  },
+  {
+   "start": 806.3,
+   "end": 806.78,
+   "text": "What time?",
+   "lang": "ru"
+  },
+  {
+   "start": 809.2,
+   "end": 810.78,
+   "text": "Your acquaintance answers",
+   "lang": "ru"
+  },
+  {
+   "start": 810.78,
+   "end": 813.38,
+   "text": "Почему бы вам не прийти в полдень?",
+   "lang": "ru"
+  },
+  {
+   "start": 816.52,
+   "end": 818.18,
+   "text": "Why don't you come at noon?",
+   "lang": "ru"
+  },
+  {
+   "start": 821.48,
+   "end": 823.02,
+   "text": "Why don't you come at noon?",
+   "lang": "ru"
+  },
+  {
+   "start": 826.1,
+   "end": 829.4,
+   "text": "Как бы она сказала, приходите в полдень.",
+   "lang": "ru"
+  },
+  {
+   "start": 831.94,
+   "end": 832.8,
+   "text": "Come at noon.",
+   "lang": "en"
+  },
+  {
+   "start": 835.34,
+   "end": 837.16,
+   "text": "Тогда у нас много времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 840.28,
+   "end": 842.02,
+   "text": "Then we have a lot of time.",
+   "lang": "en"
+  },
+  {
+   "start": 845.92,
+   "end": 848.72,
+   "text": "Хорошо, увидимся в следующую пятницу.",
+   "lang": "ru"
+  },
+  {
+   "start": 853.02,
+   "end": 854.96,
+   "text": "Окей, увидимся в следующий фридай.",
+   "lang": "ru"
+  },
+  {
+   "start": 859.36,
+   "end": 862.44,
+   "text": "Сейчас представьте, что вы Даниэль Мендес.",
+   "lang": "ru"
+  },
+  {
+   "start": 862.62,
+   "end": 866.24,
+   "text": "У вас встреча со знакомой, но вы немного опаздываете.",
+   "lang": "ru"
+  },
+  {
+   "start": 866.94,
+   "end": 869.28,
+   "text": "Вы помните, как сказать «поздно»?",
+   "lang": "ru"
+  },
+  {
+   "start": 871.5,
+   "end": 872.34,
+   "text": "It's late.",
+   "lang": "ru"
+  },
+  {
+   "start": 875.04,
+   "end": 875.74,
+   "text": "It's late.",
+   "lang": "en"
+  },
+  {
+   "start": 876.52,
+   "end": 885.08,
+   "text": "В английском языке уже поздно и опаздывать звучат одинаково.",
+   "lang": "ru"
+  },
+  {
+   "start": 885.08,
+   "end": 887.88,
+   "text": "Попробуйте сказать, я опоздал.",
+   "lang": "ru"
+  },
+  {
+   "start": 890.4,
+   "end": 891.12,
+   "text": "I'm late.",
+   "lang": "en"
+  },
+  {
+   "start": 893.84,
+   "end": 894.56,
+   "text": "I'm late.",
+   "lang": "en"
+  },
+  {
+   "start": 897.24,
+   "end": 898.12,
+   "text": "Now you want to go to bed.",
+   "lang": "en"
+  },
+  {
+   "start": 898.14,
+   "end": 900.46,
+   "text": "Извините, я опоздал.",
+   "lang": "ru"
+  },
+  {
+   "start": 902.34,
+   "end": 903.86,
+   "text": "I'm sorry I'm late.",
+   "lang": "ru"
+  },
+  {
+   "start": 905.96,
+   "end": 907.36,
+   "text": "Late",
+   "lang": "en"
+  },
+  {
+   "start": 909.7,
+   "end": 917.8,
+   "text": "I'm late. I'm sorry. I'm sorry I'm late.",
+   "lang": "ru"
+  },
+  {
+   "start": 920.72,
+   "end": 923.3,
+   "text": "Say. Извините, я опоздал.",
+   "lang": "ru"
+  },
+  {
+   "start": 926.32,
+   "end": 927.96,
+   "text": "I'm sorry I'm late.",
+   "lang": "ru"
+  },
+  {
+   "start": 930.84,
+   "end": 934.08,
+   "text": "Your colleague says. Это не имеет значения.",
+   "lang": "ru"
+  },
+  {
+   "start": 936.36,
+   "end": 938.04,
+   "text": "That doesn't matter.",
+   "lang": "en"
+  },
+  {
+   "start": 940.46,
+   "end": 948.82,
+   "text": "А теперь другая распространенная форма, чтобы сказать это.",
+   "lang": "ru"
+  },
+  {
+   "start": 948.82,
+   "end": 950.06,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 950.64,
+   "end": 951.6,
+   "text": "That's okay.",
+   "lang": "en"
+  },
+  {
+   "start": 954.6,
+   "end": 955.52,
+   "text": "That's okay.",
+   "lang": "en"
+  },
+  {
+   "start": 958.56,
+   "end": 959.5,
+   "text": "That's alright.",
+   "lang": "en"
+  },
+  {
+   "start": 962.5,
+   "end": 963.42,
+   "text": "That's alright.",
+   "lang": "en"
+  },
+  {
+   "start": 966.74,
+   "end": 972.62,
+   "text": "как «OK» так и «All right» можно использовать в неформальной беседе,",
+   "lang": "ru"
+  },
+  {
+   "start": 972.62,
+   "end": 976.14,
+   "text": "чтобы сказать, что это не имеет значения и все в порядке.",
+   "lang": "ru"
+  },
+  {
+   "start": 979.14,
+   "end": 983.42,
+   "text": "Вы помните, как спросить «Я могу доехать на автобусе?»",
+   "lang": "ru"
+  },
+  {
+   "start": 983.42,
+   "end": 984.68,
+   "text": "Can I come by bus?",
+   "lang": "ru"
+  },
+  {
+   "start": 988.04,
+   "end": 989.48,
+   "text": "Can I come by bus?",
+   "lang": "en"
+  },
+  {
+   "start": 992.72,
+   "end": 996.18,
+   "text": "Вы приехали на автобусе?",
+   "lang": "ru"
+  },
+  {
+   "start": 999.14,
+   "end": 1000.74,
+   "text": "Did you come by bus?",
+   "lang": "ru"
+  },
+  {
+   "start": 1004.04,
+   "end": 1004.98,
+   "text": "Did come.",
+   "lang": "en"
+  },
+  {
+   "start": 1008.3,
+   "end": 1009.7,
+   "text": "Did you come by bus?",
+   "lang": "en"
+  },
+  {
+   "start": 1012.88,
+   "end": 1016.62,
+   "text": "Как она спросит, приехали ли вы на автобусе?",
+   "lang": "ru"
+  },
+  {
+   "start": 1019.42,
+   "end": 1021.04,
+   "text": "Did you come by bus?",
+   "lang": "ru"
+  },
+  {
+   "start": 1024.76,
+   "end": 1027.6,
+   "text": "Да, я приехал на автобусе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1027.6,
+   "end": 1029.22,
+   "text": "Я приехал.",
+   "lang": "ru"
+  },
+  {
+   "start": 1029.24,
+   "end": 1030.38,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1031.56,
+   "end": 1032.16,
+   "text": "I came.",
+   "lang": "ru"
+  },
+  {
+   "start": 1034.7,
+   "end": 1035.38,
+   "text": "Came.",
+   "lang": "ru"
+  },
+  {
+   "start": 1037.56,
+   "end": 1038.62,
+   "text": "I came.",
+   "lang": "ru"
+  },
+  {
+   "start": 1041.32,
+   "end": 1042.0,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1042.32,
+   "end": 1044.52,
+   "text": "Да, я приехал на автобусе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1047.86,
+   "end": 1049.72,
+   "text": "Yes, I came by bus.",
+   "lang": "ru"
+  },
+  {
+   "start": 1053.64,
+   "end": 1055.52,
+   "text": "Yes, I came by bus.",
+   "lang": "en"
+  },
+  {
+   "start": 1064.2,
+   "end": 1065.1,
+   "text": "You came?",
+   "lang": "en"
+  },
+  {
+   "start": 1067.56,
+   "end": 1068.46,
+   "text": "You came?",
+   "lang": "en"
+  },
+  {
+   "start": 1070.3,
+   "end": 1073.18,
+   "text": "Вы приехали на автобусе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1075.88,
+   "end": 1077.36,
+   "text": "You came by bus",
+   "lang": "en"
+  },
+  {
+   "start": 1080.02,
+   "end": 1081.9,
+   "text": "You came by bus",
+   "lang": "en"
+  },
+  {
+   "start": 1084.84,
+   "end": 1086.34,
+   "text": "Now she asks",
+   "lang": "ru"
+  },
+  {
+   "start": 1086.34,
+   "end": 1088.84,
+   "text": "Вы приехали на автобусе, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1088.94,
+   "end": 1090.12,
+   "text": "Listen and repeat",
+   "lang": "ru"
+  },
+  {
+   "start": 1090.12,
+   "end": 1092.82,
+   "text": "You came by bus, didn't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1096.74,
+   "end": 1097.38,
+   "text": "Didn't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1100.04,
+   "end": 1100.7,
+   "text": "Didn't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1103.04,
+   "end": 1104.92,
+   "text": "You came by bus, didn't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1108.7,
+   "end": 1109.92,
+   "text": "How does she ask?",
+   "lang": "en"
+  },
+  {
+   "start": 1110.1,
+   "end": 1112.38,
+   "text": "Вы приехали на автобусе, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1115.28,
+   "end": 1117.3,
+   "text": "Вы приехали на автобус, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1117.3,
+   "end": 1117.42,
+   "text": "you",
+   "lang": "en"
+  },
+  {
+   "start": 1120.8,
+   "end": 1122.98,
+   "text": "Попробуйте кратко ответить, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1125.44,
+   "end": 1126.72,
+   "text": "Yes I did",
+   "lang": "en"
+  },
+  {
+   "start": 1129.4,
+   "end": 1130.68,
+   "text": "Yes I did",
+   "lang": "en"
+  },
+  {
+   "start": 1133.16,
+   "end": 1135.8,
+   "text": "Да, я приехал на автобусе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1139.14,
+   "end": 1140.88,
+   "text": "Yes, I came by bus.",
+   "lang": "en"
+  },
+  {
+   "start": 1144.52,
+   "end": 1145.96,
+   "text": "I came by bus.",
+   "lang": "en"
+  },
+  {
+   "start": 1147.3,
+   "end": 1150.1,
+   "text": "Я опоздал.",
+   "lang": "ru"
+  },
+  {
+   "start": 1152.68,
+   "end": 1153.34,
+   "text": "I'm late.",
+   "lang": "en"
+  },
+  {
+   "start": 1154.18,
+   "end": 1158.56,
+   "text": "Потому что автобус задержался.",
+   "lang": "ru"
+  },
+  {
+   "start": 1161.86,
+   "end": 1163.44,
+   "text": "Because the bus was late.",
+   "lang": "en"
+  },
+  {
+   "start": 1166.1,
+   "end": 1169.04,
+   "text": "Автобус задержался сегодня утром.",
+   "lang": "ru"
+  },
+  {
+   "start": 1172.38,
+   "end": 1174.28,
+   "text": "The bus was late this morning.",
+   "lang": "ru"
+  },
+  {
+   "start": 1177.7,
+   "end": 1178.62,
+   "text": "Say again.",
+   "lang": "ru"
+  },
+  {
+   "start": 1178.94,
+   "end": 1180.88,
+   "text": "Прошу прощения, я опоздал.",
+   "lang": "ru"
+  },
+  {
+   "start": 1183.92,
+   "end": 1185.48,
+   "text": "I'm sorry I'm late.",
+   "lang": "ru"
+  },
+  {
+   "start": 1188.54,
+   "end": 1190.04,
+   "text": "I'm sorry I'm late.",
+   "lang": "ru"
+  },
+  {
+   "start": 1193.26,
+   "end": 1195.96,
+   "text": "Ваша коллега говорит в неформальной форме.",
+   "lang": "ru"
+  },
+  {
+   "start": 1195.98,
+   "end": 1197.08,
+   "text": "Все в порядке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1199.58,
+   "end": 1200.52,
+   "text": "That's okay.",
+   "lang": "ru"
+  },
+  {
+   "start": 1200.52,
+   "end": 1200.78,
+   "text": "Okay.",
+   "lang": "en"
+  },
+  {
+   "start": 1203.48,
+   "end": 1204.26,
+   "text": "That's okay.",
+   "lang": "en"
+  },
+  {
+   "start": 1206.52,
+   "end": 1209.86,
+   "text": "У нас все еще есть время для нашей встречи.",
+   "lang": "ru"
+  },
+  {
+   "start": 1213.38,
+   "end": 1215.66,
+   "text": "We still have time for our meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 1218.94,
+   "end": 1220.62,
+   "text": "и для обеда.",
+   "lang": "ru"
+  },
+  {
+   "start": 1223.04,
+   "end": 1224.04,
+   "text": "and for lunch.",
+   "lang": "en"
+  },
+  {
+   "start": 1225.54,
+   "end": 1234.46,
+   "text": "Во время обеда коллега вас спрашивает,",
+   "lang": "ru"
+  },
+  {
+   "start": 1234.48,
+   "end": 1237.74,
+   "text": "вы ездили в Бостон на прошлой неделе, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1242.08,
+   "end": 1244.52,
+   "text": "You went to Boston last week, didn't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1249.46,
+   "end": 1250.02,
+   "text": "Didn't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1252.62,
+   "end": 1254.24,
+   "text": "Кратко ответьте, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1256.88,
+   "end": 1257.96,
+   "text": "Yes I did.",
+   "lang": "en"
+  },
+  {
+   "start": 1260.66,
+   "end": 1261.62,
+   "text": "Yes I did.",
+   "lang": "en"
+  },
+  {
+   "start": 1264.2,
+   "end": 1265.78,
+   "text": "Мой сын живет там.",
+   "lang": "ru"
+  },
+  {
+   "start": 1268.9,
+   "end": 1270.42,
+   "text": "My son lives there.",
+   "lang": "en"
+  },
+  {
+   "start": 1272.74,
+   "end": 1276.46,
+   "text": "И я ездил навестить своего сына.",
+   "lang": "ru"
+  },
+  {
+   "start": 1279.82,
+   "end": 1281.54,
+   "text": "and I went to visit my son",
+   "lang": "en"
+  },
+  {
+   "start": 1284.74,
+   "end": 1288.84,
+   "text": "She asks, Вы обедали в Casa Mexico?",
+   "lang": "ru"
+  },
+  {
+   "start": 1288.84,
+   "end": 1289.1,
+   "text": "Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 1293.04,
+   "end": 1294.7,
+   "text": "Did you eat at Casa Mexico?",
+   "lang": "ru"
+  },
+  {
+   "start": 1298.28,
+   "end": 1300.28,
+   "text": "Did you eat at Casa Mexico?",
+   "lang": "ru"
+  },
+  {
+   "start": 1300.28,
+   "end": 1300.66,
+   "text": "Mexico?",
+   "lang": "en"
+  },
+  {
+   "start": 1304.46,
+   "end": 1307.36,
+   "text": "Постарайтесь кратко ответить «Нет».",
+   "lang": "ru"
+  },
+  {
+   "start": 1309.84,
+   "end": 1311.4,
+   "text": "No, we didn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1314.5,
+   "end": 1315.48,
+   "text": "No, we didn't.",
+   "lang": "ru"
+  },
+  {
+   "start": 1318.4,
+   "end": 1320.24,
+   "text": "Наступил другой вечер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1320.82,
+   "end": 1323.22,
+   "text": "Вы разговариваете с другой своей знакомой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1323.22,
+   "end": 1326.96,
+   "text": "Она спрашивает, что вы делаете в воскресенье?",
+   "lang": "ru"
+  },
+  {
+   "start": 1330.04,
+   "end": 1331.56,
+   "text": "What are you doing on Sunday?",
+   "lang": "en"
+  },
+  {
+   "start": 1331.78,
+   "end": 1336.58,
+   "text": "Вы бы хотели прийти на кофе?",
+   "lang": "ru"
+  },
+  {
+   "start": 1340.12,
+   "end": 1341.72,
+   "text": "Would you like to come for coffee?",
+   "lang": "en"
+  },
+  {
+   "start": 1344.68,
+   "end": 1346.44,
+   "text": "После полудня?",
+   "lang": "ru"
+  },
+  {
+   "start": 1348.7,
+   "end": 1349.74,
+   "text": "In the afternoon?",
+   "lang": "en"
+  },
+  {
+   "start": 1352.42,
+   "end": 1354.6,
+   "text": "Придет еще один наш знакомый.",
+   "lang": "ru"
+  },
+  {
+   "start": 1358.58,
+   "end": 1360.9,
+   "text": "Another friend of ours is coming too",
+   "lang": "en"
+  },
+  {
+   "start": 1364.92,
+   "end": 1367.18,
+   "text": "Another friend is coming too",
+   "lang": "en"
+  },
+  {
+   "start": 1371.04,
+   "end": 1373.32,
+   "text": "Скажите, что да, вам бы хотелось.",
+   "lang": "ru"
+  },
+  {
+   "start": 1376.44,
+   "end": 1377.68,
+   "text": "Yes, I'd like to.",
+   "lang": "ru"
+  },
+  {
+   "start": 1380.82,
+   "end": 1383.72,
+   "text": "Скажите, что вечер воскресенья вам подходит.",
+   "lang": "ru"
+  },
+  {
+   "start": 1388.54,
+   "end": 1390.26,
+   "text": "Sunday afternoon is fine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1394.14,
+   "end": 1395.88,
+   "text": "Sunday afternoon is fine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1395.88,
+   "end": 1396.16,
+   "text": "Fine.",
+   "lang": "en"
+  },
+  {
+   "start": 1399.66,
+   "end": 1402.08,
+   "text": "Now ask her how you get to her place.",
+   "lang": "ru"
+  },
+  {
+   "start": 1402.08,
+   "end": 1402.34,
+   "text": "place.",
+   "lang": "en"
+  },
+  {
+   "start": 1405.66,
+   "end": 1407.2,
+   "text": "Как я доехал до вашего места?",
+   "lang": "ru"
+  },
+  {
+   "start": 1407.2,
+   "end": 1407.48,
+   "text": "place.",
+   "lang": "en"
+  },
+  {
+   "start": 1410.88,
+   "end": 1411.72,
+   "text": "Она говорит,",
+   "lang": "ru"
+  },
+  {
+   "start": 1412.26,
+   "end": 1415.02,
+   "text": "Смотрите, я могу вам показать на этой карте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1419.08,
+   "end": 1421.04,
+   "text": "Смотрите, я могу показать вам на этой карте.",
+   "lang": "ru"
+  },
+  {
+   "start": 1425.5,
+   "end": 1427.46,
+   "text": "Чтобы доехать до нашего дома,",
+   "lang": "ru"
+  },
+  {
+   "start": 1430.44,
+   "end": 1431.9,
+   "text": "To get to our place.",
+   "lang": "en"
+  },
+  {
+   "start": 1435.02,
+   "end": 1436.96,
+   "text": "Езжайте до Парк-авеню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1440.04,
+   "end": 1441.76,
+   "text": "Go to Park Avenue",
+   "lang": "en"
+  },
+  {
+   "start": 1445.22,
+   "end": 1448.3,
+   "text": "Затем на первом повороте сверните налево.",
+   "lang": "ru"
+  },
+  {
+   "start": 1451.66,
+   "end": 1453.74,
+   "text": "Then take the first left",
+   "lang": "en"
+  },
+  {
+   "start": 1456.6,
+   "end": 1458.46,
+   "text": "Take the first left",
+   "lang": "en"
+  },
+  {
+   "start": 1460.76,
+   "end": 1465.24,
+   "text": "Мы живем в доме номер 120 на Парк-авеню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1465.34,
+   "end": 1466.56,
+   "text": "Слушайте и повторите.",
+   "lang": "ru"
+  },
+  {
+   "start": 1466.86,
+   "end": 1469.88,
+   "text": "Мы живем на Парк-авеню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1473.86,
+   "end": 1474.74,
+   "text": "120",
+   "lang": "ru"
+  },
+  {
+   "start": 1474.74,
+   "end": 1475.48,
+   "text": "на",
+   "lang": "ru"
+  },
+  {
+   "start": 1476.98,
+   "end": 1478.38,
+   "text": "At",
+   "lang": "en"
+  },
+  {
+   "start": 1478.56,
+   "end": 1478.76,
+   "text": "120",
+   "lang": "ru"
+  },
+  {
+   "start": 1478.76,
+   "end": 1487.22,
+   "text": "на Парк-авеню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1490.32,
+   "end": 1493.52,
+   "text": "Мы живем на 120 Парк Авеню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1518.2,
+   "end": 1521.22,
+   "text": "Мы живем на 120 Парк-авеню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1525.04,
+   "end": 1531.02,
+   "text": "А сейчас вы должны уходить. Что нужно сказать, чтобы попрощаться ночью?",
+   "lang": "ru"
+  },
+  {
+   "start": 1532.38,
+   "end": 1533.4,
+   "text": "Доброй ночи.",
+   "lang": "ru"
+  },
+  {
+   "start": 1535.14,
+   "end": 1540.44,
+   "text": "Еще один день. Вы приехали на ужин в дом коллеги Сусанны. Вы поздно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1540.44,
+   "end": 1547.64,
+   "text": "Она вас приветствует у двери. Поздоровайтесь с ней в неформальной форме, обращаясь к ней по имени.",
+   "lang": "ru"
+  },
+  {
+   "start": 1549.56,
+   "end": 1551.3,
+   "text": "Hi Susan",
+   "lang": "en"
+  },
+  {
+   "start": 1551.3,
+   "end": 1555.8,
+   "text": "Hi Daniel, please",
+   "lang": "en"
+  },
+  {
+   "start": 1555.96,
+   "end": 1558.5,
+   "text": "Как вы извинитесь за опоздание?",
+   "lang": "ru"
+  },
+  {
+   "start": 1562.16,
+   "end": 1563.5,
+   "text": "I'm sorry I'm late.",
+   "lang": "en"
+  },
+  {
+   "start": 1566.48,
+   "end": 1567.84,
+   "text": "I'm sorry I'm late.",
+   "lang": "en"
+  },
+  {
+   "start": 1570.78,
+   "end": 1573.1,
+   "text": "Она говорит в неформальной форме.",
+   "lang": "ru"
+  },
+  {
+   "start": 1573.12,
+   "end": 1574.1,
+   "text": "Все в порядке.",
+   "lang": "ru"
+  },
+  {
+   "start": 1575.92,
+   "end": 1577.6,
+   "text": "That's okay",
+   "lang": "en"
+  },
+  {
+   "start": 1580.12,
+   "end": 1582.7,
+   "text": "Вы приехали на такси, не так ли?",
+   "lang": "ru"
+  },
+  {
+   "start": 1586.52,
+   "end": 1588.48,
+   "text": "You came by taxi, didn't you?",
+   "lang": "en"
+  },
+  {
+   "start": 1592.46,
+   "end": 1594.02,
+   "text": "Ответьте кратко, что нет.",
+   "lang": "ru"
+  },
+  {
+   "start": 1596.78,
+   "end": 1598.78,
+   "text": "No I didn't.",
+   "lang": "en"
+  },
+  {
+   "start": 1600.92,
+   "end": 1602.82,
+   "text": "No I didn't.",
+   "lang": "en"
+  },
+  {
+   "start": 1604.78,
+   "end": 1608.04,
+   "text": "Я приехал на автобусе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1611.12,
+   "end": 1612.48,
+   "text": "I came by bus.",
+   "lang": "en"
+  },
+  {
+   "start": 1620.28,
+   "end": 1622.5,
+   "text": "Сначала я зашел в универмаг.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.06,
+   "end": 1629.12,
+   "text": "First I went to a department store.",
+   "lang": "en"
+  },
+  {
+   "start": 1633.24,
+   "end": 1635.74,
+   "text": "Чтобы купить футболку для дочери.",
+   "lang": "ru"
+  },
+  {
+   "start": 1639.66,
+   "end": 1642.0,
+   "text": "To buy a T-shirt for my daughter.",
+   "lang": "ru"
+  },
+  {
+   "start": 1645.86,
+   "end": 1647.02,
+   "text": "A T-shirt.",
+   "lang": "ru"
+  },
+  {
+   "start": 1649.58,
+   "end": 1652.0,
+   "text": "Say that you bought some mineral water too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1657.02,
+   "end": 1659.22,
+   "text": "I bought some mineral water too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1663.26,
+   "end": 1663.86,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1664.08,
+   "end": 1666.34,
+   "text": "А потом автобус задержался.",
+   "lang": "ru"
+  },
+  {
+   "start": 1669.82,
+   "end": 1671.88,
+   "text": "And then the bus was late.",
+   "lang": "ru"
+  },
+  {
+   "start": 1675.5,
+   "end": 1676.84,
+   "text": "The bus was late.",
+   "lang": "ru"
+  },
+  {
+   "start": 1680.02,
+   "end": 1680.54,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1681.1,
+   "end": 1682.6,
+   "text": "Oh, that doesn't matter.",
+   "lang": "ru"
+  },
+  {
+   "start": 1683.02,
+   "end": 1684.82,
+   "text": "Dinner isn't until 7 o'clock.",
+   "lang": "ru"
+  },
+  {
+   "start": 1685.12,
+   "end": 1686.84,
+   "text": "Would you like something to drink first?",
+   "lang": "ru"
+  },
+  {
+   "start": 1687.36,
+   "end": 1687.88,
+   "text": "Answer.",
+   "lang": "ru"
+  },
+  {
+   "start": 1688.04,
+   "end": 1688.78,
+   "text": "Да, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1688.78,
+   "end": 1689.06,
+   "text": "Joust.",
+   "lang": "en"
+  },
+  {
+   "start": 1692.02,
+   "end": 1692.88,
+   "text": "Yes, please.",
+   "lang": "ru"
+  },
+  {
+   "start": 1695.84,
+   "end": 1697.04,
+   "text": "Wine? Beer?",
+   "lang": "ru"
+  },
+  {
+   "start": 1698.04,
+   "end": 1699.56,
+   "text": "Или, может быть, кофе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1699.86,
+   "end": 1702.88,
+   "text": "Скажите, сначала мне бы хотелось немного воды.",
+   "lang": "ru"
+  },
+  {
+   "start": 1706.54,
+   "end": 1708.38,
+   "text": "First I'd like some water.",
+   "lang": "en"
+  },
+  {
+   "start": 1711.34,
+   "end": 1713.86,
+   "text": "А потом бокал вина, пожалуйста.",
+   "lang": "ru"
+  },
+  {
+   "start": 1717.58,
+   "end": 1719.58,
+   "text": "И потом, пожалуйста, бокал вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1719.58,
+   "end": 1719.84,
+   "text": "Please.",
+   "lang": "en"
+  },
+  {
+   "start": 1728.04,
+   "end": 1729.54,
+   "text": "Ваше здоровье!",
+   "lang": "ru"
+  },
+  {
+   "start": 1729.54,
+   "end": 1731.04,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1731.6,
+   "end": 1732.26,
+   "text": "Cheers.",
+   "lang": "en"
+  },
+  {
+   "start": 1734.44,
+   "end": 1735.1,
+   "text": "Cheers.",
+   "lang": "en"
+  },
+  {
+   "start": 1735.94,
+   "end": 1739.86,
+   "text": "Это конец первого урока.",
+   "lang": "ru"
+  }
+ ]
+}

@@ -1,0 +1,2361 @@
+{
+ "id": "III_21",
+ "source": "Pimsleur_III_21.mp3",
+ "duration": 1817.52,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 144,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 9.54,
+   "text": "I'd be the wild rover for many years. I'd spend all of my young with sea and beer.",
+   "lang": "en"
+  },
+  {
+   "start": 11.2,
+   "end": 19.18,
+   "text": "Школа разведчика spyenglish.ru и я, Игорь Серов, приветствуем вас и представляем...",
+   "lang": "ru"
+  },
+  {
+   "start": 22.98,
+   "end": 30.1,
+   "text": "Двадцать первый урок третьего уровня американского английского языка по методу доктора Пимпслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 30.1,
+   "end": 33.26,
+   "text": "Listen to this conversation in an office in New York.",
+   "lang": "en"
+  },
+  {
+   "start": 34.36,
+   "end": 36.52,
+   "text": "Mary, how was your trip to Philadelphia?",
+   "lang": "en"
+  },
+  {
+   "start": 36.94,
+   "end": 40.98,
+   "text": "It went pretty well, and the meeting with our new client was very worthwhile.",
+   "lang": "en"
+  },
+  {
+   "start": 41.6,
+   "end": 44.12,
+   "text": "That's good. Did you have time to see the city?",
+   "lang": "en"
+  },
+  {
+   "start": 44.38,
+   "end": 46.86,
+   "text": "Not much. Next time I'd like to stay longer.",
+   "lang": "en"
+  },
+  {
+   "start": 47.74,
+   "end": 48.42,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 49.34,
+   "end": 51.42,
+   "text": "Mary, how was your trip to Philadelphia?",
+   "lang": "en"
+  },
+  {
+   "start": 51.9,
+   "end": 55.78,
+   "text": "It went pretty well, and the meeting with our new client was very worthwhile.",
+   "lang": "en"
+  },
+  {
+   "start": 56.3,
+   "end": 58.76,
+   "text": "That's good. Did you have time to see the city?",
+   "lang": "en"
+  },
+  {
+   "start": 60.1,
+   "end": 61.12,
+   "text": "Next time I'd like to...",
+   "lang": "en"
+  },
+  {
+   "start": 61.14,
+   "end": 64.24,
+   "text": "Вы заходите в офис коллеги.",
+   "lang": "ru"
+  },
+  {
+   "start": 64.24,
+   "end": 66.56,
+   "text": "Как он пригласит вас сесть?",
+   "lang": "ru"
+  },
+  {
+   "start": 69.1,
+   "end": 70.1,
+   "text": "Sit down, please.",
+   "lang": "en"
+  },
+  {
+   "start": 73.1,
+   "end": 74.66,
+   "text": "Another colleague is there, too.",
+   "lang": "en"
+  },
+  {
+   "start": 74.84,
+   "end": 79.08,
+   "text": "Как раз сейчас мы говорили о моей поездке.",
+   "lang": "ru"
+  },
+  {
+   "start": 82.9,
+   "end": 85.04,
+   "text": "We were just talking about my trip.",
+   "lang": "ru"
+  },
+  {
+   "start": 89.22,
+   "end": 89.86,
+   "text": "Ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 90.08,
+   "end": 92.0,
+   "text": "А ваши поездки в Бостон?",
+   "lang": "ru"
+  },
+  {
+   "start": 94.86,
+   "end": 96.34,
+   "text": "Your trip to Boston?",
+   "lang": "ru"
+  },
+  {
+   "start": 99.84,
+   "end": 100.52,
+   "text": "Как она прошла?",
+   "lang": "ru"
+  },
+  {
+   "start": 103.02,
+   "end": 104.1,
+   "text": "How was it?",
+   "lang": "ru"
+  },
+  {
+   "start": 106.44,
+   "end": 107.46,
+   "text": "She answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 112.66,
+   "end": 114.2,
+   "text": "It went very well.",
+   "lang": "en"
+  },
+  {
+   "start": 119.98,
+   "end": 123.66,
+   "text": "У меня была встреча",
+   "lang": "ru"
+  },
+  {
+   "start": 126.22,
+   "end": 127.52,
+   "text": "I had a meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 130.46,
+   "end": 130.98,
+   "text": "Had.",
+   "lang": "en"
+  },
+  {
+   "start": 133.1,
+   "end": 134.34,
+   "text": "I had a meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 136.18,
+   "end": 138.62,
+   "text": "с нашим новым клиентом.",
+   "lang": "ru"
+  },
+  {
+   "start": 141.4,
+   "end": 142.68,
+   "text": "with our new client.",
+   "lang": "en"
+  },
+  {
+   "start": 144.96,
+   "end": 147.08,
+   "text": "По моему мнению,",
+   "lang": "ru"
+  },
+  {
+   "start": 149.32,
+   "end": 150.5,
+   "text": "In my opinion.",
+   "lang": "en"
+  },
+  {
+   "start": 152.74,
+   "end": 154.5,
+   "text": "поездка стоила того.",
+   "lang": "ru"
+  },
+  {
+   "start": 154.5,
+   "end": 159.46,
+   "text": "The trip was worthwhile.",
+   "lang": "ru"
+  },
+  {
+   "start": 159.46,
+   "end": 159.66,
+   "text": "while.",
+   "lang": "en"
+  },
+  {
+   "start": 163.52,
+   "end": 164.28,
+   "text": "Worthwhile.",
+   "lang": "ru"
+  },
+  {
+   "start": 166.64,
+   "end": 167.86,
+   "text": "Was worthwhile.",
+   "lang": "ru"
+  },
+  {
+   "start": 167.86,
+   "end": 168.14,
+   "text": "while.",
+   "lang": "en"
+  },
+  {
+   "start": 170.92,
+   "end": 173.28,
+   "text": "In my opinion, the trip was worthwhile.",
+   "lang": "ru"
+  },
+  {
+   "start": 173.28,
+   "end": 173.46,
+   "text": "while.",
+   "lang": "en"
+  },
+  {
+   "start": 178.24,
+   "end": 180.38,
+   "text": "Do you remember how to say...",
+   "lang": "ru"
+  },
+  {
+   "start": 180.38,
+   "end": 180.96,
+   "text": "Lütтать.",
+   "lang": "ru"
+  },
+  {
+   "start": 180.96,
+   "end": 184.5,
+   "text": "To fly.",
+   "lang": "en"
+  },
+  {
+   "start": 187.06,
+   "end": 187.78,
+   "text": "Fly.",
+   "lang": "en"
+  },
+  {
+   "start": 190.04,
+   "end": 191.54,
+   "text": "Now try to ask.",
+   "lang": "en"
+  },
+  {
+   "start": 191.96,
+   "end": 195.04,
+   "text": "Вы путешествовали в Бостон на самолете?",
+   "lang": "ru"
+  },
+  {
+   "start": 198.88,
+   "end": 200.5,
+   "text": "Did you fly to Boston?",
+   "lang": "en"
+  },
+  {
+   "start": 204.26,
+   "end": 205.3,
+   "text": "Did fly.",
+   "lang": "en"
+  },
+  {
+   "start": 209.08,
+   "end": 210.6,
+   "text": "Did you fly to Boston?",
+   "lang": "en"
+  },
+  {
+   "start": 214.38,
+   "end": 220.76,
+   "text": "В этот раз я ездила на машине. Сначала скажите «в следующий раз».",
+   "lang": "ru"
+  },
+  {
+   "start": 220.76,
+   "end": 222.9,
+   "text": "Next time",
+   "lang": "ru"
+  },
+  {
+   "start": 222.9,
+   "end": 223.76,
+   "text": "Time.",
+   "lang": "en"
+  },
+  {
+   "start": 225.9,
+   "end": 228.46,
+   "text": "Next time.",
+   "lang": "en"
+  },
+  {
+   "start": 230.34,
+   "end": 231.86,
+   "text": "Now try to say...",
+   "lang": "en"
+  },
+  {
+   "start": 232.28,
+   "end": 243.96,
+   "text": "В этот раз я ездила на машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 244.06,
+   "end": 245.28,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 246.36,
+   "end": 247.26,
+   "text": "This time I drove.",
+   "lang": "ru"
+  },
+  {
+   "start": 250.88,
+   "end": 251.52,
+   "text": "Drove.",
+   "lang": "ru"
+  },
+  {
+   "start": 253.48,
+   "end": 254.12,
+   "text": "Drove.",
+   "lang": "ru"
+  },
+  {
+   "start": 255.98,
+   "end": 256.94,
+   "text": "I drove.",
+   "lang": "ru"
+  },
+  {
+   "start": 258.98,
+   "end": 259.62,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 259.86,
+   "end": 261.8,
+   "text": "Я ездила на машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 263.6,
+   "end": 264.56,
+   "text": "I drove.",
+   "lang": "en"
+  },
+  {
+   "start": 266.08,
+   "end": 268.8,
+   "text": "Мне нравится водить.",
+   "lang": "ru"
+  },
+  {
+   "start": 271.48,
+   "end": 272.82,
+   "text": "I like to drive.",
+   "lang": "ru"
+  },
+  {
+   "start": 275.64,
+   "end": 276.8,
+   "text": "I like to drive.",
+   "lang": "en"
+  },
+  {
+   "start": 279.04,
+   "end": 281.78,
+   "text": "В этот раз я ехала на машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 284.88,
+   "end": 286.24,
+   "text": "This time I drove.",
+   "lang": "ru"
+  },
+  {
+   "start": 289.66,
+   "end": 290.54,
+   "text": "I drove.",
+   "lang": "ru"
+  },
+  {
+   "start": 293.1,
+   "end": 294.14,
+   "text": "This time.",
+   "lang": "ru"
+  },
+  {
+   "start": 296.38,
+   "end": 297.74,
+   "text": "This time I drove.",
+   "lang": "ru"
+  },
+  {
+   "start": 301.3,
+   "end": 303.74,
+   "text": "say that driving takes a lot of time",
+   "lang": "ru"
+  },
+  {
+   "start": 308.0,
+   "end": 309.94,
+   "text": "Driving takes a lot of time.",
+   "lang": "ru"
+  },
+  {
+   "start": 314.44,
+   "end": 315.08,
+   "text": "Драйвинг.",
+   "lang": "ru"
+  },
+  {
+   "start": 317.56,
+   "end": 319.3,
+   "text": "Драйвинг takes a lot of time.",
+   "lang": "ru"
+  },
+  {
+   "start": 322.94,
+   "end": 327.08,
+   "text": "She says, Я знаю, в этот раз я ехала на машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 327.08,
+   "end": 327.18,
+   "text": "Yeah.",
+   "lang": "en"
+  },
+  {
+   "start": 331.22,
+   "end": 333.74,
+   "text": "I know, this time I drove.",
+   "lang": "ru"
+  },
+  {
+   "start": 337.78,
+   "end": 339.66,
+   "text": "Но в следующий раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 342.02,
+   "end": 343.56,
+   "text": "But next time...",
+   "lang": "en"
+  },
+  {
+   "start": 345.86,
+   "end": 348.32,
+   "text": "How does she say that next time she'll fly?",
+   "lang": "en"
+  },
+  {
+   "start": 351.94,
+   "end": 353.4,
+   "text": "Next time I'll fly.",
+   "lang": "en"
+  },
+  {
+   "start": 357.22,
+   "end": 357.78,
+   "text": "I'll...",
+   "lang": "en"
+  },
+  {
+   "start": 359.42,
+   "end": 360.26,
+   "text": "I'll fly.",
+   "lang": "en"
+  },
+  {
+   "start": 362.6,
+   "end": 364.04,
+   "text": "Next time I'll fly.",
+   "lang": "en"
+  },
+  {
+   "start": 367.64,
+   "end": 370.56,
+   "text": "Поездка на машине занимает слишком много времени.",
+   "lang": "ru"
+  },
+  {
+   "start": 373.76,
+   "end": 375.44,
+   "text": "Driving takes too much time.",
+   "lang": "en"
+  },
+  {
+   "start": 378.6,
+   "end": 380.86,
+   "text": "Now ask how the meeting was.",
+   "lang": "ru"
+  },
+  {
+   "start": 383.46,
+   "end": 384.78,
+   "text": "How was the meeting?",
+   "lang": "ru"
+  },
+  {
+   "start": 387.36,
+   "end": 388.42,
+   "text": "She answers.",
+   "lang": "ru"
+  },
+  {
+   "start": 388.72,
+   "end": 390.38,
+   "text": "Она прошла очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 393.52,
+   "end": 395.06,
+   "text": "It went very well.",
+   "lang": "en"
+  },
+  {
+   "start": 401.02,
+   "end": 402.86,
+   "text": "По-моему,",
+   "lang": "ru"
+  },
+  {
+   "start": 404.9,
+   "end": 406.12,
+   "text": "In my opinion.",
+   "lang": "en"
+  },
+  {
+   "start": 407.56,
+   "end": 409.64,
+   "text": "она стоила того.",
+   "lang": "ru"
+  },
+  {
+   "start": 411.72,
+   "end": 413.0,
+   "text": "It was worthwhile.",
+   "lang": "en"
+  },
+  {
+   "start": 415.34,
+   "end": 417.18,
+   "text": "It was very worthwhile.",
+   "lang": "en"
+  },
+  {
+   "start": 419.94,
+   "end": 423.16,
+   "text": "Обращая внимание на порядок слов, скажите,",
+   "lang": "ru"
+  },
+  {
+   "start": 423.74,
+   "end": 427.2,
+   "text": "У меня также было время для того, чтобы навестить племянника.",
+   "lang": "ru"
+  },
+  {
+   "start": 432.1,
+   "end": 434.56,
+   "text": "I had time to visit my nephew too.",
+   "lang": "en"
+  },
+  {
+   "start": 439.42,
+   "end": 441.76,
+   "text": "I had time to visit my nephew too.",
+   "lang": "en"
+  },
+  {
+   "start": 446.86,
+   "end": 448.4,
+   "text": "Бостон – интересный город.",
+   "lang": "ru"
+  },
+  {
+   "start": 452.08,
+   "end": 453.94,
+   "text": "Boston's an interesting city.",
+   "lang": "en"
+  },
+  {
+   "start": 457.06,
+   "end": 460.94,
+   "text": "В следующий раз мне бы хотелось побыть там дольше.",
+   "lang": "ru"
+  },
+  {
+   "start": 465.26,
+   "end": 467.26,
+   "text": "Next time I'd like to stay longer.",
+   "lang": "en"
+  },
+  {
+   "start": 471.36,
+   "end": 482.3,
+   "text": "После работы вы пришли навестить коллегу. Как она скажет, чтобы вы проходили и садились?",
+   "lang": "ru"
+  },
+  {
+   "start": 486.82,
+   "end": 488.48,
+   "text": "Come in and sit down please.",
+   "lang": "en"
+  },
+  {
+   "start": 492.98,
+   "end": 493.42,
+   "text": "Listen.",
+   "lang": "en"
+  },
+  {
+   "start": 494.06,
+   "end": 496.54,
+   "text": "How did you get here? Did you come by bus?",
+   "lang": "en"
+  },
+  {
+   "start": 497.26,
+   "end": 500.28,
+   "text": "Нет, я приехал на машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 503.12,
+   "end": 504.46,
+   "text": "No, I drove.",
+   "lang": "en"
+  },
+  {
+   "start": 507.56,
+   "end": 508.48,
+   "text": "I drove.",
+   "lang": "en"
+  },
+  {
+   "start": 510.36,
+   "end": 512.7,
+   "text": "Но это было нелегко.",
+   "lang": "ru"
+  },
+  {
+   "start": 515.02,
+   "end": 516.98,
+   "text": "Но это не было легко.",
+   "lang": "ru"
+  },
+  {
+   "start": 520.2,
+   "end": 522.92,
+   "text": "Tell her that it wasn't easy to find her house.",
+   "lang": "ru"
+  },
+  {
+   "start": 527.54,
+   "end": 530.14,
+   "text": "It wasn't easy to find your house.",
+   "lang": "ru"
+  },
+  {
+   "start": 534.94,
+   "end": 539.2,
+   "text": "Сейчас она говорит, как раз только что мы говорили о Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 542.9,
+   "end": 544.96,
+   "text": "We were just talking about Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 544.96,
+   "end": 545.22,
+   "text": "Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 548.68,
+   "end": 551.7,
+   "text": "Моя племянница и ее молодой человек",
+   "lang": "ru"
+  },
+  {
+   "start": 554.68,
+   "end": 556.48,
+   "text": "My niece and her boyfriend.",
+   "lang": "en"
+  },
+  {
+   "start": 560.14,
+   "end": 560.82,
+   "text": "Boyfriend.",
+   "lang": "en"
+  },
+  {
+   "start": 563.34,
+   "end": 564.46,
+   "text": "путешествуют там.",
+   "lang": "ru"
+  },
+  {
+   "start": 567.46,
+   "end": 569.22,
+   "text": "Are taking a trip there",
+   "lang": "en"
+  },
+  {
+   "start": 572.34,
+   "end": 573.54,
+   "text": "Taking a trip",
+   "lang": "en"
+  },
+  {
+   "start": 576.0,
+   "end": 578.82,
+   "text": "My niece and her boyfriend are taking a trip there.",
+   "lang": "ru"
+  },
+  {
+   "start": 584.56,
+   "end": 585.16,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 585.64,
+   "end": 586.24,
+   "text": "Правда?",
+   "lang": "ru"
+  },
+  {
+   "start": 586.66,
+   "end": 587.56,
+   "text": "Прямо сейчас.",
+   "lang": "ru"
+  },
+  {
+   "start": 587.56,
+   "end": 587.68,
+   "text": "Cheers.",
+   "lang": "en"
+  },
+  {
+   "start": 591.42,
+   "end": 592.02,
+   "text": "Really?",
+   "lang": "ru"
+  },
+  {
+   "start": 592.18,
+   "end": 592.92,
+   "text": "Right now?",
+   "lang": "ru"
+  },
+  {
+   "start": 592.92,
+   "end": 593.28,
+   "text": "Now...",
+   "lang": "en"
+  },
+  {
+   "start": 596.66,
+   "end": 599.18,
+   "text": "Мой племянник совершает поездку.",
+   "lang": "ru"
+  },
+  {
+   "start": 602.56,
+   "end": 604.62,
+   "text": "My nephew is taking a trip.",
+   "lang": "ru"
+  },
+  {
+   "start": 607.98,
+   "end": 610.36,
+   "text": "По Соединенным Штатам.",
+   "lang": "ru"
+  },
+  {
+   "start": 612.96,
+   "end": 614.84,
+   "text": "through the United States.",
+   "lang": "en"
+  },
+  {
+   "start": 618.04,
+   "end": 619.04,
+   "text": "Through",
+   "lang": "en"
+  },
+  {
+   "start": 619.04,
+   "end": 622.64,
+   "text": "through the United States.",
+   "lang": "en"
+  },
+  {
+   "start": 625.86,
+   "end": 631.48,
+   "text": "Она спрашивает с удивлением, он совершает поездку по Соединенным Штатам?",
+   "lang": "ru"
+  },
+  {
+   "start": 634.3,
+   "end": 637.2,
+   "text": "He's taking a trip through the United States?",
+   "lang": "en"
+  },
+  {
+   "start": 639.14,
+   "end": 642.24,
+   "text": "В течение какого срока?",
+   "lang": "ru"
+  },
+  {
+   "start": 644.24,
+   "end": 645.32,
+   "text": "For how long?",
+   "lang": "en"
+  },
+  {
+   "start": 647.9,
+   "end": 649.5,
+   "text": "Шесть недель",
+   "lang": "ru"
+  },
+  {
+   "start": 652.16,
+   "end": 653.0,
+   "text": "Six weeks.",
+   "lang": "en"
+  },
+  {
+   "start": 654.82,
+   "end": 656.68,
+   "text": "Шести недель достаточно?",
+   "lang": "ru"
+  },
+  {
+   "start": 656.68,
+   "end": 656.94,
+   "text": "Достаточно?",
+   "lang": "ru"
+  },
+  {
+   "start": 660.5,
+   "end": 662.76,
+   "text": "Is six weeks enough time?",
+   "lang": "en"
+  },
+  {
+   "start": 666.38,
+   "end": 668.12,
+   "text": "Is six weeks?",
+   "lang": "en"
+  },
+  {
+   "start": 670.74,
+   "end": 672.88,
+   "text": "Is six weeks enough time?",
+   "lang": "en"
+  },
+  {
+   "start": 676.62,
+   "end": 679.42,
+   "text": "Чтобы посмотреть Соединенные Штаты?",
+   "lang": "ru"
+  },
+  {
+   "start": 682.08,
+   "end": 683.8,
+   "text": "To see the United States?",
+   "lang": "en"
+  },
+  {
+   "start": 686.68,
+   "end": 689.4,
+   "text": "You discuss their trip. Then you're...",
+   "lang": "en"
+  },
+  {
+   "start": 689.42,
+   "end": 692.98,
+   "text": "Как прошла ваша поездка в Сан-Франциско?",
+   "lang": "ru"
+  },
+  {
+   "start": 697.22,
+   "end": 699.14,
+   "text": "How was your trip to San Francisco?",
+   "lang": "en"
+  },
+  {
+   "start": 703.28,
+   "end": 704.7,
+   "text": "Она стоила того?",
+   "lang": "ru"
+  },
+  {
+   "start": 708.3,
+   "end": 714.5,
+   "text": "Да, она прошла очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 718.94,
+   "end": 720.78,
+   "text": "Yes, it went very well.",
+   "lang": "en"
+  },
+  {
+   "start": 722.96,
+   "end": 727.2,
+   "text": "У меня была большая встреча",
+   "lang": "ru"
+  },
+  {
+   "start": 730.7,
+   "end": 732.18,
+   "text": "I had a long meeting.",
+   "lang": "en"
+  },
+  {
+   "start": 733.92,
+   "end": 737.82,
+   "text": "с нашим новым клиентом.",
+   "lang": "ru"
+  },
+  {
+   "start": 740.58,
+   "end": 741.86,
+   "text": "with our new client.",
+   "lang": "en"
+  },
+  {
+   "start": 744.0,
+   "end": 746.08,
+   "text": "Она стоила того.",
+   "lang": "ru"
+  },
+  {
+   "start": 748.04,
+   "end": 749.6,
+   "text": "It was worthwhile.",
+   "lang": "en"
+  },
+  {
+   "start": 752.26,
+   "end": 754.22,
+   "text": "It was very worthwhile.",
+   "lang": "en"
+  },
+  {
+   "start": 758.2,
+   "end": 760.6,
+   "text": "У нас был",
+   "lang": "ru"
+  },
+  {
+   "start": 762.58,
+   "end": 764.62,
+   "text": "We had...",
+   "lang": "en"
+  },
+  {
+   "start": 766.3,
+   "end": 768.24,
+   "text": "We had...",
+   "lang": "en"
+  },
+  {
+   "start": 769.42,
+   "end": 776.06,
+   "text": "Сейчас с помощью этих же слов попробуйте сказать «Мы ужинали».",
+   "lang": "ru"
+  },
+  {
+   "start": 778.0,
+   "end": 779.22,
+   "text": "We had dinner.",
+   "lang": "en"
+  },
+  {
+   "start": 784.6,
+   "end": 788.32,
+   "text": "В очень хорошем мексиканском ресторане.",
+   "lang": "ru"
+  },
+  {
+   "start": 792.46,
+   "end": 794.74,
+   "text": "at a very good Mexican restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 798.64,
+   "end": 804.44,
+   "text": "В Сан-Франциско есть очень известный парк, который называется Golden Gate Park.",
+   "lang": "ru"
+  },
+  {
+   "start": 805.32,
+   "end": 808.9,
+   "text": "Говоря о нем, она спрашивает, у вас было время посмотреть парк?",
+   "lang": "ru"
+  },
+  {
+   "start": 813.14,
+   "end": 815.16,
+   "text": "Did you have time to see the park?",
+   "lang": "ru"
+  },
+  {
+   "start": 819.18,
+   "end": 821.02,
+   "text": "Did you have time to see the park?",
+   "lang": "en"
+  },
+  {
+   "start": 825.32,
+   "end": 827.58,
+   "text": "Нет, на этот раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 830.58,
+   "end": 831.96,
+   "text": "No, this time.",
+   "lang": "ru"
+  },
+  {
+   "start": 835.2,
+   "end": 837.78,
+   "text": "Say that this time you didn't have much time.",
+   "lang": "ru"
+  },
+  {
+   "start": 843.1,
+   "end": 845.66,
+   "text": "This time I didn't have much time.",
+   "lang": "ru"
+  },
+  {
+   "start": 845.66,
+   "end": 845.88,
+   "text": "time.",
+   "lang": "en"
+  },
+  {
+   "start": 850.98,
+   "end": 853.54,
+   "text": "Say that next time you'd like to stay longer.",
+   "lang": "ru"
+  },
+  {
+   "start": 858.28,
+   "end": 860.48,
+   "text": "Next time I'd like to stay longer.",
+   "lang": "en"
+  },
+  {
+   "start": 864.66,
+   "end": 869.1,
+   "text": "Сейчас ваша знакомая говорит с вопросительной интонацией.",
+   "lang": "ru"
+  },
+  {
+   "start": 869.12,
+   "end": 870.82,
+   "text": "Вы приехали сюда на машине?",
+   "lang": "ru"
+  },
+  {
+   "start": 873.08,
+   "end": 874.26,
+   "text": "You drove here?",
+   "lang": "en"
+  },
+  {
+   "start": 876.56,
+   "end": 877.72,
+   "text": "You drove here?",
+   "lang": "en"
+  },
+  {
+   "start": 880.0,
+   "end": 883.16,
+   "text": "Она хочет знать, ехали ли вы по шоссе.",
+   "lang": "ru"
+  },
+  {
+   "start": 883.16,
+   "end": 884.84,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 898.46,
+   "end": 900.82,
+   "text": "Вы ехали по шоссе?",
+   "lang": "ru"
+  },
+  {
+   "start": 900.82,
+   "end": 902.38,
+   "text": "Listen and repeat again.",
+   "lang": "en"
+  },
+  {
+   "start": 903.78,
+   "end": 904.64,
+   "text": "Did you take the highway?",
+   "lang": "en"
+  },
+  {
+   "start": 908.24,
+   "end": 909.06,
+   "text": "The highway.",
+   "lang": "en"
+  },
+  {
+   "start": 911.76,
+   "end": 912.78,
+   "text": "Did take.",
+   "lang": "en"
+  },
+  {
+   "start": 915.7,
+   "end": 916.72,
+   "text": "Did you take?",
+   "lang": "en"
+  },
+  {
+   "start": 919.08,
+   "end": 920.48,
+   "text": "Did you take the highway?",
+   "lang": "en"
+  },
+  {
+   "start": 924.12,
+   "end": 929.18,
+   "text": "Вы ехали по шоссе? Дословно, вы брали шоссе?",
+   "lang": "ru"
+  },
+  {
+   "start": 932.08,
+   "end": 933.36,
+   "text": "Did you take the highway?",
+   "lang": "en"
+  },
+  {
+   "start": 936.22,
+   "end": 942.96,
+   "text": "Я ехал по шоссе. Послушайте и повторите ту часть, которая означает «я ехал по».",
+   "lang": "ru"
+  },
+  {
+   "start": 942.96,
+   "end": 943.9,
+   "text": "I took.",
+   "lang": "ru"
+  },
+  {
+   "start": 943.9,
+   "end": 945.52,
+   "text": "Took",
+   "lang": "en"
+  },
+  {
+   "start": 947.06,
+   "end": 947.24,
+   "text": "Took",
+   "lang": "en"
+  },
+  {
+   "start": 947.24,
+   "end": 950.0,
+   "text": "Took",
+   "lang": "en"
+  },
+  {
+   "start": 950.0,
+   "end": 952.9,
+   "text": "I took",
+   "lang": "en"
+  },
+  {
+   "start": 955.58,
+   "end": 956.58,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 957.44,
+   "end": 958.52,
+   "text": "Я ехал по шоссе.",
+   "lang": "ru"
+  },
+  {
+   "start": 960.96,
+   "end": 962.48,
+   "text": "I took the highway.",
+   "lang": "ru"
+  },
+  {
+   "start": 965.32,
+   "end": 966.72,
+   "text": "I took the highway.",
+   "lang": "en"
+  },
+  {
+   "start": 969.54,
+   "end": 972.92,
+   "text": "Как она спросит вас, ехали ли вы по шоссе?",
+   "lang": "ru"
+  },
+  {
+   "start": 975.58,
+   "end": 976.86,
+   "text": "Did you take the highway?",
+   "lang": "en"
+  },
+  {
+   "start": 979.84,
+   "end": 986.12,
+   "text": "Да, я ехал по шоссе.",
+   "lang": "ru"
+  },
+  {
+   "start": 990.18,
+   "end": 991.94,
+   "text": "Yes, I took the highway.",
+   "lang": "en"
+  },
+  {
+   "start": 996.06,
+   "end": 997.38,
+   "text": "I took the highway.",
+   "lang": "en"
+  },
+  {
+   "start": 998.54,
+   "end": 1002.84,
+   "text": "Но было интенсивное движение.",
+   "lang": "ru"
+  },
+  {
+   "start": 1002.92,
+   "end": 1005.62,
+   "text": "Сначала движение, транспорт.",
+   "lang": "ru"
+  },
+  {
+   "start": 1005.62,
+   "end": 1007.38,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1008.32,
+   "end": 1009.0,
+   "text": "Traffic",
+   "lang": "en"
+  },
+  {
+   "start": 1013.6,
+   "end": 1015.4,
+   "text": "A lot of traffic.",
+   "lang": "en"
+  },
+  {
+   "start": 1016.96,
+   "end": 1020.16,
+   "text": "Now try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 1020.16,
+   "end": 1022.04,
+   "text": "Было много транспорта.",
+   "lang": "ru"
+  },
+  {
+   "start": 1025.74,
+   "end": 1027.28,
+   "text": "There was a lot of traffic.",
+   "lang": "en"
+  },
+  {
+   "start": 1030.98,
+   "end": 1033.66,
+   "text": "Скажите, что сегодня было много транспорта.",
+   "lang": "ru"
+  },
+  {
+   "start": 1038.02,
+   "end": 1039.94,
+   "text": "There was a lot of traffic today.",
+   "lang": "en"
+  },
+  {
+   "start": 1044.48,
+   "end": 1045.74,
+   "text": "You want to say?",
+   "lang": "ru"
+  },
+  {
+   "start": 1046.54,
+   "end": 1048.96,
+   "text": "Мне нравится водить, когда машин не очень много.",
+   "lang": "ru"
+  },
+  {
+   "start": 1049.14,
+   "end": 1049.7,
+   "text": "Listen.",
+   "lang": "ru"
+  },
+  {
+   "start": 1049.7,
+   "end": 1053.34,
+   "text": "I like to drive when there isn't much traffic.",
+   "lang": "ru"
+  },
+  {
+   "start": 1054.2,
+   "end": 1058.3,
+   "text": "Используя much, скажите, транспорта немного.",
+   "lang": "ru"
+  },
+  {
+   "start": 1061.94,
+   "end": 1063.92,
+   "text": "There isn't much traffic.",
+   "lang": "ru"
+  },
+  {
+   "start": 1067.16,
+   "end": 1069.22,
+   "text": "There isn't much traffic.",
+   "lang": "en"
+  },
+  {
+   "start": 1072.26,
+   "end": 1078.2,
+   "text": "Вы также могли бы сказать, there isn't a lot of traffic, но much.",
+   "lang": "ru"
+  },
+  {
+   "start": 1079.7,
+   "end": 1084.34,
+   "text": "используется в отрицательных предложениях. Скажите еще раз, что транспорта немного.",
+   "lang": "ru"
+  },
+  {
+   "start": 1087.64,
+   "end": 1089.78,
+   "text": "There isn't much traffic.",
+   "lang": "ru"
+  },
+  {
+   "start": 1092.7,
+   "end": 1095.2,
+   "text": "How do you ask? Когда?",
+   "lang": "ru"
+  },
+  {
+   "start": 1098.02,
+   "end": 1098.38,
+   "text": "When?",
+   "lang": "ru"
+  },
+  {
+   "start": 1100.7,
+   "end": 1100.84,
+   "text": "When?",
+   "lang": "ru"
+  },
+  {
+   "start": 1103.28,
+   "end": 1103.74,
+   "text": "Now say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1103.98,
+   "end": 1105.8,
+   "text": "Мне нравится водить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1108.24,
+   "end": 1109.64,
+   "text": "I like to drive.",
+   "lang": "en"
+  },
+  {
+   "start": 1112.7,
+   "end": 1113.78,
+   "text": "try to say",
+   "lang": "ru"
+  },
+  {
+   "start": 1113.78,
+   "end": 1115.52,
+   "text": "когда транспорта немного",
+   "lang": "ru"
+  },
+  {
+   "start": 1118.98,
+   "end": 1120.82,
+   "text": "when there isn't much traffic",
+   "lang": "ru"
+  },
+  {
+   "start": 1124.54,
+   "end": 1125.14,
+   "text": "when",
+   "lang": "ru"
+  },
+  {
+   "start": 1127.16,
+   "end": 1129.1,
+   "text": "when there isn't much traffic",
+   "lang": "ru"
+  },
+  {
+   "start": 1132.9,
+   "end": 1135.68,
+   "text": "I like to drive when there isn't much traffic",
+   "lang": "ru"
+  },
+  {
+   "start": 1141.56,
+   "end": 1144.42,
+   "text": "Say. Сегодня я ехал по шоссе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1148.58,
+   "end": 1150.12,
+   "text": "Today I took the highway.",
+   "lang": "ru"
+  },
+  {
+   "start": 1150.12,
+   "end": 1150.42,
+   "text": "Anyway...",
+   "lang": "en"
+  },
+  {
+   "start": 1154.38,
+   "end": 1155.92,
+   "text": "Today I took the highway.",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.92,
+   "end": 1156.12,
+   "text": "away.",
+   "lang": "en"
+  },
+  {
+   "start": 1160.18,
+   "end": 1163.76,
+   "text": "Try to say. Но было слишком много машин.",
+   "lang": "ru"
+  },
+  {
+   "start": 1167.88,
+   "end": 1169.98,
+   "text": "Но там слишком много трафика.",
+   "lang": "ru"
+  },
+  {
+   "start": 1173.92,
+   "end": 1175.16,
+   "text": "Too much traffic.",
+   "lang": "en"
+  },
+  {
+   "start": 1177.54,
+   "end": 1181.42,
+   "text": "Как она говорит, что всегда много трафика?",
+   "lang": "ru"
+  },
+  {
+   "start": 1186.08,
+   "end": 1188.28,
+   "text": "There is always a lot of traffic.",
+   "lang": "ru"
+  },
+  {
+   "start": 1192.98,
+   "end": 1195.5,
+   "text": "Особенно в пять часов. Особенно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1195.66,
+   "end": 1196.8,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1198.0,
+   "end": 1198.6,
+   "text": "Especially.",
+   "lang": "ru"
+  },
+  {
+   "start": 1198.6,
+   "end": 1198.8,
+   "text": "Chili",
+   "lang": "en"
+  },
+  {
+   "start": 1201.94,
+   "end": 1202.38,
+   "text": "ли",
+   "lang": "ru"
+  },
+  {
+   "start": 1204.1,
+   "end": 1205.5,
+   "text": "шел",
+   "lang": "ru"
+  },
+  {
+   "start": 1207.36,
+   "end": 1207.94,
+   "text": "шали",
+   "lang": "ru"
+  },
+  {
+   "start": 1208.76,
+   "end": 1210.36,
+   "text": "шали",
+   "lang": "ru"
+  },
+  {
+   "start": 1210.36,
+   "end": 1212.02,
+   "text": "спешл",
+   "lang": "ru"
+  },
+  {
+   "start": 1214.06,
+   "end": 1215.46,
+   "text": "спешл",
+   "lang": "ru"
+  },
+  {
+   "start": 1215.46,
+   "end": 1215.7,
+   "text": "спешили",
+   "lang": "ru"
+  },
+  {
+   "start": 1217.16,
+   "end": 1217.94,
+   "text": "спешили",
+   "lang": "ru"
+  },
+  {
+   "start": 1218.56,
+   "end": 1218.74,
+   "text": "эс",
+   "lang": "ru"
+  },
+  {
+   "start": 1220.68,
+   "end": 1222.08,
+   "text": "эспешили",
+   "lang": "ru"
+  },
+  {
+   "start": 1224.56,
+   "end": 1225.96,
+   "text": "эспешили",
+   "lang": "ru"
+  },
+  {
+   "start": 1225.96,
+   "end": 1226.08,
+   "text": "эспешили",
+   "lang": "ru"
+  },
+  {
+   "start": 1229.18,
+   "end": 1230.12,
+   "text": "Try to say",
+   "lang": "en"
+  },
+  {
+   "start": 1230.5,
+   "end": 1231.9,
+   "text": "эспешили",
+   "lang": "ru"
+  },
+  {
+   "start": 1236.62,
+   "end": 1238.02,
+   "text": "Особенно в 5 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1242.38,
+   "end": 1244.2,
+   "text": "Especially at 5 o'clock.",
+   "lang": "en"
+  },
+  {
+   "start": 1248.52,
+   "end": 1250.32,
+   "text": "Всегда интенсивное движение.",
+   "lang": "ru"
+  },
+  {
+   "start": 1254.08,
+   "end": 1255.8,
+   "text": "There's always a lot of traffic.",
+   "lang": "en"
+  },
+  {
+   "start": 1260.16,
+   "end": 1261.48,
+   "text": "Особенно в 5 часов.",
+   "lang": "ru"
+  },
+  {
+   "start": 1265.88,
+   "end": 1267.98,
+   "text": "Especially at 5 o'clock",
+   "lang": "ru"
+  },
+  {
+   "start": 1271.98,
+   "end": 1272.9,
+   "text": "Say",
+   "lang": "ru"
+  },
+  {
+   "start": 1272.9,
+   "end": 1274.8,
+   "text": "Мне нравится водить",
+   "lang": "ru"
+  },
+  {
+   "start": 1277.4,
+   "end": 1279.1,
+   "text": "I like to drive",
+   "lang": "ru"
+  },
+  {
+   "start": 1282.08,
+   "end": 1283.78,
+   "text": "Когда машин немного",
+   "lang": "ru"
+  },
+  {
+   "start": 1287.2,
+   "end": 1289.34,
+   "text": "When there isn't much traffic",
+   "lang": "ru"
+  },
+  {
+   "start": 1292.98,
+   "end": 1294.92,
+   "text": "When there isn't much traffic.",
+   "lang": "ru"
+  },
+  {
+   "start": 1298.78,
+   "end": 1300.54,
+   "text": "Прямо сейчас транспорта много.",
+   "lang": "ru"
+  },
+  {
+   "start": 1305.38,
+   "end": 1307.42,
+   "text": "Right now there's a lot of traffic.",
+   "lang": "ru"
+  },
+  {
+   "start": 1312.2,
+   "end": 1315.84,
+   "text": "Now, here's how to say ограничение скорости.",
+   "lang": "ru"
+  },
+  {
+   "start": 1316.22,
+   "end": 1317.38,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1317.38,
+   "end": 1317.6,
+   "text": "Repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 1317.96,
+   "end": 1319.28,
+   "text": "Speed limit.",
+   "lang": "en"
+  },
+  {
+   "start": 1321.58,
+   "end": 1322.46,
+   "text": "Limit.",
+   "lang": "en"
+  },
+  {
+   "start": 1323.88,
+   "end": 1325.24,
+   "text": "Lim-mit.",
+   "lang": "en"
+  },
+  {
+   "start": 1326.82,
+   "end": 1328.22,
+   "text": "Speed",
+   "lang": "ru"
+  },
+  {
+   "start": 1330.24,
+   "end": 1331.64,
+   "text": "Speed",
+   "lang": "ru"
+  },
+  {
+   "start": 1333.5,
+   "end": 1335.22,
+   "text": "Speed limit",
+   "lang": "ru"
+  },
+  {
+   "start": 1336.74,
+   "end": 1339.14,
+   "text": "Your acquaintance asks",
+   "lang": "ru"
+  },
+  {
+   "start": 1339.14,
+   "end": 1341.82,
+   "text": "Какое ограничение скорости?",
+   "lang": "ru"
+  },
+  {
+   "start": 1341.9,
+   "end": 1342.94,
+   "text": "Дословно",
+   "lang": "ru"
+  },
+  {
+   "start": 1342.94,
+   "end": 1346.44,
+   "text": "Каким является ограничение скорости?",
+   "lang": "ru"
+  },
+  {
+   "start": 1349.34,
+   "end": 1350.54,
+   "text": "What is the speed limit?",
+   "lang": "ru"
+  },
+  {
+   "start": 1353.2,
+   "end": 1354.68,
+   "text": "What's the speed limit?",
+   "lang": "ru"
+  },
+  {
+   "start": 1357.16,
+   "end": 1358.38,
+   "text": "В Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 1360.2,
+   "end": 1361.22,
+   "text": "In Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 1363.4,
+   "end": 1365.18,
+   "text": "Do you remember how to say?",
+   "lang": "ru"
+  },
+  {
+   "start": 1365.68,
+   "end": 1367.48,
+   "text": "Два доллара за галлон.",
+   "lang": "ru"
+  },
+  {
+   "start": 1370.42,
+   "end": 1372.24,
+   "text": "Two dollars per gallon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1375.4,
+   "end": 1376.5,
+   "text": "Per gallon.",
+   "lang": "ru"
+  },
+  {
+   "start": 1379.34,
+   "end": 1380.96,
+   "text": "В час.",
+   "lang": "ru"
+  },
+  {
+   "start": 1383.38,
+   "end": 1383.86,
+   "text": "Per hour.",
+   "lang": "ru"
+  },
+  {
+   "start": 1386.44,
+   "end": 1386.64,
+   "text": "Hour.",
+   "lang": "ru"
+  },
+  {
+   "start": 1389.08,
+   "end": 1389.66,
+   "text": "Per hour.",
+   "lang": "ru"
+  },
+  {
+   "start": 1392.6,
+   "end": 1393.0,
+   "text": "Now try.",
+   "lang": "ru"
+  },
+  {
+   "start": 1393.62,
+   "end": 1395.54,
+   "text": "Шестьдесят миль в час.",
+   "lang": "ru"
+  },
+  {
+   "start": 1399.12,
+   "end": 1400.96,
+   "text": "Sixty miles per hour.",
+   "lang": "ru"
+  },
+  {
+   "start": 1404.24,
+   "end": 1405.16,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1405.46,
+   "end": 1408.06,
+   "text": "В Мексике ограничение скорости.",
+   "lang": "ru"
+  },
+  {
+   "start": 1410.98,
+   "end": 1413.52,
+   "text": "In Mexico the speed limit",
+   "lang": "en"
+  },
+  {
+   "start": 1416.38,
+   "end": 1418.72,
+   "text": "The speed limit",
+   "lang": "en"
+  },
+  {
+   "start": 1420.88,
+   "end": 1422.76,
+   "text": "60 миль в час.",
+   "lang": "ru"
+  },
+  {
+   "start": 1426.56,
+   "end": 1428.72,
+   "text": "is 60 miles per hour.",
+   "lang": "en"
+  },
+  {
+   "start": 1431.84,
+   "end": 1439.56,
+   "text": "В Мексике для определения дистанции пользуются километрами, а не милями, как в Соединенных Штатах.",
+   "lang": "ru"
+  },
+  {
+   "start": 1439.56,
+   "end": 1444.72,
+   "text": "Но скажите знакомому, что ограничение скорости 60 миль в час.",
+   "lang": "ru"
+  },
+  {
+   "start": 1449.7,
+   "end": 1452.34,
+   "text": "The speed limit is 60 miles per hour.",
+   "lang": "en"
+  },
+  {
+   "start": 1457.44,
+   "end": 1461.0,
+   "text": "Say that the speed limit is 60 miles per hour on the highway.",
+   "lang": "en"
+  },
+  {
+   "start": 1467.38,
+   "end": 1470.82,
+   "text": "The speed limit is 60 miles per hour on the highway.",
+   "lang": "en"
+  },
+  {
+   "start": 1477.42,
+   "end": 1478.5,
+   "text": "On the highway.",
+   "lang": "en"
+  },
+  {
+   "start": 1484.9,
+   "end": 1488.2,
+   "text": "The speed limit is 60 miles per hour on the highway.",
+   "lang": "en"
+  },
+  {
+   "start": 1494.72,
+   "end": 1495.32,
+   "text": "Say.",
+   "lang": "en"
+  },
+  {
+   "start": 1496.14,
+   "end": 1498.04,
+   "text": "Некоторые мексиканцы водят быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 1502.4,
+   "end": 1504.86,
+   "text": "Some Mexicans drive fast.",
+   "lang": "en"
+  },
+  {
+   "start": 1509.3,
+   "end": 1511.54,
+   "text": "Особенно на шоссе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1515.52,
+   "end": 1516.94,
+   "text": "Especially on the highway",
+   "lang": "en"
+  },
+  {
+   "start": 1520.28,
+   "end": 1521.98,
+   "text": "On the highway",
+   "lang": "en"
+  },
+  {
+   "start": 1525.32,
+   "end": 1526.82,
+   "text": "Especially on the highway",
+   "lang": "en"
+  },
+  {
+   "start": 1530.14,
+   "end": 1534.92,
+   "text": "Сейчас используя in скажите, но в городе.",
+   "lang": "ru"
+  },
+  {
+   "start": 1537.58,
+   "end": 1538.8,
+   "text": "But in the city",
+   "lang": "en"
+  },
+  {
+   "start": 1541.16,
+   "end": 1542.64,
+   "text": "In the city",
+   "lang": "en"
+  },
+  {
+   "start": 1545.2,
+   "end": 1548.88,
+   "text": "Ограничение скорости около 50 миль в час.",
+   "lang": "ru"
+  },
+  {
+   "start": 1555.44,
+   "end": 1558.58,
+   "text": "The speed limit is about 15 miles per hour.",
+   "lang": "en"
+  },
+  {
+   "start": 1565.86,
+   "end": 1568.8,
+   "text": "Послушайте и повторите следующие две фразы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1569.06,
+   "end": 1569.86,
+   "text": "On the highway.",
+   "lang": "ru"
+  },
+  {
+   "start": 1569.86,
+   "end": 1570.02,
+   "text": "way.",
+   "lang": "en"
+  },
+  {
+   "start": 1573.12,
+   "end": 1574.3,
+   "text": "In the city.",
+   "lang": "ru"
+  },
+  {
+   "start": 1577.78,
+   "end": 1578.42,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1578.66,
+   "end": 1581.0,
+   "text": "По шоссе мексиканцы ездят быстро.",
+   "lang": "ru"
+  },
+  {
+   "start": 1586.72,
+   "end": 1589.7,
+   "text": "On the highway, Mexicans drive fast.",
+   "lang": "en"
+  },
+  {
+   "start": 1595.28,
+   "end": 1598.16,
+   "text": "On the highway, Mexicans drive fast.",
+   "lang": "en"
+  },
+  {
+   "start": 1603.4,
+   "end": 1606.6,
+   "text": "В городе они едут более медленно.",
+   "lang": "ru"
+  },
+  {
+   "start": 1610.78,
+   "end": 1613.66,
+   "text": "В городе они ехали медленнее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1617.96,
+   "end": 1619.8,
+   "text": "Немного медленнее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1622.72,
+   "end": 1624.44,
+   "text": "Немного медленнее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1627.6,
+   "end": 1630.3,
+   "text": "Моя дочь и ее молодой человек.",
+   "lang": "ru"
+  },
+  {
+   "start": 1630.6,
+   "end": 1631.78,
+   "text": "Михаил и сын.",
+   "lang": "ru"
+  },
+  {
+   "start": 1631.78,
+   "end": 1637.72,
+   "text": "My daughter and her boyfriend",
+   "lang": "ru"
+  },
+  {
+   "start": 1642.02,
+   "end": 1643.94,
+   "text": "совершают поездку по Канаде.",
+   "lang": "ru"
+  },
+  {
+   "start": 1646.88,
+   "end": 1648.9,
+   "text": "are taking a trip through Canada.",
+   "lang": "ru"
+  },
+  {
+   "start": 1652.2,
+   "end": 1654.66,
+   "text": "Они будут в Монреале в эти выходные.",
+   "lang": "ru"
+  },
+  {
+   "start": 1658.5,
+   "end": 1660.38,
+   "text": "They'll be in Montreal this weekend.",
+   "lang": "ru"
+  },
+  {
+   "start": 1663.46,
+   "end": 1666.2,
+   "text": "Моей дочери очень нравится Канада.",
+   "lang": "ru"
+  },
+  {
+   "start": 1669.88,
+   "end": 1672.28,
+   "text": "My daughter likes Canada very much.",
+   "lang": "en"
+  },
+  {
+   "start": 1676.1,
+   "end": 1677.66,
+   "text": "Особенно летом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1680.24,
+   "end": 1681.62,
+   "text": "especially in the summer.",
+   "lang": "en"
+  },
+  {
+   "start": 1684.54,
+   "end": 1686.1,
+   "text": "Прошлым летом",
+   "lang": "ru"
+  },
+  {
+   "start": 1687.56,
+   "end": 1689.28,
+   "text": "Last summer",
+   "lang": "en"
+  },
+  {
+   "start": 1692.08,
+   "end": 1695.54,
+   "text": "Она ездила поездом в Ванкувер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1696.16,
+   "end": 1702.1,
+   "text": "She took the train to Vancouver.",
+   "lang": "ru"
+  },
+  {
+   "start": 1702.1,
+   "end": 1702.24,
+   "text": "over.",
+   "lang": "en"
+  },
+  {
+   "start": 1705.18,
+   "end": 1707.38,
+   "text": "Ван Ку Вер",
+   "lang": "ru"
+  },
+  {
+   "start": 1710.04,
+   "end": 1711.44,
+   "text": "Vancouver",
+   "lang": "en"
+  },
+  {
+   "start": 1712.96,
+   "end": 1715.04,
+   "text": "She took",
+   "lang": "ru"
+  },
+  {
+   "start": 1715.04,
+   "end": 1718.66,
+   "text": "She took the train",
+   "lang": "ru"
+  },
+  {
+   "start": 1720.78,
+   "end": 1723.28,
+   "text": "She took the train to Vancouver",
+   "lang": "ru"
+  },
+  {
+   "start": 1727.36,
+   "end": 1730.54,
+   "text": "В этот раз она хочет поехать на машине.",
+   "lang": "ru"
+  },
+  {
+   "start": 1735.2,
+   "end": 1737.2,
+   "text": "This time she wants to drive.",
+   "lang": "en"
+  },
+  {
+   "start": 1741.5,
+   "end": 1743.72,
+   "text": "И хочет задержаться там подольше.",
+   "lang": "ru"
+  },
+  {
+   "start": 1747.96,
+   "end": 1750.28,
+   "text": "And she wants to stay there longer.",
+   "lang": "en"
+  },
+  {
+   "start": 1753.86,
+   "end": 1756.04,
+   "text": "Ей нравится водить.",
+   "lang": "ru"
+  },
+  {
+   "start": 1758.62,
+   "end": 1759.88,
+   "text": "She likes to drive.",
+   "lang": "en"
+  },
+  {
+   "start": 1762.0,
+   "end": 1764.42,
+   "text": "Когда хорошая погода.",
+   "lang": "ru"
+  },
+  {
+   "start": 1765.12,
+   "end": 1767.42,
+   "text": "Дословно, когда погода приятная.",
+   "lang": "ru"
+  },
+  {
+   "start": 1770.14,
+   "end": 1771.78,
+   "text": "When the weather's nice.",
+   "lang": "ru"
+  },
+  {
+   "start": 1774.68,
+   "end": 1777.16,
+   "text": "She likes to drive when the weather's nice.",
+   "lang": "ru"
+  },
+  {
+   "start": 1781.92,
+   "end": 1784.0,
+   "text": "Say, несколько лет назад.",
+   "lang": "ru"
+  },
+  {
+   "start": 1787.36,
+   "end": 1788.8,
+   "text": "A few years ago.",
+   "lang": "ru"
+  },
+  {
+   "start": 1788.8,
+   "end": 1789.02,
+   "text": "go?",
+   "lang": "en"
+  },
+  {
+   "start": 1792.24,
+   "end": 1795.48,
+   "text": "Я ездил на машине из Бостона в Сан-Франциско.",
+   "lang": "ru"
+  },
+  {
+   "start": 1800.4,
+   "end": 1803.26,
+   "text": "I drove from Boston to San Francisco.",
+   "lang": "en"
+  },
+  {
+   "start": 1808.78,
+   "end": 1809.46,
+   "text": "That's right.",
+   "lang": "en"
+  },
+  {
+   "start": 1809.48,
+   "end": 1813.86,
+   "text": "Это конец двадцать первого урока.",
+   "lang": "ru"
+  }
+ ]
+}

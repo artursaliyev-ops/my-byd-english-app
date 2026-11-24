@@ -1,0 +1,2337 @@
+{
+ "id": "III_06",
+ "source": "Pimsleur_III_06.mp3",
+ "duration": 1770.84,
+ "model": "mlx-community/whisper-large-v3-mlx",
+ "gaps_rechecked": 156,
+ "segments": [
+  {
+   "start": 1.56,
+   "end": 8.8,
+   "text": "Шестой урок третьего уровня американского английского языка по методу доктора Пимслера.",
+   "lang": "ru"
+  },
+  {
+   "start": 8.8,
+   "end": 10.3,
+   "text": "Listen to this conversation.",
+   "lang": "en"
+  },
+  {
+   "start": 32.64,
+   "end": 42.08,
+   "text": "Она только что сказала, что означает, вот почему вы так хорошо говорите по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 42.14,
+   "end": 45.5,
+   "text": "Дословно, у вас такой хороший английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 45.5,
+   "end": 46.64,
+   "text": "Listen again.",
+   "lang": "en"
+  },
+  {
+   "start": 47.42,
+   "end": 49.52,
+   "text": "Tell me, Mr. Robles, what do you do?",
+   "lang": "en"
+  },
+  {
+   "start": 49.7,
+   "end": 51.9,
+   "text": "I work for ICA. I'm an engineer.",
+   "lang": "en"
+  },
+  {
+   "start": 52.22,
+   "end": 54.44,
+   "text": "And how long have you been here in New York?",
+   "lang": "en"
+  },
+  {
+   "start": 54.64,
+   "end": 57.32,
+   "text": "Since yesterday. I arrived yesterday morning.",
+   "lang": "en"
+  },
+  {
+   "start": 57.6,
+   "end": 60.06,
+   "text": "Are you here for work or are you on vacation?",
+   "lang": "en"
+  },
+  {
+   "start": 60.52,
+   "end": 66.64,
+   "text": "On vacation. My sister is married to an American and she lives here in the city. I try to visit her often.",
+   "lang": "en"
+  },
+  {
+   "start": 66.9,
+   "end": 68.78,
+   "text": "That's why your English is so good.",
+   "lang": "en"
+  },
+  {
+   "start": 69.84,
+   "end": 73.02,
+   "text": "You're speaking with an American acquaintance, she said.",
+   "lang": "en"
+  },
+  {
+   "start": 73.1,
+   "end": 75.32,
+   "text": "Мой брат живет в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 78.68,
+   "end": 80.36,
+   "text": "My brother lives in Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 83.44,
+   "end": 85.12,
+   "text": "Он инженер.",
+   "lang": "ru"
+  },
+  {
+   "start": 87.92,
+   "end": 89.2,
+   "text": "He's an engineer.",
+   "lang": "en"
+  },
+  {
+   "start": 94.62,
+   "end": 99.32,
+   "text": "и работает на одну американскую компанию",
+   "lang": "ru"
+  },
+  {
+   "start": 102.96,
+   "end": 105.24,
+   "text": "And he works for an American company?",
+   "lang": "ru"
+  },
+  {
+   "start": 109.1,
+   "end": 110.76,
+   "text": "For an American company?",
+   "lang": "ru"
+  },
+  {
+   "start": 114.16,
+   "end": 115.24,
+   "text": "В Пуэбло.",
+   "lang": "ru"
+  },
+  {
+   "start": 117.98,
+   "end": 118.92,
+   "text": "In Puebla.",
+   "lang": "ru"
+  },
+  {
+   "start": 121.46,
+   "end": 123.18,
+   "text": "Ask how long he's lived there.",
+   "lang": "ru"
+  },
+  {
+   "start": 127.04,
+   "end": 128.76,
+   "text": "How long has he lived there?",
+   "lang": "ru"
+  },
+  {
+   "start": 131.68,
+   "end": 132.94,
+   "text": "She answered,",
+   "lang": "en"
+  },
+  {
+   "start": 133.06,
+   "end": 134.04,
+   "text": "Уже давно.",
+   "lang": "ru"
+  },
+  {
+   "start": 136.84,
+   "end": 138.24,
+   "text": "For a long time.",
+   "lang": "en"
+  },
+  {
+   "start": 141.1,
+   "end": 142.3,
+   "text": "A long time.",
+   "lang": "en"
+  },
+  {
+   "start": 145.54,
+   "end": 146.8,
+   "text": "Почти 10 лет.",
+   "lang": "ru"
+  },
+  {
+   "start": 149.5,
+   "end": 151.14,
+   "text": "Almost 10 years",
+   "lang": "en"
+  },
+  {
+   "start": 154.3,
+   "end": 156.6,
+   "text": "Прошлой зимой я ездила в Мексику.",
+   "lang": "ru"
+  },
+  {
+   "start": 160.86,
+   "end": 162.62,
+   "text": "Last winter I went to Mexico.",
+   "lang": "en"
+  },
+  {
+   "start": 165.14,
+   "end": 169.12,
+   "text": "чтобы навестить своего брата.",
+   "lang": "ru"
+  },
+  {
+   "start": 171.68,
+   "end": 172.86,
+   "text": "to visit my brother.",
+   "lang": "en"
+  },
+  {
+   "start": 175.3,
+   "end": 179.38,
+   "text": "Я пыталась выучить испанский.",
+   "lang": "ru"
+  },
+  {
+   "start": 179.38,
+   "end": 184.64,
+   "text": "I tried to learn Spanish.",
+   "lang": "ru"
+  },
+  {
+   "start": 187.86,
+   "end": 188.5,
+   "text": "Learn.",
+   "lang": "ru"
+  },
+  {
+   "start": 190.76,
+   "end": 191.88,
+   "text": "Tried to learn.",
+   "lang": "ru"
+  },
+  {
+   "start": 194.16,
+   "end": 196.02,
+   "text": "I tried to learn Spanish.",
+   "lang": "ru"
+  },
+  {
+   "start": 199.42,
+   "end": 201.24,
+   "text": "Но это было нелегко.",
+   "lang": "ru"
+  },
+  {
+   "start": 203.88,
+   "end": 205.18,
+   "text": "But it wasn't easy.",
+   "lang": "ru"
+  },
+  {
+   "start": 208.14,
+   "end": 208.78,
+   "text": "It wasn't easy.",
+   "lang": "en"
+  },
+  {
+   "start": 208.78,
+   "end": 209.28,
+   "text": "It wasn't easy.",
+   "lang": "en"
+  },
+  {
+   "start": 211.7,
+   "end": 215.34,
+   "text": "Да, испанский язык сложный.",
+   "lang": "ru"
+  },
+  {
+   "start": 219.6,
+   "end": 221.66,
+   "text": "Yes, Spanish is difficult.",
+   "lang": "en"
+  },
+  {
+   "start": 226.14,
+   "end": 227.64,
+   "text": "Spanish is difficult.",
+   "lang": "en"
+  },
+  {
+   "start": 230.04,
+   "end": 233.96,
+   "text": "Он такой же сложный, как и английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 237.42,
+   "end": 239.5,
+   "text": "It's as difficult as English.",
+   "lang": "en"
+  },
+  {
+   "start": 243.22,
+   "end": 245.02,
+   "text": "As difficult as",
+   "lang": "en"
+  },
+  {
+   "start": 248.7,
+   "end": 250.74,
+   "text": "It's as difficult as English.",
+   "lang": "en"
+  },
+  {
+   "start": 254.1,
+   "end": 257.34,
+   "text": "Вы так думаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 259.52,
+   "end": 261.08,
+   "text": "Do you think so?",
+   "lang": "en"
+  },
+  {
+   "start": 263.6,
+   "end": 264.74,
+   "text": "Do you think so?",
+   "lang": "en"
+  },
+  {
+   "start": 267.36,
+   "end": 269.42,
+   "text": "Now ask her if her brother is married.",
+   "lang": "en"
+  },
+  {
+   "start": 272.0,
+   "end": 282.14,
+   "text": "Да, его жена преподает английский язык.",
+   "lang": "ru"
+  },
+  {
+   "start": 285.7,
+   "end": 287.1,
+   "text": "Yes.",
+   "lang": "en"
+  },
+  {
+   "start": 287.34,
+   "end": 288.42,
+   "text": "His wife teaches English.",
+   "lang": "ru"
+  },
+  {
+   "start": 288.42,
+   "end": 288.66,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 292.66,
+   "end": 294.9,
+   "text": "Say that your sister's a teacher, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 298.2,
+   "end": 300.04,
+   "text": "My sister's a teacher, too.",
+   "lang": "ru"
+  },
+  {
+   "start": 303.42,
+   "end": 304.02,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 304.24,
+   "end": 305.9,
+   "text": "Она преподает испанский.",
+   "lang": "ru"
+  },
+  {
+   "start": 308.88,
+   "end": 310.28,
+   "text": "She teaches Spanish.",
+   "lang": "ru"
+  },
+  {
+   "start": 310.28,
+   "end": 310.5,
+   "text": "Spanish.",
+   "lang": "en"
+  },
+  {
+   "start": 313.46,
+   "end": 315.54,
+   "text": "Она замужем за американцем.",
+   "lang": "ru"
+  },
+  {
+   "start": 319.48,
+   "end": 321.0,
+   "text": "She's married to an American.",
+   "lang": "en"
+  },
+  {
+   "start": 323.64,
+   "end": 327.22,
+   "text": "Он администратор в универмаге.",
+   "lang": "ru"
+  },
+  {
+   "start": 330.64,
+   "end": 332.38,
+   "text": "He's a department store manager",
+   "lang": "en"
+  },
+  {
+   "start": 335.48,
+   "end": 338.56,
+   "text": "Где они живут?",
+   "lang": "ru"
+  },
+  {
+   "start": 341.4,
+   "end": 342.42,
+   "text": "Where do they live?",
+   "lang": "en"
+  },
+  {
+   "start": 344.74,
+   "end": 347.2,
+   "text": "В Сан-Франциско.",
+   "lang": "ru"
+  },
+  {
+   "start": 350.1,
+   "end": 351.62,
+   "text": "In San Francisco.",
+   "lang": "en"
+  },
+  {
+   "start": 354.36,
+   "end": 357.42,
+   "text": "Они живут там уже долгое время.",
+   "lang": "ru"
+  },
+  {
+   "start": 361.62,
+   "end": 363.44,
+   "text": "they've lived there for a long time",
+   "lang": "en"
+  },
+  {
+   "start": 367.3,
+   "end": 371.26,
+   "text": "Моя сестра очень хорошо сейчас говорит по-английски.",
+   "lang": "ru"
+  },
+  {
+   "start": 375.62,
+   "end": 378.28,
+   "text": "My sister speaks English very well now.",
+   "lang": "en"
+  },
+  {
+   "start": 382.74,
+   "end": 384.5,
+   "text": "She speaks very well.",
+   "lang": "ru"
+  },
+  {
+   "start": 388.22,
+   "end": 388.62,
+   "text": "She says,",
+   "lang": "ru"
+  },
+  {
+   "start": 389.4,
+   "end": 391.22,
+   "text": "San Francisco is a beautiful city.",
+   "lang": "ru"
+  },
+  {
+   "start": 395.96,
+   "end": 398.16,
+   "text": "San Francisco is a beautiful city.",
+   "lang": "en"
+  },
+  {
+   "start": 402.52,
+   "end": 403.7,
+   "text": "Try to say,",
+   "lang": "ru"
+  },
+  {
+   "start": 403.92,
+   "end": 406.48,
+   "text": "Он почти такой же красивый, как Пуэбло.",
+   "lang": "ru"
+  },
+  {
+   "start": 410.72,
+   "end": 413.2,
+   "text": "It's almost as beautiful as Puebla.",
+   "lang": "en"
+  },
+  {
+   "start": 423.5,
+   "end": 427.58,
+   "text": "У вас очень хороший английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 430.88,
+   "end": 432.46,
+   "text": "Your English is very good.",
+   "lang": "en"
+  },
+  {
+   "start": 435.32,
+   "end": 437.02,
+   "text": "Где вы его учили?",
+   "lang": "ru"
+  },
+  {
+   "start": 440.16,
+   "end": 441.38,
+   "text": "Where did you learn it?",
+   "lang": "en"
+  },
+  {
+   "start": 443.96,
+   "end": 445.74,
+   "text": "Now try to ask",
+   "lang": "ru"
+  },
+  {
+   "start": 445.74,
+   "end": 447.6,
+   "text": "Где вы научились говорить на нем?",
+   "lang": "ru"
+  },
+  {
+   "start": 451.06,
+   "end": 452.82,
+   "text": "Where did you learn to speak it?",
+   "lang": "ru"
+  },
+  {
+   "start": 456.32,
+   "end": 457.36,
+   "text": "To speak it",
+   "lang": "ru"
+  },
+  {
+   "start": 459.54,
+   "end": 460.46,
+   "text": "Learn to speak.",
+   "lang": "en"
+  },
+  {
+   "start": 462.0,
+   "end": 464.38,
+   "text": "Where did you learn to speak it?",
+   "lang": "ru"
+  },
+  {
+   "start": 467.92,
+   "end": 469.46,
+   "text": "Say, в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 472.28,
+   "end": 473.36,
+   "text": "In Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 476.34,
+   "end": 478.68,
+   "text": "Я выучил английский в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 482.58,
+   "end": 484.64,
+   "text": "I learned English in Mexico.",
+   "lang": "ru"
+  },
+  {
+   "start": 488.32,
+   "end": 489.72,
+   "text": "Learned",
+   "lang": "en"
+  },
+  {
+   "start": 491.18,
+   "end": 494.36,
+   "text": "say that you studied it for a long time",
+   "lang": "ru"
+  },
+  {
+   "start": 494.36,
+   "end": 494.46,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 498.42,
+   "end": 501.08,
+   "text": "I studied it for a long time",
+   "lang": "ru"
+  },
+  {
+   "start": 505.3,
+   "end": 508.92,
+   "text": "Ну, ваш английский действительно очень хорош.",
+   "lang": "ru"
+  },
+  {
+   "start": 513.14,
+   "end": 515.78,
+   "text": "Ну, твоё английское очень хорошо.",
+   "lang": "ru"
+  },
+  {
+   "start": 515.78,
+   "end": 516.08,
+   "text": "good",
+   "lang": "en"
+  },
+  {
+   "start": 520.5,
+   "end": 521.3,
+   "text": "Спасибо.",
+   "lang": "ru"
+  },
+  {
+   "start": 523.64,
+   "end": 524.3,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 526.94,
+   "end": 529.52,
+   "text": "Я изучал его долгое время.",
+   "lang": "ru"
+  },
+  {
+   "start": 529.52,
+   "end": 529.62,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 532.92,
+   "end": 535.78,
+   "text": "I studied it for a long time.",
+   "lang": "ru"
+  },
+  {
+   "start": 539.36,
+   "end": 540.94,
+   "text": "For a long time.",
+   "lang": "ru"
+  },
+  {
+   "start": 544.22,
+   "end": 546.42,
+   "text": "Но английский непростой.",
+   "lang": "ru"
+  },
+  {
+   "start": 549.54,
+   "end": 551.24,
+   "text": "But English isn't easy.",
+   "lang": "ru"
+  },
+  {
+   "start": 554.2,
+   "end": 556.12,
+   "text": "But English isn't easy.",
+   "lang": "en"
+  },
+  {
+   "start": 559.38,
+   "end": 561.5,
+   "text": "Английский язык сложный.",
+   "lang": "ru"
+  },
+  {
+   "start": 564.3,
+   "end": 566.22,
+   "text": "Английский язык сложный.",
+   "lang": "ru"
+  },
+  {
+   "start": 569.12,
+   "end": 570.54,
+   "text": "English is difficult.",
+   "lang": "ru"
+  },
+  {
+   "start": 570.54,
+   "end": 570.78,
+   "text": "cult.",
+   "lang": "en"
+  },
+  {
+   "start": 573.64,
+   "end": 577.86,
+   "text": "She says, Испанский такой же сложный, как и английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 582.68,
+   "end": 584.86,
+   "text": "Spanish is as difficult as English.",
+   "lang": "ru"
+  },
+  {
+   "start": 584.86,
+   "end": 585.04,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 589.54,
+   "end": 591.94,
+   "text": "Spanish is as difficult as English.",
+   "lang": "ru"
+  },
+  {
+   "start": 591.94,
+   "end": 592.14,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 596.24,
+   "end": 598.72,
+   "text": "Вы так думаете?",
+   "lang": "ru"
+  },
+  {
+   "start": 601.42,
+   "end": 602.36,
+   "text": "Do you think so?",
+   "lang": "en"
+  },
+  {
+   "start": 604.38,
+   "end": 606.02,
+   "text": "Я думаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 608.46,
+   "end": 609.54,
+   "text": "I think",
+   "lang": "en"
+  },
+  {
+   "start": 611.6,
+   "end": 615.26,
+   "text": "Say that you think Spanish is easier than English.",
+   "lang": "en"
+  },
+  {
+   "start": 619.88,
+   "end": 622.64,
+   "text": "I think Spanish is easier than English.",
+   "lang": "en"
+  },
+  {
+   "start": 627.76,
+   "end": 628.48,
+   "text": "easier",
+   "lang": "en"
+  },
+  {
+   "start": 632.76,
+   "end": 634.16,
+   "text": "Easier",
+   "lang": "en"
+  },
+  {
+   "start": 636.22,
+   "end": 638.66,
+   "text": "Спанский легче, чем английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 638.66,
+   "end": 646.88,
+   "text": "Say again. Я думаю, что испанский легче, чем английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 651.14,
+   "end": 653.78,
+   "text": "I think Spanish is easier than English.",
+   "lang": "en"
+  },
+  {
+   "start": 657.98,
+   "end": 661.76,
+   "text": "У вас есть братья?",
+   "lang": "ru"
+  },
+  {
+   "start": 665.04,
+   "end": 666.56,
+   "text": "Do you have any brothers?",
+   "lang": "en"
+  },
+  {
+   "start": 670.04,
+   "end": 670.8,
+   "text": "Any brothers?",
+   "lang": "en"
+  },
+  {
+   "start": 673.64,
+   "end": 675.54,
+   "text": "Tell her that you have one brother.",
+   "lang": "en"
+  },
+  {
+   "start": 676.76,
+   "end": 680.36,
+   "text": "Я имею одного брата.",
+   "lang": "ru"
+  },
+  {
+   "start": 682.38,
+   "end": 684.42,
+   "text": "Он инженер.",
+   "lang": "ru"
+  },
+  {
+   "start": 686.68,
+   "end": 694.28,
+   "text": "Он работает в одной небольшой компании в Морелье.",
+   "lang": "ru"
+  },
+  {
+   "start": 698.9,
+   "end": 701.74,
+   "text": "He works for a small company in Morelia.",
+   "lang": "en"
+  },
+  {
+   "start": 706.52,
+   "end": 708.02,
+   "text": "A small company",
+   "lang": "en"
+  },
+  {
+   "start": 710.46,
+   "end": 712.98,
+   "text": "Ему нравится его работа.",
+   "lang": "ru"
+  },
+  {
+   "start": 715.44,
+   "end": 716.88,
+   "text": "He likes his job.",
+   "lang": "en"
+  },
+  {
+   "start": 719.32,
+   "end": 721.52,
+   "text": "Но она не очень легкая.",
+   "lang": "ru"
+  },
+  {
+   "start": 724.52,
+   "end": 726.06,
+   "text": "But it's not very easy.",
+   "lang": "en"
+  },
+  {
+   "start": 729.24,
+   "end": 730.82,
+   "text": "It isn't very easy.",
+   "lang": "en"
+  },
+  {
+   "start": 734.06,
+   "end": 737.34,
+   "text": "Now you and a colleague are going to have dinner in a restaurant.",
+   "lang": "en"
+  },
+  {
+   "start": 740.96,
+   "end": 742.2,
+   "text": "The waiter says,",
+   "lang": "en"
+  },
+  {
+   "start": 742.22,
+   "end": 743.46,
+   "text": "Вот меню.",
+   "lang": "ru"
+  },
+  {
+   "start": 746.22,
+   "end": 746.42,
+   "text": "Menu.",
+   "lang": "ru"
+  },
+  {
+   "start": 749.68,
+   "end": 749.92,
+   "text": "Menu.",
+   "lang": "ru"
+  },
+  {
+   "start": 752.84,
+   "end": 753.0,
+   "text": "Menu.",
+   "lang": "ru"
+  },
+  {
+   "start": 755.9,
+   "end": 756.0,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 756.86,
+   "end": 757.44,
+   "text": "Вот меню.",
+   "lang": "ru"
+  },
+  {
+   "start": 760.22,
+   "end": 761.48,
+   "text": "Here's the menu.",
+   "lang": "ru"
+  },
+  {
+   "start": 764.36,
+   "end": 767.08,
+   "text": "Сначала вы просматриваете карту вин.",
+   "lang": "ru"
+  },
+  {
+   "start": 767.3,
+   "end": 770.78,
+   "text": "Спросите у коллеги, вам бы хотелось красного вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 773.06,
+   "end": 774.72,
+   "text": "Would you like red wine?",
+   "lang": "ru"
+  },
+  {
+   "start": 777.26,
+   "end": 779.24,
+   "text": "Или белого вина?",
+   "lang": "ru"
+  },
+  {
+   "start": 781.76,
+   "end": 783.04,
+   "text": "or white wine",
+   "lang": "en"
+  },
+  {
+   "start": 785.54,
+   "end": 786.84,
+   "text": "or white wine",
+   "lang": "en"
+  },
+  {
+   "start": 790.12,
+   "end": 793.08,
+   "text": "Я предпочитаю белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 793.3,
+   "end": 794.42,
+   "text": "Предпочитаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 794.62,
+   "end": 795.18,
+   "text": "Продолжайте.",
+   "lang": "ru"
+  },
+  {
+   "start": 796.72,
+   "end": 796.9,
+   "text": "Prefer.",
+   "lang": "ru"
+  },
+  {
+   "start": 796.9,
+   "end": 797.18,
+   "text": "prefer.",
+   "lang": "en"
+  },
+  {
+   "start": 799.92,
+   "end": 800.42,
+   "text": "Prefer.",
+   "lang": "ru"
+  },
+  {
+   "start": 800.42,
+   "end": 800.62,
+   "text": "fur",
+   "lang": "en"
+  },
+  {
+   "start": 804.04,
+   "end": 804.22,
+   "text": "Prefer.",
+   "lang": "ru"
+  },
+  {
+   "start": 806.56,
+   "end": 807.82,
+   "text": "I prefer.",
+   "lang": "ru"
+  },
+  {
+   "start": 810.28,
+   "end": 811.62,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 811.84,
+   "end": 814.18,
+   "text": "Я предпочитаю белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 816.5,
+   "end": 818.54,
+   "text": "I prefer white wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 821.38,
+   "end": 823.42,
+   "text": "I prefer white wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 826.14,
+   "end": 830.46,
+   "text": "В английском языке есть несколько синонимов глагола предпочитать.",
+   "lang": "ru"
+  },
+  {
+   "start": 831.38,
+   "end": 832.78,
+   "text": "Один из них rather.",
+   "lang": "ru"
+  },
+  {
+   "start": 833.1,
+   "end": 834.62,
+   "text": "I'd rather stay home.",
+   "lang": "ru"
+  },
+  {
+   "start": 836.22,
+   "end": 842.84,
+   "text": "Уравнивая две вещи, чтобы сказать, какая из них вам нравится больше, используйте prefer.",
+   "lang": "ru"
+  },
+  {
+   "start": 843.44,
+   "end": 847.24,
+   "text": "Скажите еще раз, что вы предпочитаете белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 849.92,
+   "end": 851.7,
+   "text": "I prefer white wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 854.86,
+   "end": 856.28,
+   "text": "Ask. А вы?",
+   "lang": "ru"
+  },
+  {
+   "start": 858.42,
+   "end": 859.3,
+   "text": "And you?",
+   "lang": "ru"
+  },
+  {
+   "start": 861.84,
+   "end": 864.5,
+   "text": "Say. Я тоже предпочитаю белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 868.16,
+   "end": 870.3,
+   "text": "I prefer white wine too.",
+   "lang": "ru"
+  },
+  {
+   "start": 873.98,
+   "end": 875.58,
+   "text": "Now you want to say",
+   "lang": "ru"
+  },
+  {
+   "start": 875.58,
+   "end": 877.94,
+   "text": "Закажем бутылку белого вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 878.0,
+   "end": 880.38,
+   "text": "Сначала скажите бутылка.",
+   "lang": "ru"
+  },
+  {
+   "start": 880.42,
+   "end": 881.4,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 882.66,
+   "end": 882.9,
+   "text": "Bottle",
+   "lang": "ru"
+  },
+  {
+   "start": 885.12,
+   "end": 885.92,
+   "text": "Bottle",
+   "lang": "ru"
+  },
+  {
+   "start": 887.64,
+   "end": 888.44,
+   "text": "All",
+   "lang": "ru"
+  },
+  {
+   "start": 890.54,
+   "end": 891.34,
+   "text": "Bottle",
+   "lang": "ru"
+  },
+  {
+   "start": 893.24,
+   "end": 894.04,
+   "text": "Bottle",
+   "lang": "ru"
+  },
+  {
+   "start": 896.56,
+   "end": 899.4,
+   "text": "Одну бутылку белого вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 902.5,
+   "end": 904.44,
+   "text": "A bottle of white wine.",
+   "lang": "en"
+  },
+  {
+   "start": 911.76,
+   "end": 914.28,
+   "text": "Теперь заказать.",
+   "lang": "ru"
+  },
+  {
+   "start": 914.28,
+   "end": 915.66,
+   "text": "Listen and repeat.",
+   "lang": "en"
+  },
+  {
+   "start": 924.04,
+   "end": 924.6,
+   "text": "Order.",
+   "lang": "ru"
+  },
+  {
+   "start": 927.16,
+   "end": 927.54,
+   "text": "To order.",
+   "lang": "ru"
+  },
+  {
+   "start": 929.9,
+   "end": 930.52,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 930.7,
+   "end": 932.06,
+   "text": "Давайте закажем.",
+   "lang": "ru"
+  },
+  {
+   "start": 932.28,
+   "end": 934.0,
+   "text": "Дословно, прикажем.",
+   "lang": "ru"
+  },
+  {
+   "start": 936.44,
+   "end": 937.48,
+   "text": "Let's order.",
+   "lang": "ru"
+  },
+  {
+   "start": 940.14,
+   "end": 941.1,
+   "text": "Let's order.",
+   "lang": "ru"
+  },
+  {
+   "start": 943.74,
+   "end": 945.96,
+   "text": "Одну бутылку белого вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 949.34,
+   "end": 951.16,
+   "text": "A bottle of white wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 955.34,
+   "end": 958.54,
+   "text": "Мы оба предпочитаем белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 962.0,
+   "end": 964.52,
+   "text": "We both prefer white wine.",
+   "lang": "en"
+  },
+  {
+   "start": 974.68,
+   "end": 977.56,
+   "text": "Давайте закажем бутылку белого вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 981.78,
+   "end": 983.78,
+   "text": "Let's order a bottle of white wine.",
+   "lang": "en"
+  },
+  {
+   "start": 987.8,
+   "end": 989.74,
+   "text": "Let's order a bottle of white wine.",
+   "lang": "en"
+  },
+  {
+   "start": 993.7,
+   "end": 995.54,
+   "text": "Now the waiter comes back.",
+   "lang": "en"
+  },
+  {
+   "start": 996.08,
+   "end": 998.22,
+   "text": "Вы готовы сделать заказ?",
+   "lang": "ru"
+  },
+  {
+   "start": 998.52,
+   "end": 1000.86,
+   "text": "Are you ready to order?",
+   "lang": "ru"
+  },
+  {
+   "start": 1003.02,
+   "end": 1005.28,
+   "text": "А теперь слово готовы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1005.3,
+   "end": 1006.52,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1006.52,
+   "end": 1007.62,
+   "text": "Ready.",
+   "lang": "ru"
+  },
+  {
+   "start": 1010.44,
+   "end": 1010.46,
+   "text": "D.",
+   "lang": "ru"
+  },
+  {
+   "start": 1012.82,
+   "end": 1013.54,
+   "text": "Red.",
+   "lang": "ru"
+  },
+  {
+   "start": 1015.68,
+   "end": 1016.4,
+   "text": "Ready.",
+   "lang": "ru"
+  },
+  {
+   "start": 1019.18,
+   "end": 1019.3,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1019.66,
+   "end": 1020.38,
+   "text": "Готовы.",
+   "lang": "ru"
+  },
+  {
+   "start": 1022.56,
+   "end": 1023.28,
+   "text": "Ready.",
+   "lang": "ru"
+  },
+  {
+   "start": 1025.42,
+   "end": 1026.14,
+   "text": "Ready.",
+   "lang": "ru"
+  },
+  {
+   "start": 1026.16,
+   "end": 1026.64,
+   "text": "Ready to order.",
+   "lang": "ru"
+  },
+  {
+   "start": 1029.36,
+   "end": 1030.6,
+   "text": "Try to ask.",
+   "lang": "ru"
+  },
+  {
+   "start": 1030.86,
+   "end": 1032.56,
+   "text": "Вы готовы сделать заказ?",
+   "lang": "ru"
+  },
+  {
+   "start": 1035.66,
+   "end": 1037.36,
+   "text": "Are you ready to order?",
+   "lang": "ru"
+  },
+  {
+   "start": 1040.8,
+   "end": 1042.2,
+   "text": "Are you ready to order?",
+   "lang": "en"
+  },
+  {
+   "start": 1046.04,
+   "end": 1048.28,
+   "text": "Попробуйте кратко ответить, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1051.16,
+   "end": 1052.28,
+   "text": "Yes, we are.",
+   "lang": "ru"
+  },
+  {
+   "start": 1054.96,
+   "end": 1056.28,
+   "text": "Yes we are.",
+   "lang": "en"
+  },
+  {
+   "start": 1058.8,
+   "end": 1060.84,
+   "text": "Мы готовы сделать заказ.",
+   "lang": "ru"
+  },
+  {
+   "start": 1063.82,
+   "end": 1065.14,
+   "text": "We're ready to order.",
+   "lang": "ru"
+  },
+  {
+   "start": 1068.06,
+   "end": 1069.44,
+   "text": "We're ready to order.",
+   "lang": "en"
+  },
+  {
+   "start": 1072.4,
+   "end": 1078.14,
+   "text": "Вы заказываете блюдо, а затем говорите, и нам бы хотелось бутылку белого вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1082.1,
+   "end": 1084.28,
+   "text": "And we'd like a bottle of white wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1088.3,
+   "end": 1090.08,
+   "text": "Now you want to ask the waiter.",
+   "lang": "ru"
+  },
+  {
+   "start": 1090.32,
+   "end": 1091.94,
+   "text": "Что вы порекомендуете?",
+   "lang": "ru"
+  },
+  {
+   "start": 1092.56,
+   "end": 1095.26,
+   "text": "What do you recommend?",
+   "lang": "ru"
+  },
+  {
+   "start": 1098.46,
+   "end": 1099.86,
+   "text": "recommend",
+   "lang": "en"
+  },
+  {
+   "start": 1102.64,
+   "end": 1110.38,
+   "text": "Ask. Что вы порекомендуете?",
+   "lang": "ru"
+  },
+  {
+   "start": 1113.08,
+   "end": 1114.5,
+   "text": "What do you recommend?",
+   "lang": "en"
+  },
+  {
+   "start": 1117.06,
+   "end": 1121.54,
+   "text": "Какое вино вы порекомендуете? Дословно, которое вино?",
+   "lang": "ru"
+  },
+  {
+   "start": 1125.22,
+   "end": 1127.22,
+   "text": "Which wine do you recommend?",
+   "lang": "en"
+  },
+  {
+   "start": 1136.1,
+   "end": 1139.08,
+   "text": "Он показывает на карту вин и говорит",
+   "lang": "ru"
+  },
+  {
+   "start": 1139.08,
+   "end": 1140.92,
+   "text": "Это очень хорошее",
+   "lang": "ru"
+  },
+  {
+   "start": 1140.92,
+   "end": 1142.36,
+   "text": "Listen and repeat",
+   "lang": "ru"
+  },
+  {
+   "start": 1142.36,
+   "end": 1144.34,
+   "text": "This one is very good",
+   "lang": "ru"
+  },
+  {
+   "start": 1144.34,
+   "end": 1144.48,
+   "text": "Good?",
+   "lang": "en"
+  },
+  {
+   "start": 1147.48,
+   "end": 1148.28,
+   "text": "One",
+   "lang": "ru"
+  },
+  {
+   "start": 1150.26,
+   "end": 1151.38,
+   "text": "This one",
+   "lang": "ru"
+  },
+  {
+   "start": 1153.38,
+   "end": 1155.1,
+   "text": "This one is very good.",
+   "lang": "ru"
+  },
+  {
+   "start": 1155.1,
+   "end": 1155.28,
+   "text": "Good.",
+   "lang": "en"
+  },
+  {
+   "start": 1158.12,
+   "end": 1165.98,
+   "text": "Если в английском предложении не называется сам объект, о котором идет речь, часто используется слово one.",
+   "lang": "ru"
+  },
+  {
+   "start": 1166.54,
+   "end": 1167.84,
+   "text": "Скажите еще раз.",
+   "lang": "ru"
+  },
+  {
+   "start": 1168.04,
+   "end": 1169.8,
+   "text": "Это очень хорошее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1173.06,
+   "end": 1174.72,
+   "text": "This one is very good.",
+   "lang": "ru"
+  },
+  {
+   "start": 1174.72,
+   "end": 1174.9,
+   "text": "Good.",
+   "lang": "en"
+  },
+  {
+   "start": 1177.88,
+   "end": 1183.16,
+   "text": "Сейчас вы показываете другой список и говорите, но я предпочитаю это.",
+   "lang": "ru"
+  },
+  {
+   "start": 1183.16,
+   "end": 1183.3,
+   "text": "though.",
+   "lang": "en"
+  },
+  {
+   "start": 1186.46,
+   "end": 1188.28,
+   "text": "Но я предпочитаю этот.",
+   "lang": "ru"
+  },
+  {
+   "start": 1188.9,
+   "end": 1193.22,
+   "text": "Я предпочитаю этот.",
+   "lang": "ru"
+  },
+  {
+   "start": 1193.22,
+   "end": 1193.5,
+   "text": "this one.",
+   "lang": "en"
+  },
+  {
+   "start": 1196.38,
+   "end": 1199.56,
+   "text": "Хорошо, тогда мы готовы сделать заказ.",
+   "lang": "ru"
+  },
+  {
+   "start": 1203.76,
+   "end": 1205.94,
+   "text": "Alright, then we're ready to order.",
+   "lang": "ru"
+  },
+  {
+   "start": 1210.38,
+   "end": 1211.8,
+   "text": "We're ready to order.",
+   "lang": "ru"
+  },
+  {
+   "start": 1214.46,
+   "end": 1216.96,
+   "text": "Нам бы хотелось бутылку этого вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1220.7,
+   "end": 1222.64,
+   "text": "We'd like a bottle of this wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1226.62,
+   "end": 1228.1,
+   "text": "How does the waiter say?",
+   "lang": "ru"
+  },
+  {
+   "start": 1229.56,
+   "end": 1230.56,
+   "text": "Очень хорошее вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 1234.16,
+   "end": 1235.88,
+   "text": "Yes, that's a good wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1239.7,
+   "end": 1240.96,
+   "text": "That's a good wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1244.14,
+   "end": 1245.18,
+   "text": "Try to say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1245.52,
+   "end": 1247.04,
+   "text": "Это хорошее.",
+   "lang": "ru"
+  },
+  {
+   "start": 1250.18,
+   "end": 1251.48,
+   "text": "That one is good.",
+   "lang": "ru"
+  },
+  {
+   "start": 1254.18,
+   "end": 1255.5,
+   "text": "That one is good.",
+   "lang": "ru"
+  },
+  {
+   "start": 1258.24,
+   "end": 1259.36,
+   "text": "Now he says,",
+   "lang": "en"
+  },
+  {
+   "start": 1259.84,
+   "end": 1260.76,
+   "text": "Рекомендую его.",
+   "lang": "ru"
+  },
+  {
+   "start": 1263.3,
+   "end": 1264.98,
+   "text": "I recommend it.",
+   "lang": "en"
+  },
+  {
+   "start": 1267.54,
+   "end": 1269.16,
+   "text": "I recommend it.",
+   "lang": "en"
+  },
+  {
+   "start": 1272.28,
+   "end": 1276.68,
+   "text": "Пока вы ждете свой заказ, вы разговариваете о своих семьях.",
+   "lang": "ru"
+  },
+  {
+   "start": 1276.76,
+   "end": 1279.4,
+   "text": "Скажите, что ваша дочь живет во Флориде.",
+   "lang": "ru"
+  },
+  {
+   "start": 1283.64,
+   "end": 1285.56,
+   "text": "My daughter lives in Florida.",
+   "lang": "en"
+  },
+  {
+   "start": 1288.96,
+   "end": 1292.92,
+   "text": "Она менеджер в First Bank of Miami.",
+   "lang": "ru"
+  },
+  {
+   "start": 1297.88,
+   "end": 1300.42,
+   "text": "She's a manager at First Bank of Miami.",
+   "lang": "en"
+  },
+  {
+   "start": 1305.1,
+   "end": 1307.18,
+   "text": "Ее муж инженер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1310.74,
+   "end": 1312.4,
+   "text": "her husband is an engineer",
+   "lang": "en"
+  },
+  {
+   "start": 1315.9,
+   "end": 1318.34,
+   "text": "Я часто навещаю ее зимой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1322.36,
+   "end": 1324.48,
+   "text": "I often visit them in the winter.",
+   "lang": "ru"
+  },
+  {
+   "start": 1328.68,
+   "end": 1330.32,
+   "text": "I often visit them.",
+   "lang": "ru"
+  },
+  {
+   "start": 1333.2,
+   "end": 1334.98,
+   "text": "Your colleague says...",
+   "lang": "ru"
+  },
+  {
+   "start": 1334.98,
+   "end": 1336.44,
+   "text": "Мой сын тоже инженер.",
+   "lang": "ru"
+  },
+  {
+   "start": 1340.24,
+   "end": 1342.3,
+   "text": "My son is an engineer too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1345.94,
+   "end": 1349.08,
+   "text": "Он работает в одной небольшой фирме в Сиэтле.",
+   "lang": "ru"
+  },
+  {
+   "start": 1354.2,
+   "end": 1356.78,
+   "text": "He works for a small company in Seattle.",
+   "lang": "en"
+  },
+  {
+   "start": 1361.52,
+   "end": 1363.26,
+   "text": "Ему нравится Сиэтл.",
+   "lang": "ru"
+  },
+  {
+   "start": 1365.74,
+   "end": 1367.18,
+   "text": "He likes Seattle.",
+   "lang": "en"
+  },
+  {
+   "start": 1369.24,
+   "end": 1371.88,
+   "text": "Но там часто идут дожди.",
+   "lang": "ru"
+  },
+  {
+   "start": 1371.88,
+   "end": 1381.02,
+   "text": "you. But it rains a lot there. Now she's",
+   "lang": "en"
+  },
+  {
+   "start": 1381.12,
+   "end": 1383.26,
+   "text": "Ваш английский очень хорош.",
+   "lang": "ru"
+  },
+  {
+   "start": 1386.34,
+   "end": 1387.98,
+   "text": "Your English is very good.",
+   "lang": "en"
+  },
+  {
+   "start": 1390.74,
+   "end": 1392.84,
+   "text": "Где вы научились говорить на нем?",
+   "lang": "ru"
+  },
+  {
+   "start": 1395.86,
+   "end": 1397.48,
+   "text": "Where did you learn to speak it?",
+   "lang": "ru"
+  },
+  {
+   "start": 1400.94,
+   "end": 1402.56,
+   "text": "Where did you learn to speak it?",
+   "lang": "en"
+  },
+  {
+   "start": 1406.04,
+   "end": 1406.48,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 1406.7,
+   "end": 1408.76,
+   "text": "Я выучил английский в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 1411.84,
+   "end": 1414.2,
+   "text": "Я изучал английский в Мексике.",
+   "lang": "ru"
+  },
+  {
+   "start": 1414.2,
+   "end": 1414.32,
+   "text": "Go.",
+   "lang": "en"
+  },
+  {
+   "start": 1417.5,
+   "end": 1419.84,
+   "text": "Я изучал его долгое время.",
+   "lang": "ru"
+  },
+  {
+   "start": 1419.84,
+   "end": 1419.94,
+   "text": "Amen.",
+   "lang": "en"
+  },
+  {
+   "start": 1423.14,
+   "end": 1425.52,
+   "text": "I studied it for a long time.",
+   "lang": "ru"
+  },
+  {
+   "start": 1429.54,
+   "end": 1431.5,
+   "text": "Английский язык сложный.",
+   "lang": "ru"
+  },
+  {
+   "start": 1434.48,
+   "end": 1435.9,
+   "text": "English is difficult.",
+   "lang": "ru"
+  },
+  {
+   "start": 1435.9,
+   "end": 1436.12,
+   "text": "cult.",
+   "lang": "en"
+  },
+  {
+   "start": 1439.1,
+   "end": 1442.48,
+   "text": "She says, испанский язык тоже сложный.",
+   "lang": "ru"
+  },
+  {
+   "start": 1446.4,
+   "end": 1448.26,
+   "text": "Spanish is difficult too.",
+   "lang": "ru"
+  },
+  {
+   "start": 1452.0,
+   "end": 1455.8,
+   "text": "Я думаю, что испанский такой же сложный, как английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 1460.18,
+   "end": 1463.04,
+   "text": "I think Spanish is as difficult as English.",
+   "lang": "ru"
+  },
+  {
+   "start": 1467.6,
+   "end": 1470.44,
+   "text": "I think Spanish is as difficult as English.",
+   "lang": "ru"
+  },
+  {
+   "start": 1470.44,
+   "end": 1470.6,
+   "text": "English.",
+   "lang": "en"
+  },
+  {
+   "start": 1475.24,
+   "end": 1475.92,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1476.16,
+   "end": 1477.66,
+   "text": "Неужели? Я думаю.",
+   "lang": "ru"
+  },
+  {
+   "start": 1477.66,
+   "end": 1477.82,
+   "text": "will.",
+   "lang": "en"
+  },
+  {
+   "start": 1481.72,
+   "end": 1483.34,
+   "text": "Really? I think.",
+   "lang": "ru"
+  },
+  {
+   "start": 1486.92,
+   "end": 1489.92,
+   "text": "Я думаю, что испанский легче, чем английский.",
+   "lang": "ru"
+  },
+  {
+   "start": 1494.0,
+   "end": 1496.62,
+   "text": "I think Spanish is easier than English.",
+   "lang": "ru"
+  },
+  {
+   "start": 1501.3,
+   "end": 1503.88,
+   "text": "I think Spanish is easier than English.",
+   "lang": "en"
+  },
+  {
+   "start": 1508.1,
+   "end": 1512.38,
+   "text": "Другой день. Вы ужинаете с одной знакомой.",
+   "lang": "ru"
+  },
+  {
+   "start": 1513.52,
+   "end": 1516.9,
+   "text": "Как официантка спросит, готовы ли вы сделать заказ.",
+   "lang": "ru"
+  },
+  {
+   "start": 1520.74,
+   "end": 1522.28,
+   "text": "Are you ready to order?",
+   "lang": "ru"
+  },
+  {
+   "start": 1525.6,
+   "end": 1526.96,
+   "text": "Are you ready to order?",
+   "lang": "en"
+  },
+  {
+   "start": 1530.5,
+   "end": 1532.66,
+   "text": "Спросите, что она порекомендует.",
+   "lang": "ru"
+  },
+  {
+   "start": 1535.82,
+   "end": 1537.14,
+   "text": "What do you recommend?",
+   "lang": "ru"
+  },
+  {
+   "start": 1537.14,
+   "end": 1537.4,
+   "text": "End",
+   "lang": "en"
+  },
+  {
+   "start": 1540.18,
+   "end": 1543.2,
+   "text": "Она говорит вам, что бифштекс очень хорош.",
+   "lang": "ru"
+  },
+  {
+   "start": 1543.78,
+   "end": 1544.42,
+   "text": "Бифштекс.",
+   "lang": "ru"
+  },
+  {
+   "start": 1544.86,
+   "end": 1546.1,
+   "text": "Listen and repeat.",
+   "lang": "ru"
+  },
+  {
+   "start": 1546.9,
+   "end": 1547.26,
+   "text": "Steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1549.36,
+   "end": 1550.06,
+   "text": "Steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1552.12,
+   "end": 1552.82,
+   "text": "Steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1554.82,
+   "end": 1556.98,
+   "text": "Скажите, что бифштекс очень хорош.",
+   "lang": "ru"
+  },
+  {
+   "start": 1561.08,
+   "end": 1562.88,
+   "text": "The steak is very good.",
+   "lang": "ru"
+  },
+  {
+   "start": 1566.0,
+   "end": 1566.7,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1566.96,
+   "end": 1569.34,
+   "text": "Хорошо, нам бы хотелось бифштекс.",
+   "lang": "ru"
+  },
+  {
+   "start": 1573.34,
+   "end": 1575.32,
+   "text": "Okay, we'd like the steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1579.54,
+   "end": 1580.48,
+   "text": "We'd like.",
+   "lang": "ru"
+  },
+  {
+   "start": 1582.72,
+   "end": 1584.94,
+   "text": "Say that you'd both like the steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1584.94,
+   "end": 1585.14,
+   "text": "Take.",
+   "lang": "en"
+  },
+  {
+   "start": 1588.58,
+   "end": 1590.36,
+   "text": "We'd both like the steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1593.94,
+   "end": 1595.32,
+   "text": "We'd both like.",
+   "lang": "ru"
+  },
+  {
+   "start": 1598.16,
+   "end": 1599.86,
+   "text": "We'd both like the steak.",
+   "lang": "ru"
+  },
+  {
+   "start": 1599.86,
+   "end": 1600.18,
+   "text": "Thank you.",
+   "lang": "en"
+  },
+  {
+   "start": 1603.08,
+   "end": 1606.36,
+   "text": "Нам бы также хотелось бутылку красного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1610.14,
+   "end": 1612.2,
+   "text": "We'd like a bottle of red wine too",
+   "lang": "en"
+  },
+  {
+   "start": 1616.88,
+   "end": 1619.44,
+   "text": "Я предпочитаю белое вино.",
+   "lang": "ru"
+  },
+  {
+   "start": 1621.8,
+   "end": 1623.54,
+   "text": "I prefer white wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1625.4,
+   "end": 1628.04,
+   "text": "Но с бифштексом.",
+   "lang": "ru"
+  },
+  {
+   "start": 1630.66,
+   "end": 1631.64,
+   "text": "But with steak?",
+   "lang": "en"
+  },
+  {
+   "start": 1634.24,
+   "end": 1635.72,
+   "text": "Красное вино лучше.",
+   "lang": "ru"
+  },
+  {
+   "start": 1639.28,
+   "end": 1640.9,
+   "text": "Red wine is better.",
+   "lang": "ru"
+  },
+  {
+   "start": 1643.98,
+   "end": 1646.42,
+   "text": "With steak, red wine is better.",
+   "lang": "ru"
+  },
+  {
+   "start": 1650.34,
+   "end": 1652.9,
+   "text": "It's another evening in another restaurant.",
+   "lang": "ru"
+  },
+  {
+   "start": 1653.26,
+   "end": 1656.98,
+   "text": "Как официантка скажет, вот наше меню.",
+   "lang": "ru"
+  },
+  {
+   "start": 1659.72,
+   "end": 1660.96,
+   "text": "Here's our menu.",
+   "lang": "ru"
+  },
+  {
+   "start": 1664.1,
+   "end": 1664.76,
+   "text": "И карта вин.",
+   "lang": "ru"
+  },
+  {
+   "start": 1667.76,
+   "end": 1669.18,
+   "text": "and the wine list.",
+   "lang": "en"
+  },
+  {
+   "start": 1672.7,
+   "end": 1677.32,
+   "text": "Как она спросит, готовы ли вы сделать заказ?",
+   "lang": "ru"
+  },
+  {
+   "start": 1680.64,
+   "end": 1681.78,
+   "text": "Are you ready to order?",
+   "lang": "en"
+  },
+  {
+   "start": 1684.9,
+   "end": 1686.28,
+   "text": "Ответьте кратко, что да.",
+   "lang": "ru"
+  },
+  {
+   "start": 1688.5,
+   "end": 1690.6,
+   "text": "Yes we are",
+   "lang": "en"
+  },
+  {
+   "start": 1690.6,
+   "end": 1694.62,
+   "text": "Yes we are",
+   "lang": "en"
+  },
+  {
+   "start": 1697.66,
+   "end": 1701.6,
+   "text": "Сначала нам бы хотелось бутылочку красного вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1706.0,
+   "end": 1708.22,
+   "text": "First we'd like a bottle of red wine.",
+   "lang": "en"
+  },
+  {
+   "start": 1712.62,
+   "end": 1714.58,
+   "text": "Ask her which one she recommends.",
+   "lang": "en"
+  },
+  {
+   "start": 1717.68,
+   "end": 1720.26,
+   "text": "Which one do you recommend?",
+   "lang": "ru"
+  },
+  {
+   "start": 1720.26,
+   "end": 1720.54,
+   "text": "End",
+   "lang": "en"
+  },
+  {
+   "start": 1724.02,
+   "end": 1724.4,
+   "text": "Which one?",
+   "lang": "ru"
+  },
+  {
+   "start": 1729.58,
+   "end": 1731.22,
+   "text": "This one is very good.",
+   "lang": "ru"
+  },
+  {
+   "start": 1734.28,
+   "end": 1735.84,
+   "text": "This one is very good.",
+   "lang": "en"
+  },
+  {
+   "start": 1736.28,
+   "end": 1736.8,
+   "text": "Say.",
+   "lang": "ru"
+  },
+  {
+   "start": 1738.36,
+   "end": 1739.76,
+   "text": "Say",
+   "lang": "en"
+  },
+  {
+   "start": 1740.28,
+   "end": 1743.36,
+   "text": "Хорошо, тогда нам бы хотелось бутылку этого вина.",
+   "lang": "ru"
+  },
+  {
+   "start": 1748.62,
+   "end": 1751.2,
+   "text": "Okay, then we'd like a bottle of this wine.",
+   "lang": "ru"
+  },
+  {
+   "start": 1755.54,
+   "end": 1758.8,
+   "text": "И нам обоим хотелось бы бифштекс.",
+   "lang": "ru"
+  },
+  {
+   "start": 1761.94,
+   "end": 1763.68,
+   "text": "And we'd both like the steak.",
+   "lang": "en"
+  },
+  {
+   "start": 1766.4,
+   "end": 1769.38,
+   "text": "Это конец шестого урока.",
+   "lang": "ru"
+  }
+ ]
+}
